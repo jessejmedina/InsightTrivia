@@ -12,15 +12,17 @@ import { supabase } from '../../lib/supabase';
 import { useAuthStore } from '../../store/authStore';
 import { useGameStore } from '../../store/gameStore';
 import { Colors } from '../../constants/colors';
-import { AVATARS, calcBuzzPoints, OPPONENT_MISS_POINTS } from '../../lib/gameLogic';
+import { AVATARS, calcBuzzPoints, OPPONENT_MISS_POINTS, checkOrderingCorrectness, calcPartialCreditPoints } from '../../lib/gameLogic';
+import { getInteractionMode } from '../../lib/questionTypes';
 import type { PlayerRow, Question } from '../../lib/gameTypes';
 import { gameStyles } from '../../components/game/gameStyles';
 import { WaitingPhase } from '../../components/game/WaitingPhase';
 import { QuestionPhase } from '../../components/game/QuestionPhase';
+import { OrderingPhase } from '../../components/game/OrderingPhase';
 import { RevealPhase } from '../../components/game/RevealPhase';
 import { ResultsPhase } from '../../components/game/ResultsPhase';
 
-type Phase = 'waiting' | 'question' | 'buzzed' | 'reveal' | 'results';
+type Phase = 'waiting' | 'question' | 'buzzed' | 'arranging' | 'reveal' | 'results';
 
 export default function GameScreen() {
   const { roomId } = useLocalSearchParams<{ roomId: string }>();
@@ -38,6 +40,7 @@ export default function GameScreen() {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [questionIds, setQuestionIds] = useState<string[]>([]);
+  const [sequenceSubmissions, setSequenceSubmissions] = useState<Record<string, { data: any; secondsLeft: number }>>({});
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const timeLeftRef = useRef(30);
@@ -47,6 +50,7 @@ export default function GameScreen() {
   const myPlayer = players.find((p) => p.user_id === profile?.id);
   const buzzedPlayer = players.find((p) => p.user_id === buzzedUserId);
   const isBuzzedIn = buzzedUserId === profile?.id;
+  const mySequenceSubmitted = !!(profile && sequenceSubmissions[profile.id]);
 
   // ── Load room ────────────────────────────────────────────────
   useEffect(() => {
@@ -68,8 +72,8 @@ export default function GameScreen() {
     setQuestionIndex(roomData.current_question_index ?? 0);
 
     if (roomData.status === 'active') {
-      await loadQuestion(roomData.question_ids[roomData.current_question_index]);
       setPhase('question');
+      await loadQuestion(roomData.question_ids[roomData.current_question_index]);
     } else if (roomData.status === 'finished') {
       setPhase('results');
     }
@@ -92,7 +96,12 @@ export default function GameScreen() {
       .select('*')
       .eq('id', qid)
       .single();
-    if (data) setQuestion(data as Question);
+    if (data) {
+      setQuestion(data as Question);
+      if (getInteractionMode((data as Question).type) === 'simultaneous') {
+        setPhase('arranging');
+      }
+    }
   }
 
   // ── Realtime subscriptions ───────────────────────────────────
@@ -148,7 +157,15 @@ export default function GameScreen() {
         const startQid = event.payload.question_id;
         loadQuestion(startQid);
         setQuestionIndex(event.payload.question_index ?? 0);
+        setSequenceSubmissions({});
         startTimer();
+        break;
+
+      case 'sequence_submit':
+        setSequenceSubmissions((prev) => ({
+          ...prev,
+          [event.player_id]: { data: event.payload.submission, secondsLeft: event.payload.seconds_left },
+        }));
         break;
 
       case 'buzz_in':
@@ -178,6 +195,7 @@ export default function GameScreen() {
         setBuzzedUserId(null);
         setAnswerInput('');
         setAnswerResult(null);
+        setSequenceSubmissions({});
         setTimeLeft(30);
         setPhase('question');
         startTimer();
@@ -214,6 +232,10 @@ export default function GameScreen() {
   useEffect(() => () => stopTimer(), []);
 
   async function handleTimeUp() {
+    if (phase === 'arranging') {
+      await advanceGame(Object.keys(sequenceSubmissions).length > 0);
+      return;
+    }
     // No one buzzed — advance to next question or end game
     await advanceGame(false);
   }
@@ -275,6 +297,38 @@ export default function GameScreen() {
       setTimeout(() => advanceGame(correct), 3000);
     }
   }
+
+  async function handleSubmitSequence(submittedOrder: string[]) {
+    if (!question || !profile || !question.payload || !('items' in question.payload)) return;
+    const secondsLeft = timeLeftRef.current;
+    const correctCount = checkOrderingCorrectness(submittedOrder, question.payload.items);
+    const points = calcPartialCreditPoints(correctCount, question.payload.items.length, secondsLeft);
+
+    if (myPlayer) {
+      await supabase
+        .from('game_players')
+        .update({ score: myPlayer.score + points })
+        .eq('room_id', roomId)
+        .eq('user_id', profile.id);
+    }
+
+    await supabase.from('game_events').insert({
+      room_id: roomId,
+      event_type: 'sequence_submit',
+      player_id: profile.id,
+      payload: { submission: submittedOrder, seconds_left: secondsLeft },
+    });
+  }
+
+  // Once every player has submitted a simultaneous-type answer, the host advances the game.
+  useEffect(() => {
+    if (phase !== 'arranging' || !isHost) return;
+    if (Object.keys(sequenceSubmissions).length >= players.length && players.length > 0) {
+      stopTimer();
+      setAnswerResult('correct'); // simultaneous types don't have a binary right/wrong reveal banner sense; treat as "correct" so RevealPhase shows the neutral/green state
+      setTimeout(() => advanceGame(true), 1500);
+    }
+  }, [sequenceSubmissions, phase, isHost, players.length]);
 
   async function handleOpponentAnswer() {
     // After buzzed player got it wrong, opponent answers (host-only flow for simplicity)
@@ -379,6 +433,15 @@ export default function GameScreen() {
           buzzScale={buzzScale}
           questionIndex={questionIndex}
           totalQuestions={questionIds.length}
+        />
+      )}
+
+      {phase === 'arranging' && question?.payload && 'items' in question.payload && (
+        <OrderingPhase
+          items={question.payload.items}
+          timeLeft={timeLeft}
+          hasSubmitted={mySequenceSubmitted}
+          onSubmit={handleSubmitSequence}
         />
       )}
 

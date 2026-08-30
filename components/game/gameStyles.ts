@@ -128,4 +128,19 @@ export const gameStyles = StyleSheet.create({
   },
   optionBtnSelected: { borderColor: Colors.accent },
   optionBtnText: { color: Colors.textPrimary, fontSize: 16, fontWeight: '600', textAlign: 'center' },
+  // Ordering
+  orderList: { width: '100%', gap: 8 },
+  orderRow: {
+    flexDirection: 'row', alignItems: 'center', gap: 10,
+    backgroundColor: Colors.surface, borderRadius: 14, padding: 12, ...CardShadow,
+  },
+  orderIndex: { width: 24, textAlign: 'center', fontWeight: '800', color: Colors.accent },
+  orderItemText: { flex: 1, color: Colors.textPrimary, fontSize: 15 },
+  orderArrows: { flexDirection: 'row', gap: 4 },
+  orderArrowBtn: {
+    width: 32, height: 32, borderRadius: 8, backgroundColor: Colors.card,
+    alignItems: 'center', justifyContent: 'center',
+  },
+  orderArrowText: { color: Colors.textSecondary, fontSize: 16, fontWeight: '700' },
+  submittedBanner: { color: Colors.success, fontWeight: '700', fontSize: 16, textAlign: 'center', marginTop: 8 },
 });
