@@ -83,9 +83,9 @@ export function QuestionPhase({
           {isBuzzedIn ? (
             isMultipleChoice ? (
               <View style={styles.optionsGrid}>
-                {question.options!.map((option) => (
+                {question.options!.map((option, i) => (
                   <TouchableOpacity
-                    key={option}
+                    key={i}
                     style={[styles.optionBtn, selectedOption === option && styles.optionBtnSelected]}
                     onPress={() => handlePickOption(option)}
                     disabled={selectedOption !== null}
