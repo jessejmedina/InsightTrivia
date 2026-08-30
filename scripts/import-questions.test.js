@@ -15,7 +15,9 @@ test('validate: multiple_choice requires options to include the answer', () => {
 
   const good = validate({ question: 'Q?', answer: 'A', type: 'multiple_choice', options: ['A', 'B', 'C', 'D'] }, 0);
   assert.equal(good.ok, true);
-  assert.deepEqual(good.row.options, ['A', 'B', 'C', 'D']);
+  // Options are shuffled before storage (so the correct answer isn't biased toward
+  // early positions), so compare as a set rather than asserting a fixed order.
+  assert.deepEqual([...good.row.options].sort(), ['A', 'B', 'C', 'D']);
 });
 
 test('validate: multiple_choice requires exactly 4 options', () => {
@@ -52,4 +54,23 @@ test('validate: unknown type is rejected', () => {
   const result = validate({ question: 'Q?', answer: 'A', type: 'not_a_real_type' }, 0);
   assert.equal(result.ok, false);
   assert.match(result.errors.join(' '), /unknown type/);
+});
+
+test('validate: preserves a hint when present and defaults to null when absent', () => {
+  const withHint = validate({ question: 'Q?', answer: 'A', hint: '  It rhymes with cat  ' }, 0);
+  assert.equal(withHint.ok, true);
+  assert.equal(withHint.row.hint, 'It rhymes with cat');
+
+  const withoutHint = validate({ question: 'Q?', answer: 'A' }, 0);
+  assert.equal(withoutHint.ok, true);
+  assert.equal(withoutHint.row.hint, null);
+
+  const orderingWithHint = validate({
+    question: 'Order these',
+    type: 'ordering',
+    payload: { items: ['A', 'B', 'C'] },
+    hint: 'Think chronologically',
+  }, 0);
+  assert.equal(orderingWithHint.ok, true);
+  assert.equal(orderingWithHint.row.hint, 'Think chronologically');
 });

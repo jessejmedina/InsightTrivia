@@ -31,6 +31,15 @@ const SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const DIFFICULTIES = ['easy', 'medium', 'hard'];
 const QUESTION_TYPES = ['free_text', 'multiple_choice', 'fill_blank', 'ordering', 'matching'];
 
+function shuffleOptions(arr) {
+  const result = arr.slice();
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
 function validate(raw, index) {
   const errors = [];
   const type = typeof raw.type === 'string' && raw.type.trim() ? raw.type.trim() : 'free_text';
@@ -46,23 +55,32 @@ function validate(raw, index) {
   if (!DIFFICULTIES.includes(difficulty)) difficulty = 'medium';
   const category = typeof raw.category === 'string' && raw.category.trim() ? raw.category.trim() : 'General';
   const reference = typeof raw.reference === 'string' && raw.reference.trim() ? raw.reference.trim() : null;
+  const hint = typeof raw.hint === 'string' && raw.hint.trim() ? raw.hint.trim() : null;
 
   if (type === 'ordering' || type === 'matching') {
     const payload = raw.payload;
+    let cleanPayload = null;
     if (type === 'ordering') {
       const items = payload && Array.isArray(payload.items) ? payload.items : null;
       if (!items || items.length < 3) errors.push('ordering questions need a payload.items array with at least 3 items');
+      else if (items.some((item) => typeof item !== 'string')) {
+        errors.push('every ordering item must be a string');
+      } else {
+        cleanPayload = { items: payload.items };
+      }
     } else {
       const pairs = payload && Array.isArray(payload.pairs) ? payload.pairs : null;
       if (!pairs || pairs.length < 3) errors.push('matching questions need a payload.pairs array with at least 3 pairs');
       else if (pairs.some((p) => !p || typeof p.left !== 'string' || typeof p.right !== 'string')) {
         errors.push('every matching pair needs a string "left" and "right"');
+      } else {
+        cleanPayload = { pairs: payload.pairs };
       }
     }
     if (errors.length) return { ok: false, index, errors };
     return {
       ok: true,
-      row: { question, answer: null, options: null, payload, category, difficulty, reference, type, active: true },
+      row: { question, answer: null, options: null, payload: cleanPayload, category, difficulty, reference, hint, type, active: true },
     };
   }
 
@@ -81,9 +99,10 @@ function validate(raw, index) {
   }
 
   if (errors.length) return { ok: false, index, errors };
+  if (options) options = shuffleOptions(options);
   return {
     ok: true,
-    row: { question, answer, options, payload: null, category, difficulty, reference, type, active: true },
+    row: { question, answer, options, payload: null, category, difficulty, reference, hint, type, active: true },
   };
 }
 
