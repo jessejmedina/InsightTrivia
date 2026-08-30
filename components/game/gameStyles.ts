@@ -120,4 +120,12 @@ export const gameStyles = StyleSheet.create({
     borderRadius: 20, marginTop: 8, width: '100%', alignItems: 'center', ...CardShadow,
   },
   leaveBtnText: { color: Colors.textPrimary, fontWeight: '700', fontSize: 16 },
+  // Multiple choice
+  optionsGrid: { width: '100%', gap: 10 },
+  optionBtn: {
+    backgroundColor: Colors.surface, borderRadius: 16, padding: 16,
+    borderWidth: 2, borderColor: Colors.border, ...CardShadow,
+  },
+  optionBtnSelected: { borderColor: Colors.accent },
+  optionBtnText: { color: Colors.textPrimary, fontSize: 16, fontWeight: '600', textAlign: 'center' },
 });

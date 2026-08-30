@@ -5,17 +5,18 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import {
   View, Text, TouchableOpacity, Alert,
-  ActivityIndicator, TextInput, Animated, ScrollView,
+  ActivityIndicator, Animated,
 } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { supabase } from '../../lib/supabase';
 import { useAuthStore } from '../../store/authStore';
 import { useGameStore } from '../../store/gameStore';
-import { Colors, getCategoryColor } from '../../constants/colors';
+import { Colors } from '../../constants/colors';
 import { AVATARS, calcBuzzPoints, OPPONENT_MISS_POINTS } from '../../lib/gameLogic';
 import type { PlayerRow, Question } from '../../lib/gameTypes';
 import { gameStyles } from '../../components/game/gameStyles';
 import { WaitingPhase } from '../../components/game/WaitingPhase';
+import { QuestionPhase } from '../../components/game/QuestionPhase';
 import { RevealPhase } from '../../components/game/RevealPhase';
 import { ResultsPhase } from '../../components/game/ResultsPhase';
 
@@ -245,10 +246,10 @@ export default function GameScreen() {
     });
   }
 
-  async function handleSubmitAnswer() {
-    if (!question || !profile || question.answer === null) return;
-    const raw = answerInput.trim().toLowerCase();
-    const correctRaw = question.answer.trim().toLowerCase();
+  async function handleSubmitAnswer(chosenAnswer?: string) {
+    if (!question || !profile) return;
+    const raw = (chosenAnswer ?? answerInput).trim().toLowerCase();
+    const correctRaw = question.answer!.trim().toLowerCase();
     const correct = raw === correctRaw || correctRaw.includes(raw) || raw.includes(correctRaw);
 
     const points = correct ? calcBuzzPoints(timeLeft) : 0;
@@ -400,89 +401,5 @@ export default function GameScreen() {
         />
       )}
     </View>
-  );
-}
-
-// ── Sub-components ────────────────────────────────────────────
-
-function QuestionPhase({ question, timeLeft, phase, buzzedPlayer, isBuzzedIn, isHost, answerInput, setAnswerInput, onBuzzIn, onSubmitAnswer, buzzScale, questionIndex, totalQuestions }: any) {
-  const timerColor = timeLeft > 15 ? Colors.success : timeLeft > 7 ? Colors.accent : Colors.danger;
-  const diffColor: any = { easy: Colors.success, medium: Colors.accent, hard: Colors.danger };
-
-  return (
-    <ScrollView contentContainerStyle={gameStyles.phaseContainer} keyboardShouldPersistTaps="handled">
-      {/* Timer */}
-      <View style={[gameStyles.timerRing, { borderColor: timerColor }]}>
-        <Text style={[gameStyles.timerNumber, { color: timerColor }]}>{timeLeft}</Text>
-        <Text style={gameStyles.timerLabel}>sec</Text>
-      </View>
-
-      {/* Category / difficulty */}
-      <View style={gameStyles.qMeta}>
-        <View style={[gameStyles.qCategoryPill, { backgroundColor: getCategoryColor(question.category) }]}>
-          <Text style={gameStyles.qCategory}>{question.category}</Text>
-        </View>
-        <Text style={[gameStyles.qDifficulty, { color: diffColor[question.difficulty] }]}>
-          {question.difficulty}
-        </Text>
-      </View>
-
-      {/* Hint */}
-      {question.hint && phase === 'question' && (
-        <View style={gameStyles.hintBox}>
-          <Text style={gameStyles.hintLabel}>Hint</Text>
-          <Text style={gameStyles.hintText}>{question.hint}</Text>
-        </View>
-      )}
-
-      {/* Question */}
-      <View style={gameStyles.questionBox}>
-        <Text style={gameStyles.questionText}>{question.question}</Text>
-        {question.reference && (
-          <Text style={gameStyles.qRef}>{question.reference}</Text>
-        )}
-      </View>
-
-      {/* Buzz state */}
-      {phase === 'question' && (
-        <Animated.View style={{ transform: [{ scale: buzzScale }] }}>
-          <TouchableOpacity style={gameStyles.buzzBtn} onPress={onBuzzIn}>
-            <Text style={gameStyles.buzzBtnText}>I Know It!</Text>
-            <Text style={gameStyles.buzzBtnSub}>Buzz in to stop the clock</Text>
-          </TouchableOpacity>
-        </Animated.View>
-      )}
-
-      {phase === 'buzzed' && (
-        <View style={gameStyles.buzzedContainer}>
-          <Text style={gameStyles.buzzedLabel}>
-            {buzzedPlayer?.profiles?.username ?? 'Player'} buzzed in!
-          </Text>
-          {isBuzzedIn ? (
-            <View style={gameStyles.answerContainer}>
-              <Text style={gameStyles.answerPrompt}>Type your answer:</Text>
-              <TextInput
-                style={gameStyles.answerInput}
-                placeholder="Your answer..."
-                placeholderTextColor={Colors.textMuted}
-                value={answerInput}
-                onChangeText={setAnswerInput}
-                autoFocus
-                returnKeyType="done"
-                onSubmitEditing={onSubmitAnswer}
-              />
-              <TouchableOpacity style={gameStyles.submitBtn} onPress={onSubmitAnswer}>
-                <Text style={gameStyles.submitBtnText}>Submit Answer</Text>
-              </TouchableOpacity>
-            </View>
-          ) : (
-            <View style={gameStyles.waitBuzzed}>
-              <ActivityIndicator color={Colors.accent} />
-              <Text style={gameStyles.waitBuzzedText}>Waiting for their answer...</Text>
-            </View>
-          )}
-        </View>
-      )}
-    </ScrollView>
   );
 }
