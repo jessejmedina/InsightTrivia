@@ -191,6 +191,7 @@ export default function GameScreen() {
       case 'next_question':
         const nextIdx = event.payload.question_index;
         setQuestionIndex(nextIdx);
+        setQuestion(null);
         loadQuestion(event.payload.question_id);
         setBuzzedUserId(null);
         setAnswerInput('');
@@ -325,10 +326,30 @@ export default function GameScreen() {
     if (phase !== 'arranging' || !isHost) return;
     if (Object.keys(sequenceSubmissions).length >= players.length && players.length > 0) {
       stopTimer();
-      setAnswerResult('correct'); // simultaneous types don't have a binary right/wrong reveal banner sense; treat as "correct" so RevealPhase shows the neutral/green state
       setTimeout(() => advanceGame(true), 1500);
     }
   }, [sequenceSubmissions, phase, isHost, players.length]);
+
+  // Arranging-phase timeout: the setInterval in startTimer() calls handleTimeUp() via a
+  // closure chain rooted in the realtime-subscription useEffect above, which freezes
+  // isHost/phase/sequenceSubmissions at their values from that one-time subscription
+  // render (typically before `room` even loads). That means handleTimeUp's `if (isHost)`
+  // check never actually fires with current state, so an arranging question with a
+  // non-submitting player would otherwise hang forever (no buzz-in escape hatch like the
+  // race-type phases have). This effect re-runs with fresh state on every render, so it
+  // reliably detects timeLeft hitting 0 while arranging and drives the advance directly.
+  const arrangingTimeoutFiredRef = useRef(false);
+
+  useEffect(() => {
+    if (phase !== 'arranging') {
+      arrangingTimeoutFiredRef.current = false; // reset for the next arranging question
+      return;
+    }
+    if (timeLeft > 0 || !isHost || arrangingTimeoutFiredRef.current) return;
+    arrangingTimeoutFiredRef.current = true;
+    stopTimer();
+    advanceGame(Object.keys(sequenceSubmissions).length > 0);
+  }, [timeLeft, phase, isHost, sequenceSubmissions]);
 
   async function handleOpponentAnswer() {
     // After buzzed player got it wrong, opponent answers (host-only flow for simplicity)
