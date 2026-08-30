@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, TextInput, Animated, ActivityIndicator } from 'react-native';
 import { Colors } from '../../constants/colors';
 import { getCategoryColor } from '../../constants/colors';
@@ -26,11 +26,14 @@ export function QuestionPhase({
   onBuzzIn, onSubmitAnswer, buzzScale,
 }: QuestionPhaseProps) {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const hasSubmittedRef = useRef(false);
   const timerColor = timeLeft > 15 ? Colors.success : timeLeft > 7 ? Colors.accent : Colors.danger;
   const diffColor: any = { easy: Colors.success, medium: Colors.accent, hard: Colors.danger };
   const isMultipleChoice = question.type === 'multiple_choice' && Array.isArray(question.options);
 
   function handlePickOption(option: string) {
+    if (hasSubmittedRef.current) return;
+    hasSubmittedRef.current = true;
     setSelectedOption(option);
     onSubmitAnswer(option);
   }
