@@ -11,6 +11,41 @@ export function calcBuzzPoints(secondsLeft: number): number {
 /** Points for answering after opponent buzzed in wrong */
 export const OPPONENT_MISS_POINTS = 100;
 
+/** A single left/right pairing for a 'matching' question. */
+export interface MatchPair {
+  left: string;
+  right: string;
+}
+
+/** Points for a simultaneous-play question (ordering/matching), scaled by
+ * accuracy and by how quickly the player submitted. Mirrors calcBuzzPoints'
+ * shape: full accuracy + instant submit = 300, floor of 30% of that. */
+export function calcPartialCreditPoints(correctCount: number, totalCount: number, secondsLeft: number): number {
+  if (totalCount <= 0) return 0;
+  const accuracyFraction = correctCount / totalCount;
+  const speedMultiplier = Math.max(0.3, secondsLeft / 30);
+  return Math.round(accuracyFraction * 300 * speedMultiplier);
+}
+
+/** Counts how many items in `submitted` are in the same position as in `correct`. */
+export function checkOrderingCorrectness(submitted: string[], correct: string[]): number {
+  let correctCount = 0;
+  for (let i = 0; i < correct.length; i++) {
+    if (submitted[i] === correct[i]) correctCount++;
+  }
+  return correctCount;
+}
+
+/** Counts how many of `submitted`'s left/right pairings match `correct`. */
+export function checkMatchingCorrectness(submitted: MatchPair[], correct: MatchPair[]): number {
+  let correctCount = 0;
+  for (const pair of submitted) {
+    const match = correct.find((c) => c.left === pair.left);
+    if (match && match.right === pair.right) correctCount++;
+  }
+  return correctCount;
+}
+
 /** Generate a random 6-character uppercase room code */
 export function generateRoomCode(): string {
   const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
