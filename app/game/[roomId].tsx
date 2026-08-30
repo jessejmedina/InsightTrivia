@@ -242,9 +242,9 @@ export default function GameScreen() {
   }
 
   async function handleSubmitAnswer() {
-    if (!question || !profile) return;
+    if (!question || !profile || question.answer === null) return;
     const raw = answerInput.trim().toLowerCase();
-    const correctRaw = (question.answer ?? '').trim().toLowerCase();
+    const correctRaw = question.answer.trim().toLowerCase();
     const correct = raw === correctRaw || correctRaw.includes(raw) || raw.includes(correctRaw);
 
     const points = correct ? calcBuzzPoints(timeLeft) : 0;
