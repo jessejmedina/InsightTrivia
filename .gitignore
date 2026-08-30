@@ -41,3 +41,9 @@ yarn-error.*
 /android
 .env
 node_modules
+
+# local reference material (not for version control)
+reference/
+
+# local working data (question batches, credentials, etc.)
+data/

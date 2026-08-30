@@ -8,7 +8,7 @@ import {
   Alert, Modal, ScrollView, Switch, ActivityIndicator,
 } from 'react-native';
 import { supabase } from '../../lib/supabase';
-import { Colors } from '../../constants/colors';
+import { Colors, CardShadow, getCategoryColor } from '../../constants/colors';
 
 interface Question {
   id: string;
@@ -161,7 +161,11 @@ export default function AdminScreen() {
                 <Text style={[styles.difficulty, { color: diffColor[item.difficulty] }]}>
                   {item.difficulty.toUpperCase()}
                 </Text>
-                <Text style={styles.category}>{item.category}</Text>
+                <View style={{ flex: 1 }}>
+                  <View style={[styles.categoryPill, { backgroundColor: getCategoryColor(item.category) }]}>
+                    <Text style={styles.categoryPillText}>{item.category}</Text>
+                  </View>
+                </View>
                 <Switch
                   value={item.active}
                   onValueChange={() => toggleActive(item)}
@@ -259,7 +263,7 @@ export default function AdminScreen() {
             onPress={handleSave}
             disabled={saving}
           >
-            {saving ? <ActivityIndicator color={Colors.bg} /> : <Text style={styles.saveBtnText}>Save Question</Text>}
+            {saving ? <ActivityIndicator color={Colors.white} /> : <Text style={styles.saveBtnText}>Save Question</Text>}
           </TouchableOpacity>
 
           <View style={{ height: 40 }} />
@@ -279,22 +283,23 @@ const styles = StyleSheet.create({
   header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', paddingHorizontal: 20, marginBottom: 12 },
   title: { fontSize: 28, fontWeight: '800', color: Colors.accent },
   subtitle: { color: Colors.textSecondary, fontSize: 13, marginTop: 2 },
-  addBtn: { backgroundColor: Colors.accent, paddingHorizontal: 16, paddingVertical: 10, borderRadius: 10 },
-  addBtnText: { color: Colors.bg, fontWeight: '700', fontSize: 15 },
+  addBtn: { backgroundColor: Colors.accent, paddingHorizontal: 16, paddingVertical: 10, borderRadius: 16 },
+  addBtnText: { color: Colors.white, fontWeight: '700', fontSize: 15 },
   filterScroll: { flexGrow: 0, marginBottom: 12 },
   filterRow: { paddingHorizontal: 20, gap: 8 },
   filterChip: { paddingHorizontal: 14, paddingVertical: 8, borderRadius: 20, backgroundColor: Colors.surface, borderWidth: 1, borderColor: Colors.border },
   filterChipActive: { backgroundColor: Colors.accent, borderColor: Colors.accent },
   filterChipText: { color: Colors.textSecondary, fontSize: 13, fontWeight: '600' },
-  filterChipTextActive: { color: Colors.bg },
+  filterChipTextActive: { color: Colors.white },
   card: {
-    backgroundColor: Colors.surface, borderRadius: 14, padding: 14, marginHorizontal: 20,
-    marginBottom: 10, borderWidth: 1, borderColor: Colors.border, gap: 6,
+    backgroundColor: Colors.surface, borderRadius: 20, padding: 14, marginHorizontal: 20,
+    marginBottom: 10, gap: 6, ...CardShadow,
   },
   cardInactive: { opacity: 0.45 },
   cardHeader: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   difficulty: { fontSize: 11, fontWeight: '800', letterSpacing: 0.5 },
-  category: { flex: 1, color: Colors.textMuted, fontSize: 12 },
+  categoryPill: { borderRadius: 12, paddingHorizontal: 10, paddingVertical: 3, alignSelf: 'flex-start' },
+  categoryPillText: { color: Colors.white, fontSize: 11, fontWeight: '700' },
   questionText: { color: Colors.textPrimary, fontSize: 15, lineHeight: 22 },
   answerText: { color: Colors.success, fontSize: 13, fontWeight: '600' },
   ref: { color: Colors.textMuted, fontSize: 11, fontStyle: 'italic' },
@@ -316,7 +321,7 @@ const styles = StyleSheet.create({
   },
   chipActive: { backgroundColor: Colors.accent, borderColor: Colors.accent },
   chipText: { color: Colors.textSecondary, fontSize: 13, fontWeight: '600' },
-  chipTextActive: { color: Colors.bg },
-  saveBtn: { backgroundColor: Colors.accent, paddingVertical: 16, borderRadius: 14, alignItems: 'center', marginTop: 24 },
-  saveBtnText: { fontSize: 17, fontWeight: '700', color: Colors.bg },
+  chipTextActive: { color: Colors.white },
+  saveBtn: { backgroundColor: Colors.accent, paddingVertical: 16, borderRadius: 22, alignItems: 'center', marginTop: 24 },
+  saveBtnText: { fontSize: 17, fontWeight: '800', color: Colors.white },
 });

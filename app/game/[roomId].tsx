@@ -11,7 +11,7 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { supabase } from '../../lib/supabase';
 import { useAuthStore } from '../../store/authStore';
 import { useGameStore } from '../../store/gameStore';
-import { Colors } from '../../constants/colors';
+import { Colors, CardShadow, getCategoryColor } from '../../constants/colors';
 import { AVATARS, calcBuzzPoints, OPPONENT_MISS_POINTS } from '../../lib/gameLogic';
 
 type Phase = 'waiting' | 'question' | 'buzzed' | 'reveal' | 'results';
@@ -232,7 +232,8 @@ export default function GameScreen() {
 
   // ── Actions ──────────────────────────────────────────────────
   async function handleStartGame() {
-    if (!isHost || players.length < 2) {
+    // DEV-ONLY BYPASS — remove before opening to real users
+    if (!isHost || (players.length < 2 && !__DEV__)) {
       Alert.alert('Need at least 2 players to start.');
       return;
     }
@@ -442,12 +443,15 @@ function WaitingPhase({ players, isHost, onStart, roomCode }: any) {
 
       {isHost && (
         <TouchableOpacity
-          style={[styles.startBtn, players.length < 2 && { opacity: 0.4 }]}
+          // DEV-ONLY BYPASS — remove before opening to real users
+          style={[styles.startBtn, (players.length < 2 && !__DEV__) && { opacity: 0.4 }]}
           onPress={onStart}
-          disabled={players.length < 2}
+          disabled={players.length < 2 && !__DEV__}
         >
           <Text style={styles.startBtnText}>
-            {players.length < 2 ? 'Waiting for 2nd player...' : 'Start Game!'}
+            {players.length < 2
+              ? (__DEV__ ? 'Start (Solo Dev Test)' : 'Waiting for 2nd player...')
+              : 'Start Game!'}
           </Text>
         </TouchableOpacity>
       )}
@@ -472,7 +476,9 @@ function QuestionPhase({ question, timeLeft, phase, buzzedPlayer, isBuzzedIn, is
 
       {/* Category / difficulty */}
       <View style={styles.qMeta}>
-        <Text style={styles.qCategory}>{question.category}</Text>
+        <View style={[styles.qCategoryPill, { backgroundColor: getCategoryColor(question.category) }]}>
+          <Text style={styles.qCategory}>{question.category}</Text>
+        </View>
         <Text style={[styles.qDifficulty, { color: diffColor[question.difficulty] }]}>
           {question.difficulty}
         </Text>
@@ -621,8 +627,8 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.surface, borderBottomWidth: 1, borderBottomColor: Colors.border,
   },
   scoreCard: {
-    flex: 1, backgroundColor: Colors.card, borderRadius: 10, padding: 8,
-    alignItems: 'center', borderWidth: 1, borderColor: Colors.border,
+    flex: 1, backgroundColor: Colors.card, borderRadius: 16, padding: 8,
+    alignItems: 'center', borderWidth: 2, borderColor: 'transparent',
   },
   miniAvatar: { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
   miniAvatarEmoji: { fontSize: 16 },
@@ -632,8 +638,8 @@ const styles = StyleSheet.create({
   // Waiting
   waitTitle: { fontSize: 22, fontWeight: '800', color: Colors.textPrimary, marginTop: 16 },
   codeBox: {
-    backgroundColor: Colors.surface, borderRadius: 20, padding: 24, alignItems: 'center',
-    borderWidth: 1, borderColor: Colors.border, width: '100%',
+    backgroundColor: Colors.surface, borderRadius: 24, padding: 24, alignItems: 'center',
+    width: '100%', ...CardShadow,
   },
   codeLabel: { color: Colors.textSecondary, fontSize: 13, fontWeight: '600' },
   codeBig: { fontSize: 42, fontWeight: '900', color: Colors.accent, letterSpacing: 6, marginVertical: 8 },
@@ -642,8 +648,11 @@ const styles = StyleSheet.create({
   waitPlayer: { flexDirection: 'row', alignItems: 'center', gap: 12, alignSelf: 'flex-start' },
   waitAvatar: { width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center' },
   waitPlayerName: { color: Colors.textPrimary, fontSize: 16, fontWeight: '600' },
-  startBtn: { backgroundColor: Colors.accent, paddingVertical: 16, paddingHorizontal: 40, borderRadius: 14, marginTop: 16 },
-  startBtnText: { fontSize: 18, fontWeight: '800', color: Colors.bg },
+  startBtn: {
+    backgroundColor: Colors.accent, paddingVertical: 16, paddingHorizontal: 40, borderRadius: 22, marginTop: 16,
+    shadowColor: Colors.accent, shadowOffset: { width: 0, height: 6 }, shadowOpacity: 0.3, shadowRadius: 14, elevation: 6,
+  },
+  startBtnText: { fontSize: 18, fontWeight: '800', color: Colors.white },
   waitingHint: { color: Colors.textMuted, fontSize: 14, textAlign: 'center', marginTop: 8 },
   // Question
   timerRing: {
@@ -653,17 +662,18 @@ const styles = StyleSheet.create({
   timerNumber: { fontSize: 32, fontWeight: '900' },
   timerLabel: { color: Colors.textMuted, fontSize: 11, marginTop: -4 },
   qMeta: { flexDirection: 'row', gap: 10, alignItems: 'center' },
-  qCategory: { color: Colors.textSecondary, fontSize: 13, fontWeight: '600' },
+  qCategoryPill: { borderRadius: 12, paddingHorizontal: 12, paddingVertical: 4 },
+  qCategory: { color: Colors.white, fontSize: 13, fontWeight: '700' },
   qDifficulty: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase' },
   hintBox: {
-    backgroundColor: Colors.surface, borderRadius: 12, padding: 14, width: '100%',
-    borderLeftWidth: 3, borderLeftColor: Colors.primary,
+    backgroundColor: Colors.surface, borderRadius: 16, padding: 14, width: '100%',
+    borderLeftWidth: 4, borderLeftColor: Colors.primary, ...CardShadow,
   },
   hintLabel: { color: Colors.primary, fontSize: 11, fontWeight: '700', marginBottom: 4 },
   hintText: { color: Colors.textSecondary, fontSize: 14, lineHeight: 20 },
   questionBox: {
-    backgroundColor: Colors.surface, borderRadius: 16, padding: 20, width: '100%',
-    borderWidth: 1, borderColor: Colors.border,
+    backgroundColor: Colors.surface, borderRadius: 22, padding: 20, width: '100%',
+    ...CardShadow,
   },
   questionText: { color: Colors.textPrimary, fontSize: 18, lineHeight: 28, fontWeight: '600', textAlign: 'center' },
   qRef: { color: Colors.textMuted, fontSize: 11, marginTop: 10, textAlign: 'center', fontStyle: 'italic' },
@@ -672,8 +682,8 @@ const styles = StyleSheet.create({
     alignItems: 'center', justifyContent: 'center', marginTop: 8,
     shadowColor: Colors.accent, shadowOpacity: 0.4, shadowRadius: 20, elevation: 10,
   },
-  buzzBtnText: { color: Colors.bg, fontSize: 20, fontWeight: '900' },
-  buzzBtnSub: { color: Colors.bg, fontSize: 11, opacity: 0.7, marginTop: 4 },
+  buzzBtnText: { color: Colors.white, fontSize: 20, fontWeight: '900' },
+  buzzBtnSub: { color: Colors.white, fontSize: 11, opacity: 0.8, marginTop: 4 },
   buzzedContainer: { width: '100%', alignItems: 'center', gap: 12 },
   buzzedLabel: { color: Colors.accent, fontSize: 18, fontWeight: '800' },
   answerContainer: { width: '100%', gap: 10 },
@@ -683,8 +693,8 @@ const styles = StyleSheet.create({
     color: Colors.textPrimary, fontSize: 18, borderWidth: 1, borderColor: Colors.accent,
     textAlign: 'center',
   },
-  submitBtn: { backgroundColor: Colors.accent, paddingVertical: 14, borderRadius: 12, alignItems: 'center' },
-  submitBtnText: { color: Colors.bg, fontWeight: '700', fontSize: 16 },
+  submitBtn: { backgroundColor: Colors.accent, paddingVertical: 14, borderRadius: 18, alignItems: 'center' },
+  submitBtnText: { color: Colors.white, fontWeight: '700', fontSize: 16 },
   waitBuzzed: { gap: 8, alignItems: 'center', marginTop: 16 },
   waitBuzzedText: { color: Colors.textMuted, fontSize: 14 },
   // Reveal
@@ -695,29 +705,29 @@ const styles = StyleSheet.create({
   resultEmoji: { fontSize: 28 },
   resultText: { fontSize: 24, fontWeight: '900', color: Colors.white },
   revealBox: {
-    backgroundColor: Colors.surface, borderRadius: 16, padding: 20, width: '100%',
-    alignItems: 'center', borderWidth: 1, borderColor: Colors.border,
+    backgroundColor: Colors.surface, borderRadius: 22, padding: 20, width: '100%',
+    alignItems: 'center', ...CardShadow,
   },
   revealLabel: { color: Colors.textSecondary, fontSize: 13, fontWeight: '600' },
   revealAnswer: { color: Colors.success, fontSize: 24, fontWeight: '800', marginTop: 8, textAlign: 'center' },
   revealRef: { color: Colors.textMuted, fontSize: 12, marginTop: 8, fontStyle: 'italic' },
-  oppBtn: { backgroundColor: Colors.primary, paddingVertical: 14, paddingHorizontal: 20, borderRadius: 12, width: '100%', alignItems: 'center' },
+  oppBtn: { backgroundColor: Colors.primary, paddingVertical: 14, paddingHorizontal: 20, borderRadius: 18, width: '100%', alignItems: 'center' },
   oppBtnText: { color: Colors.white, fontWeight: '700', fontSize: 14 },
-  nextBtn: { backgroundColor: Colors.accent, paddingVertical: 14, paddingHorizontal: 40, borderRadius: 12 },
-  nextBtnText: { color: Colors.bg, fontWeight: '700', fontSize: 16 },
+  nextBtn: { backgroundColor: Colors.accent, paddingVertical: 14, paddingHorizontal: 40, borderRadius: 18 },
+  nextBtnText: { color: Colors.white, fontWeight: '700', fontSize: 16 },
   // Results
   resultsTitle: { fontSize: 32, fontWeight: '900', color: Colors.accent, marginTop: 8 },
   resultRow: {
     flexDirection: 'row', alignItems: 'center', gap: 12, width: '100%',
-    backgroundColor: Colors.surface, borderRadius: 14, padding: 14,
-    borderWidth: 1, borderColor: Colors.border,
+    backgroundColor: Colors.surface, borderRadius: 20, padding: 14,
+    borderWidth: 2, borderColor: 'transparent', ...CardShadow,
   },
   resultMedal: { fontSize: 24, width: 36 },
   resultName: { flex: 1, color: Colors.textPrimary, fontWeight: '700', fontSize: 16 },
   resultScore: { color: Colors.accent, fontWeight: '800', fontSize: 18 },
   leaveBtn: {
     backgroundColor: Colors.surface, paddingVertical: 16, paddingHorizontal: 40,
-    borderRadius: 14, marginTop: 8, borderWidth: 1, borderColor: Colors.border, width: '100%', alignItems: 'center',
+    borderRadius: 20, marginTop: 8, width: '100%', alignItems: 'center', ...CardShadow,
   },
   leaveBtnText: { color: Colors.textPrimary, fontWeight: '700', fontSize: 16 },
 });

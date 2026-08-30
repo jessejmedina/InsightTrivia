@@ -69,7 +69,7 @@ export default function LoginScreen() {
           disabled={loading}
         >
           {loading ? (
-            <ActivityIndicator color={Colors.bg} />
+            <ActivityIndicator color={Colors.white} />
           ) : (
             <Text style={styles.btnText}>Sign In</Text>
           )}
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
   label: { color: Colors.textSecondary, fontSize: 13, fontWeight: '600', marginTop: 12 },
   input: {
     backgroundColor: Colors.surface,
-    borderRadius: 12,
+    borderRadius: 18,
     padding: 14,
     color: Colors.textPrimary,
     fontSize: 16,
@@ -108,11 +108,16 @@ const styles = StyleSheet.create({
   btn: {
     backgroundColor: Colors.accent,
     paddingVertical: 16,
-    borderRadius: 14,
+    borderRadius: 22,
     alignItems: 'center',
     marginTop: 24,
+    shadowColor: Colors.accent,
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.3,
+    shadowRadius: 14,
+    elevation: 6,
   },
-  btnText: { fontSize: 17, fontWeight: '700', color: Colors.bg },
+  btnText: { fontSize: 17, fontWeight: '800', color: Colors.white },
   switchText: {
     textAlign: 'center',
     color: Colors.primary,

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, FlatList, ActivityIndicator } from 'react-native';
 import { supabase } from '../../lib/supabase';
 import { useAuthStore } from '../../store/authStore';
-import { Colors } from '../../constants/colors';
+import { Colors, CardShadow } from '../../constants/colors';
 import { AVATARS } from '../../lib/gameLogic';
 
 interface LeaderboardEntry {
@@ -84,11 +84,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 12,
     backgroundColor: Colors.surface,
-    borderRadius: 14,
+    borderRadius: 20,
     padding: 14,
     marginBottom: 8,
-    borderWidth: 1,
-    borderColor: Colors.border,
+    borderWidth: 2,
+    borderColor: 'transparent',
+    ...CardShadow,
   },
   rowMe: { borderColor: Colors.accent },
   rank: { width: 36, textAlign: 'center', fontSize: 18, color: Colors.textSecondary, fontWeight: '700' },

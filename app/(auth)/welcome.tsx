@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { useRouter } from 'expo-router';
-import { Colors } from '../../constants/colors';
+import { Colors, CardShadow } from '../../constants/colors';
 
 export default function WelcomeScreen() {
   const router = useRouter();
@@ -69,22 +69,26 @@ const styles = StyleSheet.create({
   },
   primaryBtn: {
     backgroundColor: Colors.accent,
-    paddingVertical: 16,
-    borderRadius: 14,
+    paddingVertical: 18,
+    borderRadius: 24,
     alignItems: 'center',
+    shadowColor: Colors.accent,
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.3,
+    shadowRadius: 14,
+    elevation: 6,
   },
   primaryBtnText: {
     fontSize: 17,
-    fontWeight: '700',
-    color: Colors.bg,
+    fontWeight: '800',
+    color: Colors.white,
   },
   secondaryBtn: {
     backgroundColor: Colors.surface,
-    paddingVertical: 16,
-    borderRadius: 14,
+    paddingVertical: 18,
+    borderRadius: 24,
     alignItems: 'center',
-    borderWidth: 1,
-    borderColor: Colors.border,
+    ...CardShadow,
   },
   secondaryBtnText: {
     fontSize: 17,

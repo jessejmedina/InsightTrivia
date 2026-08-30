@@ -7,8 +7,8 @@ import { useRouter } from 'expo-router';
 import { supabase } from '../../lib/supabase';
 import { useAuthStore } from '../../store/authStore';
 import { useGameStore } from '../../store/gameStore';
-import { Colors } from '../../constants/colors';
-import { generateRoomCode, AVATARS } from '../../lib/gameLogic';
+import { Colors, CardShadow } from '../../constants/colors';
+import { generateRoomCode, shuffleArray, AVATARS } from '../../lib/gameLogic';
 
 export default function HomeScreen() {
   const router = useRouter();
@@ -28,12 +28,13 @@ export default function HomeScreen() {
     if (!profile) return;
     setLoading(true);
 
-    // Grab random questions
+    // Grab random questions — fetch all active IDs, then shuffle client-side,
+    // so the sample is drawn from the whole bank rather than just the DB's
+    // default-ordered first page of rows.
     const { data: questions } = await supabase
       .from('questions')
       .select('id')
-      .eq('active', true)
-      .limit(questionCount);
+      .eq('active', true);
 
     if (!questions || questions.length < 5) {
       Alert.alert('Not enough questions', 'Need at least 5 active questions to start a game.');
@@ -41,7 +42,7 @@ export default function HomeScreen() {
       return;
     }
 
-    const shuffled = questions.sort(() => Math.random() - 0.5).slice(0, questionCount);
+    const shuffled = shuffleArray(questions).slice(0, questionCount);
     const code = generateRoomCode();
 
     const { data: room, error } = await supabase
@@ -233,7 +234,7 @@ export default function HomeScreen() {
               onPress={handleCreateGame}
               disabled={loading}
             >
-              {loading ? <ActivityIndicator color={Colors.bg} /> : <Text style={styles.btnText}>Create Room</Text>}
+              {loading ? <ActivityIndicator color={Colors.white} /> : <Text style={styles.btnText}>Create Room</Text>}
             </TouchableOpacity>
 
             <TouchableOpacity onPress={() => setShowCreate(false)}>
@@ -263,7 +264,7 @@ export default function HomeScreen() {
               onPress={handleJoinGame}
               disabled={loading}
             >
-              {loading ? <ActivityIndicator color={Colors.bg} /> : <Text style={styles.btnText}>Join Room</Text>}
+              {loading ? <ActivityIndicator color={Colors.white} /> : <Text style={styles.btnText}>Join Room</Text>}
             </TouchableOpacity>
             <TouchableOpacity onPress={() => setShowJoin(false)}>
               <Text style={styles.cancelText}>Cancel</Text>
@@ -288,11 +289,10 @@ const statStyles = StyleSheet.create({
   pill: {
     flex: 1,
     backgroundColor: Colors.surface,
-    borderRadius: 12,
+    borderRadius: 18,
     alignItems: 'center',
     paddingVertical: 12,
-    borderWidth: 1,
-    borderColor: Colors.border,
+    ...CardShadow,
   },
   value: { fontSize: 20, fontWeight: '800', color: Colors.textPrimary },
   label: { fontSize: 11, color: Colors.textSecondary, marginTop: 2 },
@@ -310,13 +310,12 @@ const styles = StyleSheet.create({
   sectionLabel: { color: Colors.textMuted, fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 1, marginTop: 8 },
   playCard: {
     backgroundColor: Colors.surface,
-    borderRadius: 16,
+    borderRadius: 22,
     padding: 18,
     flexDirection: 'row',
     alignItems: 'center',
     gap: 14,
-    borderWidth: 1,
-    borderColor: Colors.border,
+    ...CardShadow,
   },
   playCardIcon: { fontSize: 28 },
   playCardTitle: { color: Colors.textPrimary, fontSize: 16, fontWeight: '700' },
@@ -324,21 +323,20 @@ const styles = StyleSheet.create({
   arrow: { color: Colors.textMuted, fontSize: 22 },
   howTo: {
     backgroundColor: Colors.surface,
-    borderRadius: 16,
+    borderRadius: 22,
     padding: 16,
     gap: 10,
-    borderWidth: 1,
-    borderColor: Colors.border,
+    ...CardShadow,
     marginBottom: 24,
   },
   howToRow: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },
   howToEmoji: { fontSize: 18, width: 28 },
   howToText: { color: Colors.textSecondary, fontSize: 14, flex: 1, lineHeight: 20 },
-  modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.7)', justifyContent: 'flex-end' },
+  modalOverlay: { flex: 1, backgroundColor: 'rgba(38,38,59,0.4)', justifyContent: 'flex-end' },
   modal: {
     backgroundColor: Colors.surface,
-    borderTopLeftRadius: 24,
-    borderTopRightRadius: 24,
+    borderTopLeftRadius: 28,
+    borderTopRightRadius: 28,
     padding: 28,
     gap: 12,
   },
@@ -356,15 +354,20 @@ const styles = StyleSheet.create({
   },
   modeBtnActive: { backgroundColor: Colors.accent, borderColor: Colors.accent },
   modeBtnText: { color: Colors.textSecondary, fontWeight: '600' },
-  modeBtnTextActive: { color: Colors.bg },
+  modeBtnTextActive: { color: Colors.white },
   btn: {
     backgroundColor: Colors.accent,
     paddingVertical: 16,
-    borderRadius: 14,
+    borderRadius: 22,
     alignItems: 'center',
     marginTop: 8,
+    shadowColor: Colors.accent,
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.3,
+    shadowRadius: 14,
+    elevation: 6,
   },
-  btnText: { fontSize: 17, fontWeight: '700', color: Colors.bg },
+  btnText: { fontSize: 17, fontWeight: '800', color: Colors.white },
   cancelText: { textAlign: 'center', color: Colors.textMuted, marginTop: 8, fontSize: 14 },
   codeInput: {
     backgroundColor: Colors.card,

@@ -17,16 +17,26 @@ export function generateRoomCode(): string {
   return Array.from({ length: 6 }, () => chars[Math.floor(Math.random() * chars.length)]).join('');
 }
 
+/** Fisher-Yates shuffle — returns a new array, does not mutate the input */
+export function shuffleArray<T>(items: T[]): T[] {
+  const result = items.slice();
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
 /** Default avatar colors to pick from */
 export const AVATAR_COLORS = [
-  '#4a90d9', // blue
-  '#e94560', // red
-  '#f2c14e', // gold
-  '#4caf7d', // green
-  '#9b59b6', // purple
-  '#e67e22', // orange
-  '#1abc9c', // teal
-  '#e91e8c', // pink
+  '#5B8DEF', // blue
+  '#FF6B81', // coral
+  '#FFC542', // gold
+  '#4ADE80', // green
+  '#A78BFA', // purple
+  '#FF9F43', // orange
+  '#2DD4BF', // teal
+  '#F472B6', // pink
 ];
 
 /** Avatar emoji options (free tier — no custom images yet) */

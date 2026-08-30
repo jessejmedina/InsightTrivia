@@ -3,7 +3,7 @@ import {
   View, Text, StyleSheet, TouchableOpacity, ScrollView, Alert, Modal,
 } from 'react-native';
 import { useAuthStore } from '../../store/authStore';
-import { Colors } from '../../constants/colors';
+import { Colors, CardShadow } from '../../constants/colors';
 import { AVATARS, AVATAR_COLORS, COSMETIC_COSTS, DEFAULT_UNLOCKED } from '../../lib/gameLogic';
 import { supabase } from '../../lib/supabase';
 
@@ -126,11 +126,10 @@ const sc = StyleSheet.create({
     flex: 1,
     minWidth: '45%',
     backgroundColor: Colors.surface,
-    borderRadius: 14,
+    borderRadius: 20,
     alignItems: 'center',
     paddingVertical: 16,
-    borderWidth: 1,
-    borderColor: Colors.border,
+    ...CardShadow,
   },
   value: { fontSize: 24, fontWeight: '800' },
   label: { color: Colors.textSecondary, fontSize: 12, marginTop: 4 },
@@ -154,10 +153,10 @@ const styles = StyleSheet.create({
   },
   avatarGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
   avatarOption: {
-    width: 70, height: 70, borderRadius: 14,
+    width: 70, height: 70, borderRadius: 20,
     backgroundColor: Colors.surface,
     alignItems: 'center', justifyContent: 'center',
-    borderWidth: 1, borderColor: Colors.border,
+    ...CardShadow,
   },
   avatarOptionActive: { borderColor: Colors.accent, borderWidth: 2 },
   avatarLocked: { opacity: 0.5 },
@@ -166,15 +165,14 @@ const styles = StyleSheet.create({
   activeCheck: { position: 'absolute', top: 4, right: 6, color: Colors.accent, fontWeight: '800', fontSize: 12 },
   colorRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 12 },
   colorDot: { width: 36, height: 36, borderRadius: 18 },
-  colorDotActive: { borderWidth: 3, borderColor: Colors.white },
+  colorDotActive: { borderWidth: 3, borderColor: Colors.textPrimary },
   signOutBtn: {
     backgroundColor: Colors.surface,
-    borderRadius: 14,
+    borderRadius: 20,
     paddingVertical: 16,
     alignItems: 'center',
     marginTop: 16,
-    borderWidth: 1,
-    borderColor: Colors.border,
+    ...CardShadow,
   },
   signOutText: { color: Colors.danger, fontWeight: '700', fontSize: 15 },
 });
