@@ -29,23 +29,65 @@ loadEnv();
 const SUPABASE_URL = process.env.EXPO_PUBLIC_SUPABASE_URL;
 const SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const DIFFICULTIES = ['easy', 'medium', 'hard'];
+const QUESTION_TYPES = ['free_text', 'multiple_choice', 'fill_blank', 'ordering', 'matching'];
 
 function validate(raw, index) {
   const errors = [];
+  const type = typeof raw.type === 'string' && raw.type.trim() ? raw.type.trim() : 'free_text';
+  if (!QUESTION_TYPES.includes(type)) {
+    errors.push(`unknown type "${type}"`);
+    return { ok: false, index, errors };
+  }
+
   const question = typeof raw.question === 'string' ? raw.question.trim() : '';
-  const answer = typeof raw.answer === 'string' ? raw.answer.trim() : '';
   if (!question) errors.push('missing question');
-  if (!answer) errors.push('missing answer');
-  if (errors.length) return { ok: false, index, errors };
 
   let difficulty = typeof raw.difficulty === 'string' ? raw.difficulty.toLowerCase() : 'medium';
   if (!DIFFICULTIES.includes(difficulty)) difficulty = 'medium';
   const category = typeof raw.category === 'string' && raw.category.trim() ? raw.category.trim() : 'General';
   const reference = typeof raw.reference === 'string' && raw.reference.trim() ? raw.reference.trim() : null;
-  const hint = typeof raw.hint === 'string' && raw.hint.trim() ? raw.hint.trim() : null;
 
-  return { ok: true, row: { question, answer, category, difficulty, reference, hint, active: true } };
+  if (type === 'ordering' || type === 'matching') {
+    const payload = raw.payload;
+    if (type === 'ordering') {
+      const items = payload && Array.isArray(payload.items) ? payload.items : null;
+      if (!items || items.length < 3) errors.push('ordering questions need a payload.items array with at least 3 items');
+    } else {
+      const pairs = payload && Array.isArray(payload.pairs) ? payload.pairs : null;
+      if (!pairs || pairs.length < 3) errors.push('matching questions need a payload.pairs array with at least 3 pairs');
+      else if (pairs.some((p) => !p || typeof p.left !== 'string' || typeof p.right !== 'string')) {
+        errors.push('every matching pair needs a string "left" and "right"');
+      }
+    }
+    if (errors.length) return { ok: false, index, errors };
+    return {
+      ok: true,
+      row: { question, answer: null, options: null, payload, category, difficulty, reference, type, active: true },
+    };
+  }
+
+  // free_text, multiple_choice, fill_blank all share the answer/options shape
+  const answer = typeof raw.answer === 'string' ? raw.answer.trim() : '';
+  if (!answer) errors.push('missing answer');
+
+  let options = null;
+  if (type === 'multiple_choice' || (type === 'fill_blank' && raw.options)) {
+    options = Array.isArray(raw.options) ? raw.options : null;
+    if (!options || options.length !== 4) {
+      errors.push('multiple_choice/fill_blank questions need exactly 4 options');
+    } else if (!options.includes(answer)) {
+      errors.push('options must include the answer');
+    }
+  }
+
+  if (errors.length) return { ok: false, index, errors };
+  return {
+    ok: true,
+    row: { question, answer, options, payload: null, category, difficulty, reference, type, active: true },
+  };
 }
+
+module.exports = { validate };
 
 async function main() {
   if (!SUPABASE_URL || !SERVICE_KEY) {
@@ -109,4 +151,6 @@ async function main() {
   invalid.forEach((v) => console.log(`  - item #${v.index}: ${v.errors.join(', ')}`));
 }
 
-main();
+if (require.main === module) {
+  main();
+}
