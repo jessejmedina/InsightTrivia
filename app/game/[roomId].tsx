@@ -47,6 +47,10 @@ export default function GameScreen() {
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const timeLeftRef = useRef(30);
   const buzzScale = useRef(new Animated.Value(1)).current;
+  // Guards advanceGame() so it only ever acts once per question index, no matter how
+  // many independent triggers (timeout, completion effect, manual "Next" button) fire
+  // for the same question.
+  const advancedForIndexRef = useRef<number | null>(null);
 
   const isHost = room?.host_id === profile?.id;
   const myPlayer = players.find((p) => p.user_id === profile?.id);
@@ -79,6 +83,7 @@ export default function GameScreen() {
     if (roomData.status === 'active') {
       setPhase('question');
       await loadQuestion(roomData.question_ids[roomData.current_question_index]);
+      startTimer();
     } else if (roomData.status === 'finished') {
       setPhase('results');
     }
@@ -163,6 +168,7 @@ export default function GameScreen() {
         loadQuestion(startQid);
         setQuestionIndex(event.payload.question_index ?? 0);
         setSequenceSubmissions({});
+        advancedForIndexRef.current = null;
         startTimer();
         break;
 
@@ -204,6 +210,7 @@ export default function GameScreen() {
         setSequenceSubmissions({});
         setTimeLeft(30);
         setPhase('question');
+        advancedForIndexRef.current = null;
         startTimer();
         break;
 
@@ -225,8 +232,6 @@ export default function GameScreen() {
       setTimeLeft(timeLeftRef.current);
       if (timeLeftRef.current <= 0) {
         stopTimer();
-        // Time's up — host advances
-        if (isHost) handleTimeUp();
       }
     }, 1000);
   }
@@ -236,15 +241,6 @@ export default function GameScreen() {
   }
 
   useEffect(() => () => stopTimer(), []);
-
-  async function handleTimeUp() {
-    if (phase === 'arranging') {
-      await advanceGame(Object.keys(sequenceSubmissions).length > 0);
-      return;
-    }
-    // No one buzzed — advance to next question or end game
-    await advanceGame(false);
-  }
 
   // ── Actions ──────────────────────────────────────────────────
   async function handleStartGame() {
@@ -275,9 +271,9 @@ export default function GameScreen() {
   }
 
   async function handleSubmitAnswer(chosenAnswer?: string) {
-    if (!question || !profile) return;
+    if (!question || !profile || question.answer === null) return;
     const raw = (chosenAnswer ?? answerInput).trim().toLowerCase();
-    const correctRaw = question.answer!.trim().toLowerCase();
+    const correctRaw = question.answer.trim().toLowerCase();
     const correct = raw === correctRaw || correctRaw.includes(raw) || raw.includes(correctRaw);
 
     const points = correct ? calcBuzzPoints(timeLeft) : 0;
@@ -300,7 +296,7 @@ export default function GameScreen() {
 
     // If host: after a delay, advance
     if (isHost) {
-      setTimeout(() => advanceGame(correct), 3000);
+      setTimeout(() => advanceGame(), 3000);
     }
   }
 
@@ -310,12 +306,14 @@ export default function GameScreen() {
 
     let correctCount: number;
     let totalCount: number;
-    if ('items' in question.payload) {
+    if (question.type === 'ordering' && 'items' in question.payload) {
       correctCount = checkOrderingCorrectness(submission as string[], question.payload.items);
       totalCount = question.payload.items.length;
-    } else {
+    } else if (question.type === 'matching' && 'pairs' in question.payload) {
       correctCount = checkMatchingCorrectness(submission as MatchPair[], question.payload.pairs);
       totalCount = question.payload.pairs.length;
+    } else {
+      return; // unknown/mismatched type+payload combination, do nothing rather than silently scoring wrong
     }
     const points = calcPartialCreditPoints(correctCount, totalCount, secondsLeft);
 
@@ -338,26 +336,19 @@ export default function GameScreen() {
   // Once every player (or, in teams mode, every team) has submitted a simultaneous-type
   // answer, the host advances the game.
   //
-  // Guarded by a "fired" ref (reset when phase leaves 'arranging'): unlike the pre-Task-11
-  // version, this effect's dependency array must include the full `players` array (not just
+  // This effect's dependency array must include the full `players` array (not just
   // `players.length`) because the teams-mode branch needs each player's `.team`. But `players`
   // gets a brand-new array reference on every `game_players` realtime UPDATE — including the
   // score write that handleSubmitSequence performs right before inserting the sequence_submit
   // event. That score-write UPDATE and the sequence_submit INSERT travel on two independent
   // realtime channels with no ordering guarantee, so it's entirely possible for the score
   // UPDATE to arrive *after* the submission that already satisfied the completion condition —
-  // which would re-run this effect (still satisfied) and schedule a second, redundant
-  // setTimeout(advanceGame) a moment later, silently skipping an extra question. The ref
-  // guard makes this effect idempotent per arranging-phase question regardless of how many
-  // times it re-fires.
-  const arrangingCompletionFiredRef = useRef(false);
-
+  // which would re-run this effect (still satisfied) and schedule another
+  // setTimeout(advanceGame) a moment later. That's harmless now: advanceGame() itself is
+  // idempotent per question index (see advancedForIndexRef), so a redundant call here — or
+  // from the timeout effect below firing around the same time — is a no-op.
   useEffect(() => {
-    if (phase !== 'arranging') {
-      arrangingCompletionFiredRef.current = false; // reset for the next arranging question
-      return;
-    }
-    if (!isHost || arrangingCompletionFiredRef.current) return;
+    if (phase !== 'arranging' || !isHost) return;
     const expectedCount = room?.mode === 'teams'
       ? new Set(players.map((p) => p.team).filter(Boolean)).size
       : players.length;
@@ -369,32 +360,27 @@ export default function GameScreen() {
         ).size
       : Object.keys(sequenceSubmissions).length;
     if (submittedTeamsOrPlayers >= expectedCount && expectedCount > 0) {
-      arrangingCompletionFiredRef.current = true;
       stopTimer();
-      setTimeout(() => advanceGame(true), 1500);
+      setTimeout(() => advanceGame(), 1500);
     }
   }, [sequenceSubmissions, phase, isHost, players, room?.mode]);
 
-  // Arranging-phase timeout: the setInterval in startTimer() calls handleTimeUp() via a
-  // closure chain rooted in the realtime-subscription useEffect above, which freezes
-  // isHost/phase/sequenceSubmissions at their values from that one-time subscription
-  // render (typically before `room` even loads). That means handleTimeUp's `if (isHost)`
-  // check never actually fires with current state, so an arranging question with a
-  // non-submitting player would otherwise hang forever (no buzz-in escape hatch like the
-  // race-type phases have). This effect re-runs with fresh state on every render, so it
-  // reliably detects timeLeft hitting 0 while arranging and drives the advance directly.
-  const arrangingTimeoutFiredRef = useRef(false);
-
+  // Time's-up advance: the setInterval in startTimer() used to call handleTimeUp() via a
+  // closure chain rooted in the realtime-subscription useEffect above, which froze
+  // isHost/phase at their values from that one-time subscription render (typically before
+  // `room` even loads) — so that check never actually fired with current state. This effect
+  // re-runs with fresh state on every render, so it reliably detects timeLeft hitting 0 and
+  // drives the advance directly, both for simultaneous-type ('arranging') questions where a
+  // player never submits, and for race-type ('question') questions where nobody buzzes in.
+  // advanceGame() is idempotent per question index, so it's safe to call from here even if
+  // the completion effect above also calls it around the same time.
   useEffect(() => {
-    if (phase !== 'arranging') {
-      arrangingTimeoutFiredRef.current = false; // reset for the next arranging question
-      return;
+    if (!isHost) return;
+    if ((phase === 'arranging' || phase === 'question') && timeLeft <= 0) {
+      stopTimer();
+      advanceGame();
     }
-    if (timeLeft > 0 || !isHost || arrangingTimeoutFiredRef.current) return;
-    arrangingTimeoutFiredRef.current = true;
-    stopTimer();
-    advanceGame(Object.keys(sequenceSubmissions).length > 0);
-  }, [timeLeft, phase, isHost, sequenceSubmissions]);
+  }, [timeLeft, phase, isHost]);
 
   async function handleOpponentAnswer() {
     // After buzzed player got it wrong, opponent answers (host-only flow for simplicity)
@@ -410,10 +396,12 @@ export default function GameScreen() {
         .eq('user_id', opponent.user_id);
     }
 
-    await advanceGame(true);
+    await advanceGame();
   }
 
-  async function advanceGame(wasAnswered: boolean) {
+  async function advanceGame() {
+    if (advancedForIndexRef.current === questionIndex) return; // already advanced past this question
+    advancedForIndexRef.current = questionIndex;
     const nextIdx = questionIndex + 1;
     if (nextIdx >= questionIds.length) {
       // Game over
@@ -505,6 +493,7 @@ export default function GameScreen() {
       {phase === 'arranging' && question?.type === 'ordering' && question.payload && 'items' in question.payload && (
         <OrderingPhase
           items={question.payload.items}
+          questionId={question.id}
           timeLeft={timeLeft}
           hasSubmitted={mySequenceSubmitted || myTeamAlreadySubmitted}
           onSubmit={handleSubmitSequence}
@@ -514,6 +503,7 @@ export default function GameScreen() {
       {phase === 'arranging' && question?.type === 'matching' && question.payload && 'pairs' in question.payload && (
         <MatchingPhase
           pairs={question.payload.pairs}
+          questionId={question.id}
           timeLeft={timeLeft}
           hasSubmitted={mySequenceSubmitted || myTeamAlreadySubmitted}
           onSubmit={handleSubmitSequence}
@@ -526,7 +516,7 @@ export default function GameScreen() {
           answerResult={answerResult}
           buzzedPlayer={buzzedPlayer}
           isHost={isHost}
-          onNext={() => advanceGame(true)}
+          onNext={() => advanceGame()}
           onOpponentAnswer={handleOpponentAnswer}
         />
       )}
