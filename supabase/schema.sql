@@ -52,6 +52,15 @@ alter table questions enable row level security;
 create policy "Public read active" on questions for select using (active = true);
 create policy "Admin insert" on questions for insert with check (true);  -- restrict later
 
+-- ── QUESTION TYPES (added for multiple choice / ordering / matching) ──
+alter table questions
+  add column if not exists type text not null default 'free_text'
+    check (type in ('free_text', 'multiple_choice', 'ordering', 'matching', 'fill_blank')),
+  add column if not exists options text[],
+  add column if not exists payload jsonb;
+
+alter table questions alter column answer drop not null;
+
 -- ── GAME ROOMS ───────────────────────────────────────────────
 create table if not exists game_rooms (
   id uuid primary key default gen_random_uuid(),
@@ -90,7 +99,7 @@ create policy "Own update" on game_players for update using (auth.uid() = user_i
 create table if not exists game_events (
   id bigint generated always as identity primary key,
   room_id uuid not null references game_rooms(id) on delete cascade,
-  event_type text not null, -- 'buzz_in' | 'answer' | 'next_question' | 'game_over'
+  event_type text not null, -- 'game_start' | 'buzz_in' | 'answer' | 'sequence_submit' | 'next_question' | 'game_over'
   player_id uuid references profiles(id),
   payload jsonb not null default '{}',
   created_at timestamptz not null default now()
