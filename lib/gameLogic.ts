@@ -62,6 +62,23 @@ export function shuffleArray<T>(items: T[]): T[] {
   return result;
 }
 
+/** Deterministic shuffle seeded by a string (e.g. a question id), so all
+ * clients viewing the same question produce the identical arrangement. */
+export function seededShuffle<T>(items: T[], seed: string): T[] {
+  let hash = 0;
+  for (let i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
+  const rng = () => {
+    hash = (hash * 1103515245 + 12345) >>> 0;
+    return hash / 0xFFFFFFFF;
+  };
+  const result = items.slice();
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
 /** Default avatar colors to pick from */
 export const AVATAR_COLORS = [
   '#5B8DEF', // blue

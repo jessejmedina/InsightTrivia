@@ -1,11 +1,12 @@
 import { useMemo, useRef, useState } from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
-import { shuffleArray } from '../../lib/gameLogic';
+import { View, Text, ScrollView, TouchableOpacity } from 'react-native';
+import { seededShuffle } from '../../lib/gameLogic';
 import type { MatchPair } from '../../lib/gameLogic';
 import { gameStyles as styles } from './gameStyles';
 
 interface MatchingPhaseProps {
   pairs: MatchPair[]; // the correct pairing
+  questionId: string; // seeds the shuffle so every client sees the identical arrangement
   timeLeft: number;
   hasSubmitted: boolean;
   onSubmit: (submittedPairs: MatchPair[]) => void;
@@ -15,11 +16,11 @@ interface MatchingPhaseProps {
 // `pairs` array, not by their text value. This keeps identity stable and
 // unique even when two pairs share identical left or right text (e.g. two
 // events that both map to "Book of Exodus").
-export function MatchingPhase({ pairs, timeLeft, hasSubmitted, onSubmit }: MatchingPhaseProps) {
+export function MatchingPhase({ pairs, questionId, timeLeft, hasSubmitted, onSubmit }: MatchingPhaseProps) {
   const leftItems = useMemo(() => pairs.map((p, index) => ({ text: p.left, index })), [pairs]);
   const rightItems = useMemo(
-    () => shuffleArray(pairs.map((p, index) => ({ text: p.right, index }))),
-    [pairs]
+    () => seededShuffle(pairs.map((p, index) => ({ text: p.right, index })), questionId),
+    [pairs, questionId]
   );
 
   const [selectedLeft, setSelectedLeft] = useState<number | null>(null);
@@ -72,7 +73,7 @@ export function MatchingPhase({ pairs, timeLeft, hasSubmitted, onSubmit }: Match
   }
 
   return (
-    <View style={styles.phaseContainer}>
+    <ScrollView contentContainerStyle={styles.phaseContainer}>
       <View style={[styles.timerRing, { borderColor: timeLeft > 10 ? '#2ECC71' : '#FF5A5F' }]}>
         <Text style={styles.timerNumber}>{timeLeft}</Text>
         <Text style={styles.timerLabel}>sec</Text>
@@ -120,6 +121,6 @@ export function MatchingPhase({ pairs, timeLeft, hasSubmitted, onSubmit }: Match
           <Text style={styles.submitBtnText}>Lock In Matches</Text>
         </TouchableOpacity>
       )}
-    </View>
+    </ScrollView>
   );
 }
