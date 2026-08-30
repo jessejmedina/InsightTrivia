@@ -4,16 +4,20 @@
  */
 import { useEffect, useRef, useState, useCallback } from 'react';
 import {
-  View, Text, StyleSheet, TouchableOpacity, Alert,
+  View, Text, TouchableOpacity, Alert,
   ActivityIndicator, TextInput, Animated, ScrollView,
 } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { supabase } from '../../lib/supabase';
 import { useAuthStore } from '../../store/authStore';
 import { useGameStore } from '../../store/gameStore';
-import { Colors, CardShadow, getCategoryColor } from '../../constants/colors';
+import { Colors, getCategoryColor } from '../../constants/colors';
 import { AVATARS, calcBuzzPoints, OPPONENT_MISS_POINTS } from '../../lib/gameLogic';
 import type { PlayerRow, Question } from '../../lib/gameTypes';
+import { gameStyles } from '../../components/game/gameStyles';
+import { WaitingPhase } from '../../components/game/WaitingPhase';
+import { RevealPhase } from '../../components/game/RevealPhase';
+import { ResultsPhase } from '../../components/game/ResultsPhase';
 
 type Phase = 'waiting' | 'question' | 'buzzed' | 'reveal' | 'results';
 
@@ -313,37 +317,37 @@ export default function GameScreen() {
   // ── UI ───────────────────────────────────────────────────────
   if (loading) {
     return (
-      <View style={styles.center}>
+      <View style={gameStyles.center}>
         <ActivityIndicator color={Colors.accent} size="large" />
       </View>
     );
   }
 
   return (
-    <View style={styles.container}>
+    <View style={gameStyles.container}>
       {/* Top bar */}
-      <View style={styles.topBar}>
+      <View style={gameStyles.topBar}>
         <TouchableOpacity onPress={() => { stopTimer(); router.back(); }}>
-          <Text style={styles.exitBtn}>✕ Leave</Text>
+          <Text style={gameStyles.exitBtn}>✕ Leave</Text>
         </TouchableOpacity>
-        <Text style={styles.roomCode}>Room: {room?.code}</Text>
+        <Text style={gameStyles.roomCode}>Room: {room?.code}</Text>
         {phase !== 'waiting' && (
-          <Text style={styles.questionCounter}>{questionIndex + 1}/{questionIds.length}</Text>
+          <Text style={gameStyles.questionCounter}>{questionIndex + 1}/{questionIds.length}</Text>
         )}
       </View>
 
       {/* Score bar */}
-      <View style={styles.scoreBar}>
+      <View style={gameStyles.scoreBar}>
         {players.map((p) => {
           const av = AVATARS.find((a) => a.id === p.profiles?.avatar_id) ?? AVATARS[0];
           const isMe = p.user_id === profile?.id;
           return (
-            <View key={p.id} style={[styles.scoreCard, isMe && { borderColor: Colors.accent }]}>
-              <View style={[styles.miniAvatar, { backgroundColor: p.profiles?.avatar_color ?? Colors.primary }]}>
-                <Text style={styles.miniAvatarEmoji}>{av.emoji}</Text>
+            <View key={p.id} style={[gameStyles.scoreCard, isMe && { borderColor: Colors.accent }]}>
+              <View style={[gameStyles.miniAvatar, { backgroundColor: p.profiles?.avatar_color ?? Colors.primary }]}>
+                <Text style={gameStyles.miniAvatarEmoji}>{av.emoji}</Text>
               </View>
-              <Text style={styles.scoreName} numberOfLines={1}>{p.profiles?.username}</Text>
-              <Text style={styles.scoreValue}>{p.score}</Text>
+              <Text style={gameStyles.scoreName} numberOfLines={1}>{p.profiles?.username}</Text>
+              <Text style={gameStyles.scoreValue}>{p.score}</Text>
             </View>
           );
         })}
@@ -401,108 +405,64 @@ export default function GameScreen() {
 
 // ── Sub-components ────────────────────────────────────────────
 
-function WaitingPhase({ players, isHost, onStart, roomCode }: any) {
-  return (
-    <View style={styles.phaseContainer}>
-      <Text style={styles.waitTitle}>Waiting for players</Text>
-      <View style={styles.codeBox}>
-        <Text style={styles.codeLabel}>Room Code</Text>
-        <Text style={styles.codeBig}>{roomCode}</Text>
-        <Text style={styles.codeHint}>Share this code with friends</Text>
-      </View>
-
-      <Text style={styles.playerListLabel}>Players ({players.length})</Text>
-      {players.map((p: PlayerRow) => {
-        const av = AVATARS.find((a) => a.id === p.profiles?.avatar_id) ?? AVATARS[0];
-        return (
-          <View key={p.id} style={styles.waitPlayer}>
-            <View style={[styles.waitAvatar, { backgroundColor: p.profiles?.avatar_color }]}>
-              <Text style={{ fontSize: 20 }}>{av.emoji}</Text>
-            </View>
-            <Text style={styles.waitPlayerName}>{p.profiles?.username}</Text>
-          </View>
-        );
-      })}
-
-      {isHost && (
-        <TouchableOpacity
-          // DEV-ONLY BYPASS — remove before opening to real users
-          style={[styles.startBtn, (players.length < 2 && !__DEV__) && { opacity: 0.4 }]}
-          onPress={onStart}
-          disabled={players.length < 2 && !__DEV__}
-        >
-          <Text style={styles.startBtnText}>
-            {players.length < 2
-              ? (__DEV__ ? 'Start (Solo Dev Test)' : 'Waiting for 2nd player...')
-              : 'Start Game!'}
-          </Text>
-        </TouchableOpacity>
-      )}
-      {!isHost && (
-        <Text style={styles.waitingHint}>Waiting for host to start...</Text>
-      )}
-    </View>
-  );
-}
-
 function QuestionPhase({ question, timeLeft, phase, buzzedPlayer, isBuzzedIn, isHost, answerInput, setAnswerInput, onBuzzIn, onSubmitAnswer, buzzScale, questionIndex, totalQuestions }: any) {
   const timerColor = timeLeft > 15 ? Colors.success : timeLeft > 7 ? Colors.accent : Colors.danger;
   const diffColor: any = { easy: Colors.success, medium: Colors.accent, hard: Colors.danger };
 
   return (
-    <ScrollView contentContainerStyle={styles.phaseContainer} keyboardShouldPersistTaps="handled">
+    <ScrollView contentContainerStyle={gameStyles.phaseContainer} keyboardShouldPersistTaps="handled">
       {/* Timer */}
-      <View style={[styles.timerRing, { borderColor: timerColor }]}>
-        <Text style={[styles.timerNumber, { color: timerColor }]}>{timeLeft}</Text>
-        <Text style={styles.timerLabel}>sec</Text>
+      <View style={[gameStyles.timerRing, { borderColor: timerColor }]}>
+        <Text style={[gameStyles.timerNumber, { color: timerColor }]}>{timeLeft}</Text>
+        <Text style={gameStyles.timerLabel}>sec</Text>
       </View>
 
       {/* Category / difficulty */}
-      <View style={styles.qMeta}>
-        <View style={[styles.qCategoryPill, { backgroundColor: getCategoryColor(question.category) }]}>
-          <Text style={styles.qCategory}>{question.category}</Text>
+      <View style={gameStyles.qMeta}>
+        <View style={[gameStyles.qCategoryPill, { backgroundColor: getCategoryColor(question.category) }]}>
+          <Text style={gameStyles.qCategory}>{question.category}</Text>
         </View>
-        <Text style={[styles.qDifficulty, { color: diffColor[question.difficulty] }]}>
+        <Text style={[gameStyles.qDifficulty, { color: diffColor[question.difficulty] }]}>
           {question.difficulty}
         </Text>
       </View>
 
       {/* Hint */}
       {question.hint && phase === 'question' && (
-        <View style={styles.hintBox}>
-          <Text style={styles.hintLabel}>Hint</Text>
-          <Text style={styles.hintText}>{question.hint}</Text>
+        <View style={gameStyles.hintBox}>
+          <Text style={gameStyles.hintLabel}>Hint</Text>
+          <Text style={gameStyles.hintText}>{question.hint}</Text>
         </View>
       )}
 
       {/* Question */}
-      <View style={styles.questionBox}>
-        <Text style={styles.questionText}>{question.question}</Text>
+      <View style={gameStyles.questionBox}>
+        <Text style={gameStyles.questionText}>{question.question}</Text>
         {question.reference && (
-          <Text style={styles.qRef}>{question.reference}</Text>
+          <Text style={gameStyles.qRef}>{question.reference}</Text>
         )}
       </View>
 
       {/* Buzz state */}
       {phase === 'question' && (
         <Animated.View style={{ transform: [{ scale: buzzScale }] }}>
-          <TouchableOpacity style={styles.buzzBtn} onPress={onBuzzIn}>
-            <Text style={styles.buzzBtnText}>I Know It!</Text>
-            <Text style={styles.buzzBtnSub}>Buzz in to stop the clock</Text>
+          <TouchableOpacity style={gameStyles.buzzBtn} onPress={onBuzzIn}>
+            <Text style={gameStyles.buzzBtnText}>I Know It!</Text>
+            <Text style={gameStyles.buzzBtnSub}>Buzz in to stop the clock</Text>
           </TouchableOpacity>
         </Animated.View>
       )}
 
       {phase === 'buzzed' && (
-        <View style={styles.buzzedContainer}>
-          <Text style={styles.buzzedLabel}>
+        <View style={gameStyles.buzzedContainer}>
+          <Text style={gameStyles.buzzedLabel}>
             {buzzedPlayer?.profiles?.username ?? 'Player'} buzzed in!
           </Text>
           {isBuzzedIn ? (
-            <View style={styles.answerContainer}>
-              <Text style={styles.answerPrompt}>Type your answer:</Text>
+            <View style={gameStyles.answerContainer}>
+              <Text style={gameStyles.answerPrompt}>Type your answer:</Text>
               <TextInput
-                style={styles.answerInput}
+                style={gameStyles.answerInput}
                 placeholder="Your answer..."
                 placeholderTextColor={Colors.textMuted}
                 value={answerInput}
@@ -511,14 +471,14 @@ function QuestionPhase({ question, timeLeft, phase, buzzedPlayer, isBuzzedIn, is
                 returnKeyType="done"
                 onSubmitEditing={onSubmitAnswer}
               />
-              <TouchableOpacity style={styles.submitBtn} onPress={onSubmitAnswer}>
-                <Text style={styles.submitBtnText}>Submit Answer</Text>
+              <TouchableOpacity style={gameStyles.submitBtn} onPress={onSubmitAnswer}>
+                <Text style={gameStyles.submitBtnText}>Submit Answer</Text>
               </TouchableOpacity>
             </View>
           ) : (
-            <View style={styles.waitBuzzed}>
+            <View style={gameStyles.waitBuzzed}>
               <ActivityIndicator color={Colors.accent} />
-              <Text style={styles.waitBuzzedText}>Waiting for their answer...</Text>
+              <Text style={gameStyles.waitBuzzedText}>Waiting for their answer...</Text>
             </View>
           )}
         </View>
@@ -526,191 +486,3 @@ function QuestionPhase({ question, timeLeft, phase, buzzedPlayer, isBuzzedIn, is
     </ScrollView>
   );
 }
-
-function RevealPhase({ question, answerResult, buzzedPlayer, isHost, onNext, onOpponentAnswer }: any) {
-  const correct = answerResult === 'correct';
-  return (
-    <View style={styles.phaseContainer}>
-      <View style={[styles.resultBanner, { backgroundColor: correct ? Colors.success : Colors.danger }]}>
-        <Text style={styles.resultEmoji}>{correct ? '✓' : '✗'}</Text>
-        <Text style={styles.resultText}>{correct ? 'Correct!' : 'Wrong!'}</Text>
-      </View>
-
-      <View style={styles.revealBox}>
-        <Text style={styles.revealLabel}>The answer was:</Text>
-        <Text style={styles.revealAnswer}>{question.answer}</Text>
-        {question.reference && <Text style={styles.revealRef}>{question.reference}</Text>}
-      </View>
-
-      <View style={styles.questionBox}>
-        <Text style={styles.questionText}>{question.question}</Text>
-      </View>
-
-      {isHost && !correct && (
-        <TouchableOpacity style={styles.oppBtn} onPress={onOpponentAnswer}>
-          <Text style={styles.oppBtnText}>Award Opponent 100 pts & Continue</Text>
-        </TouchableOpacity>
-      )}
-
-      {isHost && correct && (
-        <TouchableOpacity style={styles.nextBtn} onPress={onNext}>
-          <Text style={styles.nextBtnText}>Next Question →</Text>
-        </TouchableOpacity>
-      )}
-
-      {!isHost && (
-        <Text style={styles.waitingHint}>Host is advancing...</Text>
-      )}
-    </View>
-  );
-}
-
-function ResultsPhase({ players, myUserId, onLeave }: any) {
-  const sorted = [...players].sort((a, b) => b.score - a.score);
-  return (
-    <ScrollView contentContainerStyle={styles.phaseContainer}>
-      <Text style={styles.resultsTitle}>Game Over!</Text>
-
-      {sorted.map((p: PlayerRow, i: number) => {
-        const av = AVATARS.find((a) => a.id === p.profiles?.avatar_id) ?? AVATARS[0];
-        const isMe = p.user_id === myUserId;
-        const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : '🥉';
-        return (
-          <View key={p.id} style={[styles.resultRow, isMe && { borderColor: Colors.accent }]}>
-            <Text style={styles.resultMedal}>{medal}</Text>
-            <View style={[styles.miniAvatar, { backgroundColor: p.profiles?.avatar_color }]}>
-              <Text style={styles.miniAvatarEmoji}>{av.emoji}</Text>
-            </View>
-            <Text style={[styles.resultName, isMe && { color: Colors.accent }]}>{p.profiles?.username}</Text>
-            <Text style={styles.resultScore}>{p.score} pts</Text>
-          </View>
-        );
-      })}
-
-      <TouchableOpacity style={styles.leaveBtn} onPress={onLeave}>
-        <Text style={styles.leaveBtnText}>Back to Home</Text>
-      </TouchableOpacity>
-    </ScrollView>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: Colors.bg },
-  center: { flex: 1, backgroundColor: Colors.bg, justifyContent: 'center', alignItems: 'center' },
-  topBar: {
-    flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
-    paddingHorizontal: 16, paddingTop: 56, paddingBottom: 12,
-    backgroundColor: Colors.surface, borderBottomWidth: 1, borderBottomColor: Colors.border,
-  },
-  exitBtn: { color: Colors.danger, fontWeight: '700', fontSize: 14 },
-  roomCode: { color: Colors.textSecondary, fontSize: 13, fontWeight: '700', letterSpacing: 1 },
-  questionCounter: { color: Colors.accent, fontWeight: '800', fontSize: 14 },
-  scoreBar: {
-    flexDirection: 'row', gap: 8, padding: 12,
-    backgroundColor: Colors.surface, borderBottomWidth: 1, borderBottomColor: Colors.border,
-  },
-  scoreCard: {
-    flex: 1, backgroundColor: Colors.card, borderRadius: 16, padding: 8,
-    alignItems: 'center', borderWidth: 2, borderColor: 'transparent',
-  },
-  miniAvatar: { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
-  miniAvatarEmoji: { fontSize: 16 },
-  scoreName: { color: Colors.textSecondary, fontSize: 11, marginTop: 4 },
-  scoreValue: { color: Colors.accent, fontWeight: '800', fontSize: 16 },
-  phaseContainer: { flexGrow: 1, padding: 20, gap: 16, alignItems: 'center' },
-  // Waiting
-  waitTitle: { fontSize: 22, fontWeight: '800', color: Colors.textPrimary, marginTop: 16 },
-  codeBox: {
-    backgroundColor: Colors.surface, borderRadius: 24, padding: 24, alignItems: 'center',
-    width: '100%', ...CardShadow,
-  },
-  codeLabel: { color: Colors.textSecondary, fontSize: 13, fontWeight: '600' },
-  codeBig: { fontSize: 42, fontWeight: '900', color: Colors.accent, letterSpacing: 6, marginVertical: 8 },
-  codeHint: { color: Colors.textMuted, fontSize: 12 },
-  playerListLabel: { color: Colors.textMuted, fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 1, alignSelf: 'flex-start' },
-  waitPlayer: { flexDirection: 'row', alignItems: 'center', gap: 12, alignSelf: 'flex-start' },
-  waitAvatar: { width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center' },
-  waitPlayerName: { color: Colors.textPrimary, fontSize: 16, fontWeight: '600' },
-  startBtn: {
-    backgroundColor: Colors.accent, paddingVertical: 16, paddingHorizontal: 40, borderRadius: 22, marginTop: 16,
-    shadowColor: Colors.accent, shadowOffset: { width: 0, height: 6 }, shadowOpacity: 0.3, shadowRadius: 14, elevation: 6,
-  },
-  startBtnText: { fontSize: 18, fontWeight: '800', color: Colors.white },
-  waitingHint: { color: Colors.textMuted, fontSize: 14, textAlign: 'center', marginTop: 8 },
-  // Question
-  timerRing: {
-    width: 90, height: 90, borderRadius: 45, borderWidth: 4,
-    alignItems: 'center', justifyContent: 'center', marginTop: 8,
-  },
-  timerNumber: { fontSize: 32, fontWeight: '900' },
-  timerLabel: { color: Colors.textMuted, fontSize: 11, marginTop: -4 },
-  qMeta: { flexDirection: 'row', gap: 10, alignItems: 'center' },
-  qCategoryPill: { borderRadius: 12, paddingHorizontal: 12, paddingVertical: 4 },
-  qCategory: { color: Colors.white, fontSize: 13, fontWeight: '700' },
-  qDifficulty: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase' },
-  hintBox: {
-    backgroundColor: Colors.surface, borderRadius: 16, padding: 14, width: '100%',
-    borderLeftWidth: 4, borderLeftColor: Colors.primary, ...CardShadow,
-  },
-  hintLabel: { color: Colors.primary, fontSize: 11, fontWeight: '700', marginBottom: 4 },
-  hintText: { color: Colors.textSecondary, fontSize: 14, lineHeight: 20 },
-  questionBox: {
-    backgroundColor: Colors.surface, borderRadius: 22, padding: 20, width: '100%',
-    ...CardShadow,
-  },
-  questionText: { color: Colors.textPrimary, fontSize: 18, lineHeight: 28, fontWeight: '600', textAlign: 'center' },
-  qRef: { color: Colors.textMuted, fontSize: 11, marginTop: 10, textAlign: 'center', fontStyle: 'italic' },
-  buzzBtn: {
-    backgroundColor: Colors.accent, borderRadius: 60, width: 160, height: 160,
-    alignItems: 'center', justifyContent: 'center', marginTop: 8,
-    shadowColor: Colors.accent, shadowOpacity: 0.4, shadowRadius: 20, elevation: 10,
-  },
-  buzzBtnText: { color: Colors.white, fontSize: 20, fontWeight: '900' },
-  buzzBtnSub: { color: Colors.white, fontSize: 11, opacity: 0.8, marginTop: 4 },
-  buzzedContainer: { width: '100%', alignItems: 'center', gap: 12 },
-  buzzedLabel: { color: Colors.accent, fontSize: 18, fontWeight: '800' },
-  answerContainer: { width: '100%', gap: 10 },
-  answerPrompt: { color: Colors.textSecondary, fontSize: 14, fontWeight: '600' },
-  answerInput: {
-    backgroundColor: Colors.surface, borderRadius: 12, padding: 14,
-    color: Colors.textPrimary, fontSize: 18, borderWidth: 1, borderColor: Colors.accent,
-    textAlign: 'center',
-  },
-  submitBtn: { backgroundColor: Colors.accent, paddingVertical: 14, borderRadius: 18, alignItems: 'center' },
-  submitBtnText: { color: Colors.white, fontWeight: '700', fontSize: 16 },
-  waitBuzzed: { gap: 8, alignItems: 'center', marginTop: 16 },
-  waitBuzzedText: { color: Colors.textMuted, fontSize: 14 },
-  // Reveal
-  resultBanner: {
-    width: '100%', borderRadius: 16, padding: 20,
-    flexDirection: 'row', alignItems: 'center', gap: 12, justifyContent: 'center',
-  },
-  resultEmoji: { fontSize: 28 },
-  resultText: { fontSize: 24, fontWeight: '900', color: Colors.white },
-  revealBox: {
-    backgroundColor: Colors.surface, borderRadius: 22, padding: 20, width: '100%',
-    alignItems: 'center', ...CardShadow,
-  },
-  revealLabel: { color: Colors.textSecondary, fontSize: 13, fontWeight: '600' },
-  revealAnswer: { color: Colors.success, fontSize: 24, fontWeight: '800', marginTop: 8, textAlign: 'center' },
-  revealRef: { color: Colors.textMuted, fontSize: 12, marginTop: 8, fontStyle: 'italic' },
-  oppBtn: { backgroundColor: Colors.primary, paddingVertical: 14, paddingHorizontal: 20, borderRadius: 18, width: '100%', alignItems: 'center' },
-  oppBtnText: { color: Colors.white, fontWeight: '700', fontSize: 14 },
-  nextBtn: { backgroundColor: Colors.accent, paddingVertical: 14, paddingHorizontal: 40, borderRadius: 18 },
-  nextBtnText: { color: Colors.white, fontWeight: '700', fontSize: 16 },
-  // Results
-  resultsTitle: { fontSize: 32, fontWeight: '900', color: Colors.accent, marginTop: 8 },
-  resultRow: {
-    flexDirection: 'row', alignItems: 'center', gap: 12, width: '100%',
-    backgroundColor: Colors.surface, borderRadius: 20, padding: 14,
-    borderWidth: 2, borderColor: 'transparent', ...CardShadow,
-  },
-  resultMedal: { fontSize: 24, width: 36 },
-  resultName: { flex: 1, color: Colors.textPrimary, fontWeight: '700', fontSize: 16 },
-  resultScore: { color: Colors.accent, fontWeight: '800', fontSize: 18 },
-  leaveBtn: {
-    backgroundColor: Colors.surface, paddingVertical: 16, paddingHorizontal: 40,
-    borderRadius: 20, marginTop: 8, width: '100%', alignItems: 'center', ...CardShadow,
-  },
-  leaveBtnText: { color: Colors.textPrimary, fontWeight: '700', fontSize: 16 },
-});
