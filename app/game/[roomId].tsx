@@ -13,26 +13,9 @@ import { useAuthStore } from '../../store/authStore';
 import { useGameStore } from '../../store/gameStore';
 import { Colors, CardShadow, getCategoryColor } from '../../constants/colors';
 import { AVATARS, calcBuzzPoints, OPPONENT_MISS_POINTS } from '../../lib/gameLogic';
+import type { PlayerRow, Question } from '../../lib/gameTypes';
 
 type Phase = 'waiting' | 'question' | 'buzzed' | 'reveal' | 'results';
-
-interface PlayerRow {
-  id: string;
-  user_id: string;
-  score: number;
-  team: string | null;
-  profiles: { username: string; avatar_id: string; avatar_color: string };
-}
-
-interface Question {
-  id: string;
-  question: string;
-  answer: string;
-  category: string;
-  difficulty: string;
-  reference: string | null;
-  hint: string | null;
-}
 
 export default function GameScreen() {
   const { roomId } = useLocalSearchParams<{ roomId: string }>();
@@ -261,7 +244,7 @@ export default function GameScreen() {
   async function handleSubmitAnswer() {
     if (!question || !profile) return;
     const raw = answerInput.trim().toLowerCase();
-    const correctRaw = question.answer.trim().toLowerCase();
+    const correctRaw = (question.answer ?? '').trim().toLowerCase();
     const correct = raw === correctRaw || correctRaw.includes(raw) || raw.includes(correctRaw);
 
     const points = correct ? calcBuzzPoints(timeLeft) : 0;
