@@ -468,7 +468,7 @@ export default function GameScreen() {
         />
       )}
 
-      {phase === 'arranging' && question?.payload && 'items' in question.payload && (
+      {phase === 'arranging' && question?.type === 'ordering' && question.payload && 'items' in question.payload && (
         <OrderingPhase
           items={question.payload.items}
           timeLeft={timeLeft}
@@ -477,7 +477,7 @@ export default function GameScreen() {
         />
       )}
 
-      {phase === 'arranging' && question?.payload && 'pairs' in question.payload && (
+      {phase === 'arranging' && question?.type === 'matching' && question.payload && 'pairs' in question.payload && (
         <MatchingPhase
           pairs={question.payload.pairs}
           timeLeft={timeLeft}
