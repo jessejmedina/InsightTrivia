@@ -337,8 +337,27 @@ export default function GameScreen() {
 
   // Once every player (or, in teams mode, every team) has submitted a simultaneous-type
   // answer, the host advances the game.
+  //
+  // Guarded by a "fired" ref (reset when phase leaves 'arranging'): unlike the pre-Task-11
+  // version, this effect's dependency array must include the full `players` array (not just
+  // `players.length`) because the teams-mode branch needs each player's `.team`. But `players`
+  // gets a brand-new array reference on every `game_players` realtime UPDATE — including the
+  // score write that handleSubmitSequence performs right before inserting the sequence_submit
+  // event. That score-write UPDATE and the sequence_submit INSERT travel on two independent
+  // realtime channels with no ordering guarantee, so it's entirely possible for the score
+  // UPDATE to arrive *after* the submission that already satisfied the completion condition —
+  // which would re-run this effect (still satisfied) and schedule a second, redundant
+  // setTimeout(advanceGame) a moment later, silently skipping an extra question. The ref
+  // guard makes this effect idempotent per arranging-phase question regardless of how many
+  // times it re-fires.
+  const arrangingCompletionFiredRef = useRef(false);
+
   useEffect(() => {
-    if (phase !== 'arranging' || !isHost) return;
+    if (phase !== 'arranging') {
+      arrangingCompletionFiredRef.current = false; // reset for the next arranging question
+      return;
+    }
+    if (!isHost || arrangingCompletionFiredRef.current) return;
     const expectedCount = room?.mode === 'teams'
       ? new Set(players.map((p) => p.team).filter(Boolean)).size
       : players.length;
@@ -350,6 +369,7 @@ export default function GameScreen() {
         ).size
       : Object.keys(sequenceSubmissions).length;
     if (submittedTeamsOrPlayers >= expectedCount && expectedCount > 0) {
+      arrangingCompletionFiredRef.current = true;
       stopTimer();
       setTimeout(() => advanceGame(true), 1500);
     }
