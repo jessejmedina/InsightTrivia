@@ -11,43 +11,51 @@ interface MatchingPhaseProps {
   onSubmit: (submittedPairs: MatchPair[]) => void;
 }
 
+// Both columns are identified by their position in the original (pre-shuffle)
+// `pairs` array, not by their text value. This keeps identity stable and
+// unique even when two pairs share identical left or right text (e.g. two
+// events that both map to "Book of Exodus").
 export function MatchingPhase({ pairs, timeLeft, hasSubmitted, onSubmit }: MatchingPhaseProps) {
-  const leftItems = useMemo(() => pairs.map((p) => p.left), [pairs]);
-  const rightItems = useMemo(() => shuffleArray(pairs.map((p) => p.right)), [pairs]);
+  const leftItems = useMemo(() => pairs.map((p, index) => ({ text: p.left, index })), [pairs]);
+  const rightItems = useMemo(
+    () => shuffleArray(pairs.map((p, index) => ({ text: p.right, index }))),
+    [pairs]
+  );
 
-  const [selectedLeft, setSelectedLeft] = useState<string | null>(null);
-  const [pairing, setPairing] = useState<Record<string, string>>({}); // left -> right
+  const [selectedLeft, setSelectedLeft] = useState<number | null>(null);
+  const [pairing, setPairing] = useState<Record<number, number>>({}); // leftIndex -> rightIndex
   const hasSubmittedRef = useRef(false);
 
   const pairedRights = new Set(Object.values(pairing));
 
-  function tapLeft(left: string) {
+  function tapLeft(leftIndex: number) {
     if (hasSubmitted) return;
-    if (pairing[left]) {
+    if (pairing[leftIndex] !== undefined) {
       // already paired — tapping it again unpairs
       const next = { ...pairing };
-      delete next[left];
+      delete next[leftIndex];
       setPairing(next);
       setSelectedLeft(null);
       return;
     }
-    setSelectedLeft(left === selectedLeft ? null : left);
+    setSelectedLeft(leftIndex === selectedLeft ? null : leftIndex);
   }
 
-  function tapRight(right: string) {
+  function tapRight(rightIndex: number) {
     if (hasSubmitted) return;
-    if (pairedRights.has(right)) {
+    if (pairedRights.has(rightIndex)) {
       // unpair whichever left it was paired to
-      const leftKey = Object.keys(pairing).find((l) => pairing[l] === right);
-      if (leftKey) {
+      const leftKey = Object.keys(pairing).find((l) => pairing[Number(l)] === rightIndex);
+      if (leftKey !== undefined) {
         const next = { ...pairing };
-        delete next[leftKey];
+        delete next[Number(leftKey)];
         setPairing(next);
       }
+      setSelectedLeft(null);
       return;
     }
-    if (!selectedLeft) return;
-    setPairing({ ...pairing, [selectedLeft]: right });
+    if (selectedLeft === null) return;
+    setPairing({ ...pairing, [selectedLeft]: rightIndex });
     setSelectedLeft(null);
   }
 
@@ -56,7 +64,10 @@ export function MatchingPhase({ pairs, timeLeft, hasSubmitted, onSubmit }: Match
   function handleSubmit() {
     if (hasSubmittedRef.current) return;
     hasSubmittedRef.current = true;
-    const submittedPairs: MatchPair[] = Object.entries(pairing).map(([left, right]) => ({ left, right }));
+    const submittedPairs: MatchPair[] = Object.entries(pairing).map(([leftIndexStr, rightIndex]) => ({
+      left: pairs[Number(leftIndexStr)].left,
+      right: pairs[rightIndex].right,
+    }));
     onSubmit(submittedPairs);
   }
 
@@ -73,26 +84,26 @@ export function MatchingPhase({ pairs, timeLeft, hasSubmitted, onSubmit }: Match
         <View style={styles.matchColumn}>
           {leftItems.map((left) => (
             <TouchableOpacity
-              key={left}
+              key={left.index}
               style={[
                 styles.matchItem,
-                selectedLeft === left && styles.matchItemSelected,
-                pairing[left] && styles.matchItemPaired,
+                selectedLeft === left.index && styles.matchItemSelected,
+                pairing[left.index] !== undefined && styles.matchItemPaired,
               ]}
-              onPress={() => tapLeft(left)}
+              onPress={() => tapLeft(left.index)}
             >
-              <Text style={styles.matchItemText}>{left}</Text>
+              <Text style={styles.matchItemText}>{left.text}</Text>
             </TouchableOpacity>
           ))}
         </View>
         <View style={styles.matchColumn}>
           {rightItems.map((right) => (
             <TouchableOpacity
-              key={right}
-              style={[styles.matchItem, pairedRights.has(right) && styles.matchItemPaired]}
-              onPress={() => tapRight(right)}
+              key={right.index}
+              style={[styles.matchItem, pairedRights.has(right.index) && styles.matchItemPaired]}
+              onPress={() => tapRight(right.index)}
             >
-              <Text style={styles.matchItemText}>{right}</Text>
+              <Text style={styles.matchItemText}>{right.text}</Text>
             </TouchableOpacity>
           ))}
         </View>
