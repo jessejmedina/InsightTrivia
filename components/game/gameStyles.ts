@@ -143,4 +143,14 @@ export const gameStyles = StyleSheet.create({
   },
   orderArrowText: { color: Colors.textSecondary, fontSize: 16, fontWeight: '700' },
   submittedBanner: { color: Colors.success, fontWeight: '700', fontSize: 16, textAlign: 'center', marginTop: 8 },
+  // Matching
+  matchColumns: { flexDirection: 'row', width: '100%', gap: 12 },
+  matchColumn: { flex: 1, gap: 8 },
+  matchItem: {
+    backgroundColor: Colors.surface, borderRadius: 12, padding: 12,
+    borderWidth: 2, borderColor: Colors.border, ...CardShadow,
+  },
+  matchItemSelected: { borderColor: Colors.accent },
+  matchItemPaired: { borderColor: Colors.success, opacity: 0.6 },
+  matchItemText: { color: Colors.textPrimary, fontSize: 14, textAlign: 'center' },
 });

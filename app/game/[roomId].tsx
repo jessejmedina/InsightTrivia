@@ -12,13 +12,15 @@ import { supabase } from '../../lib/supabase';
 import { useAuthStore } from '../../store/authStore';
 import { useGameStore } from '../../store/gameStore';
 import { Colors } from '../../constants/colors';
-import { AVATARS, calcBuzzPoints, OPPONENT_MISS_POINTS, checkOrderingCorrectness, calcPartialCreditPoints } from '../../lib/gameLogic';
+import { AVATARS, calcBuzzPoints, OPPONENT_MISS_POINTS, checkOrderingCorrectness, checkMatchingCorrectness, calcPartialCreditPoints } from '../../lib/gameLogic';
+import type { MatchPair } from '../../lib/gameLogic';
 import { getInteractionMode } from '../../lib/questionTypes';
 import type { PlayerRow, Question } from '../../lib/gameTypes';
 import { gameStyles } from '../../components/game/gameStyles';
 import { WaitingPhase } from '../../components/game/WaitingPhase';
 import { QuestionPhase } from '../../components/game/QuestionPhase';
 import { OrderingPhase } from '../../components/game/OrderingPhase';
+import { MatchingPhase } from '../../components/game/MatchingPhase';
 import { RevealPhase } from '../../components/game/RevealPhase';
 import { ResultsPhase } from '../../components/game/ResultsPhase';
 
@@ -299,11 +301,20 @@ export default function GameScreen() {
     }
   }
 
-  async function handleSubmitSequence(submittedOrder: string[]) {
-    if (!question || !profile || !question.payload || !('items' in question.payload)) return;
+  async function handleSubmitSequence(submission: string[] | MatchPair[]) {
+    if (!question || !profile || !question.payload) return;
     const secondsLeft = timeLeftRef.current;
-    const correctCount = checkOrderingCorrectness(submittedOrder, question.payload.items);
-    const points = calcPartialCreditPoints(correctCount, question.payload.items.length, secondsLeft);
+
+    let correctCount: number;
+    let totalCount: number;
+    if ('items' in question.payload) {
+      correctCount = checkOrderingCorrectness(submission as string[], question.payload.items);
+      totalCount = question.payload.items.length;
+    } else {
+      correctCount = checkMatchingCorrectness(submission as MatchPair[], question.payload.pairs);
+      totalCount = question.payload.pairs.length;
+    }
+    const points = calcPartialCreditPoints(correctCount, totalCount, secondsLeft);
 
     if (myPlayer) {
       await supabase
@@ -317,7 +328,7 @@ export default function GameScreen() {
       room_id: roomId,
       event_type: 'sequence_submit',
       player_id: profile.id,
-      payload: { submission: submittedOrder, seconds_left: secondsLeft },
+      payload: { submission, seconds_left: secondsLeft },
     });
   }
 
@@ -460,6 +471,15 @@ export default function GameScreen() {
       {phase === 'arranging' && question?.payload && 'items' in question.payload && (
         <OrderingPhase
           items={question.payload.items}
+          timeLeft={timeLeft}
+          hasSubmitted={mySequenceSubmitted}
+          onSubmit={handleSubmitSequence}
+        />
+      )}
+
+      {phase === 'arranging' && question?.payload && 'pairs' in question.payload && (
+        <MatchingPhase
+          pairs={question.payload.pairs}
           timeLeft={timeLeft}
           hasSubmitted={mySequenceSubmitted}
           onSubmit={handleSubmitSequence}
