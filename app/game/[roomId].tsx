@@ -53,6 +53,9 @@ export default function GameScreen() {
   const buzzedPlayer = players.find((p) => p.user_id === buzzedUserId);
   const isBuzzedIn = buzzedUserId === profile?.id;
   const mySequenceSubmitted = !!(profile && sequenceSubmissions[profile.id]);
+  const myTeamAlreadySubmitted = room?.mode === 'teams' && myPlayer?.team
+    ? players.some((p) => p.team === myPlayer.team && sequenceSubmissions[p.user_id])
+    : false;
 
   // ── Load room ────────────────────────────────────────────────
   useEffect(() => {
@@ -332,14 +335,25 @@ export default function GameScreen() {
     });
   }
 
-  // Once every player has submitted a simultaneous-type answer, the host advances the game.
+  // Once every player (or, in teams mode, every team) has submitted a simultaneous-type
+  // answer, the host advances the game.
   useEffect(() => {
     if (phase !== 'arranging' || !isHost) return;
-    if (Object.keys(sequenceSubmissions).length >= players.length && players.length > 0) {
+    const expectedCount = room?.mode === 'teams'
+      ? new Set(players.map((p) => p.team).filter(Boolean)).size
+      : players.length;
+    const submittedTeamsOrPlayers = room?.mode === 'teams'
+      ? new Set(
+          players
+            .filter((p) => sequenceSubmissions[p.user_id])
+            .map((p) => p.team)
+        ).size
+      : Object.keys(sequenceSubmissions).length;
+    if (submittedTeamsOrPlayers >= expectedCount && expectedCount > 0) {
       stopTimer();
       setTimeout(() => advanceGame(true), 1500);
     }
-  }, [sequenceSubmissions, phase, isHost, players.length]);
+  }, [sequenceSubmissions, phase, isHost, players, room?.mode]);
 
   // Arranging-phase timeout: the setInterval in startTimer() calls handleTimeUp() via a
   // closure chain rooted in the realtime-subscription useEffect above, which freezes
@@ -472,7 +486,7 @@ export default function GameScreen() {
         <OrderingPhase
           items={question.payload.items}
           timeLeft={timeLeft}
-          hasSubmitted={mySequenceSubmitted}
+          hasSubmitted={mySequenceSubmitted || myTeamAlreadySubmitted}
           onSubmit={handleSubmitSequence}
         />
       )}
@@ -481,7 +495,7 @@ export default function GameScreen() {
         <MatchingPhase
           pairs={question.payload.pairs}
           timeLeft={timeLeft}
-          hasSubmitted={mySequenceSubmitted}
+          hasSubmitted={mySequenceSubmitted || myTeamAlreadySubmitted}
           onSubmit={handleSubmitSequence}
         />
       )}
