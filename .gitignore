@@ -45,5 +45,8 @@ node_modules
 # local reference material (not for version control)
 reference/
 
+# brainstorming companion scratch dir
+.superpowers/brainstorm/
+
 # local working data (question batches, credentials, etc.)
 data/
