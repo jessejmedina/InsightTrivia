@@ -702,8 +702,18 @@ git commit -m "docs(schema): mark free_text deprecated; re-cap seed test questio
 
 ## Task 7: Migration script — free_text → multiple_choice
 
+> **REVISED DURING EXECUTION (2026-08-31):** the plan assumed live `free_text`
+> rows carry a stored `options` array — they do not (`options` is null on all
+> 730; the v1 importer discarded options for non-MC rows). The options live in
+> the local `data/*.json` files. The migration therefore matches DB rows to
+> local questions by normalized question text and writes the options from
+> there. The 20 `schema.sql` seed questions had no options anywhere — 20
+> hand-authored MC versions were added as `data/seed-questions-mc.json`, so
+> all 730 rows now match. Approved by the user (option A).
+
 **Files:**
 - Create: `scripts/migrate-free-text-to-mc.js`
+- Create: `data/seed-questions-mc.json` (20 hand-authored MC versions of the schema seed questions; `data/` is gitignored)
 
 **Interfaces:**
 - Consumes: `.env` (`EXPO_PUBLIC_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`)
