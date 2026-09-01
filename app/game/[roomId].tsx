@@ -26,6 +26,13 @@ import { ResultsPhase } from '../../components/game/ResultsPhase';
 
 type Phase = 'waiting' | 'question' | 'buzzed' | 'arranging' | 'reveal' | 'results';
 
+const RACE_TIMER_SECONDS = 30;
+const SIMULTANEOUS_TIMER_SECONDS = 20;
+
+function timerSecondsFor(q: { type?: string | null } | null): number {
+  return getInteractionMode(q?.type) === 'simultaneous' ? SIMULTANEOUS_TIMER_SECONDS : RACE_TIMER_SECONDS;
+}
+
 export default function GameScreen() {
   const { roomId } = useLocalSearchParams<{ roomId: string }>();
   const router = useRouter();
@@ -82,8 +89,8 @@ export default function GameScreen() {
 
     if (roomData.status === 'active') {
       setPhase('question');
-      await loadQuestion(roomData.question_ids[roomData.current_question_index]);
-      startTimer();
+      const q = await loadQuestion(roomData.question_ids[roomData.current_question_index]);
+      startTimer(timerSecondsFor(q));
     } else if (roomData.status === 'finished') {
       setPhase('results');
     }
@@ -100,18 +107,15 @@ export default function GameScreen() {
     if (data) setPlayers(data as PlayerRow[]);
   }
 
-  async function loadQuestion(qid: string) {
-    const { data } = await supabase
-      .from('questions')
-      .select('*')
-      .eq('id', qid)
-      .single();
-    if (data) {
-      setQuestion(data as Question);
-      if (getInteractionMode((data as Question).type) === 'simultaneous') {
-        setPhase('arranging');
-      }
+  async function loadQuestion(qid: string): Promise<Question | null> {
+    const { data } = await supabase.from('questions').select('*').eq('id', qid).single();
+    if (!data) return null;
+    const q = data as Question;
+    setQuestion(q);
+    if (getInteractionMode(q.type) === 'simultaneous') {
+      setPhase('arranging');
     }
+    return q;
   }
 
   // ── Realtime subscriptions ───────────────────────────────────
@@ -162,15 +166,15 @@ export default function GameScreen() {
 
   function handleGameEvent(event: { event_type: string; player_id: string; payload: any }) {
     switch (event.event_type) {
-      case 'game_start':
+      case 'game_start': {
         setPhase('question');
         const startQid = event.payload.question_id;
-        loadQuestion(startQid);
         setQuestionIndex(event.payload.question_index ?? 0);
         setSequenceSubmissions({});
         advancedForIndexRef.current = null;
-        startTimer();
+        loadQuestion(startQid).then((q) => startTimer(timerSecondsFor(q)));
         break;
+      }
 
       case 'sequence_submit':
         setSequenceSubmissions((prev) => ({
@@ -199,20 +203,18 @@ export default function GameScreen() {
         loadPlayers(); // refresh scores
         break;
 
-      case 'next_question':
+      case 'next_question': {
         const nextIdx = event.payload.question_index;
         setQuestionIndex(nextIdx);
         setQuestion(null);
-        loadQuestion(event.payload.question_id);
         setBuzzedUserId(null);
-        setAnswerInput('');
         setAnswerResult(null);
         setSequenceSubmissions({});
-        setTimeLeft(30);
         setPhase('question');
         advancedForIndexRef.current = null;
-        startTimer();
+        loadQuestion(event.payload.question_id).then((q) => startTimer(timerSecondsFor(q)));
         break;
+      }
 
       case 'game_over':
         stopTimer();
@@ -223,10 +225,10 @@ export default function GameScreen() {
   }
 
   // ── Timer ────────────────────────────────────────────────────
-  function startTimer() {
+  function startTimer(durationSeconds = RACE_TIMER_SECONDS) {
     stopTimer();
-    timeLeftRef.current = 30;
-    setTimeLeft(30);
+    timeLeftRef.current = durationSeconds;
+    setTimeLeft(durationSeconds);
     timerRef.current = setInterval(() => {
       timeLeftRef.current -= 1;
       setTimeLeft(timeLeftRef.current);
