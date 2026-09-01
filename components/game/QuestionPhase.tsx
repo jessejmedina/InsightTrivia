@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { View, Text, ScrollView, TouchableOpacity, TextInput, Animated, ActivityIndicator } from 'react-native';
+import { View, Text, ScrollView, TouchableOpacity, Animated, ActivityIndicator } from 'react-native';
 import { Colors } from '../../constants/colors';
 import { getCategoryColor } from '../../constants/colors';
 import type { PlayerRow, Question } from '../../lib/gameTypes';
@@ -12,24 +12,21 @@ interface QuestionPhaseProps {
   buzzedPlayer: PlayerRow | undefined;
   isBuzzedIn: boolean;
   isHost: boolean;
-  answerInput: string;
-  setAnswerInput: (v: string) => void;
   onBuzzIn: () => void;
-  onSubmitAnswer: (chosenAnswer?: string) => void;
+  onSubmitAnswer: (chosenAnswer: string) => void;
   buzzScale: Animated.Value;
   questionIndex: number;
   totalQuestions: number;
 }
 
 export function QuestionPhase({
-  question, timeLeft, phase, buzzedPlayer, isBuzzedIn, answerInput, setAnswerInput,
+  question, timeLeft, phase, buzzedPlayer, isBuzzedIn,
   onBuzzIn, onSubmitAnswer, buzzScale,
 }: QuestionPhaseProps) {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const hasSubmittedRef = useRef(false);
   const timerColor = timeLeft > 15 ? Colors.success : timeLeft > 7 ? Colors.accent : Colors.danger;
   const diffColor: any = { easy: Colors.success, medium: Colors.accent, hard: Colors.danger };
-  const isMultipleChoice = question.type === 'multiple_choice' && Array.isArray(question.options);
 
   function handlePickOption(option: string) {
     if (hasSubmittedRef.current) return;
@@ -81,9 +78,9 @@ export function QuestionPhase({
             {buzzedPlayer?.profiles?.username ?? 'Player'} buzzed in!
           </Text>
           {isBuzzedIn ? (
-            isMultipleChoice ? (
+            Array.isArray(question.options) && question.options.length >= 2 ? (
               <View style={styles.optionsGrid}>
-                {question.options!.map((option, i) => (
+                {question.options.map((option, i) => (
                   <TouchableOpacity
                     key={i}
                     style={[styles.optionBtn, selectedOption === option && styles.optionBtnSelected]}
@@ -95,22 +92,7 @@ export function QuestionPhase({
                 ))}
               </View>
             ) : (
-              <View style={styles.answerContainer}>
-                <Text style={styles.answerPrompt}>Type your answer:</Text>
-                <TextInput
-                  style={styles.answerInput}
-                  placeholder="Your answer..."
-                  placeholderTextColor={Colors.textMuted}
-                  value={answerInput}
-                  onChangeText={setAnswerInput}
-                  autoFocus
-                  returnKeyType="done"
-                  onSubmitEditing={() => onSubmitAnswer()}
-                />
-                <TouchableOpacity style={styles.submitBtn} onPress={() => onSubmitAnswer()}>
-                  <Text style={styles.submitBtnText}>Submit Answer</Text>
-                </TouchableOpacity>
-              </View>
+              <Text style={styles.buzzedLabel}>Question unavailable — waiting for the round to advance.</Text>
             )
           ) : (
             <View style={styles.waitBuzzed}>
