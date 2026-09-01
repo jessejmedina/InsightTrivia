@@ -36,11 +36,21 @@ const supabase = createClient(url, key);
   console.log('\n[select type/options/payload/answer]');
   console.log(selErr ? 'ERROR: ' + selErr.message : 'OK sample: ' + JSON.stringify(sample));
 
+  console.log('\n[free_text row count — should be 0 after migration]');
+  {
+    const { count, error } = await supabase
+      .from('questions')
+      .select('id', { count: 'exact', head: true })
+      .eq('type', 'free_text');
+    if (error) console.log('ERROR:', error.message);
+    else console.log(count === 0 ? 'OK — no free_text rows' : `WARNING — ${count} free_text rows remain`);
+  }
+
   const testRow = {
     question: '__DIAG__ ordering constraint probe ' + Date.now(),
     answer: null,
     options: null,
-    payload: { items: ['A', 'B', 'C'] },
+    payload: { items: ['A', 'B', 'C', 'D'] },
     category: 'Test',
     difficulty: 'easy',
     type: 'ordering',
