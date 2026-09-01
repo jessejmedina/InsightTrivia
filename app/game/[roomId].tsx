@@ -44,7 +44,6 @@ export default function GameScreen() {
   const [question, setQuestion] = useState<Question | null>(null);
   const [timeLeft, setTimeLeft] = useState(30);
   const [buzzedUserId, setBuzzedUserId] = useState<string | null>(null);
-  const [answerInput, setAnswerInput] = useState('');
   const [answerResult, setAnswerResult] = useState<'correct' | 'wrong' | null>(null);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -272,15 +271,11 @@ export default function GameScreen() {
     });
   }
 
-  async function handleSubmitAnswer(chosenAnswer?: string) {
+  async function handleSubmitAnswer(chosenAnswer: string) {
     if (!question || !profile || question.answer === null) return;
-    const raw = (chosenAnswer ?? answerInput).trim().toLowerCase();
-    const correctRaw = question.answer.trim().toLowerCase();
-    const correct = raw === correctRaw || correctRaw.includes(raw) || raw.includes(correctRaw);
-
+    const correct = chosenAnswer.trim().toLowerCase() === question.answer.trim().toLowerCase();
     const points = correct ? calcBuzzPoints(timeLeft) : 0;
 
-    // Update score
     if (points > 0 && myPlayer) {
       await supabase
         .from('game_players')
@@ -293,10 +288,9 @@ export default function GameScreen() {
       room_id: roomId,
       event_type: 'answer',
       player_id: profile.id,
-      payload: { correct, points, answer: answerInput.trim() },
+      payload: { correct, points, answer: chosenAnswer.trim() },
     });
 
-    // If host: after a delay, advance
     if (isHost) {
       setTimeout(() => advanceGame(), 3000);
     }
@@ -482,8 +476,6 @@ export default function GameScreen() {
           buzzedPlayer={buzzedPlayer}
           isBuzzedIn={isBuzzedIn}
           isHost={isHost}
-          answerInput={answerInput}
-          setAnswerInput={setAnswerInput}
           onBuzzIn={handleBuzzIn}
           onSubmitAnswer={handleSubmitAnswer}
           buzzScale={buzzScale}
