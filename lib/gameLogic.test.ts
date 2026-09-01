@@ -2,23 +2,29 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { calcPartialCreditPoints, checkOrderingCorrectness, checkMatchingCorrectness } from './gameLogic';
 
-test('calcPartialCreditPoints: full accuracy, instant answer scores near max', () => {
-  const points = calcPartialCreditPoints(5, 5, 30);
-  assert.equal(points, 300);
+test('calcPartialCreditPoints: full accuracy, instant answer scores max 300', () => {
+  assert.equal(calcPartialCreditPoints(4, 4, 20), 300);
 });
 
 test('calcPartialCreditPoints: zero correct scores zero regardless of speed', () => {
-  assert.equal(calcPartialCreditPoints(0, 5, 30), 0);
+  assert.equal(calcPartialCreditPoints(0, 4, 20), 0);
 });
 
 test('calcPartialCreditPoints: partial accuracy scores proportionally', () => {
-  const points = calcPartialCreditPoints(2, 4, 30);
-  assert.equal(points, 150); // 0.5 accuracy * 300 * 1.0 speed
+  assert.equal(calcPartialCreditPoints(2, 4, 20), 150); // 0.5 * 300 * 1.0
 });
 
-test('calcPartialCreditPoints: slower answer applies the speed floor multiplier', () => {
-  const points = calcPartialCreditPoints(5, 5, 0);
-  assert.equal(points, 90); // 1.0 accuracy * 300 * 0.3 floor
+test('calcPartialCreditPoints: slow answer applies the 0.5 speed floor', () => {
+  assert.equal(calcPartialCreditPoints(4, 4, 0), 150); // 1.0 * 300 * 0.5
+});
+
+test('calcPartialCreditPoints: mid-clock scales linearly between floor and 1.0', () => {
+  assert.equal(calcPartialCreditPoints(4, 4, 15), 225); // 1.0 * 300 * 0.75
+  assert.equal(calcPartialCreditPoints(4, 4, 10), 150); // multiplier max(0.5, 0.5)
+});
+
+test('calcPartialCreditPoints: never exceeds 300 even if secondsLeft > 20', () => {
+  assert.equal(calcPartialCreditPoints(4, 4, 30), 300);
 });
 
 test('checkOrderingCorrectness: fully correct order counts every item', () => {

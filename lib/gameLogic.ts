@@ -18,12 +18,13 @@ export interface MatchPair {
 }
 
 /** Points for a simultaneous-play question (ordering/matching), scaled by
- * accuracy and by how quickly the player submitted. Mirrors calcBuzzPoints'
- * shape: full accuracy + instant submit = 300, floor of 30% of that. */
+ * accuracy and by how quickly the player submitted, against the 20s
+ * simultaneous-question clock. Full accuracy + instant submit = 300; the
+ * speed multiplier floors at 0.5 and is capped at 1.0. */
 export function calcPartialCreditPoints(correctCount: number, totalCount: number, secondsLeft: number): number {
   if (totalCount <= 0) return 0;
   const accuracyFraction = correctCount / totalCount;
-  const speedMultiplier = Math.max(0.3, secondsLeft / 30);
+  const speedMultiplier = Math.min(1, Math.max(0.5, secondsLeft / 20));
   return Math.round(accuracyFraction * 300 * speedMultiplier);
 }
 
