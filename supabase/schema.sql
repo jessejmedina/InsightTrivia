@@ -59,6 +59,11 @@ alter table questions
   add column if not exists options text[],
   add column if not exists payload jsonb;
 
+-- NOTE: 'free_text' is deprecated and unplayable as of the Question Types v2
+-- work (2026-08-31). It remains a legal constraint value only for historical
+-- rows; the importer never writes it and the client has no render path for it.
+-- Run scripts/migrate-free-text-to-mc.js to convert existing rows.
+
 alter table questions alter column answer drop not null;
 
 -- ── GAME ROOMS ───────────────────────────────────────────────
