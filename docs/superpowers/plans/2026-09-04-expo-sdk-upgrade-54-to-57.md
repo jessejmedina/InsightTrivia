@@ -19,6 +19,7 @@
   - **SDK 55**: Node.js `^20.19.4 | ^22.13.0 | ^24.3.0 | ^25.0.0` required. Installed Node is `v22.17.1` — already satisfies this and every later step.
   - **SDK 55/56**: breaking changes tied to `@expo/vector-icons`, `@react-navigation/*`, `expo-av`, `react-native-webview` — **none of these are dependencies of this repo** (verified via `package.json` grep before writing this plan), so those changes don't apply. Still worth a quick re-grep at each step in case a transitive dependency pulled one in.
   - **SDK 57**: React Native 0.86, documented as having no breaking changes from 0.85.
+- **Correction (discovered during Task 2 execution, 2026-09-04):** `expo-doctor` on SDK 56 flags a known Hermes V1 memory regression (present in Hermes `250829098.0.10`–`.0.15`, fixed in `.0.16`+), with doctor's own advice being "upgrade to Expo SDK 57 with `expo@^57.0.9` or later." This is expected and self-resolves in Task 3 — do not attempt a workaround at SDK 56. Task 3 Step 1 targets `expo@^57.0.9` specifically (not bare `^57.0.0`) to make sure the fixed Hermes build is what lands.
 - **Correction (discovered during Task 1 execution, 2026-09-04):** Expo Go on the phone only ever runs the *current* SDK (57) — it refuses to open an SDK 55 or 56 project too, not just SDK 54. There is no way to verify on-device via Expo Go at the intermediate steps. Manual regression at Task 1 and Task 2 is **web-only**; the phone/Expo Go check happens for the first time at Task 3 Step 5, once the project actually reaches SDK 57.
 - No application logic changes in this plan. If `expo-doctor` or a regression failure requires an actual code fix, make the minimal fix, note it in the commit body, and re-run the full verification sequence for that step before moving on.
 - `npm run test` must stay green with zero test-file edits throughout this plan — a failure here means the upgrade broke something, not that a test needs updating.
@@ -162,8 +163,9 @@ git commit -m "chore(deps): upgrade Expo SDK 55 -> 56"
 - [ ] **Step 1: Bump the Expo SDK package**
 
 ```bash
-npx expo install expo@^57.0.0
+npx expo install expo@^57.0.9
 ```
+(Not bare `^57.0.0` — SDK 56's `expo-doctor` run flagged a Hermes V1 memory regression fixed only in `expo@57.0.9`+; see the Global Constraints correction note.)
 
 - [ ] **Step 2: Reconcile dependencies**
 
