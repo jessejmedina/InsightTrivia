@@ -19,6 +19,7 @@
   - **SDK 55**: Node.js `^20.19.4 | ^22.13.0 | ^24.3.0 | ^25.0.0` required. Installed Node is `v22.17.1` — already satisfies this and every later step.
   - **SDK 55/56**: breaking changes tied to `@expo/vector-icons`, `@react-navigation/*`, `expo-av`, `react-native-webview` — **none of these are dependencies of this repo** (verified via `package.json` grep before writing this plan), so those changes don't apply. Still worth a quick re-grep at each step in case a transitive dependency pulled one in.
   - **SDK 57**: React Native 0.86, documented as having no breaking changes from 0.85.
+- **Correction (discovered during Task 1 execution, 2026-09-04):** Expo Go on the phone only ever runs the *current* SDK (57) — it refuses to open an SDK 55 or 56 project too, not just SDK 54. There is no way to verify on-device via Expo Go at the intermediate steps. Manual regression at Task 1 and Task 2 is **web-only**; the phone/Expo Go check happens for the first time at Task 3 Step 5, once the project actually reaches SDK 57.
 - No application logic changes in this plan. If `expo-doctor` or a regression failure requires an actual code fix, make the minimal fix, note it in the commit body, and re-run the full verification sequence for that step before moving on.
 - `npm run test` must stay green with zero test-file edits throughout this plan — a failure here means the upgrade broke something, not that a test needs updating.
 - Workstream 2 (interaction redesign) does not start until Task 4 of this plan is complete and committed.
@@ -92,12 +93,9 @@ BROWSER=none npx expo start --web --port 8081
 ```
 Sign in, create or join a room, start a game (host, `__DEV__` solo bypass is fine), and confirm: a race `multiple_choice` question shows the 4-option grid and scores on pick; an `ordering` question submits and scores; a `matching` question submits and scores; letting the timer hit 0 with no submission still auto-advances; the game reaches the results screen. Zero console errors.
 
-- [ ] **Step 8: Manual regression — Expo Go on your phone**
+- [ ] **Step 8: Confirm Expo Go still can't open this SDK (expected, not a failure)**
 
-```bash
-npx expo start
-```
-Scan the QR code with your phone's camera (or the Expo Go app's scanner). **This is the step this whole plan exists to unblock** — confirm the project actually opens in Expo Go without a version-mismatch error. Then repeat the same walkthrough as Step 7 (race question, ordering, matching, timeout, results) on the phone.
+Confirmed during execution: Expo Go's "Enter URL manually" against this dev server reports it needs SDK 57 while the project is SDK 55. This is expected — Expo Go only runs the current SDK, not a range — and is not a regression to chase. Skip on-device verification until Task 3 Step 5 (SDK 57). Web-only regression (Step 7) is sufficient to close this task.
 
 - [ ] **Step 9: Commit**
 
@@ -142,9 +140,9 @@ npm run test
 ```
 Expected: both pass, unchanged from Task 1's baseline.
 
-- [ ] **Step 5: Manual regression — web and Expo Go**
+- [ ] **Step 5: Manual regression — web only**
 
-Repeat Task 1 Steps 7 and 8 exactly (same walkthrough: race question, ordering, matching, timeout auto-advance, results screen) on both web and your phone via Expo Go.
+Repeat Task 1 Step 7's walkthrough (race question, ordering, matching, timeout auto-advance, results screen) on web. Skip Expo Go on the phone again — still SDK 56, still not the SDK 57 Expo Go requires; the first real on-device check is Task 3 Step 5.
 
 - [ ] **Step 6: Commit**
 
