@@ -5,24 +5,25 @@
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.2.0",
     "@supabase/supabase-js": "^2.112.4",
-    "expo": "^55.0.0",
-    "expo-constants": "~55.0.17",
-    "expo-linking": "~55.0.17",
-    "expo-router": "~55.0.18",
-    "expo-status-bar": "~55.0.6",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "react-native": "0.83.10",
-    "react-native-safe-area-context": "~5.6.0",
-    "react-native-screens": "~4.23.0",
+    "expo": "^56.0.0",
+    "expo-constants": "~56.0.25",
+    "expo-linking": "~56.0.17",
+    "expo-router": "~56.2.20",
+    "expo-status-bar": "~56.0.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
     "react-native-url-polyfill": "^4.0.0",
     "react-native-web": "^0.21.0",
     "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@types/node": "^22.20.1",
     "@types/react": "~19.2.10",
     "tsx": "^4.19.2",
-    "typescript": "~5.9.2"
+    "typescript": "~6.0.3"
   },
   "scripts": {
     "start": "expo start",
