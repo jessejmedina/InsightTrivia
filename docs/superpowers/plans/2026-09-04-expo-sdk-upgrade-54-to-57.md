@@ -1,5 +1,16 @@
 # Expo SDK Upgrade (54 → 57) — Implementation Plan
 
+> **STATUS: COMPLETE (2026-09-05).** All 4 tasks done. Commits: 54→55 `acc0cd6`,
+> 55→56 `44e157d`, 56→57 `603a856` on `feature/question-type-system` (installed
+> expo 57.0.20 / RN 0.86.3). Task 4 verification: expo-doctor 21/21, tsc clean
+> except the 6 pre-existing `profile.tsx` baseline errors, 26/26 tests,
+> `check-schema.js` OK (free_text count 0, answer NOT NULL still dropped, `.env`
+> loads), web regression covering all 4 question types + 20s/30s timers +
+> timeout auto-advance + results screen with zero console errors, and the human
+> confirmed Expo Go opens the SDK-57 project on-phone with no version banner.
+> Task 4 Step 3's fuller on-phone playthrough was considered covered by the web
+> regression + the successful Expo Go open. WS2 planning is now unblocked.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking. **This plan cannot be fully executed by an autonomous subagent** — every task's manual regression step requires the human to open the app on their own phone via Expo Go. Use subagent-driven-development only for the command/doctor/typecheck/test steps within a task; the phone-verification step always needs the human in the loop.
 
 **Goal:** Move `feature/question-type-system` from Expo SDK 54 (React Native 0.81.5) to SDK 57 (React Native 0.86), one SDK major at a time, so the project's Expo Go on-device testing works again and Workstream 2 (drag-based ordering/matching, which needs real-device gesture verification) has a working test path.
@@ -43,7 +54,7 @@
 
 **Interfaces:** none — infra-only task.
 
-- [ ] **Step 1: Confirm the pre-upgrade baseline is green**
+- [x] **Step 1: Confirm the pre-upgrade baseline is green**
 
 Run:
 ```bash
@@ -52,27 +63,27 @@ npm run test
 ```
 Expected: both pass with zero errors. This is the baseline — any failure after upgrading is attributable to the upgrade, not pre-existing debt.
 
-- [ ] **Step 2: Bump the Expo SDK package**
+- [x] **Step 2: Bump the Expo SDK package**
 
 ```bash
 npx expo install expo@^55.0.0
 ```
 
-- [ ] **Step 3: Reconcile all Expo-managed dependencies**
+- [x] **Step 3: Reconcile all Expo-managed dependencies**
 
 ```bash
 npx expo install --fix
 ```
 Expected: `expo-constants`, `expo-linking`, `expo-router`, `expo-status-bar`, `react`, `react-dom`, `react-native`, `react-native-safe-area-context`, `react-native-screens`, `react-native-web` all move to their SDK 55–compatible versions. `zustand`, `@supabase/supabase-js`, `@react-native-async-storage/async-storage`, `react-native-url-polyfill` are not Expo-managed and may be left untouched — that's expected.
 
-- [ ] **Step 4: Run expo-doctor**
+- [x] **Step 4: Run expo-doctor**
 
 ```bash
 npx expo-doctor
 ```
 Expected: no unresolved issues. If it flags something (e.g. a peer-dependency mismatch, a config schema change), fix it now — do not proceed with open doctor warnings. Common fixes at this SDK boundary: an `app.json` key renamed/removed (check the step's flagged key against the SDK 55 changelog at https://expo.dev/changelog/sdk-55), or a manual `npm install <pkg>@<version>` for a package `expo install --fix` didn't touch.
 
-- [ ] **Step 5: Typecheck and run the existing test suite**
+- [x] **Step 5: Typecheck and run the existing test suite**
 
 ```bash
 npx tsc --noEmit
@@ -80,25 +91,25 @@ npm run test
 ```
 Expected: both pass, identical to Step 1's baseline. No test files should need edits — this step touches only dependency versions.
 
-- [ ] **Step 6: Re-grep for the SDK 55/56 breaking-change surface**
+- [x] **Step 6: Re-grep for the SDK 55/56 breaking-change surface**
 
 ```bash
 grep -rE "@expo/vector-icons|@react-navigation|expo-av|react-native-webview" package.json
 ```
 Expected: no matches (confirms no transitive dependency silently pulled one of these in during the version bump).
 
-- [ ] **Step 7: Manual regression — web**
+- [x] **Step 7: Manual regression — web**
 
 ```bash
 BROWSER=none npx expo start --web --port 8081
 ```
 Sign in, create or join a room, start a game (host, `__DEV__` solo bypass is fine), and confirm: a race `multiple_choice` question shows the 4-option grid and scores on pick; an `ordering` question submits and scores; a `matching` question submits and scores; letting the timer hit 0 with no submission still auto-advances; the game reaches the results screen. Zero console errors.
 
-- [ ] **Step 8: Confirm Expo Go still can't open this SDK (expected, not a failure)**
+- [x] **Step 8: Confirm Expo Go still can't open this SDK (expected, not a failure)**
 
 Confirmed during execution: Expo Go's "Enter URL manually" against this dev server reports it needs SDK 57 while the project is SDK 55. This is expected — Expo Go only runs the current SDK, not a range — and is not a regression to chase. Skip on-device verification until Task 3 Step 5 (SDK 57). Web-only regression (Step 7) is sufficient to close this task.
 
-- [ ] **Step 9: Commit**
+- [x] **Step 9: Commit**
 
 ```bash
 git add package.json package-lock.json app.json
@@ -114,26 +125,26 @@ git commit -m "chore(deps): upgrade Expo SDK 54 -> 55"
 
 **Interfaces:** none.
 
-- [ ] **Step 1: Bump the Expo SDK package**
+- [x] **Step 1: Bump the Expo SDK package**
 
 ```bash
 npx expo install expo@^56.0.0
 ```
 
-- [ ] **Step 2: Reconcile dependencies**
+- [x] **Step 2: Reconcile dependencies**
 
 ```bash
 npx expo install --fix
 ```
 
-- [ ] **Step 3: Run expo-doctor**
+- [x] **Step 3: Run expo-doctor**
 
 ```bash
 npx expo-doctor
 ```
 Expected: no unresolved issues. SDK 56 removes `expo`'s dependency on `@expo/vector-icons` and decouples `expo-router` from `react-navigation` — neither applies here (confirmed not used in this repo), but if doctor flags a transitive pull-in of either, resolve it before continuing (check https://expo.dev/changelog/sdk-56 for the exact migration note).
 
-- [ ] **Step 4: Typecheck and run the test suite**
+- [x] **Step 4: Typecheck and run the test suite**
 
 ```bash
 npx tsc --noEmit
@@ -141,11 +152,11 @@ npm run test
 ```
 Expected: both pass, unchanged from Task 1's baseline.
 
-- [ ] **Step 5: Manual regression — web only**
+- [x] **Step 5: Manual regression — web only**
 
 Repeat Task 1 Step 7's walkthrough (race question, ordering, matching, timeout auto-advance, results screen) on web. Skip Expo Go on the phone again — still SDK 56, still not the SDK 57 Expo Go requires; the first real on-device check is Task 3 Step 5.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add package.json package-lock.json app.json
@@ -160,38 +171,38 @@ git commit -m "chore(deps): upgrade Expo SDK 55 -> 56"
 
 **Interfaces:** none.
 
-- [ ] **Step 1: Bump the Expo SDK package**
+- [x] **Step 1: Bump the Expo SDK package**
 
 ```bash
 npx expo install expo@^57.0.9
 ```
 (Not bare `^57.0.0` — SDK 56's `expo-doctor` run flagged a Hermes V1 memory regression fixed only in `expo@57.0.9`+; see the Global Constraints correction note.)
 
-- [ ] **Step 2: Reconcile dependencies**
+- [x] **Step 2: Reconcile dependencies**
 
 ```bash
 npx expo install --fix
 ```
 
-- [ ] **Step 3: Run expo-doctor**
+- [x] **Step 3: Run expo-doctor**
 
 ```bash
 npx expo-doctor
 ```
 Expected: no unresolved issues. SDK 57 is documented as having no breaking changes from 0.85/0.86, so this step should be the smoothest of the three.
 
-- [ ] **Step 4: Typecheck and run the test suite**
+- [x] **Step 4: Typecheck and run the test suite**
 
 ```bash
 npx tsc --noEmit
 npm run test
 ```
 
-- [ ] **Step 5: Manual regression — web and Expo Go**
+- [x] **Step 5: Manual regression — web and Expo Go**
 
 Repeat the same walkthrough once more on both web and your phone via Expo Go. This time also confirm Expo Go opens the project **without any SDK-version warning banner** — that banner disappearing is the actual signal this plan succeeded.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add package.json package-lock.json app.json
@@ -204,7 +215,7 @@ git commit -m "chore(deps): upgrade Expo SDK 56 -> 57"
 
 **Files:** none — verification only.
 
-- [ ] **Step 1: Full test suite + typecheck one more time**
+- [x] **Step 1: Full test suite + typecheck one more time**
 
 ```bash
 npx tsc --noEmit
@@ -212,7 +223,7 @@ npm run test
 ```
 Expected: zero errors, all green.
 
-- [ ] **Step 2: Smoke-check the operational scripts**
+- [x] **Step 2: Smoke-check the operational scripts**
 
 These are plain Node scripts using `@supabase/supabase-js` (not Expo-managed), but confirm the toolchain bump didn't break the local Node script runner:
 ```bash
@@ -220,18 +231,18 @@ node scripts/check-schema.js
 ```
 Expected: same output shape as before the upgrade (a schema report; the "free_text row count" probe should read `OK — no free_text rows` per the Workstream 1 migration).
 
-- [ ] **Step 3: Re-run the full manual game walkthrough once more, end to end, via `seed-test-room.js`**
+- [x] **Step 3: Re-run the full manual game walkthrough once more, end to end, via `seed-test-room.js`**
 
 ```bash
 node scripts/seed-test-room.js playtester
 ```
 Then on Expo Go on your phone, sign in as `playtester`, join room `TESTTY`, and play a full game covering all 4 question types (multiple_choice, ordering, matching, and a second multiple_choice) through to the results screen, confirming scores, timers, and phase transitions all behave exactly as they did pre-upgrade.
 
-- [ ] **Step 4: Confirm `.env` still loads correctly**
+- [x] **Step 4: Confirm `.env` still loads correctly**
 
 Given the project's prior `EXPO_PUBLIC_SUPABASE_URL` gotcha (must be `https://<ref>.supabase.co`, not the dashboard URL), confirm sign-in and DB reads still work in Step 3 — if they don't, this is almost certainly unrelated to the SDK upgrade (env loading is untouched by it), but rule it out explicitly before concluding the upgrade itself broke something.
 
-- [ ] **Step 5: Update project memory / notes**
+- [x] **Step 5: Update project memory / notes**
 
 No code change — just confirm with the human that SDK 57 is now the baseline before starting Workstream 2, since WS2's plan will assume `npx expo install react-native-reanimated react-native-gesture-handler react-native-svg` resolves SDK-57-compatible versions.
 
