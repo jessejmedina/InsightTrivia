@@ -104,7 +104,7 @@ create policy "Own update" on game_players for update using (auth.uid() = user_i
 create table if not exists game_events (
   id bigint generated always as identity primary key,
   room_id uuid not null references game_rooms(id) on delete cascade,
-  event_type text not null, -- 'game_start' | 'buzz_in' | 'answer' | 'sequence_submit' | 'next_question' | 'game_over'
+  event_type text not null, -- 'game_start' | 'buzz_in' | 'opponent_shot' | 'round_submit' | 'round_scored' | 'next_question' | 'game_over'
   player_id uuid references profiles(id),
   payload jsonb not null default '{}',
   created_at timestamptz not null default now()
