@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which ancient city am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Hebron",
+    "options": ["Hebron", "Bethel", "Shechem", "Beersheba"],
+    "reference": "Genesis 23; Numbers 13; Joshua 14; 2 Samuel 2 (cross-check: Insight on the Scriptures, Vol. 1, 'Hebron No. 1')",
+    "payload": { "clues": [
+      "Abraham settled by the big trees near me and bought a cave here to bury Sarah.",
+      "The twelve spies saw the giant Anakim living here.",
+      "Caleb drove those giants out and received me as his family inheritance.",
+      "David was anointed king over Judah here and ruled from me for seven and a half years."
+    ] }
+  },
+  {
+    "question": "Which town at the southern edge am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Beersheba",
+    "options": ["Beersheba", "Hebron", "Gerar", "Kadesh"],
+    "reference": "Genesis 21; 26; 1 Samuel 8; 1 Kings 19 (cross-check: Insight on the Scriptures, Vol. 1, 'Beer-sheba')",
+    "payload": { "clues": [
+      "My name means \"well of the oath,\" and both Abraham and Isaac dug wells and swore treaties here.",
+      "The phrase \"from Dan to me\" was used to describe the whole length of the land.",
+      "Elijah left his servant here before walking on alone into the wilderness.",
+      "Samuel's sons judged here and took bribes."
+    ] }
+  },
+  {
+    "question": "Which seaport am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Joppa",
+    "options": ["Joppa", "Caesarea", "Tyre", "Sidon"],
+    "reference": "2 Chronicles 2:16; Jonah 1:3; Acts 9-10 (cross-check: Insight on the Scriptures, Vol. 2, 'Joppa')",
+    "payload": { "clues": [
+      "Cedar logs for Solomon's temple were floated down the coast to me.",
+      "The prophet Jonah came down to me to catch a ship heading the opposite way from Nineveh.",
+      "The disciple Dorcas lived here, died here, and was raised here by Peter.",
+      "On a rooftop here Peter saw a vision of a sheet let down full of animals."
+    ] }
+  },
+  {
+    "question": "Which Roman coastal capital am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Caesarea",
+    "options": ["Caesarea", "Joppa", "Ptolemais", "Tyre"],
+    "reference": "Acts 10; 23-26 (cross-check: Insight on the Scriptures, Vol. 1, 'Caesarea')",
+    "payload": { "clues": [
+      "Herod the Great built me with a great artificial harbor and named me for the emperor.",
+      "The Roman governors of Judea lived here rather than in Jerusalem.",
+      "The officer Cornelius was stationed here when Peter came and Gentiles first received the spirit.",
+      "Paul was held here for two years and made his defense before Felix, Festus, and Agrippa."
+    ] }
+  },
+  {
+    "question": "Which village near Jerusalem am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Bethany",
+    "options": ["Bethany", "Bethphage", "Emmaus", "Bethlehem"],
+    "reference": "John 11-12; Luke 24 (cross-check: Insight on the Scriptures, Vol. 1, 'Bethany No. 1')",
+    "payload": { "clues": [
+      "I sat on the eastern slope of the Mount of Olives, less than two miles from the city.",
+      "Martha, Mary, and Lazarus lived here, and Jesus often stayed with them.",
+      "Jesus raised Lazarus from a tomb here after four days.",
+      "From near me Jesus blessed his disciples and was taken up to heaven."
+    ] }
+  },
+  {
+    "question": "Which hometown am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Nazareth",
+    "options": ["Nazareth", "Capernaum", "Cana", "Bethsaida"],
+    "reference": "Luke 1; 2; 4; John 1:46 (cross-check: Insight on the Scriptures, Vol. 2, 'Nazareth')",
+    "payload": { "clues": [
+      "I was an obscure town in the hills of Galilee, so unremarkable that people asked if anything good could come from me.",
+      "The angel Gabriel came here to tell a young woman she would bear the Son of God.",
+      "Jesus grew up here in a carpenter's household.",
+      "When he read from Isaiah in my synagogue and applied it to himself, the crowd tried to throw him off a cliff."
+    ] }
+  },
+  {
+    "question": "Which lakeside base am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Capernaum",
+    "options": ["Capernaum", "Bethsaida", "Chorazin", "Tiberias"],
+    "reference": "Matthew 4; 8; 11; Mark 1-2 (cross-check: Insight on the Scriptures, Vol. 1, 'Capernaum')",
+    "payload": { "clues": [
+      "Jesus made me his headquarters after leaving Nazareth.",
+      "Peter's house was here, and Jesus healed Peter's mother-in-law of a fever.",
+      "A Roman officer here asked Jesus to heal his servant from a distance.",
+      "Despite all the miracles done here, Jesus pronounced a woe on me for not repenting."
+    ] }
+  },
+  {
+    "question": "Which Greek trading city am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Corinth",
+    "options": ["Corinth", "Athens", "Thessalonica", "Philippi"],
+    "reference": "Acts 18; 1 & 2 Corinthians (cross-check: Insight on the Scriptures, Vol. 1, 'Corinth')",
+    "payload": { "clues": [
+      "I straddled a narrow isthmus with a harbor on each side, and I was famous for wealth and immorality.",
+      "Paul stayed here a year and a half, making tents with Aquila and Priscilla.",
+      "The Jews dragged him before the proconsul Gallio, who refused to hear the case.",
+      "Paul later wrote at least two long letters to the congregation here."
+    ] }
+  },
+  {
+    "question": "Which Macedonian colony am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Philippi",
+    "options": ["Philippi", "Thessalonica", "Berea", "Corinth"],
+    "reference": "Acts 16 (cross-check: Insight on the Scriptures, Vol. 2, 'Philippi')",
+    "payload": { "clues": [
+      "I was a Roman colony, the first city in Europe where Paul preached.",
+      "By a river outside my gate, a seller of purple cloth named Lydia became a believer.",
+      "Paul cast a spirit of divination out of a slave girl, and he and Silas were beaten and jailed.",
+      "A midnight earthquake opened the prison, and the jailer and his household were baptized."
+    ] }
+  },
+  {
+    "question": "Which city of philosophers am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Athens",
+    "options": ["Athens", "Corinth", "Ephesus", "Rome"],
+    "reference": "Acts 17:16-34 (cross-check: Insight on the Scriptures, Vol. 1, 'Athens')",
+    "payload": { "clues": [
+      "I was full of idols, and Paul's spirit was stirred as he looked around at them.",
+      "My people loved nothing better than to hear or tell some new thing.",
+      "Paul was brought to the Areopagus and spoke about an altar inscribed \"To an Unknown God.\"",
+      "When he mentioned the resurrection, some sneered, but a man named Dionysius and a woman named Damaris believed."
+    ] }
+  },
+  {
+    "question": "Which imperial capital am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Rome",
+    "options": ["Rome", "Corinth", "Ephesus", "Alexandria"],
+    "reference": "Acts 28; Romans 1 (cross-check: Insight on the Scriptures, Vol. 2, 'Rome')",
+    "payload": { "clues": [
+      "The saying was that all roads led to me.",
+      "Paul wrote a long letter to the congregation here before he had ever visited.",
+      "He finally arrived as a prisoner, and brothers came out along the road to meet him.",
+      "He spent two years here under guard in a rented house, preaching to all who came."
+    ] }
+  },
+  {
+    "question": "Which university city am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Tarsus",
+    "options": ["Tarsus", "Damascus", "Antioch", "Ephesus"],
+    "reference": "Acts 9:11, 30; 11:25; 21:39; 22:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Tarsus')",
+    "payload": { "clues": [
+      "I was the chief city of Cilicia and a center of learning.",
+      "The apostle Paul was born here and was a citizen of me by birth.",
+      "After his conversion, the brothers sent him back here for safety for several years.",
+      "Barnabas came looking for him here and brought him to Antioch to teach."
+    ] }
+  },
+  {
+    "question": "Which idol am I?",
+    "type": "progressive",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "answer": "the golden calf",
+    "options": ["the golden calf", "the bronze serpent", "Dagon", "the Asherah pole"],
+    "reference": "Exodus 32; 1 Kings 12 (cross-check: Insight on the Scriptures, Vol. 1, 'Calf, Golden')",
+    "payload": { "clues": [
+      "Aaron made me from the gold earrings of the people while Moses was up on the mountain.",
+      "The people said I was the god who had brought them out of Egypt.",
+      "Moses ground me to powder, scattered me on water, and made the people drink it.",
+      "Centuries later, Jeroboam set up two like me, at Bethel and at Dan."
+    ] }
+  },
+  {
+    "question": "Which pole-mounted object am I?",
+    "type": "progressive",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "answer": "the bronze serpent",
+    "options": ["the bronze serpent", "Aaron's rod", "the ark of the covenant", "the golden lampstand"],
+    "reference": "Numbers 21:8-9; 2 Kings 18:4; John 3:14 (cross-check: Insight on the Scriptures, Vol. 2, 'Serpent')",
+    "payload": { "clues": [
+      "God told Moses to make me and set me high on a pole in the wilderness.",
+      "Anyone bitten by the poisonous snakes who looked at me lived.",
+      "Jesus compared his own being lifted up to me.",
+      "King Hezekiah smashed me to pieces because Israel had started burning incense to me and called me Nehushtan."
+    ] }
+  },
+  {
+    "question": "Which solemn day am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "answer": "the Day of Atonement",
+    "options": ["the Day of Atonement", "Passover", "the Festival of Trumpets", "the New Moon"],
+    "reference": "Leviticus 16; 23:27-32; Hebrews 9 (cross-check: Insight on the Scriptures, Vol. 1, 'Atonement Day')",
+    "payload": { "clues": [
+      "I fall on the tenth day of the seventh month, and Israel had to afflict their souls and do no work.",
+      "Only on me could the high priest enter the innermost compartment, and only with blood.",
+      "Two goats were presented: one was sacrificed, and one was sent away alive into the wilderness.",
+      "The writer of Hebrews used me to explain the sacrifice of Christ."
+    ] }
+  },
+  {
+    "question": "Which small tribe am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Benjamin",
+    "options": ["Benjamin", "Levi", "Simeon", "Dan"],
+    "reference": "Genesis 35:16-18; Judges 20; 1 Samuel 9; Philippians 3:5 (cross-check: Insight on the Scriptures, Vol. 1, 'Benjamin No. 1')",
+    "payload": { "clues": [
+      "I descend from Jacob's youngest son, born as his mother Rachel was dying.",
+      "My warriors were known as left-handed slingers who did not miss.",
+      "A terrible civil war nearly wiped me out, leaving only 600 men.",
+      "Israel's first king came from me, and so did the apostle Paul."
+    ] }
+  }
+]

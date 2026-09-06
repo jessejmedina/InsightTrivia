@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Was this city in Asia Minor (modern Turkey), or in Greece and Macedonia?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Acts 13-20 (cross-check: Insight on the Scriptures, Vol. 1, 'Asia')",
+    "payload": { "categoryLeft": "In Asia Minor", "categoryRight": "In Greece or Macedonia", "cards": [
+      { "text": "Ephesus", "side": "left" },
+      { "text": "Corinth", "side": "right" },
+      { "text": "Philippi", "side": "right" },
+      { "text": "Colossae", "side": "left" },
+      { "text": "Thessalonica", "side": "right" },
+      { "text": "Antioch of Pisidia", "side": "left" }
+    ] }
+  },
+  {
+    "question": "In Paul's ministry, did this event take place in Asia, or in Europe?",
+    "type": "swipe",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 16-20 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "categoryLeft": "In Asia", "categoryRight": "In Europe", "cards": [
+      { "text": "The silversmiths' riot in the theater", "side": "left" },
+      { "text": "The conversion of Lydia, the seller of purple", "side": "right" },
+      { "text": "The speech at the Areopagus", "side": "right" },
+      { "text": "The seven sons of Sceva overpowered by a demon", "side": "left" },
+      { "text": "Eutychus falling from a third-story window", "side": "left" },
+      { "text": "The proconsul Gallio refusing to hear the case", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this Mediterranean island visited by Paul during his travels, or not part of his journeys?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Acts 13; 27-28 (cross-check: Insight on the Scriptures, Vol. 1, 'Cyprus')",
+    "payload": { "categoryLeft": "Not part of Paul's journeys", "categoryRight": "Visited by Paul", "cards": [
+      { "text": "Cyprus", "side": "right" },
+      { "text": "Patmos", "side": "left" },
+      { "text": "Malta", "side": "right" },
+      { "text": "Sardinia", "side": "left" },
+      { "text": "Crete", "side": "right" },
+      { "text": "The Balearic Islands off the coast of Spain", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this body of water one Jesus was beside in the Gospels, or one found only in the Hebrew Scriptures?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "The Gospels; Genesis; Exodus; 1 Kings (cross-check: Insight on the Scriptures, Vol. 1, 'Galilee, Sea of')",
+    "payload": { "categoryLeft": "Only in the Hebrew Scriptures", "categoryRight": "Jesus was there in the Gospels", "cards": [
+      { "text": "The Sea of Galilee", "side": "right" },
+      { "text": "The Salt Sea (Dead Sea)", "side": "left" },
+      { "text": "The pool of Bethesda", "side": "right" },
+      { "text": "The river Euphrates", "side": "left" },
+      { "text": "The pool of Siloam", "side": "right" },
+      { "text": "The brook Cherith", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this tribe of Israel settle in the north (toward Galilee), or in the south (near Judah)?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Joshua 15-19 (cross-check: Insight on the Scriptures, Vol. 2, 'Tribe')",
+    "payload": { "categoryLeft": "In the south", "categoryRight": "In the north", "cards": [
+      { "text": "Naphtali", "side": "right" },
+      { "text": "Judah", "side": "left" },
+      { "text": "Zebulun", "side": "right" },
+      { "text": "Simeon", "side": "left" },
+      { "text": "Asher", "side": "right" },
+      { "text": "Benjamin", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this take place on the west side of the Jordan, or the east side?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Numbers 32; Joshua 6; 2 Kings 2; John 1:28 (cross-check: Insight on the Scriptures, Vol. 2, 'Jordan')",
+    "payload": { "categoryLeft": "East of the Jordan", "categoryRight": "West of the Jordan", "cards": [
+      { "text": "John baptizing at Bethany beyond the Jordan", "side": "left" },
+      { "text": "The walls of Jericho falling", "side": "right" },
+      { "text": "Elijah being caught up to the heavens in the windstorm", "side": "left" },
+      { "text": "The transfiguration on a high mountain", "side": "right" },
+      { "text": "Reuben and Gad choosing their inheritance", "side": "left" },
+      { "text": "Deborah and Barak's battle near Mount Tabor", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In Paul's travels, was this a traveling companion of his, or a local person who became a believer and stayed?",
+    "type": "swipe",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Acts 15-18 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "categoryLeft": "A local convert", "categoryRight": "A traveling companion", "cards": [
+      { "text": "Silas", "side": "right" },
+      { "text": "Lydia of Philippi", "side": "left" },
+      { "text": "Timothy", "side": "right" },
+      { "text": "Dionysius the Areopagite", "side": "left" },
+      { "text": "Luke", "side": "right" },
+      { "text": "The jailer at Philippi", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this place in the Bible a mountain, or a valley or plain?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Exodus 19; 1 Samuel 17; Daniel 3; Zechariah 14 (cross-check: Insight on the Scriptures, Vol. 2, 'Mountain')",
+    "payload": { "categoryLeft": "A valley or plain", "categoryRight": "A mountain", "cards": [
+      { "text": "Carmel", "side": "right" },
+      { "text": "The Valley of Elah", "side": "left" },
+      { "text": "Sinai", "side": "right" },
+      { "text": "The plain of Dura", "side": "left" },
+      { "text": "The Mount of Olives", "side": "right" },
+      { "text": "The Valley of Kidron", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this letter of the Christian Greek Scriptures sent to believers in Asia Minor, or in Greece?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Paul's letters (cross-check: Insight on the Scriptures, Vol. 1, 'Galatia')",
+    "payload": { "categoryLeft": "To believers in Greece", "categoryRight": "To believers in Asia Minor", "cards": [
+      { "text": "Ephesians", "side": "right" },
+      { "text": "First Corinthians", "side": "left" },
+      { "text": "Colossians", "side": "right" },
+      { "text": "Philippians", "side": "left" },
+      { "text": "Galatians", "side": "right" },
+      { "text": "First Thessalonians", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this place chiefly associated with Abraham, or with Moses?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Genesis 12-22; Exodus 3; 13-14; Numbers 22 (cross-check: Insight on the Scriptures, Vol. 1, 'Abraham')",
+    "payload": { "categoryLeft": "With Moses", "categoryRight": "With Abraham", "cards": [
+      { "text": "Ur of the Chaldeans", "side": "right" },
+      { "text": "The burning bush at Horeb", "side": "left" },
+      { "text": "The big trees of Mamre", "side": "right" },
+      { "text": "The crossing of the Red Sea", "side": "left" },
+      { "text": "Mount Moriah", "side": "right" },
+      { "text": "The plains of Moab", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this city destroyed by God's judgment, or spared and preserved?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Genesis 19; Joshua 6; 9; Jonah 3; 2 Kings 25 (cross-check: Insight on the Scriptures, Vol. 2, 'Sodom')",
+    "payload": { "categoryLeft": "Spared", "categoryRight": "Destroyed", "cards": [
+      { "text": "Sodom", "side": "right" },
+      { "text": "Zoar, the small town Lot fled to", "side": "left" },
+      { "text": "Jericho", "side": "right" },
+      { "text": "Nineveh in the days of Jonah", "side": "left" },
+      { "text": "Jerusalem in 607 B.C.E.", "side": "right" },
+      { "text": "Gibeon, which made peace with Joshua", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Under the Law, was this animal used in sacrifice, or unclean and never offered?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Leviticus 1; 11 (cross-check: Insight on the Scriptures, Vol. 2, 'Offerings')",
+    "payload": { "categoryLeft": "Unclean, never offered", "categoryRight": "Used in sacrifice", "cards": [
+      { "text": "A bull", "side": "right" },
+      { "text": "A pig", "side": "left" },
+      { "text": "A lamb", "side": "right" },
+      { "text": "A camel", "side": "left" },
+      { "text": "A turtledove", "side": "right" },
+      { "text": "A donkey", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this person cross the Red Sea with Israel, or were they born generations later?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Exodus 14; Numbers 13-14; 1 Samuel; 2 Samuel (cross-check: Insight on the Scriptures, Vol. 1, 'Exodus')",
+    "payload": { "categoryLeft": "Born generations later", "categoryRight": "Crossed the Red Sea", "cards": [
+      { "text": "Moses", "side": "right" },
+      { "text": "Joshua the son of Nun", "side": "right" },
+      { "text": "Caleb the son of Jephunneh", "side": "right" },
+      { "text": "King David", "side": "left" },
+      { "text": "The prophet Samuel", "side": "left" },
+      { "text": "Aaron", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this Israelite leader come from a prominent or wealthy family, or from a humble or despised background?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Judges 6; 11; 1 Samuel 9; Nehemiah 1; Amos 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Gideon')",
+    "payload": { "categoryLeft": "Humble or despised background", "categoryRight": "Prominent or wealthy family", "cards": [
+      { "text": "Gideon, from the weakest clan and least in his father's house", "side": "left" },
+      { "text": "Saul, son of Kish, a man of wealth and standing", "side": "right" },
+      { "text": "Jephthah, son of a prostitute, driven out by his brothers", "side": "left" },
+      { "text": "Nehemiah, cupbearer to the king of Persia", "side": "right" },
+      { "text": "Amos, a herdsman and tender of sycamore figs", "side": "left" },
+      { "text": "David, the youngest, left to watch the sheep", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this Bible figure live to be over 900 years old, or under 200?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis 5; 25; 47; 50; Deuteronomy 34 (cross-check: Insight on the Scriptures, Vol. 2, 'Life', p. 252)",
+    "payload": { "categoryLeft": "Under 200 years", "categoryRight": "Over 900 years", "cards": [
+      { "text": "Adam", "side": "right" },
+      { "text": "Abraham", "side": "left" },
+      { "text": "Methuselah", "side": "right" },
+      { "text": "Moses", "side": "left" },
+      { "text": "Jared", "side": "right" },
+      { "text": "Joseph", "side": "left" }
+    ] }
+  }
+]

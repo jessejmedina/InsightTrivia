@@ -1,0 +1,162 @@
+[
+  {
+    "question": "According to the Bible's chronology as explained in Insight, how many years before the Common Era did the global Flood come?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Chronology'; Vol. 1, 'Deluge')",
+    "payload": { "value": 2370, "unit": "years B.C.E.", "min": 200, "max": 6000, "log": true }
+  },
+  {
+    "question": "According to the Bible's chronology in Insight, how many years before the Common Era did the Exodus from Egypt take place?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus 12 (cross-check: Insight on the Scriptures, Vol. 1, 'Exodus'; Vol. 1, 'Chronology')",
+    "payload": { "value": 1513, "unit": "years B.C.E.", "min": 200, "max": 5000, "log": true }
+  },
+  {
+    "question": "According to Insight's chronology, how many years before the Common Era did the kingdom split into Israel and Judah after Solomon's death?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "1 Kings 12 (cross-check: Insight on the Scriptures, Vol. 1, 'Chronology')",
+    "payload": { "value": 997, "unit": "years B.C.E.", "min": 100, "max": 4000, "log": true }
+  },
+  {
+    "question": "According to Insight's chronology, how many years before the Common Era did Babylon destroy Jerusalem and its temple?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "2 Kings 25 (cross-check: Insight on the Scriptures, Vol. 1, 'Chronology'; Vol. 2, 'Jerusalem')",
+    "payload": { "value": 607, "unit": "years B.C.E.", "min": 50, "max": 3000, "log": true }
+  },
+  {
+    "question": "According to Insight's chronology, how many years before the Common Era did the Jewish exiles return to Jerusalem from Babylon?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Ezra 1-3 (cross-check: Insight on the Scriptures, Vol. 1, 'Cyrus'; Vol. 1, 'Chronology')",
+    "payload": { "value": 537, "unit": "years B.C.E.", "min": 50, "max": 3000, "log": true }
+  },
+  {
+    "question": "How many times did Elijah send his servant to look toward the sea before a small cloud appeared?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "1 Kings 18:43-44 (cross-check: Insight on the Scriptures, Vol. 1, 'Elijah')",
+    "payload": { "value": 7, "unit": "times", "min": 1, "max": 25 }
+  },
+  {
+    "question": "How many times did the boy Elisha revived sneeze before he opened his eyes?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "2 Kings 4:35 (cross-check: Insight on the Scriptures, Vol. 1, 'Elisha')",
+    "payload": { "value": 7, "unit": "times", "min": 1, "max": 25 }
+  },
+  {
+    "question": "How many nations greater and mightier than Israel did God say he would clear away before them in Canaan?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Deuteronomy 7:1 (cross-check: Insight on the Scriptures, Vol. 1, 'Canaan, Canaanite')",
+    "payload": { "value": 7, "unit": "nations", "min": 1, "max": 25 }
+  },
+  {
+    "question": "Of every clean animal, how many pairs did Noah take into the ark?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 7:2 (cross-check: Insight on the Scriptures, Vol. 1, 'Ark No. 1')",
+    "payload": { "value": 7, "unit": "pairs", "min": 1, "max": 25 }
+  },
+  {
+    "question": "The judge Abdon's forty sons and thirty grandsons rode on how many donkeys?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Judges 12:14 (cross-check: Insight on the Scriptures, Vol. 1, 'Abdon No. 4')",
+    "payload": { "value": 70, "unit": "donkeys", "min": 5, "max": 260 }
+  },
+  {
+    "question": "How many towns in Gilead did the thirty sons of the judge Jair hold?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Judges 10:4 (cross-check: Insight on the Scriptures, Vol. 2, 'Jair No. 2')",
+    "payload": { "value": 30, "unit": "towns", "min": 3, "max": 120 }
+  },
+  {
+    "question": "How many Edomites did Abishai strike down in the Valley of Salt?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Chronicles 18:12 (cross-check: Insight on the Scriptures, Vol. 1, 'Abishai')",
+    "payload": { "value": 18000, "unit": "men", "min": 1000, "max": 100000, "log": true }
+  },
+  {
+    "question": "After David defeated Hadadezer, how many chariot horses did he keep, hamstringing all the rest?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Samuel 8:4 (cross-check: Insight on the Scriptures, Vol. 1, 'Hadadezer')",
+    "payload": { "value": 100, "unit": "horses", "min": 10, "max": 400 }
+  },
+  {
+    "question": "King Rehoboam had 28 sons and how many daughters?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 11:21 (cross-check: Insight on the Scriptures, Vol. 2, 'Rehoboam')",
+    "payload": { "value": 60, "unit": "daughters", "min": 5, "max": 250 }
+  },
+  {
+    "question": "For how many months were the young women given beauty treatments before going in to King Ahasuerus?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Esther 2:12 (cross-check: Insight on the Scriptures, Vol. 1, 'Esther, Book Of')",
+    "payload": { "value": 12, "unit": "months", "min": 1, "max": 40 }
+  },
+  {
+    "question": "How many sons of Haman were impaled after his downfall?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Esther 9:10 (cross-check: Insight on the Scriptures, Vol. 1, 'Haman')",
+    "payload": { "value": 10, "unit": "sons", "min": 1, "max": 40 }
+  },
+  {
+    "question": "When Jesus fed the 5,000, the people sat down in groups of about how many?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Mark 6:40 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "value": 50, "unit": "people", "min": 5, "max": 300 }
+  },
+  {
+    "question": "In Jesus' parable of the two debtors, one owed 500 denarii and the other owed how many?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Luke 7:41 (cross-check: Insight on the Scriptures, Vol. 1, 'Debt, Debtor')",
+    "payload": { "value": 50, "unit": "denarii", "min": 5, "max": 300 }
+  },
+  {
+    "question": "How many sons of Sceva, a Jewish chief priest, tried to expel demons using the name of Jesus at Ephesus?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 19:14 (cross-check: Insight on the Scriptures, Vol. 2, 'Sceva')",
+    "payload": { "value": 7, "unit": "sons", "min": 1, "max": 25 }
+  },
+  {
+    "question": "For how many years did Paul say he had not stopped warning the Ephesian elders night and day, with tears?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Acts 20:31 (cross-check: Insight on the Scriptures, Vol. 1, 'Ephesus')",
+    "payload": { "value": 3, "unit": "years", "min": 1, "max": 15 }
+  }
+]

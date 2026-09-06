@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Roughly how many shekels made up one talent, the largest common weight in Israel?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Exodus 38:25-26 (cross-check: Insight on the Scriptures, Vol. 2, 'Weights and Measures')",
+    "payload": { "value": 3000, "unit": "shekels", "min": 100, "max": 15000, "log": true }
+  },
+  {
+    "question": "Every how many years was the Jubilee to be proclaimed throughout the land of Israel?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Leviticus 25:10 (cross-check: Insight on the Scriptures, Vol. 2, 'Jubilee')",
+    "payload": { "value": 50, "unit": "years", "min": 5, "max": 200 }
+  },
+  {
+    "question": "Every how many years was the land of Israel to lie fallow for a sabbath rest?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Leviticus 25:4 (cross-check: Insight on the Scriptures, Vol. 2, 'Sabbath Year')",
+    "payload": { "value": 7, "unit": "years", "min": 1, "max": 30 }
+  },
+  {
+    "question": "How many days after the offering of the firstfruits sheaf did the Festival of Weeks (Pentecost) fall?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Leviticus 23:15-16 (cross-check: Insight on the Scriptures, Vol. 2, 'Festival of Weeks')",
+    "payload": { "value": 50, "unit": "days", "min": 5, "max": 200 }
+  },
+  {
+    "question": "How many omers of manna was each person to gather per day in the wilderness?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Exodus 16:16 (cross-check: Insight on the Scriptures, Vol. 2, 'Manna')",
+    "payload": { "value": 1, "unit": "omers", "min": 0, "max": 12 }
+  },
+  {
+    "question": "In Israel's second wilderness census, how many men aged 20 and up were counted for the army?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Numbers 26:51 (cross-check: Insight on the Scriptures, Vol. 1, 'Census')",
+    "payload": { "value": 601730, "unit": "men", "min": 40000, "max": 3000000, "log": true }
+  },
+  {
+    "question": "How many fighting men did the tribe of Judah field in the first wilderness census, the largest of all the tribes?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Numbers 1:27 (cross-check: Insight on the Scriptures, Vol. 2, 'Judah, Tribe of')",
+    "payload": { "value": 74600, "unit": "men", "min": 6000, "max": 400000, "log": true }
+  },
+  {
+    "question": "How many fighting men did the tribe of Manasseh have in the first wilderness census, the smallest of all the tribes?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Numbers 1:35 (cross-check: Insight on the Scriptures, Vol. 2, 'Manasseh No. 3')",
+    "payload": { "value": 32200, "unit": "men", "min": 3000, "max": 200000, "log": true }
+  },
+  {
+    "question": "How many sons of Aaron were consecrated to serve as priests alongside him?",
+    "type": "estimation",
+    "category": "Tabernacle",
+    "difficulty": "medium",
+    "reference": "Exodus 28:1 (cross-check: Insight on the Scriptures, Vol. 1, 'Aaron')",
+    "payload": { "value": 4, "unit": "sons", "min": 1, "max": 15 }
+  },
+  {
+    "question": "How many loaves of showbread were set out on the golden table each Sabbath?",
+    "type": "estimation",
+    "category": "Tabernacle",
+    "difficulty": "medium",
+    "reference": "Leviticus 24:5 (cross-check: Insight on the Scriptures, Vol. 2, 'Showbread')",
+    "payload": { "value": 12, "unit": "loaves", "min": 1, "max": 40 }
+  },
+  {
+    "question": "How many lamps did the golden lampstand of the tabernacle hold?",
+    "type": "estimation",
+    "category": "Tabernacle",
+    "difficulty": "medium",
+    "reference": "Exodus 25:37 (cross-check: Insight on the Scriptures, Vol. 2, 'Lampstand')",
+    "payload": { "value": 7, "unit": "lamps", "min": 1, "max": 25 }
+  },
+  {
+    "question": "How many engraved stones, one for each tribe, were set in the high priest's breastpiece?",
+    "type": "estimation",
+    "category": "Tabernacle",
+    "difficulty": "medium",
+    "reference": "Exodus 28:21 (cross-check: Insight on the Scriptures, Vol. 1, 'Breastpiece')",
+    "payload": { "value": 12, "unit": "stones", "min": 2, "max": 40 }
+  },
+  {
+    "question": "For how many months did the ark of the covenant stay at the house of Obed-edom, blessing his household?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Samuel 6:11 (cross-check: Insight on the Scriptures, Vol. 2, 'Obed-edom No. 2')",
+    "payload": { "value": 3, "unit": "months", "min": 1, "max": 24 }
+  },
+  {
+    "question": "How old was Josiah when, in the eighth year of his reign, he began to seek the God of David?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 34:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Josiah')",
+    "payload": { "value": 16, "unit": "years old", "min": 3, "max": 70 }
+  },
+  {
+    "question": "How many children did Job have after his restoration (the same number as before)?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Job 42:13 (cross-check: Insight on the Scriptures, Vol. 2, 'Job, Book Of', p. 81)",
+    "payload": { "value": 10, "unit": "children", "min": 2, "max": 40 }
+  },
+  {
+    "question": "With how many talents of gold did Solomon overlay the Most Holy compartment of the temple?",
+    "type": "estimation",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 3:8 (cross-check: Insight on the Scriptures, Vol. 2, 'Most Holy')",
+    "payload": { "value": 600, "unit": "talents", "min": 50, "max": 3000 }
+  },
+  {
+    "question": "How many craftsmen and metalworkers did Nebuchadnezzar deport with King Jehoiachin, per 2 Kings?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "2 Kings 24:16 (cross-check: Insight on the Scriptures, Vol. 2, 'Jehoiachin')",
+    "payload": { "value": 1000, "unit": "workers", "min": 50, "max": 6000 }
+  },
+  {
+    "question": "How many singers returned from Babylon with Zerubbabel, according to Ezra's list?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Ezra 2:65 (cross-check: Insight on the Scriptures, Vol. 2, 'Zerubbabel')",
+    "payload": { "value": 200, "unit": "singers", "min": 20, "max": 1000 }
+  },
+  {
+    "question": "One out of how many of the people was chosen by lot to move into the city of Jerusalem in Nehemiah's day?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Nehemiah 11:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Nehemiah, Book Of')",
+    "payload": { "value": 10, "unit": "people", "min": 2, "max": 40 }
+  },
+  {
+    "question": "How many kinds of gift did the astrologers present to the young child Jesus?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 2:11 (cross-check: Insight on the Scriptures, Vol. 1, 'Gift')",
+    "payload": { "value": 3, "unit": "kinds of gift", "min": 1, "max": 12 }
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which high priest of the return am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Joshua",
+    "options": ["Joshua", "Zadok", "Eli", "Abiathar"],
+    "reference": "Ezra 3; Haggai 1; Zechariah 3 (cross-check: Insight on the Scriptures, Vol. 2, 'Joshua No. 4')",
+    "payload": { "clues": [
+      "I served as high priest when the exiles came back from Babylon.",
+      "The prophet Zechariah saw me in filthy garments, with Satan standing to accuse me, until an angel had me reclothed in clean robes.",
+      "Together with the governor Zerubbabel, I rebuilt the altar and began the temple.",
+      "I share my name with the military leader who led Israel into the land centuries before me."
+    ] }
+  },
+  {
+    "question": "Which mocking official am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Tobiah",
+    "options": ["Tobiah", "Sanballat", "Geshem", "Rehum"],
+    "reference": "Nehemiah 2; 4; 6; 13 (cross-check: Insight on the Scriptures, Vol. 2, 'Tobiah No. 2')",
+    "payload": { "clues": [
+      "I was called the Ammonite servant, and I opposed the rebuilding of Jerusalem's wall.",
+      "I sneered that if even a fox climbed on their wall, it would break down their stonework.",
+      "I was tied by marriage to many nobles of Judah, who kept praising me to the governor.",
+      "While the governor was away, a priest gave me a room in the temple courtyard, and on his return he threw my furniture out."
+    ] }
+  },
+  {
+    "question": "Which replacement apostle am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "answer": "Matthias",
+    "options": ["Matthias", "Barsabbas", "Barnabas", "Stephen"],
+    "reference": "Acts 1:15-26 (cross-check: Insight on the Scriptures, Vol. 2, 'Matthias')",
+    "payload": { "clues": [
+      "I had been with Jesus from his baptism until the day he was taken up.",
+      "After Judas fell away, the remaining eleven wanted a twelfth witness of the resurrection.",
+      "Two men were put forward, and the disciples prayed and cast lots.",
+      "The lot fell on me, and I was numbered with the eleven apostles."
+    ] }
+  },
+  {
+    "question": "Which traveler to Emmaus am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Cleopas",
+    "options": ["Cleopas", "Bartholomew", "Nathanael", "Nicodemus"],
+    "reference": "Luke 24:13-35 (cross-check: Insight on the Scriptures, Vol. 1, 'Cleopas')",
+    "payload": { "clues": [
+      "I was walking with a companion to a village about seven miles from Jerusalem, three days after the crucifixion.",
+      "A stranger caught up with us and asked what we were discussing so sadly.",
+      "We told him we had hoped the man who was crucified would be the one to set Israel free.",
+      "Our hearts burned as he explained the Scriptures, and we recognized him only when he broke the bread."
+    ] }
+  },
+  {
+    "question": "Which woman who supported Jesus am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Joanna",
+    "options": ["Joanna", "Susanna", "Salome", "Mary of Bethany"],
+    "reference": "Luke 8:1-3; 24:10 (cross-check: Insight on the Scriptures, Vol. 2, 'Joanna')",
+    "payload": { "clues": [
+      "My husband, Chuza, was a man over the household of Herod Antipas.",
+      "I was one of several women who traveled with Jesus and supported the group out of our own belongings.",
+      "Jesus had cured me of an illness.",
+      "I was among the women who found the empty tomb and told the apostles, who thought it was nonsense."
+    ] }
+  },
+  {
+    "question": "Which ambitious mother am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Salome",
+    "options": ["Salome", "Herodias", "Elizabeth", "Mary"],
+    "reference": "Matthew 20:20-24; 27:56; Mark 16:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Salome No. 1')",
+    "payload": { "clues": [
+      "Two of my sons were fishermen who left their nets to follow Jesus.",
+      "I once knelt before him and asked that they sit at his right and left in his kingdom.",
+      "The other ten apostles were indignant with my sons over the request.",
+      "I stood watching the crucifixion, and came to the tomb with spices."
+    ] }
+  },
+  {
+    "question": "Which synagogue leader am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Jairus",
+    "options": ["Jairus", "Nicodemus", "Zacchaeus", "Bartimaeus"],
+    "reference": "Mark 5:22-43 (cross-check: Insight on the Scriptures, Vol. 2, 'Jairus')",
+    "payload": { "clues": [
+      "I was a presiding officer of the synagogue, and I fell at Jesus' feet begging him to come.",
+      "My twelve-year-old daughter was dying.",
+      "On the way, a sick woman touched Jesus and there was a delay, and then word came that my girl had died.",
+      "Jesus told me not to fear, took her by the hand, and said, \"Little girl, get up.\""
+    ] }
+  },
+  {
+    "question": "Which servant whose ear was healed am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Malchus",
+    "options": ["Malchus", "Barabbas", "the centurion", "Zacchaeus"],
+    "reference": "John 18:10; Luke 22:50-51 (cross-check: Insight on the Scriptures, Vol. 2, 'Malchus')",
+    "payload": { "clues": [
+      "I was a slave of the high priest.",
+      "I was part of the crowd that came with torches and clubs to arrest Jesus at night.",
+      "An impulsive disciple drew a sword and cut off my right ear.",
+      "Jesus touched the place, healed it, and told the disciple to put the sword away."
+    ] }
+  },
+  {
+    "question": "Which feast am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "answer": "Passover",
+    "options": ["Passover", "Pentecost", "the Festival of Booths", "Purim"],
+    "reference": "Exodus 12; Luke 22 (cross-check: Insight on the Scriptures, Vol. 2, 'Passover')",
+    "payload": { "clues": [
+      "I am kept on the fourteenth day of the first month, toward evening.",
+      "A year-old male lamb without defect is roasted whole and eaten with bitter greens and unleavened bread.",
+      "I recall the night the destroyer passed over the houses in Egypt marked with blood.",
+      "Jesus instituted a new observance on this very night."
+    ] }
+  },
+  {
+    "question": "Which festival am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "answer": "the Festival of Booths",
+    "options": ["the Festival of Booths", "the Festival of Weeks", "the Festival of Trumpets", "the Day of Atonement"],
+    "reference": "Leviticus 23:33-43; John 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Festival of Booths')",
+    "payload": { "clues": [
+      "I begin on the fifteenth day of the seventh month and last seven days, with a solemn assembly on the eighth.",
+      "The people live in temporary shelters made of leafy branches.",
+      "I mark the final ingathering of the harvest and recall the wilderness journey.",
+      "It was during me that Jesus stood up and called out about rivers of living water."
+    ] }
+  },
+  {
+    "question": "Which plague of Egypt am I?",
+    "type": "progressive",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "answer": "the death of the firstborn",
+    "options": ["the death of the firstborn", "the plague of hail", "the plague of darkness", "the plague of frogs"],
+    "reference": "Exodus 11-12 (cross-check: Insight on the Scriptures, Vol. 2, 'Plague')",
+    "payload": { "clues": [
+      "I was the last and most terrible of ten blows against Egypt.",
+      "At midnight, from Pharaoh's palace to the prisoner's dungeon, the firstborn of every household died.",
+      "Israel was spared by marking their doorframes with the blood of a lamb.",
+      "That same night, Pharaoh finally drove the people out of his land."
+    ] }
+  },
+  {
+    "question": "Which sacred object am I?",
+    "type": "progressive",
+    "category": "Tabernacle",
+    "difficulty": "medium",
+    "answer": "the ark of the covenant",
+    "options": ["the ark of the covenant", "the golden lampstand", "the altar of burnt offering", "the ephod"],
+    "reference": "Exodus 25; 37; Joshua 3; 1 Samuel 5 (cross-check: Insight on the Scriptures, Vol. 1, 'Ark of the Covenant')",
+    "payload": { "clues": [
+      "I was a chest of acacia wood covered with gold, with a solid gold lid and two cherubim.",
+      "I held the two stone tablets, and for a time a jar of manna and a budded rod.",
+      "The Levites carried me on poles, and I led Israel across the Jordan on dry ground.",
+      "The Philistines captured me once, and plagues broke out wherever they set me down."
+    ] }
+  },
+  {
+    "question": "Which staff am I?",
+    "type": "progressive",
+    "category": "Tabernacle",
+    "difficulty": "hard",
+    "answer": "Aaron's rod",
+    "options": ["Aaron's rod", "Moses' staff", "the bronze serpent", "the golden calf"],
+    "reference": "Numbers 17 (cross-check: Insight on the Scriptures, Vol. 1, 'Aaron's Rod')",
+    "payload": { "clues": [
+      "I was one of twelve staffs, one per tribal chief, laid before God overnight to settle a dispute.",
+      "By morning only I had sprouted, blossomed, and produced ripe almonds.",
+      "I was kept in front of the ark as a warning sign against rebels.",
+      "I proved that God had chosen the tribe of Levi for the priesthood."
+    ] }
+  },
+  {
+    "question": "Which tribe am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Levi",
+    "options": ["Levi", "Judah", "Benjamin", "Reuben"],
+    "reference": "Numbers 18; Joshua 21 (cross-check: Insight on the Scriptures, Vol. 2, 'Levites')",
+    "payload": { "clues": [
+      "I received no block of territory of my own when Canaan was divided.",
+      "Instead I was given forty-eight towns scattered among the other tribes.",
+      "My descendants served at the sanctuary, and only one of my families could provide priests.",
+      "God told me that he himself was my inheritance."
+    ] }
+  },
+  {
+    "question": "Which lookout mountain am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Mount Nebo",
+    "options": ["Mount Nebo", "Mount Carmel", "Mount Tabor", "Mount Gilboa"],
+    "reference": "Deuteronomy 34 (cross-check: Insight on the Scriptures, Vol. 2, 'Nebo, Mount')",
+    "payload": { "clues": [
+      "I rise east of the Jordan, directly across from Jericho.",
+      "From my summit a 120-year-old leader was shown the whole land he would never enter.",
+      "He died on me, and God buried him in a nearby valley.",
+      "To this day no one knows the exact place of his grave."
+    ] }
+  },
+  {
+    "question": "Which garden am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Gethsemane",
+    "options": ["Gethsemane", "Bethany", "Bethphage", "the pool of Siloam"],
+    "reference": "Matthew 26:36-50; John 18:1 (cross-check: Insight on the Scriptures, Vol. 1, 'Gethsemane')",
+    "payload": { "clues": [
+      "My name means \"oil press,\" and I lay among olive trees on a slope east of Jerusalem.",
+      "Jesus often came here with his disciples.",
+      "On his last night he prayed here so intensely that his sweat became like drops of blood.",
+      "Here Judas arrived with a crowd and identified him with a kiss."
+    ] }
+  }
+]

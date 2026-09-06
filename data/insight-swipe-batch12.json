@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Is this one of the Ten Commandments, or one of Jesus' Beatitudes ('Happy are...')?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Exodus 20; Matthew 5 (cross-check: Insight on the Scriptures, Vol. 2, 'Ten Words')",
+    "payload": { "categoryLeft": "A Beatitude", "categoryRight": "A Ten Commandment", "cards": [
+      { "text": "\"You must not murder\"", "side": "right" },
+      { "text": "\"Happy are the peacemakers\"", "side": "left" },
+      { "text": "\"Remember the Sabbath day to keep it holy\"", "side": "right" },
+      { "text": "\"Happy are those conscious of their spiritual need\"", "side": "left" },
+      { "text": "\"Honor your father and your mother\"", "side": "right" },
+      { "text": "\"Happy are the mild-tempered\"", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this event happen in the reign of King David, or the reign of King Solomon?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "2 Samuel; 1 Kings 1-11 (cross-check: Insight on the Scriptures, Vol. 2, 'Solomon')",
+    "payload": { "categoryLeft": "Reign of David", "categoryRight": "Reign of Solomon", "cards": [
+      { "text": "Bringing the ark up to Jerusalem", "side": "left" },
+      { "text": "The visit of the queen of Sheba", "side": "right" },
+      { "text": "The census that brought a plague on Israel", "side": "left" },
+      { "text": "The dedication of the first temple", "side": "right" },
+      { "text": "The revolt of Absalom", "side": "left" },
+      { "text": "The judgment offering to divide a living baby with a sword", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In the flow of the Bible's story, does this book come before the Babylonian exile, or after the return from it?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "The Hebrew Scriptures (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": { "categoryLeft": "Before the exile", "categoryRight": "After the return", "cards": [
+      { "text": "Judges", "side": "left" },
+      { "text": "Ezra", "side": "right" },
+      { "text": "First Samuel", "side": "left" },
+      { "text": "Nehemiah", "side": "right" },
+      { "text": "Second Kings", "side": "left" },
+      { "text": "Haggai", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a miracle of provision (food, water, healing), or a miracle of judgment (destruction or plague)?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis 7; Exodus 16; Numbers 16; 2 Kings 1; 4; Luke 17 (cross-check: Insight on the Scriptures, Vol. 2, 'Miracles')",
+    "payload": { "categoryLeft": "A miracle of judgment", "categoryRight": "A miracle of provision", "cards": [
+      { "text": "Manna appearing on the ground each morning", "side": "right" },
+      { "text": "The earth opening to swallow Korah and his followers", "side": "left" },
+      { "text": "The widow's jar of oil that kept pouring", "side": "right" },
+      { "text": "Fire consuming two companies of fifty soldiers", "side": "left" },
+      { "text": "The ten lepers cleansed as they went", "side": "right" },
+      { "text": "The Flood that covered the earth", "side": "left" }
+    ] }
+  },
+  {
+    "question": "In the Gospels, was this a Gentile (non-Jew) who showed faith, or a Jewish opponent of Jesus?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Matthew 8; 15; 27; Mark 3 (cross-check: Insight on the Scriptures, Vol. 1, 'Faith')",
+    "payload": { "categoryLeft": "A Jewish opponent of Jesus", "categoryRight": "A Gentile who showed faith", "cards": [
+      { "text": "The Roman army officer at Capernaum", "side": "right" },
+      { "text": "The Pharisees who plotted with the Herodians against him", "side": "left" },
+      { "text": "The Syrophoenician woman begging for her daughter", "side": "right" },
+      { "text": "The chief priests who paid the soldiers to lie about the tomb", "side": "left" },
+      { "text": "The astrologers who came from the east", "side": "right" },
+      { "text": "The crowd that shouted, \"Take him away! Impale him!\"", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this book of the Bible written originally in Hebrew, or in Greek?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "The Bible (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": { "categoryLeft": "Originally in Greek", "categoryRight": "Originally in Hebrew", "cards": [
+      { "text": "Isaiah", "side": "right" },
+      { "text": "The Gospel of Luke", "side": "left" },
+      { "text": "Psalms", "side": "right" },
+      { "text": "The letter to the Romans", "side": "left" },
+      { "text": "Genesis", "side": "right" },
+      { "text": "Revelation", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this event take place during the day, or at night?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 32; Exodus 12; Joshua 10; 1 Kings 18; 2 Kings 19; Acts 10 (cross-check: Insight on the Scriptures, Vol. 1, 'Day')",
+    "payload": { "categoryLeft": "During the day", "categoryRight": "At night", "cards": [
+      { "text": "Jacob wrestling until the break of dawn", "side": "right" },
+      { "text": "Elijah taunting the prophets of Baal at midday", "side": "left" },
+      { "text": "Israel leaving Egypt after the tenth plague", "side": "right" },
+      { "text": "Joshua's long day, when the sun did not hurry to set", "side": "left" },
+      { "text": "The angel striking down the camp of the Assyrians", "side": "right" },
+      { "text": "Peter's vision of the sheet, at about the sixth hour", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this a physical sign or token of a covenant, or not?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Genesis 9; 17; Exodus 31 (cross-check: Insight on the Scriptures, Vol. 1, 'Covenant')",
+    "payload": { "categoryLeft": "Not a covenant sign", "categoryRight": "A covenant sign", "cards": [
+      { "text": "The rainbow in the cloud", "side": "right" },
+      { "text": "The bush that burned but was not consumed", "side": "left" },
+      { "text": "Circumcision", "side": "right" },
+      { "text": "The pillar of cloud leading Israel", "side": "left" },
+      { "text": "The weekly sabbath", "side": "right" },
+      { "text": "The parting of the sea", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this take place at Bethlehem, or at Nazareth?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Ruth 2; 1 Samuel 16; Luke 1-2; 4 (cross-check: Insight on the Scriptures, Vol. 1, 'Bethlehem')",
+    "payload": { "categoryLeft": "At Nazareth", "categoryRight": "At Bethlehem", "cards": [
+      { "text": "The shepherds hearing the announcement of the angels", "side": "right" },
+      { "text": "Gabriel telling Mary she would conceive a son", "side": "left" },
+      { "text": "Samuel anointing the youngest son of Jesse", "side": "right" },
+      { "text": "Jesus reading from Isaiah and nearly being thrown off a cliff", "side": "left" },
+      { "text": "Ruth gleaning in the field of Boaz", "side": "right" },
+      { "text": "Jesus growing up in the household of a carpenter", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this one of the ten plagues of Egypt, or one of the signs at Jesus' death?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Exodus 7-12; Matthew 27 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "categoryLeft": "A plague of Egypt", "categoryRight": "A sign at Jesus' death", "cards": [
+      { "text": "Three days of darkness that could be felt", "side": "left" },
+      { "text": "The curtain of the temple torn from top to bottom", "side": "right" },
+      { "text": "The death of the firstborn", "side": "left" },
+      { "text": "An earthquake that split the rocks", "side": "right" },
+      { "text": "The water of the Nile turning to blood", "side": "left" },
+      { "text": "Memorial tombs opening", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a place in Egypt, or a place in the wilderness of Sinai?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Genesis 47; Exodus 1; 12; 17; Numbers 33 (cross-check: Insight on the Scriptures, Vol. 1, 'Egypt')",
+    "payload": { "categoryLeft": "In Egypt", "categoryRight": "In the wilderness", "cards": [
+      { "text": "Goshen", "side": "left" },
+      { "text": "Mount Horeb", "side": "right" },
+      { "text": "The storage city of Rameses", "side": "left" },
+      { "text": "Rephidim", "side": "right" },
+      { "text": "The Nile delta", "side": "left" },
+      { "text": "The Wilderness of Sin", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this Israelite leader come from the tribe of Judah, or from a different tribe?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Numbers 13; 1 Samuel 1; 16; Ruth 4; Judges 6 (cross-check: Insight on the Scriptures, Vol. 2, 'Judah, Tribe of')",
+    "payload": { "categoryLeft": "From a different tribe", "categoryRight": "From the tribe of Judah", "cards": [
+      { "text": "King David", "side": "right" },
+      { "text": "The prophet Samuel", "side": "left" },
+      { "text": "Caleb the spy", "side": "right" },
+      { "text": "Joshua the son of Nun", "side": "left" },
+      { "text": "Boaz of Bethlehem", "side": "right" },
+      { "text": "Gideon the judge", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this instruction about building the tabernacle, or about everyday life and farming in the land?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Exodus 25-30; Leviticus 19; Deuteronomy 22 (cross-check: Insight on the Scriptures, Vol. 2, 'Law')",
+    "payload": { "categoryLeft": "Everyday life and farming", "categoryRight": "Building the tabernacle", "cards": [
+      { "text": "Making the poles that carried the ark", "side": "right" },
+      { "text": "Leaving the edges of your field unharvested for the poor", "side": "left" },
+      { "text": "The design of the seven-branched lampstand", "side": "right" },
+      { "text": "Returning a neighbor's stray ox or sheep", "side": "left" },
+      { "text": "The recipe for the holy anointing oil", "side": "right" },
+      { "text": "Not plowing with an ox and a donkey yoked together", "side": "left" }
+    ] }
+  },
+  {
+    "question": "When confronted, did this king humble himself and repent, or refuse to and face judgment?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Exodus 5-14; 1 Kings 21; 2 Kings 22; 2 Chronicles 33; Daniel 5; Jeremiah 36 (cross-check: Insight on the Scriptures, Vol. 2, 'Repentance')",
+    "payload": { "categoryLeft": "Refused, and faced judgment", "categoryRight": "Humbled himself", "cards": [
+      { "text": "Ahab, after Elijah's word about Naboth's vineyard", "side": "right" },
+      { "text": "Pharaoh of the Exodus", "side": "left" },
+      { "text": "Manasseh, taken to Babylon with hooks and chains", "side": "right" },
+      { "text": "Belshazzar, feasting with the temple vessels", "side": "left" },
+      { "text": "Josiah, when the book of the Law was read to him", "side": "right" },
+      { "text": "Jehoiakim, who cut up and burned the prophet's scroll", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this event happen while Israel was ruled by judges, or after they had a king?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Judges; Ruth; 1 Kings (cross-check: Insight on the Scriptures, Vol. 1, 'Judge')",
+    "payload": { "categoryLeft": "During the judges", "categoryRight": "During the monarchy", "cards": [
+      { "text": "Ruth meeting Boaz at the threshing floor", "side": "left" },
+      { "text": "Solomon building the temple", "side": "right" },
+      { "text": "Samson and Delilah", "side": "left" },
+      { "text": "Elijah's contest on Mount Carmel", "side": "right" },
+      { "text": "Gideon's band of 300 men", "side": "left" },
+      { "text": "The queen of Sheba's visit", "side": "right" }
+    ] }
+  }
+]

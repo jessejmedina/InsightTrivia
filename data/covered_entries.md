@@ -448,6 +448,44 @@ poetry-vs-prose book.
 **DB per-type (count:exact): estimation 221, progressive 178, swipe 169;
 grand total 1508.**
 
+**batch12 (2026-09-06) — written + IMPORTED** (20/16/15, 0 skipped). est:
+weights & festivals (talent = 3,000 shekels, Jubilee 50 yrs, sabbatical 7
+yrs, Pentecost +50 days, manna 1 omer), census extremes (2nd census
+601,730; Judah 74,600 largest; Manasseh 32,200 smallest), tabernacle
+counts (4 priest-sons, 12 showbread, 7 lamps, 12 breastpiece stones),
+ark at Obed-edom 3 months, Josiah age 16, Job's 10 children, Most Holy
+600 gold talents, Jehoiachin's 1,000 craftsmen, Zerubbabel's 200 singers,
+Nehemiah's 1-in-10, the magi's 3 gifts. prog: Joshua the high priest,
+Tobiah, Matthias, Cleopas, Joanna, Salome, Jairus, Malchus + non-people
+puzzles (Passover, the Festival of Booths, the tenth plague, the ark,
+Aaron's rod, the tribe of Levi, Mount Nebo, Gethsemane). swipe: Ten-
+Commandment-vs-Beatitude, David's-reign-vs-Solomon's, pre-exile-vs-post-
+return book, provision-vs-judgment miracle, Gentile-of-faith-vs-Jewish-
+opponent, Hebrew-vs-Greek original, day-vs-night event, covenant-sign-or-
+not, Bethlehem-vs-Nazareth, plague-of-Egypt-vs-sign-at-Jesus'-death,
+Egypt-vs-Sinai place, Judah-tribe-vs-other, tabernacle-law-vs-daily-life-
+law, king-humbled-vs-refused, judges-era-vs-monarchy.
+
+**batch13 (2026-09-06) — written + IMPORTED** (20/16/15, 0 skipped).
+GEOGRAPHY-HEAVY (per Jesse's map-question interest). est: Insight
+chronology dates (Flood 2370, Exodus 1513, split 997, Jerusalem 607,
+return 537 B.C.E.), "sevens" (Elijah's servant, Elisha's boy's sneezes, 7
+Canaanite nations, Noah's 7 clean pairs), Abdon's 70 donkeys, Jair's 30
+towns, Abishai's 18,000, David's 100 kept horses, Rehoboam's 60 daughters,
+Esther's 12-month treatment, Haman's 10 sons, the 5,000 in groups of 50,
+the 50-denarii debtor, Sceva's 7 sons, Paul's 3 years at Ephesus. prog:
+12 place-ID puzzles (Hebron, Beersheba, Joppa, Caesarea, Bethany,
+Nazareth, Capernaum, Corinth, Philippi, Athens, Rome, Tarsus) + the
+golden calf, the bronze serpent, the Day of Atonement, the tribe of
+Benjamin. swipe: Asia-Minor-vs-Greece city, Paul-event-in-Asia-vs-Europe,
+island-Paul-visited-or-not, water-Jesus-was-beside-vs-OT-only, tribe-
+north-vs-south, east-vs-west-of-Jordan, Paul's-companion-vs-local-convert,
+mountain-vs-valley, letter-to-Asia-Minor-vs-Greece, place-of-Abraham-vs-
+Moses, city-destroyed-vs-spared, sacrifice-animal-vs-unclean, crossed-Red-
+Sea-vs-born-later, prominent-vs-humble leader, over-900-vs-under-200 years.
+**DB per-type (count:exact): estimation 261, progressive 210, swipe 199;
+grand total 1610.**
+
 **estimation + swipe batches 1-4 — IMPORTED 2026-09-06.** estimation
 79/80 inserted (skipped "How many pieces of silver did the chief priests
 pay Judas..." — already in the DB as a multiple_choice question). swipe
