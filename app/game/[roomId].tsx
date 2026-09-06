@@ -18,6 +18,7 @@ import { gameStyles } from '../../components/game/gameStyles';
 import { WaitingPhase } from '../../components/game/WaitingPhase';
 import { ResultsPhase } from '../../components/game/ResultsPhase';
 import { RevealFrame } from '../../components/game/RevealFrame';
+import { CountUp } from '../../components/game/CountUp';
 import { useGameRound } from './useGameRound';
 import { resolveAndScoreRound, emitOpponentShot } from './scoreRound';
 
@@ -128,7 +129,7 @@ export default function GameScreen() {
                 <Text style={gameStyles.miniAvatarEmoji}>{av.emoji}</Text>
               </View>
               <Text style={gameStyles.scoreName} numberOfLines={1}>{p.profiles?.username}</Text>
-              <Text style={gameStyles.scoreValue}>{p.score}</Text>
+              <CountUp value={p.score} style={gameStyles.scoreValue} />
             </View>
           );
         })}

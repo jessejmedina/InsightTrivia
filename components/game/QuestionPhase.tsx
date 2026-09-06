@@ -3,6 +3,7 @@ import { View, Text, ScrollView, TouchableOpacity, Animated, ActivityIndicator }
 import { Colors } from '../../constants/colors';
 import { getCategoryColor } from '../../constants/colors';
 import { gameStyles as styles } from './gameStyles';
+import { TimerRing } from './TimerRing';
 import type { PlayProps } from '../../lib/questionTypes/uiTypes';
 
 /** Play UI for `multiple_choice` (buzz in, then pick from 4 options). */
@@ -24,7 +25,6 @@ export function QuestionPhase({
     }
   }, [isBuzzed, buzzScale]);
 
-  const timerColor = timeLeft > 15 ? Colors.success : timeLeft > 7 ? Colors.accent : Colors.danger;
   const diffColor: Record<string, string> = { easy: Colors.success, medium: Colors.accent, hard: Colors.danger };
 
   function handlePickOption(option: string) {
@@ -36,10 +36,7 @@ export function QuestionPhase({
 
   return (
     <ScrollView contentContainerStyle={styles.phaseContainer} keyboardShouldPersistTaps="handled">
-      <View style={[styles.timerRing, { borderColor: timerColor }]}>
-        <Text style={[styles.timerNumber, { color: timerColor }]}>{timeLeft}</Text>
-        <Text style={styles.timerLabel}>sec</Text>
-      </View>
+      <TimerRing timeLeft={timeLeft} />
 
       <View style={styles.qMeta}>
         <View style={[styles.qCategoryPill, { backgroundColor: getCategoryColor(question.category) }]}>

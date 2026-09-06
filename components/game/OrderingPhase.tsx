@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { View, Text, ScrollView, TouchableOpacity } from 'react-native';
 import { seededShuffle } from '../../lib/gameLogic';
 import { gameStyles as styles } from './gameStyles';
+import { TimerRing } from './TimerRing';
 import type { PlayProps } from '../../lib/questionTypes/uiTypes';
 
 /** Play UI for `ordering` — arrow-button reordering of 4 items. */
@@ -26,10 +27,7 @@ export function OrderingPhase({ question, questionId, timeLeft, hasSubmitted, on
 
   return (
     <ScrollView contentContainerStyle={styles.phaseContainer}>
-      <View style={[styles.timerRing, { borderColor: timeLeft > 10 ? '#2ECC71' : '#FF5A5F' }]}>
-        <Text style={styles.timerNumber}>{timeLeft}</Text>
-        <Text style={styles.timerLabel}>sec</Text>
-      </View>
+      <TimerRing timeLeft={timeLeft} />
 
       <Text style={styles.buzzedLabel}>Arrange these in the correct order</Text>
 

@@ -1,6 +1,13 @@
 import { StyleSheet } from 'react-native';
 import { Colors, CardShadow } from '../../constants/colors';
 
+/** Shared visual scale so new components stay consistent with the game screens. */
+export const tokens = {
+  space: { xs: 4, sm: 8, md: 16, lg: 24, xl: 32 },
+  radius: { sm: 8, md: 14, lg: 22, pill: 999 },
+  timerRingSize: 96,
+};
+
 export const gameStyles = StyleSheet.create({
   container: { flex: 1, backgroundColor: Colors.bg },
   center: { flex: 1, backgroundColor: Colors.bg, justifyContent: 'center', alignItems: 'center' },

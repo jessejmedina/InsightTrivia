@@ -3,6 +3,7 @@ import { View, Text, ScrollView, TouchableOpacity } from 'react-native';
 import { seededShuffle } from '../../lib/gameLogic';
 import type { MatchPair } from '../../lib/gameLogic';
 import { gameStyles as styles } from './gameStyles';
+import { TimerRing } from './TimerRing';
 import type { PlayProps } from '../../lib/questionTypes/uiTypes';
 
 // Both columns are identified by their position in the original (pre-shuffle)
@@ -65,10 +66,7 @@ export function MatchingPhase({ question, questionId, timeLeft, hasSubmitted, on
 
   return (
     <ScrollView contentContainerStyle={styles.phaseContainer}>
-      <View style={[styles.timerRing, { borderColor: timeLeft > 10 ? '#2ECC71' : '#FF5A5F' }]}>
-        <Text style={styles.timerNumber}>{timeLeft}</Text>
-        <Text style={styles.timerLabel}>sec</Text>
-      </View>
+      <TimerRing timeLeft={timeLeft} />
 
       <Text style={styles.buzzedLabel}>Tap a left item, then its match on the right</Text>
 
