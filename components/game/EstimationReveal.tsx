@@ -17,7 +17,9 @@ export function EstimationReveal({ breakdown }: RevealProps) {
   return (
     <View style={{ width: '100%', alignItems: 'center', gap: 12 }}>
       <Text style={styles.revealLabel}>The answer:</Text>
-      <Text style={styles.revealAnswer}>{b.value.toLocaleString('en-US')} {b.unit}</Text>
+      <Text style={[styles.revealAnswer, (b.winner === 'mine' || b.winner === 'tie') && styles.revealAnswerWin]}>
+        {b.value.toLocaleString('en-US')} {b.unit}
+      </Text>
 
       <View style={styles.numberLine}>
         <View style={[styles.numberLineMark, { left: `${pos(b.value) * 100}%`, backgroundColor: Colors.success }]} />

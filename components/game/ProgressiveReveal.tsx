@@ -12,7 +12,7 @@ export function ProgressiveReveal({ question, breakdown }: RevealProps) {
   return (
     <View style={{ width: '100%', alignItems: 'center', gap: 10 }}>
       <Text style={styles.revealLabel}>The answer:</Text>
-      <Text style={styles.revealAnswer}>{b.answer}</Text>
+      <Text style={[styles.revealAnswer, b.winner === 'mine' && styles.revealAnswerWin]}>{b.answer}</Text>
       {question.reference && <Text style={styles.revealRef}>{question.reference}</Text>}
       <Text style={styles.qRef}>
         You: {b.mine ? `"${b.mine.chosen}" after ${b.mine.cluesShownAtBuzz} clue(s)` : 'no buzz'}

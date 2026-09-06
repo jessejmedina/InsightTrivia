@@ -106,7 +106,10 @@ export const gameStyles = StyleSheet.create({
     alignItems: 'center', ...CardShadow,
   },
   revealLabel: { color: Colors.textSecondary, fontSize: 13, fontWeight: '600' },
-  revealAnswer: { color: Colors.success, fontSize: 24, fontWeight: '800', marginTop: 8, textAlign: 'center' },
+  // Neutral on purpose: this is "here's the correct answer", not a success
+  // signal. Whether the player got it right is carried by the banner / label.
+  revealAnswer: { color: Colors.textPrimary, fontSize: 24, fontWeight: '800', marginTop: 8, textAlign: 'center' },
+  revealAnswerWin: { color: Colors.success },
   revealRef: { color: Colors.textMuted, fontSize: 12, marginTop: 8, fontStyle: 'italic' },
   oppBtn: { backgroundColor: Colors.primary, paddingVertical: 14, paddingHorizontal: 20, borderRadius: 18, width: '100%', alignItems: 'center' },
   oppBtnText: { color: Colors.white, fontWeight: '700', fontSize: 14 },

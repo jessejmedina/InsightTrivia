@@ -12,8 +12,10 @@ import type { RevealProps } from '../../lib/questionTypes/uiTypes';
 export function RevealPhase({ question, breakdown, myPointsThisRound }: RevealProps) {
   const winner = (breakdown as { winner?: 'mine' | 'opponent' | 'none' } | null)?.winner;
   const scoredWell = myPointsThisRound > 0;
+  const iGotItRight = winner === 'mine' || scoredWell;
+  const answerStyle = [styles.revealAnswer, iGotItRight && styles.revealAnswerWin];
 
-  const bannerColor = winner === 'mine' || scoredWell ? Colors.success : Colors.danger;
+  const bannerColor = iGotItRight ? Colors.success : Colors.danger;
   const bannerText =
     winner === 'mine' ? 'Correct!'
       : winner === 'opponent' ? 'Opponent got it'
@@ -31,12 +33,12 @@ export function RevealPhase({ question, breakdown, myPointsThisRound }: RevealPr
 
       <View style={styles.revealBox}>
         <Text style={styles.revealLabel}>The answer:</Text>
-        {question.answer && <Text style={styles.revealAnswer}>{question.answer}</Text>}
+        {question.answer && <Text style={answerStyle}>{question.answer}</Text>}
         {items && items.map((it, i) => (
-          <Text key={i} style={styles.revealAnswer}>{i + 1}. {it}</Text>
+          <Text key={i} style={answerStyle}>{i + 1}. {it}</Text>
         ))}
         {pairs && pairs.map((p, i) => (
-          <Text key={i} style={styles.revealAnswer}>{p.left} → {p.right}</Text>
+          <Text key={i} style={answerStyle}>{p.left} → {p.right}</Text>
         ))}
         {question.reference && <Text style={styles.revealRef}>{question.reference}</Text>}
       </View>
