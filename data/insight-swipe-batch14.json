@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Is this one of the five books of Moses, or a book of history that comes after them?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "The Hebrew Scriptures (cross-check: Insight on the Scriptures, Vol. 2, 'Pentateuch')",
+    "payload": { "categoryLeft": "A book of history that comes after", "categoryRight": "A book of Moses", "cards": [
+      { "text": "Exodus", "side": "right" },
+      { "text": "Joshua", "side": "left" },
+      { "text": "Numbers", "side": "right" },
+      { "text": "Judges", "side": "left" },
+      { "text": "Deuteronomy", "side": "right" },
+      { "text": "First Kings", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a miracle worked through Moses, or through Elijah?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Exodus 7-10; Numbers 21; 1 Kings 17-18 (cross-check: Insight on the Scriptures, Vol. 1, 'Elijah')",
+    "payload": { "categoryLeft": "Through Moses", "categoryRight": "Through Elijah", "cards": [
+      { "text": "The Nile turning to blood", "side": "left" },
+      { "text": "A widow's flour and oil that did not run out", "side": "right" },
+      { "text": "The plague of hail on Egypt", "side": "left" },
+      { "text": "Fire falling on the altar at Mount Carmel", "side": "right" },
+      { "text": "The bronze serpent on a pole", "side": "left" },
+      { "text": "Being fed bread and meat by ravens", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this happen in the reign of Hezekiah, or the reign of Josiah?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 18-23; 2 Chronicles 34-35 (cross-check: Insight on the Scriptures, Vol. 2, 'Josiah')",
+    "payload": { "categoryLeft": "In Hezekiah's reign", "categoryRight": "In Josiah's reign", "cards": [
+      { "text": "The Assyrian army struck down in one night outside Jerusalem", "side": "left" },
+      { "text": "The lost book of the Law found during temple repairs", "side": "right" },
+      { "text": "The shadow going back ten steps as a sign", "side": "left" },
+      { "text": "The greatest Passover kept since the days of the judges", "side": "right" },
+      { "text": "A tunnel dug to bring water inside the city walls", "side": "left" },
+      { "text": "The altar at Bethel torn down and its bones burned", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a title applied to Jesus, or a title of John the Baptist?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "John 1; 3; 6; 8; Matthew 11 (cross-check: Insight on the Scriptures, Vol. 2, 'John No. 1')",
+    "payload": { "categoryLeft": "John the Baptist", "categoryRight": "Jesus", "cards": [
+      { "text": "The Lamb of God", "side": "right" },
+      { "text": "A voice of one calling out in the wilderness", "side": "left" },
+      { "text": "The bread of life", "side": "right" },
+      { "text": "The friend of the bridegroom", "side": "left" },
+      { "text": "Elijah who was to come", "side": "left" },
+      { "text": "The light of the world", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a piece of the priest's clothing, or a piece of a soldier's armor?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Exodus 28; 1 Samuel 17:5-6 (cross-check: Insight on the Scriptures, Vol. 1, 'Arms, Armor')",
+    "payload": { "categoryLeft": "A soldier's armor", "categoryRight": "The priest's clothing", "cards": [
+      { "text": "The ephod", "side": "right" },
+      { "text": "A coat of scale mail", "side": "left" },
+      { "text": "The turban", "side": "right" },
+      { "text": "A bronze helmet", "side": "left" },
+      { "text": "The embroidered linen sash", "side": "right" },
+      { "text": "Bronze greaves for the legs", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a plague that came upon Israel because of their own sin, or an act of God against their enemies?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus 14; 32; Numbers 16; 21; Joshua 10; 2 Kings 19 (cross-check: Insight on the Scriptures, Vol. 2, 'Plague')",
+    "payload": { "categoryLeft": "Against Israel's enemies", "categoryRight": "Because of Israel's own sin", "cards": [
+      { "text": "The fiery serpents in the wilderness", "side": "right" },
+      { "text": "The drowning of Pharaoh's army in the sea", "side": "left" },
+      { "text": "The scourge that followed the golden calf", "side": "right" },
+      { "text": "The great hailstones on the fleeing Amorite kings", "side": "left" },
+      { "text": "The ground opening to swallow Korah", "side": "right" },
+      { "text": "The angel destroying the camp of the Assyrians", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this a line from the book of Proverbs, or something Jesus said in the Gospels?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Proverbs; the Gospels (cross-check: Insight on the Scriptures, Vol. 2, 'Proverbs, Book Of')",
+    "payload": { "categoryLeft": "From Proverbs", "categoryRight": "Said by Jesus", "cards": [
+      { "text": "\"A mild answer turns away rage\"", "side": "left" },
+      { "text": "\"Give, and you will be given to\"", "side": "right" },
+      { "text": "\"Trust in Jehovah with all your heart\"", "side": "left" },
+      { "text": "\"Stop being anxious about tomorrow\"", "side": "right" },
+      { "text": "\"Pride is before a crash\"", "side": "left" },
+      { "text": "\"The truth will set you free\"", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this event take place at the temple in Jerusalem, or at a 'high place' or foreign shrine?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "1 Kings 12; 16; 18; 2 Kings 21; Isaiah 6; Luke 1; John 2 (cross-check: Insight on the Scriptures, Vol. 1, 'High Places')",
+    "payload": { "categoryLeft": "At a high place or foreign shrine", "categoryRight": "At the temple in Jerusalem", "cards": [
+      { "text": "Isaiah's vision of God seated on a lofty throne", "side": "right" },
+      { "text": "Jeroboam personally offering incense at Bethel", "side": "left" },
+      { "text": "Jesus overturning the tables of the money changers", "side": "right" },
+      { "text": "Elijah's contest with the prophets of Baal on Carmel", "side": "left" },
+      { "text": "The priest Zechariah struck speechless at the altar of incense", "side": "right" },
+      { "text": "Ahab's house of Baal in Samaria", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this person build an altar, or tear one down?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Genesis 8; 22; Judges 6; 1 Kings 18; 2 Kings 10; 23 (cross-check: Insight on the Scriptures, Vol. 1, 'Altar')",
+    "payload": { "categoryLeft": "Tore an altar down", "categoryRight": "Built an altar", "cards": [
+      { "text": "Noah, after leaving the ark", "side": "right" },
+      { "text": "Gideon, pulling down his father's altar of Baal", "side": "left" },
+      { "text": "Abraham, on the mountain in the land of Moriah", "side": "right" },
+      { "text": "Josiah, smashing the altar at Bethel", "side": "left" },
+      { "text": "Elijah, repairing the altar of Jehovah on Carmel", "side": "right" },
+      { "text": "The people, after Jehu's purge of Baal worship", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this person doubt or question an angel's message, or accept it right away?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 18; Judges 6; 1 Samuel 3; Luke 1-2; Matthew 1 (cross-check: Insight on the Scriptures, Vol. 1, 'Angel')",
+    "payload": { "categoryLeft": "Accepted it at once", "categoryRight": "Doubted or questioned it", "cards": [
+      { "text": "Zechariah, told of a son in his old age", "side": "right" },
+      { "text": "The shepherds, told of a savior born in Bethlehem", "side": "left" },
+      { "text": "Gideon, asking for signs with a wool fleece", "side": "right" },
+      { "text": "Joseph, told in a dream to take Mary as his wife", "side": "left" },
+      { "text": "Sarah, laughing to herself at the tent door", "side": "right" },
+      { "text": "Young Samuel, answering the voice in the night", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this an object the Israelites turned into an idol, or an object kept in the sanctuary for worship?",
+    "type": "swipe",
+    "category": "Tabernacle",
+    "difficulty": "hard",
+    "reference": "Exodus 25; 32; Judges 8; 2 Kings 18 (cross-check: Insight on the Scriptures, Vol. 2, 'Serpent')",
+    "payload": { "categoryLeft": "Turned into an idol", "categoryRight": "A sanctuary object for worship", "cards": [
+      { "text": "The bronze serpent, later called Nehushtan", "side": "left" },
+      { "text": "The ark of the covenant", "side": "right" },
+      { "text": "The golden calf", "side": "left" },
+      { "text": "The golden lampstand", "side": "right" },
+      { "text": "The gold ephod Gideon made", "side": "left" },
+      { "text": "The altar of incense", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this animal speak in the Bible account, or is it simply mentioned?",
+    "type": "swipe",
+    "category": "Creation",
+    "difficulty": "medium",
+    "reference": "Genesis 3; 8; 22; Numbers 22; Jonah 1; Matthew 26 (cross-check: Insight on the Scriptures, Vol. 1, 'Ass')",
+    "payload": { "categoryLeft": "Simply mentioned", "categoryRight": "Spoke", "cards": [
+      { "text": "The serpent in the garden of Eden", "side": "right" },
+      { "text": "The ram caught by its horns in the thicket", "side": "left" },
+      { "text": "Balaam's donkey", "side": "right" },
+      { "text": "The great fish that swallowed Jonah", "side": "left" },
+      { "text": "The ravens that brought food to Elijah", "side": "left" },
+      { "text": "The dove Noah released from the ark", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this said to Jesus by a demon, or by a person he was about to heal?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Matthew 8; Mark 1; 9; 10 (cross-check: Insight on the Scriptures, Vol. 1, 'Demon')",
+    "payload": { "categoryLeft": "By a person being healed", "categoryRight": "By a demon", "cards": [
+      { "text": "\"What have we to do with you, Son of God?\"", "side": "right" },
+      { "text": "\"Lord, if you want to, you can make me clean\"", "side": "left" },
+      { "text": "\"I know exactly who you are, the Holy One of God\"", "side": "right" },
+      { "text": "\"Rabboni, let me recover my sight\"", "side": "left" },
+      { "text": "\"Have you come to torment us before the appointed time?\"", "side": "right" },
+      { "text": "\"If you can do anything, have pity on us and help us\"", "side": "left" }
+    ] }
+  },
+  {
+    "question": "In the Bible record, was this person given a new name by God, or did they keep the name they were born with?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 17; 32; John 1 (cross-check: Insight on the Scriptures, Vol. 2, 'Name')",
+    "payload": { "categoryLeft": "Kept their birth name", "categoryRight": "Received a new name", "cards": [
+      { "text": "Abram, made Abraham", "side": "right" },
+      { "text": "Isaac", "side": "left" },
+      { "text": "Jacob, made Israel", "side": "right" },
+      { "text": "Joseph", "side": "left" },
+      { "text": "Simon, called Peter", "side": "right" },
+      { "text": "Andrew", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this place on the Mediterranean coast, or an inland city?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Joshua 19; Acts 9-10; 27 (cross-check: Insight on the Scriptures, Vol. 1, 'Great Sea')",
+    "payload": { "categoryLeft": "An inland city", "categoryRight": "On the Mediterranean coast", "cards": [
+      { "text": "Joppa", "side": "right" },
+      { "text": "Jerusalem", "side": "left" },
+      { "text": "Caesarea", "side": "right" },
+      { "text": "Damascus", "side": "left" },
+      { "text": "Tyre", "side": "right" },
+      { "text": "Babylon", "side": "left" }
+    ] }
+  }
+]

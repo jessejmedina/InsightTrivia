@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which border town am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Ziklag",
+    "options": ["Ziklag", "Gath", "Adullam", "Keilah"],
+    "reference": "1 Samuel 27; 30 (cross-check: Insight on the Scriptures, Vol. 2, 'Ziklag')",
+    "payload": { "clues": [
+      "The Philistine king Achish gave me to David while he was a fugitive from Saul.",
+      "David raided from here and lied to Achish about whom he had attacked.",
+      "While David and his men were away, Amalekites burned me and carried off the women and children.",
+      "David pursued them and recovered every person and everything taken."
+    ] }
+  },
+  {
+    "question": "Which Philistine city am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Gath",
+    "options": ["Gath", "Ashkelon", "Ekron", "Gaza"],
+    "reference": "1 Samuel 17; 21; 27 (cross-check: Insight on the Scriptures, Vol. 1, 'Gath')",
+    "payload": { "clues": [
+      "I was the hometown of the giant Goliath.",
+      "David fled to me twice; once he pretended to be insane before my king.",
+      "My king Achish later gave David the town of Ziklag.",
+      "I was one of the five chief cities of the Philistines."
+    ] }
+  },
+  {
+    "question": "Which town of a forbidden visit am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Endor",
+    "options": ["Endor", "Nob", "Gibeah", "Ramah"],
+    "reference": "1 Samuel 28 (cross-check: Insight on the Scriptures, Vol. 1, 'En-dor')",
+    "payload": { "clues": [
+      "King Saul came to me in disguise, at night, on the eve of his last battle.",
+      "A woman here practiced spirit mediumship, the very thing Saul himself had outlawed.",
+      "She was terrified when a figure resembling Samuel came up.",
+      "The message given was that Saul and his sons would die the next day."
+    ] }
+  },
+  {
+    "question": "Which assembly place am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Mizpah",
+    "options": ["Mizpah", "Gilgal", "Shiloh", "Bethel"],
+    "reference": "1 Samuel 7; 10; Jeremiah 40 (cross-check: Insight on the Scriptures, Vol. 2, 'Mizpah, Mizpeh No. 4')",
+    "payload": { "clues": [
+      "Samuel gathered all Israel to me to repent and put away their foreign gods.",
+      "He set up a stone here and called it Ebenezer, \"stone of help.\"",
+      "The tribes assembled here again to choose Saul as king by lot.",
+      "Centuries later, Gedaliah governed the remnant of Judah from me."
+    ] }
+  },
+  {
+    "question": "Which fortress by a pass am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Megiddo",
+    "options": ["Megiddo", "Jezreel", "Beth-shan", "Taanach"],
+    "reference": "Judges 5; 2 Kings 9; 23 (cross-check: Insight on the Scriptures, Vol. 2, 'Megiddo')",
+    "payload": { "clues": [
+      "I guarded a key pass on the road between Egypt and Mesopotamia, and many battles were fought on my plain.",
+      "Deborah and Barak defeated Sisera near me.",
+      "King Ahaziah of Judah died here while fleeing from Jehu.",
+      "King Josiah was mortally wounded here in battle against Pharaoh Necho."
+    ] }
+  },
+  {
+    "question": "Which town of a pit am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Dothan",
+    "options": ["Dothan", "Shechem", "Bethel", "Hebron"],
+    "reference": "Genesis 37; 2 Kings 6 (cross-check: Insight on the Scriptures, Vol. 1, 'Dothan')",
+    "payload": { "clues": [
+      "Joseph's brothers were pasturing their flocks here when he came looking for them.",
+      "They threw him into a dry cistern and then sold him to passing traders.",
+      "Centuries later, the prophet Elisha stayed here.",
+      "When a Syrian army surrounded the town, his servant saw the hills full of fiery horses and chariots."
+    ] }
+  },
+  {
+    "question": "Which hometown of a prophet am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Ramah",
+    "options": ["Ramah", "Bethel", "Gibeah", "Nob"],
+    "reference": "1 Samuel 1; 7:17; 25:1; Jeremiah 31:15; Matthew 2:18 (cross-check: Insight on the Scriptures, Vol. 2, 'Ramah No. 1')",
+    "payload": { "clues": [
+      "The prophet Samuel was born here, judged from here, and was buried here.",
+      "Rachel's tomb was nearby.",
+      "Jeremiah pictured Rachel weeping here for her exiled children.",
+      "Matthew applied that same picture to the boys killed at Bethlehem."
+    ] }
+  },
+  {
+    "question": "Which Samaritan town am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Sychar",
+    "options": ["Sychar", "Shechem", "Samaria", "Bethel"],
+    "reference": "John 4:5-42 (cross-check: Insight on the Scriptures, Vol. 2, 'Sychar')",
+    "payload": { "clues": [
+      "I sat near the plot of ground Jacob gave to Joseph, and near Jacob's well.",
+      "A tired traveler sat by that well at noon and asked a local woman for a drink.",
+      "She was amazed that a Jew would speak to a Samaritan woman.",
+      "Many in my town believed after she told them about him."
+    ] }
+  },
+  {
+    "question": "Which island of a shipwreck am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Malta",
+    "options": ["Malta", "Cyprus", "Crete", "Rhodes"],
+    "reference": "Acts 27:39-28:10 (cross-check: Insight on the Scriptures, Vol. 2, 'Melita')",
+    "payload": { "clues": [
+      "A ship carrying 276 people ran aground on my shore after a two-week storm.",
+      "My people built a fire and showed the survivors unusual kindness.",
+      "A viper fastened on the hand of one man, but he shook it off and was unharmed.",
+      "The leading man of my island, Publius, hosted the group, and his sick father was healed."
+    ] }
+  },
+  {
+    "question": "Which priestly vest am I?",
+    "type": "progressive",
+    "category": "Tabernacle",
+    "difficulty": "hard",
+    "answer": "the ephod",
+    "options": ["the ephod", "the breastpiece", "the turban", "the robe"],
+    "reference": "Exodus 28 (cross-check: Insight on the Scriptures, Vol. 1, 'Ephod')",
+    "payload": { "clues": [
+      "I was a sleeveless garment woven of gold, blue, purple, and scarlet thread.",
+      "Two onyx stones on my shoulder pieces were engraved with the names of the twelve tribes.",
+      "Fastened to me over the high priest's heart was the breastpiece.",
+      "In that breastpiece were kept the Urim and Thummim, used to inquire of God."
+    ] }
+  },
+  {
+    "question": "Which guide am I?",
+    "type": "progressive",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "answer": "the pillar of cloud and fire",
+    "options": ["the pillar of cloud and fire", "the ark of the covenant", "the bronze serpent", "the tabernacle"],
+    "reference": "Exodus 13:21-22; 14:19-20; 40:36-38 (cross-check: Insight on the Scriptures, Vol. 1, 'Cloud')",
+    "payload": { "clues": [
+      "I went ahead of Israel out of Egypt, a column by day and by night.",
+      "At the sea I moved between the Israelites and the Egyptians, darkness on one side and light on the other.",
+      "When I lifted from over the tabernacle, the camp set out.",
+      "When I settled down, they stayed where they were."
+    ] }
+  },
+  {
+    "question": "Which wilderness food am I?",
+    "type": "progressive",
+    "category": "Chronology",
+    "difficulty": "easy",
+    "answer": "the manna",
+    "options": ["the manna", "the quail", "the showbread", "the unleavened bread"],
+    "reference": "Exodus 16 (cross-check: Insight on the Scriptures, Vol. 2, 'Manna')",
+    "payload": { "clues": [
+      "I appeared like fine frost on the ground each morning after the dew had lifted.",
+      "The people asked, \"What is it?\", and that question became my name.",
+      "I tasted like wafers made with honey, and a double portion fell before the sabbath.",
+      "A jar of me was kept in front of the ark as a memorial."
+    ] }
+  },
+  {
+    "question": "Which grieving concubine am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Rizpah",
+    "options": ["Rizpah", "Bathsheba", "Michal", "Abigail"],
+    "reference": "2 Samuel 3:7; 21:1-14 (cross-check: Insight on the Scriptures, Vol. 2, 'Rizpah')",
+    "payload": { "clues": [
+      "I had been a concubine of King Saul.",
+      "After a three-year famine, seven of Saul's sons and grandsons were handed over and executed, two of them mine.",
+      "I spread sackcloth on a rock and kept the birds and wild animals off their exposed bodies, from harvest until the rains came.",
+      "When David heard, he had all their bones gathered and buried in the family tomb."
+    ] }
+  },
+  {
+    "question": "Which discouraging spouse am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Job's wife",
+    "options": ["Job's wife", "Michal", "Zeresh", "Sapphira"],
+    "reference": "Job 1-2 (cross-check: Insight on the Scriptures, Vol. 2, 'Job, Book Of', p. 81)",
+    "payload": { "clues": [
+      "My husband lost all our children and our wealth in a single day.",
+      "Then his body was covered with painful boils from head to foot.",
+      "Watching him sit in the ashes scraping himself with a piece of pottery, I said, \"Curse God and die!\"",
+      "He answered that we should accept the bad from God as well as the good."
+    ] }
+  },
+  {
+    "question": "Which youngest speaker am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Elihu",
+    "options": ["Elihu", "Eliphaz", "Bildad", "Zophar"],
+    "reference": "Job 32-37 (cross-check: Insight on the Scriptures, Vol. 1, 'Elihu No. 4')",
+    "payload": { "clues": [
+      "I had held my tongue out of respect while my elders argued with the suffering man.",
+      "When the three older friends finally fell silent, I burst out, angry at all of them.",
+      "I claimed to speak on God's behalf, defending his justice and greatness.",
+      "Unlike the three friends, I was not rebuked by God at the end."
+    ] }
+  },
+  {
+    "question": "Which judge with an ox goad am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Shamgar",
+    "options": ["Shamgar", "Samson", "Ehud", "Othniel"],
+    "reference": "Judges 3:31; 5:6 (cross-check: Insight on the Scriptures, Vol. 2, 'Shamgar')",
+    "payload": { "clues": [
+      "I appear in only two brief verses of the Bible.",
+      "I struck down 600 Philistines with a cattle goad.",
+      "By that act I brought deliverance to Israel.",
+      "My father's name was Anath."
+    ] }
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Was this a Philistine city, or an Israelite city?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Joshua 13; 1 Samuel 5-6 (cross-check: Insight on the Scriptures, Vol. 2, 'Philistine')",
+    "payload": { "categoryLeft": "An Israelite city", "categoryRight": "A Philistine city", "cards": [
+      { "text": "Gath", "side": "right" },
+      { "text": "Hebron", "side": "left" },
+      { "text": "Ashdod", "side": "right" },
+      { "text": "Bethlehem", "side": "left" },
+      { "text": "Ekron", "side": "right" },
+      { "text": "Shiloh", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this event happen at the Sea of Galilee, or at the Jordan River?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "2 Kings 2; 5; Matthew 3; 8; 14; Luke 5 (cross-check: Insight on the Scriptures, Vol. 1, 'Galilee, Sea of')",
+    "payload": { "categoryLeft": "At the Jordan River", "categoryRight": "At the Sea of Galilee", "cards": [
+      { "text": "Jesus calming a violent storm with a word", "side": "right" },
+      { "text": "Jesus being baptized", "side": "left" },
+      { "text": "The catch of fish so large the net began to tear", "side": "right" },
+      { "text": "Naaman washing himself seven times", "side": "left" },
+      { "text": "Jesus walking across the water toward the boat", "side": "right" },
+      { "text": "Elijah and Elisha crossing over on dry ground", "side": "left" }
+    ] }
+  },
+  {
+    "question": "In the book of Job, were these words spoken by God, or by Satan?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Job 1-2; 38 (cross-check: Insight on the Scriptures, Vol. 2, 'Job, Book Of', p. 81)",
+    "payload": { "categoryLeft": "Spoken by Satan", "categoryRight": "Spoken by God", "cards": [
+      { "text": "\"Have you taken note of my servant Job?\"", "side": "right" },
+      { "text": "\"Does Job fear God for nothing?\"", "side": "left" },
+      { "text": "\"He is in your hand; only do not take his life\"", "side": "right" },
+      { "text": "\"Skin for skin. A man will give everything he has for his life\"", "side": "left" },
+      { "text": "\"Where were you when I laid the foundations of the earth?\"", "side": "right" },
+      { "text": "\"Stretch out your hand and strike everything he has\"", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a prophet who was NOT a priest, or one who was of a priestly (Levite) family?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "1 Kings 19; Jeremiah 1:1; Ezekiel 1:3; Amos 7:14; Zechariah 1:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Prophet')",
+    "payload": { "categoryLeft": "Not a priest", "categoryRight": "Of a priestly family", "cards": [
+      { "text": "Amos, a herdsman and fig-tender", "side": "left" },
+      { "text": "Ezekiel, by the river Chebar", "side": "right" },
+      { "text": "Elisha, called from behind the plow", "side": "left" },
+      { "text": "Jeremiah, of the priests of Anathoth", "side": "right" },
+      { "text": "Elijah the Tishbite", "side": "left" },
+      { "text": "Zechariah, a descendant of the priest Iddo", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this person raised from the dead in the Bible, or one who never died at all?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 5; 2 Kings 2; 4; Luke 7; John 11; Acts 9 (cross-check: Insight on the Scriptures, Vol. 2, 'Resurrection')",
+    "payload": { "categoryLeft": "Never died", "categoryRight": "Raised from the dead", "cards": [
+      { "text": "Lazarus of Bethany", "side": "right" },
+      { "text": "Enoch", "side": "left" },
+      { "text": "The son of the widow of Nain", "side": "right" },
+      { "text": "Elijah", "side": "left" },
+      { "text": "Dorcas of Joppa", "side": "right" },
+      { "text": "The son of the Shunammite woman", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this event happen on Israel's way INTO the Promised Land, or on the way OUT into exile?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus 14; 19; Numbers 13; 2 Kings 25 (cross-check: Insight on the Scriptures, Vol. 1, 'Exile')",
+    "payload": { "categoryLeft": "The way out into exile", "categoryRight": "The way into the land", "cards": [
+      { "text": "The crossing of the Red Sea", "side": "right" },
+      { "text": "Nebuchadnezzar burning the temple", "side": "left" },
+      { "text": "The Law given at Mount Sinai", "side": "right" },
+      { "text": "King Zedekiah blinded and led to Babylon", "side": "left" },
+      { "text": "The twelve spies exploring Canaan", "side": "right" },
+      { "text": "The last king of Judah captured while fleeing near Jericho", "side": "left" }
+    ] }
+  },
+  {
+    "question": "In the letters, was this counsel addressed to husbands and wives, or to slaves and masters?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Ephesians 5-6; Colossians 3 (cross-check: Insight on the Scriptures, Vol. 1, 'Family')",
+    "payload": { "categoryLeft": "To slaves and masters", "categoryRight": "To husbands and wives", "cards": [
+      { "text": "\"Wives, be in subjection to your husbands\"", "side": "right" },
+      { "text": "\"Slaves, obey your masters with fear and trembling\"", "side": "left" },
+      { "text": "\"Husbands, keep on loving your wives\"", "side": "right" },
+      { "text": "\"Masters, stop threatening\"", "side": "left" },
+      { "text": "\"Let the wife have deep respect for her husband\"", "side": "right" },
+      { "text": "\"Work at everything whole-souled, as for Jehovah\"", "side": "left" }
+    ] }
+  },
+  {
+    "question": "In the book of Acts, did this happen to Peter, or to Paul?",
+    "type": "swipe",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Acts 9-16; 28 (cross-check: Insight on the Scriptures, Vol. 2, 'Peter', p. 618)",
+    "payload": { "categoryLeft": "To Peter", "categoryRight": "To Paul", "cards": [
+      { "text": "Being led out of prison by an angel past two guard posts", "side": "left" },
+      { "text": "Being bitten by a viper and suffering no harm", "side": "right" },
+      { "text": "Raising Dorcas at Joppa", "side": "left" },
+      { "text": "Being stoned at Lystra and dragged out of the city as dead", "side": "right" },
+      { "text": "The rooftop vision of a sheet let down from heaven", "side": "left" },
+      { "text": "A night vision of a Macedonian man calling for help", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a 'mountain moment' at Mount Sinai, or on the Mount of Olives?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Exodus 19; 32; 34; Matthew 24; 26; Acts 1 (cross-check: Insight on the Scriptures, Vol. 2, 'Olives, Mount of')",
+    "payload": { "categoryLeft": "At Mount Sinai", "categoryRight": "On the Mount of Olives", "cards": [
+      { "text": "The Law given amid fire, smoke, and a trumpet blast", "side": "left" },
+      { "text": "Jesus foretelling that not one stone of the temple would be left on another", "side": "right" },
+      { "text": "The people worshipping a golden calf at the foot of the mountain", "side": "left" },
+      { "text": "The agony in the garden, with sweat like drops of blood", "side": "right" },
+      { "text": "Jesus being taken up out of the disciples' sight", "side": "right" },
+      { "text": "Moses' face shining so that the people were afraid to come near", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a woman who was barren and then bore a child, or one whose childlessness is never resolved in the Bible?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 21; 25; 30; 1 Samuel 1; 2 Samuel 6; Luke 1 (cross-check: Insight on the Scriptures, Vol. 1, 'Barrenness')",
+    "payload": { "categoryLeft": "Childlessness never resolved", "categoryRight": "Barren, then bore a child", "cards": [
+      { "text": "Sarah", "side": "right" },
+      { "text": "Michal, David's wife", "side": "left" },
+      { "text": "Hannah", "side": "right" },
+      { "text": "Rebekah", "side": "right" },
+      { "text": "Rachel", "side": "right" },
+      { "text": "Elizabeth", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this an angel named in the Bible, or an unnamed angel?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Genesis 32; Daniel 8; 10; Luke 1; Acts 12; Revelation 9 (cross-check: Insight on the Scriptures, Vol. 1, 'Gabriel'; Vol. 2, 'Michael No. 1')",
+    "payload": { "categoryLeft": "An unnamed angel", "categoryRight": "A named angel", "cards": [
+      { "text": "Gabriel, who spoke to Daniel and to Mary", "side": "right" },
+      { "text": "The one who wrestled with Jacob until dawn", "side": "left" },
+      { "text": "Michael, called one of the chief princes", "side": "right" },
+      { "text": "The one who struck down the camp of the Assyrians", "side": "left" },
+      { "text": "The one who freed Peter from Herod's prison", "side": "left" },
+      { "text": "Abaddon, or Apollyon, the angel of the abyss", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this scene take place in a prison, or in a royal palace or throne room?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 40; Esther 5; Daniel 5; Nehemiah 2; Mark 6; Acts 16 (cross-check: Insight on the Scriptures, Vol. 2, 'Prison')",
+    "payload": { "categoryLeft": "In a palace or throne room", "categoryRight": "In a prison", "cards": [
+      { "text": "Joseph interpreting the dreams of the cupbearer and the baker", "side": "right" },
+      { "text": "Daniel reading the writing that a hand traced on the wall", "side": "left" },
+      { "text": "Paul and Silas singing praises at midnight", "side": "right" },
+      { "text": "Esther approaching the king without being summoned", "side": "left" },
+      { "text": "John the Baptist being beheaded", "side": "right" },
+      { "text": "Nehemiah pouring wine for the king of Persia", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this plague of Egypt one that struck the water, or one that struck the sky and air?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Exodus 7-10 (cross-check: Insight on the Scriptures, Vol. 2, 'Plague')",
+    "payload": { "categoryLeft": "Struck the sky and air", "categoryRight": "Struck the water", "cards": [
+      { "text": "The Nile turned to blood", "side": "right" },
+      { "text": "Three days of thick darkness", "side": "left" },
+      { "text": "Frogs coming up out of the river", "side": "right" },
+      { "text": "Hail mixed with fire", "side": "left" },
+      { "text": "The fish of the Nile dying", "side": "right" },
+      { "text": "Locusts blown in on an east wind", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this figure part of Jesus' family tree in Matthew, or a contemporary who opposed or doubted him?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 1-2; 26 (cross-check: Insight on the Scriptures, Vol. 1, 'Genealogy of Jesus Christ')",
+    "payload": { "categoryLeft": "An opponent or doubter", "categoryRight": "In Matthew's genealogy of Jesus", "cards": [
+      { "text": "Ruth", "side": "right" },
+      { "text": "Herod the Great", "side": "left" },
+      { "text": "Rahab", "side": "right" },
+      { "text": "The high priest Caiaphas", "side": "left" },
+      { "text": "King David", "side": "right" },
+      { "text": "Judas Iscariot", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did Paul write a letter to the Christians in this city, or visit it but leave no surviving letter?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Acts 17-19; the letters of Paul (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "categoryLeft": "Visited, but no surviving letter", "categoryRight": "Paul wrote a letter to this city", "cards": [
+      { "text": "Corinth", "side": "right" },
+      { "text": "Athens", "side": "left" },
+      { "text": "Ephesus", "side": "right" },
+      { "text": "Berea", "side": "left" },
+      { "text": "Philippi", "side": "right" },
+      { "text": "Antioch of Pisidia", "side": "left" }
+    ] }
+  }
+]

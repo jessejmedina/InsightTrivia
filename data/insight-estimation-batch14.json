@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Over how many days did God prepare the earth for habitation before resting?",
+    "type": "estimation",
+    "category": "Creation",
+    "difficulty": "easy",
+    "reference": "Genesis 1 (cross-check: Insight on the Scriptures, Vol. 1, 'Creation')",
+    "payload": { "value": 6, "unit": "days", "min": 1, "max": 30 }
+  },
+  {
+    "question": "How many plagues struck Egypt before Pharaoh let Israel go?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "easy",
+    "reference": "Exodus 7-12 (cross-check: Insight on the Scriptures, Vol. 2, 'Plague')",
+    "payload": { "value": 10, "unit": "plagues", "min": 1, "max": 40 }
+  },
+  {
+    "question": "How wide was Noah's ark, in cubits?",
+    "type": "estimation",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Genesis 6:15 (cross-check: Insight on the Scriptures, Vol. 1, 'Ark No. 1')",
+    "payload": { "value": 50, "unit": "cubits", "min": 5, "max": 220 }
+  },
+  {
+    "question": "How tall (high) was Noah's ark, in cubits?",
+    "type": "estimation",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Genesis 6:15 (cross-check: Insight on the Scriptures, Vol. 1, 'Ark No. 1')",
+    "payload": { "value": 30, "unit": "cubits", "min": 3, "max": 150 }
+  },
+  {
+    "question": "How many years in total did Jacob serve Laban (fourteen for his wives and six for his flocks)?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis 31:41 (cross-check: Insight on the Scriptures, Vol. 2, 'Jacob')",
+    "payload": { "value": 20, "unit": "years", "min": 2, "max": 60 }
+  },
+  {
+    "question": "How many springs of water did Israel find at Elim, along with 70 palm trees?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus 15:27 (cross-check: Insight on the Scriptures, Vol. 1, 'Elim')",
+    "payload": { "value": 12, "unit": "springs", "min": 1, "max": 50 }
+  },
+  {
+    "question": "How many Midianite swordsmen fell to Gideon's forces, leaving 15,000 survivors?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Judges 8:10 (cross-check: Insight on the Scriptures, Vol. 1, 'Gideon')",
+    "payload": { "value": 120000, "unit": "men", "min": 8000, "max": 700000, "log": true }
+  },
+  {
+    "question": "How many linen garments (and the same number of changes of clothing) did Samson wager on his riddle?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Judges 14:12 (cross-check: Insight on the Scriptures, Vol. 2, 'Samson', p. 850)",
+    "payload": { "value": 30, "unit": "garments", "min": 3, "max": 120 }
+  },
+  {
+    "question": "How many men of Ashkelon did Samson kill to pay off the wager on his riddle?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Judges 14:19 (cross-check: Insight on the Scriptures, Vol. 2, 'Samson', p. 850)",
+    "payload": { "value": 30, "unit": "men", "min": 3, "max": 120 }
+  },
+  {
+    "question": "How many loaves of bread did Abigail bring to appease David and his men?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 25:18 (cross-check: Insight on the Scriptures, Vol. 1, 'Abigail No. 1')",
+    "payload": { "value": 200, "unit": "loaves", "min": 20, "max": 800 }
+  },
+  {
+    "question": "How many chosen men did Saul take with him to hunt David in the wilderness?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 24:2 (cross-check: Insight on the Scriptures, Vol. 2, 'Saul No. 1', p. 871)",
+    "payload": { "value": 3000, "unit": "men", "min": 200, "max": 15000, "log": true }
+  },
+  {
+    "question": "How many men gathered to David at the cave of Adullam when he first fled from Saul?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 22:2 (cross-check: Insight on the Scriptures, Vol. 1, 'Adullam')",
+    "payload": { "value": 400, "unit": "men", "min": 40, "max": 2000 }
+  },
+  {
+    "question": "How many Amorite kings allied against Gibeon and were later trapped in a cave by Joshua?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Joshua 10:5, 16 (cross-check: Insight on the Scriptures, Vol. 1, 'Amorite')",
+    "payload": { "value": 5, "unit": "kings", "min": 1, "max": 20 }
+  },
+  {
+    "question": "How many men died in the battle in the forest of Ephraim during Absalom's revolt?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Samuel 18:7 (cross-check: Insight on the Scriptures, Vol. 1, 'Absalom')",
+    "payload": { "value": 20000, "unit": "men", "min": 1000, "max": 120000, "log": true }
+  },
+  {
+    "question": "How many small gold shields did Solomon make, besides the 200 large ones?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 10:17 (cross-check: Insight on the Scriptures, Vol. 2, 'Shield')",
+    "payload": { "value": 300, "unit": "shields", "min": 30, "max": 1200 }
+  },
+  {
+    "question": "How many lepers sat at the gate of Samaria and discovered that the Syrian army had fled?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "2 Kings 7:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Leprosy')",
+    "payload": { "value": 4, "unit": "lepers", "min": 1, "max": 20 }
+  },
+  {
+    "question": "For how many weeks did Daniel mourn, eating no choice food, before his vision by the Tigris?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Daniel 10:2-3 (cross-check: Insight on the Scriptures, Vol. 1, 'Daniel')",
+    "payload": { "value": 3, "unit": "weeks", "min": 1, "max": 15 }
+  },
+  {
+    "question": "How many enemies did the Jews kill in the citadel of Susa on the first day of their deliverance?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Esther 9:6 (cross-check: Insight on the Scriptures, Vol. 1, 'Esther, Book Of')",
+    "payload": { "value": 500, "unit": "men", "min": 50, "max": 3000 }
+  },
+  {
+    "question": "How many trained temple singers did the chief musicians direct, according to Chronicles?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Chronicles 25:7 (cross-check: Insight on the Scriptures, Vol. 2, 'Song')",
+    "payload": { "value": 288, "unit": "singers", "min": 20, "max": 1500 }
+  },
+  {
+    "question": "How many donkeys did Ezra's caravan bring back from Babylon?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Ezra 2:67 (cross-check: Insight on the Scriptures, Vol. 1, 'Ezra No. 1')",
+    "payload": { "value": 6720, "unit": "donkeys", "min": 500, "max": 40000, "log": true }
+  }
+]

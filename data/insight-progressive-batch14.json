@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which city Abraham left am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Ur",
+    "options": ["Ur", "Haran", "Damascus", "Bethel"],
+    "reference": "Genesis 11:31; Acts 7:2 (cross-check: Insight on the Scriptures, Vol. 2, 'Ur')",
+    "payload": { "clues": [
+      "I sat in the land of the Chaldeans, near the head of the Persian Gulf.",
+      "Abraham and his family set out from me on the road toward Canaan.",
+      "Stephen said the God of glory appeared to Abraham while he was still living in me.",
+      "I was a great center of moon worship."
+    ] }
+  },
+  {
+    "question": "Which crossroads town am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Haran",
+    "options": ["Haran", "Ur", "Damascus", "Nahor"],
+    "reference": "Genesis 11:31-32; 12:4; 24; 28-31 (cross-check: Insight on the Scriptures, Vol. 1, 'Haran No. 2')",
+    "payload": { "clues": [
+      "Abraham's father Terah stopped here and died on the way to Canaan.",
+      "Abraham lived here until he was 75, then left with Lot and Sarah.",
+      "His servant later came back to this region to find a wife for Isaac.",
+      "Jacob fled here to his uncle Laban and stayed twenty years."
+    ] }
+  },
+  {
+    "question": "Which first camp in the land am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Gilgal",
+    "options": ["Gilgal", "Jericho", "Shiloh", "Bethel"],
+    "reference": "Joshua 4-5; 1 Samuel 11 (cross-check: Insight on the Scriptures, Vol. 1, 'Gilgal No. 1')",
+    "payload": { "clues": [
+      "Israel camped at me right after crossing the Jordan.",
+      "Twelve memorial stones taken from the riverbed were set up here.",
+      "The males were circumcised here, and God said the reproach of Egypt had been rolled away.",
+      "Samuel later held court here, and Saul was confirmed as king here."
+    ] }
+  },
+  {
+    "question": "Which fatal mountain am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Mount Gilboa",
+    "options": ["Mount Gilboa", "Mount Tabor", "Mount Carmel", "Mount Hermon"],
+    "reference": "1 Samuel 28; 31; 2 Samuel 1 (cross-check: Insight on the Scriptures, Vol. 1, 'Gilboa')",
+    "payload": { "clues": [
+      "The Philistines gathered their army against Israel on my slopes.",
+      "King Saul and his three sons died here in the battle.",
+      "Saul fell on his own sword rather than be captured.",
+      "David's lament said, \"Let there be no dew or rain on you.\""
+    ] }
+  },
+  {
+    "question": "Which river ford am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "the Jabbok",
+    "options": ["the Jabbok", "the Jordan", "the Arnon", "the Kishon"],
+    "reference": "Genesis 32:22-31 (cross-check: Insight on the Scriptures, Vol. 2, 'Jabbok')",
+    "payload": { "clues": [
+      "I am a stream that flows west into the Jordan from the highlands of Gilead.",
+      "Jacob sent his family and flocks across me, then stayed behind alone.",
+      "There he wrestled a messenger of God until daybreak.",
+      "His hip was wrenched, and he named the place \"Face of God.\""
+    ] }
+  },
+  {
+    "question": "Which desert oasis am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "En-gedi",
+    "options": ["En-gedi", "Beersheba", "Jericho", "Kadesh"],
+    "reference": "1 Samuel 24 (cross-check: Insight on the Scriptures, Vol. 1, 'En-gedi')",
+    "payload": { "clues": [
+      "I am a spring and a cluster of palms on the western shore of the Salt Sea.",
+      "David hid from Saul in my caves and among my crags.",
+      "Saul went into a cave to relieve himself, not knowing David was inside.",
+      "David cut off the corner of Saul's robe instead of taking his life."
+    ] }
+  },
+  {
+    "question": "Which fishing village am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Bethsaida",
+    "options": ["Bethsaida", "Capernaum", "Chorazin", "Magdala"],
+    "reference": "John 1:44; Mark 8:22-26; Matthew 11:21 (cross-check: Insight on the Scriptures, Vol. 1, 'Bethsaida')",
+    "payload": { "clues": [
+      "My name means \"house of the fisherman,\" and I sat near where the Jordan enters the Sea of Galilee.",
+      "The apostles Peter, Andrew, and Philip came from me.",
+      "Jesus healed a blind man here in two stages.",
+      "Despite his powerful works, Jesus pronounced a woe on me."
+    ] }
+  },
+  {
+    "question": "Which village of a first miracle am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Cana",
+    "options": ["Cana", "Nazareth", "Capernaum", "Nain"],
+    "reference": "John 2:1-11; 21:2 (cross-check: Insight on the Scriptures, Vol. 1, 'Cana')",
+    "payload": { "clues": [
+      "I was a small town in Galilee, not far from Nazareth.",
+      "Jesus was at a wedding here with his mother and disciples.",
+      "When the wine ran out, he turned the water in six stone jars into fine wine.",
+      "The apostle Nathanael came from me."
+    ] }
+  },
+  {
+    "question": "Which city of a synagogue sermon am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Antioch of Pisidia",
+    "options": ["Antioch of Pisidia", "Iconium", "Lystra", "Derbe"],
+    "reference": "Acts 13:13-52 (cross-check: Insight on the Scriptures, Vol. 1, 'Antioch No. 2')",
+    "payload": { "clues": [
+      "Paul and Barnabas came to me on the first missionary journey.",
+      "Invited to speak in the synagogue, Paul gave a long review of Israel's history.",
+      "Nearly the whole city gathered the next Sabbath to hear the word.",
+      "Jealous opponents drove the missionaries out, and they shook the dust off their feet against me."
+    ] }
+  },
+  {
+    "question": "Which city where Paul was stoned am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Lystra",
+    "options": ["Lystra", "Derbe", "Iconium", "Perga"],
+    "reference": "Acts 14:8-20; 16:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Lystra')",
+    "payload": { "clues": [
+      "Paul healed a man here who had been crippled from birth.",
+      "The crowd thought Paul and Barnabas were gods, calling Barnabas \"Zeus\" and Paul \"Hermes.\"",
+      "Soon after, agitators turned the crowd, and Paul was stoned and dragged out of the city as dead.",
+      "The young man Timothy was from here."
+    ] }
+  },
+  {
+    "question": "Which town of noble-minded listeners am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Berea",
+    "options": ["Berea", "Thessalonica", "Athens", "Philippi"],
+    "reference": "Acts 17:10-15 (cross-check: Insight on the Scriptures, Vol. 1, 'Beroea')",
+    "payload": { "clues": [
+      "Paul and Silas came to me by night after leaving Thessalonica.",
+      "My people received the word eagerly and searched the Scriptures every day to check what Paul said.",
+      "Many believed, including prominent Greek women and men.",
+      "When the Thessalonian mob followed, the brothers sent Paul on toward Athens."
+    ] }
+  },
+  {
+    "question": "Which port of a vision am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Troas",
+    "options": ["Troas", "Miletus", "Assos", "Ephesus"],
+    "reference": "Acts 16:8-11; 20:6-12; 2 Timothy 4:13 (cross-check: Insight on the Scriptures, Vol. 2, 'Troas')",
+    "payload": { "clues": [
+      "At me Paul saw in the night a Macedonian man pleading, \"Step over into Macedonia and help us.\"",
+      "On a later visit, Paul talked until midnight and a young man named Eutychus fell asleep and dropped from a third-floor window.",
+      "Paul went down, embraced him, and he was alive.",
+      "Paul left a cloak and some scrolls here."
+    ] }
+  },
+  {
+    "question": "Which pair of objects am I?",
+    "type": "progressive",
+    "category": "Tabernacle",
+    "difficulty": "medium",
+    "answer": "the two stone tablets",
+    "options": ["the two stone tablets", "the golden calf", "the ark of the covenant", "the bronze serpent"],
+    "reference": "Exodus 31:18; 32:19; 34:1; Deuteronomy 10:1-5 (cross-check: Insight on the Scriptures, Vol. 2, 'Ten Words')",
+    "payload": { "clues": [
+      "I was cut from stone and written on by the finger of God on the mountain.",
+      "Moses smashed the first set of me in anger at the golden calf.",
+      "A second set was made and placed inside the ark.",
+      "I held ten commandments in all."
+    ] }
+  },
+  {
+    "question": "Which later festival am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "answer": "Purim",
+    "options": ["Purim", "the Festival of Dedication", "Passover", "Pentecost"],
+    "reference": "Esther 3:7; 9:20-28 (cross-check: Insight on the Scriptures, Vol. 2, 'Purim')",
+    "payload": { "clues": [
+      "I am not commanded anywhere in the Law of Moses.",
+      "I began in the days of the Persian Empire.",
+      "My name comes from the word for the lots that were cast to choose a day for genocide.",
+      "The Jews keep me with feasting and gifts to the poor, remembering their rescue from Haman."
+    ] }
+  },
+  {
+    "question": "Which father of a Nazirite am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Manoah",
+    "options": ["Manoah", "Elkanah", "Zechariah", "Amram"],
+    "reference": "Judges 13 (cross-check: Insight on the Scriptures, Vol. 2, 'Manoah')",
+    "payload": { "clues": [
+      "My wife was childless, and an angel appeared to her promising a son.",
+      "I prayed, and the angel came a second time.",
+      "We prepared a young goat, and the angel ascended in the flame from the altar.",
+      "My son grew up to judge Israel and fight the Philistines."
+    ] }
+  },
+  {
+    "question": "Which husband of two wives am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Elkanah",
+    "options": ["Elkanah", "Manoah", "Amram", "Jesse"],
+    "reference": "1 Samuel 1 (cross-check: Insight on the Scriptures, Vol. 1, 'Elkanah No. 1')",
+    "payload": { "clues": [
+      "I went up each year to worship and sacrifice at Shiloh.",
+      "One of my two wives was childless and grieved bitterly.",
+      "I asked her, \"Am I not better to you than ten sons?\"",
+      "The son she finally bore became a prophet and judge."
+    ] }
+  }
+]

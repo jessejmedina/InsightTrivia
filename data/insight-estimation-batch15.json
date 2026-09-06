@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Counting parts of days as the Jews did, for how many days was Jesus in the tomb before his resurrection?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 12:40 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "value": 3, "unit": "days", "min": 1, "max": 12 }
+  },
+  {
+    "question": "How many days after Jesus first foretold his death did the transfiguration take place, per Matthew?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Matthew 17:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Transfiguration')",
+    "payload": { "value": 6, "unit": "days", "min": 1, "max": 30 }
+  },
+  {
+    "question": "Jesus told Peter to forgive his brother not up to seven times, but up to how many?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Matthew 18:22 (cross-check: Insight on the Scriptures, Vol. 1, 'Forgiveness')",
+    "payload": { "value": 77, "unit": "times", "min": 7, "max": 700, "log": true }
+  },
+  {
+    "question": "In Jesus' parable of the minas, how many minas did the nobleman give to each of his ten servants?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Luke 19:13 (cross-check: Insight on the Scriptures, Vol. 2, 'Mina')",
+    "payload": { "value": 1, "unit": "minas", "min": 0, "max": 12 }
+  },
+  {
+    "question": "In Jesus' parable, how many sheep did the shepherd leave behind to search for the one that was lost?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Luke 15:4 (cross-check: Insight on the Scriptures, Vol. 2, 'Sheep')",
+    "payload": { "value": 99, "unit": "sheep", "min": 5, "max": 300 }
+  },
+  {
+    "question": "How many denarii did the neighborly Samaritan give the innkeeper to care for the injured man?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Luke 10:35 (cross-check: Insight on the Scriptures, Vol. 2, 'Samaritan')",
+    "payload": { "value": 2, "unit": "denarii", "min": 1, "max": 12 }
+  },
+  {
+    "question": "In what size groups did Jesus send out the seventy to preach ahead of him?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Luke 10:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Preaching')",
+    "payload": { "value": 2, "unit": "per group", "min": 1, "max": 12 }
+  },
+  {
+    "question": "How many baskets of leftover pieces were gathered after Jesus fed the 4,000 from seven loaves?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 15:37 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "value": 7, "unit": "baskets", "min": 1, "max": 25 }
+  },
+  {
+    "question": "How many lepers did Jesus cleanse on the way to Jerusalem, of whom only one came back to thank him?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Luke 17:12-17 (cross-check: Insight on the Scriptures, Vol. 2, 'Leprosy')",
+    "payload": { "value": 10, "unit": "lepers", "min": 1, "max": 40 }
+  },
+  {
+    "question": "About how many men made up a Roman legion, the name the demons gave when Jesus questioned them?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Mark 5:9 (cross-check: Insight on the Scriptures, Vol. 2, 'Legion')",
+    "payload": { "value": 6000, "unit": "men", "min": 500, "max": 30000, "log": true }
+  },
+  {
+    "question": "How many times did Peter deny knowing Jesus on the night of the arrest?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 26:75 (cross-check: Insight on the Scriptures, Vol. 2, 'Peter', p. 618)",
+    "payload": { "value": 3, "unit": "times", "min": 1, "max": 12 }
+  },
+  {
+    "question": "According to Mark's account, how many times would the rooster crow before Peter finished denying Jesus?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Mark 14:30 (cross-check: Insight on the Scriptures, Vol. 1, 'Cock')",
+    "payload": { "value": 2, "unit": "times", "min": 1, "max": 12 }
+  },
+  {
+    "question": "Among how many soldiers were Jesus' outer garments divided at the crucifixion?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "John 19:23 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "value": 4, "unit": "soldiers", "min": 1, "max": 20 }
+  },
+  {
+    "question": "About how many national or language groups are listed as hearing the disciples speak at Pentecost?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 2:9-11 (cross-check: Insight on the Scriptures, Vol. 2, 'Pentecost')",
+    "payload": { "value": 15, "unit": "groups", "min": 2, "max": 60 }
+  },
+  {
+    "question": "About how many hours apart did Ananias and Sapphira die?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Acts 5:7 (cross-check: Insight on the Scriptures, Vol. 1, 'Ananias No. 1')",
+    "payload": { "value": 3, "unit": "hours", "min": 1, "max": 24 }
+  },
+  {
+    "question": "How many squads of four soldiers each did Herod post to guard Peter in prison?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 12:4 (cross-check: Insight on the Scriptures, Vol. 2, 'Peter', p. 618)",
+    "payload": { "value": 4, "unit": "squads", "min": 1, "max": 20 }
+  },
+  {
+    "question": "About how many men were in the Jerusalem congregation after Peter's temple sermon, per Acts 4?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Acts 4:4 (cross-check: Insight on the Scriptures, Vol. 1, 'Congregation')",
+    "payload": { "value": 5000, "unit": "men", "min": 500, "max": 30000, "log": true }
+  },
+  {
+    "question": "How many years passed before Paul first went up to Jerusalem after his conversion, per Galatians?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Galatians 1:18 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "value": 3, "unit": "years", "min": 1, "max": 15 }
+  },
+  {
+    "question": "How many years later did Paul again go up to Jerusalem, this time with Barnabas, per Galatians?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Galatians 2:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "value": 14, "unit": "years", "min": 2, "max": 50 }
+  },
+  {
+    "question": "To which heaven did Paul say a man he knew had been caught away?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "2 Corinthians 12:2 (cross-check: Insight on the Scriptures, Vol. 1, 'Heaven')",
+    "payload": { "value": 3, "unit": "(the third)", "min": 1, "max": 12 }
+  }
+]

@@ -486,6 +486,41 @@ Sea-vs-born-later, prominent-vs-humble leader, over-900-vs-under-200 years.
 **DB per-type (count:exact): estimation 261, progressive 210, swipe 199;
 grand total 1610.**
 
+**batch14 (2026-09-06) — written + IMPORTED** (20/16/15, 0 skipped). est:
+creation 6 days, 10 plagues, ark width/height, Jacob's 20 yrs at Laban's,
+Elim's 12 springs, Gideon's 120,000, Samson's 30-garment wager + 30 at
+Ashkelon, Abigail's 200 loaves, Saul's 3,000 hunters, David's 400 at
+Adullam, 5 Amorite kings, 20,000 in the forest of Ephraim, Solomon's 300
+small shields, the 4 lepers, Daniel's 3-week mourning, 500 killed in
+Susa day 1, 288 temple singers, Ezra's 6,720 donkeys. prog: 12 place-ID
+puzzles (Ur, Haran, Gilgal, Mount Gilboa, the Jabbok, En-gedi, Bethsaida,
+Cana, Antioch of Pisidia, Lystra, Berea, Troas) + the two stone tablets,
+Purim, Manoah, Elkanah. swipe: book-of-Moses-vs-history, Moses-vs-Elijah
+miracle, Hezekiah-vs-Josiah reign, Jesus-vs-John-Baptist title, priest's-
+clothing-vs-soldier's-armor, plague-for-Israel's-sin-vs-against-enemies,
+Proverbs-vs-Jesus line, temple-vs-high-place, built-vs-tore-down altar,
+doubted-vs-accepted an angel, idol-vs-sanctuary object, animal-that-spoke-
+vs-mentioned, demon-vs-person-being-healed, renamed-by-God-vs-birth-name,
+coast-vs-inland.
+
+**batch15 (2026-09-06) — written + IMPORTED** (20/16/15, 0 skipped). est:
+Gospel parable / crucifixion / Acts numbers (tomb 3 days, transfiguration
++6, forgive 77x, minas 1 each, lost sheep 99, Samaritan's 2 denarii, sent
+2-by-2, 4,000 fed / 7 baskets, 10 lepers, legion ~6,000, Peter's 3
+denials, rooster 2x, garments among 4 soldiers, ~15 Pentecost groups,
+Ananias/Sapphira 3 hrs, Herod's 4 squads, ~5,000 men, Paul's 3 yrs / 14
+yrs / third heaven). prog: 9 place-ID (Ziklag, Gath, Endor, Mizpah,
+Megiddo, Dothan, Ramah, Sychar, Malta) + the ephod, the pillar of cloud
+and fire, the manna, Rizpah, Job's wife, Elihu, Shamgar. swipe: Philistine-
+vs-Israelite city, Sea-of-Galilee-vs-Jordan, God-vs-Satan in Job, non-
+priestly-prophet-vs-Levite, raised-from-dead-vs-never-died, into-the-land-
+vs-into-exile, husbands/wives-vs-slaves/masters counsel, Peter-vs-Paul in
+Acts, Sinai-vs-Mount-of-Olives moment, barren-then-bore-vs-unresolved,
+named-vs-unnamed angel, prison-vs-palace scene, plague-water-vs-sky,
+Matthew's-genealogy-vs-opponent, Paul-wrote-a-letter-vs-visited-only.
+**DB per-type (count:exact): estimation 301, progressive 242, swipe 229;
+grand total 1712.**
+
 **estimation + swipe batches 1-4 — IMPORTED 2026-09-06.** estimation
 79/80 inserted (skipped "How many pieces of silver did the chief priests
 pay Judas..." — already in the DB as a multiple_choice question). swipe
