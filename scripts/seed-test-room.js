@@ -6,7 +6,7 @@
  * hoping the random draw lands on them.
  *
  * Usage:
- *   node scripts/import-questions.js data/test-question-types.json   # once
+ *   npx tsx scripts/import-questions.js data/test-question-types.json   # once
  *   node scripts/seed-test-room.js <your-username>
  *
  * Then in the app (signed in as <your-username>): Join Game -> code TESTTY.
@@ -56,7 +56,7 @@ async function main() {
   const missing = wantTexts.filter((t) => !byText.has(t));
   if (missing.length) {
     console.error('These test questions are not in the DB yet — import them first:');
-    console.error('  node scripts/import-questions.js data/test-question-types.json');
+    console.error('  npx tsx scripts/import-questions.js data/test-question-types.json');
     missing.forEach((t) => console.error('  - ' + t));
     process.exit(1);
   }

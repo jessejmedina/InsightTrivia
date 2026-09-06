@@ -3,7 +3,8 @@
  * One-off importer: reads a JSON array of trivia questions and inserts the
  * new ones into the Supabase `questions` table, skipping exact duplicates.
  *
- * Usage: node scripts/import-questions.js path/to/questions.json
+ * Usage: npx tsx scripts/import-questions.js path/to/questions.json
+ *        (tsx, not plain node — validate() imports the TS descriptor logic)
  *
  * Requires SUPABASE_SERVICE_ROLE_KEY in .env (server-only key, bypasses RLS
  * so it can insert without a signed-in user) alongside the existing
@@ -12,6 +13,7 @@
 const fs = require('fs');
 const path = require('path');
 const { createClient } = require('@supabase/supabase-js');
+const { getTypeLogic } = require('../lib/questionTypes/logic');
 
 function loadEnv() {
   const envPath = path.join(__dirname, '..', '.env');
@@ -29,7 +31,13 @@ loadEnv();
 const SUPABASE_URL = process.env.EXPO_PUBLIC_SUPABASE_URL;
 const SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const DIFFICULTIES = ['easy', 'medium', 'hard'];
-const QUESTION_TYPES = ['free_text', 'multiple_choice', 'fill_blank', 'ordering', 'matching'];
+
+// Types the app can actually play. `fill_blank` collapses to multiple_choice.
+const PLAYABLE_TYPES = new Set(['multiple_choice', 'progressive', 'ordering', 'matching', 'estimation', 'swipe']);
+// Types that carry a 4-entry `options` array + a scalar `answer`.
+const NEEDS_OPTIONS = new Set(['multiple_choice', 'progressive']);
+// Types whose `payload` is validated by the descriptor (getTypeLogic(type).validatePayload).
+const NEEDS_PAYLOAD = new Set(['ordering', 'matching', 'estimation', 'progressive', 'swipe']);
 
 function shuffleOptions(arr) {
   const result = arr.slice();
@@ -52,57 +60,40 @@ function validate(raw, index) {
   const reference = typeof raw.reference === 'string' && raw.reference.trim() ? raw.reference.trim() : null;
   const hint = typeof raw.hint === 'string' && raw.hint.trim() ? raw.hint.trim() : null;
 
-  // Resolve type. Explicit type wins; fill_blank collapses to multiple_choice.
-  // No type + a 4-entry options array => infer multiple_choice.
+  // Resolve type. Explicit wins; fill_blank collapses to multiple_choice;
+  // no type + a 4-entry options array infers multiple_choice.
   let type = typeof raw.type === 'string' && raw.type.trim() ? raw.type.trim() : null;
   if (type === 'fill_blank') type = 'multiple_choice';
   if (!type) {
     if (Array.isArray(raw.options) && raw.options.length === 4) type = 'multiple_choice';
-    else {
-      errors.push('no playable type: give a "type", or provide a 4-entry "options" array for multiple choice');
-      return { ok: false, index, errors };
-    }
+    else { errors.push('no playable type: give a "type", or a 4-entry "options" array for multiple choice'); return { ok: false, index, errors }; }
   }
-  if (!QUESTION_TYPES.includes(type)) {
-    errors.push(`unknown type "${type}"`);
-    return { ok: false, index, errors };
+  if (!PLAYABLE_TYPES.has(type)) { errors.push(`unknown type "${type}"`); return { ok: false, index, errors }; }
+
+  // Options (multiple_choice, progressive).
+  let answer = null;
+  let options = null;
+  if (NEEDS_OPTIONS.has(type)) {
+    answer = typeof raw.answer === 'string' ? raw.answer.trim() : '';
+    if (!answer) errors.push('missing answer');
+    options = Array.isArray(raw.options) ? raw.options.slice() : null;
+    if (!options || options.length !== 4) errors.push(`${type} needs exactly 4 options`);
+    else if (!options.includes(answer)) errors.push('options must include the answer');
   }
 
-  if (type === 'ordering' || type === 'matching') {
-    const payload = raw.payload;
-    let cleanPayload = null;
-    if (type === 'ordering') {
-      const items = payload && Array.isArray(payload.items) ? payload.items : null;
-      if (!items || items.length !== 4) errors.push('ordering questions need a payload.items array of exactly 4 strings');
-      else if (items.some((item) => typeof item !== 'string')) errors.push('every ordering item must be a string');
-      else if (new Set(items).size !== 4) errors.push('ordering items must be distinct');
-      else cleanPayload = { items: items.slice() };
-    } else {
-      const pairs = payload && Array.isArray(payload.pairs) ? payload.pairs : null;
-      if (!pairs || pairs.length !== 4) errors.push('matching questions need a payload.pairs array of exactly 4 pairs');
-      else if (pairs.some((p) => !p || typeof p.left !== 'string' || typeof p.right !== 'string')) errors.push('every matching pair needs a string "left" and "right"');
-      else if (new Set(pairs.map((p) => p.left)).size !== 4) errors.push('matching "left" values must be distinct');
-      else cleanPayload = { pairs: pairs.map((p) => ({ left: p.left, right: p.right })) };
-    }
-    if (errors.length) return { ok: false, index, errors };
-    return {
-      ok: true,
-      row: { question, answer: null, options: null, payload: cleanPayload, category, difficulty, reference, hint, type, active: true },
-    };
+  // Payload — delegated to the descriptor's validatePayload so rules live in one place.
+  let payload = null;
+  if (NEEDS_PAYLOAD.has(type)) {
+    const v = getTypeLogic(type).validatePayload(raw.payload);
+    if (!v.ok) errors.push(v.error);
+    else payload = v.payload;
   }
-
-  // multiple_choice
-  const answer = typeof raw.answer === 'string' ? raw.answer.trim() : '';
-  if (!answer) errors.push('missing answer');
-  let options = Array.isArray(raw.options) ? raw.options.slice() : null;
-  if (!options || options.length !== 4) errors.push('multiple_choice questions need exactly 4 options');
-  else if (!options.includes(answer)) errors.push('options must include the answer');
 
   if (errors.length) return { ok: false, index, errors };
-  options = shuffleOptions(options);
+  if (options) options = shuffleOptions(options);
   return {
     ok: true,
-    row: { question, answer, options, payload: null, category, difficulty, reference, hint, type, active: true },
+    row: { question, answer: answer || null, options, payload, category, difficulty, reference, hint, type, active: true },
   };
 }
 

@@ -5,7 +5,8 @@
  * ONE insert against Supabase. Safe to re-run — existing questions (matched
  * by exact question text) are skipped.
  *
- * Usage: node scripts/import-all.js [--dry-run] [glob-dir]
+ * Usage: npx tsx scripts/import-all.js [--dry-run] [glob-dir-or-file]
+ *   (tsx, not plain node — it requires the TS-importing importer)
  *   default dir: data/
  */
 const fs = require('fs');

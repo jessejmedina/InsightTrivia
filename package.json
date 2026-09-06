@@ -35,7 +35,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test:unit": "tsx --test \"lib/**/*.test.ts\" \"components/**/*.test.ts\"",
-    "test:import": "node --test scripts/import-questions.test.js",
+    "test:import": "tsx --test scripts/import-questions.test.js",
     "test": "npm run test:unit && npm run test:import"
   },
   "private": true
