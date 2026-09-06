@@ -1,4 +1,6 @@
-import type { MatchPair } from './gameLogic';
+import type {
+  OrderingPayload, MatchingPayload, EstimationPayload, ProgressivePayload, SwipePayload,
+} from './questionTypes/logic';
 
 export interface PlayerRow {
   id: string;
@@ -18,7 +20,13 @@ export interface Question {
   hint: string | null;
   type: string;
   options: string[] | null;
-  payload: { items: string[] } | { pairs: MatchPair[] } | Record<string, unknown> | null;
+  payload:
+    | OrderingPayload
+    | MatchingPayload
+    | EstimationPayload
+    | ProgressivePayload
+    | SwipePayload
+    | null;
 }
 
 export interface RoomRow {
