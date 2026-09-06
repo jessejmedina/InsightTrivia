@@ -13,6 +13,8 @@ import { MatchingPhase } from '../../components/game/MatchingPhase';
 import { RevealPhase } from '../../components/game/RevealPhase';
 import { EstimationPhase } from '../../components/game/EstimationPhase';
 import { EstimationReveal } from '../../components/game/EstimationReveal';
+import { ProgressivePhase } from '../../components/game/ProgressivePhase';
+import { ProgressiveReveal } from '../../components/game/ProgressiveReveal';
 
 export type { PlayProps, RevealProps } from './uiTypes';
 export * from './logic';
@@ -28,6 +30,7 @@ const UI: Record<string, { Play: ComponentType<PlayProps>; Reveal: ComponentType
   ordering: { Play: OrderingPhase, Reveal: RevealPhase },
   matching: { Play: MatchingPhase, Reveal: RevealPhase },
   estimation: { Play: EstimationPhase, Reveal: EstimationReveal },
+  progressive: { Play: ProgressivePhase, Reveal: ProgressiveReveal },
 };
 
 export function getDescriptor(type: string | null | undefined): QuestionDescriptor {
