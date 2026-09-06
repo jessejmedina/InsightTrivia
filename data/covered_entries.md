@@ -357,6 +357,26 @@ David's gear vs Goliath's gear, minor vs long prophetic book.
 **DB per-type (count:exact): estimation 121, progressive 98, swipe 94;
 grand total 1253.**
 
+**batch7 (2026-09-06) — written + IMPORTED** (20 est / 16 prog / 15 swipe,
+51 rows, 0 skipped). est: patriarch/pre-Flood lifespans (Terah 205,
+Abraham 175, Isaac 180, Jacob 147, Ishmael 137, Moses 120, Enoch 365,
+Seth 912), Anna 84, Eli 98, divided-kingdom battle counts (Amaziah's
+100,000 mercenaries, Pekah's 120,000, Uzziah's 307,500 army, Shishak's
+1,200 chariots), Hezekiah's 300-talent tribute, Josiah's 30,000 Passover
+animals, Daniel's 21-day delay, Ezra's 4-month journey, Rev's 24 elders +
+100-lb hailstones. prog: Enoch, Cain, Lot, Esau, Judah, Reuben, Rachel,
+Achan, Jael, Delilah, Amnon, Adonijah, Mephibosheth, Barak, Baruch; place
+Shiloh. swipe: Noah-covenant vs Abraham-covenant, miracle-working prophet
+vs message-only, said-by-Jesus vs written-by-Paul, went-to-Egypt vs never,
+parable vs real event, birth-account vs resurrection-account, Revelation
+name for God's-people vs God's-enemy, Levite vs other tribe, united-kingdom
+king vs Judah-only, Israelite-deliverer vs foreign-oppressor, Law vs
+Prophets book, food-multiplying vs water/weather miracle, Jesus-visited vs
+OT-only place, raised-in-Hebrew-Scriptures vs Greek-Scriptures, Sinai vs
+Nebo.
+**DB per-type (count:exact): estimation 141, progressive 114, swipe 109;
+grand total 1304.**
+
 **estimation + swipe batches 1-4 — IMPORTED 2026-09-06.** estimation
 79/80 inserted (skipped "How many pieces of silver did the chief priests
 pay Judas..." — already in the DB as a multiple_choice question). swipe

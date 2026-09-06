@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Was this covenant sign or promise given to Noah, or to Abraham?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Genesis 9; 15; 17 (cross-check: Insight on the Scriptures, Vol. 1, 'Covenant')",
+    "payload": { "categoryLeft": "Given to Noah", "categoryRight": "Given to Abraham", "cards": [
+      { "text": "The rainbow in the cloud", "side": "left" },
+      { "text": "Circumcision as the sign", "side": "right" },
+      { "text": "\"Never again will a flood destroy all flesh\"", "side": "left" },
+      { "text": "A land reaching to the great river, the Euphrates", "side": "right" },
+      { "text": "Permission to eat animal flesh, but not its blood", "side": "left" },
+      { "text": "A son by Sarah within the coming year", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this prophet remembered for performing miracles, or only for delivering messages?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "1 & 2 Kings; the minor prophets (cross-check: Insight on the Scriptures, Vol. 2, 'Prophet')",
+    "payload": { "categoryLeft": "Known only for messages", "categoryRight": "Performed miracles", "cards": [
+      { "text": "Elijah", "side": "right" },
+      { "text": "Amos", "side": "left" },
+      { "text": "Elisha", "side": "right" },
+      { "text": "Jeremiah", "side": "left" },
+      { "text": "Moses", "side": "right" },
+      { "text": "Malachi", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this line spoken by Jesus, or written by the apostle Paul?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "The Gospels; the letters of Paul (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "categoryLeft": "Written by Paul", "categoryRight": "Spoken by Jesus", "cards": [
+      { "text": "\"Continue loving your enemies and praying for those persecuting you.\"", "side": "right" },
+      { "text": "\"The wages sin pays is death, but the gift God gives is everlasting life.\"", "side": "left" },
+      { "text": "\"I am the resurrection and the life.\"", "side": "right" },
+      { "text": "\"For in my case, to live is Christ and to die is gain.\"", "side": "left" },
+      { "text": "\"Let the young children come to me; do not try to stop them.\"", "side": "right" },
+      { "text": "\"I have fought the fine fight, I have run the race to the finish.\"", "side": "left" }
+    ] }
+  },
+  {
+    "question": "According to the Bible record, did this person ever go down into Egypt, or not?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 12; 46; Ruth 1; the account of David (cross-check: Insight on the Scriptures, Vol. 1, 'Egypt')",
+    "payload": { "categoryLeft": "Never went to Egypt", "categoryRight": "Went to Egypt", "cards": [
+      { "text": "Abraham, during a famine", "side": "right" },
+      { "text": "Boaz of Bethlehem", "side": "left" },
+      { "text": "Jacob, in his old age", "side": "right" },
+      { "text": "Ruth the Moabitess", "side": "left" },
+      { "text": "Joseph, sold by his brothers", "side": "right" },
+      { "text": "King David", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this a well-known parable Jesus told, or an actual event in his ministry?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "The Gospels (cross-check: Insight on the Scriptures, Vol. 2, 'Illustrations')",
+    "payload": { "categoryLeft": "A parable", "categoryRight": "An actual event", "cards": [
+      { "text": "The neighborly Samaritan on the Jericho road", "side": "left" },
+      { "text": "Calming the windstorm on the Sea of Galilee", "side": "right" },
+      { "text": "The son who wasted his inheritance and came home", "side": "left" },
+      { "text": "Turning water into wine at a wedding in Cana", "side": "right" },
+      { "text": "The ten virgins waiting with their lamps", "side": "left" },
+      { "text": "The catch of 153 fish after the resurrection", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this detail belong to the account of Jesus' birth, or to the account of his resurrection?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 2; 28; Luke 2; 24; John 20 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "categoryLeft": "The birth account", "categoryRight": "The resurrection account", "cards": [
+      { "text": "Shepherds keeping watch over their flocks by night", "side": "left" },
+      { "text": "An angel rolling away the stone and sitting on it", "side": "right" },
+      { "text": "Astrologers following a star from the east", "side": "left" },
+      { "text": "The linen wrappings left lying in the empty tomb", "side": "right" },
+      { "text": "No place for them in the lodging room", "side": "left" },
+      { "text": "Two disciples joined by a stranger on the road to Emmaus", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In the book of Revelation, does this name belong to God's people, or to God's enemy?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Revelation 17-22 (cross-check: Insight on the Scriptures, Vol. 1, 'Babylon the Great')",
+    "payload": { "categoryLeft": "God's enemy", "categoryRight": "God's people or city", "cards": [
+      { "text": "New Jerusalem", "side": "right" },
+      { "text": "Babylon the Great", "side": "left" },
+      { "text": "The bride of the Lamb", "side": "right" },
+      { "text": "The wild beast from the sea", "side": "left" },
+      { "text": "The holy city coming down from heaven", "side": "right" },
+      { "text": "The great harlot sitting on many waters", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this leader of Israel a Levite from the priestly tribe, or from another tribe?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Exodus 6; Numbers 13; 1 Chronicles 6; Luke 1 (cross-check: Insight on the Scriptures, Vol. 2, 'Levites')",
+    "payload": { "categoryLeft": "From another tribe", "categoryRight": "A Levite", "cards": [
+      { "text": "Aaron", "side": "right" },
+      { "text": "Caleb, of the tribe of Judah", "side": "left" },
+      { "text": "Samuel", "side": "right" },
+      { "text": "Joshua, of the tribe of Ephraim", "side": "left" },
+      { "text": "John the Baptist", "side": "right" },
+      { "text": "Gideon, of the tribe of Manasseh", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this king rule over the united kingdom of all Israel, or only over Judah after the split?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "1 & 2 Kings; 1 & 2 Chronicles (cross-check: Insight on the Scriptures, Vol. 2, 'King')",
+    "payload": { "categoryLeft": "Only Judah, after the split", "categoryRight": "All Israel, united", "cards": [
+      { "text": "Saul", "side": "right" },
+      { "text": "Rehoboam", "side": "left" },
+      { "text": "David", "side": "right" },
+      { "text": "Jehoshaphat", "side": "left" },
+      { "text": "Solomon", "side": "right" },
+      { "text": "Hezekiah", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this figure an Israelite deliverer (a judge), or a foreign ruler who oppressed Israel?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Judges 3-8 (cross-check: Insight on the Scriptures, Vol. 1, 'Judge')",
+    "payload": { "categoryLeft": "A foreign oppressor", "categoryRight": "An Israelite deliverer", "cards": [
+      { "text": "Eglon of Moab", "side": "left" },
+      { "text": "Ehud", "side": "right" },
+      { "text": "Jabin, king of Hazor", "side": "left" },
+      { "text": "Deborah", "side": "right" },
+      { "text": "Zebah and Zalmunna of Midian", "side": "left" },
+      { "text": "Gideon", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this book part of the Law (the first five books), or part of the Prophets?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "The Hebrew Scriptures (cross-check: Insight on the Scriptures, Vol. 2, 'Pentateuch')",
+    "payload": { "categoryLeft": "Part of the Law", "categoryRight": "Part of the Prophets", "cards": [
+      { "text": "Leviticus", "side": "left" },
+      { "text": "Isaiah", "side": "right" },
+      { "text": "Numbers", "side": "left" },
+      { "text": "Amos", "side": "right" },
+      { "text": "Deuteronomy", "side": "left" },
+      { "text": "Jonah", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this miracle involve multiplying food, or controlling water and weather?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "1 Kings 18; 2 Kings 4; the Gospels (cross-check: Insight on the Scriptures, Vol. 2, 'Miracles')",
+    "payload": { "categoryLeft": "Multiplying food", "categoryRight": "Controlling water or weather", "cards": [
+      { "text": "Feeding about 5,000 men from five loaves and two fish", "side": "left" },
+      { "text": "Calming the storm with the words \"Hush! Be quiet!\"", "side": "right" },
+      { "text": "The widow's jar of oil that kept pouring", "side": "left" },
+      { "text": "Walking across the surface of the sea", "side": "right" },
+      { "text": "Feeding about 4,000 from seven loaves", "side": "left" },
+      { "text": "The heavy rain that ended a three-year drought", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a place Jesus visited during his ministry, or a place named only in the Hebrew Scriptures?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Genesis; the Gospels (cross-check: Insight on the Scriptures, Vol. 1, 'Capernaum')",
+    "payload": { "categoryLeft": "Named only in the Hebrew Scriptures", "categoryRight": "Visited by Jesus", "cards": [
+      { "text": "Capernaum", "side": "right" },
+      { "text": "Sodom", "side": "left" },
+      { "text": "Bethany", "side": "right" },
+      { "text": "The garden of Eden", "side": "left" },
+      { "text": "Jericho", "side": "right" },
+      { "text": "Mount Ararat", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this person raised from the dead in the Hebrew Scriptures, or in the Christian Greek Scriptures?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "1 Kings 17; 2 Kings 4; 13; Acts 9; 20 (cross-check: Insight on the Scriptures, Vol. 2, 'Resurrection')",
+    "payload": { "categoryLeft": "In the Hebrew Scriptures", "categoryRight": "In the Christian Greek Scriptures", "cards": [
+      { "text": "The son of the widow of Zarephath", "side": "left" },
+      { "text": "Lazarus of Bethany", "side": "right" },
+      { "text": "The son of the Shunammite woman", "side": "left" },
+      { "text": "Dorcas, also called Tabitha, at Joppa", "side": "right" },
+      { "text": "The man revived when he touched Elisha's bones", "side": "left" },
+      { "text": "Eutychus, who fell from a third-story window", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this happen at Mount Sinai, or at Mount Nebo?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Exodus 19-32; Deuteronomy 34 (cross-check: Insight on the Scriptures, Vol. 2, 'Nebo, Mount')",
+    "payload": { "categoryLeft": "At Mount Sinai", "categoryRight": "At Mount Nebo", "cards": [
+      { "text": "The Law was given amid thunder, lightning, and a thick cloud", "side": "left" },
+      { "text": "Moses was shown the whole Promised Land spread out before him", "side": "right" },
+      { "text": "The people made and worshipped a golden calf at its foot", "side": "left" },
+      { "text": "Moses died at 120 with his eyes undimmed", "side": "right" },
+      { "text": "The pattern of the tabernacle was shown to Moses", "side": "left" },
+      { "text": "God buried Moses in a valley, and no one knows the place", "side": "right" }
+    ] }
+  }
+]

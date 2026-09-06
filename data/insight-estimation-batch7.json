@@ -1,0 +1,162 @@
+[
+  {
+    "question": "How old was Terah, the father of Abraham, when he died in Haran?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 11:32 (cross-check: Insight on the Scriptures, Vol. 2, 'Terah No. 1')",
+    "payload": { "value": 205, "unit": "years", "min": 60, "max": 520 }
+  },
+  {
+    "question": "How old was Abraham when he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis 25:7 (cross-check: Insight on the Scriptures, Vol. 1, 'Abraham')",
+    "payload": { "value": 175, "unit": "years", "min": 50, "max": 420 }
+  },
+  {
+    "question": "How old was Isaac when he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis 35:28 (cross-check: Insight on the Scriptures, Vol. 1, 'Isaac')",
+    "payload": { "value": 180, "unit": "years", "min": 50, "max": 430 }
+  },
+  {
+    "question": "How old was Jacob when he died in Egypt?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis 47:28 (cross-check: Insight on the Scriptures, Vol. 2, 'Jacob')",
+    "payload": { "value": 147, "unit": "years", "min": 40, "max": 360 }
+  },
+  {
+    "question": "How old was Ishmael, Abraham's son by Hagar, when he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 25:17 (cross-check: Insight on the Scriptures, Vol. 1, 'Ishmael No. 1')",
+    "payload": { "value": 137, "unit": "years", "min": 40, "max": 340 }
+  },
+  {
+    "question": "How old was Moses when he died on Mount Nebo?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Deuteronomy 34:7 (cross-check: Insight on the Scriptures, Vol. 2, 'Moses', p. 434)",
+    "payload": { "value": 120, "unit": "years", "min": 30, "max": 300 }
+  },
+  {
+    "question": "How old was Enoch when God took him, so that he was no more?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 5:23 (cross-check: Insight on the Scriptures, Vol. 1, 'Enoch No. 1')",
+    "payload": { "value": 365, "unit": "years", "min": 60, "max": 900 }
+  },
+  {
+    "question": "How old was Seth, the son of Adam, when he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 5:8 (cross-check: Insight on the Scriptures, Vol. 2, 'Seth')",
+    "payload": { "value": 912, "unit": "years", "min": 300, "max": 1100 }
+  },
+  {
+    "question": "About how old was the widow Anna when she saw the infant Jesus at the temple?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Luke 2:36-37 (cross-check: Insight on the Scriptures, Vol. 1, 'Anna No. 2')",
+    "payload": { "value": 84, "unit": "years old", "min": 20, "max": 200 }
+  },
+  {
+    "question": "How old was Eli when he fell backward off his seat and died on hearing the ark was captured?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 4:15-18 (cross-check: Insight on the Scriptures, Vol. 1, 'Eli')",
+    "payload": { "value": 98, "unit": "years old", "min": 30, "max": 220 }
+  },
+  {
+    "question": "How many Israelite soldiers did King Amaziah of Judah hire for 100 talents of silver?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 25:6 (cross-check: Insight on the Scriptures, Vol. 1, 'Amaziah No. 1')",
+    "payload": { "value": 100000, "unit": "soldiers", "min": 5000, "max": 600000, "log": true }
+  },
+  {
+    "question": "How many men of Judah did Pekah of Israel kill in a single day during the reign of Ahaz?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 28:6 (cross-check: Insight on the Scriptures, Vol. 1, 'Ahaz No. 1')",
+    "payload": { "value": 120000, "unit": "men", "min": 8000, "max": 700000, "log": true }
+  },
+  {
+    "question": "How many talents of silver did Hezekiah pay Sennacherib as tribute to lift the Assyrian threat?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 18:14 (cross-check: Insight on the Scriptures, Vol. 1, 'Hezekiah')",
+    "payload": { "value": 300, "unit": "talents", "min": 20, "max": 1200 }
+  },
+  {
+    "question": "How large was King Uzziah's trained army, according to Chronicles?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 26:13 (cross-check: Insight on the Scriptures, Vol. 2, 'Uzziah', p. 1146)",
+    "payload": { "value": 307500, "unit": "soldiers", "min": 20000, "max": 1800000, "log": true }
+  },
+  {
+    "question": "How many lambs and young goats did Josiah give the people for the Passover from his own flocks?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 35:7 (cross-check: Insight on the Scriptures, Vol. 2, 'Josiah')",
+    "payload": { "value": 30000, "unit": "animals", "min": 2000, "max": 200000, "log": true }
+  },
+  {
+    "question": "How many war chariots did Shishak of Egypt bring against Rehoboam's Judah?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 12:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Shishak')",
+    "payload": { "value": 1200, "unit": "chariots", "min": 100, "max": 5000 }
+  },
+  {
+    "question": "For how many days was the angel delayed by 'the prince of Persia' before reaching Daniel?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Daniel 10:13 (cross-check: Insight on the Scriptures, Vol. 1, 'Daniel')",
+    "payload": { "value": 21, "unit": "days", "min": 2, "max": 90 }
+  },
+  {
+    "question": "How many months did Ezra's journey from Babylon to Jerusalem take?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Ezra 7:9 (cross-check: Insight on the Scriptures, Vol. 1, 'Ezra No. 1')",
+    "payload": { "value": 4, "unit": "months", "min": 1, "max": 15 }
+  },
+  {
+    "question": "How many elders did John see seated on thrones around the throne of God in Revelation?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Revelation 4:4 (cross-check: Insight on the Scriptures, Vol. 1, 'Elder')",
+    "payload": { "value": 24, "unit": "elders", "min": 3, "max": 100 }
+  },
+  {
+    "question": "About how heavy were the hailstones that fell on people during the seventh plague of Revelation, in pounds?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Revelation 16:21 (cross-check: Insight on the Scriptures, Vol. 1, 'Hail')",
+    "payload": { "value": 100, "unit": "pounds", "min": 5, "max": 450 }
+  }
+]

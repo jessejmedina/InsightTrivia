@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which man who did not die am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Enoch",
+    "options": ["Enoch", "Elijah", "Moses", "Melchizedek"],
+    "reference": "Genesis 5:21-24; Hebrews 11:5; Jude 14-15 (cross-check: Insight on the Scriptures, Vol. 1, 'Enoch No. 1')",
+    "payload": { "clues": [
+      "I was the seventh from Adam in the faithful line of Seth.",
+      "I walked with the true God for 300 years while raising a family.",
+      "Jude records that I prophesied about God coming with his myriads of holy ones.",
+      "Then I was no more, because God took me."
+    ] }
+  },
+  {
+    "question": "Which firstborn son am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Cain",
+    "options": ["Cain", "Abel", "Seth", "Enoch"],
+    "reference": "Genesis 4 (cross-check: Insight on the Scriptures, Vol. 1, 'Cain')",
+    "payload": { "clues": [
+      "I worked the ground and brought some of its produce as an offering.",
+      "My brother's offering was looked on with favor and mine was not, and I burned with anger.",
+      "I lured my brother into the field and became the first man to shed human blood.",
+      "Marked and driven off to wander, I later built the first city and named it after my son."
+    ] }
+  },
+  {
+    "question": "Which nephew am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Lot",
+    "options": ["Lot", "Isaac", "Eliezer", "Ishmael"],
+    "reference": "Genesis 13; 19 (cross-check: Insight on the Scriptures, Vol. 2, 'Lot')",
+    "payload": { "clues": [
+      "I left Ur and then Haran traveling with my uncle.",
+      "When our herdsmen quarreled, I chose the well-watered plain and pitched my tent near a wicked city.",
+      "Two angels had to grab me by the hand to pull me out before fire rained down.",
+      "My wife looked back and became a pillar of salt."
+    ] }
+  },
+  {
+    "question": "Which elder twin am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Esau",
+    "options": ["Esau", "Jacob", "Reuben", "Ishmael"],
+    "reference": "Genesis 25-33 (cross-check: Insight on the Scriptures, Vol. 1, 'Esau')",
+    "payload": { "clues": [
+      "I was born red and hairy, and I grew up to be a skilled hunter.",
+      "I sold my birthright to my younger brother for a bowl of red stew.",
+      "My father intended to bless me, but my brother took the blessing by disguising himself.",
+      "Years later I ran to meet that brother and wept on his neck instead of taking revenge."
+    ] }
+  },
+  {
+    "question": "Which son of Jacob am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Judah",
+    "options": ["Judah", "Reuben", "Levi", "Simeon"],
+    "reference": "Genesis 37; 44; 49 (cross-check: Insight on the Scriptures, Vol. 2, 'Judah No. 1')",
+    "payload": { "clues": [
+      "I talked my brothers into selling our younger brother to traders instead of killing him.",
+      "Later I offered to become a slave in Egypt in place of Benjamin.",
+      "My father's deathbed words said the scepter would not depart from me.",
+      "Both King David and the Messiah came from my tribe."
+    ] }
+  },
+  {
+    "question": "Which firstborn of Jacob am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Reuben",
+    "options": ["Reuben", "Judah", "Simeon", "Levi"],
+    "reference": "Genesis 37; 35:22; 49:3-4 (cross-check: Insight on the Scriptures, Vol. 2, 'Reuben')",
+    "payload": { "clues": [
+      "I was the oldest of the twelve brothers.",
+      "I urged the others not to kill our brother but to throw him into a pit, planning to rescue him.",
+      "I lost my rights as firstborn because I lay with my father's concubine.",
+      "My father's blessing called me as unstable as water."
+    ] }
+  },
+  {
+    "question": "Which beloved wife am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Rachel",
+    "options": ["Rachel", "Leah", "Rebekah", "Bilhah"],
+    "reference": "Genesis 29-35 (cross-check: Insight on the Scriptures, Vol. 2, 'Rachel')",
+    "payload": { "clues": [
+      "Jacob met me at a well and agreed to work seven years to marry me.",
+      "On the wedding night my father substituted my older sister, so Jacob worked seven more years.",
+      "When we fled, I stole my father's household idols and hid them by sitting on them.",
+      "I died giving birth to my second son on the road near Bethlehem."
+    ] }
+  },
+  {
+    "question": "Which troubler of Israel am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Achan",
+    "options": ["Achan", "Achish", "Agag", "Adin"],
+    "reference": "Joshua 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Achan')",
+    "payload": { "clues": [
+      "After the fall of Jericho, everything in it was to be devoted to destruction.",
+      "I took a beautiful robe, some silver, and a bar of gold, and buried them under my tent.",
+      "Israel was then routed at the small city of Ai, and the leaders tore their clothes.",
+      "I was found out by lot, and I and my household were stoned in a valley that still bears the name of my trouble."
+    ] }
+  },
+  {
+    "question": "Which woman of the Kenites am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Jael",
+    "options": ["Jael", "Deborah", "Rahab", "Delilah"],
+    "reference": "Judges 4-5 (cross-check: Insight on the Scriptures, Vol. 2, 'Jael')",
+    "payload": { "clues": [
+      "I was the wife of Heber, and our clan was at peace with the enemy king.",
+      "A defeated commander fled on foot and I invited him into my tent and gave him milk.",
+      "When he fell into an exhausted sleep, I drove a tent peg through his temple.",
+      "Deborah's victory song called me the most blessed of women who dwell in tents."
+    ] }
+  },
+  {
+    "question": "Which woman from the Valley of Sorek am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Delilah",
+    "options": ["Delilah", "Jezebel", "Herodias", "Michal"],
+    "reference": "Judges 16 (cross-check: Insight on the Scriptures, Vol. 1, 'Delilah')",
+    "payload": { "clues": [
+      "Each of the Philistine lords promised me 1,100 pieces of silver.",
+      "I pressed a powerful man day after day to tell me the source of his strength.",
+      "Three times he fed me a false answer before he finally told the truth.",
+      "While he slept on my knees, I had the seven braids of his hair shaved off."
+    ] }
+  },
+  {
+    "question": "Which prince of Israel am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Amnon",
+    "options": ["Amnon", "Absalom", "Adonijah", "Jonadab"],
+    "reference": "2 Samuel 13 (cross-check: Insight on the Scriptures, Vol. 1, 'Amnon No. 1')",
+    "payload": { "clues": [
+      "I was King David's firstborn son and the heir to the throne.",
+      "I pretended to be sick so that my half-sister Tamar would be sent to care for me.",
+      "I violated her and then despised her and threw her out.",
+      "Two years later my brother Absalom had his servants kill me at a sheepshearing feast."
+    ] }
+  },
+  {
+    "question": "Which would-be king am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Adonijah",
+    "options": ["Adonijah", "Absalom", "Solomon", "Joab"],
+    "reference": "1 Kings 1-2 (cross-check: Insight on the Scriptures, Vol. 1, 'Adonijah No. 1')",
+    "payload": { "clues": [
+      "I was David's eldest surviving son, handsome, and never once disciplined by my father.",
+      "While my father lay dying, I held a feast and had myself proclaimed king.",
+      "Nathan and Bathsheba acted fast, and my younger brother was anointed instead.",
+      "Later I asked to marry Abishag, and the new king had me put to death for it."
+    ] }
+  },
+  {
+    "question": "Which grandson of Saul am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Mephibosheth",
+    "options": ["Mephibosheth", "Ish-bosheth", "Jonathan", "Ziba"],
+    "reference": "2 Samuel 4:4; 9; 19 (cross-check: Insight on the Scriptures, Vol. 2, 'Mephibosheth No. 2')",
+    "payload": { "clues": [
+      "I was crippled in both feet at age five when my nurse dropped me while fleeing bad news.",
+      "King David searched for me so he could show kindness for my father's sake.",
+      "He gave back my grandfather's land and a permanent place at his own table.",
+      "My servant Ziba slandered me to the king during Absalom's revolt."
+    ] }
+  },
+  {
+    "question": "Which hesitant commander am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Barak",
+    "options": ["Barak", "Gideon", "Jephthah", "Ehud"],
+    "reference": "Judges 4-5 (cross-check: Insight on the Scriptures, Vol. 1, 'Barak')",
+    "payload": { "clues": [
+      "A prophetess called me to lead ten thousand men up Mount Tabor.",
+      "I told her I would only go if she came with me.",
+      "God threw the enemy chariots into confusion, and a flash flood in the Kishon swept them away.",
+      "She had warned me that the honor of the final blow would go to a woman."
+    ] }
+  },
+  {
+    "question": "Which scribe am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Baruch",
+    "options": ["Baruch", "Ezra", "Seraiah", "Gemariah"],
+    "reference": "Jeremiah 36; 43 (cross-check: Insight on the Scriptures, Vol. 1, 'Baruch No. 1')",
+    "payload": { "clues": [
+      "I wrote down a prophet's words on a scroll as he dictated them.",
+      "When the king cut up and burned that scroll, I wrote it all again with more added.",
+      "I read the scroll aloud in the temple because the prophet was barred from going.",
+      "After Jerusalem fell, I was taken down to Egypt along with the prophet."
+    ] }
+  },
+  {
+    "question": "Which sanctuary town am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Shiloh",
+    "options": ["Shiloh", "Bethel", "Gilgal", "Nob"],
+    "reference": "Joshua 18:1; 1 Samuel 1-4; Jeremiah 7:12 (cross-check: Insight on the Scriptures, Vol. 2, 'Shiloh No. 1')",
+    "payload": { "clues": [
+      "The tent of meeting stood in me for generations after the conquest of Canaan.",
+      "A grieving woman prayed here for a son, and here that son grew up serving the aging priest.",
+      "The ark was carried out from me into battle, captured by the Philistines, and never brought back.",
+      "Centuries later Jeremiah told Judah to go and look at what God had done to me."
+    ] }
+  }
+]
