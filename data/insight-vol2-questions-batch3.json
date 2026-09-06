@@ -1,0 +1,138 @@
+[
+  {
+    "question": "Who anointed both Saul and David as king of Israel?",
+    "answer": "Samuel",
+    "options": ["Nathan", "Samuel", "Elijah", "Ahijah"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Samuel', p. 851"
+  },
+  {
+    "question": "Who was Abraham's wife and the mother of Isaac?",
+    "answer": "Sarah",
+    "options": ["Hagar", "Sarah", "Rebekah", "Keturah"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sarah', p. 863"
+  },
+  {
+    "question": "Who succeeded Moses as leader of Israel?",
+    "answer": "Joshua",
+    "options": ["Caleb", "Aaron", "Joshua", "Othniel"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joshua', p. 114"
+  },
+  {
+    "question": "Who was Bathsheba's first husband, whom David arranged to have killed?",
+    "answer": "Uriah the Hittite",
+    "options": ["Nabal", "Uriah the Hittite", "Doeg the Edomite", "Ahithophel"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Uriah', p. 1142"
+  },
+  {
+    "question": "Which apostle denied knowing Jesus three times?",
+    "answer": "Peter",
+    "options": ["John", "Judas", "Peter", "Thomas"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Peter', p. 618"
+  },
+  {
+    "question": "On which mountain did Moses receive the Law from Jehovah?",
+    "answer": "Mount Sinai (Horeb)",
+    "options": ["Mount Nebo", "Mount Sinai (Horeb)", "Mount Ararat", "Mount Gerizim"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sinai', p. 972"
+  },
+  {
+    "question": "What was Sarah's original name before God changed it?",
+    "answer": "Sarai",
+    "options": ["Sarai", "Milcah", "Iscah", "Rebekah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sarah', p. 863"
+  },
+  {
+    "question": "What relation was Sarah to Abraham, besides being his wife?",
+    "answer": "His half sister",
+    "options": ["His first cousin", "His niece", "His half sister", "Unrelated by blood"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sarah', p. 863"
+  },
+  {
+    "question": "Which two spies gave a positive report about the Promised Land, urging Israel not to rebel?",
+    "answer": "Joshua and Caleb",
+    "options": ["Shammua and Shaphat", "Joshua and Caleb", "Igal and Palti", "Gaddiel and Ammiel"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joshua', p. 114"
+  },
+  {
+    "question": "What name was Jesus' apostle Peter first given at birth, before being called Cephas or Peter?",
+    "answer": "Symeon (Simon)",
+    "options": ["Cephas", "Symeon (Simon)", "Bartholomew", "Nathanael"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Peter', p. 618"
+  },
+  {
+    "question": "In what fishing town was Peter first said to reside before later living in Capernaum?",
+    "answer": "Bethsaida",
+    "options": ["Capernaum", "Chorazin", "Bethsaida", "Magdala"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Peter', p. 618"
+  },
+  {
+    "question": "What was the apostle Paul's original (Hebrew) name?",
+    "answer": "Saul",
+    "options": ["Silas", "Saul", "Barnabas", "Ananias"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Paul', p. 585"
+  },
+  {
+    "question": "In what city was the apostle Paul born?",
+    "answer": "Tarsus",
+    "options": ["Antioch", "Damascus", "Tarsus", "Ephesus"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Paul', p. 585"
+  },
+  {
+    "question": "What trade did Paul learn, likely from his father?",
+    "answer": "Tentmaker",
+    "options": ["Fisherman", "Carpenter", "Tentmaker", "Physician"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Paul', p. 585"
+  },
+  {
+    "question": "What was Zacchaeus' occupation before meeting Jesus in Jericho?",
+    "answer": "Chief tax collector",
+    "options": ["Roman centurion", "Synagogue ruler", "Chief tax collector", "Temple treasurer"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zacchaeus', p. 1218"
+  },
+  {
+    "question": "What did Zacchaeus climb in order to see Jesus over the crowd?",
+    "answer": "A tree",
+    "options": ["A city wall", "A tree", "A rooftop", "A hillside"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zacchaeus', p. 1218"
+  },
+  {
+    "question": "How much did Zacchaeus promise to repay those he had cheated?",
+    "answer": "Fourfold",
+    "options": ["Twofold", "Fourfold", "Fivefold", "Tenfold"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zacchaeus', p. 1218"
+  }
+]

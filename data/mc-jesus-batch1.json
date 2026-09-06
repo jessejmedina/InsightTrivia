@@ -1,0 +1,122 @@
+[
+  {
+    "question": "In which town was Jesus born, according to the Gospel accounts?",
+    "answer": "Bethlehem",
+    "options": ["Bethlehem", "Nazareth", "Jericho", "Capernaum"],
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Luke 2:1-7"
+  },
+  {
+    "question": "In which town did Jesus spend most of his childhood and early adult years?",
+    "answer": "Nazareth",
+    "options": ["Nazareth", "Bethlehem", "Jerusalem", "Capernaum"],
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 2:19-23"
+  },
+  {
+    "question": "Who baptized Jesus in the Jordan River?",
+    "answer": "John the Baptist",
+    "options": ["John the Baptist", "Peter", "Andrew", "Nicodemus"],
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 3:13-17"
+  },
+  {
+    "question": "According to John's Gospel, what was Jesus's first recorded miracle?",
+    "answer": "Turning water into wine at a wedding",
+    "options": ["Turning water into wine at a wedding", "Walking on water", "Healing a blind man", "Raising Lazarus"],
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "John 2:1-11"
+  },
+  {
+    "question": "How many apostles did Jesus personally choose from among his disciples?",
+    "answer": "Twelve",
+    "options": ["Twelve", "Ten", "Seven", "Seventy"],
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Luke 6:12-16"
+  },
+  {
+    "question": "What is the name of the location traditionally identified as the site of Jesus's execution?",
+    "answer": "Golgotha",
+    "options": ["Golgotha", "Gethsemane", "Mount Sinai", "Mount of Olives"],
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Mark 15:22"
+  },
+  {
+    "question": "Who was the Roman governor who presided over Jesus's trial before his execution?",
+    "answer": "Pontius Pilate",
+    "options": ["Pontius Pilate", "Herod Antipas", "Caiaphas", "Felix"],
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 27:1-2, 11-26"
+  },
+  {
+    "question": "During which annual Jewish festival was Jesus put to death?",
+    "answer": "Passover",
+    "options": ["Passover", "Pentecost", "Tabernacles", "Purim"],
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Luke 22:7-15"
+  },
+  {
+    "question": "According to the Gospels, on which day of the week was Jesus resurrected?",
+    "answer": "The first day of the week",
+    "options": ["The first day of the week", "The seventh day (Sabbath)", "The sixth day", "The third day of the week"],
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Mark 16:1-9"
+  },
+  {
+    "question": "What did Jesus multiply to feed a crowd of about 5,000 people?",
+    "answer": "Five loaves and two fish",
+    "options": ["Five loaves and two fish", "Seven loaves and a few fish", "Twelve baskets of grain", "Three loaves and one fish"],
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 14:13-21"
+  },
+  {
+    "question": "Which apostle denied knowing Jesus three times on the night of his arrest?",
+    "answer": "Peter",
+    "options": ["Peter", "John", "Thomas", "Andrew"],
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 26:69-75"
+  },
+  {
+    "question": "What is the name of the garden where Jesus prayed the night before his arrest?",
+    "answer": "Gethsemane",
+    "options": ["Gethsemane", "Eden", "Gibeah", "Golgotha"],
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 26:36"
+  },
+  {
+    "question": "Which of Jesus's own apostles betrayed him to the religious leaders?",
+    "answer": "Judas Iscariot",
+    "options": ["Judas Iscariot", "Thomas", "Philip", "Bartholomew"],
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 26:14-16, 47-50"
+  },
+  {
+    "question": "According to the Gospel accounts, how many days did Jesus fast in the wilderness before being tempted by the Devil?",
+    "answer": "40 days",
+    "options": ["40 days", "7 days", "12 days", "100 days"],
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 4:1-2"
+  },
+  {
+    "question": "What sign did Jesus perform that involved walking on the surface of the Sea of Galilee?",
+    "answer": "Walking on water",
+    "options": ["Walking on water", "Calming a storm", "Catching a miraculous number of fish", "Turning water into wine"],
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 14:22-33"
+  }
+]

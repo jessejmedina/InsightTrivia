@@ -1,0 +1,262 @@
+[
+  {
+    "question": "How many years did King Uzziah (Azariah) reign over Judah?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "2 Kings 15:2 (cross-check: Insight on the Scriptures, Vol. 2, 'Uzziah', p. 1146)",
+    "payload": {
+      "value": 52,
+      "unit": "years",
+      "min": 10,
+      "max": 130
+    }
+  },
+  {
+    "question": "How old was Adam when he died, according to Genesis?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis 5:5 (cross-check: Insight on the Scriptures, Vol. 1, 'Adam')",
+    "payload": {
+      "value": 930,
+      "unit": "years",
+      "min": 400,
+      "max": 1100
+    }
+  },
+  {
+    "question": "How old was Joseph when he died in Egypt?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis 50:26 (cross-check: Insight on the Scriptures, Vol. 2, 'Joseph No. 1', p. 106)",
+    "payload": {
+      "value": 110,
+      "unit": "years",
+      "min": 40,
+      "max": 240
+    }
+  },
+  {
+    "question": "How many people from Jacob's household came into Egypt, by the Bible's count?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 46:27 (cross-check: Insight on the Scriptures, Vol. 2, 'Jacob')",
+    "payload": {
+      "value": 70,
+      "unit": "people",
+      "min": 10,
+      "max": 200
+    }
+  },
+  {
+    "question": "How many others did Jesus send out ahead of him, two by two, besides the apostles?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Luke 10:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Preaching')",
+    "payload": {
+      "value": 70,
+      "unit": "disciples",
+      "min": 12,
+      "max": 200
+    }
+  },
+  {
+    "question": "How many baskets of leftover pieces were collected after Jesus fed the 5,000?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 14:20 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": {
+      "value": 12,
+      "unit": "baskets",
+      "min": 1,
+      "max": 30
+    }
+  },
+  {
+    "question": "How many men were with Gideon when they routed the Midianite camp?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Judges 7:7 (cross-check: Insight on the Scriptures, Vol. 1, 'Gideon')",
+    "payload": {
+      "value": 300,
+      "unit": "men",
+      "min": 30,
+      "max": 3000
+    }
+  },
+  {
+    "question": "How many prophets of Baal did Elijah face on Mount Carmel?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "1 Kings 18:22 (cross-check: Insight on the Scriptures, Vol. 1, 'Elijah')",
+    "payload": {
+      "value": 450,
+      "unit": "prophets",
+      "min": 50,
+      "max": 1200
+    }
+  },
+  {
+    "question": "How many soldiers of the Assyrian army did the angel strike down in one night outside Jerusalem?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "2 Kings 19:35 (cross-check: Insight on the Scriptures, Vol. 1, 'Hezekiah')",
+    "payload": {
+      "value": 185000,
+      "unit": "soldiers",
+      "min": 10000,
+      "max": 500000
+    }
+  },
+  {
+    "question": "How many people were aboard the ship with Paul that ran aground on Malta?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 27:37 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": {
+      "value": 276,
+      "unit": "people",
+      "min": 20,
+      "max": 760
+    }
+  },
+  {
+    "question": "How many souls were saved through the ark during the Flood?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "easy",
+    "reference": "1 Peter 3:20 (cross-check: Insight on the Scriptures, Vol. 2, 'Noah')",
+    "payload": {
+      "value": 8,
+      "unit": "people",
+      "min": 2,
+      "max": 40
+    }
+  },
+  {
+    "question": "How many cities of refuge did the Law appoint in Israel?",
+    "type": "estimation",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Numbers 35:13 (cross-check: Insight on the Scriptures, Vol. 1, 'City of Refuge')",
+    "payload": {
+      "value": 6,
+      "unit": "cities",
+      "min": 2,
+      "max": 20
+    }
+  },
+  {
+    "question": "How old was King Josiah when he was killed in battle at Megiddo?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "2 Kings 22:1; 23:29 (cross-check: Insight on the Scriptures, Vol. 2, 'Josiah')",
+    "payload": {
+      "value": 39,
+      "unit": "years old",
+      "min": 15,
+      "max": 75
+    }
+  },
+  {
+    "question": "How many days did Jonah walk into Nineveh, proclaiming its coming overthrow?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Jonah 3:4 (cross-check: Insight on the Scriptures, Vol. 2, 'Jonah', p. 98)",
+    "payload": {
+      "value": 40,
+      "unit": "days",
+      "min": 1,
+      "max": 120
+    }
+  },
+  {
+    "question": "How many lashes did the Law limit a beating to — the number Paul received five times, minus one?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Deuteronomy 25:3; 2 Corinthians 11:24 (cross-check: Insight on the Scriptures, Vol. 2, 'Scourging')",
+    "payload": {
+      "value": 40,
+      "unit": "lashes",
+      "min": 5,
+      "max": 100
+    }
+  },
+  {
+    "question": "How old was Jesus when his parents found him in the temple questioning the teachers?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Luke 2:42 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": {
+      "value": 12,
+      "unit": "years old",
+      "min": 4,
+      "max": 25
+    }
+  },
+  {
+    "question": "About how old was Jesus when he began his ministry, after his baptism?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Luke 3:23 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": {
+      "value": 30,
+      "unit": "years old",
+      "min": 15,
+      "max": 58
+    }
+  },
+  {
+    "question": "How many years of famine did Joseph interpret from Pharaoh's dreams?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "easy",
+    "reference": "Genesis 41:30 (cross-check: Insight on the Scriptures, Vol. 2, 'Joseph No. 1', p. 106)",
+    "payload": {
+      "value": 7,
+      "unit": "years",
+      "min": 1,
+      "max": 20
+    }
+  },
+  {
+    "question": "How many stone water jars did Jesus have filled at the wedding in Cana?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "John 2:6 (cross-check: Insight on the Scriptures, Vol. 2, 'Wine')",
+    "payload": {
+      "value": 6,
+      "unit": "jars",
+      "min": 1,
+      "max": 20
+    }
+  },
+  {
+    "question": "For how many days did Moses stay on Mount Sinai receiving the Law?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Exodus 24:18 (cross-check: Insight on the Scriptures, Vol. 2, 'Moses', p. 434)",
+    "payload": {
+      "value": 40,
+      "unit": "days",
+      "min": 3,
+      "max": 120
+    }
+  }
+]

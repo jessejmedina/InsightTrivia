@@ -48,5 +48,18 @@ reference/
 # brainstorming companion scratch dir
 .superpowers/brainstorm/
 
-# local working data (question batches, credentials, etc.)
-data/
+# local working data: track the generated question batches + coverage
+# notes, but keep the raw extracted source text (copyrighted), scratch
+# files, and any credentials out of version control.
+data/*
+data/__pycache__/
+!data/*.json
+!data/covered_entries.md
+!data/HANDOFF.md
+# still-ignored non-question files under data/
+data/it2_full.txt
+data/headwords.txt
+data/page_index.tsv
+data/mc-audit-report.txt
+data/*.py
+data/proclaimers-text/

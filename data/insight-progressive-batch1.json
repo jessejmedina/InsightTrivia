@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which prophet of the great drought am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "answer": "Elijah",
+    "options": ["Elijah", "Elisha", "Samuel", "Nathan"],
+    "reference": "1 Kings 17-19; 2 Kings 2 (cross-check: Insight on the Scriptures, Vol. 1, 'Elijah')",
+    "payload": { "clues": [
+      "I served during the reign of a king whose wife pushed Baal worship hard.",
+      "I announced a drought that lasted about three and a half years.",
+      "I was fed by ravens, then by a widow whose flour and oil never ran out.",
+      "I never died — I was taken up in a windstorm with a fiery chariot."
+    ] }
+  },
+  {
+    "question": "Which reluctant prophet am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "answer": "Jonah",
+    "options": ["Jonah", "Nahum", "Amos", "Hosea"],
+    "reference": "Jonah 1-4 (cross-check: Insight on the Scriptures, Vol. 2, 'Jonah', p. 98)",
+    "payload": { "clues": [
+      "God sent me to preach to a great enemy city, but I ran the other way.",
+      "I boarded a ship at Joppa heading for Tarshish.",
+      "A storm hit, and I told the sailors to throw me overboard.",
+      "A great fish swallowed me, and I was inside it three days and three nights."
+    ] }
+  },
+  {
+    "question": "Which wise king am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Solomon",
+    "options": ["Solomon", "David", "Hezekiah", "Josiah"],
+    "reference": "1 Kings 3-11 (cross-check: Insight on the Scriptures, Vol. 2, 'Solomon')",
+    "payload": { "clues": [
+      "When God offered me anything, I asked for wisdom to judge the people.",
+      "I settled a dispute between two women over a baby by calling for a sword.",
+      "I built the first temple in Jerusalem.",
+      "The queen of Sheba traveled far to test me with hard questions."
+    ] }
+  },
+  {
+    "question": "Which strong judge am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Samson",
+    "options": ["Samson", "Gideon", "Jephthah", "Ehud"],
+    "reference": "Judges 13-16 (cross-check: Insight on the Scriptures, Vol. 2, 'Samson')",
+    "payload": { "clues": [
+      "An angel told my parents I would be a Nazirite from birth.",
+      "I killed a lion with my bare hands and later found honey in its carcass.",
+      "I struck down a thousand men with the jawbone of a donkey.",
+      "My strength left me when Delilah had my hair cut."
+    ] }
+  },
+  {
+    "question": "Which faithful widow am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Ruth",
+    "options": ["Ruth", "Esther", "Rahab", "Deborah"],
+    "reference": "Ruth 1-4 (cross-check: Insight on the Scriptures, Vol. 2, 'Ruth')",
+    "payload": { "clues": [
+      "I was a foreigner from Moab who married into an Israelite family.",
+      "After my husband died, I refused to leave my mother-in-law.",
+      "I gleaned in the fields of a wealthy relative during the barley harvest.",
+      "That relative, Boaz, redeemed me, and I became an ancestor of King David."
+    ] }
+  },
+  {
+    "question": "Which outspoken apostle am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "answer": "Peter",
+    "options": ["Peter", "Andrew", "John", "James"],
+    "reference": "Matthew 14-16; John 21; Acts 2 (cross-check: Insight on the Scriptures, Vol. 2, 'Peter', p. 618)",
+    "payload": { "clues": [
+      "I was a fisherman from Bethsaida before Jesus called me.",
+      "I briefly walked on water toward Jesus before my nerve failed.",
+      "I denied knowing Jesus three times on the night of his arrest.",
+      "I preached the sermon at Pentecost when about 3,000 were baptized."
+    ] }
+  },
+  {
+    "question": "Which walled city am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Jericho",
+    "options": ["Jericho", "Ai", "Gibeon", "Hebron"],
+    "reference": "Joshua 6 (cross-check: Insight on the Scriptures, Vol. 2, 'Jericho', p. 34)",
+    "payload": { "clues": [
+      "I was the first city Israel captured after crossing the Jordan.",
+      "I was known for palm trees and springs, and called the city of palms.",
+      "Israel's army marched around me once a day for six days.",
+      "On the seventh day they circled me seven times, shouted, and my walls collapsed."
+    ] }
+  },
+  {
+    "question": "Which prophet in a foreign court am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Daniel",
+    "options": ["Daniel", "Ezekiel", "Jeremiah", "Nehemiah"],
+    "reference": "Daniel 1-6 (cross-check: Insight on the Scriptures, Vol. 1, 'Daniel')",
+    "payload": { "clues": [
+      "I was taken to Babylon as a young man and trained for the king's court.",
+      "I refused the king's rich food and asked for vegetables and water instead.",
+      "I interpreted a dream about a great image made of different metals.",
+      "I was thrown into a den of lions for praying, and came out unharmed."
+    ] }
+  },
+  {
+    "question": "Which reforming king of Judah am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Hezekiah",
+    "options": ["Hezekiah", "Josiah", "Uzziah", "Jehoshaphat"],
+    "reference": "2 Kings 18-20 (cross-check: Insight on the Scriptures, Vol. 1, 'Hezekiah')",
+    "payload": { "clues": [
+      "I removed the high places and even broke up the copper serpent Moses had made.",
+      "The Assyrian king Sennacherib besieged Jerusalem in my reign.",
+      "An angel struck down 185,000 in the Assyrian camp in one night.",
+      "When I was told I would die, I prayed and was given fifteen more years."
+    ] }
+  },
+  {
+    "question": "Which mountain am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Mount Sinai",
+    "options": ["Mount Sinai", "Mount Carmel", "Mount Nebo", "Mount Ararat"],
+    "reference": "Exodus 19-20 (cross-check: Insight on the Scriptures, Vol. 2, 'Sinai', p. 972)",
+    "payload": { "clues": [
+      "Moses first met God at me, at a bush that burned but was not consumed.",
+      "Israel camped at my base for about a year during the wilderness journey.",
+      "I was wrapped in smoke and fire, and the people were told not to touch me.",
+      "Moses received the Ten Commandments on me, written on stone tablets."
+    ] }
+  },
+  {
+    "question": "Which man of faith am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Noah",
+    "options": ["Noah", "Enoch", "Job", "Abraham"],
+    "reference": "Genesis 6-9 (cross-check: Insight on the Scriptures, Vol. 2, 'Noah')",
+    "payload": { "clues": [
+      "I lived in a violent world and was told a global judgment was coming.",
+      "I built a huge wooden vessel exactly to the dimensions I was given.",
+      "I took my family and pairs of every kind of animal aboard.",
+      "After the waters dried up, I saw a rainbow set as a sign of a covenant."
+    ] }
+  },
+  {
+    "question": "Which apostle who wanted proof am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "answer": "Thomas",
+    "options": ["Thomas", "Philip", "Bartholomew", "Matthew"],
+    "reference": "John 11; 14; 20 (cross-check: Insight on the Scriptures, Vol. 2, 'Thomas', p. 1095)",
+    "payload": { "clues": [
+      "My name is also given as Didymus, meaning twin.",
+      "When Jesus decided to go to Bethany near danger, I said we should go and die with him.",
+      "I asked Jesus how we could know the way to where he was going.",
+      "I said I would not believe he was raised unless I touched his wounds myself."
+    ] }
+  },
+  {
+    "question": "Which leader of Israel am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Joshua",
+    "options": ["Joshua", "Caleb", "Moses", "Gideon"],
+    "reference": "Numbers 13-14; Joshua 1-10 (cross-check: Insight on the Scriptures, Vol. 2, 'Joshua', p. 114)",
+    "payload": { "clues": [
+      "I was one of the twelve sent to spy out the Promised Land.",
+      "Only Caleb and I brought back a report urging the people to go in.",
+      "I took over leadership of Israel after Moses died.",
+      "During a battle at Gibeon, I commanded the sun to stand still."
+    ] }
+  },
+  {
+    "question": "Which successor prophet am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Elisha",
+    "options": ["Elisha", "Elijah", "Micaiah", "Obadiah"],
+    "reference": "1 Kings 19; 2 Kings 2-13 (cross-check: Insight on the Scriptures, Vol. 1, 'Elisha')",
+    "payload": { "clues": [
+      "I was plowing with twelve pairs of oxen when a prophet threw his cloak over me.",
+      "I asked my mentor for a double portion of his spirit as he was taken away.",
+      "I purified a spring of bad water by throwing salt into it.",
+      "I told the Syrian commander Naaman to wash seven times in the Jordan."
+    ] }
+  },
+  {
+    "question": "Which queen of Persia am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Esther",
+    "options": ["Esther", "Ruth", "Abigail", "Rahab"],
+    "reference": "Esther 2-9 (cross-check: Insight on the Scriptures, Vol. 1, 'Esther')",
+    "payload": { "clues": [
+      "I was an orphan raised by my older cousin Mordecai.",
+      "I was chosen as queen by a Persian king, and I kept my nationality secret.",
+      "I approached the king unsummoned, risking death, and invited him to a banquet.",
+      "I exposed a plot to destroy my people, and the schemer Haman was hanged."
+    ] }
+  },
+  {
+    "question": "Which small town am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Bethlehem",
+    "options": ["Bethlehem", "Nazareth", "Hebron", "Bethel"],
+    "reference": "Ruth 1; 1 Samuel 16; Micah 5:2; Luke 2 (cross-check: Insight on the Scriptures, Vol. 1, 'Bethlehem')",
+    "payload": { "clues": [
+      "My name means house of bread, and I sat in the territory of Judah.",
+      "Ruth and Naomi settled here, and Boaz's fields were nearby.",
+      "Samuel came here to anoint the youngest son of Jesse as king.",
+      "A prophecy said the ruler of Israel would come out of me, and Jesus was born here."
+    ] }
+  }
+]

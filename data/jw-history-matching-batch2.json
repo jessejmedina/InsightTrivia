@@ -1,0 +1,54 @@
+[
+  {
+    "question": "Match each pre-Christian witness to how he testified to Jehovah's sovereignty, according to the book.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, chapter 1",
+    "payload": { "pairs": [
+      { "left": "Abel", "right": "Offered a sacrifice of greater worth than Cain's, backed by faith" },
+      { "left": "Enoch", "right": "Proclaimed God's coming judgment against the ungodly" },
+      { "left": "Noah", "right": "Preached righteousness while building the ark" },
+      { "left": "Moses", "right": "Testified to Pharaoh about Jehovah's Godship" }
+    ] }
+  },
+  {
+    "question": "Match each Greek or Hebrew term to what the book says it means or gave rise to.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, chapters 1, 3, and 4",
+    "payload": { "pairs": [
+      { "left": "Edh (Hebrew)", "right": "Witness, from a root meaning 'repeat, do again'" },
+      { "left": "Martys (Greek)", "right": "Witness; root of the English word 'martyr'" },
+      { "left": "Mathetes (Greek)", "right": "Disciple; implies personal attachment to a teacher" },
+      { "left": "Episkopos (Greek)", "right": "Overseer; root of the English word 'bishop'" }
+    ] }
+  },
+  {
+    "question": "Match each Reformation-era or early-church figure to the teaching or act the book associates with him.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, chapter 4",
+    "payload": { "pairs": [
+      { "left": "Martin Luther", "right": "Attacked the church's sale of indulgences" },
+      { "left": "Ulrich Zwingli", "right": "Attacked clerical celibacy and Mariolatry" },
+      { "left": "John Calvin", "right": "Called for a return to original Christian principles" },
+      { "left": "Augustine of Hippo", "right": "Taught that the Church itself is the Kingdom of Christ" }
+    ] }
+  },
+  {
+    "question": "Match each 19th-century figure or group to the year they first predicted for Christ's return.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, chapter 4",
+    "payload": { "pairs": [
+      { "left": "William Miller", "right": "1843 or 1844" },
+      { "left": "J. A. Bengel", "right": "1836" },
+      { "left": "The Irvingites", "right": "1835" },
+      { "left": "A Mennonite group in Russia", "right": "1889" }
+    ] }
+  }
+]

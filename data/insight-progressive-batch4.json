@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which patriarch am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Abraham",
+    "options": ["Abraham", "Isaac", "Jacob", "Noah"],
+    "reference": "Genesis 12-22 (cross-check: Insight on the Scriptures, Vol. 1, 'Abraham')",
+    "payload": { "clues": [
+      "God told me to leave my country and my father's household for a land he would show me.",
+      "I was promised descendants as countless as the stars, though my wife was past childbearing.",
+      "I pleaded with God to spare a wicked city if even ten righteous people were found in it.",
+      "I was stopped at the last moment from sacrificing my son on a mountain."
+    ] }
+  },
+  {
+    "question": "Which tax collector am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Zacchaeus",
+    "options": ["Zacchaeus", "Matthew", "Nicodemus", "Bartimaeus"],
+    "reference": "Luke 19:1-10 (cross-check: Insight on the Scriptures, Vol. 2, 'Zacchaeus', p. 1218)",
+    "payload": { "clues": [
+      "I was a chief tax collector in Jericho, and wealthy.",
+      "I was short, so I climbed a sycamore-fig tree to see Jesus pass.",
+      "Jesus called me down by name and said he would stay at my house.",
+      "I promised to give half my goods to the poor and repay any fraud fourfold."
+    ] }
+  },
+  {
+    "question": "Which fisherman apostle am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "answer": "Andrew",
+    "options": ["Andrew", "Peter", "Philip", "John"],
+    "reference": "John 1:40-42; 6:8-9 (cross-check: Insight on the Scriptures, Vol. 1, 'Andrew')",
+    "payload": { "clues": [
+      "I was a fisherman and first a disciple of John the Baptist.",
+      "I brought my more famous brother to meet Jesus.",
+      "At the feeding miracle, I pointed out a boy with five loaves and two fish.",
+      "Tradition says I was later put to death on a cross of an unusual shape."
+    ] }
+  },
+  {
+    "question": "Which court prophet am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Nathan",
+    "options": ["Nathan", "Gad", "Samuel", "Elijah"],
+    "reference": "2 Samuel 7; 12; 1 Kings 1 (cross-check: Insight on the Scriptures, Vol. 2, 'Nathan No. 2')",
+    "payload": { "clues": [
+      "I served in the royal court during the reign of King David.",
+      "I told the king he would not build God's house, but his son would.",
+      "I confronted him with a story about a rich man who stole a poor man's only lamb.",
+      "Later I helped make sure Solomon, not Adonijah, was made king."
+    ] }
+  },
+  {
+    "question": "Which wife of David am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Abigail",
+    "options": ["Abigail", "Michal", "Bathsheba", "Ahinoam"],
+    "reference": "1 Samuel 25 (cross-check: Insight on the Scriptures, Vol. 1, 'Abigail No. 1')",
+    "payload": { "clues": [
+      "I was married to a harsh, foolish man named Nabal.",
+      "My husband insulted David's men after they had protected his flocks.",
+      "I rode out with food and calmed David before he shed blood in anger.",
+      "After Nabal died, I became one of David's wives."
+    ] }
+  },
+  {
+    "question": "Which contemporary of Isaiah am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Micah",
+    "options": ["Micah", "Amos", "Habakkuk", "Nahum"],
+    "reference": "Micah 5:2; 6:8 (cross-check: Insight on the Scriptures, Vol. 2, 'Micah No. 1')",
+    "payload": { "clues": [
+      "I prophesied in Judah in the days of kings Jotham, Ahaz, and Hezekiah.",
+      "I foretold that a ruler of Israel would come out of Bethlehem Ephrathah.",
+      "I summed up what God requires as doing justice, loving kindness, and walking humbly with God.",
+      "Jeremiah's defenders once quoted me to save his life."
+    ] }
+  },
+  {
+    "question": "Which priest-king am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Melchizedek",
+    "options": ["Melchizedek", "Abimelech", "Jethro", "Aaron"],
+    "reference": "Genesis 14:18-20; Hebrews 7 (cross-check: Insight on the Scriptures, Vol. 2, 'Melchizedek')",
+    "payload": { "clues": [
+      "I was both king of Salem and a priest of the Most High God.",
+      "I brought out bread and wine to a returning warrior and blessed him.",
+      "Abraham gave me a tenth of everything.",
+      "Hebrews says my priesthood pictures that of the Messiah."
+    ] }
+  },
+  {
+    "question": "Which member of the ruling council am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Nicodemus",
+    "options": ["Nicodemus", "Joseph of Arimathea", "Gamaliel", "Zacchaeus"],
+    "reference": "John 3; 7:50; 19:39 (cross-check: Insight on the Scriptures, Vol. 2, 'Nicodemus')",
+    "payload": { "clues": [
+      "I was a Pharisee and a member of the Jewish ruling council.",
+      "I came to Jesus at night to ask about his teaching.",
+      "He told me a person must be born again to see the Kingdom of God.",
+      "After the crucifixion I brought about a hundred pounds of spices for his burial."
+    ] }
+  },
+  {
+    "question": "Which woman of the early Christian congregation am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Lydia",
+    "options": ["Lydia", "Priscilla", "Dorcas", "Phoebe"],
+    "reference": "Acts 16:14-15 (cross-check: Insight on the Scriptures, Vol. 2, 'Lydia No. 2')",
+    "payload": { "clues": [
+      "I was a seller of purple cloth from the city of Thyatira.",
+      "I worshipped God and met Paul at a riverside place of prayer near Philippi.",
+      "The Lord opened my heart to pay attention to what Paul was saying.",
+      "After my household and I were baptized, I urged the missionaries to stay in my home."
+    ] }
+  },
+  {
+    "question": "Which king of Judah am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Josiah",
+    "options": ["Josiah", "Hezekiah", "Joash", "Jehoshaphat"],
+    "reference": "2 Kings 22-23 (cross-check: Insight on the Scriptures, Vol. 2, 'Josiah')",
+    "payload": { "clues": [
+      "I became king at the age of eight.",
+      "During repairs on the temple, the book of the Law was found and read to me.",
+      "I tore my garments and led a sweeping campaign against idolatry.",
+      "I was killed in battle against Pharaoh Necho at Megiddo."
+    ] }
+  },
+  {
+    "question": "Which disciple am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "answer": "Matthew",
+    "options": ["Matthew", "Bartholomew", "Thaddaeus", "Thomas"],
+    "reference": "Matthew 9:9; 10:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Matthew', p. 352)",
+    "payload": { "clues": [
+      "I was also known by the name Levi.",
+      "Jesus found me sitting at the tax collector's booth and said, Follow me.",
+      "I gave a great reception at my house, and Pharisees complained about the guests.",
+      "I wrote the Gospel account that opens the Christian Greek Scriptures."
+    ] }
+  },
+  {
+    "question": "Which old worship site am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Bethel",
+    "options": ["Bethel", "Shiloh", "Gilgal", "Hebron"],
+    "reference": "Genesis 28; 1 Kings 12 (cross-check: Insight on the Scriptures, Vol. 1, 'Bethel No. 1')",
+    "payload": { "clues": [
+      "Jacob slept here with a stone for a pillow and dreamed of a stairway to heaven.",
+      "He named me house of God after that dream.",
+      "Centuries later, Jeroboam set up one of two golden calves here.",
+      "The prophet Amos was told to stop prophesying at my sanctuary."
+    ] }
+  },
+  {
+    "question": "Which port city of Asia am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Ephesus",
+    "options": ["Ephesus", "Corinth", "Philippi", "Colossae"],
+    "reference": "Acts 19 (cross-check: Insight on the Scriptures, Vol. 1, 'Ephesus')",
+    "payload": { "clues": [
+      "I was a great port city of the Roman province of Asia.",
+      "Paul taught daily in the school of Tyrannus here for about two years.",
+      "Practitioners of magic burned their scrolls after seeing God's power.",
+      "A silversmith started a riot in my theater, shouting that Artemis was great."
+    ] }
+  },
+  {
+    "question": "Which prophet's servant am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Gehazi",
+    "options": ["Gehazi", "Elisha", "Baruch", "Naaman"],
+    "reference": "2 Kings 5:20-27 (cross-check: Insight on the Scriptures, Vol. 1, 'Gehazi')",
+    "payload": { "clues": [
+      "I was the attendant of a well-known prophet.",
+      "My master refused any payment from a healed Syrian commander.",
+      "I ran after the commander and lied to get silver and clothing for myself.",
+      "As punishment, the leprosy that had left Naaman clung to me."
+    ] }
+  },
+  {
+    "question": "Which last of the prophets am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Malachi",
+    "options": ["Malachi", "Haggai", "Zechariah", "Joel"],
+    "reference": "Malachi 1-4 (cross-check: Insight on the Scriptures, Vol. 2, 'Malachi, Book Of', p. 298)",
+    "payload": { "clues": [
+      "My name means my messenger, and my book is the last of the Hebrew Scriptures.",
+      "I rebuked the priests for offering blind and lame animals in sacrifice.",
+      "I challenged the people to test God by bringing the full tithe.",
+      "I foretold a messenger who would prepare the way, and the coming of Elijah."
+    ] }
+  },
+  {
+    "question": "Which son of David am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Absalom",
+    "options": ["Absalom", "Amnon", "Adonijah", "Solomon"],
+    "reference": "2 Samuel 14-18 (cross-check: Insight on the Scriptures, Vol. 1, 'Absalom')",
+    "payload": { "clues": [
+      "I was noted for my good looks and my very heavy head of hair.",
+      "I killed my half brother Amnon and then fled for three years.",
+      "I stood at the city gate stealing the hearts of the people from my father.",
+      "During my revolt I was caught by my head in an oak and killed by Joab."
+    ] }
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Was this event part of Holy Week (Jesus' final week), or earlier in his ministry?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "The Gospels (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "categoryLeft": "Earlier in the ministry", "categoryRight": "Jesus' final week", "cards": [
+      { "text": "Cleansing the temple of money changers a second time", "side": "right" },
+      { "text": "The Sermon on the Mount", "side": "left" },
+      { "text": "Washing the apostles' feet", "side": "right" },
+      { "text": "Calming the storm on the Sea of Galilee", "side": "left" },
+      { "text": "The agony in the garden of Gethsemane", "side": "right" },
+      { "text": "Raising the widow of Nain's son", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this a book of the Bible, or not a book of the Bible?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "The Bible canon (cross-check: Insight on the Scriptures, Vol. 1, 'Apocrypha')",
+    "payload": { "categoryLeft": "Not a Bible book", "categoryRight": "A book of the Bible", "cards": [
+      { "text": "Habakkuk", "side": "right" },
+      { "text": "Maccabees", "side": "left" },
+      { "text": "Philemon", "side": "right" },
+      { "text": "Enoch", "side": "left" },
+      { "text": "Zephaniah", "side": "right" },
+      { "text": "Jasher", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this covenant or promise involve Abraham, or come later through Moses?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Genesis 15; 17; Exodus 19-24 (cross-check: Insight on the Scriptures, Vol. 1, 'Covenant')",
+    "payload": { "categoryLeft": "Abrahamic promise", "categoryRight": "Given through Moses at Sinai", "cards": [
+      { "text": "Circumcision as the sign of the covenant", "side": "left" },
+      { "text": "The Ten Commandments on stone", "side": "right" },
+      { "text": "The land from the river of Egypt to the Euphrates", "side": "left" },
+      { "text": "The Day of Atonement ritual", "side": "right" },
+      { "text": "A seed that would bless all nations", "side": "left" },
+      { "text": "The tabernacle pattern shown on the mountain", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a Philistine, or an Israelite?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "1 Samuel (cross-check: Insight on the Scriptures, Vol. 2, 'Philistine')",
+    "payload": { "categoryLeft": "Philistine", "categoryRight": "Israelite", "cards": [
+      { "text": "Goliath of Gath", "side": "left" },
+      { "text": "Jonathan, son of Saul", "side": "right" },
+      { "text": "Delilah's paymasters, the lords of the Philistines", "side": "left" },
+      { "text": "Samuel the prophet", "side": "right" },
+      { "text": "King Achish of Gath", "side": "left" },
+      { "text": "Abner, Saul's army chief", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this creature named among the ten plagues, or somewhere else in the Bible?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus 7-10 (cross-check: Insight on the Scriptures, Vol. 2, 'Plague')",
+    "payload": { "categoryLeft": "Not part of the plagues", "categoryRight": "Part of the ten plagues", "cards": [
+      { "text": "Frogs", "side": "right" },
+      { "text": "Ravens (that fed Elijah)", "side": "left" },
+      { "text": "Gnats", "side": "right" },
+      { "text": "The great fish (that swallowed Jonah)", "side": "left" },
+      { "text": "Locusts", "side": "right" },
+      { "text": "Quail (that fed Israel in the desert)", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this person see God's glory or presence in a special vision or theophany?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Exodus 33; 1 Kings 19; Isaiah 6; Ezekiel 1; Acts 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Face')",
+    "payload": { "categoryLeft": "No such recorded vision", "categoryRight": "Saw a vision of God's glory", "cards": [
+      { "text": "Isaiah, in the year King Uzziah died", "side": "right" },
+      { "text": "Ezra, reading the Law aloud to the returned exiles", "side": "left" },
+      { "text": "Ezekiel, by the river Chebar", "side": "right" },
+      { "text": "Nehemiah, rebuilding the wall", "side": "left" },
+      { "text": "Stephen, as he was being stoned", "side": "right" },
+      { "text": "Gideon, threshing wheat in the winepress", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this animal used as a symbol for one of the four Gospel-era 'living creatures' in Ezekiel and Revelation?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Ezekiel 1:10; Revelation 4:7 (cross-check: Insight on the Scriptures, Vol. 2, 'Living Creatures')",
+    "payload": { "categoryLeft": "Not one of the four faces", "categoryRight": "One of the four living-creature faces", "cards": [
+      { "text": "A lion", "side": "right" },
+      { "text": "A serpent", "side": "left" },
+      { "text": "An ox (bull)", "side": "right" },
+      { "text": "A lamb", "side": "left" },
+      { "text": "An eagle", "side": "right" },
+      { "text": "A horse", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this said or done by John the Baptist, or by Jesus?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "The Gospels (cross-check: Insight on the Scriptures, Vol. 2, 'John No. 1')",
+    "payload": { "categoryLeft": "John the Baptist", "categoryRight": "Jesus", "cards": [
+      { "text": "Wore clothing of camel's hair and ate locusts and honey", "side": "left" },
+      { "text": "Turned water into wine at a wedding", "side": "right" },
+      { "text": "Said, Look, the Lamb of God!", "side": "left" },
+      { "text": "Wept at the tomb of a friend", "side": "right" },
+      { "text": "Was beheaded at the request of a dancing girl", "side": "left" },
+      { "text": "Fed thousands from a few loaves and fish", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this figure part of the account of the Exodus and wilderness, or the account of the Judges?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus-Numbers; Judges (cross-check: Insight on the Scriptures, Vol. 1, 'Judge')",
+    "payload": { "categoryLeft": "Exodus / wilderness", "categoryRight": "Period of the Judges", "cards": [
+      { "text": "Korah, who rebelled against Moses", "side": "left" },
+      { "text": "Ehud, who killed King Eglon", "side": "right" },
+      { "text": "Balaam, the hired prophet", "side": "left" },
+      { "text": "Ruth the Moabitess", "side": "right" },
+      { "text": "Aaron's sons Nadab and Abihu", "side": "left" },
+      { "text": "Samson of the tribe of Dan", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a coin or unit of money in the Bible, or not?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "The Gospels; the Law (cross-check: Insight on the Scriptures, Vol. 1, 'Coin'; Vol. 2, 'Money')",
+    "payload": { "categoryLeft": "Not a unit of money", "categoryRight": "A coin or money unit", "cards": [
+      { "text": "Denarius", "side": "right" },
+      { "text": "Ephah", "side": "left" },
+      { "text": "Shekel", "side": "right" },
+      { "text": "Cubit", "side": "left" },
+      { "text": "Widow's mite (lepton)", "side": "right" },
+      { "text": "Homer", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this instruction part of Jesus' Sermon on the Mount?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Matthew 5-7 (cross-check: Insight on the Scriptures, Vol. 2, 'Sermon on the Mount')",
+    "payload": { "categoryLeft": "Not from the Sermon on the Mount", "categoryRight": "From the Sermon on the Mount", "cards": [
+      { "text": "Love your enemies and pray for those who persecute you", "side": "right" },
+      { "text": "Let the little children come to me", "side": "left" },
+      { "text": "Consider the lilies of the field, how they grow", "side": "right" },
+      { "text": "I am the way, the truth, and the life", "side": "left" },
+      { "text": "Do not store up treasures on earth where moth and rust consume", "side": "right" },
+      { "text": "Whoever wants to be first must be the slave of all", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did the apostle Paul visit this city on his journeys, according to Acts?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Acts 13-28 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "categoryLeft": "Not visited by Paul in Acts", "categoryRight": "Visited by Paul in Acts", "cards": [
+      { "text": "Athens", "side": "right" },
+      { "text": "Alexandria", "side": "left" },
+      { "text": "Corinth", "side": "right" },
+      { "text": "Nineveh", "side": "left" },
+      { "text": "Philippi", "side": "right" },
+      { "text": "Carthage", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a son of Noah, or a son of one of Noah's sons?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 10 (cross-check: Insight on the Scriptures, Vol. 2, 'Nations')",
+    "payload": { "categoryLeft": "Grandson of Noah", "categoryRight": "Son of Noah", "cards": [
+      { "text": "Shem", "side": "right" },
+      { "text": "Canaan", "side": "left" },
+      { "text": "Ham", "side": "right" },
+      { "text": "Cush", "side": "left" },
+      { "text": "Japheth", "side": "right" },
+      { "text": "Magog", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this term a name or title for Jesus in the Scriptures, or not applied to him?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "The Christian Greek Scriptures (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "categoryLeft": "Not a title of Jesus", "categoryRight": "A title of Jesus", "cards": [
+      { "text": "The Lamb of God", "side": "right" },
+      { "text": "The Ancient of Days", "side": "left" },
+      { "text": "The Lion of the tribe of Judah", "side": "right" },
+      { "text": "The Almighty", "side": "left" },
+      { "text": "The Word (Logos)", "side": "right" },
+      { "text": "The Rock that followed Israel (in Paul's words)", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this happen at Mount Sinai (Horeb), or at Mount Carmel?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Exodus 19; 1 Kings 18-19 (cross-check: Insight on the Scriptures, Vol. 1, 'Carmel No. 1')",
+    "payload": { "categoryLeft": "Sinai / Horeb", "categoryRight": "Mount Carmel", "cards": [
+      { "text": "Fire fell and consumed a water-soaked sacrifice", "side": "right" },
+      { "text": "The Law was given amid thunder and a thick cloud", "side": "left" },
+      { "text": "450 prophets of Baal were defeated and executed", "side": "right" },
+      { "text": "Moses saw God's back as his glory passed by", "side": "left" },
+      { "text": "Elijah heard a calm, low voice after wind, quake, and fire", "side": "left" },
+      { "text": "A small cloud rose from the sea, ending a long drought", "side": "right" }
+    ] }
+  }
+]

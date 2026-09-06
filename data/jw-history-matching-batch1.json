@@ -1,0 +1,197 @@
+[
+  {
+    "question": "Match each person to their role in early Watch Tower history.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 5-6",
+    "payload": { "pairs": [
+      { "left": "Charles Taze Russell", "right": "Founder and first editor of Zion's Watch Tower" },
+      { "left": "Joseph F. Rutherford", "right": "Second president of the Watch Tower Society" },
+      { "left": "Nelson H. Barbour", "right": "Editor of Herald of the Morning who Russell later broke with" },
+      { "left": "A. H. Macmillan", "right": "Long-time headquarters worker who wrote Faith on the March" }
+    ]}
+  },
+  {
+    "question": "Match each publication to what it was.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 5-7",
+    "payload": { "pairs": [
+      { "left": "The Divine Plan of the Ages", "right": "First volume of the Millennial Dawn series" },
+      { "left": "Zion's Watch Tower and Herald of Christ's Presence", "right": "Magazine Russell began publishing in 1879" },
+      { "left": "The Finished Mystery", "right": "Seventh volume of Studies in the Scriptures, published after Russell's death" },
+      { "left": "The Golden Age", "right": "New magazine announced at the 1919 Cedar Point convention" }
+    ]}
+  },
+  {
+    "question": "Match each location to its significance in Watch Tower history.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 5-7",
+    "payload": { "pairs": [
+      { "left": "Allegheny, Pennsylvania", "right": "Site of the Bible House headquarters" },
+      { "left": "Brooklyn, New York", "right": "Site of the Bethel Home after 1909" },
+      { "left": "Atlanta, Georgia", "right": "Site of the federal penitentiary where Rutherford was imprisoned" },
+      { "left": "Cedar Point, Ohio", "right": "Site of the 1922 Advertise the King convention" }
+    ]}
+  },
+  {
+    "question": "Match each year to what happened in it.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 5-7",
+    "payload": { "pairs": [
+      { "left": "1879", "right": "Russell begins publishing Zion's Watch Tower" },
+      { "left": "1908", "right": "Society representatives are sent to purchase property in Brooklyn" },
+      { "left": "1916", "right": "C. T. Russell dies" },
+      { "left": "1931", "right": "The name Jehovah's witnesses is adopted" }
+    ]}
+  },
+  {
+    "question": "Match each radio-related fact to what it describes.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 7, p. 80",
+    "payload": { "pairs": [
+      { "left": "WBBR", "right": "The Watch Tower Society's own radio station, on Staten Island" },
+      { "left": "February 1922", "right": "When Rutherford delivered his first radio broadcast" },
+      { "left": "1933", "right": "Year radio broadcasts of the Kingdom message peaked at 408 stations" },
+      { "left": "WORD", "right": "A radio station near Chicago owned by the Society" }
+    ]}
+  },
+  {
+    "question": "Match each person to their described background.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 5-6",
+    "payload": { "pairs": [
+      { "left": "J. F. Rutherford", "right": "Known as Judge because of his legal background" },
+      { "left": "C. T. Russell", "right": "Trained as a young man in his father's clothing business" },
+      { "left": "A. H. Macmillan", "right": "Baptized in September 1900, later a headquarters worker" },
+      { "left": "George Storrs", "right": "Publisher of the magazine Bible Examiner" }
+    ]}
+  },
+  {
+    "question": "Match each persecution-related fact to its detail.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 6",
+    "payload": { "pairs": [
+      { "left": "Atlanta, Georgia", "right": "Location of the penitentiary holding Rutherford and associates" },
+      { "left": "June 21, 1918", "right": "Date Rutherford was sentenced to 20 years" },
+      { "left": "March 26, 1919", "right": "Date the eight imprisoned brothers were released on bail" },
+      { "left": "Kingdom News Number 1", "right": "Tract exposing clergy-inspired persecution, released March 1918" }
+    ]}
+  },
+  {
+    "question": "Match each early convention to what happened there.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 6-7",
+    "payload": { "pairs": [
+      { "left": "Cedar Point, Ohio, 1922", "right": "Rutherford's Advertise the King and the Kingdom address" },
+      { "left": "Columbus, Ohio, 1931", "right": "Adoption of the name Jehovah's witnesses" },
+      { "left": "Saratoga Springs, New York, 1914", "right": "Macmillan's talk about expecting to go to heaven soon" },
+      { "left": "Pittsburgh, Pennsylvania, 1919", "right": "Annual meeting held during Rutherford's imprisonment" }
+    ]}
+  },
+  {
+    "question": "Match each term to its meaning in this history.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 7",
+    "payload": { "pairs": [
+      { "left": "Jonadabs", "right": "Term used from 1932 for other sheep class persons with an earthly hope" },
+      { "left": "Beth-Sarim", "right": "House of the Princes, a San Diego residence built for Rutherford" },
+      { "left": "Bethel", "right": "Name meaning House of God given to the Brooklyn headquarters residence" },
+      { "left": "Colporteurs", "right": "Forerunners of today's pioneers in the preaching work" }
+    ]}
+  },
+  {
+    "question": "Match each person to the leadership role they held in Watch Tower Society history.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 6",
+    "payload": { "pairs": [
+      { "left": "J. F. Rutherford", "right": "President, elected January 1917" },
+      { "left": "C. H. Anderson", "right": "Vice president, elected January 1918" },
+      { "left": "W. E. Van Amburgh", "right": "Secretary-treasurer" },
+      { "left": "A. I. Ritchie", "right": "Member of the Executive Committee of three formed in 1916" }
+    ]}
+  },
+  {
+    "question": "Match each quote to who said it or where it appeared.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 5-7",
+    "payload": { "pairs": [
+      { "left": "Advertise, advertise, advertise the King and his kingdom", "right": "Rutherford at the 1922 Cedar Point convention" },
+      { "left": "The Gentile Times have ended; their kings have had their day", "right": "Russell on October 2, 1914" },
+      { "left": "We desire to be known as...Jehovah's witnesses", "right": "Rutherford's 1931 A New Name resolution" },
+      { "left": "Are you preaching?", "right": "Question raised in the July/August 1881 Watch Tower" }
+    ]}
+  },
+  {
+    "question": "Match each historical figure to the year they died.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5",
+    "payload": { "pairs": [
+      { "left": "Charles Taze Russell", "right": "1916" },
+      { "left": "George Storrs", "right": "1879" },
+      { "left": "Nelson H. Barbour", "right": "1906" },
+      { "left": "George W. Stetson", "right": "1879" }
+    ]}
+  },
+  {
+    "question": "Match each 1917-1918 event to its date.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 6",
+    "payload": { "pairs": [
+      { "left": "The Finished Mystery is released, four directors removed", "right": "July 17, 1917" },
+      { "left": "Disgruntled ex-directors leave the Bethel family", "right": "August 8, 1917" },
+      { "left": "Annual meeting confirms support for Rutherford", "right": "January 5, 1918" },
+      { "left": "Opposers hold a separate Memorial celebration", "right": "March 26, 1918" }
+    ]}
+  },
+  {
+    "question": "Match each tract or publication to its description.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 6-7",
+    "payload": { "pairs": [
+      { "left": "Kingdom News Number 1", "right": "March 1918 tract on Religious Intolerance" },
+      { "left": "Kingdom News Number 2", "right": "April 1918 tract on why The Finished Mystery was suppressed" },
+      { "left": "Kingdom News Number 3", "right": "May 1918 tract titled Two Great Battles Raging" },
+      { "left": "Millions Now Living Will Never Die", "right": "1920 booklet expecting resurrections in 1925" }
+    ]}
+  },
+  {
+    "question": "Match each preaching method to the approximate year it was introduced.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 5-7",
+    "payload": { "pairs": [
+      { "left": "Newspaper sermons", "right": "1904" },
+      { "left": "Photo-Drama of Creation", "right": "1912-1914" },
+      { "left": "Radio broadcasting (WBBR)", "right": "1924" },
+      { "left": "Portable phonograph preaching", "right": "1934" }
+    ]}
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "question": "Joab was the son of David's sister. What was her name?",
+    "answer": "Zeruiah",
+    "options": ["Zeruiah", "Abigail", "Merab", "Michal"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joab' (No. 2), p. 77"
+  },
+  {
+    "question": "How did Joab win the position of commander of Israel's armies during David's conquest of Jerusalem?",
+    "answer": "He was first to climb up the water tunnel and strike the Jebusites",
+    "options": ["He killed the Jebusite king in single combat", "He was first to climb up the water tunnel and strike the Jebusites", "He negotiated the city's surrender", "He led the flanking cavalry charge"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joab' (No. 2), p. 78"
+  },
+  {
+    "question": "Which of Joab's brothers was killed by Abner while pursuing him after a battle?",
+    "answer": "Asahel",
+    "options": ["Abishai", "Asahel", "Amasa", "Ittai"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joab' (No. 2), p. 78"
+  },
+  {
+    "question": "Which two Reubenites joined Korah in rebelling against Moses and Aaron's authority?",
+    "answer": "Dathan and Abiram",
+    "options": ["On and Eliab", "Dathan and Abiram", "Nadab and Abihu", "Korah and Levi"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Korah' (No. 3), p. 184"
+  },
+  {
+    "question": "How did the earth punish Korah, Dathan, and Abiram for their rebellion against Moses?",
+    "answer": "It opened up and swallowed them along with their households",
+    "options": ["They were struck by lightning", "It opened up and swallowed them along with their households", "They were exiled to Babylon", "They were turned to pillars of salt"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Korah' (No. 3), p. 184"
+  },
+  {
+    "question": "How many additional men died in the plague that followed Korah's rebellion, before Aaron made atonement to stop it?",
+    "answer": "14,700",
+    "options": ["3,000", "14,700", "24,000", "50,000"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Korah' (No. 3), p. 184"
+  },
+  {
+    "question": "What were the fire holders of Korah's 250 rebel followers turned into, as a warning sign for Israel?",
+    "answer": "Metal plates to overlay the altar",
+    "options": ["Metal plates to overlay the altar", "Weapons for the army", "Gates for the tabernacle", "Vessels for the priests"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Korah' (No. 3), p. 184"
+  },
+  {
+    "question": "Despite their father's rebellion, what became of Korah's own sons?",
+    "answer": "They did not die, and their descendants became prominent in Levitical service",
+    "options": ["They were exiled with their father", "They did not die, and their descendants became prominent in Levitical service", "They were also swallowed by the earth", "They fled to Egypt"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Korah' (No. 3), p. 185"
+  },
+  {
+    "question": "How did Mephibosheth, Jonathan's son, become lame in both feet as a child?",
+    "answer": "He was dropped while his nurse fled in panic upon hearing news of Saul and Jonathan's deaths",
+    "options": ["He was born with a disability", "He fell from a wall during a siege", "He was dropped while his nurse fled in panic upon hearing news of Saul and Jonathan's deaths", "He was wounded fighting the Philistines"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mephibosheth' (No. 2), p. 373"
+  },
+  {
+    "question": "In which town did Mephibosheth live, in the house of Machir, before David brought him to Jerusalem?",
+    "answer": "Lo-debar",
+    "options": ["Lo-debar", "Mahanaim", "Gath", "Ziklag"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mephibosheth' (No. 2), p. 373"
+  },
+  {
+    "question": "Why did David show special kindness to Mephibosheth, restoring Saul's property and inviting him to eat at the royal table?",
+    "answer": "Because of David's covenant with Jonathan, Mephibosheth's father",
+    "options": ["Because Mephibosheth had saved David's life", "Because of David's covenant with Jonathan, Mephibosheth's father", "Because Mephibosheth paid a large ransom", "Because the prophet Nathan commanded it"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mephibosheth' (No. 2), p. 373"
+  },
+  {
+    "question": "What was the name of Saul's older daughter, originally promised in marriage to whoever defeated Goliath?",
+    "answer": "Merab",
+    "options": ["Michal", "Merab", "Tamar", "Abigail"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Merab', p. 373"
+  },
+  {
+    "question": "To whom did Saul actually give his daughter Merab in marriage, breaking his earlier promise to David?",
+    "answer": "Adriel the Meholathite",
+    "options": ["Adriel the Meholathite", "Palti the son of Laish", "Nabal the Carmelite", "Uriah the Hittite"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Merab', p. 373"
+  },
+  {
+    "question": "What 'bride price' did Saul demand from David in exchange for marrying his daughter Michal?",
+    "answer": "100 Philistine foreskins",
+    "options": ["A dowry of silver and gold", "100 Philistine foreskins", "The head of Goliath", "A herd of 500 sheep"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Michal', p. 394"
+  },
+  {
+    "question": "Why did Michal come to despise David, according to the account in 2 Samuel?",
+    "answer": "She saw him dancing exuberantly before the ark and felt it was undignified",
+    "options": ["He had married another wife", "She saw him dancing exuberantly before the ark and felt it was undignified", "He refused to fight the Philistines", "He gave her inheritance to Ziba"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Michal', p. 394"
+  },
+  {
+    "question": "To whom was Michal given in marriage during David's long absence, before later being reclaimed by David?",
+    "answer": "Palti (Paltiel), son of Laish",
+    "options": ["Palti (Paltiel), son of Laish", "Ish-bosheth", "Abner", "Adriel the Meholathite"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Michal', p. 394"
+  },
+  {
+    "question": "What does the name 'Nabal' mean, fittingly describing his character?",
+    "answer": "Senseless (Stupid)",
+    "options": ["Beloved", "Senseless (Stupid)", "Faithful", "Generous"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nabal', p. 457"
+  },
+  {
+    "question": "What was the name of Nabal's wife, who intervened with gifts to stop David from killing him?",
+    "answer": "Abigail",
+    "options": ["Abigail", "Ahinoam", "Bathsheba", "Michal"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nabal', p. 457"
+  },
+  {
+    "question": "How many sheep did Nabal's flocks, which David's men had protected, number?",
+    "answer": "3,000",
+    "options": ["1,000", "3,000", "5,000", "10,000"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nabal', p. 457"
+  },
+  {
+    "question": "Og, the giant king of Bashan, was famous for his enormous bed made of what material?",
+    "answer": "Iron",
+    "options": ["Bronze", "Iron", "Gold", "Cedar wood"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Og', p. 545"
+  },
+  {
+    "question": "What were the two principal cities of Og's kingdom of Bashan?",
+    "answer": "Edrei and Ashtaroth",
+    "options": ["Heshbon and Jahaz", "Edrei and Ashtaroth", "Bethel and Dan", "Samaria and Jezreel"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Og', p. 545"
+  },
+  {
+    "question": "In which Ammonite city was Og's massive iron bed kept, according to Deuteronomy?",
+    "answer": "Rabbah",
+    "options": ["Rabbah", "Heshbon", "Jahaz", "Damascus"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Og', p. 545"
+  },
+  {
+    "question": "Rizpah was a concubine of King Saul. What action involving her caused General Abner to defect to David?",
+    "answer": "Abner had relations with Rizpah, and when confronted, he defected to David",
+    "options": ["Abner had relations with Rizpah, and when confronted, he defected to David", "Abner married Rizpah without permission", "Abner killed Rizpah's sons", "Abner refused to protect Rizpah's sons"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rizpah', p. 815"
+  },
+  {
+    "question": "What were the names of Rizpah's two sons by Saul, who were later handed over to the Gibeonites?",
+    "answer": "Armoni and Mephibosheth",
+    "options": ["Armoni and Mephibosheth", "Abinadab and Malchishua", "Jonathan and Ishvi", "Ish-bosheth and Meribbaal"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rizpah', p. 815"
+  },
+  {
+    "question": "What did Rizpah do to protect the exposed bodies of her sons and five other descendants of Saul?",
+    "answer": "She guarded them from birds and wild beasts",
+    "options": ["She buried them secretly at night", "She guarded them from birds and wild beasts", "She paid the Gibeonites for their release", "She appealed directly to David for mercy"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rizpah', p. 815"
+  },
+  {
+    "question": "How long did Shallum reign as king of Israel after assassinating Zechariah, before he himself was murdered?",
+    "answer": "One month",
+    "options": ["One month", "Six months", "One year", "Two years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shallum' (No. 5), p. 906"
+  },
+  {
+    "question": "Who murdered Shallum, ending his brief reign as king of Israel?",
+    "answer": "Menahem",
+    "options": ["Menahem", "Pekah", "Pekahiah", "Hoshea"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shallum' (No. 5), p. 906"
+  },
+  {
+    "question": "What was the capital city of Sihon, the Amorite king defeated by Israel?",
+    "answer": "Heshbon",
+    "options": ["Heshbon", "Rabbah", "Jahaz", "Dibon"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sihon', p. 943"
+  },
+  {
+    "question": "At what location was Sihon defeated and killed by the Israelites?",
+    "answer": "Jahaz",
+    "options": ["Jahaz", "Edrei", "Heshbon", "Arnon"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sihon', p. 943"
+  },
+  {
+    "question": "Sihon's captured land was later divided among which two tribes of Israel?",
+    "answer": "Reuben and Gad",
+    "options": ["Reuben and Gad", "Ephraim and Manasseh", "Simeon and Levi", "Dan and Naphtali"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sihon', p. 943"
+  },
+  {
+    "question": "How many iron-scythed chariots did Sisera command against Israel?",
+    "answer": "900",
+    "options": ["300", "600", "900", "1,200"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sisera' (No. 1), p. 975"
+  },
+  {
+    "question": "Which two Israelite leaders defeated Sisera's army at the Kishon Valley?",
+    "answer": "Deborah and Barak",
+    "options": ["Deborah and Barak", "Gideon and Purah", "Ehud and Shamgar", "Samson and Delilah"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sisera' (No. 1), p. 975"
+  },
+  {
+    "question": "Who killed the fleeing Sisera by driving a tent pin through his temples while he slept?",
+    "answer": "Jael",
+    "options": ["Deborah", "Jael", "Delilah", "Rahab"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sisera' (No. 1), p. 975"
+  },
+  {
+    "question": "What did Jael give Sisera to drink before he fell asleep in her tent?",
+    "answer": "Milk",
+    "options": ["Water", "Wine", "Milk", "Honey"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sisera' (No. 1), p. 975"
+  },
+  {
+    "question": "What connection gave Tobiah, an opponent of Nehemiah, influence among the Jews of Jerusalem?",
+    "answer": "He was related by marriage to High Priest Eliashib",
+    "options": ["He was a Persian governor", "He was related by marriage to High Priest Eliashib", "He commanded the Samaritan army", "He was Nehemiah's own brother"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tobiah' (No. 2), p. 1112"
+  },
+  {
+    "question": "What did Nehemiah do when he discovered Tobiah had been given a dining room within the temple courts?",
+    "answer": "He threw Tobiah's belongings out",
+    "options": ["He had Tobiah arrested", "He threw Tobiah's belongings out", "He fined Tobiah heavily", "He exiled Tobiah's family"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tobiah' (No. 2), p. 1112"
+  },
+  {
+    "question": "Why was Queen Vashti deposed by King Ahasuerus (Xerxes)?",
+    "answer": "She refused his order to appear before his guests at a banquet",
+    "options": ["She refused his order to appear before his guests at a banquet", "She was caught worshiping foreign gods", "She conspired against the king's life", "She failed to produce an heir"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Vashti', p. 1148"
+  },
+  {
+    "question": "Which prince advised King Ahasuerus to depose Vashti?",
+    "answer": "Memucan",
+    "options": ["Haman", "Memucan", "Mordecai", "Hegai"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Vashti', p. 1148"
+  },
+  {
+    "question": "About how many years after Vashti's deposal was Esther selected as the new queen?",
+    "answer": "About four years",
+    "options": ["About one year", "About four years", "About ten years", "About twenty years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Vashti', p. 1148"
+  }
+]

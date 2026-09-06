@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Philadelphia, one of the seven churches addressed in Revelation, was located in which region?",
+    "answer": "Western Asia Minor",
+    "options": ["Western Asia Minor", "Northern Greece", "Southern Italy", "Central Egypt"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philadelphia', p. 626"
+  },
+  {
+    "question": "After which ruler was the city of Philadelphia named?",
+    "answer": "Attalus II (Philadelphus)",
+    "options": ["Eumenes II", "Attalus II (Philadelphus)", "Antiochus III", "Mithridates VI"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philadelphia', p. 626"
+  },
+  {
+    "question": "What deity was chiefly worshiped in ancient Philadelphia, reflecting its wine-producing economy?",
+    "answer": "Dionysus",
+    "options": ["Dionysus", "Apollo", "Artemis", "Zeus"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philadelphia', p. 626"
+  },
+  {
+    "question": "In what year C.E. was Philadelphia destroyed by an earthquake, later rebuilt with Roman financial aid?",
+    "answer": "17 C.E.",
+    "options": ["17 C.E.", "60 C.E.", "115 C.E.", "132 C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philadelphia', p. 626"
+  },
+  {
+    "question": "Magog (No. 1), grandson of Noah, was a son of which of Noah's sons?",
+    "answer": "Japheth",
+    "options": ["Ham", "Shem", "Japheth", "Canaan"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Magog', p. 295"
+  },
+  {
+    "question": "In Ezekiel's prophecy, the attacking host of 'Gog of the land of Magog' comes from which direction?",
+    "answer": "The north",
+    "options": ["The north", "The south", "The east", "The west"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Magog', p. 295"
+  },
+  {
+    "question": "Ancient writers commonly associated 'the land of Magog' with which fierce northern people?",
+    "answer": "The Scythians",
+    "options": ["The Scythians", "The Medes", "The Elamites", "The Cimmerians"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Magog', p. 295"
+  },
+  {
+    "question": "How many years did Mahalalel, a descendant of Seth, live according to Genesis?",
+    "answer": "895 years",
+    "options": ["777 years", "895 years", "912 years", "969 years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mahalalel', p. 296"
+  },
+  {
+    "question": "Besides the Pharpar, what was the other 'river of Damascus' that Naaman considered superior to Israel's waters?",
+    "answer": "The Abanah",
+    "options": ["The Abanah", "The Jordan", "The Orontes", "The Litani"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pharpar', p. 627"
+  },
+  {
+    "question": "Which Syrian army commander compared the Pharpar and Abanah rivers favorably to 'all the waters of Israel'?",
+    "answer": "Naaman",
+    "options": ["Naaman", "Elisha", "Gehazi", "Ben-hadad"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pharpar', p. 627"
+  },
+  {
+    "question": "What is the name of the highest and most northerly summit of the Mount of Olives ridge?",
+    "answer": "Mount Scopus",
+    "options": ["Mount Scopus", "Mount of Offense", "Mount Moriah", "Mount Zion"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Olives, Mount Of', p. 552"
+  },
+  {
+    "question": "What pivotal event in Jesus' life took place at the Mount of Olives after his resurrection?",
+    "answer": "His ascension into heaven",
+    "options": ["His ascension into heaven", "His transfiguration", "His baptism", "His triumphal entry"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Olives, Mount Of', p. 553"
+  },
+  {
+    "question": "In which village on the Mount of Olives' eastern slope did Jesus customarily lodge overnight, likely at the home of Martha, Mary, and Lazarus?",
+    "answer": "Bethany",
+    "options": ["Bethany", "Bethphage", "Bethlehem", "Emmaus"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Olives, Mount Of', p. 553"
+  },
+  {
+    "question": "Fleeing his rebellious son Absalom, which king ascended the Mount of Olives barefoot and weeping?",
+    "answer": "David",
+    "options": ["David", "Solomon", "Hezekiah", "Josiah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Olives, Mount Of', p. 553"
+  },
+  {
+    "question": "During what event was the Mount of Olives denuded of the olive trees that gave it its name?",
+    "answer": "The Roman siege of Jerusalem in 70 C.E.",
+    "options": ["The Roman siege of Jerusalem in 70 C.E.", "The Babylonian conquest in 607 B.C.E.", "The Persian conquest in 539 B.C.E.", "The Crusader siege in 1099 C.E."],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Olives, Mount Of', p. 553"
+  }
+]

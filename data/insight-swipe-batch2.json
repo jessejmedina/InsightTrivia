@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Is this book part of the poetry and wisdom writings, or the history books?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Traditional Bible book grouping (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": { "categoryLeft": "History book", "categoryRight": "Poetry / wisdom book", "cards": [
+      { "text": "Psalms", "side": "right" },
+      { "text": "Chronicles", "side": "left" },
+      { "text": "Proverbs", "side": "right" },
+      { "text": "Nehemiah", "side": "left" },
+      { "text": "Ecclesiastes", "side": "right" },
+      { "text": "Ezra", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this a miracle Jesus performed, or a parable Jesus told?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "The Gospels (cross-check: Insight on the Scriptures, Vol. 2, 'Illustrations')",
+    "payload": { "categoryLeft": "Parable", "categoryRight": "Miracle", "cards": [
+      { "text": "Walking on the Sea of Galilee", "side": "right" },
+      { "text": "The prodigal son", "side": "left" },
+      { "text": "Turning water into wine", "side": "right" },
+      { "text": "The good Samaritan", "side": "left" },
+      { "text": "Raising Lazarus from the tomb", "side": "right" },
+      { "text": "The mustard seed", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this woman the wife of one of the patriarchs Abraham, Isaac, or Jacob?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis (cross-check: Insight on the Scriptures, Vol. 2, 'Sarah')",
+    "payload": { "categoryLeft": "Not a patriarch's wife", "categoryRight": "Wife of a patriarch", "cards": [
+      { "text": "Sarah", "side": "right" },
+      { "text": "Miriam", "side": "left" },
+      { "text": "Rebekah", "side": "right" },
+      { "text": "Deborah", "side": "left" },
+      { "text": "Leah", "side": "right" },
+      { "text": "Ruth", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this person raised from the dead somewhere in the Bible account?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Kings 17; 2 Kings 4; Luke 7-8; John 11; Acts 9; 20 (cross-check: Insight on the Scriptures, Vol. 2, 'Resurrection')",
+    "payload": { "categoryLeft": "Not raised from the dead", "categoryRight": "Raised from the dead", "cards": [
+      { "text": "Lazarus of Bethany", "side": "right" },
+      { "text": "Stephen", "side": "left" },
+      { "text": "The widow of Nain's son", "side": "right" },
+      { "text": "John the Baptist", "side": "left" },
+      { "text": "Dorcas (Tabitha)", "side": "right" },
+      { "text": "Eutychus", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this event told in the book of Genesis, or the book of Exodus?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis and Exodus (cross-check: Insight on the Scriptures, Vol. 1, 'Genesis'; Vol. 1, 'Exodus')",
+    "payload": { "categoryLeft": "Genesis", "categoryRight": "Exodus", "cards": [
+      { "text": "The tower of Babel", "side": "left" },
+      { "text": "The burning bush", "side": "right" },
+      { "text": "Joseph sold by his brothers", "side": "left" },
+      { "text": "The parting of the Red Sea", "side": "right" },
+      { "text": "Jacob's ladder dream at Bethel", "side": "left" },
+      { "text": "The golden calf at Sinai", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this person named in the book of Hebrews' chapter on faith?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Hebrews 11 (cross-check: Insight on the Scriptures, Vol. 1, 'Faith')",
+    "payload": { "categoryLeft": "Not named in Hebrews 11", "categoryRight": "Named in Hebrews 11", "cards": [
+      { "text": "Abel", "side": "right" },
+      { "text": "Adam", "side": "left" },
+      { "text": "Rahab", "side": "right" },
+      { "text": "Solomon", "side": "left" },
+      { "text": "Gideon", "side": "right" },
+      { "text": "King Saul", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this one of the seven congregations addressed in Revelation?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Revelation 2-3 (cross-check: Insight on the Scriptures, Vol. 1, 'Congregation')",
+    "payload": { "categoryLeft": "Not one of the seven", "categoryRight": "One of the seven congregations", "cards": [
+      { "text": "Ephesus", "side": "right" },
+      { "text": "Corinth", "side": "left" },
+      { "text": "Smyrna", "side": "right" },
+      { "text": "Colossae", "side": "left" },
+      { "text": "Laodicea", "side": "right" },
+      { "text": "Philippi", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this figure a son of Jacob (one of the twelve), or a grandson?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 35; 46; 48 (cross-check: Insight on the Scriptures, Vol. 2, 'Jacob')",
+    "payload": { "categoryLeft": "Grandson of Jacob", "categoryRight": "Son of Jacob", "cards": [
+      { "text": "Judah", "side": "right" },
+      { "text": "Ephraim", "side": "left" },
+      { "text": "Benjamin", "side": "right" },
+      { "text": "Manasseh", "side": "left" },
+      { "text": "Levi", "side": "right" },
+      { "text": "Reuben", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Does this figure appear in the account of Jesus' birth and infancy?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 1-2; Luke 1-2 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "categoryLeft": "Not in the birth account", "categoryRight": "In the birth account", "cards": [
+      { "text": "Simeon in the temple", "side": "right" },
+      { "text": "John the Baptist as an adult", "side": "left" },
+      { "text": "Anna the prophetess", "side": "right" },
+      { "text": "Nicodemus", "side": "left" },
+      { "text": "King Herod the Great", "side": "right" },
+      { "text": "Pontius Pilate", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this person a companion or coworker of the apostle Paul?",
+    "type": "swipe",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts; the letters of Paul (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "categoryLeft": "Not a coworker of Paul", "categoryRight": "Coworker of Paul", "cards": [
+      { "text": "Silas", "side": "right" },
+      { "text": "Cornelius", "side": "left" },
+      { "text": "Timothy", "side": "right" },
+      { "text": "Gamaliel", "side": "left" },
+      { "text": "Titus", "side": "right" },
+      { "text": "Priscilla", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this a body of water, or a city or town?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Bible geography (cross-check: Insight on the Scriptures, Vol. 2, 'Palestine')",
+    "payload": { "categoryLeft": "City or town", "categoryRight": "Body of water", "cards": [
+      { "text": "The Jordan", "side": "right" },
+      { "text": "Capernaum", "side": "left" },
+      { "text": "The Sea of Galilee", "side": "right" },
+      { "text": "Jericho", "side": "left" },
+      { "text": "The Dead Sea", "side": "right" },
+      { "text": "Bethsaida", "side": "left" }
+    ] }
+  },
+  {
+    "question": "According to Hebrews, was this item kept inside the ark of the covenant?",
+    "type": "swipe",
+    "category": "Tabernacle",
+    "difficulty": "hard",
+    "reference": "Hebrews 9:4; Exodus 16:33-34; Numbers 17:10 (cross-check: Insight on the Scriptures, Vol. 1, 'Ark of the Covenant')",
+    "payload": { "categoryLeft": "Not kept in the ark", "categoryRight": "Kept in the ark", "cards": [
+      { "text": "The two stone tablets of the Law", "side": "right" },
+      { "text": "The bronze serpent", "side": "left" },
+      { "text": "A golden jar of manna", "side": "right" },
+      { "text": "The high priest's breastpiece", "side": "left" },
+      { "text": "Aaron's rod that had budded", "side": "right" },
+      { "text": "The book of the Law", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this a book Paul wrote, or a book he did not write?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "The letters of the Christian Greek Scriptures (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "categoryLeft": "Not written by Paul", "categoryRight": "Written by Paul", "cards": [
+      { "text": "Romans", "side": "right" },
+      { "text": "James", "side": "left" },
+      { "text": "Galatians", "side": "right" },
+      { "text": "1 Peter", "side": "left" },
+      { "text": "Philippians", "side": "right" },
+      { "text": "Revelation", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this figure a Roman or civil official, or a Jewish religious leader?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "The Gospels and Acts (cross-check: Insight on the Scriptures, Vol. 2, 'Sanhedrin')",
+    "payload": { "categoryLeft": "Jewish religious leader", "categoryRight": "Roman / civil official", "cards": [
+      { "text": "Pontius Pilate", "side": "right" },
+      { "text": "Caiaphas", "side": "left" },
+      { "text": "Felix, governor of Judea", "side": "right" },
+      { "text": "Gamaliel", "side": "left" },
+      { "text": "King Herod Agrippa", "side": "right" },
+      { "text": "Annas", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this event happen before David became king over all Israel, or after?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "1 and 2 Samuel (cross-check: Insight on the Scriptures, Vol. 1, 'David')",
+    "payload": { "categoryLeft": "Before David's kingship", "categoryRight": "After David became king", "cards": [
+      { "text": "David spared Saul's life in a cave", "side": "left" },
+      { "text": "The ark was brought up to Jerusalem", "side": "right" },
+      { "text": "David and Jonathan made their covenant of friendship", "side": "left" },
+      { "text": "Absalom's revolt", "side": "right" },
+      { "text": "David lived among the Philistines at Ziklag", "side": "left" },
+      { "text": "The census that brought a plague on Israel", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this prophet serve mainly the northern kingdom (Israel), or Judah?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "The prophetic books (cross-check: Insight on the Scriptures, Vol. 2, 'Prophet')",
+    "payload": { "categoryLeft": "Northern kingdom (Israel)", "categoryRight": "Judah", "cards": [
+      { "text": "Amos", "side": "left" },
+      { "text": "Isaiah", "side": "right" },
+      { "text": "Hosea", "side": "left" },
+      { "text": "Jeremiah", "side": "right" },
+      { "text": "Elisha", "side": "left" },
+      { "text": "Micah", "side": "right" }
+    ] }
+  }
+]

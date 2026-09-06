@@ -1,0 +1,282 @@
+[
+  {
+    "question": "What was Rahab's profession before she became a worshiper of Jehovah?",
+    "answer": "A prostitute (harlot)",
+    "options": ["A weaver", "A prostitute (harlot)", "A midwife", "A merchant"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rahab' (No. 1), p. 728"
+  },
+  {
+    "question": "Where did Rahab hide the two Israelite spies from the king of Jericho's men?",
+    "answer": "Flax stalks drying on her roof",
+    "options": ["Water jars in her courtyard", "Flax stalks drying on her roof", "Grain sacks in a storeroom", "Animal pens behind her house"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rahab' (No. 1), p. 728"
+  },
+  {
+    "question": "In poetic Bible passages, \"Rahab\" is also used as a symbolic name (portrayed as a sea monster) for which nation?",
+    "answer": "Egypt",
+    "options": ["Babylon", "Assyria", "Egypt", "Philistia"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rahab' (No. 2), p. 728"
+  },
+  {
+    "question": "Where did Moses first meet his future wife Zipporah?",
+    "answer": "At a well, watering her father's flocks",
+    "options": ["At a well, watering her father's flocks", "At a marketplace in Midian", "At her father's temple", "While fleeing from Egypt"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zipporah', p. 1237"
+  },
+  {
+    "question": "What were the names of Zipporah's two sons with Moses?",
+    "answer": "Gershom and Eliezer",
+    "options": ["Gershom and Eliezer", "Gershom and Kohath", "Nadab and Abihu", "Amram and Izhar"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zipporah', p. 1237"
+  },
+  {
+    "question": "What aspect of Zipporah's background did Miriam and Aaron use as an excuse to complain against Moses?",
+    "answer": "Her Cushite background",
+    "options": ["Her Moabite ancestry", "Her Cushite background", "Her Egyptian upbringing", "Her Midianite religion"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zipporah', p. 1237"
+  },
+  {
+    "question": "Whose maidservant was Zilpah before she became one of Jacob's secondary wives?",
+    "answer": "Leah's",
+    "options": ["Rachel's", "Leah's", "Rebekah's", "Sarah's"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zilpah', p. 1236"
+  },
+  {
+    "question": "Which two of Jacob's sons did Zilpah bear?",
+    "answer": "Gad and Asher",
+    "options": ["Gad and Asher", "Dan and Naphtali", "Reuben and Simeon", "Issachar and Zebulun"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zilpah', p. 1236"
+  },
+  {
+    "question": "What were the Urim and Thummim used for?",
+    "answer": "Ascertaining Jehovah's will on national matters",
+    "options": ["Measuring the temple's dimensions", "Ascertaining Jehovah's will on national matters", "Calculating the calendar", "Weighing sacrificial offerings"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Urim And Thummim', p. 1144"
+  },
+  {
+    "question": "In which priestly garment did Moses place the Urim and Thummim?",
+    "answer": "The breastpiece",
+    "options": ["The ephod's shoulder pieces", "The breastpiece", "The ark of the covenant", "The altar of incense"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Urim And Thummim', p. 1144"
+  },
+  {
+    "question": "Which three apostles witnessed Jesus' transfiguration?",
+    "answer": "Peter, James, and John",
+    "options": ["Peter, James, and John", "Peter, Andrew, and John", "James, John, and Thomas", "Peter, John, and Judas"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Transfiguration', p. 1121"
+  },
+  {
+    "question": "Which two Old Testament figures appeared with Jesus during the transfiguration?",
+    "answer": "Moses and Elijah",
+    "options": ["Moses and Elijah", "Moses and Elisha", "Elijah and Elisha", "Abraham and Moses"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Transfiguration', p. 1121"
+  },
+  {
+    "question": "What did Peter mistakenly suggest building during the transfiguration, one each for Jesus, Moses, and Elijah?",
+    "answer": "Three tents",
+    "options": ["An altar", "Three tents", "A memorial pillar", "A throne"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Transfiguration', p. 1121"
+  },
+  {
+    "question": "In what year B.C.E. was the tabernacle constructed at Mount Sinai, according to Insight's chronology?",
+    "answer": "1512 B.C.E.",
+    "options": ["1513 B.C.E.", "1512 B.C.E.", "1473 B.C.E.", "1500 B.C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tabernacle', p. 1058"
+  },
+  {
+    "question": "How many layers of covering protected the top of the tabernacle?",
+    "answer": "Four",
+    "options": ["Two", "Three", "Four", "Five"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tabernacle', p. 1058"
+  },
+  {
+    "question": "What were the two compartments of the tabernacle called?",
+    "answer": "The Holy and the Most Holy",
+    "options": ["The Holy and the Most Holy", "The Court and the Sanctuary", "The Inner and Outer Chambers", "The Nave and the Altar Room"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tabernacle', p. 1058"
+  },
+  {
+    "question": "From which Mediterranean seaport did Jonah try to sail to Tarshish, fleeing his commission to preach in Nineveh?",
+    "answer": "Joppa",
+    "options": ["Joppa", "Tyre", "Sidon", "Caesarea"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tarshish' (No. 4), p. 1066"
+  },
+  {
+    "question": "Tarshish (No. 3) was one of seven princely counselors who considered the case of which deposed queen?",
+    "answer": "Vashti",
+    "options": ["Esther", "Vashti", "Zeresh", "Michal"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tarshish' (No. 3), p. 1066"
+  },
+  {
+    "question": "The city of Sychar was located near whose fountain (well)?",
+    "answer": "Jacob's",
+    "options": ["Abraham's", "Isaac's", "Jacob's", "Joseph's"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sychar', p. 1051"
+  },
+  {
+    "question": "To whom did Luke address both his Gospel and the book of Acts?",
+    "answer": "Theophilus",
+    "options": ["Timothy", "Titus", "Theophilus", "Silas"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Theophilus', p. 1090"
+  },
+  {
+    "question": "What does the name \"Theophilus\" mean?",
+    "answer": "Loved by God",
+    "options": ["Loved by God", "Gift of God", "God Is Gracious", "Servant of God"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Theophilus', p. 1090"
+  },
+  {
+    "question": "Thyatira was noted as an industrial center famous for which trade, including a prized scarlet dye made from madder root?",
+    "answer": "Dyeing",
+    "options": ["Pottery only", "Dyeing", "Shipbuilding", "Glassmaking"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Thyatira', p. 1099"
+  },
+  {
+    "question": "Which Bible book records a message dictated by Jesus Christ to the Christian congregation in Thyatira?",
+    "answer": "Revelation",
+    "options": ["Acts", "Revelation", "Romans", "Hebrews"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Thyatira', p. 1099"
+  },
+  {
+    "question": "After whom was the city of Tiberias named?",
+    "answer": "Tiberius Caesar",
+    "options": ["Julius Caesar", "Augustus Caesar", "Tiberius Caesar", "Herod the Great"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tiberias' (No. 1), p. 1099"
+  },
+  {
+    "question": "Besides referring to the city, \"Tiberias\" was also used in Scripture as another name for which body of water?",
+    "answer": "The Sea of Galilee",
+    "options": ["The Dead Sea", "The Sea of Galilee", "The Jordan River", "The Mediterranean Sea"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tiberias' (No. 2), p. 1099"
+  },
+  {
+    "question": "What false assumption led a mob to attack Paul in the temple, involving his companion Trophimus?",
+    "answer": "That Paul had brought him past the Court of the Gentiles into a restricted temple area",
+    "options": ["That he had stolen temple treasures", "That Paul had brought him past the Court of the Gentiles into a restricted temple area", "That he had insulted the high priest", "That he was a Roman spy"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Trophimus', p. 1130"
+  },
+  {
+    "question": "At what city did Trophimus become too sick to continue traveling with Paul?",
+    "answer": "Miletus",
+    "options": ["Miletus", "Ephesus", "Troas", "Corinth"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Trophimus', p. 1130"
+  },
+  {
+    "question": "What does the expression \"Talitha cumi,\" spoken by Jesus, mean?",
+    "answer": "\"Maiden, I say to you, get up!\"",
+    "options": ["\"Peace, be still\"", "\"Maiden, I say to you, get up!\"", "\"Your faith has healed you\"", "\"Come out!\""],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Talitha Cumi', p. 1063"
+  },
+  {
+    "question": "On what occasion did Jesus say \"Talitha cumi\"?",
+    "answer": "Resurrecting Jairus's daughter",
+    "options": ["Raising Lazarus", "Raising the widow of Nain's son", "Resurrecting Jairus's daughter", "Healing a paralyzed man"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Talitha Cumi', p. 1063"
+  },
+  {
+    "question": "What did Ziba falsely claim about Mephibosheth when David fled Jerusalem during Absalom's rebellion?",
+    "answer": "That Mephibosheth was staying behind, hoping to recover Saul's kingdom",
+    "options": ["That Mephibosheth had fled to the Philistines", "That Mephibosheth was staying behind, hoping to recover Saul's kingdom", "That Mephibosheth had joined Absalom's army", "That Mephibosheth was plotting to kill David"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Ziba', p. 1234"
+  },
+  {
+    "question": "How did David reward Ziba after hearing this claim about Mephibosheth?",
+    "answer": "By transferring Mephibosheth's property to him",
+    "options": ["By making him a royal officer", "By transferring Mephibosheth's property to him", "By giving him a portion of the treasury", "By appointing him as a judge"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Ziba', p. 1234"
+  },
+  {
+    "question": "What did the name \"Zebulun\" reflect, according to his mother Leah's words at his birth?",
+    "answer": "Her hope that Jacob would finally tolerate her",
+    "options": ["Her joy at finally having a son", "Her hope that Jacob would finally tolerate her", "Her gratitude to Jehovah", "Her rivalry with Rachel"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zebulun' (No. 1), p. 1222"
+  },
+  {
+    "question": "What were the names of Zebulun's three sons?",
+    "answer": "Sered, Elon, and Jahleel",
+    "options": ["Sered, Elon, and Jahleel", "Gad, Asher, and Dan", "Hezron, Hamul, and Er", "Beriah, Heber, and Malchiel"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zebulun' (No. 1), p. 1222"
+  },
+  {
+    "question": "In the Song of Deborah and Barak, the tribe of Zebulun was praised for what quality in battle?",
+    "answer": "Scorning their souls to the point of death",
+    "options": ["Their skill in music", "Scorning their souls to the point of death", "Their wealth and generosity", "Their priestly service"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zebulun' (No. 2), p. 1222"
+  },
+  {
+    "question": "Zerah (No. 3) was the twin brother of which ancestor of Judah's tribe, both born to Tamar?",
+    "answer": "Perez",
+    "options": ["Perez", "Onan", "Shelah", "Er"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zerah' (No. 3), p. 1231"
+  }
+]

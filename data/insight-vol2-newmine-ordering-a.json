@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Put these events of Paul's Macedonian ministry (his second missionary journey) in the order they occurred.",
+    "type": "ordering",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Macedonia, Macedonian', p. 289",
+    "payload": {
+      "items": [
+        "Paul receives a vision at Troas of a Macedonian man asking for help",
+        "Paul arrives at Neapolis, the port of Philippi, and declares the good news at Philippi",
+        "Paul journeys through Amphipolis and Apollonia to Thessalonica and Beroea",
+        "Threatened mob violence at Beroea forces Paul to depart from Macedonia"
+      ]
+    }
+  },
+  {
+    "question": "Put these early stages of Joseph's life in Egypt in the order they occurred.",
+    "type": "ordering",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joseph', p. 107",
+    "payload": {
+      "items": [
+        "Joseph, at age 17, brings a bad report about his half brothers to Jacob",
+        "Joseph's brothers sell him to Ishmaelite merchants for 20 pieces of silver",
+        "Joseph is sold to Potiphar, chief of Pharaoh's bodyguard",
+        "Joseph is afflicted with fetters as a prisoner in Egypt"
+      ]
+    }
+  },
+  {
+    "question": "Put these stages of the Philistines' history, as described in Insight, in the order they occurred.",
+    "type": "ordering",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philistia, Philistines', p. 631-632",
+    "payload": {
+      "items": [
+        "The Philistines migrate from the island of Crete to the coast of Canaan",
+        "Philistines reside at Gerar in southern Canaan in the time of Abraham and Isaac",
+        "The Philistines occupy the coastal cities of Gaza, Ashkelon, Ashdod, Ekron, and Gath",
+        "Samson takes the lead in saving Israel out of the hand of the Philistines"
+      ]
+    }
+  },
+  {
+    "question": "Put these events at Marah in the order they occurred.",
+    "type": "ordering",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Marah', p. 318",
+    "payload": {
+      "items": [
+        "The Israelites are delivered from the Egyptians at the Red Sea",
+        "The Israelites arrive at Marah and find the water undrinkably bitter",
+        "The Israelites give way to faithless murmuring against Moses",
+        "Moses casts a tree into the water at Jehovah's direction, and it becomes sweet"
+      ]
+    }
+  },
+  {
+    "question": "Put these turning points of Joseph's rise in Egypt in the order they occurred.",
+    "type": "ordering",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joseph', p. 107; 'Manasseh', p. 305",
+    "payload": {
+      "items": [
+        "Joseph is sold to Potiphar and later falsely imprisoned",
+        "Joseph is eventually made Egypt's food administrator",
+        "Pharaoh gives Joseph Asenath, daughter of the priest of On, as a wife",
+        "Joseph names his firstborn son Manasseh"
+      ]
+    }
+  },
+  {
+    "question": "Put these genealogical links between Enoch and Noah in generational order.",
+    "type": "ordering",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Methuselah', p. 390",
+    "payload": {
+      "items": [
+        "Enoch, the faithful prophet",
+        "Methuselah, Enoch's son",
+        "Lamech, Methuselah's son",
+        "Noah, Lamech's son"
+      ]
+    }
+  },
+  {
+    "question": "Put these developments in ancient Phoenicia's leading city in order.",
+    "type": "ordering",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Phoenicia', p. 635",
+    "payload": {
+      "items": [
+        "Sidon becomes the principal city of ancient Phoenicia",
+        "A colony from Sidon founds the city of Tyre",
+        "Tyre grows and eventually eclipses Sidon in importance",
+        "Phoenicia as a whole comes to roughly correspond to modern Lebanon"
+      ]
+    }
+  },
+  {
+    "question": "Put these events of Paul's later dealings with Macedonia and Achaia in order.",
+    "type": "ordering",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Macedonia, Macedonian', p. 289",
+    "payload": {
+      "items": [
+        "Paul proceeds to Macedonia and is joined by Titus with word from Corinth",
+        "Paul writes his second letter to the Corinthians",
+        "A plot against Paul in Greece causes him to change his travel plans",
+        "Paul returns to Macedonia instead of sailing directly to Syria"
+      ]
+    }
+  },
+  {
+    "question": "Put these stages of Joseph's brothers' plot against him in order.",
+    "type": "ordering",
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joseph', p. 107",
+    "payload": {
+      "items": [
+        "Joseph's brothers see him coming and scheme to kill him",
+        "Reuben persuades them to throw Joseph into a dry waterpit instead",
+        "Judah persuades the others to sell Joseph to a passing caravan instead of killing him",
+        "The brothers deceive Jacob into believing Joseph was killed by a wild beast"
+      ]
+    }
+  },
+  {
+    "question": "Put these facts about the region of Philistia in geographic order, from north to south along the coast.",
+    "type": "ordering",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philistia, Philistines', p. 631",
+    "payload": {
+      "items": [
+        "Joppa, near Philistia's northern border",
+        "Ashdod, one of the five axis-lord cities",
+        "Ashkelon, another of the five axis-lord cities",
+        "Gaza, near Philistia's southern border"
+      ]
+    }
+  }
+]

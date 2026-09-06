@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Is this book in the Old Testament or the New Testament?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Bible book order (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": { "categoryLeft": "Old Testament", "categoryRight": "New Testament", "cards": [
+      { "text": "Nahum", "side": "left" },
+      { "text": "Philemon", "side": "right" },
+      { "text": "Zephaniah", "side": "left" },
+      { "text": "Jude", "side": "right" },
+      { "text": "Ecclesiastes", "side": "left" },
+      { "text": "Titus", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Major prophet or minor prophet?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Traditional grouping of the prophetic books (cross-check: Insight on the Scriptures)",
+    "payload": { "categoryLeft": "Minor prophet", "categoryRight": "Major prophet", "cards": [
+      { "text": "Isaiah", "side": "right" },
+      { "text": "Amos", "side": "left" },
+      { "text": "Ezekiel", "side": "right" },
+      { "text": "Micah", "side": "left" },
+      { "text": "Daniel", "side": "right" },
+      { "text": "Habakkuk", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a plague on Egypt, or not one of the ten?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Exodus 7-12 (cross-check: Insight on the Scriptures, Vol. 2, 'Plague')",
+    "payload": { "categoryLeft": "Not a plague", "categoryRight": "One of the ten plagues", "cards": [
+      { "text": "Water turned to blood", "side": "right" },
+      { "text": "Manna from heaven", "side": "left" },
+      { "text": "Swarms of locusts", "side": "right" },
+      { "text": "Three days of darkness", "side": "right" },
+      { "text": "Bronze serpent on a pole", "side": "left" },
+      { "text": "Death of the firstborn", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this listed as a fruit of the spirit in Galatians?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Galatians 5:22-23 (cross-check: Insight on the Scriptures, Vol. 1, 'Fruitage of the Spirit')",
+    "payload": { "categoryLeft": "Not on the list", "categoryRight": "Fruit of the spirit", "cards": [
+      { "text": "Joy", "side": "right" },
+      { "text": "Wisdom", "side": "left" },
+      { "text": "Peace", "side": "right" },
+      { "text": "Patience", "side": "right" },
+      { "text": "Courage", "side": "left" },
+      { "text": "Self-control", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this man one of the twelve apostles Jesus chose?",
+    "type": "swipe",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Matthew 10:2-4; Luke 6:13-16 (cross-check: Insight on the Scriptures, Vol. 1, 'Apostle')",
+    "payload": { "categoryLeft": "Not one of the Twelve", "categoryRight": "One of the Twelve", "cards": [
+      { "text": "Bartholomew", "side": "right" },
+      { "text": "Barnabas", "side": "left" },
+      { "text": "Thomas", "side": "right" },
+      { "text": "Stephen", "side": "left" },
+      { "text": "Simon the Zealot", "side": "right" },
+      { "text": "Timothy", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this person live before the Flood, or after it?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis 5-11 (cross-check: Insight on the Scriptures, Vol. 1, 'Chronology')",
+    "payload": { "categoryLeft": "Before the Flood", "categoryRight": "After the Flood", "cards": [
+      { "text": "Enoch", "side": "left" },
+      { "text": "Abraham", "side": "right" },
+      { "text": "Methuselah", "side": "left" },
+      { "text": "Nimrod", "side": "right" },
+      { "text": "Cain", "side": "left" },
+      { "text": "Isaac", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this one of the twelve tribes of Israel?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 49; Numbers 1 (cross-check: Insight on the Scriptures, Vol. 2, 'Tribe')",
+    "payload": { "categoryLeft": "Not a tribe", "categoryRight": "A tribe of Israel", "cards": [
+      { "text": "Naphtali", "side": "right" },
+      { "text": "Caleb", "side": "left" },
+      { "text": "Zebulun", "side": "right" },
+      { "text": "Issachar", "side": "right" },
+      { "text": "Boaz", "side": "left" },
+      { "text": "Asher", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a king of the northern kingdom (Israel) or the southern kingdom (Judah)?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 and 2 Kings (cross-check: Insight on the Scriptures, Vol. 2, 'King')",
+    "payload": { "categoryLeft": "Israel (north)", "categoryRight": "Judah (south)", "cards": [
+      { "text": "Jeroboam", "side": "left" },
+      { "text": "Hezekiah", "side": "right" },
+      { "text": "Ahab", "side": "left" },
+      { "text": "Josiah", "side": "right" },
+      { "text": "Jehu", "side": "left" },
+      { "text": "Uzziah", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this miracle involve Jesus, or the prophet Elisha?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "2 Kings 4-6; the Gospels (cross-check: Insight on the Scriptures, Vol. 1, 'Elisha')",
+    "payload": { "categoryLeft": "Elisha", "categoryRight": "Jesus", "cards": [
+      { "text": "Made an axe head float on water", "side": "left" },
+      { "text": "Calmed a storm on the Sea of Galilee with a word", "side": "right" },
+      { "text": "Fed 5,000 men with five loaves and two fish", "side": "right" },
+      { "text": "Raised a widow's son at Nain", "side": "right" },
+      { "text": "Multiplied a widow's oil to pay her debt", "side": "left" },
+      { "text": "Healed Naaman of leprosy", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this event happen during the wilderness wandering, or during the conquest of Canaan under Joshua?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus-Joshua (cross-check: Insight on the Scriptures, Vol. 2, 'Joshua', p. 114)",
+    "payload": { "categoryLeft": "Wilderness wandering", "categoryRight": "Conquest of Canaan", "cards": [
+      { "text": "Water came from a struck rock at Horeb", "side": "left" },
+      { "text": "The walls of Jericho fell", "side": "right" },
+      { "text": "The sun stood still over Gibeon", "side": "right" },
+      { "text": "The bronze serpent was raised for the snakebitten", "side": "left" },
+      { "text": "Achan's sin over the banned spoil was exposed", "side": "right" },
+      { "text": "Korah's rebellion was swallowed by the earth", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this person write at least one book of the Bible?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Traditional authorship (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": { "categoryLeft": "Did not write a Bible book", "categoryRight": "Wrote a Bible book", "cards": [
+      { "text": "Luke", "side": "right" },
+      { "text": "Barnabas", "side": "left" },
+      { "text": "James, the half brother of Jesus", "side": "right" },
+      { "text": "Titus", "side": "left" },
+      { "text": "Jude", "side": "right" },
+      { "text": "Silas", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this figure a judge of Israel, or a king of Israel?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Judges; 1 and 2 Kings (cross-check: Insight on the Scriptures, Vol. 1, 'Judge')",
+    "payload": { "categoryLeft": "Judge", "categoryRight": "King", "cards": [
+      { "text": "Gideon", "side": "left" },
+      { "text": "Saul", "side": "right" },
+      { "text": "Deborah", "side": "left" },
+      { "text": "Jeroboam", "side": "right" },
+      { "text": "Samson", "side": "left" },
+      { "text": "Rehoboam", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this person present when Jesus was transfigured on the mountain?",
+    "type": "swipe",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Matthew 17:1-3 (cross-check: Insight on the Scriptures, Vol. 2, 'Transfiguration')",
+    "payload": { "categoryLeft": "Not present", "categoryRight": "Present at the transfiguration", "cards": [
+      { "text": "Peter", "side": "right" },
+      { "text": "Andrew", "side": "left" },
+      { "text": "James, son of Zebedee", "side": "right" },
+      { "text": "Thomas", "side": "left" },
+      { "text": "John", "side": "right" },
+      { "text": "Elijah", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Does this book belong to the Torah (the first five books), or come later?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Bible book order (cross-check: Insight on the Scriptures, Vol. 2, 'Pentateuch')",
+    "payload": { "categoryLeft": "Later book", "categoryRight": "Book of the Torah", "cards": [
+      { "text": "Leviticus", "side": "right" },
+      { "text": "Joshua", "side": "left" },
+      { "text": "Numbers", "side": "right" },
+      { "text": "Judges", "side": "left" },
+      { "text": "Deuteronomy", "side": "right" },
+      { "text": "Ruth", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this woman appear in Matthew's genealogy of Jesus?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Matthew 1:1-16 (cross-check: Insight on the Scriptures, Vol. 1, 'Genealogy of Jesus Christ')",
+    "payload": { "categoryLeft": "Not in the genealogy", "categoryRight": "In Matthew's genealogy", "cards": [
+      { "text": "Rahab", "side": "right" },
+      { "text": "Sarah", "side": "left" },
+      { "text": "Ruth", "side": "right" },
+      { "text": "Deborah", "side": "left" },
+      { "text": "Tamar", "side": "right" },
+      { "text": "Miriam", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this person die before the northern kingdom fell to Assyria in 740 B.C.E., or after?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "2 Kings 17 (cross-check: Insight on the Scriptures, Vol. 2, 'Israel No. 3')",
+    "payload": { "categoryLeft": "Died before the fall of Samaria", "categoryRight": "Lived after the fall of Samaria", "cards": [
+      { "text": "Elijah", "side": "left" },
+      { "text": "Daniel", "side": "right" },
+      { "text": "Elisha", "side": "left" },
+      { "text": "Ezra", "side": "right" },
+      { "text": "Solomon", "side": "left" },
+      { "text": "Nehemiah", "side": "right" }
+    ] }
+  }
+]

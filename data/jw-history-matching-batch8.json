@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Match each year to the total number of lands with an organized Witness presence reported that year.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "pairs": [ {"left": "1925", "right": "83 lands"}, {"left": "1950", "right": "147 lands"}, {"left": "1975", "right": "212 lands"}, {"left": "1992", "right": "229 lands"} ] }
+  },
+  {
+    "question": "Match each year to the total number of congregations reported that year.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "pairs": [ {"left": "1945", "right": "7,218 congregations"}, {"left": "1960", "right": "21,008 congregations"}, {"left": "1975", "right": "38,256 congregations"}, {"left": "1992", "right": "69,558 congregations"} ] }
+  },
+  {
+    "question": "Match each year to the total number of Kingdom publishers reported that year.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "pairs": [ {"left": "1935", "right": "56,153 publishers"}, {"left": "1955", "right": "642,929 publishers"}, {"left": "1970", "right": "1,483,430 publishers"}, {"left": "1985", "right": "3,024,131 publishers"} ] }
+  },
+  {
+    "question": "Match each year to the total number of pioneers reported that year.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "pairs": [ {"left": "1925", "right": "1,435 pioneers"}, {"left": "1945", "right": "6,721 pioneers"}, {"left": "1965", "right": "47,853 pioneers"}, {"left": "1985", "right": "322,821 pioneers"} ] }
+  },
+  {
+    "question": "Match each year to the number of home Bible studies reported that year.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "pairs": [ {"left": "1950", "right": "234,952 Bible studies"}, {"left": "1965", "right": "770,595 Bible studies"}, {"left": "1980", "right": "1,371,584 Bible studies"}, {"left": "1992", "right": "4,278,127 Bible studies"} ] }
+  },
+  {
+    "question": "Match each Watch Tower Society president to how or when they took office.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 33, 43",
+    "payload": { "pairs": [ {"left": "C. T. Russell", "right": "Founder and first president"}, {"left": "J. F. Rutherford", "right": "Became president January 6, 1917"}, {"left": "N. H. Knorr", "right": "Became third president January 13, 1942"}, {"left": "F. W. Franz", "right": "President as of 1991, baptized in 1913"} ] }
+  },
+  {
+    "question": "Match each magazine title to the year it was adopted.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 43-44",
+    "payload": { "pairs": [ {"left": "Zion's Watch Tower and Herald of Christ's Presence", "right": "1879"}, {"left": "The Watch Tower and Herald of Christ's Presence", "right": "1909"}, {"left": "The Watchtower and Herald of Christ's Kingdom", "right": "1939"}, {"left": "The Watchtower Announcing Jehovah's Kingdom", "right": "1939"} ] }
+  },
+  {
+    "question": "Match each publication to the year associated with it.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 43, 45",
+    "payload": { "pairs": [ {"left": "The Golden Age", "right": "First published 1919"}, {"left": "Consolation", "right": "Renamed from The Golden Age, 1937"}, {"left": "Awake!", "right": "Renamed from Consolation, 1946"}, {"left": "The Divine Plan of the Ages", "right": "First volume of Millennial Dawn, 1886"} ] }
+  },
+  {
+    "question": "Match each entity to its Hurricane Andrew relief action, per the book's account.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 32, p. 711-712",
+    "payload": { "pairs": [ {"left": "The Governing Body", "right": "Appointed a relief committee and arranged relief funds"}, {"left": "Witnesses in South Carolina", "right": "Dispatched a truck with generators, chain saws, and water"}, {"left": "Local Christian overseers", "right": "Contacted individual Witnesses to assess their needs"}, {"left": "About 3,000 volunteers", "right": "Converged on the disaster area to repair homes"} ] }
+  },
+  {
+    "question": "Match each legal or persecution milestone to its year.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 43",
+    "payload": { "pairs": [ {"left": "Jehovah's Witnesses banned in Germany", "right": "1933"}, {"left": "U.S. Supreme Court upholds mandatory flag salute", "right": "1940"}, {"left": "U.S. Supreme Court rules favorably in 20 of 24 cases", "right": "1943"}, {"left": "23 British Empire nations ban Witnesses", "right": "1939-45"} ] }
+  },
+  {
+    "question": "Match each organizational change to the year it took effect.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 43",
+    "payload": { "pairs": [ {"left": "Theocratic selection of overseers replaces democratic election", "right": "1938"}, {"left": "Board of directors no longer selected by donation-qualified voters", "right": "1945"}, {"left": "Congregations placed under a body of elders", "right": "1972"}, {"left": "Branch offices placed under a committee of three or more", "right": "1976"} ] }
+  },
+  {
+    "question": "Match each year to the total number of lands with an organized Witness presence reported that year (a different set of years).",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "pairs": [ {"left": "1930", "right": "87 lands"}, {"left": "1945", "right": "107 lands"}, {"left": "1965", "right": "201 lands"}, {"left": "1985", "right": "222 lands"} ] }
+  },
+  {
+    "question": "Match each year to the total number of congregations reported that year (a different set of years).",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "pairs": [ {"left": "1950", "right": "13,238 congregations"}, {"left": "1965", "right": "24,158 congregations"}, {"left": "1980", "right": "43,181 congregations"}, {"left": "1992", "right": "69,558 congregations"} ] }
+  }
+]

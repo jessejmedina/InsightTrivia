@@ -1,0 +1,130 @@
+[
+  {
+    "question": "Put these presidents of the Watch Tower Bible and Tract Society in the order they served.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 9-10",
+    "payload": { "items": ["Charles Taze Russell", "Joseph F. Rutherford", "Nathan H. Knorr", "Frederick W. Franz"] }
+  },
+  {
+    "question": "Put these 1975-1977 organizational readjustment events in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 9, p. 105-106",
+    "payload": { "items": ["December 4, 1975: the Governing Body approves the readjustment", "January 1, 1976: six administrative committees take over Society activities", "February 1, 1976: Branch Committees replace single branch overseers", "June 8, 1977: N. H. Knorr dies"] }
+  },
+  {
+    "question": "Put these Bible-education-program milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 9, p. 109",
+    "payload": { "items": ["1977: all elders attend a Kingdom Ministry School course", "December 1977: the Pioneer Service School is inaugurated", "1984: ministerial servants begin attending the Kingdom Ministry School", "Fall 1987: the Ministerial Training School opens"] }
+  },
+  {
+    "question": "Put these Watch Tower publications on the book of Revelation in the order they were released.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 10, p. 139",
+    "payload": { "items": ["The Finished Mystery (1917)", "Light, in two volumes (1930)", "\"Babylon the Great Has Fallen!\" God's Kingdom Rules! (1960's)", "Revelation—Its Grand Climax At Hand! (1988)"] }
+  },
+  {
+    "question": "Put these chronologists' contributions to identifying 1914 as a significant date in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 10, p. 134",
+    "payload": { "items": ["1823: John A. Brown calculates the \"seven times\" of Daniel as 2,520 years", "1844: E. B. Elliott points to 1914 as a possible end date", "1849: Robert Seeley handles the matter similarly", "1875: N. H. Barbour identifies the start of the Gentile Times via Zedekiah's removal"] }
+  },
+  {
+    "question": "Put these steps in how The Watch Tower identified its editor/writer over the decades in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 10, p. 143",
+    "payload": { "items": ["C. T. Russell's name is listed as editor in nearly every issue", "December 1, 1916: the names of an editorial committee are listed instead", "October 15, 1931: even the committee list is removed, replaced by Isaiah 54:13", "1942: it becomes the general rule not to name any individual writer"] }
+  },
+  {
+    "question": "Put these events of the 1931 convention's new-name announcement in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 11, p. 154-155",
+    "payload": { "items": ["The letters \"J W\" appear on the convention program, unexplained", "On Sunday, July 26, Rutherford delivers \"The Kingdom, the Hope of the World\"", "Later that day, Rutherford explains why a distinctive name is needed", "The resolution adopting the name Jehovah's witnesses is read to loud applause"] }
+  },
+  {
+    "question": "Put these developments in the \"great crowd\" doctrine in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 12",
+    "payload": { "items": ["The first volume of Vindication is published (1931)", "The Jehu and Jehonadab account is applied to an earthly-hope class (1932)", "Bethel brothers discuss unanswered questions about the great multitude (early 1935)", "The Washington, D.C. convention identifies the great crowd as earthly (May 31, 1935)"] }
+  },
+  {
+    "question": "Put these Watchtower articles addressing sexual morality in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 13, p. 174",
+    "payload": { "items": ["November 1879: the Watch Tower first draws attention to the Bible's standard against fornication", "March 1, 1935: The Watchtower states that field ministry gives no license for immoral conduct", "May 15, 1941: \"Noah's Day\" discusses sexual debauchery at length", "July 1, 1942: a further article condemns conduct out of line with Bible standards"] }
+  },
+  {
+    "question": "Put these blood-related Watch Tower publications and policies in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 13, p. 181-182",
+    "payload": { "items": ["December 15, 1927: The Watch Tower first discusses the sanctity of blood", "December 1, 1944: The Watchtower specifically mentions blood transfusions", "1961: the booklet Blood, Medicine and the Law of God is published, and disfellowshipping begins", "1977: the booklet Jehovah's Witnesses and the Question of Blood is published"] }
+  },
+  {
+    "question": "Put these tobacco-policy milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 13, p. 176-177",
+    "payload": { "items": ["1895: the Watch Tower first comments on tobacco use, citing 2 Corinthians 7:1", "March 1, 1935: headquarters staff and Society representatives are barred from tobacco use", "July 1, 1942: the prohibition is extended to all appointed congregation servants", "1973: smokers are no longer accepted for baptism"] }
+  },
+  {
+    "question": "Put these early-life milestones of Frederick W. Franz in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 9, p. 105-106",
+    "payload": { "items": ["September 12, 1893: Frederick Franz is born in Covington, Kentucky", "1899: the Franz family moves to Cincinnati", "1911: Frederick graduates high school and enters the University of Cincinnati", "November 30, 1913: Frederick Franz is baptized"] }
+  },
+  {
+    "question": "Put these doctrinal-understanding adjustments discussed in Chapter 10 in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 10",
+    "payload": { "items": ["1925: \"Birth of the Nation\" identifies 1914 as the Kingdom's birth in heaven", "1931: Isaiah 54:13 replaces the editorial-committee listing in The Watch Tower", "1962: \"the superior authorities\" of Romans 13 are understood to be secular rulers", "1963: \"Babylon the Great\" is understood to be the entire world empire of false religion"] }
+  },
+  {
+    "question": "Put these Watch Tower publications on the divine name in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 10, p. 129",
+    "payload": { "items": ["Jehovah (1934)", "Let Your Name Be Sanctified (1961)", "\"The Nations Shall Know That I Am Jehovah\"—How? (1971)", "The Divine Name That Will Endure Forever (1984)"] }
+  },
+  {
+    "question": "Put these blood-transfusion legal cases described in Chapter 13 in the order the years occurred.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 13, p. 183",
+    "payload": { "items": ["1975: Danish parents are pursued by police over their son's transfusion", "1976: Ana Paz de Rosario dies after a forced transfusion in Puerto Rico", "1982: an Italian couple is sentenced to 14 years after their daughter's court-ordered transfusion death", "1990: the Ontario Court of Appeal upholds a damage suit over an ignored no-blood card"] }
+  },
+  {
+    "question": "Put these publications aimed at young people and families in the order they were released.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 9, p. 107",
+    "payload": { "items": ["Your Youth—Getting the Best Out Of It (1976)", "My Book of Bible Stories and Making Your Family Life Happy (1978)", "You Can Live Forever in Paradise on Earth (1982)", "Questions Young People Ask—Answers That Work (1989)"] }
+  }
+]

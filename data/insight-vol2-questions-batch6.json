@@ -1,0 +1,178 @@
+[
+  {
+    "question": "The prophet Micah was a native of which village, southwest of Jerusalem?",
+    "answer": "Moresheth",
+    "options": ["Tekoa", "Anathoth", "Moresheth", "Bethlehem"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Micah' (No. 7, the prophet), p. 391"
+  },
+  {
+    "question": "Micah prophesied during the reigns of which three kings of Judah?",
+    "answer": "Jotham, Ahaz, and Hezekiah",
+    "options": ["Uzziah, Jotham, and Ahaz", "Jotham, Ahaz, and Hezekiah", "Ahaz, Hezekiah, and Manasseh", "Saul, David, and Solomon"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Micah' (No. 7, the prophet), p. 391"
+  },
+  {
+    "question": "Which two other Hebrew prophets were contemporaries of Micah?",
+    "answer": "Hosea and Isaiah",
+    "options": ["Jeremiah and Ezekiel", "Hosea and Isaiah", "Amos and Joel", "Nahum and Habakkuk"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Micah' (No. 7, the prophet), p. 391"
+  },
+  {
+    "question": "Sennacherib was the son of which earlier king of Assyria?",
+    "answer": "Sargon II",
+    "options": ["Shalmaneser V", "Sargon II", "Tiglath-Pileser III", "Esarhaddon"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sennacherib', p. 893"
+  },
+  {
+    "question": "Which fortified Judean city did Sennacherib besiege and capture, an event depicted in a famous Assyrian relief showing him receiving its spoils?",
+    "answer": "Lachish",
+    "options": ["Ashdod", "Lachish", "Ekron", "Gaza"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sennacherib', p. 894"
+  },
+  {
+    "question": "On the Sennacherib Prism, Sennacherib boasts of besieging how many of Hezekiah's fortified cities?",
+    "answer": "46",
+    "options": ["12", "25", "46", "60"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sennacherib', p. 894"
+  },
+  {
+    "question": "What was the name of Timothy's Jewish mother?",
+    "answer": "Eunice",
+    "options": ["Eunice", "Priscilla", "Lydia", "Phoebe"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Timothy', p. 1105"
+  },
+  {
+    "question": "What was the name of Timothy's grandmother, who along with his mother taught him 'the holy writings'?",
+    "answer": "Lois",
+    "options": ["Eunice", "Lois", "Dorcas", "Lydia"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Timothy', p. 1105"
+  },
+  {
+    "question": "Why did Paul have Timothy circumcised before taking him along as a traveling companion?",
+    "answer": "To avoid giving the Jews an occasion for stumbling",
+    "options": ["Because it was required by Roman law", "To avoid giving the Jews an occasion for stumbling", "To fulfill a personal vow he had made", "Because Timothy's father demanded it"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Timothy', p. 1105"
+  },
+  {
+    "question": "What physical ailment did Timothy struggle with, according to Paul's letter to him?",
+    "answer": "Frequent stomach trouble",
+    "options": ["A thorn in the flesh", "Chronic blindness", "Frequent stomach trouble", "Persistent fever"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Timothy', p. 1106"
+  },
+  {
+    "question": "On which island did Paul leave Titus to appoint overseers and correct defective matters in the congregations?",
+    "answer": "Crete",
+    "options": ["Cyprus", "Crete", "Rhodes", "Malta"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Titus', p. 1111"
+  },
+  {
+    "question": "To which city did Paul ask Titus to join him after his assignment in Crete was complete?",
+    "answer": "Nicopolis",
+    "options": ["Corinth", "Philippi", "Nicopolis", "Thessalonica"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Titus', p. 1111"
+  },
+  {
+    "question": "In what year B.C.E. was the first Passover observed, on the night of the Exodus from Egypt?",
+    "answer": "1513 B.C.E.",
+    "options": ["1473 B.C.E.", "1513 B.C.E.", "1593 B.C.E.", "1443 B.C.E."],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Passover', p. 581"
+  },
+  {
+    "question": "On what day of the Hebrew month Abib (Nisan) was the Passover animal slaughtered?",
+    "answer": "The 14th day",
+    "options": ["The 10th day", "The 14th day", "The 15th day", "The 21st day"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Passover', p. 581"
+  },
+  {
+    "question": "Where exactly was the Passover lamb's blood applied to the house, according to the Law?",
+    "answer": "The doorposts and upper part (lintel) of the doorway",
+    "options": ["The threshold of the door", "The doorposts and upper part (lintel) of the doorway", "The altar of the household", "The rooftop beams"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Passover', p. 581"
+  },
+  {
+    "question": "The seven-day Festival of Unfermented Cakes immediately followed Passover. On which days of Nisan was it observed?",
+    "answer": "Nisan 15-21",
+    "options": ["Nisan 1-7", "Nisan 10-16", "Nisan 15-21", "Nisan 21-28"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Passover', p. 581"
+  },
+  {
+    "question": "What did Jesus say Mary of Bethany had 'chosen' when she sat listening at his feet instead of helping her sister Martha serve?",
+    "answer": "The good portion",
+    "options": ["The better inheritance", "The good portion", "The greater reward", "The higher calling"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mary' (No. 2, sister of Martha), p. 348"
+  },
+  {
+    "question": "In whose home at Bethany did Mary, the sister of Martha, anoint Jesus with costly perfume?",
+    "answer": "Simon the leper",
+    "options": ["Lazarus", "Zacchaeus", "Simon the leper", "Nicodemus"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mary' (No. 2, sister of Martha), p. 349"
+  },
+  {
+    "question": "From what town does Mary Magdalene's distinguishing name derive?",
+    "answer": "Magdala",
+    "options": ["Nazareth", "Cana", "Magdala", "Capernaum"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mary' (No. 3, Magdalene), p. 349"
+  },
+  {
+    "question": "The Israelites' observance of a weekly Sabbath began in the wilderness, tied to the miraculous doubling of what food on the sixth day?",
+    "answer": "Manna",
+    "options": ["Quail", "Manna", "Barley bread", "Honey"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sabbath Day', p. 830"
+  },
+  {
+    "question": "What happened to the land of Israel every seventh year, the Sabbath Year?",
+    "answer": "It was left to rest, lying uncultivated",
+    "options": ["It was given entirely to the priests", "It was left to rest, lying uncultivated", "It was divided among the poor", "It was flooded for irrigation"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sabbath Year', p. 833"
+  },
+  {
+    "question": "According to Insight, the 70-year Babylonian exile corresponded to the land 'paying off' how many unkept Sabbath Years?",
+    "answer": "70",
+    "options": ["40", "50", "70", "120"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sabbath Year', p. 834"
+  }
+]

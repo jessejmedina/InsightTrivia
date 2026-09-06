@@ -1,0 +1,306 @@
+[
+  {
+    "question": "Which prophet's attendant anointed Jehu as king of Israel, commissioning him to destroy the house of Ahab?",
+    "answer": "Elisha",
+    "options": ["Elijah", "Samuel", "Elisha", "Nathan"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jehu' (No. 2, king of Israel), p. 23"
+  },
+  {
+    "question": "Which wicked queen did Jehu have thrown from a window, after which she was eaten by dogs?",
+    "answer": "Jezebel",
+    "options": ["Athaliah", "Jezebel", "Vashti", "Delilah"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jehu' (No. 2, king of Israel), p. 23"
+  },
+  {
+    "question": "How many sons of Ahab were beheaded, their heads delivered to Jehu in baskets?",
+    "answer": "70",
+    "options": ["12", "40", "70", "100"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jehu' (No. 2, king of Israel), p. 23"
+  },
+  {
+    "question": "What did Jehu turn the house of Baal into after slaughtering its worshipers there?",
+    "answer": "A latrine (privies)",
+    "options": ["A grain storehouse", "A latrine (privies)", "A military barracks", "A marketplace"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jehu' (No. 2, king of Israel), p. 24"
+  },
+  {
+    "question": "Which Rechabite ally assisted Jehu in his campaign against Baal worship?",
+    "answer": "Jehonadab",
+    "options": ["Obadiah", "Naaman", "Jehonadab", "Gehazi"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jehu' (No. 2, king of Israel), p. 23"
+  },
+  {
+    "question": "To which tribe of Israel did the judge Jephthah belong?",
+    "answer": "Manasseh",
+    "options": ["Ephraim", "Manasseh", "Gad", "Dan"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jephthah', p. 27"
+  },
+  {
+    "question": "For how many years did Jephthah serve as judge of Israel?",
+    "answer": "Six years",
+    "options": ["Six years", "Twelve years", "Twenty years", "Forty years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jephthah', p. 27"
+  },
+  {
+    "question": "Why did Jephthah's half brothers drive him out, denying him a share of the family inheritance?",
+    "answer": "Because his mother had been a prostitute before marrying Gilead as a secondary wife",
+    "options": ["Because he had married a foreign woman", "Because his mother had been a prostitute before marrying Gilead as a secondary wife", "Because he refused to worship Chemosh", "Because he was born outside of Gilead"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jephthah', p. 27"
+  },
+  {
+    "question": "Against which nation did Jephthah lead Israel's army after making his famous vow to Jehovah?",
+    "answer": "Ammon",
+    "options": ["Moab", "Edom", "Ammon", "Midian"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jephthah', p. 27"
+  },
+  {
+    "question": "Which prophet tore his garment into 12 pieces and gave Jeroboam ten of them, symbolizing the ten tribes he would rule?",
+    "answer": "Ahijah",
+    "options": ["Ahijah", "Nathan", "Iddo", "Shemaiah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jeroboam' (No. 1), p. 37"
+  },
+  {
+    "question": "At which two cities did Jeroboam set up golden calves for worship?",
+    "answer": "Bethel and Dan",
+    "options": ["Shiloh and Gilgal", "Bethel and Dan", "Samaria and Shechem", "Mizpah and Bethel"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jeroboam' (No. 1), p. 37"
+  },
+  {
+    "question": "Under which Pharaoh did Jeroboam take refuge in Egypt before becoming king of Israel?",
+    "answer": "Shishak",
+    "options": ["Necho", "Tirhakah", "So", "Shishak"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jeroboam' (No. 1), p. 37"
+  },
+  {
+    "question": "How many years did Jeroboam I reign as the first king of the ten-tribe kingdom of Israel?",
+    "answer": "22 years",
+    "options": ["12 years", "17 years", "22 years", "41 years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jeroboam' (No. 1), p. 38"
+  },
+  {
+    "question": "Which son succeeded Jeroboam I as king of Israel?",
+    "answer": "Nadab",
+    "options": ["Baasha", "Elah", "Nadab", "Zimri"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jeroboam' (No. 1), p. 38"
+  },
+  {
+    "question": "In modern English Bibles, Malachi is the final book of which major division of Scripture?",
+    "answer": "The Hebrew Scriptures (Old Testament)",
+    "options": ["The Christian Greek Scriptures", "The Hebrew Scriptures (Old Testament)", "The Pentateuch", "The Wisdom Books"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Malachi, Book Of', p. 298"
+  },
+  {
+    "question": "What defective animals were priests in Malachi's day wrongly accepting for sacrifice, despite the Law's prohibition?",
+    "answer": "Lame, blind, and sick animals",
+    "options": ["Unclean birds only", "Lame, blind, and sick animals", "Firstborn animals", "Animals from foreign herds"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Malachi, Book Of', p. 298"
+  },
+  {
+    "question": "The Gospel writers identify Malachi's prophesied coming 'messenger' as fulfilled by whom?",
+    "answer": "John the Baptist",
+    "options": ["Elijah himself", "The apostle John", "John the Baptist", "The prophet Malachi"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Malachi, Book Of', p. 299"
+  },
+  {
+    "question": "At what age did Manasseh become king of Judah?",
+    "answer": "12 years old",
+    "options": ["8 years old", "12 years old", "16 years old", "20 years old"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Manasseh' (No. 4, king of Judah), p. 307"
+  },
+  {
+    "question": "How many years did Manasseh reign as king of Judah, the longest reign of any Judean king?",
+    "answer": "55 years",
+    "options": ["29 years", "41 years", "55 years", "31 years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Manasseh' (No. 4, king of Judah), p. 307"
+  },
+  {
+    "question": "According to Jewish tradition cited in Insight, which prophet did King Manasseh have sawed in two?",
+    "answer": "Isaiah",
+    "options": ["Jeremiah", "Isaiah", "Ezekiel", "Zechariah"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Manasseh' (No. 4, king of Judah), p. 307"
+  },
+  {
+    "question": "After being taken captive to Babylon, what did Manasseh do that led Jehovah to restore him to his throne?",
+    "answer": "He repented, humbled himself, and prayed to Jehovah",
+    "options": ["He built a new temple to Jehovah", "He repented, humbled himself, and prayed to Jehovah", "He freed all Israelite slaves", "He appointed new priests"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Manasseh' (No. 4, king of Judah), p. 307"
+  },
+  {
+    "question": "By what other name was the apostle and Gospel writer Matthew also known?",
+    "answer": "Levi",
+    "options": ["Levi", "Simon", "Thaddaeus", "Nathanael"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Matthew', p. 352"
+  },
+  {
+    "question": "What was Matthew's occupation before becoming a disciple of Jesus?",
+    "answer": "Tax collector",
+    "options": ["Fisherman", "Shepherd", "Tax collector", "Scribe"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Matthew', p. 352"
+  },
+  {
+    "question": "According to early tradition cited in Insight, in what language did Matthew originally write his Gospel?",
+    "answer": "Hebrew",
+    "options": ["Greek", "Hebrew", "Aramaic", "Latin"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Matthew', p. 353"
+  },
+  {
+    "question": "Matthew's genealogy of Jesus is traced through which relative of Jesus, according to Insight?",
+    "answer": "Joseph, his adoptive father",
+    "options": ["Mary, his mother", "Joseph, his adoptive father", "David, his ancestor", "Joseph the patriarch"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Matthew', p. 353"
+  },
+  {
+    "question": "What did Martha say to Jesus when he ordered the stone removed from her brother Lazarus's tomb?",
+    "answer": "\"Lord, by now he must smell, for it is four days.\"",
+    "options": ["\"Lord, if you had been here, my brother would not have died.\"", "\"Lord, by now he must smell, for it is four days.\"", "\"Lord, I know that he will rise in the resurrection.\"", "\"Lord, my sister has left me to do all the serving.\""],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Martha', p. 345"
+  },
+  {
+    "question": "According to Insight, how many different women named Mary are mentioned in the Bible?",
+    "answer": "Six",
+    "options": ["Three", "Four", "Five", "Six"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mary', p. 346"
+  },
+  {
+    "question": "What question did Mary ask the angel Gabriel after being told she would give birth to Jesus?",
+    "answer": "\"How is this to be, since I am having no intercourse with a man?\"",
+    "options": ["\"Look! Jehovah's slave girl!\"", "\"How is this to be, since I am having no intercourse with a man?\"", "\"My soul magnifies Jehovah.\"", "\"Why have you done this to us?\""],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mary' (No. 1, mother of Jesus), p. 346"
+  },
+  {
+    "question": "Which pregnant relative of Mary did the angel Gabriel point to as encouragement for her faith?",
+    "answer": "Elizabeth",
+    "options": ["Anna", "Elizabeth", "Salome", "Joanna"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mary' (No. 1, mother of Jesus), p. 346"
+  },
+  {
+    "question": "How many years did Zedekiah, the last king of Judah, reign in Jerusalem?",
+    "answer": "11 years",
+    "options": ["8 years", "11 years", "31 years", "3 years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zedekiah' (No. 4, king of Judah), p. 1226"
+  },
+  {
+    "question": "Which foreign nation did Zedekiah appeal to for military help when he broke his sworn oath and rebelled against Nebuchadnezzar?",
+    "answer": "Egypt",
+    "options": ["Assyria", "Egypt", "Moab", "Tyre"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zedekiah' (No. 4, king of Judah), p. 1227"
+  },
+  {
+    "question": "Who was Zedekiah's father, the king of Judah fatally wounded fighting Pharaoh Nechoh at Megiddo?",
+    "answer": "Josiah",
+    "options": ["Jehoiakim", "Amon", "Josiah", "Jehoahaz"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zedekiah' (No. 4, king of Judah), p. 1226"
+  },
+  {
+    "question": "What was Mount Zion originally, before David captured it and made it 'the City of David'?",
+    "answer": "A Jebusite stronghold",
+    "options": ["A Philistine garrison", "An Amorite fortress", "A Jebusite stronghold", "A Canaanite temple city"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zion', p. 1236"
+  },
+  {
+    "question": "Which king of Israel built the city of Samaria to serve as his new capital?",
+    "answer": "Omri",
+    "options": ["Ahab", "Omri", "Baasha", "Jeroboam"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Samaria' (No. 1), p. 845"
+  },
+  {
+    "question": "From whom did Omri purchase the hill on which Samaria was built, and after whom the city was named?",
+    "answer": "Shemer",
+    "options": ["Ittai", "Barzillai", "Shemer", "Araunah"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Samaria' (No. 1), p. 845"
+  },
+  {
+    "question": "What were the three main restrictions on someone who took a Nazirite vow?",
+    "answer": "Drinking no wine or grape products, not cutting their hair, and not touching a dead body",
+    "options": ["Fasting every seventh day, wearing only white garments, and avoiding meat", "Not marrying, not owning property, and not bearing arms", "Drinking no wine or grape products, not cutting their hair, and not touching a dead body", "Not eating leavened bread, not working on the Sabbath, and not touching swine"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nazirite', p. 477"
+  },
+  {
+    "question": "If a Nazirite accidentally touched a dead body, how many days of uncleanness followed before the vow period had to restart?",
+    "answer": "Seven days",
+    "options": ["Three days", "Seven days", "Forty days", "One day"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nazirite', p. 477"
+  },
+  {
+    "question": "What special restrictions did Samson's mother have to observe during her pregnancy, since her son would be a lifelong Nazirite?",
+    "answer": "No wine or intoxicating liquor, and no unclean food",
+    "options": ["No meat of any kind and no contact with outsiders", "No sleeping indoors and no cutting of nails", "No wine or intoxicating liquor, and no unclean food", "No speaking to men and no leaving the house"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nazirite', p. 478"
+  }
+]

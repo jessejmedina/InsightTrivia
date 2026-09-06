@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What does the name \"Naphtali\" mean?",
+    "answer": "My Wrestlings",
+    "options": ["My Pleasantness", "My Wrestlings", "God Has Helped", "Beloved of Jah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Naphtali' (No. 1), p. 469"
+  },
+  {
+    "question": "Naphtali was born to Jacob by which maidservant?",
+    "answer": "Bilhah",
+    "options": ["Zilpah", "Bilhah", "Leah", "Rachel"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Naphtali' (No. 1), p. 469"
+  },
+  {
+    "question": "How many fighting men did the tribe of Naphtali number in the first wilderness census?",
+    "answer": "53,400",
+    "options": ["32,200", "45,650", "53,400", "62,700"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Naphtali' (No. 2), p. 469"
+  },
+  {
+    "question": "What does the name \"Mizpah\" mean?",
+    "answer": "Watchtower",
+    "options": ["Watchtower", "Refuge", "High Place", "Gathering Place"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mizpah' (No. 3), p. 417"
+  },
+  {
+    "question": "How many Benjamite men survived the civil war that nearly annihilated their tribe after the Gibeah atrocity?",
+    "answer": "600",
+    "options": ["200", "400", "600", "1,000"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mizpah' (No. 3), p. 417"
+  },
+  {
+    "question": "From which city were 400 virgin girls given to the surviving Benjamites to help preserve their tribe?",
+    "answer": "Jabesh-gilead",
+    "options": ["Jabesh-gilead", "Shiloh", "Bethel", "Gibeah"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mizpah' (No. 3), p. 417"
+  },
+  {
+    "question": "In Jacob's blessing on Judah (Genesis 49:10), the name \"Shiloh\" is understood as a Messianic title. Whom does Insight identify Shiloh as referring to?",
+    "answer": "Jesus Christ",
+    "options": ["King David", "Jesus Christ", "The prophet Elijah", "King Solomon"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shiloh' (No. 1), p. 929"
+  },
+  {
+    "question": "At which city did the tabernacle remain for most of the period of the Judges?",
+    "answer": "Shiloh",
+    "options": ["Shiloh", "Bethel", "Gilgal", "Mizpah"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shiloh' (No. 2), p. 929"
+  },
+  {
+    "question": "What happened to the Ark of the Covenant after Israel removed it from Shiloh to take into battle against the Philistines?",
+    "answer": "It was captured by the Philistines and never returned to Shiloh",
+    "options": ["It was destroyed in a fire", "It was captured by the Philistines and never returned to Shiloh", "It was hidden in a cave", "It was taken to Jerusalem"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shiloh' (No. 2), p. 929"
+  },
+  {
+    "question": "By what shortened name was Ramoth-gilead also known?",
+    "answer": "Ramah",
+    "options": ["Ramah", "Mizpah", "Gilead", "Bashan"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Ramoth-Gilead', p. 732"
+  },
+  {
+    "question": "Which prophet counseled Ahab against attacking Ramoth-gilead, in a campaign that resulted in Ahab's death?",
+    "answer": "Micaiah",
+    "options": ["Elijah", "Micaiah", "Elisha", "Obadiah"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Ramoth-Gilead', p. 732"
+  },
+  {
+    "question": "According to Josephus, what was the name of the girl whose dance so pleased Herod Antipas that he offered her anything up to half his kingdom?",
+    "answer": "Salome",
+    "options": ["Herodias", "Salome", "Drusilla", "Bernice"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Salome' (No. 1), p. 841"
+  },
+  {
+    "question": "On whose advice did Salome request the head of John the Baptist?",
+    "answer": "Her mother Herodias",
+    "options": ["Her mother Herodias", "Her stepfather Herod Antipas", "The high priest Caiaphas", "Her own wish"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Salome' (No. 1), p. 841"
+  },
+  {
+    "question": "According to Josephus, whom did Salome marry after the death of her first husband Philip?",
+    "answer": "Her cousin Aristobulus",
+    "options": ["Her cousin Aristobulus", "Herod Agrippa", "Philip the tetrarch", "Felix the governor"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Salome' (No. 1), p. 842"
+  },
+  {
+    "question": "Which prophet raised sheep in Tekoa before receiving his prophetic commission?",
+    "answer": "Amos",
+    "options": ["Amos", "Micah", "Joel", "Nahum"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tekoa', p. 1075"
+  },
+  {
+    "question": "At whose direction did the \"wise woman\" of Tekoa appeal to King David on Absalom's behalf?",
+    "answer": "Joab",
+    "options": ["Joab", "Nathan", "Abiathar", "Ahithophel"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tekoa', p. 1075"
+  },
+  {
+    "question": "How many talents of gold from Ophir did David donate for the temple's construction?",
+    "answer": "3,000",
+    "options": ["1,000", "2,000", "3,000", "5,000"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Ophir' (No. 2), p. 558"
+  },
+  {
+    "question": "Which Benjamite led a revolt against David immediately after Absalom's rebellion was crushed?",
+    "answer": "Sheba (son of Bichri)",
+    "options": ["Sheba (son of Bichri)", "Shimei (son of Gera)", "Amasa", "Absalom"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sheba' (No. 4), p. 912"
+  },
+  {
+    "question": "What was the capital city of the kingdom of Sheba, renowned for trading frankincense and myrrh?",
+    "answer": "Marib",
+    "options": ["Marib", "Petra", "Sana'a", "Aden"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sheba', p. 912"
+  },
+  {
+    "question": "What prompted the Queen of Sheba to travel to Jerusalem to visit Solomon?",
+    "answer": "She heard the report about Solomon in connection with the name of Jehovah",
+    "options": ["She heard the report about Solomon in connection with the name of Jehovah", "She sought a military alliance", "She wanted to negotiate trade rights", "She was fleeing a rebellion at home"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sheba', p. 912"
+  },
+  {
+    "question": "On the Moabite Stone, King Mesha boasted of taking the city of Nebo from Israel at the direction of which god?",
+    "answer": "Chemosh",
+    "options": ["Chemosh", "Baal", "Molech", "Dagon"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nebo' (No. 1), p. 479"
+  },
+  {
+    "question": "What does the name \"Succoth\" mean?",
+    "answer": "Booths",
+    "options": ["Booths", "Watchtower", "Refuge", "Gathering"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Succoth' (No. 1), p. 1041"
+  },
+  {
+    "question": "How many princes and elders of Succoth did Gideon punish for refusing to feed his troops?",
+    "answer": "77",
+    "options": ["12", "40", "77", "120"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Succoth' (No. 1), p. 1042"
+  },
+  {
+    "question": "By what Greek name is the ancient Egyptian city of Zoan also known?",
+    "answer": "Tanis",
+    "options": ["Tanis", "Memphis", "Thebes", "Alexandria"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zoan', p. 1239"
+  },
+  {
+    "question": "According to Numbers 13:22, Zoan was built how many years after Hebron?",
+    "answer": "Seven years",
+    "options": ["Seven years", "Forty years", "One hundred years", "Two hundred years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zoan', p. 1239"
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "question": "How many years did King Jehoshaphat of Judah reign?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "1 Kings 22:42 (cross-check: Insight on the Scriptures, Vol. 2, 'Jehoshaphat No. 1')",
+    "payload": {
+      "value": 25,
+      "unit": "years",
+      "min": 5,
+      "max": 60
+    }
+  },
+  {
+    "question": "How old was Jacob when he stood before Pharaoh in Egypt?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 47:9 (cross-check: Insight on the Scriptures, Vol. 2, 'Jacob')",
+    "payload": {
+      "value": 130,
+      "unit": "years",
+      "min": 50,
+      "max": 280
+    }
+  },
+  {
+    "question": "How many wives did the Bible say King Solomon had?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "1 Kings 11:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Solomon')",
+    "payload": {
+      "value": 700,
+      "unit": "wives",
+      "min": 50,
+      "max": 2000
+    }
+  },
+  {
+    "question": "How many proverbs did the Bible say Solomon spoke?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "1 Kings 4:32 (cross-check: Insight on the Scriptures, Vol. 2, 'Proverbs, Book Of')",
+    "payload": {
+      "value": 3000,
+      "unit": "proverbs",
+      "min": 200,
+      "max": 10000
+    }
+  },
+  {
+    "question": "How many men in Israel had not bowed to Baal, according to what God told Elijah?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "1 Kings 19:18 (cross-check: Insight on the Scriptures, Vol. 1, 'Elijah')",
+    "payload": {
+      "value": 7000,
+      "unit": "men",
+      "min": 500,
+      "max": 50000,
+      "log": true
+    }
+  },
+  {
+    "question": "For how many days did Ezekiel lie on his left side, bearing the error of Israel?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Ezekiel 4:5 (cross-check: Insight on the Scriptures, Vol. 1, 'Ezekiel')",
+    "payload": {
+      "value": 390,
+      "unit": "days",
+      "min": 30,
+      "max": 900
+    }
+  },
+  {
+    "question": "How many legions of angels did Jesus say his Father could send him at the moment of his arrest?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Matthew 26:53 (cross-check: Insight on the Scriptures, Vol. 1, 'Angel')",
+    "payload": {
+      "value": 12,
+      "unit": "legions",
+      "min": 1,
+      "max": 100
+    }
+  },
+  {
+    "question": "For how many years had the woman been bleeding when she touched the fringe of Jesus' garment?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Mark 5:25 (cross-check: Insight on the Scriptures, Vol. 2, 'Sickness')",
+    "payload": {
+      "value": 12,
+      "unit": "years",
+      "min": 1,
+      "max": 40
+    }
+  },
+  {
+    "question": "How long had the man at the pool of Bethzatha been an invalid when Jesus healed him?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "John 5:5 (cross-check: Insight on the Scriptures, Vol. 1, 'Bethzatha')",
+    "payload": {
+      "value": 38,
+      "unit": "years",
+      "min": 3,
+      "max": 110
+    }
+  },
+  {
+    "question": "How many men did Jesus feed with seven loaves and a few small fish, in the second such miracle?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Matthew 15:38 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": {
+      "value": 4000,
+      "unit": "men",
+      "min": 500,
+      "max": 12000
+    }
+  },
+  {
+    "question": "How many talents of gold came to Solomon in a single year, according to Kings?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 10:14 (cross-check: Insight on the Scriptures, Vol. 2, 'Solomon')",
+    "payload": {
+      "value": 666,
+      "unit": "talents",
+      "min": 50,
+      "max": 3000
+    }
+  },
+  {
+    "question": "How many years did the Israelites eat manna in the wilderness?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "easy",
+    "reference": "Exodus 16:35 (cross-check: Insight on the Scriptures, Vol. 2, 'Manna')",
+    "payload": {
+      "value": 40,
+      "unit": "years",
+      "min": 1,
+      "max": 100
+    }
+  },
+  {
+    "question": "How many days did Jesus fast in the wilderness before being tempted by the Devil?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 4:2 (cross-check: Insight on the Scriptures, Vol. 2, 'Temptation')",
+    "payload": {
+      "value": 40,
+      "unit": "days",
+      "min": 3,
+      "max": 120
+    }
+  },
+  {
+    "question": "How old did God say human life would be limited to, as the Flood approached?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 6:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Life')",
+    "payload": {
+      "value": 120,
+      "unit": "years",
+      "min": 40,
+      "max": 400
+    }
+  },
+  {
+    "question": "In Daniel's prophecy of the seventy weeks, how many years does that period represent?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Daniel 9:24 (cross-check: Insight on the Scriptures, Vol. 2, 'Seventy Weeks')",
+    "payload": {
+      "value": 490,
+      "unit": "years",
+      "min": 70,
+      "max": 2000
+    }
+  },
+  {
+    "question": "How many prophets of Jehovah did Obadiah hide from Jezebel, in two caves?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "1 Kings 18:4 (cross-check: Insight on the Scriptures, Vol. 2, 'Obadiah No. 1')",
+    "payload": {
+      "value": 100,
+      "unit": "prophets",
+      "min": 10,
+      "max": 500
+    }
+  },
+  {
+    "question": "How many days was Jonah inside the great fish?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "easy",
+    "reference": "Jonah 1:17 (cross-check: Insight on the Scriptures, Vol. 2, 'Jonah', p. 98)",
+    "payload": {
+      "value": 3,
+      "unit": "days",
+      "min": 1,
+      "max": 15
+    }
+  },
+  {
+    "question": "How many stone tablets did Moses bring down from Mount Sinai with the commandments on them?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Exodus 31:18 (cross-check: Insight on the Scriptures, Vol. 2, 'Ten Words')",
+    "payload": {
+      "value": 2,
+      "unit": "tablets",
+      "min": 1,
+      "max": 12
+    }
+  },
+  {
+    "question": "How many times did Elisha tell Naaman to dip himself in the Jordan River?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "easy",
+    "reference": "2 Kings 5:10 (cross-check: Insight on the Scriptures, Vol. 2, 'Naaman No. 1')",
+    "payload": {
+      "value": 7,
+      "unit": "times",
+      "min": 1,
+      "max": 20
+    }
+  },
+  {
+    "question": "How many horsemen and chariots did Solomon keep, according to 1 Kings?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 10:26 (cross-check: Insight on the Scriptures, Vol. 2, 'Solomon')",
+    "payload": {
+      "value": 12000,
+      "unit": "horsemen",
+      "min": 1000,
+      "max": 60000
+    }
+  }
+]

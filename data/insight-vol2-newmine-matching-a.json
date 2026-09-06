@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Match each place to what it was known for.",
+    "type": "matching",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, various entries",
+    "payload": {
+      "pairs": [
+        { "left": "Joppa", "right": "Ancient seaport near Jerusalem where Peter received a vision" },
+        { "left": "Lystra", "right": "City in Lycaonia where Paul was mistaken for the god Hermes" },
+        { "left": "Macedonia", "right": "Region Paul was called to in a vision received at Troas" },
+        { "left": "Phoenicia", "right": "Coastal strip whose chief city eventually became Tyre" }
+      ]
+    }
+  },
+  {
+    "question": "Match each place to the event associated with it.",
+    "type": "matching",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, various entries",
+    "payload": {
+      "pairs": [
+        { "left": "Marah", "right": "Bitter water sweetened by a tree Moses cast into it" },
+        { "left": "Mesopotamia", "right": "Land between the Tigris and Euphrates rivers" },
+        { "left": "Philistia", "right": "Home to the five cities ruled by axis lords" },
+        { "left": "Memphis", "right": "Sacred Egyptian city devoted to the god Ptah" }
+      ]
+    }
+  },
+  {
+    "question": "Match each person to the fact that identifies them.",
+    "type": "matching",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, various entries",
+    "payload": {
+      "pairs": [
+        { "left": "Methuselah", "right": "Lived 969 years, the longest life span in Bible record" },
+        { "left": "Pashhur", "right": "Priest renamed 'Fright All Around' after mistreating Jeremiah" },
+        { "left": "Manasseh", "right": "Named by Joseph because 'God has made me forget my trouble'" },
+        { "left": "Joseph", "right": "Sold by his brothers for 20 pieces of silver" }
+      ]
+    }
+  }
+]

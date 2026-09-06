@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Which apostle was Simon Peter's brother and one of the first two disciples Jesus called?",
+    "answer": "Andrew",
+    "options": ["Andrew", "Philip", "Thomas", "James"],
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "John 1:40-42"
+  },
+  {
+    "question": "Which two apostles were the sons of Zebedee, working as fishermen before Jesus called them?",
+    "answer": "James and John",
+    "options": ["James and John", "Peter and Andrew", "James and Judas", "Philip and Bartholomew"],
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Matthew 4:21-22"
+  },
+  {
+    "question": "Which apostle refused to believe Jesus had risen until he could touch his wounds himself?",
+    "answer": "Thomas",
+    "options": ["Thomas", "Peter", "Andrew", "Matthew"],
+    "category": "Apostles",
+    "difficulty": "easy",
+    "reference": "John 20:24-29"
+  },
+  {
+    "question": "Which apostle was called \"the Zealot,\" distinguishing him from Simon Peter?",
+    "answer": "Simon the Zealot",
+    "options": ["Simon the Zealot", "Simon Peter", "Bartholomew", "Thaddaeus"],
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Luke 6:15"
+  },
+  {
+    "question": "Which man was chosen by casting lots to replace Judas Iscariot among the twelve apostles?",
+    "answer": "Matthias",
+    "options": ["Matthias", "Barsabbas", "Stephen", "Silas"],
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Acts 1:23-26"
+  },
+  {
+    "question": "Which apostle is credited with writing more New Testament letters than any other writer?",
+    "answer": "Paul",
+    "options": ["Paul", "Peter", "John", "James"],
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "General New Testament authorship"
+  },
+  {
+    "question": "According to church tradition (not stated in the Bible itself), which apostle was crucified upside down?",
+    "answer": "Peter",
+    "options": ["Peter", "Andrew", "James", "Thomas"],
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Traditional early church accounts"
+  },
+  {
+    "question": "Which apostle did Jesus describe as \"a true Israelite, in whom there is no deceit\"?",
+    "answer": "Nathanael",
+    "options": ["Nathanael", "Philip", "James", "Andrew"],
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "John 1:47"
+  },
+  {
+    "question": "Which apostle said to Jesus, \"Lord, show us the Father, and it is sufficient for us\"?",
+    "answer": "Philip",
+    "options": ["Philip", "Thomas", "Nathanael", "Andrew"],
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "John 14:8"
+  },
+  {
+    "question": "Which apostle, son of Alphaeus, is commonly distinguished from James the son of Zebedee by the nickname \"James the Less\"?",
+    "answer": "James (son of Alphaeus)",
+    "options": ["James (son of Alphaeus)", "James (son of Zebedee)", "James the brother of Jesus", "Judas (son of James)"],
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Mark 15:40"
+  },
+  {
+    "question": "Besides Peter and John, which other apostle witnessed Jesus's transfiguration on the mountain?",
+    "answer": "James (son of Zebedee)",
+    "options": ["James (son of Zebedee)", "Andrew", "Thomas", "Matthew"],
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Matthew 17:1-2"
+  },
+  {
+    "question": "Which apostle is traditionally credited with writing the Gospel that opens, \"In the beginning was the Word\"?",
+    "answer": "John",
+    "options": ["John", "Matthew", "Mark", "Luke"],
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "John 1:1"
+  },
+  {
+    "question": "Which apostle briefly walked on water toward Jesus before beginning to sink?",
+    "answer": "Peter",
+    "options": ["Peter", "Andrew", "John", "Philip"],
+    "category": "Apostles",
+    "difficulty": "easy",
+    "reference": "Matthew 14:28-31"
+  },
+  {
+    "question": "Which apostle was struck blind on the road to Damascus before becoming a follower of Jesus?",
+    "answer": "Paul",
+    "options": ["Paul", "Peter", "Barnabas", "Silas"],
+    "category": "Apostles",
+    "difficulty": "easy",
+    "reference": "Acts 9:1-9"
+  },
+  {
+    "question": "Which apostle was the first to confess Jesus as \"the Christ, the Son of the living God,\" at Caesarea Philippi?",
+    "answer": "Peter",
+    "options": ["Peter", "John", "Andrew", "Thomas"],
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Matthew 16:13-16"
+  }
+]

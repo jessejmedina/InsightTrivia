@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Who anointed both Saul and David as king of Israel?",
+    "answer": "Samuel",
+    "options": ["Nathan", "Samuel", "Elijah", "Ahijah"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "General Bible chronology (cross-check: Insight on the Scriptures, 'Samuel')"
+  },
+  {
+    "question": "Which of Jacob's sons was sold into slavery by his brothers?",
+    "answer": "Joseph",
+    "options": ["Reuben", "Benjamin", "Judah", "Joseph"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joseph', p. 106"
+  },
+  {
+    "question": "Who confronted the prophets of Baal on Mount Carmel?",
+    "answer": "Elijah",
+    "options": ["Elisha", "Elijah", "Isaiah", "Jeremiah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "General Bible chronology (cross-check: Insight on the Scriptures, 'Elijah')"
+  },
+  {
+    "question": "Who succeeded Moses as leader of Israel?",
+    "answer": "Joshua",
+    "options": ["Caleb", "Aaron", "Joshua", "Othniel"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "General Bible chronology (cross-check: Insight on the Scriptures, 'Joshua')"
+  },
+  {
+    "question": "Which judge defeated the Midianites with just 300 men?",
+    "answer": "Gideon",
+    "options": ["Samson", "Barak", "Ehud", "Gideon"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 1, 'Gideon', pp. 932-934"
+  },
+  {
+    "question": "Who was Bathsheba's first husband, whom David arranged to have killed?",
+    "answer": "Uriah the Hittite",
+    "options": ["Uriah the Hittite", "Nabal", "Doeg the Edomite", "Ahithophel"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "General Bible chronology (cross-check: Insight on the Scriptures, 'Uriah')"
+  },
+  {
+    "question": "Which Persian king decreed that the Jews could return from Babylonian exile?",
+    "answer": "Cyrus",
+    "options": ["Darius", "Xerxes", "Artaxerxes", "Cyrus"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "General Bible chronology (cross-check: Insight on the Scriptures, 'Cyrus')"
+  },
+  {
+    "question": "Who was the Roman governor who authorized Jesus' execution?",
+    "answer": "Pontius Pilate",
+    "options": ["Herod Antipas", "Pontius Pilate", "Felix", "Festus"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pilate', p. 640"
+  },
+  {
+    "question": "Who was Abraham's wife and the mother of Isaac?",
+    "answer": "Sarah",
+    "options": ["Hagar", "Sarah", "Rebekah", "Keturah"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "General Bible chronology (cross-check: Insight on the Scriptures, 'Sarah')"
+  },
+  {
+    "question": "Which apostle denied knowing Jesus three times?",
+    "answer": "Peter",
+    "options": ["John", "Judas", "Peter", "Thomas"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "General Bible chronology (cross-check: Insight on the Scriptures, 'Peter')"
+  },
+  {
+    "question": "On which mountain did Moses receive the Law from Jehovah?",
+    "answer": "Mount Sinai (Horeb)",
+    "options": ["Mount Nebo", "Mount Ararat", "Mount Sinai (Horeb)", "Mount Gerizim"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "General Bible chronology (cross-check: Insight on the Scriptures, 'Sinai')"
+  },
+  {
+    "question": "In which city did Solomon build the temple to Jehovah?",
+    "answer": "Jerusalem",
+    "options": ["Shechem", "Hebron", "Jerusalem", "Samaria"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jerusalem', p. 40"
+  },
+  {
+    "question": "Which city's walls fell after the Israelites marched around it for seven days?",
+    "answer": "Jericho",
+    "options": ["Ai", "Jericho", "Hazor", "Jerusalem"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jericho', pp. 34-36"
+  },
+  {
+    "question": "Where was Jesus born?",
+    "answer": "Bethlehem",
+    "options": ["Nazareth", "Jerusalem", "Bethlehem", "Capernaum"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "General Bible chronology (cross-check: Insight on the Scriptures, 'Bethlehem')"
+  },
+  {
+    "question": "Which sea did the Israelites cross to escape Pharaoh's army?",
+    "answer": "Red Sea",
+    "options": ["Dead Sea", "Red Sea", "Sea of Galilee", "Mediterranean Sea"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "General Bible chronology (cross-check: Insight on the Scriptures, 'Red Sea')"
+  },
+  {
+    "question": "To which tribe of Israel did Gideon belong?",
+    "answer": "Manasseh",
+    "options": ["Ephraim", "Manasseh", "Benjamin", "Naphtali"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 1, 'Gideon', pp. 932-934"
+  },
+  {
+    "question": "What did Gideon make from 1,700 shekels of gold taken as war spoil, which later became a religious snare to Israel?",
+    "answer": "An ephod",
+    "options": ["A molten calf", "An altar", "An ephod", "A sacred pillar"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 1, 'Ephod, I'"
+  },
+  {
+    "question": "With which archaeological site is Jericho identified, according to Insight on the Scriptures?",
+    "answer": "Tell es-Sultan",
+    "options": ["Tell el-Hesi", "Khirbet Qeiyafa", "Tell Balatah", "Tell es-Sultan"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jericho', pp. 34-36"
+  },
+  {
+    "question": "Which of Joseph's brothers proposed selling him to the passing Ishmaelite traders rather than killing him?",
+    "answer": "Judah",
+    "options": ["Reuben", "Judah", "Simeon", "Levi"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joseph', p. 106"
+  },
+  {
+    "question": "Where were Joseph's brothers pasturing their flocks when Joseph finally found them and was seized?",
+    "answer": "Dothan",
+    "options": ["Shechem", "Hebron", "Dothan", "Bethel"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joseph', p. 106"
+  },
+  {
+    "question": "In what year B.C.E. was Moses born, according to Bible chronology?",
+    "answer": "1593 B.C.E.",
+    "options": ["1553 B.C.E.", "1593 B.C.E.", "1657 B.C.E.", "1473 B.C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Moses', p. 434"
+  },
+  {
+    "question": "Whose flock was Moses shepherding in Midian when he saw the burning bush at Mount Horeb?",
+    "answer": "Jethro's",
+    "options": ["Hobab's", "Laban's", "Jethro's", "Balaam's"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Moses', p. 434"
+  },
+  {
+    "question": "How old was Moses when he fled Egypt after killing an Egyptian, according to Insight?",
+    "answer": "40",
+    "options": ["25", "40", "60", "80"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Moses', p. 434"
+  },
+  {
+    "question": "What name did the prophet Nathan give the newborn Solomon, meaning 'Beloved of Jah'?",
+    "answer": "Jedidiah",
+    "options": ["Jedaiah", "Jerubbaal", "Jedidiah", "Jehoiada"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Solomon', p. 987"
+  },
+  {
+    "question": "At which spring was Solomon anointed king, while Adonijah staged his own bid for the throne nearby at En-rogel?",
+    "answer": "Gihon",
+    "options": ["Siloam", "Gihon", "Kidron", "En-gedi"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Solomon', p. 987"
+  },
+  {
+    "question": "According to Insight, in what years did Solomon reign as king of Israel?",
+    "answer": "1037-998 B.C.E.",
+    "options": ["1077-1037 B.C.E.", "1037-998 B.C.E.", "997-960 B.C.E.", "1020-980 B.C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Solomon', p. 987"
+  },
+  {
+    "question": "What was Saul actually searching for when he first encountered the prophet Samuel?",
+    "answer": "His father's stray donkeys",
+    "options": ["A lost sheep", "His father's stray donkeys", "A runaway servant", "A stolen ox"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Saul', p. 871"
+  },
+  {
+    "question": "Where did Saul hide out of bashfulness when he was chosen king by lot at Mizpah?",
+    "answer": "Among the luggage",
+    "options": ["In a cave", "Behind the altar", "In his father's house", "Among the luggage"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Saul', p. 871"
+  },
+  {
+    "question": "What was the name of Saul's wife, according to Insight?",
+    "answer": "Ahinoam",
+    "options": ["Michal", "Abigail", "Ahinoam", "Rizpah"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Saul', p. 871"
+  },
+  {
+    "question": "In what city did Jesus live most of his earthly life prior to his ministry, per Insight's 'Nazareth' entry?",
+    "answer": "Nazareth",
+    "options": ["Capernaum", "Nazareth", "Bethlehem", "Cana"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nazareth', p. 477"
+  },
+  {
+    "question": "According to Insight's 'Pilate' entry, what did Pilate do to symbolically disclaim guilt before sentencing Jesus?",
+    "answer": "Washed his hands with water",
+    "options": ["Tore his robe", "Washed his hands with water", "Offered a sacrifice", "Released a prisoner"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pilate', p. 640"
+  },
+  {
+    "question": "From which seaport did Jonah try to flee by ship rather than go preach in Nineveh?",
+    "answer": "Joppa",
+    "options": ["Tyre", "Sidon", "Joppa", "Caesarea"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jonah', p. 98"
+  },
+  {
+    "question": "How many years did Nebuchadnezzar II reign as king of Babylon, according to Insight?",
+    "answer": "43 years",
+    "options": ["21 years", "37 years", "43 years", "55 years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nebuchadnezzar', p. 481"
+  },
+  {
+    "question": "What name did Nebuchadnezzar give to Mattaniah when he installed him as king of Judah?",
+    "answer": "Zedekiah",
+    "options": ["Jehoiachin", "Zedekiah", "Belteshazzar", "Shealtiel"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nebuchadnezzar', p. 481"
+  },
+  {
+    "question": "In what year was Noah born, according to Insight's Bible chronology?",
+    "answer": "2970 B.C.E.",
+    "options": ["2370 B.C.E.", "2970 B.C.E.", "2018 B.C.E.", "1918 B.C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Noah', p. 507"
+  },
+  {
+    "question": "In what mountain range did the ark come to rest after the Flood?",
+    "answer": "The Ararat Range",
+    "options": ["Mount Zagros", "The Ararat Range", "Mount Lebanon", "Mount Hermon"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Noah', p. 507"
+  },
+  {
+    "question": "What weapon did Samson use to strike down a thousand Philistines?",
+    "answer": "The jawbone of a male ass",
+    "options": ["A sword", "The jawbone of a male ass", "Foxes with lit torches", "A wooden club"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Samson', p. 850"
+  },
+  {
+    "question": "According to Insight, what actually caused Samson to lose his strength?",
+    "answer": "The end of his Nazirite relationship with Jehovah",
+    "options": ["The physical cutting of his hair itself", "The end of his Nazirite relationship with Jehovah", "His marriage to a Philistine woman", "Old age weakening his body"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Samson', p. 850"
+  },
+  {
+    "question": "How many years did Samson serve as a judge of Israel before his death?",
+    "answer": "20 years",
+    "options": ["40 years", "20 years", "12 years", "6 years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Samson', p. 850"
+  },
+  {
+    "question": "What responsibility had Jesus entrusted to Judas Iscariot among the 12 apostles?",
+    "answer": "Caring for the common money box",
+    "options": ["Leading the group in prayer", "Caring for the common money box", "Organizing travel arrangements", "Recording Jesus' teachings"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Judas', p. 129"
+  },
+  {
+    "question": "How many pieces of silver did the chief priests pay Judas to betray Jesus?",
+    "answer": "30",
+    "options": ["20", "30", "40", "50"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Judas', p. 129"
+  },
+  {
+    "question": "What position did Nehemiah hold in the Persian court before becoming governor of Jerusalem?",
+    "answer": "Cupbearer to King Artaxerxes",
+    "options": ["Royal scribe", "Cupbearer to King Artaxerxes", "Chief steward", "Court physician"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nehemiah', p. 486"
+  },
+  {
+    "question": "Which two men led the opposition and mockery against Nehemiah's wall-building project?",
+    "answer": "Sanballat and Tobiah",
+    "options": ["Rehum and Shimshai", "Sanballat and Tobiah", "Geshem and Haman", "Ezra and Zerubbabel"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nehemiah', p. 486"
+  },
+  {
+    "question": "Why did Nicodemus first visit Jesus at night rather than in daylight, per Insight?",
+    "answer": "Fear of the Jews (his fellow Sanhedrin members)",
+    "options": ["He was too busy during the day", "He didn't want Jesus' disciples to see him", "Fear of the Jews (his fellow Sanhedrin members)", "He preferred quiet conversations at night"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nicodemus', p. 498"
+  },
+  {
+    "question": "Who joined Joseph of Arimathea in preparing Jesus' body for burial, bringing myrrh and aloes?",
+    "answer": "Nicodemus",
+    "options": ["Simon of Cyrene", "Joseph Barsabbas", "Nicodemus", "Lazarus"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nicodemus', p. 498"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "question": "In how many days did Nehemiah and the people finish rebuilding the wall of Jerusalem?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Nehemiah 6:15 (cross-check: Insight on the Scriptures, Vol. 2, 'Nehemiah, Book Of')",
+    "payload": { "value": 52, "unit": "days", "min": 5, "max": 200 }
+  },
+  {
+    "question": "How many trained men did Abraham lead out to rescue his nephew Lot from the four kings?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 14:14 (cross-check: Insight on the Scriptures, Vol. 1, 'Abraham')",
+    "payload": { "value": 318, "unit": "men", "min": 20, "max": 1000 }
+  },
+  {
+    "question": "How many foxes did Samson catch to send into the Philistines' standing grain?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Judges 15:4 (cross-check: Insight on the Scriptures, Vol. 2, 'Samson', p. 850)",
+    "payload": { "value": 300, "unit": "foxes", "min": 20, "max": 1200 }
+  },
+  {
+    "question": "How many men did Samson strike down with the jawbone of a donkey?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Judges 15:15 (cross-check: Insight on the Scriptures, Vol. 2, 'Samson', p. 850)",
+    "payload": { "value": 1000, "unit": "men", "min": 100, "max": 5000 }
+  },
+  {
+    "question": "How large was the whole congregation that returned from Babylon with Zerubbabel, by Ezra's count?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Ezra 2:64 (cross-check: Insight on the Scriptures, Vol. 2, 'Zerubbabel')",
+    "payload": { "value": 42360, "unit": "people", "min": 3000, "max": 300000, "log": true }
+  },
+  {
+    "question": "For how many more years did Job live after his health and wealth were restored?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Job 42:16 (cross-check: Insight on the Scriptures, Vol. 2, 'Job, Book Of')",
+    "payload": { "value": 140, "unit": "years", "min": 20, "max": 400 }
+  },
+  {
+    "question": "How tall was the golden image King Nebuchadnezzar set up on the plain of Dura, in cubits?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Daniel 3:1 (cross-check: Insight on the Scriptures, Vol. 1, 'Image')",
+    "payload": { "value": 60, "unit": "cubits", "min": 6, "max": 220 }
+  },
+  {
+    "question": "Over how many provinces, from India to Ethiopia, did King Ahasuerus rule?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Esther 1:1 (cross-check: Insight on the Scriptures, Vol. 1, 'Ahasuerus No. 3')",
+    "payload": { "value": 127, "unit": "provinces", "min": 10, "max": 500 }
+  },
+  {
+    "question": "How tall was the stake Haman had built, on which he meant to hang Mordecai, in cubits?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Esther 5:14 (cross-check: Insight on the Scriptures, Vol. 1, 'Haman')",
+    "payload": { "value": 50, "unit": "cubits", "min": 5, "max": 160 }
+  },
+  {
+    "question": "How many days did King Ahasuerus's banquet for his princes and officials last?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Esther 1:4 (cross-check: Insight on the Scriptures, Vol. 1, 'Ahasuerus No. 3')",
+    "payload": { "value": 180, "unit": "days", "min": 7, "max": 600 }
+  },
+  {
+    "question": "How many stones did Elijah use to build the altar on Mount Carmel, one for each tribe?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "easy",
+    "reference": "1 Kings 18:31 (cross-check: Insight on the Scriptures, Vol. 1, 'Altar')",
+    "payload": { "value": 12, "unit": "stones", "min": 1, "max": 40 }
+  },
+  {
+    "question": "How many sons of Ahab were killed and their heads sent to Jehu at Jezreel?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 10:7 (cross-check: Insight on the Scriptures, Vol. 2, 'Jehu No. 1')",
+    "payload": { "value": 70, "unit": "sons", "min": 5, "max": 250 }
+  },
+  {
+    "question": "How many songs did the Bible say King Solomon composed?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "1 Kings 4:32 (cross-check: Insight on the Scriptures, Vol. 2, 'Song of Solomon')",
+    "payload": { "value": 1005, "unit": "songs", "min": 50, "max": 5000 }
+  },
+  {
+    "question": "How many people died in the scourge that followed David's census of Israel and Judah?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "2 Samuel 24:15 (cross-check: Insight on the Scriptures, Vol. 1, 'David')",
+    "payload": { "value": 70000, "unit": "people", "min": 5000, "max": 400000, "log": true }
+  },
+  {
+    "question": "How much did the hair cut from Absalom's head weigh when he trimmed it once a year, in shekels?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "2 Samuel 14:26 (cross-check: Insight on the Scriptures, Vol. 1, 'Absalom')",
+    "payload": { "value": 200, "unit": "shekels", "min": 10, "max": 700 }
+  },
+  {
+    "question": "How many talents of gold did the queen of Sheba give to Solomon?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 10:10 (cross-check: Insight on the Scriptures, Vol. 2, 'Sheba No. 4')",
+    "payload": { "value": 120, "unit": "talents", "min": 10, "max": 500 }
+  },
+  {
+    "question": "What was the circumference of the round copper 'Sea' Solomon had cast for the temple, in cubits?",
+    "type": "estimation",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "1 Kings 7:23 (cross-check: Insight on the Scriptures, Vol. 1, 'Copper Sea')",
+    "payload": { "value": 30, "unit": "cubits", "min": 4, "max": 100 }
+  },
+  {
+    "question": "How tall was each of the two copper pillars, Jachin and Boaz, at the entrance of Solomon's temple, in cubits?",
+    "type": "estimation",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "1 Kings 7:15 (cross-check: Insight on the Scriptures, Vol. 1, 'Jachin and Boaz')",
+    "payload": { "value": 18, "unit": "cubits", "min": 3, "max": 60 }
+  },
+  {
+    "question": "How much did Goliath's coat of scale mail weigh, in shekels of copper?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 17:5 (cross-check: Insight on the Scriptures, Vol. 1, 'Goliath')",
+    "payload": { "value": 5000, "unit": "shekels", "min": 300, "max": 25000, "log": true }
+  },
+  {
+    "question": "The magic books burned by new believers at Ephesus were worth how many pieces of silver?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 19:19 (cross-check: Insight on the Scriptures, Vol. 1, 'Ephesus')",
+    "payload": { "value": 50000, "unit": "silver pieces", "min": 2000, "max": 300000, "log": true }
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "question": "Leviticus is the third book of which five-book collection?",
+    "answer": "The Pentateuch",
+    "options": ["The Pentateuch", "The Major Prophets", "The Minor Prophets", "The Wisdom Books"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Leviticus', p. 242"
+  },
+  {
+    "question": "According to Insight, Leviticus was written by Moses in what year B.C.E.?",
+    "answer": "1512 B.C.E.",
+    "options": ["1512 B.C.E.", "1513 B.C.E.", "1473 B.C.E.", "1593 B.C.E."],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Leviticus', p. 243"
+  },
+  {
+    "question": "About how much time is covered by the events narrated in the book of Leviticus?",
+    "answer": "Less than a month",
+    "options": ["Less than a month", "About a year", "Forty years", "Seven years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Leviticus', p. 242"
+  },
+  {
+    "question": "On the Day of Atonement, one goat was sacrificed for Jehovah; to whom or what was the second goat designated?",
+    "answer": "Azazel",
+    "options": ["The high priest", "Azazel", "The people of Israel", "The Levites"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Leviticus', p. 243"
+  },
+  {
+    "question": "According to 1 Kings 4:32, how many proverbs could Solomon speak?",
+    "answer": "3,000",
+    "options": ["300", "1,000", "3,000", "5,000"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Proverbs, Book Of', p. 703"
+  },
+  {
+    "question": "Besides Solomon, Agur, and King Lemuel, Proverbs' sayings are also attributed to what kind of contributor?",
+    "answer": "An unnamed wise woman",
+    "options": ["An Egyptian scribe", "An unnamed wise woman", "A Greek philosopher", "A Babylonian priest"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Proverbs, Book Of', p. 704"
+  },
+  {
+    "question": "About what year C.E. was Paul's letter to the Romans written?",
+    "answer": "About 56 C.E.",
+    "options": ["About 49 C.E.", "About 56 C.E.", "About 61 C.E.", "About 65 C.E."],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Romans, Letter To The', p. 820"
+  },
+  {
+    "question": "Romans' illustration of grafting explains how non-Israelites came to share in God's promises. What kind of tree is used in this illustration?",
+    "answer": "An olive tree",
+    "options": ["A fig tree", "An olive tree", "A vine", "A cedar"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Romans, Letter To The', p. 820"
+  },
+  {
+    "question": "The heroine of the Song of Solomon, called 'the Shulammite,' came from which town?",
+    "answer": "Shunem",
+    "options": ["Shunem", "Bethlehem", "Nazareth", "Shiloh"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Song of Solomon, The', p. 995"
+  },
+  {
+    "question": "In the Song of Solomon, Solomon says the Shulammite is more beautiful than how many of his queens?",
+    "answer": "60",
+    "options": ["40", "60", "80", "100"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Song of Solomon, The', p. 995"
+  },
+  {
+    "question": "Despite Solomon's attempts to win her, to whom does the Shulammite maiden remain loyal throughout the Song of Solomon?",
+    "answer": "Her shepherd lover",
+    "options": ["King Solomon", "Her shepherd lover", "Her brothers", "A city watchman"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Song of Solomon, The', p. 995"
+  },
+  {
+    "question": "According to Insight, the letters to the Thessalonians may hold what distinction among Paul's writings?",
+    "answer": "Perhaps the first letters Paul composed",
+    "options": ["His last letters before death", "Perhaps the first letters Paul composed", "Letters written from prison", "Letters co-written with Peter"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Thessalonians, Letters To The', p. 1090"
+  },
+  {
+    "question": "Which two companions were with Paul when he wrote to the Thessalonians?",
+    "answer": "Silvanus (Silas) and Timothy",
+    "options": ["Silvanus (Silas) and Timothy", "Barnabas and Mark", "Titus and Luke", "Aquila and Priscilla"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Thessalonians, Letters To The', p. 1090"
+  },
+  {
+    "question": "About what year C.E. was First Thessalonians written, a few months after Paul left the city because of mob violence?",
+    "answer": "About 50 C.E.",
+    "options": ["About 33 C.E.", "About 50 C.E.", "About 56 C.E.", "About 61 C.E."],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Thessalonians, Letters To The', p. 1090"
+  },
+  {
+    "question": "Second Timothy was written during Paul's final imprisonment, not long before his death. About what year C.E.?",
+    "answer": "About 65 C.E.",
+    "options": ["About 56 C.E.", "About 61 C.E.", "About 65 C.E.", "About 70 C.E."],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Timothy, Letters To', p. 1106"
+  },
+  {
+    "question": "Which Roman emperor blamed Christians for the great fire that destroyed about a fourth of Rome in 64 C.E.?",
+    "answer": "Nero",
+    "options": ["Claudius", "Nero", "Domitian", "Trajan"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Timothy, Letters To', p. 1106"
+  },
+  {
+    "question": "The book of Zechariah identifies its writer as the son of Berechiah, who was in turn the son of which prophet?",
+    "answer": "Iddo",
+    "options": ["Iddo", "Amoz", "Beeri", "Baruch"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zechariah, Book Of', p. 1224"
+  },
+  {
+    "question": "The opening section of the book of Zechariah records a call to repentance followed by how many visions?",
+    "answer": "Eight",
+    "options": ["Four", "Six", "Eight", "Ten"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zechariah, Book Of', p. 1225"
+  },
+  {
+    "question": "From which city did the apostle John likely write his three letters, around 98 C.E.?",
+    "answer": "Ephesus",
+    "options": ["Ephesus", "Patmos", "Antioch", "Smyrna"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'John, The Letters Of', p. 95"
+  },
+  {
+    "question": "According to Jewish tradition and scriptural indications, who wrote the books of Kings?",
+    "answer": "Jeremiah",
+    "options": ["Ezra", "Jeremiah", "Baruch", "Isaiah"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Kings, Books Of', p. 171"
+  },
+  {
+    "question": "In the Greek Septuagint, the books of Kings were called what?",
+    "answer": "Third and Fourth Kingdoms",
+    "options": ["First and Second Kingdoms", "Third and Fourth Kingdoms", "The Books of the Reigns", "The Royal Annals"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Kings, Books Of', p. 170"
+  },
+  {
+    "question": "According to Insight, the Second Samuel portion of the record was completed by which two individuals after David's death?",
+    "answer": "Gad and Nathan",
+    "options": ["Gad and Nathan", "Samuel and Ahijah", "Zadok and Abiathar", "Asaph and Heman"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Samuel, Books Of', p. 854"
+  },
+  {
+    "question": "How many times did Naaman have to bathe in the Jordan River to be cured of leprosy?",
+    "answer": "Seven times",
+    "options": ["Once", "Three times", "Seven times", "Forty times"],
+    "category": "Chronology",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Naaman' (No. 2), p. 456"
+  },
+  {
+    "question": "Which of Elisha's servants was punished with Naaman's leprosy after deceitfully obtaining gifts from him?",
+    "answer": "Gehazi",
+    "options": ["Gehazi", "Elisha", "Jehoram", "Ben-hadad"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Naaman' (No. 2), p. 457"
+  },
+  {
+    "question": "What does the name 'Onesimus' mean, ironically describing the once-useless runaway slave?",
+    "answer": "Profitable",
+    "options": ["Beloved", "Profitable", "Faithful", "Chosen"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Onesimus', p. 555"
+  },
+  {
+    "question": "Who did Paul send along with Onesimus to accompany him back to Colossae?",
+    "answer": "Tychicus",
+    "options": ["Tychicus", "Timothy", "Titus", "Epaphras"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Onesimus', p. 556"
+  },
+  {
+    "question": "What does the name 'Philemon' mean?",
+    "answer": "Loving",
+    "options": ["Loving", "Faithful", "Beloved", "Gracious"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philemon', p. 627"
+  },
+  {
+    "question": "Which two members of Philemon's household are also addressed in Paul's letter, possibly his wife and son?",
+    "answer": "Apphia and Archippus",
+    "options": ["Apphia and Archippus", "Priscilla and Aquila", "Lydia and Timothy", "Euodia and Syntyche"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philemon', p. 627"
+  },
+  {
+    "question": "About what year C.E. was Paul's letter to Philemon written, during his first Roman imprisonment?",
+    "answer": "About 60-61 C.E.",
+    "options": ["About 49 C.E.", "About 56 C.E.", "About 60-61 C.E.", "About 65 C.E."],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philemon, Letter To', p. 628"
+  },
+  {
+    "question": "What was Quirinius's full Roman name, according to Insight?",
+    "answer": "Publius Sulpicius Quirinius",
+    "options": ["Publius Sulpicius Quirinius", "Gaius Julius Caesar", "Marcus Antonius Felix", "Sergius Paulus"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Quirinius', p. 720"
+  },
+  {
+    "question": "In what year C.E. did Quirinius, the Roman governor of Syria at the time of Jesus' birth registration, die?",
+    "answer": "21 C.E.",
+    "options": ["14 C.E.", "21 C.E.", "29 C.E.", "33 C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Quirinius', p. 720"
+  },
+  {
+    "question": "What does the name 'Sapphira' mean?",
+    "answer": "Beautiful",
+    "options": ["Beautiful", "Faithful", "Gracious", "Beloved"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sapphira', p. 862"
+  },
+  {
+    "question": "Who exposed the deception of Ananias and Sapphira, under inspiration of holy spirit?",
+    "answer": "Peter",
+    "options": ["Peter", "Paul", "John", "James"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sapphira', p. 862"
+  },
+  {
+    "question": "What does the name 'Silas' (Latinized as Silvanus) mean?",
+    "answer": "Forest (Woods)",
+    "options": ["Forest (Woods)", "Beloved", "Peaceful", "Chosen One"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Silas', p. 942"
+  },
+  {
+    "question": "In which city were Silas and Paul beaten with rods and imprisoned, before an earthquake shook the prison?",
+    "answer": "Philippi",
+    "options": ["Philippi", "Thessalonica", "Corinth", "Berea"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Silas', p. 943"
+  },
+  {
+    "question": "The apostle known as 'the Cananaean' or 'the zealot' shared what first name with the apostle Peter?",
+    "answer": "Simon",
+    "options": ["Simon", "Andrew", "Thomas", "Philip"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Simon' (No. 3), p. 961"
+  },
+  {
+    "question": "Simon of Cyrene, who was made to carry Jesus' torture stake, was the father of which two named sons?",
+    "answer": "Alexander and Rufus",
+    "options": ["Alexander and Rufus", "Timothy and Titus", "James and Joses", "Archippus and Onesimus"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Simon' (No. 7), p. 962"
+  },
+  {
+    "question": "What was the name of the father of Judas Iscariot?",
+    "answer": "Simon (Iscariot)",
+    "options": ["Simon (Iscariot)", "Alphaeus", "Judas (not Iscariot)", "Cleopas"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Simon' (No. 1), p. 961"
+  }
+]

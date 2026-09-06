@@ -1,0 +1,194 @@
+[
+  {
+    "question": "Which ancient seaport, about 55 km (34 mi) from Jerusalem, was the only natural harbor between Mount Carmel and the border of Egypt?",
+    "answer": "Joppa",
+    "options": ["Joppa", "Tyre", "Sidon", "Caesarea"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joppa', p. 97"
+  },
+  {
+    "question": "At Joppa, whose vision paved the way for the Christian message to reach the Gentile Cornelius?",
+    "answer": "Peter's",
+    "options": ["Peter's", "Paul's", "Philip's", "John's"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joppa', p. 97"
+  },
+  {
+    "question": "In which city did the crowds mistake Paul and Barnabas for the gods Hermes and Zeus after Paul healed a man lame from birth?",
+    "answer": "Lystra",
+    "options": ["Lystra", "Iconium", "Derbe", "Antioch"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lystra', p. 288"
+  },
+  {
+    "question": "Which young companion of Paul, well reported on by the brothers in Lystra and Iconium, joined Paul as a traveling companion?",
+    "answer": "Timothy",
+    "options": ["Timothy", "Titus", "Silas", "Luke"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lystra', p. 288"
+  },
+  {
+    "question": "According to a vision Paul received at Troas, who was 'entreating him' to 'step over into Macedonia and help us'?",
+    "answer": "A certain Macedonian man",
+    "options": ["A certain Macedonian man", "An angel of Jehovah", "Timothy", "Barnabas"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Macedonia, Macedonian', p. 289"
+  },
+  {
+    "question": "Which Macedonian congregation was especially outstanding in financially supporting Paul's ministry, even sending Epaphroditus to minister to him during his imprisonment in Rome?",
+    "answer": "The Philippian congregation",
+    "options": ["The Philippian congregation", "The Thessalonian congregation", "The Corinthian congregation", "The Berean congregation"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Macedonia, Macedonian', p. 289"
+  },
+  {
+    "question": "The Greek term 'Mesopotamia' means 'Land Between' which two rivers?",
+    "answer": "The Tigris and Euphrates",
+    "options": ["The Tigris and Euphrates", "The Nile and Jordan", "The Jordan and Euphrates", "The Tigris and Nile"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mesopotamia', p. 384"
+  },
+  {
+    "question": "In Acts 7:2, whom does Stephen describe as residing in 'Mesopotamia' while still at Ur?",
+    "answer": "Abraham",
+    "options": ["Abraham", "Jacob", "Isaac", "Terah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mesopotamia', p. 385"
+  },
+  {
+    "question": "Whose name means 'possibly, Man of the Missile,' and who lived the longest life span recorded in the Bible, 969 years?",
+    "answer": "Methuselah",
+    "options": ["Methuselah", "Noah", "Adam", "Enoch"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Methuselah', p. 390"
+  },
+  {
+    "question": "According to Insight, Methuselah died in the very same year that what catastrophic event began?",
+    "answer": "The Flood",
+    "options": ["The Flood", "The Tower of Babel's confusion", "The Exodus", "The destruction of Sodom"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Methuselah', p. 390"
+  },
+  {
+    "question": "Whose father was Enoch, and whose grandson was Noah, making him a link in that genealogical chain?",
+    "answer": "Methuselah",
+    "options": ["Methuselah", "Lamech", "Seth", "Jared"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Methuselah', p. 390"
+  },
+  {
+    "question": "What does the name 'Marah,' given to one of Israel's early wilderness encampments, mean?",
+    "answer": "Bitterness",
+    "options": ["Bitterness", "Sweetness", "Rest", "Refuge"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Marah', p. 318"
+  },
+  {
+    "question": "What did Moses cast into the bitter water at Marah, at Jehovah's direction, to make it sweet?",
+    "answer": "A tree",
+    "options": ["A tree", "Salt", "His staff alone, with no object", "Ashes"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Marah', p. 318"
+  },
+  {
+    "question": "Which priest struck the prophet Jeremiah and had him put in the stocks for a day, prompting Jehovah to change his name to 'Fright All Around'?",
+    "answer": "Pashhur",
+    "options": ["Pashhur", "Zephaniah", "Gedaliah", "Hananiah"],
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pashhur', p. 578"
+  },
+  {
+    "question": "Within Philistia, which five cities were each ruled over by an 'axis lord'?",
+    "answer": "Gaza, Ashkelon, Ashdod, Ekron, and Gath",
+    "options": ["Gaza, Ashkelon, Ashdod, Ekron, and Gath", "Tyre, Sidon, Byblos, Berytus, and Arvad", "Memphis, Thebes, On, Tanis, and Pithom", "Nineveh, Calah, Asshur, Nimrud, and Dur-Sharrukin"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philistia, Philistines', p. 631"
+  },
+  {
+    "question": "According to Insight, from which island did the Philistines migrate to settle the coast of Canaan?",
+    "answer": "Crete",
+    "options": ["Crete", "Cyprus", "Malta", "Rhodes"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philistia, Philistines', p. 631"
+  },
+  {
+    "question": "Which judge struck down 600 Philistines using a mere cattle goad?",
+    "answer": "Shamgar",
+    "options": ["Shamgar", "Samson", "Ehud", "Gideon"],
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philistia, Philistines', p. 632"
+  },
+  {
+    "question": "Ancient Phoenicia roughly corresponded to which modern-day country?",
+    "answer": "Lebanon",
+    "options": ["Lebanon", "Syria", "Israel", "Jordan"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Phoenicia', p. 635"
+  },
+  {
+    "question": "Which Phoenician city eventually eclipsed Sidon in importance, despite having been founded by a colony from Sidon?",
+    "answer": "Tyre",
+    "options": ["Tyre", "Byblos", "Berytus", "Arvad"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Phoenicia', p. 635"
+  },
+  {
+    "question": "Joseph named his firstborn son Manasseh, saying it was because God had done what for him?",
+    "answer": "Made him forget all his trouble and his father's house",
+    "options": ["Made him forget all his trouble and his father's house", "Given him great wealth in Egypt", "Restored his relationship with his brothers", "Made him ruler over all Egypt"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Manasseh', p. 305"
+  },
+  {
+    "question": "Whom did Pharaoh give to Joseph as a wife, the daughter of Potiphera the priest of On?",
+    "answer": "Asenath",
+    "options": ["Asenath", "Zipporah", "Keturah", "Rebekah"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Manasseh', p. 305"
+  },
+  {
+    "question": "For how many pieces of silver did Joseph's brothers sell him to a passing caravan of Ishmaelites?",
+    "answer": "20",
+    "options": ["20", "10", "30", "50"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joseph', p. 107"
+  },
+  {
+    "question": "According to Psalm 105, what was done to Joseph's feet while he was in prison in Egypt?",
+    "answer": "He was afflicted with fetters",
+    "options": ["He was afflicted with fetters", "He was given royal sandals", "He was made to walk barefoot for a year", "He was blindfolded"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joseph', p. 107"
+  },
+  {
+    "question": "How old was Joseph when he began tending sheep alongside the sons of Bilhah and Zilpah, and brought a bad report of them to Jacob?",
+    "answer": "17",
+    "options": ["17", "12", "25", "30"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joseph', p. 107"
+  }
+]

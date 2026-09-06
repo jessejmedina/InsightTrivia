@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Put these titles of the flagship magazine in the order they were adopted.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 43-44",
+    "payload": { "items": ["Zion's Watch Tower and Herald of Christ's Presence (1879)", "The Watch Tower and Herald of Christ's Presence (1909)", "The Watchtower and Herald of Christ's Kingdom (Jan. 1939)", "The Watchtower Announcing Jehovah's Kingdom (March 1939)"] }
+  },
+  {
+    "question": "Put these milestones of the Golden Age/Awake! magazine lineage in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 45",
+    "payload": { "items": ["First issue of The Golden Age is published (October 1919)", "The magazine is renamed Consolation (October 1937)", "The magazine is renamed Awake! (August 1946)", "Awake! is printed in 67 languages (by early 1993)"] }
+  },
+  {
+    "question": "Put these Watch Tower Society presidents in the order they took office.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 33, 43",
+    "payload": { "items": ["Charles Taze Russell, founder and first president", "J. F. Rutherford, elected January 1917", "N. H. Knorr, elected January 1942", "F. W. Franz, president as of 1991"] }
+  },
+  {
+    "question": "Put these Bible translation and Scripture-publishing milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 43",
+    "payload": { "items": ["Average home Bible studies reach 104,814 per month (1945)", "New World Translation of the Christian Greek Scriptures is released in English (1950)", "The complete New World Translation Bible is released in English (1961)", "Peak publishers reach 2,021,432 worldwide (1974)"] }
+  },
+  {
+    "question": "Put these Governing Body organizational changes in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 43",
+    "payload": { "items": ["The Governing Body is enlarged and rotating chairmanship begins (1971)", "Congregations come under the local supervision of a body of elders (1972)", "The Governing Body is reorganized into committees (1975)", "Branch offices come under a committee of three or more overseers (1976)"] }
+  },
+  {
+    "question": "Put these persecution and legal milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 43",
+    "payload": { "items": ["Jehovah's Witnesses are banned in Germany (1933)", "23 nations of the British Empire ban Witnesses or their literature (1939-45)", "The U.S. Supreme Court upholds mandatory flag salute, unleashing mob violence (1940)", "The U.S. Supreme Court rules favorably in 20 of 24 cases (1943)"] }
+  },
+  {
+    "question": "Put these preaching-method innovations in the order they were introduced.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 43",
+    "payload": { "items": ["Transcription machines mounted on automobiles broadcast Bible lectures (1933)", "Portable phonographs play recorded discourses for interested ones (1934)", "Advertising placards are first worn by Kingdom publishers (1936)", "Portable phonographs are used right on doorsteps (1937)"] }
+  },
+  {
+    "question": "Put these membership growth milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 43",
+    "payload": { "items": ["Active Witnesses pass the 100,000 mark, peaking at 109,371 (1941)", "Over a million Witnesses are active in 198 lands (1963)", "Peak publishers reach 2,021,432 worldwide (1974)", "Kingdom publishers reach a new peak of 4,017,213 (1990)"] }
+  },
+  {
+    "question": "Put these Kingdom Hall and assembly milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 43",
+    "payload": { "items": ["A meeting place is first called a Kingdom Hall, in Honolulu (1935)", "Zone assemblies, now called circuit assemblies, are arranged (1938)", "The first Kingdom Ministry School sessions begin, in South Lansing, New York (1959)", "The first Assembly Hall, a renovated theater, is used in New York (1965)"] }
+  },
+  {
+    "question": "Put these congregation-organization changes in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 43",
+    "payload": { "items": ["Theocratic arrangements replace democratic selection of overseers (1938)", "The Society's board of directors is no longer selected by donation-qualified voters (1945)", "Congregations come under the local supervision of a body of elders (1972)", "Branch offices come under a committee of three or more overseers (1976)"] }
+  },
+  {
+    "question": "Put these milestones for the total number of lands with an organized Witness presence in order from earliest to latest.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "items": ["The report shows 46 lands", "The report shows 112 lands", "The report shows 187 lands", "The report shows 217 lands"] }
+  },
+  {
+    "question": "Put these milestones for the total number of congregations reported in order from earliest to latest.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "items": ["The report shows 5,130 congregations", "The report shows 16,044 congregations", "The report shows 26,524 congregations", "The report shows 49,716 congregations"] }
+  },
+  {
+    "question": "Put these milestones for the total number of Kingdom publishers reported in order from earliest to latest.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "items": ["The report shows 56,153 publishers", "The report shows 373,430 publishers", "The report shows 1,109,806 publishers", "The report shows 2,272,278 publishers"] }
+  },
+  {
+    "question": "Put these milestones for the total number of pioneers reported in order from earliest to latest.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "items": ["The report shows 480 pioneers", "The report shows 5,251 pioneers", "The report shows 30,584 pioneers", "The report shows 137,861 pioneers"] }
+  },
+  {
+    "question": "Put these milestones for the number of home Bible studies reported in order from earliest to latest.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 33, p. 717",
+    "payload": { "items": ["The report shows 104,814 Bible studies", "The report shows 646,108 Bible studies", "The report shows 1,411,256 Bible studies", "The report shows 4,278,127 Bible studies"] }
+  }
+]

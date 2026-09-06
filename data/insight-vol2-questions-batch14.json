@@ -1,0 +1,426 @@
+[
+  {
+    "question": "What physical trait of Leah's did Insight note as lacking the 'luster' considered beautiful in Oriental women?",
+    "answer": "Her eyes",
+    "options": ["Her hands", "Her eyes", "Her voice", "Her hair"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Leah', p. 229"
+  },
+  {
+    "question": "How did Laban justify tricking Jacob into marrying Leah before Rachel?",
+    "answer": "He said it wasn't the custom to marry off the younger daughter before the firstborn",
+    "options": ["He said Leah had proposed it herself", "He said it wasn't the custom to marry off the younger daughter before the firstborn", "He said Rachel was too young to marry", "He said Jacob owed him a debt"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Leah', p. 229"
+  },
+  {
+    "question": "How many total years did Jacob work for Laban in order to marry both Leah and Rachel?",
+    "answer": "14 years",
+    "options": ["7 years", "10 years", "14 years", "20 years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Leah', p. 229"
+  },
+  {
+    "question": "In which burial site was Leah interred, alongside Abraham, Sarah, Isaac, and Rebekah?",
+    "answer": "The cave in the field of Machpelah",
+    "options": ["A tomb near Bethlehem", "The cave in the field of Machpelah", "A burial ground in Haran", "The tomb of the kings in Jerusalem"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Leah', p. 229"
+  },
+  {
+    "question": "Rachel died giving birth to which son, her second child?",
+    "answer": "Benjamin",
+    "options": ["Joseph", "Benjamin", "Dan", "Issachar"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rachel', p. 726"
+  },
+  {
+    "question": "What did Jacob erect to mark the site of Rachel's grave?",
+    "answer": "A pillar",
+    "options": ["A pillar", "An altar", "A well", "A tree"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rachel', p. 726"
+  },
+  {
+    "question": "What did Rachel steal from her father Laban when Jacob's family fled?",
+    "answer": "Household gods (teraphim)",
+    "options": ["Household gods (teraphim)", "Silver coins", "Sacred garments", "A signet ring"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rachel', p. 726"
+  },
+  {
+    "question": "Matthew quoted a prophecy about 'Rachel weeping for her children' in connection with what event under Herod?",
+    "answer": "The slaughter of infants in Bethlehem",
+    "options": ["The slaughter of infants in Bethlehem", "The destruction of Jerusalem", "The Babylonian exile", "The famine in Canaan"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rachel', p. 727"
+  },
+  {
+    "question": "Which of Jacob's sons proposed throwing Joseph into a dry well rather than killing him outright, intending to secretly rescue him?",
+    "answer": "Reuben",
+    "options": ["Judah", "Levi", "Reuben", "Simeon"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Reuben' (No. 1), p. 795"
+  },
+  {
+    "question": "What act cost Reuben his firstborn birthright privileges, according to Jacob's deathbed words?",
+    "answer": "He slept with his father's concubine Bilhah",
+    "options": ["He slept with his father's concubine Bilhah", "He lost the birthright by gambling", "He murdered his brother", "He refused to bury his father"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Reuben' (No. 1), p. 795"
+  },
+  {
+    "question": "What did Reuben offer as surety to guarantee Benjamin's safe return from the second trip to Egypt?",
+    "answer": "His own two sons",
+    "options": ["His own two sons", "His inheritance", "His flocks", "His firstborn rights"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Reuben' (No. 1), p. 795"
+  },
+  {
+    "question": "Along with which brother did Levi violently avenge the defiling of their sister Dinah by slaughtering the Shechemites?",
+    "answer": "Simeon",
+    "options": ["Judah", "Simeon", "Benjamin", "Reuben"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Levi' (No. 1), p. 240"
+  },
+  {
+    "question": "What did Jacob prophesy for Levi's descendants because of his violence at Shechem, later fulfilled by the scattered Levite cities?",
+    "answer": "That his descendants would be scattered throughout Israel",
+    "options": ["That his descendants would be scattered throughout Israel", "That his line would be cursed with poverty", "That he would lose his firstborn rights", "That his tribe would be enslaved"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Levi' (No. 1), p. 240"
+  },
+  {
+    "question": "At what age did Levi die in Egypt?",
+    "answer": "137",
+    "options": ["120", "137", "110", "175"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Levi' (No. 1), p. 240"
+  },
+  {
+    "question": "What were the names of Levi's three sons, founders of the three main Levite divisions?",
+    "answer": "Gershon, Kohath, and Merari",
+    "options": ["Gershon, Kohath, and Merari", "Reuben, Simeon, and Judah", "Nadab, Abihu, and Eleazar", "Hophni, Phinehas, and Ichabod"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Levi' (No. 1), p. 240"
+  },
+  {
+    "question": "Through which of Aaron's sons was Zadok's high-priestly line descended?",
+    "answer": "Eleazar",
+    "options": ["Ithamar", "Eleazar", "Nadab", "Abihu"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zadok' (No. 1), p. 1218"
+  },
+  {
+    "question": "Besides 'priest,' what other title does Insight say was applied to Zadok?",
+    "answer": "Seer",
+    "options": ["Prophet", "Seer", "Judge", "Scribe"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zadok' (No. 1), p. 1218"
+  },
+  {
+    "question": "Which fellow priest is repeatedly paired with Zadok in the biblical account, always named second?",
+    "answer": "Abiathar",
+    "options": ["Abiathar", "Ahimelech", "Jehoiada", "Hilkiah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zadok' (No. 1), p. 1218"
+  },
+  {
+    "question": "What name did Pharaoh give Joseph upon elevating him to power in Egypt?",
+    "answer": "Zaphenath-paneah",
+    "options": ["Potiphera", "Zaphenath-paneah", "Nethaneel", "Amenhotep"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zaphenath-paneah', p. 1219"
+  },
+  {
+    "question": "To Hebrew speakers, what did the name Zaphenath-paneah reportedly mean?",
+    "answer": "\"Revealer of Hidden Things\"",
+    "options": ["\"Beloved of Pharaoh\"", "\"Revealer of Hidden Things\"", "\"Servant of the Nile\"", "\"Prince of Egypt\""],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zaphenath-paneah', p. 1219"
+  },
+  {
+    "question": "Near which landmark did Shimei curse David and throw stones as David fled during Absalom's rebellion?",
+    "answer": "The Mount of Olives",
+    "options": ["The Mount of Olives", "Mount Gerizim", "The Kidron Valley alone", "Mount Zion"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shimei' (No. 12), p. 930"
+  },
+  {
+    "question": "Which of David's men twice asked permission to kill Shimei for cursing the king, but was refused?",
+    "answer": "Abishai",
+    "options": ["Abishai", "Joab", "Benaiah", "Ittai"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shimei' (No. 12), p. 930"
+  },
+  {
+    "question": "What restriction did Solomon place on Shimei, on pain of death?",
+    "answer": "Not to leave Jerusalem",
+    "options": ["Not to leave Jerusalem", "Not to speak against the king", "Not to own property", "Not to marry"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shimei' (No. 12), p. 931"
+  },
+  {
+    "question": "Why did Shimei ultimately break his oath to Solomon, leading to his execution?",
+    "answer": "He left Jerusalem to retrieve runaway slaves in Gath",
+    "options": ["He left Jerusalem to retrieve runaway slaves in Gath", "He was caught worshiping idols", "He conspired with Adonijah", "He insulted Solomon publicly"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shimei' (No. 12), p. 931"
+  },
+  {
+    "question": "Who did Solomon order to carry out Shimei's execution?",
+    "answer": "Benaiah",
+    "options": ["Benaiah", "Joab", "Zadok", "Nathan"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shimei' (No. 12), p. 931"
+  },
+  {
+    "question": "Nimrod, founder of the first post-Flood empire, was the son of which man?",
+    "answer": "Cush",
+    "options": ["Ham", "Cush", "Canaan", "Mizraim"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nimrod', p. 502"
+  },
+  {
+    "question": "In what land were Nimrod's first kingdom cities of Babel, Erech, Accad, and Calneh located?",
+    "answer": "Shinar",
+    "options": ["Shinar", "Canaan", "Aram", "Moab"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nimrod', p. 502"
+  },
+  {
+    "question": "According to Insight, Nimrod likely directed the building of which famous structure?",
+    "answer": "The Tower of Babel",
+    "options": ["The Tower of Babel", "The walls of Nineveh", "The Hanging Gardens", "The ziggurat of Ur"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nimrod', p. 503"
+  },
+  {
+    "question": "Who was Rehoboam's mother, Solomon's Ammonite wife?",
+    "answer": "Naamah",
+    "options": ["Naamah", "Abishag", "Maacah", "Tahpenes"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rehoboam', p. 767"
+  },
+  {
+    "question": "At what age did Rehoboam become king, succeeding Solomon?",
+    "answer": "41",
+    "options": ["28", "35", "41", "50"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rehoboam', p. 767"
+  },
+  {
+    "question": "Whose advice did Rehoboam follow instead of the older men's, leading directly to the kingdom's split?",
+    "answer": "The young men he had grown up with",
+    "options": ["The young men he had grown up with", "The prophet Ahijah", "His mother Naamah", "The Egyptian pharaoh"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rehoboam', p. 767"
+  },
+  {
+    "question": "Which prophet stopped Rehoboam from waging war against the ten breakaway tribes?",
+    "answer": "Shemaiah",
+    "options": ["Shemaiah", "Ahijah", "Iddo", "Nathan"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rehoboam', p. 768"
+  },
+  {
+    "question": "Who was Rehoboam's favorite wife, mother of his chosen heir Abijah?",
+    "answer": "Maacah",
+    "options": ["Maacah", "Naamah", "Mahalath", "Abihail"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rehoboam', p. 768"
+  },
+  {
+    "question": "Onesimus was a runaway slave belonging to which Colossian Christian?",
+    "answer": "Philemon",
+    "options": ["Philemon", "Timothy", "Epaphras", "Archippus"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Onesimus', p. 555"
+  },
+  {
+    "question": "To which city had Onesimus fled after running away from his master?",
+    "answer": "Rome",
+    "options": ["Rome", "Ephesus", "Corinth", "Athens"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Onesimus', p. 555"
+  },
+  {
+    "question": "Who did Paul send to accompany Onesimus on his return journey to Philemon?",
+    "answer": "Tychicus",
+    "options": ["Tychicus", "Silas", "Titus", "Luke"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Onesimus', p. 556"
+  },
+  {
+    "question": "What did Paul offer to do regarding any debt Onesimus owed his master Philemon?",
+    "answer": "Charge it to his own account",
+    "options": ["Charge it to his own account", "Forgive it entirely without telling Philemon", "Have Onesimus work it off in Rome", "Ask the Colossian church to pay it"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Onesimus', p. 556"
+  },
+  {
+    "question": "What does the name 'Simeon' mean?",
+    "answer": "Hearing",
+    "options": ["Hearing", "Joined", "Praise", "Wrestling"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Simeon' (No. 1), p. 943"
+  },
+  {
+    "question": "Which of Jacob's sons did Joseph select to be bound and held hostage in Egypt until the brothers brought Benjamin?",
+    "answer": "Simeon",
+    "options": ["Simeon", "Levi", "Judah", "Reuben"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Simeon' (No. 1), p. 943"
+  },
+  {
+    "question": "Because of Simeon's violence at Shechem, how was his tribe's territorial allotment ultimately arranged?",
+    "answer": "As scattered enclave cities within Judah's territory",
+    "options": ["As scattered enclave cities within Judah's territory", "As a unified territory east of the Jordan", "As no land at all, like the Levites", "As land shared equally with Levi"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Simeon' (No. 1), p. 943"
+  },
+  {
+    "question": "What does 'Priscilla,' the longer form of Prisca's name, mean?",
+    "answer": "\"Little Old Woman\"",
+    "options": ["\"Beloved Woman\"", "\"Little Old Woman\"", "\"Faithful Sister\"", "\"Woman of Grace\""],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Prisca', p. 688"
+  },
+  {
+    "question": "Priscilla and Aquila helped correct the teaching of which eloquent Christian orator in Ephesus?",
+    "answer": "Apollos",
+    "options": ["Apollos", "Timothy", "Titus", "Silas"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Prisca', p. 688"
+  },
+  {
+    "question": "Which Roman emperor's decree forced Priscilla and Aquila to leave Rome for Corinth?",
+    "answer": "Claudius",
+    "options": ["Claudius", "Nero", "Tiberius", "Caligula"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Prisca', p. 688"
+  },
+  {
+    "question": "About what year C.E. was the letter to the Romans written?",
+    "answer": "c. 56 C.E.",
+    "options": ["c. 44 C.E.", "c. 56 C.E.", "c. 65 C.E.", "c. 33 C.E."],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Romans, Letter To The', p. 819"
+  },
+  {
+    "question": "Which illustration in Romans shows how non-Israelites were 'grafted in' because of fleshly Israel's lack of faith?",
+    "answer": "The olive tree illustration",
+    "options": ["The olive tree illustration", "The parable of the sower", "The armor of God", "The body with many members"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Romans, Letter To The', p. 820"
+  },
+  {
+    "question": "According to Romans, righteousness comes not through ancestry or the Law, but through what?",
+    "answer": "Faith in Jesus Christ",
+    "options": ["Faith in Jesus Christ", "Strict obedience to the Mosaic Law", "Descent from Abraham", "Circumcision"],
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Romans, Letter To The', p. 819"
+  },
+  {
+    "question": "What does the name 'Pentecost' literally mean?",
+    "answer": "\"Fiftieth (Day)\"",
+    "options": ["\"First Fruits\"", "\"Fiftieth (Day)\"", "\"Feast of Trumpets\"", "\"Day of Ingathering\""],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pentecost', p. 597"
+  },
+  {
+    "question": "By what two other names was the Festival of Pentecost also known?",
+    "answer": "Festival of Harvest and Festival of Weeks",
+    "options": ["Festival of Harvest and Festival of Weeks", "Festival of Booths and Festival of Lights", "Day of Atonement and Day of Trumpets", "Feast of Dedication and Feast of Purim"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pentecost', p. 597"
+  },
+  {
+    "question": "On what date in the Jewish calendar did Pentecost fall?",
+    "answer": "Sivan 6",
+    "options": ["Nisan 14", "Sivan 6", "Tishri 10", "Ethanim 15"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pentecost', p. 597"
+  },
+  {
+    "question": "Unlike other grain offerings, the two wheat loaves presented at Pentecost were baked with what unusual ingredient?",
+    "answer": "Leaven",
+    "options": ["Leaven", "Honey", "Oil only", "Salt"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pentecost', p. 597"
+  },
+  {
+    "question": "The Hebrew word for 'Jubilee' (yovel) literally means what?",
+    "answer": "Ram's horn",
+    "options": ["Ram's horn", "Trumpet blast", "Golden bell", "Silver horn"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jubilee', p. 121"
+  },
+  {
+    "question": "On which specific day was the Jubilee's liberty proclaimed by the sounding of the horn?",
+    "answer": "The Day of Atonement",
+    "options": ["The Day of Atonement", "The Feast of Trumpets", "Passover", "The Festival of Booths"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jubilee', p. 122"
+  },
+  {
+    "question": "The Jubilee year followed how many consecutive seven-year cycles?",
+    "answer": "Seven",
+    "options": ["Three", "Five", "Seven", "Ten"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jubilee', p. 121"
+  }
+]

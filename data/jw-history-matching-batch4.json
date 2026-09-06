@@ -1,0 +1,184 @@
+[
+  {
+    "question": "Match each Governing Body committee (formed December 4, 1975) to its responsibility.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 15",
+    "payload": { "pairs": [
+      { "left": "Chairman's Committee", "right": "Handles reports on major emergencies, disasters, and persecution campaigns" },
+      { "left": "Writing Committee", "right": "Supervises putting spiritual food into written and recorded form, and translation" },
+      { "left": "Service Committee", "right": "Supervises the evangelizing work and traveling overseers" },
+      { "left": "Publishing Committee", "right": "Supervises printing, shipping, and legal and business matters" }
+    ] }
+  },
+  {
+    "question": "Match each legal corporation used by Jehovah's Witnesses to a fact about it.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 15",
+    "payload": { "pairs": [
+      { "left": "Zion's Watch Tower Tract Society", "right": "Incorporated in Pennsylvania on December 15, 1884" },
+      { "left": "Peoples Pulpit Association", "right": "Formed in 1909 with the move to Brooklyn" },
+      { "left": "International Bible Students Association", "right": "Incorporated in London, England, on June 30, 1914" },
+      { "left": "Watch Tower Bible and Tract Society of Pennsylvania", "right": "The name used for the original Society since 1955" }
+    ] }
+  },
+  {
+    "question": "Match each term from this history to its meaning.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 15",
+    "payload": { "pairs": [
+      { "left": "V.D.M.", "right": "Verbi Dei Minister, or Minister of the Divine Word" },
+      { "left": "Kheiroto-neo", "right": "Greek verb meaning to stretch out or lift up the hand" },
+      { "left": "Theocracy", "right": "God-rule, the term describing Jehovah's organization" },
+      { "left": "Ecclesia", "right": "Greek term for congregation used in an 1881 Watch Tower article" }
+    ] }
+  },
+  {
+    "question": "Match each early traveling pilgrim to a detail about their service.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 15",
+    "payload": { "pairs": [
+      { "left": "A. H. Macmillan", "right": "A Canadian remembered for speaking as if God's Word were \"like a burning fire\"" },
+      { "left": "William Hersee", "right": "Remembered for special attention given to young folks" },
+      { "left": "Edward Brenisen", "right": "Traveled by train, stagecoach, and buckboard wagon to reach Oregon" },
+      { "left": "John Booth", "right": "Told he just needed to be someone who loves the service" }
+    ] }
+  },
+  {
+    "question": "Match each Bethel family member to their record of service.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 18",
+    "payload": { "pairs": [
+      { "left": "Frederick W. Franz", "right": "United States Bethel family member from 1920 to 1992" },
+      { "left": "Heinrich Dwenger", "right": "Served in Germany, Hungary, Czechoslovakia, then Switzerland" },
+      { "left": "George Phillips", "right": "Served at the branch office in South Africa from 1924 until his death in 1982" },
+      { "left": "Kathryn Bogard and Grace DeCecca", "right": "Two sisters with a combined 136 years of Bethel service" }
+    ] }
+  },
+  {
+    "question": "Match each songbook to the year it was published.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 16",
+    "payload": { "pairs": [
+      { "left": "Songs of the Bride", "right": "1879" },
+      { "left": "Kingdom Hymns", "right": "1925" },
+      { "left": "Songs of Praise to Jehovah", "right": "1928" },
+      { "left": "Sing Praises to Jehovah", "right": "1984" }
+    ] }
+  },
+  {
+    "question": "Match each convention year to what happened there.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 17",
+    "payload": { "pairs": [
+      { "left": "1919", "right": "The Golden Age magazine is announced at Cedar Point, Ohio" },
+      { "left": "1922", "right": "\"Advertise the King and Kingdom\" is unveiled at Cedar Point, Ohio" },
+      { "left": "1931", "right": "The name Jehovah's Witnesses is adopted at Columbus, Ohio" },
+      { "left": "1935", "right": "The \"great multitude\" is identified at Washington, D.C." }
+    ] }
+  },
+  {
+    "question": "Match each pioneer or missionary to the mission field where they served.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 18",
+    "payload": { "pairs": [
+      { "left": "Frank Rice", "right": "Java, Sumatra, and then Indochina" },
+      { "left": "Claude Goodman and Ronald Tippin", "right": "India, and later other parts of Asia" },
+      { "left": "Freida Johnson", "right": "The north coast of Honduras, on horseback" },
+      { "left": "Kathe Palm", "right": "Colombia, then Chile" }
+    ] }
+  },
+  {
+    "question": "Match each Kingdom Hall building material to the place it was used.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 20",
+    "payload": { "pairs": [
+      { "left": "Mud from anthills and long grass for thatch", "right": "Katima Mulilo, Namibia" },
+      { "left": "Homemade cement building blocks", "right": "Segovia, Colombia" },
+      { "left": "Unhewn lava from Mount Lassen", "right": "Colfax, California" },
+      { "left": "Sandstone from nearby mountains", "right": "Maseru, Lesotho" }
+    ] }
+  },
+  {
+    "question": "Match each type of full-time service to its minimum monthly hour requirement.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 18",
+    "payload": { "pairs": [
+      { "left": "Auxiliary pioneer", "right": "At least 60 hours a month" },
+      { "left": "Regular pioneer", "right": "At least 90 hours a month" },
+      { "left": "Special pioneer", "right": "At least 140 hours a month" },
+      { "left": "Circuit and district overseer", "right": "Full-time, traveling among assigned congregations" }
+    ] }
+  },
+  {
+    "question": "Match each disaster to how Jehovah's Witnesses responded.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 19",
+    "payload": { "pairs": [
+      { "left": "1972 Managua, Nicaragua earthquake", "right": "Fourteen relief distribution points were set up around the city" },
+      { "left": "1970 Peru earthquake", "right": "Emergency relief funds and 15 tons of clothing were dispatched" },
+      { "left": "1980 Italy earthquake", "right": "The first truckload of supplies arrived the very next day" },
+      { "left": "1986 Izu-Oshima, Japan eruption", "right": "Witnesses met evacuee boats at the pier to find fellow believers" }
+    ] }
+  },
+  {
+    "question": "Match each instance of persecution to how fellow Witnesses responded.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 19",
+    "payload": { "pairs": [
+      { "left": "1934 Nazi Germany", "right": "Congregations worldwide sent cablegrams of protest to the Hitler government" },
+      { "left": "1948 Greece", "right": "Thousands of letters were sent to the president and government ministers" },
+      { "left": "1961 Spain", "right": "Awake! magazine exposed inquisitional methods, prompting letters of protest" },
+      { "left": "1963 Liberia", "right": "The president met with a delegation after an outrage at Gbarnga" }
+    ] }
+  },
+  {
+    "question": "Match each international convention to its recorded attendance.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 17",
+    "payload": { "pairs": [
+      { "left": "1990 Berlin", "right": "44,532 attending, from 65 countries" },
+      { "left": "1990 São Paulo, Brazil", "right": "134,406 in an international audience" },
+      { "left": "1989 Poland conventions", "right": "166,518 total attendance" },
+      { "left": "1992 Saint Petersburg, Russia", "right": "46,214 attending, delegates from 28 lands" }
+    ] }
+  },
+  {
+    "question": "Match each Watch Tower Society president to a fact about their tenure.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 15",
+    "payload": { "pairs": [
+      { "left": "J. F. Rutherford", "right": "Served as president for 25 years, dying January 8, 1942" },
+      { "left": "Nathan H. Knorr", "right": "Became the third president during World War II" },
+      { "left": "Frederick W. Franz", "right": "Became the fourth president in 1977" },
+      { "left": "Charles Taze Russell", "right": "Was foremost in the governing body for the Society's first 32 years" }
+    ] }
+  }
+]

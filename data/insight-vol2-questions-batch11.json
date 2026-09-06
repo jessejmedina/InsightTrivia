@@ -1,0 +1,218 @@
+[
+  {
+    "question": "What does the name \"Purim\" derive from — the act of Haman casting what to determine the day for his extermination plot?",
+    "answer": "Pur (lot)",
+    "options": ["A written decree", "Pur (lot)", "A sacred coin", "An arrow"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Esther, Book Of', p. 716"
+  },
+  {
+    "question": "On what days of the Jewish month Adar is the Festival of Purim celebrated?",
+    "answer": "The 14th and 15th",
+    "options": ["The 9th and 10th", "The 13th and 14th", "The 14th and 15th", "The 20th and 21st"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Esther, Book Of', p. 716"
+  },
+  {
+    "question": "Joel, the prophet who wrote the book bearing his name, was the son of whom?",
+    "answer": "Pethuel",
+    "options": ["Pethuel", "Amittai", "Beeri", "Baruch"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joel, Book Of', p. 85"
+  },
+  {
+    "question": "In the Hebrew canon, the book of Joel is placed between which two other prophetic books?",
+    "answer": "Hosea and Amos",
+    "options": ["Isaiah and Jeremiah", "Hosea and Amos", "Micah and Nahum", "Obadiah and Jonah"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joel, Book Of', p. 85"
+  },
+  {
+    "question": "At what age did Joshua die, according to the book bearing his name?",
+    "answer": "110 years",
+    "options": ["90 years", "100 years", "110 years", "120 years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joshua, Book Of', p. 115"
+  },
+  {
+    "question": "In what city was Joshua buried?",
+    "answer": "Timnath-serah",
+    "options": ["Timnath-serah", "Shiloh", "Shechem", "Gilgal"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Joshua, Book Of', p. 115"
+  },
+  {
+    "question": "The book of Judges covers approximately how many years, from the conquest of Canaan to the start of the monarchy?",
+    "answer": "330 years",
+    "options": ["150 years", "250 years", "330 years", "450 years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Judges, Book Of', p. 135"
+  },
+  {
+    "question": "Who is credited with likely writing the book of Judges?",
+    "answer": "Samuel",
+    "options": ["Moses", "Joshua", "Samuel", "Ezra"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Judges, Book Of', p. 135"
+  },
+  {
+    "question": "What does the Hebrew name for the book of Lamentations, \"Eichah,\" mean?",
+    "answer": "How!",
+    "options": ["Woe!", "How!", "Alas!", "Why!"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lamentations, Book Of', p. 193"
+  },
+  {
+    "question": "How many chapters does the book of Lamentations have?",
+    "answer": "Five",
+    "options": ["Three", "Four", "Five", "Seven"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lamentations, Book Of', p. 192"
+  },
+  {
+    "question": "Along with Song of Solomon, Ruth, Ecclesiastes, and Esther, Lamentations is one of the five \"Megilloth,\" meaning what?",
+    "answer": "Rolls (Scrolls)",
+    "options": ["Rolls (Scrolls)", "Wisdom Books", "Minor Prophets", "Festival Readings"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lamentations, Book Of', p. 193"
+  },
+  {
+    "question": "Chapters 1, 2, and 4 of Lamentations are acrostics based on how many letters of the Hebrew alphabet?",
+    "answer": "22",
+    "options": ["12", "18", "22", "24"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lamentations, Book Of', p. 193"
+  },
+  {
+    "question": "The book of Nahum was written by Nahum, described by what geographic designation?",
+    "answer": "The Elkoshite",
+    "options": ["The Elkoshite", "The Tishbite", "The Gileadite", "The Shilonite"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nahum, Book Of', p. 462"
+  },
+  {
+    "question": "Nahum's prophecy was a pronouncement against which capital city of Assyria?",
+    "answer": "Nineveh",
+    "options": ["Babylon", "Nineveh", "Samaria", "Tyre"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nahum, Book Of', p. 462"
+  },
+  {
+    "question": "The book of Nahum was completed before Nineveh's foretold destruction, which came in what year B.C.E.?",
+    "answer": "632 B.C.E.",
+    "options": ["612 B.C.E.", "632 B.C.E.", "607 B.C.E.", "587 B.C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nahum, Book Of', p. 462"
+  },
+  {
+    "question": "Peter's two letters were addressed to Christians scattered across which region?",
+    "answer": "Asia Minor (Pontus, Galatia, Cappadocia, Asia, Bithynia)",
+    "options": ["Asia Minor (Pontus, Galatia, Cappadocia, Asia, Bithynia)", "Greece and Macedonia", "Egypt and North Africa", "Judea and Samaria"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Peter, Letters Of', p. 621"
+  },
+  {
+    "question": "From which city did Peter write his two letters?",
+    "answer": "Babylon",
+    "options": ["Rome", "Jerusalem", "Babylon", "Antioch"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Peter, Letters Of', p. 621"
+  },
+  {
+    "question": "Peter's letters were written before the outbreak of which Roman emperor's persecution in 64 C.E.?",
+    "answer": "Nero",
+    "options": ["Nero", "Claudius", "Caligula", "Domitian"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Peter, Letters Of', p. 621"
+  },
+  {
+    "question": "Paul established the congregation in Philippi during which missionary tour?",
+    "answer": "His second missionary tour",
+    "options": ["His first missionary tour", "His second missionary tour", "His third missionary tour", "His journey to Rome for trial"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philippians, Letter To The', p. 630"
+  },
+  {
+    "question": "Philippians mentions \"all the Praetorian Guard\" knowing the reason for Paul's imprisonment. In which city was Paul when he wrote this letter?",
+    "answer": "Rome",
+    "options": ["Rome", "Caesarea", "Ephesus", "Corinth"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philippians, Letter To The', p. 630"
+  },
+  {
+    "question": "About what year C.E. did Paul establish the Philippian congregation?",
+    "answer": "About 50 C.E.",
+    "options": ["About 33 C.E.", "About 50 C.E.", "About 61 C.E.", "About 96 C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philippians, Letter To The', p. 630"
+  },
+  {
+    "question": "The book of Psalms consists of how many separate collections, each ending with a blessing on Jehovah?",
+    "answer": "Five",
+    "options": ["Three", "Five", "Seven", "Twelve"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Psalms, Book Of', p. 708"
+  },
+  {
+    "question": "The individual psalms were composed over a period of about how many years?",
+    "answer": "1,000 years",
+    "options": ["200 years", "500 years", "1,000 years", "1,500 years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Psalms, Book Of', p. 709"
+  },
+  {
+    "question": "Which Bible figure do many scholars believe was responsible for arranging the book of Psalms into its final form?",
+    "answer": "Ezra",
+    "options": ["David", "Solomon", "Ezra", "Nehemiah"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Psalms, Book Of', p. 709"
+  },
+  {
+    "question": "The prophet Zephaniah was possibly a great-great-grandson of which king of Judah?",
+    "answer": "Hezekiah",
+    "options": ["Hezekiah", "Manasseh", "Josiah", "David"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zephaniah' (No. 2, the prophet), p. 1229"
+  },
+  {
+    "question": "What does the name \"Zephaniah\" mean?",
+    "answer": "Jehovah Has Concealed",
+    "options": ["Jehovah Has Concealed", "Jehovah Is Righteous", "Jehovah Has Remembered", "Jehovah Is Salvation"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zephaniah' (No. 2, the prophet), p. 1229"
+  },
+  {
+    "question": "Zephaniah prophesied during the early part of which king's reign?",
+    "answer": "Josiah",
+    "options": ["Manasseh", "Amon", "Josiah", "Jehoahaz"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zephaniah' (No. 2, the prophet), p. 1229"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "question": "About how many years did the Israelites wander in the wilderness after leaving Egypt?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "easy",
+    "reference": "General Bible chronology (cross-check: Insight, 'Wilderness')",
+    "payload": { "value": 40, "unit": "years", "min": 0, "max": 120 }
+  },
+  {
+    "question": "Roughly how many cubits long was Noah's ark, according to the Genesis account?",
+    "type": "estimation",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Genesis 6:15 (cross-check: Insight, 'Ark')",
+    "payload": { "value": 300, "unit": "cubits", "min": 0, "max": 800 }
+  },
+  {
+    "question": "Which judge of Israel am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Gideon",
+    "options": ["Gideon", "Samson", "Ehud", "Deborah"],
+    "reference": "Judges 6-8 (cross-check: Insight, 'Gideon')",
+    "payload": { "clues": [
+      "An angel found me threshing wheat in a winepress to hide it from raiders.",
+      "I asked for a sign with a wool fleece and morning dew — twice.",
+      "I cut my army from 32,000 down to 300 men.",
+      "We beat the Midianites with trumpets, jars, and torches."
+    ] }
+  },
+  {
+    "question": "Which city am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Jericho",
+    "options": ["Jericho", "Ai", "Hebron", "Gibeon"],
+    "reference": "Joshua 6 (cross-check: Insight, 'Jericho')",
+    "payload": { "clues": [
+      "I was the first city taken west of the Jordan.",
+      "My walls were famous, and I sat near palm trees and springs.",
+      "Israel marched around me once a day for six days.",
+      "On the seventh day they circled seven times, shouted, and my walls fell."
+    ] }
+  },
+  {
+    "question": "Old Testament or New Testament book?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Bible book order (cross-check: Insight, 'Bible')",
+    "payload": {
+      "categoryLeft": "Old Testament",
+      "categoryRight": "New Testament",
+      "cards": [
+        { "text": "Habakkuk", "side": "left" },
+        { "text": "Philemon", "side": "right" },
+        { "text": "Nahum", "side": "left" },
+        { "text": "Jude", "side": "right" },
+        { "text": "Haggai", "side": "left" },
+        { "text": "Titus", "side": "right" }
+      ]
+    }
+  },
+  {
+    "question": "Did this person walk with Jesus during his earthly ministry, or live centuries earlier?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Gospels vs Hebrew Scriptures (cross-check: Insight)",
+    "payload": {
+      "categoryLeft": "Earlier",
+      "categoryRight": "With Jesus",
+      "cards": [
+        { "text": "Nathanael", "side": "right" },
+        { "text": "Boaz", "side": "left" },
+        { "text": "Zacchaeus", "side": "right" },
+        { "text": "Gideon", "side": "left" },
+        { "text": "Lazarus of Bethany", "side": "right" },
+        { "text": "Samuel", "side": "left" }
+      ]
+    }
+  }
+]

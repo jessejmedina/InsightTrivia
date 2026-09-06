@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Is this one of the Ten Commandments given at Sinai?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Exodus 20:1-17 (cross-check: Insight on the Scriptures, Vol. 2, 'Ten Words')",
+    "payload": { "categoryLeft": "Not one of the Ten", "categoryRight": "One of the Ten Commandments", "cards": [
+      { "text": "Do not murder", "side": "right" },
+      { "text": "Love your neighbor as yourself", "side": "left" },
+      { "text": "Do not steal", "side": "right" },
+      { "text": "Do not muzzle a bull while it threshes", "side": "left" },
+      { "text": "Honor your father and mother", "side": "right" },
+      { "text": "Do not bear false witness", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this a New Testament letter, or a narrative book (Gospel or history)?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "The Christian Greek Scriptures (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": { "categoryLeft": "Narrative book", "categoryRight": "Letter (epistle)", "cards": [
+      { "text": "Romans", "side": "right" },
+      { "text": "Acts", "side": "left" },
+      { "text": "Hebrews", "side": "right" },
+      { "text": "Luke", "side": "left" },
+      { "text": "1 John", "side": "right" },
+      { "text": "Mark", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Under the Mosaic Law, was this animal clean (allowed as food) or unclean?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Leviticus 11 (cross-check: Insight on the Scriptures, Vol. 1, 'Clean, Cleanness')",
+    "payload": { "categoryLeft": "Unclean", "categoryRight": "Clean", "cards": [
+      { "text": "Sheep", "side": "right" },
+      { "text": "Pig", "side": "left" },
+      { "text": "Locust", "side": "right" },
+      { "text": "Camel", "side": "left" },
+      { "text": "Deer", "side": "right" },
+      { "text": "Rabbit", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this figure alive at the time of the Exodus from Egypt?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus-Deuteronomy (cross-check: Insight on the Scriptures, Vol. 1, 'Exodus')",
+    "payload": { "categoryLeft": "Not alive at the Exodus", "categoryRight": "Alive at the Exodus", "cards": [
+      { "text": "Aaron", "side": "right" },
+      { "text": "Samuel", "side": "left" },
+      { "text": "Caleb", "side": "right" },
+      { "text": "Gideon", "side": "left" },
+      { "text": "Miriam", "side": "right" },
+      { "text": "Ruth", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this one of Jesus' 'I am' statements recorded in the Gospel of John?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "John 6; 8; 10; 11; 14; 15 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "categoryLeft": "Not an 'I am' saying", "categoryRight": "An 'I am' saying in John", "cards": [
+      { "text": "I am the bread of life", "side": "right" },
+      { "text": "I am the vine, you are the branches", "side": "right" },
+      { "text": "I am the good shepherd", "side": "right" },
+      { "text": "I am the rock of your salvation", "side": "left" },
+      { "text": "I am the resurrection and the life", "side": "right" },
+      { "text": "I am the alpha and the omega", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this place a stop on Israel's wilderness journey, or a place inside the Promised Land?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Exodus-Joshua (cross-check: Insight on the Scriptures, Vol. 1, 'Camp')",
+    "payload": { "categoryLeft": "Wilderness stop", "categoryRight": "Place in the Promised Land", "cards": [
+      { "text": "Mount Sinai (Horeb)", "side": "left" },
+      { "text": "Shiloh", "side": "right" },
+      { "text": "Kadesh-barnea", "side": "left" },
+      { "text": "Shechem", "side": "right" },
+      { "text": "Marah", "side": "left" },
+      { "text": "Gilgal", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this book of prophecy written before the Babylonian exile, or during/after it?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "The prophetic books (cross-check: Insight on the Scriptures, Vol. 2, 'Prophet')",
+    "payload": { "categoryLeft": "Before the exile", "categoryRight": "During or after the exile", "cards": [
+      { "text": "Amos", "side": "left" },
+      { "text": "Haggai", "side": "right" },
+      { "text": "Micah", "side": "left" },
+      { "text": "Zechariah", "side": "right" },
+      { "text": "Isaiah", "side": "left" },
+      { "text": "Malachi", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this listed among the gifts of the spirit in 1 Corinthians chapter 12?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "1 Corinthians 12:7-11 (cross-check: Insight on the Scriptures, Vol. 1, 'Gifts From God')",
+    "payload": { "categoryLeft": "Not in that list", "categoryRight": "A gift in 1 Corinthians 12", "cards": [
+      { "text": "Prophesying", "side": "right" },
+      { "text": "Speaking in tongues", "side": "right" },
+      { "text": "Showing hospitality to strangers", "side": "left" },
+      { "text": "Miraculous healing", "side": "right" },
+      { "text": "Giving generously to the needy", "side": "left" },
+      { "text": "Discernment of inspired utterances", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this person descended from Abraham through his son Isaac?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 16-25 (cross-check: Insight on the Scriptures, Vol. 2, 'Israel No. 1')",
+    "payload": { "categoryLeft": "Not through Isaac", "categoryRight": "Through Isaac", "cards": [
+      { "text": "King David", "side": "right" },
+      { "text": "The Ishmaelites", "side": "left" },
+      { "text": "The twelve tribes of Israel", "side": "right" },
+      { "text": "The Edomites (from Esau)", "side": "left" },
+      { "text": "Jesus, in the flesh", "side": "right" },
+      { "text": "The Midianites (from Keturah)", "side": "left" }
+    ] }
+  },
+  {
+    "question": "In the Gospels, was this a follower of Jesus, or an opponent of Jesus?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "The Gospels (cross-check: Insight on the Scriptures, Vol. 2, 'Pharisee')",
+    "payload": { "categoryLeft": "Opponent", "categoryRight": "Follower or friend", "cards": [
+      { "text": "Mary of Bethany", "side": "right" },
+      { "text": "Caiaphas the high priest", "side": "left" },
+      { "text": "Joseph of Arimathea", "side": "right" },
+      { "text": "Herod Antipas", "side": "left" },
+      { "text": "The centurion at the cross", "side": "right" },
+      { "text": "Annas", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a deliverer (judge) of Israel, or an oppressor Israel was delivered from?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "The book of Judges (cross-check: Insight on the Scriptures, Vol. 1, 'Judge')",
+    "payload": { "categoryLeft": "Oppressor of Israel", "categoryRight": "Deliverer of Israel", "cards": [
+      { "text": "Ehud", "side": "right" },
+      { "text": "Sisera", "side": "left" },
+      { "text": "Gideon", "side": "right" },
+      { "text": "King Eglon of Moab", "side": "left" },
+      { "text": "Jephthah", "side": "right" },
+      { "text": "Jabin, king of Canaan", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Does this book belong to the Hebrew Scriptures (Old Testament), or the Christian Greek Scriptures (New Testament)?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Bible book order (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": { "categoryLeft": "Hebrew Scriptures", "categoryRight": "Christian Greek Scriptures", "cards": [
+      { "text": "Lamentations", "side": "left" },
+      { "text": "Colossians", "side": "right" },
+      { "text": "Song of Solomon", "side": "left" },
+      { "text": "2 Timothy", "side": "right" },
+      { "text": "Obadiah", "side": "left" },
+      { "text": "3 John", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this person present at the Last Supper (the Passover meal in the upper room)?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 26:20; Luke 22:14 (cross-check: Insight on the Scriptures, Vol. 2, 'Lord's Evening Meal')",
+    "payload": { "categoryLeft": "Not present", "categoryRight": "Present at the Last Supper", "cards": [
+      { "text": "Judas Iscariot", "side": "right" },
+      { "text": "Lazarus", "side": "left" },
+      { "text": "The apostle John", "side": "right" },
+      { "text": "Mary, the mother of Jesus", "side": "left" },
+      { "text": "The apostle Peter", "side": "right" },
+      { "text": "Nicodemus", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this a title or role that belonged to Aaron and his line, or one that did not?",
+    "type": "swipe",
+    "category": "Tabernacle",
+    "difficulty": "hard",
+    "reference": "Exodus 28; Numbers 3 (cross-check: Insight on the Scriptures, Vol. 2, 'Priest')",
+    "payload": { "categoryLeft": "Not an Aaronic role", "categoryRight": "Role of Aaron's priestly line", "cards": [
+      { "text": "Wearing the breastpiece with the Urim and Thummim", "side": "right" },
+      { "text": "Entering the Most Holy on the Day of Atonement", "side": "right" },
+      { "text": "Anointing kings and prophets", "side": "left" },
+      { "text": "Burning incense on the golden altar", "side": "right" },
+      { "text": "Carrying the ark on poles (that was the Kohathites)", "side": "left" },
+      { "text": "Judging civil disputes at the city gate", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this event take place in the northern kingdom of Israel, or the southern kingdom of Judah?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "1 and 2 Kings (cross-check: Insight on the Scriptures, Vol. 2, 'Israel No. 3')",
+    "payload": { "categoryLeft": "Northern kingdom (Israel)", "categoryRight": "Southern kingdom (Judah)", "cards": [
+      { "text": "Elijah's contest with the prophets of Baal on Mount Carmel", "side": "left" },
+      { "text": "Josiah finding the book of the Law in the temple", "side": "right" },
+      { "text": "Jehu's purge of Baal worship", "side": "left" },
+      { "text": "Hezekiah's Passover celebration", "side": "right" },
+      { "text": "The golden calves set up at Bethel and Dan", "side": "left" },
+      { "text": "Athaliah seizing the throne and being overthrown", "side": "right" }
+    ] }
+  }
+]

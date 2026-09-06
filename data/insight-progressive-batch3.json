@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which man of God am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Moses",
+    "options": ["Moses", "Aaron", "Joshua", "Samuel"],
+    "reference": "Exodus 2-4; 32; Numbers 20 (cross-check: Insight on the Scriptures, Vol. 2, 'Moses', p. 434)",
+    "payload": { "clues": [
+      "As a baby I was hidden in a basket among the reeds of a river.",
+      "I killed an Egyptian and fled to the land of Midian for forty years.",
+      "I led a nation out of slavery through a sea that parted before them.",
+      "I was kept out of the Promised Land for striking a rock instead of speaking to it."
+    ] }
+  },
+  {
+    "question": "Which shepherd-prophet am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Amos",
+    "options": ["Amos", "Hosea", "Joel", "Obadiah"],
+    "reference": "Amos 1; 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Amos')",
+    "payload": { "clues": [
+      "I was a herdsman and a tender of sycamore figs from Tekoa in Judah.",
+      "God sent me north to prophesy against Israel's wealthy and complacent.",
+      "The priest at Bethel told me to go back home and prophesy there.",
+      "I saw visions of a basket of summer fruit and a plumb line."
+    ] }
+  },
+  {
+    "question": "Which woman of a doomed city am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Rahab",
+    "options": ["Rahab", "Ruth", "Deborah", "Jael"],
+    "reference": "Joshua 2; 6 (cross-check: Insight on the Scriptures, Vol. 2, 'Rahab No. 1')",
+    "payload": { "clues": [
+      "I lived in a house built into the city wall of a doomed city.",
+      "I hid two Israelite spies under stalks of flax on my roof.",
+      "I asked them to spare my family when their army came.",
+      "I tied a scarlet cord in my window as the agreed sign."
+    ] }
+  },
+  {
+    "question": "Which prophet of the Bible am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "answer": "Samuel",
+    "options": ["Samuel", "Eli", "Nathan", "Elijah"],
+    "reference": "1 Samuel 3; 8; 15-16 (cross-check: Insight on the Scriptures, Vol. 2, 'Samuel', p. 851)",
+    "payload": { "clues": [
+      "As a boy I served at the sanctuary and heard a voice call my name in the night.",
+      "The people demanded a king, and God had me warn them what a king would take.",
+      "I anointed the first king of Israel, then rejected him for disobedience.",
+      "I secretly anointed a shepherd boy from Bethlehem as the next king."
+    ] }
+  },
+  {
+    "question": "Which Son of Thunder am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "answer": "John",
+    "options": ["John", "James", "Peter", "Andrew"],
+    "reference": "Mark 3:17; John 19:26; Revelation 1:9 (cross-check: Insight on the Scriptures, Vol. 2, 'John No. 3', p. 90)",
+    "payload": { "clues": [
+      "Jesus nicknamed my brother and me the Sons of Thunder.",
+      "I am often called the disciple whom Jesus loved.",
+      "From the cross, Jesus placed the care of his mother in my hands.",
+      "I was exiled to the island of Patmos, where I received the Revelation."
+    ] }
+  },
+  {
+    "question": "Which preacher in Samaria am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "answer": "Philip the evangelizer",
+    "options": ["Philip the evangelizer", "Stephen", "Barnabas", "Ananias"],
+    "reference": "Acts 8 (cross-check: Insight on the Scriptures, Vol. 2, 'Philip No. 2')",
+    "payload": { "clues": [
+      "I was one of the seven appointed alongside Stephen.",
+      "I preached in a city of Samaria and many were baptized.",
+      "An angel sent me to a desert road toward Gaza.",
+      "There I explained Isaiah's scroll to an Ethiopian official and baptized him."
+    ] }
+  },
+  {
+    "question": "Which woman at the empty tomb am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Mary Magdalene",
+    "options": ["Mary Magdalene", "Martha", "Mary of Bethany", "Joanna"],
+    "reference": "Luke 8:2; John 20 (cross-check: Insight on the Scriptures, Vol. 2, 'Mary No. 3')",
+    "payload": { "clues": [
+      "Jesus had expelled seven demons from me.",
+      "I helped support Jesus and the apostles from my own belongings.",
+      "I stood near the cross and watched where his body was laid.",
+      "I was the first person to see and speak with the resurrected Jesus."
+    ] }
+  },
+  {
+    "question": "Which king of Samaria am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Ahab",
+    "options": ["Ahab", "Jeroboam", "Omri", "Jehu"],
+    "reference": "1 Kings 16-22 (cross-check: Insight on the Scriptures, Vol. 1, 'Ahab No. 1')",
+    "payload": { "clues": [
+      "I ruled the northern kingdom from the city of Samaria.",
+      "My queen was a Sidonian princess who promoted Baal worship.",
+      "I sulked in bed because a man named Naboth would not sell me his vineyard.",
+      "I died in battle at Ramoth-gilead when an arrow found a gap in my armor."
+    ] }
+  },
+  {
+    "question": "Which foreign ruler am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Cyrus",
+    "options": ["Cyrus", "Darius", "Nebuchadnezzar", "Artaxerxes"],
+    "reference": "Ezra 1; Isaiah 44-45 (cross-check: Insight on the Scriptures, Vol. 1, 'Cyrus')",
+    "payload": { "clues": [
+      "Isaiah named me as God's shepherd about 200 years before I was born.",
+      "I founded the Persian Empire and captured Babylon.",
+      "In my first year I issued a decree ending the Jewish exile.",
+      "I told the Jews to go home and rebuild their temple in Jerusalem."
+    ] }
+  },
+  {
+    "question": "Which favored son am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Joseph",
+    "options": ["Joseph", "Benjamin", "Judah", "Reuben"],
+    "reference": "Genesis 37-45 (cross-check: Insight on the Scriptures, Vol. 2, 'Joseph No. 1', p. 106)",
+    "payload": { "clues": [
+      "My father gave me a special long garment, and my brothers hated me for it.",
+      "I dreamed that sheaves and stars all bowed down to me.",
+      "My brothers sold me to traders headed for Egypt.",
+      "Years later I ruled Egypt as second only to Pharaoh and saved my family from famine."
+    ] }
+  },
+  {
+    "question": "Which non-Israelite of the Bible am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Naaman",
+    "options": ["Naaman", "Nebuzaradan", "Cornelius", "Nebuchadnezzar"],
+    "reference": "2 Kings 5 (cross-check: Insight on the Scriptures, Vol. 2, 'Naaman No. 1')",
+    "payload": { "clues": [
+      "I was the army commander of the king of Syria, and a leper.",
+      "A captive Israelite girl in my household told my wife of a prophet who could heal me.",
+      "I was insulted that the prophet only sent a messenger with instructions.",
+      "After washing seven times in the Jordan, my skin became like a child's."
+    ] }
+  },
+  {
+    "question": "Which city on the Euphrates am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Babylon",
+    "options": ["Babylon", "Nineveh", "Susa", "Ur"],
+    "reference": "2 Kings 25; Daniel 1-5 (cross-check: Insight on the Scriptures, Vol. 1, 'Babylon')",
+    "payload": { "clues": [
+      "I sat on the Euphrates and was famous for my walls and hanging gardens.",
+      "My king carried the people of Judah into a seventy-year captivity.",
+      "A mysterious hand wrote on my palace wall during a feast.",
+      "I fell to the armies of the Medes and Persians in a single night."
+    ] }
+  },
+  {
+    "question": "Which missionary base city am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Antioch of Syria",
+    "options": ["Antioch of Syria", "Jerusalem", "Ephesus", "Caesarea"],
+    "reference": "Acts 11; 13 (cross-check: Insight on the Scriptures, Vol. 1, 'Antioch No. 1')",
+    "payload": { "clues": [
+      "I was a major city where Greeks first heard the good news in large numbers.",
+      "Barnabas came to help, then brought Saul from Tarsus to teach here.",
+      "It was here that the disciples were first called Christians.",
+      "The congregation here sent out Paul and Barnabas on the first missionary journey."
+    ] }
+  },
+  {
+    "question": "Which wicked queen am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Jezebel",
+    "options": ["Jezebel", "Athaliah", "Delilah", "Herodias"],
+    "reference": "1 Kings 16-21; 2 Kings 9 (cross-check: Insight on the Scriptures, Vol. 2, 'Jezebel No. 1')",
+    "payload": { "clues": [
+      "I was the daughter of a Sidonian king and married into Israel's royal house.",
+      "I hunted down the prophets of Jehovah and fed hundreds of prophets of Baal.",
+      "I arranged the false trial and killing of Naboth to seize his vineyard.",
+      "I was thrown from a window, and dogs ate my body, just as Elijah had foretold."
+    ] }
+  },
+  {
+    "question": "Which official of Judah am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Nehemiah",
+    "options": ["Nehemiah", "Ezra", "Zerubbabel", "Mordecai"],
+    "reference": "Nehemiah 1-6 (cross-check: Insight on the Scriptures, Vol. 2, 'Nehemiah', p. 486)",
+    "payload": { "clues": [
+      "I was the cupbearer to the Persian king when I heard Jerusalem lay in ruins.",
+      "The king granted me leave and letters to go and rebuild.",
+      "I inspected the broken walls by night before telling anyone my plan.",
+      "Despite mockery and threats from Sanballat and Tobiah, the wall was finished in fifty-two days."
+    ] }
+  },
+  {
+    "question": "Which prophet-for-hire am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Balaam",
+    "options": ["Balaam", "Balak", "Barak", "Bela"],
+    "reference": "Numbers 22-24 (cross-check: Insight on the Scriptures, Vol. 1, 'Balaam')",
+    "payload": { "clues": [
+      "A king hired me to put a curse on Israel as they camped in the plains of Moab.",
+      "My donkey saw an angel in the road and spoke to me when I beat her.",
+      "Every time I opened my mouth to curse Israel, a blessing came out instead.",
+      "I foretold a star that would step forth out of Jacob."
+    ] }
+  }
+]

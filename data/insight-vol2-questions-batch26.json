@@ -1,0 +1,90 @@
+[
+  {
+    "question": "How many years did Nahor, the grandfather of Abraham, live?",
+    "answer": "148 years",
+    "options": ["148 years", "175 years", "205 years", "120 years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nahor' (No. 1), p. 462"
+  },
+  {
+    "question": "Whom did Nahor (Abraham's brother) marry, who was also his own niece?",
+    "answer": "Milcah",
+    "options": ["Milcah", "Sarah", "Rebekah", "Keturah"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nahor' (No. 2), p. 462"
+  },
+  {
+    "question": "Nahshon's sister was married to which prominent Israelite?",
+    "answer": "Aaron",
+    "options": ["Aaron", "Moses", "Caleb", "Joshua"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nahshon', p. 463"
+  },
+  {
+    "question": "Nahshon's son Salmon married which woman, an ancestor in David's line?",
+    "answer": "Rahab",
+    "options": ["Rahab", "Ruth", "Tamar", "Bathsheba"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nahshon', p. 463"
+  },
+  {
+    "question": "The book of Obadiah is the shortest prophetic book of which major division of the Bible?",
+    "answer": "The Hebrew Scriptures (Old Testament)",
+    "options": ["The Christian Greek Scriptures", "The Hebrew Scriptures (Old Testament)", "The Pentateuch", "The Wisdom Books"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Obadiah, Book Of', p. 607"
+  },
+  {
+    "question": "About what year B.C.E. was the book of Obadiah written, coinciding with Jerusalem's fall to Babylon?",
+    "answer": "607 B.C.E.",
+    "options": ["587 B.C.E.", "607 B.C.E.", "537 B.C.E.", "617 B.C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Obadiah, Book Of', p. 607"
+  },
+  {
+    "question": "About how many years does the narrative of the book of Ruth cover, excluding its closing genealogy?",
+    "answer": "About 11 years",
+    "options": ["About 3 years", "About 11 years", "About 20 years", "About 40 years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Ruth, Book Of', p. 830"
+  },
+  {
+    "question": "Jewish tradition credits which prophet with writing the book of Ruth?",
+    "answer": "Samuel",
+    "options": ["Ezra", "Samuel", "Nathan", "Ruth herself"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Ruth, Book Of', p. 830"
+  },
+  {
+    "question": "What does the name 'Tertius' mean in Latin?",
+    "answer": "Third",
+    "options": ["First", "Second", "Third", "Fourth"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tertius', p. 1089"
+  },
+  {
+    "question": "Tertius served as the writer or transcriber of which of Paul's letters?",
+    "answer": "Romans",
+    "options": ["Romans", "Galatians", "Corinthians", "Philippians"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tertius', p. 1089"
+  },
+  {
+    "question": "What does the name 'Quartus' mean in Latin?",
+    "answer": "Fourth",
+    "options": ["First", "Third", "Fourth", "Fifth"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Quartus', p. 721"
+  }
+]

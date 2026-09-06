@@ -1,0 +1,264 @@
+[
+  {
+    "question": "How many years did it take to build Solomon's temple in Jerusalem?",
+    "type": "estimation",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "1 Kings 6:38 (cross-check: Insight on the Scriptures, Vol. 2, 'Temple')",
+    "payload": {
+      "value": 7,
+      "unit": "years",
+      "min": 1,
+      "max": 30
+    }
+  },
+  {
+    "question": "How old was Sarah when she died — the only woman whose age at death the Bible records?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 23:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Sarah', p. 863)",
+    "payload": {
+      "value": 127,
+      "unit": "years",
+      "min": 40,
+      "max": 290
+    }
+  },
+  {
+    "question": "How old was Aaron when he died on Mount Hor?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Numbers 33:39 (cross-check: Insight on the Scriptures, Vol. 1, 'Aaron')",
+    "payload": {
+      "value": 123,
+      "unit": "years",
+      "min": 40,
+      "max": 280
+    }
+  },
+  {
+    "question": "How old was Joshua when he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Joshua 24:29 (cross-check: Insight on the Scriptures, Vol. 2, 'Joshua', p. 114)",
+    "payload": {
+      "value": 110,
+      "unit": "years",
+      "min": 40,
+      "max": 240
+    }
+  },
+  {
+    "question": "About how many able-bodied men left Egypt in the Exodus, besides women and children?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus 12:37 (cross-check: Insight on the Scriptures, Vol. 1, 'Exodus')",
+    "payload": {
+      "value": 600000,
+      "unit": "men",
+      "min": 50000,
+      "max": 2000000,
+      "log": true
+    }
+  },
+  {
+    "question": "How many hours of darkness fell over the land while Jesus hung on the cross?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 27:45 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": {
+      "value": 3,
+      "unit": "hours",
+      "min": 1,
+      "max": 12
+    }
+  },
+  {
+    "question": "How many days had Lazarus been in the tomb when Jesus arrived at Bethany?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "John 11:17 (cross-check: Insight on the Scriptures, Vol. 2, 'Lazarus No. 2', p. 225)",
+    "payload": {
+      "value": 4,
+      "unit": "days",
+      "min": 1,
+      "max": 15
+    }
+  },
+  {
+    "question": "How many years passed from the Exodus to the start of temple construction, by 1 Kings' reckoning?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "1 Kings 6:1 (cross-check: Insight on the Scriptures, Vol. 1, 'Chronology')",
+    "payload": {
+      "value": 480,
+      "unit": "years",
+      "min": 100,
+      "max": 1200
+    }
+  },
+  {
+    "question": "How many people are sealed in the book of Revelation — twelve thousand from each of twelve tribes?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Revelation 7:4 (cross-check: Insight on the Scriptures, Vol. 1, 'Anointed')",
+    "payload": {
+      "value": 144000,
+      "unit": "people",
+      "min": 10000,
+      "max": 1000000,
+      "log": true
+    }
+  },
+  {
+    "question": "How many years did Enoch walk with the true God before he was taken, no longer to be found?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 5:22-24 (cross-check: Insight on the Scriptures, Vol. 1, 'Enoch No. 1')",
+    "payload": {
+      "value": 300,
+      "unit": "years",
+      "min": 50,
+      "max": 800
+    }
+  },
+  {
+    "question": "How much did Goliath's iron spearhead weigh, in shekels?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 17:7 (cross-check: Insight on the Scriptures, Vol. 1, 'Goliath')",
+    "payload": {
+      "value": 600,
+      "unit": "shekels",
+      "min": 50,
+      "max": 2000
+    }
+  },
+  {
+    "question": "How many pieces of silver did the chief priests pay Judas to betray Jesus?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 26:15 (cross-check: Insight on the Scriptures, Vol. 2, 'Judas No. 4', p. 129)",
+    "payload": {
+      "value": 30,
+      "unit": "silver pieces",
+      "min": 3,
+      "max": 300
+    }
+  },
+  {
+    "question": "How many of the ten lepers Jesus healed came back to thank him?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Luke 17:15-17 (cross-check: Insight on the Scriptures, Vol. 2, 'Leprosy')",
+    "payload": {
+      "value": 1,
+      "unit": "healed leper",
+      "min": 0,
+      "max": 10
+    }
+  },
+  {
+    "question": "How many days was Saul (Paul) blind after his encounter on the road to Damascus?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Acts 9:9 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": {
+      "value": 3,
+      "unit": "days",
+      "min": 1,
+      "max": 20
+    }
+  },
+  {
+    "question": "How many books make up the Bible, from Genesis to Revelation?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Standard Bible canon (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": {
+      "value": 66,
+      "unit": "books",
+      "min": 20,
+      "max": 160
+    }
+  },
+  {
+    "question": "How many days and nights did Elijah travel to Horeb after fleeing Jezebel?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "1 Kings 19:8 (cross-check: Insight on the Scriptures, Vol. 1, 'Elijah')",
+    "payload": {
+      "value": 40,
+      "unit": "days",
+      "min": 3,
+      "max": 120
+    }
+  },
+  {
+    "question": "How many chapters are in the book of Psalms, the longest book of the Bible?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "The book of Psalms (cross-check: Insight on the Scriptures, Vol. 2, 'Psalms, Book Of')",
+    "payload": {
+      "value": 150,
+      "unit": "chapters",
+      "min": 40,
+      "max": 360
+    }
+  },
+  {
+    "question": "How many people did the apostle Paul say saw the resurrected Jesus at one time?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "1 Corinthians 15:6 (cross-check: Insight on the Scriptures, Vol. 2, 'Resurrection')",
+    "payload": {
+      "value": 500,
+      "unit": "people",
+      "min": 50,
+      "max": 3000
+    }
+  },
+  {
+    "question": "How many years did the judge Samson lead Israel?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Judges 15:20 (cross-check: Insight on the Scriptures, Vol. 2, 'Samson', p. 850)",
+    "payload": {
+      "value": 20,
+      "unit": "years",
+      "min": 2,
+      "max": 60
+    }
+  },
+  {
+    "question": "For how many days did the scouts explore the land of Canaan before reporting back to Moses?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Numbers 13:25 (cross-check: Insight on the Scriptures, Vol. 2, 'Spy')",
+    "payload": {
+      "value": 40,
+      "unit": "days",
+      "min": 5,
+      "max": 120
+    }
+  }
+]

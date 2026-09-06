@@ -1,0 +1,146 @@
+[
+  {
+    "question": "Put these terms used for local congregations of Bible Students in the order they were used, earliest to most recent.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 15",
+    "payload": { "items": ["Churches (per King James Version usage)", "Classes (bodies of students meeting regularly)", "Companies (reflecting spiritual warfare)", "Congregations (after the 1950 New World Translation)"] }
+  },
+  {
+    "question": "Put these names for the Society's traveling representatives in the order they were used.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 15",
+    "payload": { "items": ["Tower Tract Society representatives (1894-1927)", "Pilgrims", "Regional service directors (1928-1936)", "Regional servants (starting July 1936)"] }
+  },
+  {
+    "question": "Put these names for what became the modern-day circuit overseer in the order they were used.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 15",
+    "payload": { "items": ["Zone servants (1938-1941)", "Servants to the brethren (from 1942)", "Circuit servant (adopted 1948)", "Circuit overseer (now)"] }
+  },
+  {
+    "question": "Put these milestones in the Watch Tower Society's legal corporations in chronological order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 15",
+    "payload": { "items": ["Zion's Watch Tower Tract Society incorporated in Pennsylvania (December 15, 1884)", "Renamed Watch Tower Bible and Tract Society (1896)", "Peoples Pulpit Association formed in Brooklyn (1909)", "International Bible Students Association incorporated in London (June 30, 1914)"] }
+  },
+  {
+    "question": "Put these early milestones in organized colporteur and pioneer service in chronological order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 18",
+    "payload": { "items": ["1881: The Watch Tower publishes \"Wanted 1,000 Preachers\"", "1885: About 300 colporteurs are associated with the Society", "1914: The number of colporteurs finally exceeds 1,000", "1937: The first special pioneers are sent out"] }
+  },
+  {
+    "question": "Put these Jehovah's Witnesses songbooks in the order they were published.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 16",
+    "payload": { "items": ["Songs of the Bride (1879)", "Poems and Hymns of Millennial Dawn (1890)", "Zion's Glad Songs of the Morning (1896)", "Zion's Glad Songs (1900)"] }
+  },
+  {
+    "question": "Put these Jehovah's Witnesses songbooks in the order they were published.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 16",
+    "payload": { "items": ["Hymns of the Millennial Dawn (1905)", "Kingdom Hymns (1925)", "Songs of Praise to Jehovah (1928)", "Kingdom Service Song Book (1944)"] }
+  },
+  {
+    "question": "Put these Jehovah's Witnesses songbooks in the order they were published.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 16",
+    "payload": { "items": ["Kingdom Service Song Book (1944)", "Songs to Jehovah's Praise (1950)", "Singing and Accompanying Yourselves With Music in Your Hearts (1966)", "Sing Praises to Jehovah (1984)"] }
+  },
+  {
+    "question": "Put these major conventions of Jehovah's Witnesses in chronological order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 17",
+    "payload": { "items": ["1919: Cedar Point, Ohio, where The Golden Age is announced", "1922: Cedar Point, Ohio, where \"Advertise the King and Kingdom\" is unveiled", "1931: Columbus, Ohio, where the name Jehovah's Witnesses is adopted", "1935: Washington, D.C., where the \"great multitude\" is identified"] }
+  },
+  {
+    "question": "Put these four convention resolutions in the order they were adopted, one year at a time.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 17",
+    "payload": { "items": ["1922: \"A Challenge to World Leaders\"", "1923: \"A Warning to All Christians\"", "1924: \"Ecclesiastics Indicted\"", "1925: \"Message of Hope\""] }
+  },
+  {
+    "question": "Put these four convention resolutions in the order they were adopted, one year at a time.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 17",
+    "payload": { "items": ["1925: \"Message of Hope\"", "1926: \"A Testimony to the Rulers of the World\"", "1927: \"Resolution to the Peoples of Christendom\"", "1928: \"Declaration Against Satan and for Jehovah\""] }
+  },
+  {
+    "question": "Put these large conventions of Jehovah's Witnesses in order by attendance figures, smallest to largest.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 17",
+    "payload": { "items": ["1946 Cleveland, Ohio: 80,000", "1950 New York: 123,707", "1953 New York: 165,829", "1958 New York: 253,922"] }
+  },
+  {
+    "question": "Put these international conventions in order by attendance figures, smallest to largest.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 17",
+    "payload": { "items": ["1990 Berlin: 44,532", "1990 São Paulo, Brazil: 134,406", "1989 Poland (three conventions): 166,518", "1963 around-the-world convention: over 580,000"] }
+  },
+  {
+    "question": "Put these training schools for Jehovah's Witnesses' ministers in the order they were established.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 18",
+    "payload": { "items": ["Gilead School (1943)", "Kingdom Ministry School (1959)", "Pioneer Service School (1977)", "Ministerial Training School (1987)"] }
+  },
+  {
+    "question": "Put the spread of Kingdom Hall quick-construction methods in chronological order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 20",
+    "payload": { "items": ["Early 1970s: Techniques are developed and refined across about 60 U.S. Kingdom Halls", "1982: The first quick-construction Kingdom Hall in Canada is built, in Elmira, Ontario", "1983: The first quick-construction Kingdom Hall in Europe is built, in Northampton, England", "1987: The United States is divided among 60 Regional Building Committees"] }
+  },
+  {
+    "question": "Put these disaster relief responses by Jehovah's Witnesses in chronological order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 19",
+    "payload": { "items": ["1970: Emergency relief and 15 tons of clothing sent after a devastating earthquake in Peru", "1972: Fourteen relief distribution points set up after an earthquake devastates Managua, Nicaragua", "1980: The first truckload of relief supplies arrives the day after a severe earthquake in Italy", "1986: Witnesses meet evacuee boats to find fellow believers after a volcanic eruption on Izu-Oshima, Japan"] }
+  },
+  {
+    "question": "Put these organized responses to persecution of Jehovah's Witnesses in chronological order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 19",
+    "payload": { "items": ["1934: German congregations send a cablegram of protest to the Hitler government", "1948: Thousands of letters are sent to the Greek president over persecution in Greece", "1961: Awake! exposes inquisitional methods used against Witnesses in Spain", "1963: Liberia's president meets a delegation of Witnesses after an outrage at Gbarnga"] }
+  },
+  {
+    "question": "Put these events in the 1944 reorganization of the Watch Tower Society's governing arrangements in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 15",
+    "payload": { "items": ["A service assembly is held in Pittsburgh, Pennsylvania, before the annual meeting", "On September 30, talks are given on the Scriptural basis for the organization", "On October 2, shareholder-voters unanimously approve revising the Society's charter", "The new charter arrangements go into effect on October 1, 1945"] }
+  }
+]

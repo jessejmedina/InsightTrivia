@@ -1,0 +1,354 @@
+[
+  {
+    "question": "Though the Jordan snakes roughly 320 km from the Sea of Galilee to the Dead Sea, what is the airline (straight-line) distance between the two?",
+    "answer": "About 105 km (65 mi)",
+    "options": ["About 50 km (30 mi)", "About 105 km (65 mi)", "About 180 km (110 mi)", "About 250 km (155 mi)"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jordan', p. 105"
+  },
+  {
+    "question": "How many cascading rapids does the Jordan form on its way from the Sea of Galilee down to the Dead Sea?",
+    "answer": "27",
+    "options": ["9", "18", "27", "40"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jordan', p. 105"
+  },
+  {
+    "question": "How many times did Naaman bathe in the Jordan to be healed of his leprosy?",
+    "answer": "Seven times",
+    "options": ["Three times", "Five times", "Seven times", "Ten times"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jordan', p. 105"
+  },
+  {
+    "question": "What does the name 'Lebanon' mean?",
+    "answer": "White Mountain",
+    "options": ["Cedar Land", "White Mountain", "High Place", "Green Valley"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lebanon', p. 231"
+  },
+  {
+    "question": "What is the name of the fertile valley separating the Lebanon range from the parallel Anti-Lebanon range?",
+    "answer": "The Beqa (Coele-Syria)",
+    "options": ["The Beqa (Coele-Syria)", "The Jezreel Valley", "The Arabah", "The Shephelah"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lebanon', p. 231"
+  },
+  {
+    "question": "Which river flows northward through the Beqa Valley, while the Litani flows southward toward the Mediterranean?",
+    "answer": "The Orontes",
+    "options": ["The Orontes", "The Jabbok", "The Kishon", "The Euphrates"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lebanon', p. 231"
+  },
+  {
+    "question": "How many people in total were aboard the ship that wrecked near Malta, all of whom survived?",
+    "answer": "276",
+    "options": ["76", "150", "276", "400"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Malta', p. 302"
+  },
+  {
+    "question": "How many months did Paul stay on Malta after being shipwrecked there?",
+    "answer": "Three months",
+    "options": ["One month", "Three months", "Six months", "A year"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Malta', p. 302"
+  },
+  {
+    "question": "What venomous creature fastened itself to Paul's hand while he was building a fire on Malta?",
+    "answer": "A viper",
+    "options": ["A scorpion", "A viper", "A cobra", "A spider"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Malta', p. 302"
+  },
+  {
+    "question": "What was Philippi's original name before Philip II of Macedon renamed it after himself?",
+    "answer": "Crenides",
+    "options": ["Crenides", "Neapolis", "Amphipolis", "Apollonia"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philippi', p. 629"
+  },
+  {
+    "question": "At what seaport town did Paul land before traveling inland to Philippi?",
+    "answer": "Neapolis",
+    "options": ["Neapolis", "Troas", "Amphipolis", "Thessalonica"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philippi', p. 629"
+  },
+  {
+    "question": "What devout woman, a dealer whom Paul met by a river outside Philippi, was baptized along with her household?",
+    "answer": "Lydia",
+    "options": ["Lydia", "Priscilla", "Phoebe", "Dorcas"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philippi', p. 629"
+  },
+  {
+    "question": "Philippi holds what distinction regarding Paul's preaching in a particular continent?",
+    "answer": "It was the first city in Europe to hear Paul preach the good news",
+    "options": ["It was the first city in Europe to hear Paul preach the good news", "It was the last city Paul visited before his arrest", "It was the site of Paul's conversion", "It was where Paul wrote his final letter"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philippi', p. 629"
+  },
+  {
+    "question": "What does the name 'Shechem' mean?",
+    "answer": "Shoulder of Land",
+    "options": ["Shoulder of Land", "House of Bread", "Height", "Refuge"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shechem', p. 915"
+  },
+  {
+    "question": "What special status did the city of Shechem receive after being assigned to the Levites?",
+    "answer": "It became a city of refuge",
+    "options": ["It became a city of refuge", "It became the nation's capital", "It became a Nazirite settlement", "It became tax-exempt"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shechem', p. 915"
+  },
+  {
+    "question": "Which king, a son of Judge Gideon, destroyed the city of Shechem after crushing a revolt against his rule?",
+    "answer": "Abimelech",
+    "options": ["Abimelech", "Jotham", "Jephthah", "Tola"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Shechem', p. 915"
+  },
+  {
+    "question": "By what modern name is the ancient city of Sidon known today?",
+    "answer": "Saida",
+    "options": ["Saida", "Sur", "Beirut", "Byblos"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sidon', p. 940"
+  },
+  {
+    "question": "The city of Tyre began as a colony founded by settlers from which older Phoenician city?",
+    "answer": "Sidon",
+    "options": ["Byblos", "Sidon", "Ugarit", "Arvad"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sidon', p. 940"
+  },
+  {
+    "question": "The town of Zarephath, where Elijah was fed by a widow, was said to 'belong to' which larger city?",
+    "answer": "Sidon",
+    "options": ["Tyre", "Sidon", "Damascus", "Byblos"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sidon', p. 940"
+  },
+  {
+    "question": "By what modern name is Thessalonica known today?",
+    "answer": "Salonika (Thessaloniki)",
+    "options": ["Salonika (Thessaloniki)", "Izmir", "Antalya", "Kavala"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Thessalonica', p. 1092"
+  },
+  {
+    "question": "Cassander, who built the city of Thessalonica, named it after whom?",
+    "answer": "His wife, the sister of Alexander the Great",
+    "options": ["His wife, the sister of Alexander the Great", "His mother", "The goddess Athena", "His military mentor"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Thessalonica', p. 1092"
+  },
+  {
+    "question": "According to Insight, Paul's first letter to the Thessalonians may hold what distinction among the Christian Greek Scriptures?",
+    "answer": "It was likely the first book written, with the possible exception of Matthew's Gospel",
+    "options": ["It was likely the first book written, with the possible exception of Matthew's Gospel", "It was the longest letter Paul ever wrote", "It was the only letter co-signed by Peter", "It was written entirely in Aramaic"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Thessalonica', p. 1092"
+  },
+  {
+    "question": "Troas, the seaport from which Paul first sailed to Macedonia, was located south of which strait?",
+    "answer": "The Hellespont (Dardanelles)",
+    "options": ["The Bosporus", "The Hellespont (Dardanelles)", "The Strait of Gibraltar", "The Strait of Messina"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Troas', p. 1129"
+  },
+  {
+    "question": "The city of Troas gave its name to a surrounding region, also home to the ancient city of Troy. What was that region called?",
+    "answer": "The Troad",
+    "options": ["The Troad", "Mysia Minor", "Phrygia", "Bithynia"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Troas', p. 1129"
+  },
+  {
+    "question": "What does the name 'Tyre' mean?",
+    "answer": "Rock",
+    "options": ["Rock", "Harbor", "Purple", "Fortress"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tyre', p. 1135"
+  },
+  {
+    "question": "By what modern name is Tyre known today?",
+    "answer": "Sur",
+    "options": ["Saida", "Sur", "Byblos", "Acco"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tyre', p. 1135"
+  },
+  {
+    "question": "Which king of the Sidonians, whose realm included Tyre, was the father of Jezebel?",
+    "answer": "Ethbaal",
+    "options": ["Ethbaal", "Hiram", "Ahab", "Ben-hadad"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tyre', p. 1135"
+  },
+  {
+    "question": "What does the name 'Ramah' mean?",
+    "answer": "Height",
+    "options": ["Height", "Valley", "Spring", "Refuge"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Ramah' (No. 5), p. 731"
+  },
+  {
+    "question": "Ramah, the hometown of the prophet Samuel, is also referred to in Scripture by what longer name?",
+    "answer": "Ramathaim-zophim",
+    "options": ["Ramathaim-zophim", "Kirjath-jearim", "Ramoth-gilead", "Baalath-beer"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Ramah' (No. 5), p. 731"
+  },
+  {
+    "question": "By what name is the ancient mound of Megiddo known today?",
+    "answer": "Tell el-Mutesellim (Tel Megiddo)",
+    "options": ["Tell el-Mutesellim (Tel Megiddo)", "Tell es-Sultan", "Tell el-Hesi", "Khirbet Qeiyafa"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Megiddo', p. 365"
+  },
+  {
+    "question": "Which king of Judah was mortally wounded at Megiddo while intercepting Pharaoh Necho's army?",
+    "answer": "Josiah",
+    "options": ["Josiah", "Ahaziah", "Jehoiakim", "Amon"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Megiddo', p. 365"
+  },
+  {
+    "question": "Archaeologists at Megiddo found stable ruins that may have accommodated how many horses, initially credited to Solomon's time?",
+    "answer": "About 450",
+    "options": ["About 100", "About 250", "About 450", "About 1,000"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Megiddo', p. 365"
+  },
+  {
+    "question": "Moab, forefather of the Moabites, was the son of Lot by which of his daughters?",
+    "answer": "His older daughter",
+    "options": ["His older daughter", "His younger daughter", "Both daughters jointly", "Neither — he was adopted"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Moab', p. 418"
+  },
+  {
+    "question": "After Amorite King Sihon annexed land north of it, what became Moab's northern boundary?",
+    "answer": "The Arnon (torrent valley of Arnon)",
+    "options": ["The Jabbok", "The Arnon (torrent valley of Arnon)", "The Zered", "The Jordan"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Moab', p. 419"
+  },
+  {
+    "question": "What was the average elevation of the Moab tableland above the Mediterranean Sea?",
+    "answer": "About 900 m (3,000 ft)",
+    "options": ["About 300 m (1,000 ft)", "About 900 m (3,000 ft)", "About 1,500 m (5,000 ft)", "About 2,100 m (7,000 ft)"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Moab', p. 419"
+  },
+  {
+    "question": "Tarsus, birthplace of the apostle Paul, was the capital of which Roman province?",
+    "answer": "Cilicia",
+    "options": ["Cilicia", "Cappadocia", "Galatia", "Pamphylia"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tarsus', p. 1066"
+  },
+  {
+    "question": "Tarsus was situated near the mouth of which river?",
+    "answer": "The Cydnus River",
+    "options": ["The Cydnus River", "The Orontes River", "The Halys River", "The Maeander River"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tarsus', p. 1066"
+  },
+  {
+    "question": "What was the name of the narrow mountain gorge about 50 km north of Tarsus that formed a key point on a major trade route?",
+    "answer": "The Cilician Gates",
+    "options": ["The Cilician Gates", "The Musri Pass", "The Zagros Gates", "The Amanus Pass"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tarsus', p. 1067"
+  },
+  {
+    "question": "What modern town preserves the name of ancient Zarephath, where Elijah lodged with a widow?",
+    "answer": "Sarafand",
+    "options": ["Sarafand", "Saida", "Sur", "Byblos"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zarephath', p. 1219"
+  },
+  {
+    "question": "Who was king of Sodom when Chedorlaomer's coalition attacked and took Lot captive?",
+    "answer": "Bera",
+    "options": ["Bera", "Birsha", "Shinab", "Shemeber"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sodom', p. 984"
+  },
+  {
+    "question": "According to many scholars, where do the original sites of Sodom and the other 'cities of the District' most likely now lie?",
+    "answer": "Submerged beneath the Dead Sea",
+    "options": ["Submerged beneath the Dead Sea", "Buried under modern Amman", "Beneath the Negev desert", "Under the Sea of Galilee"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sodom', p. 984"
+  },
+  {
+    "question": "What does the name 'Smyrna' mean?",
+    "answer": "Myrrh",
+    "options": ["Myrrh", "Pearl", "Silver", "Crown"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Smyrna', p. 981"
+  },
+  {
+    "question": "By what modern name is Smyrna known today?",
+    "answer": "Izmir",
+    "options": ["Izmir", "Antalya", "Bursa", "Konya"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Smyrna', p. 981"
+  },
+  {
+    "question": "Smyrna was the second of how many Christian congregations in Asia Minor addressed in the book of Revelation?",
+    "answer": "Seven",
+    "options": ["Five", "Seven", "Nine", "Twelve"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Smyrna', p. 982"
+  }
+]

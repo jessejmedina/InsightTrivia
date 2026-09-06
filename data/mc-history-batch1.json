@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Which empire conquered Judah and destroyed Jerusalem's temple in the early sixth century B.C.E.?",
+    "answer": "Babylon",
+    "options": ["Babylon", "Assyria", "Persia", "Egypt"],
+    "category": "History",
+    "difficulty": "easy",
+    "reference": "2 Kings 25:1-10"
+  },
+  {
+    "question": "Which Persian king issued a decree allowing the Jewish exiles to return to Jerusalem and rebuild the temple?",
+    "answer": "Cyrus the Great",
+    "options": ["Cyrus the Great", "Darius", "Xerxes", "Artaxerxes"],
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "Ezra 1:1-4"
+  },
+  {
+    "question": "Which empire conquered the northern kingdom of Israel and deported its ten tribes?",
+    "answer": "Assyria",
+    "options": ["Assyria", "Babylon", "Persia", "Rome"],
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "2 Kings 17:5-6"
+  },
+  {
+    "question": "What title was commonly used in the Bible for the rulers of ancient Egypt?",
+    "answer": "Pharaoh",
+    "options": ["Pharaoh", "Satrap", "Caesar", "Tetrarch"],
+    "category": "History",
+    "difficulty": "easy",
+    "reference": "Exodus 1:8-11"
+  },
+  {
+    "question": "Whose rapid conquests spread Greek language and culture across the Near East, later relevant to New Testament times?",
+    "answer": "Alexander the Great",
+    "options": ["Alexander the Great", "Julius Caesar", "Cyrus the Great", "Nebuchadnezzar"],
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "General ancient history; foreshadowed at Daniel 8:5-7, 21"
+  },
+  {
+    "question": "Which empire ruled over Judea during Jesus's earthly life?",
+    "answer": "The Roman Empire",
+    "options": ["The Roman Empire", "The Persian Empire", "The Greek Empire", "The Babylonian Empire"],
+    "category": "History",
+    "difficulty": "easy",
+    "reference": "Luke 2:1-2"
+  },
+  {
+    "question": "Which Roman emperor was reigning at the time of Jesus's birth, according to Luke's Gospel?",
+    "answer": "Caesar Augustus",
+    "options": ["Caesar Augustus", "Tiberius", "Nero", "Claudius"],
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "Luke 2:1"
+  },
+  {
+    "question": "Which Babylonian king dreamed of a giant statue made of different metals, later interpreted by Daniel?",
+    "answer": "Nebuchadnezzar",
+    "options": ["Nebuchadnezzar", "Belshazzar", "Cyrus", "Darius"],
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "Daniel 2:1, 31-35"
+  },
+  {
+    "question": "During whose feast did mysterious handwriting appear on the wall, foretelling Babylon's fall?",
+    "answer": "Belshazzar",
+    "options": ["Belshazzar", "Nebuchadnezzar", "Nabonidus", "Cyrus"],
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Daniel 5:1-6, 25-28"
+  },
+  {
+    "question": "According to the book of Nehemiah, about how many days did it take to rebuild Jerusalem's wall after the exile?",
+    "answer": "52 days",
+    "options": ["52 days", "7 days", "365 days", "10 days"],
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Nehemiah 6:15"
+  },
+  {
+    "question": "Which empire's provincial governors were called \"satraps,\" a term used in the books of Esther and Daniel?",
+    "answer": "The Persian Empire",
+    "options": ["The Persian Empire", "The Roman Empire", "The Babylonian Empire", "The Egyptian Empire"],
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Esther 3:12; Daniel 6:1"
+  },
+  {
+    "question": "In which country did the Israelites live as slaves before the Exodus, according to the Bible?",
+    "answer": "Egypt",
+    "options": ["Egypt", "Assyria", "Babylon", "Canaan"],
+    "category": "History",
+    "difficulty": "easy",
+    "reference": "Exodus 1:8-14"
+  },
+  {
+    "question": "Which two peoples combined to conquer Babylon in 539 B.C.E., ending the Neo-Babylonian Empire?",
+    "answer": "The Medes and the Persians",
+    "options": ["The Medes and the Persians", "The Greeks and the Egyptians", "The Assyrians and the Hittites", "The Romans and the Parthians"],
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "Daniel 5:30-31"
+  },
+  {
+    "question": "According to Daniel's prophecy, which empire followed Babylon as the next dominant world power?",
+    "answer": "Medo-Persia",
+    "options": ["Medo-Persia", "Greece", "Rome", "Egypt"],
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "Daniel 2:36-39"
+  },
+  {
+    "question": "What was the name of the major ancient trade route linking Egypt with Mesopotamia through Canaan, used by armies and merchants alike?",
+    "answer": "The Via Maris (the way of the sea)",
+    "options": ["The Via Maris (the way of the sea)", "The King's Highway", "The Silk Road", "The Appian Way"],
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "General ancient Near Eastern geography; cf. Isaiah 9:1"
+  }
+]

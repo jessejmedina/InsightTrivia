@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Which prophet was swallowed by a great fish after fleeing from his commission to preach in Nineveh?",
+    "answer": "Jonah",
+    "options": ["Jonah", "Elijah", "Jeremiah", "Amos"],
+    "category": "Prophets",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, \"Jonah,\" p. 98"
+  },
+  {
+    "question": "Which prophet was taken up to heaven in a windstorm, in a fiery chariot?",
+    "answer": "Elijah",
+    "options": ["Elijah", "Elisha", "Enoch", "Moses"],
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "2 Kings 2:11"
+  },
+  {
+    "question": "Which prophet is traditionally credited with writing the book of Lamentations over Jerusalem's destruction?",
+    "answer": "Jeremiah",
+    "options": ["Jeremiah", "Isaiah", "Ezekiel", "Habakkuk"],
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, \"Jeremiah,\" p. 31"
+  },
+  {
+    "question": "Which prophet had a vision of a valley of dry bones coming back to life?",
+    "answer": "Ezekiel",
+    "options": ["Ezekiel", "Daniel", "Zechariah", "Joel"],
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Ezekiel 37:1-14"
+  },
+  {
+    "question": "Which prophet was thrown into a den of lions for continuing to pray to God?",
+    "answer": "Daniel",
+    "options": ["Daniel", "Jeremiah", "Ezekiel", "Amos"],
+    "category": "Prophets",
+    "difficulty": "easy",
+    "reference": "Daniel 6:10-23"
+  },
+  {
+    "question": "Which minor prophet was instructed by God to marry an unfaithful woman as a living illustration of Israel's unfaithfulness?",
+    "answer": "Hosea",
+    "options": ["Hosea", "Joel", "Amos", "Micah"],
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Hosea 1:2-3"
+  },
+  {
+    "question": "Which prophet confronted the prophets of Baal in a contest at Mount Carmel?",
+    "answer": "Elijah",
+    "options": ["Elijah", "Elisha", "Samuel", "Nathan"],
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "1 Kings 18:19-40"
+  },
+  {
+    "question": "Which prophetic book is described as the shortest in the Hebrew Scriptures, consisting of just one chapter?",
+    "answer": "Obadiah",
+    "options": ["Obadiah", "Nahum", "Joel", "Zephaniah"],
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, \"Obadiah, Book Of\""
+  },
+  {
+    "question": "Which minor prophet, whose name means \"Comforter,\" foretold the destruction of Nineveh?",
+    "answer": "Nahum",
+    "options": ["Nahum", "Jonah", "Habakkuk", "Malachi"],
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, \"Nahum\""
+  },
+  {
+    "question": "Which prophetic book is the final book of the Hebrew Scriptures in most common Bible orderings?",
+    "answer": "Malachi",
+    "options": ["Malachi", "Zechariah", "Haggai", "Obadiah"],
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, \"Malachi, Book Of,\" p. 298-299"
+  },
+  {
+    "question": "Which minor prophet described a devastating plague of locusts as a warning of \"the day of Jehovah\"?",
+    "answer": "Joel",
+    "options": ["Joel", "Amos", "Micah", "Zephaniah"],
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Joel 1:2-4; 2:1"
+  },
+  {
+    "question": "Which major prophet is, according to Jewish tradition, said to have been sawn in two during the reign of a wicked king?",
+    "answer": "Isaiah",
+    "options": ["Isaiah", "Jeremiah", "Ezekiel", "Daniel"],
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Hebrews 11:37 (traditional identification)"
+  },
+  {
+    "question": "Which prophet, along with Haggai, encouraged the returned exiles to resume rebuilding the Jerusalem temple?",
+    "answer": "Zechariah",
+    "options": ["Zechariah", "Malachi", "Ezra", "Nehemiah"],
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Ezra 5:1-2; Insight on the Scriptures, Vol. 2, \"Zechariah\""
+  },
+  {
+    "question": "Which prophet described himself as a herdsman from Tekoa before God called him to prophesy?",
+    "answer": "Amos",
+    "options": ["Amos", "Micah", "Hosea", "Obadiah"],
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Amos 1:1; 7:14-15"
+  },
+  {
+    "question": "Which prophet confronted King David about his sin against Uriah, using a parable of a rich man and a poor man's lamb?",
+    "answer": "Nathan",
+    "options": ["Nathan", "Samuel", "Gad", "Elijah"],
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "2 Samuel 12:1-7; Insight on the Scriptures, Vol. 2, \"Nathan\""
+  }
+]

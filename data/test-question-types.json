@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Put these events of the Genesis creation account in the order they are described.",
+    "type": "ordering",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, 'Creation'",
+    "payload": {
+      "items": [
+        "Light",
+        "An expanse separating the waters (sky)",
+        "Dry land, seas, and vegetation",
+        "Sun, moon, and stars made discernible"
+      ]
+    }
+  },
+  {
+    "question": "Arrange these events from the early life of Moses from earliest to latest.",
+    "type": "ordering",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, 'Moses'",
+    "payload": {
+      "items": [
+        "Placed in a basket on the Nile as a baby",
+        "Flees Egypt to Midian",
+        "Encounters the burning bush",
+        "Confronts Pharaoh and the ten plagues follow"
+      ]
+    }
+  },
+  {
+    "question": "Match each person to what they are best known for.",
+    "type": "matching",
+    "category": "Bible Basics",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures",
+    "payload": {
+      "pairs": [
+        { "left": "Noah", "right": "Built an ark to survive the Flood" },
+        { "left": "Jonah", "right": "Was swallowed by a great fish" },
+        { "left": "David", "right": "Killed the giant Goliath" },
+        { "left": "Solomon", "right": "Built the first temple in Jerusalem" }
+      ]
+    }
+  },
+  {
+    "question": "Match each location to the event associated with it.",
+    "type": "matching",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures",
+    "payload": {
+      "pairs": [
+        { "left": "Bethlehem", "right": "Jesus' birth" },
+        { "left": "Jordan River", "right": "Jesus' baptism" },
+        { "left": "Golgotha", "right": "Jesus' execution" },
+        { "left": "Mount Sinai", "right": "Giving of the Law" }
+      ]
+    }
+  }
+]

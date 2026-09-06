@@ -1,0 +1,122 @@
+[
+  {
+    "question": "How many books make up the commonly used Protestant Bible canon in total?",
+    "answer": "66",
+    "options": ["66", "73", "39", "27"],
+    "category": "Bible Basics",
+    "difficulty": "medium",
+    "reference": "General Bible canon structure"
+  },
+  {
+    "question": "What is the first book of the Bible?",
+    "answer": "Genesis",
+    "options": ["Genesis", "Exodus", "Leviticus", "Numbers"],
+    "category": "Bible Basics",
+    "difficulty": "easy",
+    "reference": "General Bible structure"
+  },
+  {
+    "question": "What is the last book of the Christian Greek Scriptures (New Testament)?",
+    "answer": "Revelation",
+    "options": ["Revelation", "Jude", "Acts", "Hebrews"],
+    "category": "Bible Basics",
+    "difficulty": "easy",
+    "reference": "General Bible structure"
+  },
+  {
+    "question": "What are the first five books of the Bible, traditionally attributed to Moses, collectively called?",
+    "answer": "The Pentateuch",
+    "options": ["The Pentateuch", "The Gospels", "The Major Prophets", "The Wisdom Books"],
+    "category": "Bible Basics",
+    "difficulty": "medium",
+    "reference": "General Bible structure"
+  },
+  {
+    "question": "Into how many chapters is the book of Psalms divided?",
+    "answer": "150",
+    "options": ["150", "119", "66", "200"],
+    "category": "Bible Basics",
+    "difficulty": "medium",
+    "reference": "General Bible structure"
+  },
+  {
+    "question": "Which book of the Bible is known for its short, practical wisdom sayings, largely attributed to Solomon?",
+    "answer": "Proverbs",
+    "options": ["Proverbs", "Psalms", "Ecclesiastes", "Job"],
+    "category": "Bible Basics",
+    "difficulty": "easy",
+    "reference": "General Bible structure"
+  },
+  {
+    "question": "In which original language was most of the Hebrew Scriptures written?",
+    "answer": "Hebrew",
+    "options": ["Hebrew", "Greek", "Aramaic", "Latin"],
+    "category": "Bible Basics",
+    "difficulty": "medium",
+    "reference": "General Bible background"
+  },
+  {
+    "question": "In which original language was the Christian Greek Scriptures (New Testament) written?",
+    "answer": "Greek",
+    "options": ["Greek", "Hebrew", "Aramaic", "Latin"],
+    "category": "Bible Basics",
+    "difficulty": "medium",
+    "reference": "General Bible background"
+  },
+  {
+    "question": "How many Gospel accounts of Jesus's life are included in the Bible?",
+    "answer": "Four",
+    "options": ["Four", "Three", "Five", "Two"],
+    "category": "Bible Basics",
+    "difficulty": "easy",
+    "reference": "General Bible structure"
+  },
+  {
+    "question": "Which Gospel writer is identified in the Bible as having been a physician by profession?",
+    "answer": "Luke",
+    "options": ["Luke", "Matthew", "Mark", "John"],
+    "category": "Bible Basics",
+    "difficulty": "medium",
+    "reference": "Colossians 4:14"
+  },
+  {
+    "question": "What term describes the first four books of the Christian Greek Scriptures, which record Jesus's life and ministry?",
+    "answer": "The Gospels",
+    "options": ["The Gospels", "The Epistles", "The Prophets", "The Acts"],
+    "category": "Bible Basics",
+    "difficulty": "easy",
+    "reference": "General Bible structure"
+  },
+  {
+    "question": "Which book of the Bible contains the account of a global flood and Noah's ark?",
+    "answer": "Genesis",
+    "options": ["Genesis", "Exodus", "Job", "Numbers"],
+    "category": "Bible Basics",
+    "difficulty": "easy",
+    "reference": "Genesis 6-8"
+  },
+  {
+    "question": "Which poetic Bible book, largely a collection of songs, is traditionally associated most closely with King David?",
+    "answer": "Psalms",
+    "options": ["Psalms", "Proverbs", "Song of Solomon", "Lamentations"],
+    "category": "Bible Basics",
+    "difficulty": "easy",
+    "reference": "General Bible background"
+  },
+  {
+    "question": "Which book of the Bible consists of letters to seven congregations in Asia Minor along with prophetic visions?",
+    "answer": "Revelation",
+    "options": ["Revelation", "Hebrews", "Acts", "Jude"],
+    "category": "Bible Basics",
+    "difficulty": "medium",
+    "reference": "Revelation 1:4, 11"
+  },
+  {
+    "question": "In Insight on the Scriptures, what terms are used instead of \"Old Testament\" and \"New Testament\"?",
+    "answer": "Hebrew Scriptures and Christian Greek Scriptures",
+    "options": ["Hebrew Scriptures and Christian Greek Scriptures", "First Covenant and Second Covenant", "Law and Gospel", "Torah and Injil"],
+    "category": "Bible Basics",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, terminology conventions"
+  }
+]

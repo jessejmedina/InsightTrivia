@@ -1,0 +1,186 @@
+[
+  {
+    "question": "Where was Kish, the father of King Saul, buried?",
+    "answer": "Zela",
+    "options": ["Zela", "Gibeah", "Ramah", "Ziklag"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Kish' (No. 3), p. 176"
+  },
+  {
+    "question": "In what town was Kish, Saul's father, a wealthy resident?",
+    "answer": "Gibeah",
+    "options": ["Bethlehem", "Gibeah", "Hebron", "Shiloh"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Kish' (No. 3), p. 176"
+  },
+  {
+    "question": "How many days did Zimri rule as king of Israel before Omri's forces besieged him, leading him to burn the palace down over himself?",
+    "answer": "Seven days",
+    "options": ["Seven days", "Forty days", "One year", "Three months"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Omri' (No. 3), p. 554"
+  },
+  {
+    "question": "Omri was the first king of Israel forced to do what to Assyria?",
+    "answer": "Pay tribute",
+    "options": ["Pay tribute", "Marry an Assyrian princess", "Adopt Assyrian gods", "Cede territory"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Omri' (No. 3), p. 554"
+  },
+  {
+    "question": "Assyrian records continued referring to Israel by what name long after Omri's own dynasty had ended?",
+    "answer": "The land of Omri",
+    "options": ["The land of Omri", "The land of Jehu", "The land of Ahab", "The land of Jeroboam"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Omri' (No. 3), p. 554"
+  },
+  {
+    "question": "How many years did Menahem reign as king of Israel?",
+    "answer": "Ten years",
+    "options": ["Six years", "Ten years", "Twenty-two years", "Two years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Menahem', p. 371"
+  },
+  {
+    "question": "How many talents of silver did Menahem pay the Assyrian king Pul (Tiglath-Pileser III) as tribute?",
+    "answer": "1,000 talents",
+    "options": ["100 talents", "500 talents", "1,000 talents", "2,000 talents"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Menahem', p. 371"
+  },
+  {
+    "question": "To raise the tribute money for Pul, Menahem taxed approximately how many wealthy men of Israel?",
+    "answer": "60,000",
+    "options": ["6,000", "20,000", "60,000", "100,000"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Menahem', p. 371"
+  },
+  {
+    "question": "In what year B.C.E. did manna first appear to the Israelites, in the Wilderness of Sin?",
+    "answer": "1513 B.C.E.",
+    "options": ["1473 B.C.E.", "1513 B.C.E.", "1593 B.C.E.", "1453 B.C.E."],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Manna', p. 309"
+  },
+  {
+    "question": "What unit of measure of manna did Aaron deposit in a jar as a memorial for future generations?",
+    "answer": "An omer",
+    "options": ["A homer", "An omer", "An ephah", "A hin"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Manna', p. 310"
+  },
+  {
+    "question": "What did the Israelites contemptuously call manna when they grew tired of it, provoking Jehovah's judgment by poisonous serpents?",
+    "answer": "\"Contemptible bread\"",
+    "options": ["\"Contemptible bread\"", "\"Bitter bread\"", "\"Bread of affliction\"", "\"Tasteless bread\""],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Manna', p. 310"
+  },
+  {
+    "question": "In what country was Nadab, the firstborn son of Aaron, born?",
+    "answer": "Egypt",
+    "options": ["Egypt", "Midian", "Canaan", "Sinai"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nadab' (No. 1), p. 460"
+  },
+  {
+    "question": "Along with Aaron, Moses, and Abihu, how many other Israelite elders went up Sinai and saw a vision of Jehovah?",
+    "answer": "70",
+    "options": ["12", "40", "70", "100"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nadab' (No. 1), p. 460"
+  },
+  {
+    "question": "How many years did Kohath, son of Levi, live?",
+    "answer": "133 years",
+    "options": ["120 years", "133 years", "147 years", "175 years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Kohath', p. 183"
+  },
+  {
+    "question": "How many cities were the Kohathite Levites assigned after the conquest of Canaan?",
+    "answer": "23",
+    "options": ["13", "23", "35", "48"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Kohath', p. 183"
+  },
+  {
+    "question": "How did the Kohathites carry the sacred tabernacle furnishings, unlike other Levites who used wagons?",
+    "answer": "On their shoulders",
+    "options": ["On their shoulders", "In wagons", "On donkeys", "By boat"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Kohath', p. 183"
+  },
+  {
+    "question": "How many years did Pekah reign as king of Israel?",
+    "answer": "20 years",
+    "options": ["10 years", "20 years", "6 months", "2 years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pekah', p. 594"
+  },
+  {
+    "question": "Whom did Pekah assassinate, with the help of 50 men of Gilead, to seize the throne of Israel?",
+    "answer": "Pekahiah",
+    "options": ["Zechariah", "Shallum", "Pekahiah", "Menahem"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pekah', p. 594"
+  },
+  {
+    "question": "According to Insight, how many valiant men of Judah did Pekah's forces kill in a single day?",
+    "answer": "120,000",
+    "options": ["12,000", "50,000", "120,000", "200,000"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pekah', p. 595"
+  },
+  {
+    "question": "Which prophet successfully urged Israel to release the 200,000 Judean captives taken during Pekah's invasion?",
+    "answer": "Oded",
+    "options": ["Isaiah", "Oded", "Hosea", "Micah"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pekah', p. 595"
+  },
+  {
+    "question": "Midian, ancestor of the Midianites, was a son of Abraham by which wife?",
+    "answer": "Keturah",
+    "options": ["Hagar", "Keturah", "Sarah", "Zipporah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Midian' (No. 1), p. 396"
+  },
+  {
+    "question": "How many kings of Midian were killed in Israel's campaign of vengeance recorded in Numbers 31?",
+    "answer": "Five",
+    "options": ["Three", "Five", "Seven", "Twelve"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Midian' (No. 2), p. 396"
+  },
+  {
+    "question": "For how many years did the Midianites oppress Israel before Gideon rose up to deliver them?",
+    "answer": "Seven years",
+    "options": ["Seven years", "Forty years", "Three years", "Twenty years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Midian' (No. 2), p. 397"
+  }
+]

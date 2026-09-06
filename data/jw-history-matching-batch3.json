@@ -1,0 +1,171 @@
+[
+  {
+    "question": "Match each Watch Tower Society president to their place in the succession.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 9-10",
+    "payload": { "pairs": [
+      { "left": "Charles Taze Russell", "right": "First president, founder of Zion's Watch Tower" },
+      { "left": "Joseph F. Rutherford", "right": "Second president" },
+      { "left": "Nathan H. Knorr", "right": "Third president, died 1977" },
+      { "left": "Frederick W. Franz", "right": "Fourth president, elected June 22, 1977" }
+    ] }
+  },
+  {
+    "question": "Match each 1970s-1980s publication to the year it was released.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 9",
+    "payload": { "pairs": [
+      { "left": "Insight on the Scriptures", "right": "1988" },
+      { "left": "The Greatest Man Who Ever Lived", "right": "1991" },
+      { "left": "You Can Live Forever in Paradise on Earth", "right": "1982" },
+      { "left": "Mankind's Search for God", "right": "1990" }
+    ] }
+  },
+  {
+    "question": "Match each historical Trinity-denier to their description.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 10, p. 125",
+    "payload": { "pairs": [
+      { "left": "Ferenc Dávid", "right": "Hungarian who died in prison for his beliefs" },
+      { "left": "Sir Isaac Newton", "right": "English scientist who feared publishing his views in his lifetime" },
+      { "left": "Henry Grew", "right": "Wrote a detailed 1824 examination of the subject in America" },
+      { "left": "The Minor Reformed Church", "right": "Flourished in Poland for about a century" }
+    ] }
+  },
+  {
+    "question": "Match each blood-related publication to the year it was released.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 13",
+    "payload": { "pairs": [
+      { "left": "Blood, Medicine and the Law of God", "right": "1961" },
+      { "left": "Jehovah's Witnesses and the Question of Blood", "right": "1977" },
+      { "left": "How Can Blood Save Your Life?", "right": "1990" },
+      { "left": "The Watchtower's first specific mention of transfusions", "right": "1944" }
+    ] }
+  },
+  {
+    "question": "Match each person to what they recalled or said about the 1931 name adoption.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 11",
+    "payload": { "pairs": [
+      { "left": "A. H. Macmillan", "right": "Said the Lord guided Rutherford in choosing the name" },
+      { "left": "Chandler W. Sterling", "right": "Called it \"the greatest stroke of genius\" by Rutherford" },
+      { "left": "Martin Poetzinger", "right": "Recalled astonished reactions when introducing the new name" },
+      { "left": "Eva Abbott", "right": "Had a booklet snatched by a clergyman's dog" }
+    ] }
+  },
+  {
+    "question": "Match each doctrinal understanding to the year it was adjusted or clarified.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 10",
+    "payload": { "pairs": [
+      { "left": "\"Superior authorities\" identified as secular rulers", "right": "1962" },
+      { "left": "\"Babylon the Great\" enlarged to all false religion", "right": "1963" },
+      { "left": "\"Birth of the Nation\" identifies the Kingdom's 1914 birth", "right": "1925" },
+      { "left": "Isaiah 54:13 replaces the editorial-committee listing", "right": "1931" }
+    ] }
+  },
+  {
+    "question": "Match each Revelation-related publication to its approximate release period.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 10, p. 139",
+    "payload": { "pairs": [
+      { "left": "The Finished Mystery", "right": "1917" },
+      { "left": "Light (two volumes)", "right": "1930" },
+      { "left": "\"Babylon the Great Has Fallen!\" God's Kingdom Rules!", "right": "1960's" },
+      { "left": "Revelation—Its Grand Climax At Hand!", "right": "1988" }
+    ] }
+  },
+  {
+    "question": "Match each term from Chapters 12-13 to its meaning.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 12-13",
+    "payload": { "pairs": [
+      { "left": "Jonadabs", "right": "Earthly-hope class named after Jehonadab" },
+      { "left": "The great crowd", "right": "Identified in 1935 as earthly \"other sheep\"" },
+      { "left": "The 144,000", "right": "The heavenly \"little flock\"" },
+      { "left": "Ancient worthies", "right": "Faithful pre-Christian servants to serve as earthly princes" }
+    ] }
+  },
+  {
+    "question": "Match each person connected to the 1935 \"great crowd\" identification to their part in the account.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 12, p. 165-166",
+    "payload": { "pairs": [
+      { "left": "Grant Suiter", "right": "Asked an unanswered question at a Bethel study, later saw it resolved" },
+      { "left": "T. J. Sullivan", "right": "Conducted the Bethel study where the question was raised" },
+      { "left": "Webster Roe", "right": "Recalled over half the audience standing at Rutherford's invitation" },
+      { "left": "J. F. Rutherford", "right": "Asked those hoping to live forever on earth to stand" }
+    ] }
+  },
+  {
+    "question": "Match each early chronologist to what they calculated about the \"Gentile Times.\"",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 10, p. 133-134",
+    "payload": { "pairs": [
+      { "left": "John A. Brown", "right": "Calculated the \"seven times\" of Daniel as 2,520 years (1823)" },
+      { "left": "E. B. Elliott", "right": "Pointed to 1914 as a possible end date (1844)" },
+      { "left": "Robert Seeley", "right": "Handled the matter similarly (1849)" },
+      { "left": "N. H. Barbour", "right": "Identified the start via Zedekiah's removal (1875)" }
+    ] }
+  },
+  {
+    "question": "Match each country to the blood-transfusion event associated with it in Chapter 13.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 13, p. 183",
+    "payload": { "pairs": [
+      { "left": "Puerto Rico", "right": "Ana Paz de Rosario died after a forced transfusion (1976)" },
+      { "left": "Denmark", "right": "Parents were pursued by police over their son's care (1975)" },
+      { "left": "Italy", "right": "A couple was sentenced to 14 years after their daughter's death (1982)" },
+      { "left": "Canada", "right": "The Ontario Court of Appeal upheld a damage suit (1990)" }
+    ] }
+  },
+  {
+    "question": "Match each divine-name publication to the year it was released.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 10, p. 129",
+    "payload": { "pairs": [
+      { "left": "Jehovah", "right": "1934" },
+      { "left": "Let Your Name Be Sanctified", "right": "1961" },
+      { "left": "\"The Nations Shall Know That I Am Jehovah\"—How?", "right": "1971" },
+      { "left": "The Divine Name That Will Endure Forever", "right": "1984" }
+    ] }
+  },
+  {
+    "question": "Match each moral-conduct Watchtower article to the year it appeared.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 13, p. 173-174",
+    "payload": { "pairs": [
+      { "left": "\"Character or Covenant—Which?\"", "right": "1926" },
+      { "left": "\"Noah's Day\"", "right": "1941" },
+      { "left": "\"Character or Integrity—Which?\"", "right": "1941" },
+      { "left": "The polygamy six-month-notice letter", "right": "1947" }
+    ] }
+  }
+]

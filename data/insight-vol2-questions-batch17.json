@@ -1,0 +1,138 @@
+[
+  {
+    "question": "Talmai, king of Geshur, was the grandfather of which son of David who fled to him after killing his half-brother Amnon?",
+    "answer": "Absalom",
+    "options": ["Amnon", "Absalom", "Adonijah", "Solomon"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Talmai' (No. 2), p. 1063"
+  },
+  {
+    "question": "What was the name of Talmai's daughter, who bore Absalom to David?",
+    "answer": "Maacah",
+    "options": ["Ahinoam", "Maacah", "Haggith", "Abital"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Talmai' (No. 2), p. 1063"
+  },
+  {
+    "question": "Zeredah, in the region of Ephraim, was the hometown of which king of Israel?",
+    "answer": "Jeroboam (I)",
+    "options": ["Jeroboam (I)", "Omri", "Baasha", "Zimri"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zeredah' (No. 1), p. 1232"
+  },
+  {
+    "question": "What was the name of Jeroboam I's mother, a widow at the time he rebelled against Solomon?",
+    "answer": "Zeruah",
+    "options": ["Zeruah", "Zeruiah", "Zibiah", "Zeresh"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zeruah', p. 1232"
+  },
+  {
+    "question": "Which Persian king defeated Croesus, the last king of Lydia, capturing the wealthy city of Sardis?",
+    "answer": "Cyrus the Great",
+    "options": ["Darius", "Cyrus the Great", "Xerxes", "Cambyses"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sardis', p. 864"
+  },
+  {
+    "question": "In what year C.E. did a great earthquake nearly level the city of Sardis?",
+    "answer": "17 C.E.",
+    "options": ["17 C.E.", "33 C.E.", "70 C.E.", "95 C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sardis', p. 864"
+  },
+  {
+    "question": "Which ruler of Pergamum built an immense library said to rival the famous one in Alexandria?",
+    "answer": "Eumenes II",
+    "options": ["Attalus I", "Eumenes II", "Attalus III", "Philetaerus"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pergamum', p. 607"
+  },
+  {
+    "question": "Which Attalid king willed the city of Pergamum to Rome upon his death in 133 B.C.E.?",
+    "answer": "Attalus III",
+    "options": ["Attalus I", "Eumenes II", "Attalus III", "Lysimachus"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Pergamum', p. 607"
+  },
+  {
+    "question": "The city of Laodicea was named after the wife of which Seleucid ruler?",
+    "answer": "Antiochus II",
+    "options": ["Antiochus II", "Alexander the Great", "Ptolemy I", "Seleucus I"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Laodicea', p. 204"
+  },
+  {
+    "question": "Besides its glossy black wool, what medical product was Laodicea's famous medical school known for producing?",
+    "answer": "Eye medicine (Phrygian powder)",
+    "options": ["A fever remedy", "Eye medicine (Phrygian powder)", "A snakebite antidote", "A skin ointment"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Laodicea', p. 205"
+  },
+  {
+    "question": "In what Galilean city did Jesus resurrect the only son of a widow during a funeral procession?",
+    "answer": "Nain",
+    "options": ["Nain", "Cana", "Capernaum", "Chorazin"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nain', p. 463"
+  },
+  {
+    "question": "About how far did Jesus travel to reach Nain from Capernaum during his first preaching tour of Galilee?",
+    "answer": "About 35 km (22 mi)",
+    "options": ["About 10 km (6 mi)", "About 35 km (22 mi)", "About 60 km (37 mi)", "About 90 km (56 mi)"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nain', p. 464"
+  },
+  {
+    "question": "What product did Lydia, one of the first European converts to Christianity, sell at Philippi?",
+    "answer": "Purple (dye or dyed fabric)",
+    "options": ["Purple (dye or dyed fabric)", "Fine linen", "Olive oil", "Papyrus scrolls"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lydia', p. 285"
+  },
+  {
+    "question": "In which city of Asia Minor, known for its dyeing industry, did Lydia originally live before moving to Philippi?",
+    "answer": "Thyatira",
+    "options": ["Thyatira", "Sardis", "Smyrna", "Ephesus"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lydia', p. 285"
+  },
+  {
+    "question": "Nicanor was one of seven men chosen for what task in the early Jerusalem congregation?",
+    "answer": "Overseeing the daily distribution of food to widows",
+    "options": ["Overseeing the daily distribution of food to widows", "Guarding the temple treasury", "Teaching new converts the Law", "Translating Scripture into Greek"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nicanor', p. 498"
+  },
+  {
+    "question": "What position did Sosthenes hold in Corinth before his conversion to Christianity?",
+    "answer": "Presiding officer of the Corinthian synagogue",
+    "options": ["Roman proconsul of Corinth", "Presiding officer of the Corinthian synagogue", "Chief tax collector of Corinth", "High priest of the local temple"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sosthenes', p. 1004"
+  },
+  {
+    "question": "In which of his letters does Paul mention Sosthenes as \"our brother\"?",
+    "answer": "His first letter to the Corinthians",
+    "options": ["His letter to the Romans", "His first letter to the Corinthians", "His letter to the Galatians", "His first letter to the Thessalonians"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Sosthenes', p. 1004"
+  }
+]

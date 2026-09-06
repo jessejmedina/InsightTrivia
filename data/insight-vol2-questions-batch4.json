@@ -1,0 +1,274 @@
+[
+  {
+    "question": "Which prophet did Jehovah say he had 'formed in the belly' and appointed as 'a prophet to the nations' before his birth?",
+    "answer": "Jeremiah",
+    "options": ["Isaiah", "Ezekiel", "Jeremiah", "Samuel"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jeremiah', p. 31"
+  },
+  {
+    "question": "What personal command from Jehovah, symbolizing coming national disaster, shaped much of Jeremiah's lifestyle?",
+    "answer": "He was commanded not to marry",
+    "options": ["He was told to shave his head", "He was commanded not to marry", "He was forbidden to eat meat", "He was required to live outside the city"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jeremiah', p. 31"
+  },
+  {
+    "question": "Besides the book bearing his name, which two historical Bible books is Jeremiah traditionally credited with writing?",
+    "answer": "First and Second Kings",
+    "options": ["Ezra and Nehemiah", "Chronicles and Ruth", "First and Second Kings", "Joshua and Judges"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jeremiah', p. 31"
+  },
+  {
+    "question": "About how many years did Jeremiah serve as a prophet, according to Insight?",
+    "answer": "More than 40 years",
+    "options": ["About 20 years", "More than 40 years", "About 60 years", "About 10 years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Jeremiah', p. 31"
+  },
+  {
+    "question": "In what land did Job live, according to the book that bears his name?",
+    "answer": "Uz",
+    "options": ["Aram", "Uz", "Edom", "Moab"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Job', p. 81"
+  },
+  {
+    "question": "According to Insight, who is traditionally credited with writing the book of Job?",
+    "answer": "Moses",
+    "options": ["Solomon", "Ezra", "Moses", "Job himself"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Job', p. 81"
+  },
+  {
+    "question": "Name the three companions of Job whose arguments Insight describes as erroneous.",
+    "answer": "Eliphaz, Bildad, and Zophar",
+    "options": ["Elihu, Balaam, and Ahab", "Eliphaz, Bildad, and Zophar", "Nahor, Terah, and Haran", "Shem, Ham, and Japheth"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Job', p. 81"
+  },
+  {
+    "question": "Who was the young bystander that corrected both Job and his three companions before God himself spoke?",
+    "answer": "Elihu",
+    "options": ["Zophar", "Bildad", "Eliphaz", "Elihu"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Job', p. 81"
+  },
+  {
+    "question": "What was the name of John the Baptist's priestly father?",
+    "answer": "Zechariah",
+    "options": ["Zechariah", "Amoz", "Barachiah", "Iddo"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'John' (John the Baptist), p. 88"
+  },
+  {
+    "question": "What made up John the Baptist's diet while preaching in the wilderness?",
+    "answer": "Locusts and wild honey",
+    "options": ["Bread and fish", "Locusts and wild honey", "Figs and dates", "Manna and quail"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'John' (John the Baptist), p. 88"
+  },
+  {
+    "question": "What nickname, meaning 'Sons of Thunder,' did Jesus give to the apostle John and his brother James?",
+    "answer": "Boanerges",
+    "options": ["Cephas", "Boanerges", "Barnabas", "Iscariot"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'John' (the Apostle), p. 90"
+  },
+  {
+    "question": "On what island was the apostle John exiled when he received the vision recorded in Revelation?",
+    "answer": "Patmos",
+    "options": ["Crete", "Cyprus", "Patmos", "Malta"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'John' (the Apostle), p. 90"
+  },
+  {
+    "question": "What responsibility did the dying Jesus entrust to the apostle John?",
+    "answer": "The care of Jesus' mother, Mary",
+    "options": ["The care of Jesus' mother, Mary", "The keeping of the common money box", "The writing of the fourth Gospel", "The leadership of the Jerusalem congregation"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'John' (the Apostle), p. 90"
+  },
+  {
+    "question": "What does the name 'Lazarus' mean, according to Insight?",
+    "answer": "God Has Helped",
+    "options": ["Beloved of Jah", "Gift of Jehovah", "God Has Helped", "Jehovah Has Remembered"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lazarus', p. 225"
+  },
+  {
+    "question": "In what village did Lazarus live with his sisters Martha and Mary?",
+    "answer": "Bethany",
+    "options": ["Bethphage", "Bethany", "Bethsaida", "Emmaus"],
+    "category": "Places",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lazarus', p. 225"
+  },
+  {
+    "question": "How many days had Lazarus been dead when Jesus arrived at his tomb?",
+    "answer": "Four days",
+    "options": ["Two days", "Three days", "Four days", "Seven days"],
+    "category": "Chronology",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Lazarus', p. 225"
+  },
+  {
+    "question": "The apostle Thomas was also called Didymus. What does that name mean?",
+    "answer": "Twin",
+    "options": ["Rock", "Twin", "Beloved", "Zealous"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Thomas', p. 1095"
+  },
+  {
+    "question": "How many days after his resurrection did Jesus give Thomas the chance to feel his wounds?",
+    "answer": "Eight days",
+    "options": ["Three days", "Eight days", "Forty days", "One day"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Thomas', p. 1095"
+  },
+  {
+    "question": "What does the name 'Zechariah' mean?",
+    "answer": "Jehovah Has Remembered",
+    "options": ["Jehovah Is Righteous", "Jehovah Is Salvation", "Jehovah Has Remembered", "Jehovah Is Gracious"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zechariah' (king of Israel), p. 1223"
+  },
+  {
+    "question": "Which king of Israel, a son of Jeroboam II, was the last ruler of Jehu's dynasty and reigned only six months?",
+    "answer": "Zechariah",
+    "options": ["Jehoahaz", "Zechariah", "Menahem", "Pekahiah"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zechariah' (king of Israel), p. 1223"
+  },
+  {
+    "question": "Who assassinated King Zechariah of Israel, ending Jehu's dynasty?",
+    "answer": "Shallum",
+    "options": ["Pekah", "Menahem", "Shallum", "Hoshea"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zechariah' (king of Israel), p. 1223"
+  },
+  {
+    "question": "What was Mordecai's relationship to Esther?",
+    "answer": "Her older cousin and guardian",
+    "options": ["Her uncle and adoptive father", "Her older cousin and guardian", "Her brother-in-law", "Her father's business partner"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mordecai', p. 431"
+  },
+  {
+    "question": "Why did Mordecai refuse to bow down to Haman?",
+    "answer": "Because Haman was an Amalekite, and Jehovah was at war with Amalek from generation to generation",
+    "options": ["Because bowing was against Mordecai's personal pride", "Because Haman had publicly insulted Mordecai", "Because Haman was an Amalekite, and Jehovah was at war with Amalek from generation to generation", "Because Mordecai only bowed to Jehovah's priests"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mordecai', p. 431"
+  },
+  {
+    "question": "What plot did Mordecai uncover and report, which the king later recalled during a sleepless night?",
+    "answer": "The plot by Bigthan and Teresh to assassinate the king",
+    "options": ["A plot by Haman to seize the treasury", "The plot by Bigthan and Teresh to assassinate the king", "A conspiracy among the Persian satraps", "A planned revolt by the Jewish exiles"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mordecai', p. 431"
+  },
+  {
+    "question": "What ultimately happened to the execution stake Haman built for Mordecai?",
+    "answer": "Haman himself was hanged on it",
+    "options": ["It was torn down and burned", "Haman himself was hanged on it", "It was given to Mordecai as a trophy", "It collapsed during a storm"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mordecai', p. 431"
+  },
+  {
+    "question": "What was Zerubbabel's Babylonian or official name?",
+    "answer": "Sheshbazzar",
+    "options": ["Shealtiel", "Sheshbazzar", "Belteshazzar", "Tirshatha"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zerubbabel', p. 1232"
+  },
+  {
+    "question": "Which two prophets encouraged Zerubbabel to resume rebuilding the Jerusalem temple despite an official ban?",
+    "answer": "Haggai and Zechariah",
+    "options": ["Jeremiah and Ezekiel", "Haggai and Zechariah", "Malachi and Joel", "Isaiah and Micah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zerubbabel', p. 1232"
+  },
+  {
+    "question": "In what year B.C.E. was the rebuilt Jerusalem temple finally completed under Zerubbabel, according to Insight?",
+    "answer": "515 B.C.E.",
+    "options": ["537 B.C.E.", "520 B.C.E.", "515 B.C.E.", "458 B.C.E."],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zerubbabel', p. 1232"
+  },
+  {
+    "question": "What was the name of Haman's wife, who warned him he would fail against Mordecai?",
+    "answer": "Zeresh",
+    "options": ["Vashti", "Esther", "Zeresh", "Zilpah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zeresh', p. 1232"
+  },
+  {
+    "question": "What was the Gospel writer Mark's original Hebrew name?",
+    "answer": "John",
+    "options": ["Simon", "Levi", "John", "Judas"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mark, I', p. 320"
+  },
+  {
+    "question": "To which fellow missionary, his traveling companion, was Mark a cousin?",
+    "answer": "Barnabas",
+    "options": ["Silas", "Barnabas", "Timothy", "Titus"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mark, I', p. 320"
+  },
+  {
+    "question": "At what city did Mark abandon Paul and Barnabas during their first missionary journey, later causing a sharp dispute?",
+    "answer": "Perga",
+    "options": ["Antioch", "Iconium", "Perga", "Lystra"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mark, I', p. 320"
+  },
+  {
+    "question": "What was Luke the Gospel writer's profession, per Paul's description of him?",
+    "answer": "Physician (doctor)",
+    "options": ["Tentmaker", "Fisherman", "Physician (doctor)", "Tax collector"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Luke', p. 282"
+  },
+  {
+    "question": "Besides his Gospel, what other Bible book did Luke write?",
+    "answer": "Acts of Apostles",
+    "options": ["The Letter to the Hebrews", "The Book of Revelation", "Acts of Apostles", "The Letter to the Romans"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Luke', p. 282"
+  }
+]

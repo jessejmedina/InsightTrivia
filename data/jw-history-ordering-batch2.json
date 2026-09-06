@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Put these witnesses of Jehovah in the order the book presents them, earliest to latest.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, chapter 1",
+    "payload": { "items": ["Abel", "Enoch", "Noah", "Moses"] }
+  },
+  {
+    "question": "Put these events of Jesus's earthly life and death in the order they occurred.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "easy",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, chapter 2",
+    "payload": { "items": ["His baptism in the Jordan River", "His trial before Pontius Pilate", "His death on the torture stake", "His resurrection on the third day"] }
+  },
+  {
+    "question": "Put these developments in the Great Apostasy in the order they occurred.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, chapter 4",
+    "payload": { "items": ["Paul warns the Ephesian overseers that false teachers would arise from among them", "The apostle John, the last surviving apostle, dies", "Ignatius of Antioch advocates a single bishop's authority over the presbyters", "Roman Emperor Constantine gives legal recognition to Christianity"] }
+  },
+  {
+    "question": "Put these movements and publications in the order they occurred, earliest to latest.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, chapter 4",
+    "payload": { "items": ["The Protestant Reformation begins", "William Miller predicts Christ's return for 1843 or 1844", "Marx and Engels publish The Communist Manifesto", "Darwin publishes Origin of Species"] }
+  },
+  {
+    "question": "Put these stages in the separation of the clergy from ordinary believers in the order the book describes them.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, chapter 4",
+    "payload": { "items": ["Overseer and older man refer to the same position of responsibility", "Ignatius advocates one bishop having greater authority than the presbyters", "Cyprian pushes for bishops as a class fully separate from the presbyters", "The bishop of Rome comes to be regarded as the supreme bishop, or pope"] }
+  }
+]

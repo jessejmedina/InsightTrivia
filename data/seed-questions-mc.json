@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What was the name of the first man created by God?",
+    "answer": "Adam",
+    "options": ["Adam", "Noah", "Enoch", "Cain"],
+    "category": "Creation",
+    "difficulty": "easy",
+    "reference": "Insight, Vol. 1, p. 45",
+    "hint": "He was formed from the dust of the ground"
+  },
+  {
+    "question": "How many days did it rain during the global flood in Noah's day?",
+    "answer": "40",
+    "options": ["40", "7", "150", "12"],
+    "category": "History",
+    "difficulty": "easy",
+    "reference": "Genesis 7:12",
+    "hint": "It was also the number of years Israel wandered"
+  },
+  {
+    "question": "What language was most of the Hebrew Scriptures originally written in?",
+    "answer": "Hebrew",
+    "options": ["Hebrew", "Aramaic", "Greek", "Latin"],
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Insight, Vol. 2, p. 1200",
+    "hint": "The language shares its name with the people"
+  },
+  {
+    "question": "What was the name of the garden where Adam and Eve lived?",
+    "answer": "Eden",
+    "options": ["Eden", "Gethsemane", "Canaan", "Goshen"],
+    "category": "Creation",
+    "difficulty": "easy",
+    "reference": "Genesis 2:8",
+    "hint": "Its name means \"pleasure\" or \"delight\""
+  },
+  {
+    "question": "How many books are in the Hebrew-Aramaic Scriptures (Old Testament)?",
+    "answer": "39",
+    "options": ["39", "27", "66", "24"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight, Vol. 2, p. 1199",
+    "hint": "Less than half the total Bible books"
+  },
+  {
+    "question": "What was the name of Moses' father-in-law, also called Jethro?",
+    "answer": "Reuel",
+    "options": ["Reuel", "Hobab", "Aaron", "Laban"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight, Vol. 2, p. 795",
+    "hint": "He was a priest of Midian"
+  },
+  {
+    "question": "What metal was used to make the Ark of the Covenant's cover (mercy seat)?",
+    "answer": "Gold",
+    "options": ["Gold", "Silver", "Bronze", "Iron"],
+    "category": "Tabernacle",
+    "difficulty": "easy",
+    "reference": "Exodus 25:17",
+    "hint": "The most precious metal"
+  },
+  {
+    "question": "In what city was Jesus born?",
+    "answer": "Bethlehem",
+    "options": ["Bethlehem", "Nazareth", "Jerusalem", "Capernaum"],
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 2:1",
+    "hint": "Prophesied by Micah 5:2"
+  },
+  {
+    "question": "How many tribes made up ancient Israel?",
+    "answer": "12",
+    "options": ["12", "10", "7", "13"],
+    "category": "History",
+    "difficulty": "easy",
+    "reference": "Insight, Vol. 2, p. 1113",
+    "hint": "One for each son of Jacob"
+  },
+  {
+    "question": "What was the first miracle Jesus performed?",
+    "answer": "Turning water into wine",
+    "options": ["Turning water into wine", "Healing a leper", "Calming a storm", "Feeding the 5,000"],
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "John 2:1-11",
+    "hint": "It happened at a wedding in Cana"
+  },
+  {
+    "question": "What was the name of the sea Israel crossed during the Exodus from Egypt?",
+    "answer": "Red Sea",
+    "options": ["Red Sea", "Sea of Galilee", "Dead Sea", "Mediterranean Sea"],
+    "category": "History",
+    "difficulty": "easy",
+    "reference": "Exodus 14:21",
+    "hint": "Also called the Sea of Reeds"
+  },
+  {
+    "question": "How many psalms are in the book of Psalms?",
+    "answer": "150",
+    "options": ["150", "100", "120", "200"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight, Vol. 2, p. 700",
+    "hint": "More chapters than any other Bible book"
+  },
+  {
+    "question": "Who was the first king of Israel?",
+    "answer": "Saul",
+    "options": ["Saul", "David", "Samuel", "Solomon"],
+    "category": "History",
+    "difficulty": "easy",
+    "reference": "Insight, Vol. 2, p. 868",
+    "hint": "He was from the tribe of Benjamin"
+  },
+  {
+    "question": "What was the name of David's son who became the wisest king?",
+    "answer": "Solomon",
+    "options": ["Solomon", "Absalom", "Adonijah", "Rehoboam"],
+    "category": "History",
+    "difficulty": "easy",
+    "reference": "1 Kings 3:12",
+    "hint": "He built the first temple in Jerusalem"
+  },
+  {
+    "question": "How many days was Jonah inside the big fish?",
+    "answer": "3",
+    "options": ["3", "1", "7", "40"],
+    "category": "Prophets",
+    "difficulty": "easy",
+    "reference": "Jonah 1:17",
+    "hint": "Jesus used this as a sign"
+  },
+  {
+    "question": "What was the original name of the apostle Paul?",
+    "answer": "Saul",
+    "options": ["Saul", "Simon", "Silas", "Stephen"],
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Acts 7:58; 13:9",
+    "hint": "He shared his name with Israel's first king"
+  },
+  {
+    "question": "In what river was Jesus baptized?",
+    "answer": "Jordan",
+    "options": ["Jordan", "Euphrates", "Nile", "Kishon"],
+    "category": "Jesus",
+    "difficulty": "easy",
+    "reference": "Matthew 3:13",
+    "hint": "The same river Israel crossed to enter Canaan"
+  },
+  {
+    "question": "What is the shortest verse in the Bible (KJV)?",
+    "answer": "Jesus wept",
+    "options": ["Jesus wept", "Rejoice always", "Pray without ceasing", "God is love"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "John 11:35",
+    "hint": "Two words that show deep emotion"
+  },
+  {
+    "question": "Who wrote the most books of the Greek Scriptures?",
+    "answer": "Paul",
+    "options": ["Paul", "John", "Luke", "Peter"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight, Vol. 2, p. 580",
+    "hint": "14 letters are attributed to him"
+  },
+  {
+    "question": "What does the name \"Jesus\" mean?",
+    "answer": "Jehovah is salvation",
+    "options": ["Jehovah is salvation", "Anointed one", "God with us", "Prince of peace"],
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Insight, Vol. 2, p. 53",
+    "hint": "Related to the name Joshua"
+  }
+]

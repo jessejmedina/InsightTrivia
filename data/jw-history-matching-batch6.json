@@ -1,0 +1,353 @@
+[
+  {
+    "question": "Match each early missionary to the region C. T. Russell sent them to.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23, p. 525",
+    "payload": { "pairs": [
+      { "left": "Adolf Weber", "right": "Europe" },
+      { "left": "E. J. Coward", "right": "The Caribbean area" },
+      { "left": "Robert Hollister", "right": "The Orient" },
+      { "left": "Joseph Booth", "right": "Southern Africa" }
+    ]}
+  },
+  {
+    "question": "Match each person to their connection with Gilead School.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23",
+    "payload": { "pairs": [
+      { "left": "N. H. Knorr", "right": "Proposed the school's establishment in 1942" },
+      { "left": "Albert D. Schroeder", "right": "Helped outline the course of study" },
+      { "left": "Maxwell Friend", "right": "One of the school's founding instructors" },
+      { "left": "William Johnston", "right": "First missionary sent to Nyasaland" }
+    ]}
+  },
+  {
+    "question": "Match each Gilead School era to its location.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23, p. 528",
+    "payload": { "pairs": [
+      { "left": "1943-60", "right": "South Lansing, New York" },
+      { "left": "1961-88", "right": "Brooklyn, New York" },
+      { "left": "1980-81", "right": "Gilead Cultural School of Mexico" },
+      { "left": "1988-", "right": "Wallkill, New York" }
+    ]}
+  },
+  {
+    "question": "Match each early missionary to the country or region where they served.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23",
+    "payload": { "pairs": [
+      { "left": "Kate Goas", "right": "Colombia and Venezuela" },
+      { "left": "Joseph Dos Santos", "right": "The Philippines" },
+      { "left": "Frank Rice", "right": "Java (now Indonesia)" },
+      { "left": "John Cutforth", "right": "Papua New Guinea" }
+    ]}
+  },
+  {
+    "question": "Match each figure to what they said or wrote about the Witnesses under persecution.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 24",
+    "payload": { "pairs": [
+      { "left": "Adolf Hitler", "right": "Declared the group would be exterminated" },
+      { "left": "Karl Wittig", "right": "Described unmatched sadism in the camps against them" },
+      { "left": "Christine King", "right": "Concluded no compromises had been made" },
+      { "left": "Celsus", "right": "Mocked their preachers as uneducated laborers" }
+    ]}
+  },
+  {
+    "question": "Match each region to an early common trade of the first Witnesses there.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 24",
+    "payload": { "pairs": [
+      { "left": "Denmark", "right": "Shoemaker" },
+      { "left": "Switzerland and France", "right": "Gardener" },
+      { "left": "Brazil", "right": "Sailors" },
+      { "left": "Northern France", "right": "Polish coal miners" }
+    ]}
+  },
+  {
+    "question": "Match each publication to what it was.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 25-26",
+    "payload": { "pairs": [
+      { "left": "Zion's Watch Tower and Herald of Christ's Presence", "right": "Russell's 1879 magazine" },
+      { "left": "The Golden Age", "right": "New magazine announced at the 1919 Cedar Point convention" },
+      { "left": "The Harp of God", "right": "1921 book designed for Bible-study beginners" },
+      { "left": "Riches", "right": "1936 book used to establish home Bible studies" }
+    ]}
+  },
+  {
+    "question": "Match each preaching method to the approximate year it began.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 25",
+    "payload": { "pairs": [
+      { "left": "Colporteur evangelism", "right": "1881" },
+      { "left": "Photo-Drama of Creation", "right": "1914" },
+      { "left": "Phonograph on the doorstep", "right": "1937" },
+      { "left": "Street-corner magazine distribution", "right": "1940" }
+    ]}
+  },
+  {
+    "question": "Match each person to their role in early Watch Tower publishing.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "pairs": [
+      { "left": "W. H. Conley", "right": "First president of the Zion's Watch Tower Tract Society" },
+      { "left": "C. T. Russell", "right": "Secretary-treasurer of the Tract Society in 1881" },
+      { "left": "George Storrs", "right": "Editor of the Bible Examiner" },
+      { "left": "N. H. Barbour", "right": "Experienced in typesetting and composition" }
+    ]}
+  },
+  {
+    "question": "Match each printing operation location to a fact about it.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "pairs": [
+      { "left": "Bern, Switzerland", "right": "A printing plant organized by local Bible Students" },
+      { "left": "Cluj, Romania", "right": "Turned out nearly a quarter million bound books in 1924" },
+      { "left": "Barmen, Germany", "right": "Printing on a flatbed press begun there in 1922" },
+      { "left": "Detroit, Michigan", "right": "Linotype and presses set up there in 1921" }
+    ]}
+  },
+  {
+    "question": "Match each publication milestone to what it describes.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "pairs": [
+      { "left": "The Divine Plan of the Ages", "right": "Completed by Russell in 1886" },
+      { "left": "The Finished Mystery", "right": "Seventh Studies volume, released 1917" },
+      { "left": "The Harp of God", "right": "Aided Bible-study beginners, published 1921" },
+      { "left": "MEPS", "right": "Multilanguage phototypesetting system completed 1986" }
+    ]}
+  },
+  {
+    "question": "Match each address to its significance in Watch Tower printing history.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "pairs": [
+      { "left": "35 Myrtle Avenue", "right": "Site of the Society's first own printing shop" },
+      { "left": "18 Concord Street", "right": "Where the Society began printing and binding its own books" },
+      { "left": "117 Adams Street", "right": "The Society's first purpose-built factory" },
+      { "left": "Wallkill, New York", "right": "Site of a major new printery begun in 1969" }
+    ]}
+  },
+  {
+    "question": "Match each country to the wartime disruption its printing operations faced.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "pairs": [
+      { "left": "Czechoslovakia", "right": "Printery dismantled when Hitler's troops arrived in 1939" },
+      { "left": "Austria", "right": "Watchtower printed on a mobile mimeograph after 1938" },
+      { "left": "Finland", "right": "Watchtower articles mimeographed and delivered by courier" },
+      { "left": "Australia", "right": "Bindery moved 16 times to avoid confiscation" }
+    ]}
+  },
+  {
+    "question": "Match each language-related figure to what it describes.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26, p. 596-597",
+    "payload": { "pairs": [
+      { "left": "210 languages", "right": "Approximate languages published in as of 1992" },
+      { "left": "290 languages", "right": "Total languages ever used by the Society" },
+      { "left": "369 fonts", "right": "Total roman fonts developed for MEPS" },
+      { "left": "74,538 characters", "right": "Total characters required for the roman fonts" }
+    ]}
+  },
+  {
+    "question": "Match each computer-related development to its year.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "pairs": [
+      { "left": "1977", "right": "Decision made to develop a computerized prepress system" },
+      { "left": "1979", "right": "MEPS project begins at Wallkill" },
+      { "left": "1986", "right": "MEPS software supports 186 languages" },
+      { "left": "1990", "right": "First public videocassette released" }
+    ]}
+  },
+  {
+    "question": "Match each printing decentralization step to its location.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "pairs": [
+      { "left": "Numazu, Japan", "right": "New printing plant work begins, 1971" },
+      { "left": "Ghana", "right": "Begins printing The Watchtower in 3 local languages, 1972" },
+      { "left": "Philippines", "right": "Begins composing/printing in 8 local languages" },
+      { "left": "South Africa", "right": "Bethel family buys a secondhand offset press, 1972" }
+    ]}
+  },
+  {
+    "question": "Match each legal or naming fact to its year.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "pairs": [
+      { "left": "1881", "right": "Zion's Watch Tower Tract Society formed" },
+      { "left": "1884", "right": "Society legally incorporated" },
+      { "left": "1896", "right": "Name changed to Watch Tower Bible and Tract Society" },
+      { "left": "1898", "right": "Tower Publishing Company assets donated to the Society" }
+    ]}
+  },
+  {
+    "question": "Match each scripture to the point it illustrates in these chapters.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 24-25",
+    "payload": { "pairs": [
+      { "left": "Zechariah 4:6", "right": "Preaching succeeds by God's spirit, not military force" },
+      { "left": "Acts 5:38, 39", "right": "Gamaliel's advice not to fight a work that may be from God" },
+      { "left": "Matthew 13:24-30, 36-43", "right": "The angels' role in gathering people for the Kingdom" },
+      { "left": "Proverbs 1:20", "right": "Wisdom calling aloud in the streets" }
+    ]}
+  },
+  {
+    "question": "Match each campaign article title to its approximate year.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 25",
+    "payload": { "pairs": [
+      { "left": "\"Blessed Are the Fearless\"", "right": "1919" },
+      { "left": "\"Be of Good Courage\"", "right": "1921" },
+      { "left": "\"Service Essential\"", "right": "1922" },
+      { "left": "Article on formalistic worship (1 Samuel 15:22)", "right": "1926" }
+    ]}
+  },
+  {
+    "question": "Match each missionary to an experience they had in the field.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23",
+    "payload": { "pairs": [
+      { "left": "Ruth McKay", "right": "Described her new home's limited water supply in India" },
+      { "left": "Peter Vanderhaegen", "right": "Contrasted his approach with a Baptist missionary in Indonesia" },
+      { "left": "Wallace Liverance", "right": "Walked 55 miles round-trip to reach isolated publishers in Bolivia" },
+      { "left": "Richard Cotterill", "right": "Traveled through a riot area in India as a traveling overseer" }
+    ]}
+  },
+  {
+    "question": "Match each missionary to the language mishap they experienced.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23",
+    "payload": { "pairs": [
+      { "left": "Leslie Franks", "right": "Confused the words for \"coconut\" and \"head\" in Singapore" },
+      { "left": "Edna Waterfall", "right": "Practiced wobbly Spanish with a secretly English-speaking woman in Peru" },
+      { "left": "Zola Hoffman", "right": "Fell into a man's lap on an Ecuadorian bus" },
+      { "left": "A missionary in Samoa", "right": "Mistakenly asked a man \"how is your beard?\"" }
+    ]}
+  },
+  {
+    "question": "Match each printing press milestone to its approximate year.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "pairs": [
+      { "left": "First rotary press used in America to print books", "right": "1926" },
+      { "left": "First Society press put into operation in Brooklyn", "right": "1920" },
+      { "left": "First web offset press for magazines (Argentina)", "right": "1975" },
+      { "left": "First web offset press for books (Brooklyn)", "right": "1978" }
+    ]}
+  },
+  {
+    "question": "Match each missionary to what happened to them under persecution abroad.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23",
+    "payload": { "pairs": [
+      { "left": "Sona Haidostian", "right": "Arrested and imprisoned five months in Aleppo, Syria" },
+      { "left": "Domenick Piccone", "right": "Expelled from Spain, Portugal, and Morocco" },
+      { "left": "Milton Henschel", "right": "Present when soldiers rounded up a convention in Gbarnga, Liberia" },
+      { "left": "Margarita Königer", "right": "Repeatedly deported and reassigned across African countries" }
+    ]}
+  },
+  {
+    "question": "Match each Gilead training era to what it produced.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23, p. 528",
+    "payload": { "pairs": [
+      { "left": "1943-60", "right": "3,639 students in 35 classes" },
+      { "left": "1961-65", "right": "514 students in 5 classes" },
+      { "left": "1965-88", "right": "2,198 students in 45 classes" },
+      { "left": "1981-82, 1984, 1992 (Germany)", "right": "98 German-speaking students in 4 classes" }
+    ]}
+  },
+  {
+    "question": "Match each term to its meaning in these chapters.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 25-26",
+    "payload": { "pairs": [
+      { "left": "Colporteur", "right": "An early full-time literature evangelist" },
+      { "left": "Kerysso", "right": "Greek word meaning to herald or proclaim" },
+      { "left": "Didasko", "right": "Greek word meaning to teach" },
+      { "left": "MEPS", "right": "The Society's multilanguage phototypesetting system" }
+    ]}
+  },
+  {
+    "question": "Match each convention or gathering to what happened there.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 25-26",
+    "payload": { "pairs": [
+      { "left": "Cedar Point, Ohio, 1919", "right": "Announcement of The Golden Age magazine" },
+      { "left": "Columbus, Ohio, 1931", "right": "Distribution of the \"Warning From Jehovah\" resolution" },
+      { "left": "Cleveland, Ohio, 1946", "right": "Knorr's speech on reconstruction and expansion" },
+      { "left": "New York, 1953", "right": "Knorr's call for all Witnesses to be house-to-house ministers" }
+    ]}
+  },
+  {
+    "question": "Match each magazine or program to a fact about it.",
+    "type": "matching",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 25-26",
+    "payload": { "pairs": [
+      { "left": "The Golden Age", "right": "Announced at the 1919 Cedar Point convention" },
+      { "left": "The Watchtower", "right": "Reached simultaneous publication in 66 languages by 1992" },
+      { "left": "Awake!", "right": "Was formerly named Consolation" },
+      { "left": "\"Jehovah's Witnesses—The Organization Behind the Name\"", "right": "The Society's first public videocassette, 1990" }
+    ]}
+  }
+]

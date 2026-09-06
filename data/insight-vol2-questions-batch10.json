@@ -1,0 +1,354 @@
+[
+  {
+    "question": "What message did Nathan initially give David about building the temple, before Jehovah corrected him that same night?",
+    "answer": "\"Everything that is in your heart—go, do\"",
+    "options": ["\"Wait until you are older\"", "\"Everything that is in your heart—go, do\"", "\"Ask Solomon first\"", "\"Consult the high priest\""],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nathan' (No. 2), p. 471"
+  },
+  {
+    "question": "What did Jehovah promise David through Nathan, instead of allowing David to build the temple?",
+    "answer": "An everlasting kingdom (a lasting house) in David's line",
+    "options": ["A doubling of his wealth", "An everlasting kingdom (a lasting house) in David's line", "Victory over all his enemies", "A longer lifespan"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nathan' (No. 2), p. 471"
+  },
+  {
+    "question": "The apostle 'Nathanael,' named only in John's Gospel, is presumed to be the same person the other Gospels call by what name?",
+    "answer": "Bartholomew",
+    "options": ["Thaddaeus", "Bartholomew", "Simon the Zealot", "Matthias"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nathanael', p. 472"
+  },
+  {
+    "question": "Which post-Flood figure is credited with founding Nineveh, according to Genesis?",
+    "answer": "Nimrod",
+    "options": ["Nimrod", "Asshur", "Noah", "Shem"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nineveh', p. 503"
+  },
+  {
+    "question": "What was the principal deity worshiped at Nineveh?",
+    "answer": "Ishtar",
+    "options": ["Baal", "Ishtar", "Dagon", "Marduk"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nineveh', p. 503"
+  },
+  {
+    "question": "According to the book of Jonah, Nineveh's population at the time numbered more than how many people?",
+    "answer": "120,000",
+    "options": ["50,000", "80,000", "120,000", "200,000"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nineveh', p. 504"
+  },
+  {
+    "question": "Why did Jehovah ultimately spare Nineveh from the destruction Jonah had prophesied?",
+    "answer": "Because the people, including the king, repented",
+    "options": ["Because the people, including the king, repented", "Because Jonah pleaded for mercy", "Because the city paid a large tribute", "Because Jehovah forgot his warning"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Nineveh', p. 504"
+  },
+  {
+    "question": "Obadiah, steward of King Ahab, hid how many prophets of Jehovah to save them from Jezebel?",
+    "answer": "100",
+    "options": ["50", "70", "100", "150"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Obadiah' (No. 4), p. 518"
+  },
+  {
+    "question": "In what manner did Obadiah hide the 100 prophets from Jezebel?",
+    "answer": "In caves, by fifties",
+    "options": ["Disguised as shepherds", "In caves, by fifties", "In the king's palace", "Scattered across foreign lands"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Obadiah' (No. 4), p. 518"
+  },
+  {
+    "question": "What does the name 'Obadiah' mean?",
+    "answer": "\"Servant of Jehovah\"",
+    "options": ["\"Servant of Jehovah\"", "\"Gift of God\"", "\"Jehovah Is Salvation\"", "\"Beloved of Jah\""],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Obadiah' (No. 4), p. 518"
+  },
+  {
+    "question": "Othniel, Israel's first judge after Joshua, was related to Caleb how?",
+    "answer": "He was Caleb's nephew (son of Caleb's brother Kenaz)",
+    "options": ["He was Caleb's nephew (son of Caleb's brother Kenaz)", "He was Caleb's son-in-law only", "He was Caleb's grandson", "He was unrelated to Caleb"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Othniel', p. 563"
+  },
+  {
+    "question": "Othniel won Achsah, Caleb's daughter, as his wife by conquering which Canaanite city?",
+    "answer": "Debir",
+    "options": ["Debir", "Hazor", "Lachish", "Ai"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Othniel', p. 563"
+  },
+  {
+    "question": "How many years did Israel's first period of foreign oppression last before Othniel became judge?",
+    "answer": "Eight years",
+    "options": ["Eight years", "Eighteen years", "Forty years", "Twenty years"],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Othniel', p. 563"
+  },
+  {
+    "question": "From what town, shared with Peter and Andrew, did the apostle Philip come?",
+    "answer": "Bethsaida",
+    "options": ["Capernaum", "Bethsaida", "Nazareth", "Cana"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philip' (No. 1), p. 627"
+  },
+  {
+    "question": "Which fellow apostle did Philip introduce to Jesus, saying 'Come and see'?",
+    "answer": "Nathanael (Bartholomew)",
+    "options": ["Thomas", "Nathanael (Bartholomew)", "Matthew", "James"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philip' (No. 1), p. 627"
+  },
+  {
+    "question": "Whom did Philip the evangelizer baptize on the road to Gaza?",
+    "answer": "The Ethiopian eunuch",
+    "options": ["A Roman centurion", "The Ethiopian eunuch", "The Samaritan sorcerer Simon", "A Philippian jailer"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philip' (No. 2), p. 628"
+  },
+  {
+    "question": "Philip the evangelizer was known for having four daughters who did what?",
+    "answer": "Prophesied",
+    "options": ["Prophesied", "Became missionaries", "Married apostles", "Wrote scripture"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philip' (No. 2), p. 628"
+  },
+  {
+    "question": "Philip (No. 3) was the first husband of Herodias, who left him for his half brother. Who was that half brother?",
+    "answer": "Herod Antipas",
+    "options": ["Herod Agrippa", "Herod Antipas", "Herod Archelaus", "Herod the Great"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Philip' (No. 3), p. 628"
+  },
+  {
+    "question": "What sign did Abraham's servant pray for at the well, which Rebekah fulfilled?",
+    "answer": "That she would offer to water his ten camels",
+    "options": ["That she would offer to water his ten camels", "That she would invite him into her home", "That she would be singing a hymn", "That she would be alone at the well"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rebekah', p. 756"
+  },
+  {
+    "question": "What gifts did Abraham's servant give Rebekah at the well after recognizing his prayer was answered?",
+    "answer": "A gold nose ring and two gold bracelets",
+    "options": ["A gold nose ring and two gold bracelets", "A silver cup and fine linen", "A flock of sheep", "A chest of spices"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rebekah', p. 756"
+  },
+  {
+    "question": "Who was Rebekah's brother, who helped negotiate her marriage to Isaac?",
+    "answer": "Laban",
+    "options": ["Laban", "Bethuel", "Nahor", "Lot"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rebekah', p. 756"
+  },
+  {
+    "question": "Like Sarah before her, what deception did Rebekah use regarding her marriage during a famine in Philistine territory?",
+    "answer": "She passed herself off as Isaac's sister",
+    "options": ["She passed herself off as Isaac's sister", "She hid in a foreign camp", "She disguised herself as a servant", "She claimed to be a widow"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rebekah', p. 757"
+  },
+  {
+    "question": "In which family burial site was Rebekah buried, alongside Abraham and Sarah?",
+    "answer": "The cave of Machpelah",
+    "options": ["The cave of Machpelah", "The tomb of the patriarchs at Shechem", "The garden of Gethsemane", "The Mount of Olives"],
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Rebekah', p. 757"
+  },
+  {
+    "question": "What was Stephen's special ministry role in the Jerusalem congregation?",
+    "answer": "Distributing food to the Greek-speaking Jewish widows",
+    "options": ["Distributing food to the Greek-speaking Jewish widows", "Teaching new converts the Law", "Guarding the temple treasury", "Leading the congregation's singing"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Stephen', p. 1034"
+  },
+  {
+    "question": "At whose feet did the men stoning Stephen lay their garments?",
+    "answer": "Saul's (later the apostle Paul)",
+    "options": ["Caiaphas's", "Saul's (later the apostle Paul)", "Gamaliel's", "Annas's"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Stephen', p. 1035"
+  },
+  {
+    "question": "What did Stephen pray for his executioners as he was dying?",
+    "answer": "That Jehovah would not charge them with this sin",
+    "options": ["That Jehovah would not charge them with this sin", "That Jehovah would judge them swiftly", "That Jehovah would spare his own life", "That Jehovah would send Peter to help him"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Stephen', p. 1035"
+  },
+  {
+    "question": "Stephen was the first to testify of seeing what vision just before his death?",
+    "answer": "Jesus standing at God's right hand in heaven",
+    "options": ["Jesus standing at God's right hand in heaven", "The New Jerusalem descending", "An angel with a flaming sword", "The resurrection of the dead"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Stephen', p. 1035"
+  },
+  {
+    "question": "What were the names of the twin sons Tamar bore to Judah after disguising herself?",
+    "answer": "Perez and Zerah",
+    "options": ["Perez and Zerah", "Er and Onan", "Ephraim and Manasseh", "Ram and Chelubai"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tamar' (No. 1), p. 1063"
+  },
+  {
+    "question": "What did Judah exclaim upon realizing Tamar had tricked him to secure an heir?",
+    "answer": "\"She is more righteous than I am\"",
+    "options": ["\"She is more righteous than I am\"", "\"She must be put to death\"", "\"She has shamed our family\"", "\"She acted out of desperation\""],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tamar' (No. 1), p. 1063"
+  },
+  {
+    "question": "Which of David's sons raped his half-sister Tamar?",
+    "answer": "Amnon",
+    "options": ["Absalom", "Amnon", "Adonijah", "Chileab"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tamar' (No. 2), p. 1063"
+  },
+  {
+    "question": "How many years after the assault did Absalom avenge his sister Tamar by having Amnon killed?",
+    "answer": "Two years",
+    "options": ["One year", "Two years", "Five years", "Ten years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tamar' (No. 2), p. 1063"
+  },
+  {
+    "question": "What did Uzzah do that caused Jehovah to strike him dead, according to 2 Samuel?",
+    "answer": "He reached out and touched the Ark of the Covenant to steady it",
+    "options": ["He reached out and touched the Ark of the Covenant to steady it", "He looked directly inside the Ark", "He tried to move the Ark alone", "He argued with King David about the Ark"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Uzzah' (No. 2), p. 1144"
+  },
+  {
+    "question": "What name did David give the place where Uzzah was struck dead?",
+    "answer": "Perez-uzzah",
+    "options": ["Perez-uzzah", "Baal-perazim", "Kiriath-jearim", "Nachon's threshing floor"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Uzzah' (No. 2), p. 1144"
+  },
+  {
+    "question": "Why was Uzzah's act considered wrong even though his intentions seemed good?",
+    "answer": "The Ark was only to be carried by authorized Kohathite Levites using its poles",
+    "options": ["The Ark was only to be carried by authorized Kohathite Levites using its poles", "He had not fasted beforehand", "He was not a member of the tribe of Judah", "He had touched it during a festival"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Uzzah' (No. 2), p. 1145"
+  },
+  {
+    "question": "By what other name was King Uzziah of Judah also known?",
+    "answer": "Azariah",
+    "options": ["Azariah", "Amaziah", "Jotham", "Ahaz"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Uzziah' (No. 3), p. 1146"
+  },
+  {
+    "question": "How many years did Uzziah reign as king of Judah?",
+    "answer": "52 years",
+    "options": ["29 years", "41 years", "52 years", "16 years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Uzziah' (No. 3), p. 1146"
+  },
+  {
+    "question": "What affliction struck Uzziah after he arrogantly entered the temple to burn incense himself?",
+    "answer": "Leprosy",
+    "options": ["Blindness", "Leprosy", "Paralysis", "Madness"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Uzziah' (No. 3), p. 1146"
+  },
+  {
+    "question": "Which son administered the affairs of state after Uzziah was struck with leprosy?",
+    "answer": "Jotham",
+    "options": ["Ahaz", "Jotham", "Hezekiah", "Amaziah"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Uzziah' (No. 3), p. 1146"
+  },
+  {
+    "question": "Zebedee was the father of which two apostles?",
+    "answer": "James and John",
+    "options": ["James and John", "Peter and Andrew", "Matthew and Thomas", "Philip and Bartholomew"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zebedee', p. 1220"
+  },
+  {
+    "question": "What business did Zebedee run on the Sea of Galilee?",
+    "answer": "Fishing",
+    "options": ["Fishing", "Boat building", "Tax collecting", "Farming"],
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zebedee', p. 1220"
+  },
+  {
+    "question": "Zebedee's wife, Salome, was believed to be the sister of whom, making James and John Jesus' cousins?",
+    "answer": "Jesus' mother, Mary",
+    "options": ["Jesus' mother, Mary", "Mary Magdalene", "Martha of Bethany", "Elizabeth"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zebedee', p. 1220"
+  },
+  {
+    "question": "What was Zoar's earlier name, before Lot fled there?",
+    "answer": "Bela",
+    "options": ["Bela", "Sodom", "Admah", "Zeboiim"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zoar', p. 1238"
+  },
+  {
+    "question": "Why did Lot eventually leave Zoar to live in a cave with his two daughters?",
+    "answer": "Out of fear",
+    "options": ["Out of fear", "Because of a famine", "Because the city was destroyed", "Because his daughters wanted to leave"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zoar', p. 1238"
+  },
+  {
+    "question": "What does the name 'Zoar' mean?",
+    "answer": "\"Smallness\"",
+    "options": ["\"Smallness\"", "\"Refuge\"", "\"Salvation\"", "\"Ashes\""],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zoar', p. 1238"
+  }
+]

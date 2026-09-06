@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which prophet who saw God's throne am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "answer": "Isaiah",
+    "options": ["Isaiah", "Jeremiah", "Micah", "Amos"],
+    "reference": "Isaiah 6; 7; 36-39 (cross-check: Insight on the Scriptures, Vol. 1, 'Isaiah')",
+    "payload": { "clues": [
+      "I prophesied in Judah during the reigns of four kings, ending with Hezekiah.",
+      "In a vision I saw the throne of God and cried that I was a man of unclean lips.",
+      "I told King Ahaz that a young woman would give birth to a son called Immanuel.",
+      "I foretold a suffering servant who would be pierced for others' transgressions."
+    ] }
+  },
+  {
+    "question": "Which weeping prophet am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "answer": "Jeremiah",
+    "options": ["Jeremiah", "Ezekiel", "Isaiah", "Daniel"],
+    "reference": "Jeremiah 1; 36-38 (cross-check: Insight on the Scriptures, Vol. 2, 'Jeremiah', p. 31)",
+    "payload": { "clues": [
+      "God told me he knew me and set me apart before I was formed in the womb.",
+      "I was often called weeping over the coming ruin of my nation.",
+      "The king cut up and burned my scroll, so my scribe Baruch wrote it again.",
+      "I was lowered into a muddy cistern and later rescued by an Ethiopian court official."
+    ] }
+  },
+  {
+    "question": "Which prophet by the river Chebar am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Ezekiel",
+    "options": ["Ezekiel", "Daniel", "Jeremiah", "Isaiah"],
+    "reference": "Ezekiel 1; 37 (cross-check: Insight on the Scriptures, Vol. 1, 'Ezekiel')",
+    "payload": { "clues": [
+      "I prophesied among the Jewish exiles by the river Chebar in Babylonia.",
+      "My opening vision was of four living creatures and wheels full of eyes.",
+      "God had me act out the siege of Jerusalem using a brick and a griddle.",
+      "In a valley of dry bones, I watched them come together and live again."
+    ] }
+  },
+  {
+    "question": "Which king anointed by Samuel am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Saul",
+    "options": ["Saul", "David", "Samuel", "Jonathan"],
+    "reference": "1 Samuel 9-15; 28 (cross-check: Insight on the Scriptures, Vol. 2, 'Saul No. 1', p. 871)",
+    "payload": { "clues": [
+      "I went looking for my father's lost donkeys and found a kingdom instead.",
+      "I stood a head taller than anyone in Israel.",
+      "I lost God's favor after offering a sacrifice I was not authorized to make.",
+      "The night before my last battle, I consulted a spirit medium at En-dor."
+    ] }
+  },
+  {
+    "question": "Which Babylonian king am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Nebuchadnezzar",
+    "options": ["Nebuchadnezzar", "Belshazzar", "Cyrus", "Darius"],
+    "reference": "Daniel 2-4 (cross-check: Insight on the Scriptures, Vol. 2, 'Nebuchadnezzar', p. 481)",
+    "payload": { "clues": [
+      "I ruled the empire that destroyed Jerusalem and its temple.",
+      "Daniel told me the meaning of my dream about a statue of many metals.",
+      "I threw three Hebrews into a superheated furnace and saw a fourth figure with them.",
+      "For seven periods I lived like a wild animal until my sanity returned."
+    ] }
+  },
+  {
+    "question": "Which apostle to the nations am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "answer": "Paul",
+    "options": ["Paul", "Peter", "Barnabas", "Stephen"],
+    "reference": "Acts 9; 16; 22 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "clues": [
+      "I was a Pharisee, born in Tarsus, and a Roman citizen by birth.",
+      "I guarded the coats of the men who stoned Stephen.",
+      "A blinding light on the Damascus road changed the course of my life.",
+      "I made three long missionary journeys and wrote letters to many congregations."
+    ] }
+  },
+  {
+    "question": "Which one of the seven am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "answer": "Stephen",
+    "options": ["Stephen", "Philip", "Barnabas", "Ananias"],
+    "reference": "Acts 6-7 (cross-check: Insight on the Scriptures, Vol. 2, 'Stephen')",
+    "payload": { "clues": [
+      "I was one of seven men chosen to help with the daily food distribution.",
+      "My opponents could not withstand the wisdom with which I spoke.",
+      "On trial, I gave a long review of Israel's history to the Sanhedrin.",
+      "As I was stoned, I saw heaven open and asked God not to charge them with the sin."
+    ] }
+  },
+  {
+    "question": "Which prophetess and judge am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Deborah",
+    "options": ["Deborah", "Jael", "Miriam", "Hannah"],
+    "reference": "Judges 4-5 (cross-check: Insight on the Scriptures, Vol. 1, 'Deborah')",
+    "payload": { "clues": [
+      "I was a prophetess who judged Israel, holding court under a palm tree.",
+      "I summoned Barak to lead ten thousand men against Sisera's army.",
+      "I told Barak the honor of the victory would go to a woman, not to him.",
+      "After the battle, I sang a victory song with Barak."
+    ] }
+  },
+  {
+    "question": "Which praying mother am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Hannah",
+    "options": ["Hannah", "Sarah", "Elizabeth", "Rachel"],
+    "reference": "1 Samuel 1-2 (cross-check: Insight on the Scriptures, Vol. 2, 'Hannah')",
+    "payload": { "clues": [
+      "I was childless, and my husband's other wife taunted me over it.",
+      "At the sanctuary in Shiloh I prayed so intensely the priest Eli thought I was drunk.",
+      "I vowed that if God gave me a son, I would give him back for lifelong service.",
+      "My son grew up to anoint Israel's first two kings."
+    ] }
+  },
+  {
+    "question": "Which Assyrian capital am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Nineveh",
+    "options": ["Nineveh", "Babylon", "Damascus", "Tyre"],
+    "reference": "Jonah 3; Nahum 1-3 (cross-check: Insight on the Scriptures, Vol. 2, 'Nineveh')",
+    "payload": { "clues": [
+      "I was the great capital of the Assyrian Empire, on the Tigris River.",
+      "A reluctant prophet was sent to warn me of destruction in forty days.",
+      "My king and people fasted in sackcloth, and the calamity was held back.",
+      "Generations later the prophet Nahum foretold my fall, and I was destroyed."
+    ] }
+  },
+  {
+    "question": "Which ancient Syrian capital am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Damascus",
+    "options": ["Damascus", "Antioch", "Ephesus", "Corinth"],
+    "reference": "Acts 9 (cross-check: Insight on the Scriptures, Vol. 1, 'Damascus')",
+    "payload": { "clues": [
+      "I am one of the oldest continuously inhabited cities, capital of ancient Syria.",
+      "Saul of Tarsus was traveling toward me with letters to arrest Christians.",
+      "A disciple named Ananias was sent to restore the sight of that traveler.",
+      "Saul later escaped my walls by being lowered in a basket through a window."
+    ] }
+  },
+  {
+    "question": "Which grandson of Abraham am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Jacob",
+    "options": ["Jacob", "Isaac", "Abraham", "Esau"],
+    "reference": "Genesis 25-35 (cross-check: Insight on the Scriptures, Vol. 2, 'Jacob')",
+    "payload": { "clues": [
+      "I was the younger twin, born gripping my brother's heel.",
+      "I traded a bowl of stew for my brother's birthright.",
+      "I wrestled a messenger of God until daybreak and would not let go without a blessing.",
+      "My name was changed to Israel, and my twelve sons became the tribes."
+    ] }
+  },
+  {
+    "question": "Which righteous sufferer am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Job",
+    "options": ["Job", "Joseph", "Daniel", "Jeremiah"],
+    "reference": "Job 1-2; 42 (cross-check: Insight on the Scriptures, Vol. 2, 'Job', p. 81)",
+    "payload": { "clues": [
+      "I lived in the land of Uz and was the greatest man of the East.",
+      "In a single day I lost my livestock, my servants, and all ten of my children.",
+      "Painful boils covered me from head to foot, and I scraped myself with a piece of pottery.",
+      "Three friends came to comfort me but ended up accusing me instead."
+    ] }
+  },
+  {
+    "question": "Which prophet of the northern kingdom am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Hosea",
+    "options": ["Hosea", "Amos", "Joel", "Jonah"],
+    "reference": "Hosea 1-3 (cross-check: Insight on the Scriptures, Vol. 1, 'Hosea')",
+    "payload": { "clues": [
+      "I prophesied to the ten-tribe kingdom in its final decades.",
+      "God told me to marry a woman who would be unfaithful to me.",
+      "My children were given names meaning judgment and rejection as living signs.",
+      "My message was that God's love would still call an unfaithful nation back."
+    ] }
+  },
+  {
+    "question": "Which apostle from Cana am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "answer": "Nathanael",
+    "options": ["Nathanael", "Philip", "Andrew", "Matthew"],
+    "reference": "John 1:45-51 (cross-check: Insight on the Scriptures, Vol. 2, 'Nathanael')",
+    "payload": { "clues": [
+      "A friend told me he had found the one Moses and the prophets wrote about.",
+      "I asked whether anything good could come out of Nazareth.",
+      "Jesus said he had seen me under a fig tree before we ever met.",
+      "I am generally thought to be the same apostle called Bartholomew."
+    ] }
+  },
+  {
+    "question": "Which shepherd king am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "David",
+    "options": ["David", "Saul", "Solomon", "Jonathan"],
+    "reference": "1 Samuel 16-17; 2 Samuel 11-12 (cross-check: Insight on the Scriptures, Vol. 1, 'David')",
+    "payload": { "clues": [
+      "I was the youngest son, out watching the sheep when the prophet came to anoint me.",
+      "I played the harp to soothe a king troubled by a bad spirit.",
+      "I killed a champion of the Philistines with a sling and a stone.",
+      "The prophet Nathan confronted me with a parable about a poor man's lamb."
+    ] }
+  }
+]

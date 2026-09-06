@@ -1,0 +1,366 @@
+[
+  {
+    "question": "Put these milestones in the founding of Gilead School in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23",
+    "payload": { "items": [
+      "September 1942: directors approve N. H. Knorr's proposal for the school",
+      "December 14, 1942: invitations sent to prospective students",
+      "February 1, 1943: the first class opens",
+      "Five months later: the first class graduates and leaves for Latin America"
+    ]}
+  },
+  {
+    "question": "Put these early Watch Tower missionary milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapters 23-24",
+    "payload": { "items": [
+      "1910: William Johnston is sent to Nyasaland (now Malawi)",
+      "1923: W. R. Brown leaves for Africa",
+      "1942: the Gilead School proposal is approved",
+      "1947: Ted and Doris Klein arrive in the Virgin Islands"
+    ]}
+  },
+  {
+    "question": "Put these events of Nazi-era persecution in Germany in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 24",
+    "payload": { "items": [
+      "The Nazis rise to power in Germany",
+      "Persecution of Jehovah's Witnesses intensifies under Nazi control",
+      "October 7, 1934: Hitler declares the group will be exterminated",
+      "June 24, 1936: a special Gestapo Command is formed to fight the Witnesses"
+    ]}
+  },
+  {
+    "question": "Put these events, showing how Witnesses ended up preaching within the Soviet Union, in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 24",
+    "payload": { "items": [
+      "During the 1920s-1930s, Soviet officials deny permission to ship in or print Bible literature",
+      "World War II ends, and Polish Witnesses find themselves within Soviet borders due to border changes",
+      "In the Ravensbrück concentration camp, Russian women prisoners come to know fellow Witness prisoners",
+      "The released Russian women return to various parts of the Soviet Union"
+    ]}
+  },
+  {
+    "question": "Put these early Russell-era publishing milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 25",
+    "payload": { "items": [
+      "1877: the pamphlet The Object and Manner of Our Lord's Return is published",
+      "1879: Zion's Watch Tower and Herald of Christ's Presence begins publication",
+      "1881: the first call for colporteur evangelists goes out",
+      "1903: the Watch Tower recommends house-to-house tract distribution"
+    ]}
+  },
+  {
+    "question": "Put these mass-media milestones in the preaching work in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 25",
+    "payload": { "items": [
+      "1914: the Photo-Drama of Creation premieres",
+      "1922: J. F. Rutherford makes his first radio broadcast",
+      "1924: radio station WBBR begins broadcasting",
+      "1933: radio broadcasting of the Kingdom message peaks at 408 stations"
+    ]}
+  },
+  {
+    "question": "Put these doorstep preaching technologies in the order they were introduced.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 25",
+    "payload": { "items": [
+      "1933: testimony cards are introduced",
+      "1934: portable phonographs are carried in cars for witnessing",
+      "1937: the phonograph is used right on the doorstep",
+      "1940: more than 40,000 phonographs are in use"
+    ]}
+  },
+  {
+    "question": "Put these public-witnessing milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 25",
+    "payload": { "items": [
+      "1936: advertising placards begin in Glasgow, Scotland",
+      "1938: signs on sticks are introduced, reading \"Religion Is a Snare and a Racket\"",
+      "February 1940: street-corner magazine distribution begins",
+      "1942: the advanced course in theocratic ministry is inaugurated"
+    ]}
+  },
+  {
+    "question": "Put these home-Bible-study aids and milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 25",
+    "payload": { "items": [
+      "1921: the book The Harp of God is published for beginners",
+      "1936: the book Riches is used to establish home Bible studies",
+      "1937: the booklet Model Study Number 1 is printed",
+      "1950: home Bible studies average 234,952"
+    ]}
+  },
+  {
+    "question": "Put these early Russell-era publishing beginnings in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "1876: Russell's first article appears in the Bible Examiner",
+      "1877: Russell funds the book Three Worlds with N. H. Barbour",
+      "1879: Russell begins Zion's Watch Tower after breaking with Barbour",
+      "February 16, 1881: the Zion's Watch Tower Tract Society is formed"
+    ]}
+  },
+  {
+    "question": "Put these Society incorporation and naming milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "1881: the Tract Society is formed with W. H. Conley as president",
+      "1884: the Society is legally incorporated with Russell as president",
+      "1896: the name changes to Watch Tower Bible and Tract Society",
+      "1898: Russell donates the Tower Publishing Company's assets to the Society"
+    ]}
+  },
+  {
+    "question": "Put these Millennial Dawn / Studies in the Scriptures publishing milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "1886: Russell completes writing The Divine Plan of the Ages",
+      "1886-1897: the first four volumes are published",
+      "By 1916: over 9,384,000 of the six volumes have been distributed",
+      "1917: the seventh volume, The Finished Mystery, is released"
+    ]}
+  },
+  {
+    "question": "Put these 1918-1919 disruption-and-rebuilding events in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "1918: the Brooklyn headquarters is dismantled and its printing plates destroyed",
+      "The greatly reduced staff moves the office back to Pittsburgh",
+      "1919: the Cedar Point convention announces the new magazine The Golden Age",
+      "October 1919: operations resume in Brooklyn after the \"coal test\""
+    ]}
+  },
+  {
+    "question": "Put these steps of the \"coal test\" story in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "Rutherford tells C. A. Wise to test whether returning to Brooklyn is the Lord's will",
+      "Rutherford recommends making coal the test and ordering 500 tons",
+      "Wise applies to the authorities and is granted a certificate for 500 tons of coal",
+      "By October 1, 1919, operations resume in Brooklyn"
+    ]}
+  },
+  {
+    "question": "Put these steps in setting up the Society's own printing operations in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "Early 1920: the Society leases floors at 35 Myrtle Avenue for its first printing shop",
+      "February 1, 1920: an issue of The Watch Tower is printed on the Society's own press for the first time",
+      "1921: the Society considers whether to also print and bind its own books",
+      "March 1, 1922: brothers move into 18 Concord Street to print and bind their own books"
+    ]}
+  },
+  {
+    "question": "Put these world headquarters factory expansion milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "1926: the Society purchases land in Brooklyn for its own factory",
+      "February 1927: the Society moves into its new building at 117 Adams Street",
+      "Within ten years: the factory has to be enlarged",
+      "1942: complete Bibles begin to be printed there"
+    ]}
+  },
+  {
+    "question": "Put these post-World War II printing expansion milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "1946: Knorr announces expansion plans at an international assembly in Cleveland",
+      "Early 1950: the enlarged factory and Bethel Home are completed",
+      "1969: work begins designing a new printery near Wallkill, New York",
+      "By 1977: the Wallkill presses turn out 18 million magazines a month"
+    ]}
+  },
+  {
+    "question": "Put these offset-printing transition milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "1972: the South Africa Bethel family buys a small secondhand offset press",
+      "1974: that press prints a pocket-size book in the Ronga language",
+      "1975: Germany uses a sheetfed offset press for East German literature",
+      "1978: the first web offset press for books begins operating in Brooklyn"
+    ]}
+  },
+  {
+    "question": "Put these MEPS computer development milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "1977: the decision is made to develop a computerized prepress system",
+      "1979: the MEPS project begins at Watchtower Farms, Wallkill",
+      "By May 1986: MEPS software supports 186 languages",
+      "By 1992: over 3,800 terminals worldwide use the Society's own software"
+    ]}
+  },
+  {
+    "question": "Put these global printing decentralization milestones in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26",
+    "payload": { "items": [
+      "Late 1960s: a concerted decentralization effort begins",
+      "1969: work begins on designing the Wallkill printery",
+      "1971: work begins on a new printing plant in Numazu, Japan",
+      "By the end of 1975: the Society publishes literature in its own facilities in 23 lands"
+    ]}
+  },
+  {
+    "question": "Put these eras of Gilead School's location in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23, p. 528",
+    "payload": { "items": [
+      "1943-60: School at South Lansing, New York",
+      "1961-65: School in Brooklyn, New York",
+      "1977-80: Five-week Gilead course for Branch Committee members",
+      "1988-: School at Wallkill, New York"
+    ]}
+  },
+  {
+    "question": "Put these stages of Nazi-era crackdown on the Witnesses in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 24",
+    "payload": { "items": [
+      "The Nazis rise to power in Germany",
+      "Arrests and bans against the Witnesses intensify",
+      "October 1934: congregations send registered protest letters to the government",
+      "June 1936: a special Gestapo Command is formed to fight the Witnesses"
+    ]}
+  },
+  {
+    "question": "Put these Watch Tower articles encouraging witnessing in the order they were published.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 25",
+    "payload": { "items": [
+      "1919: \"Blessed Are the Fearless\" is featured",
+      "1921: \"Be of Good Courage\" is published",
+      "August 1922: \"Service Essential\" is published",
+      "1926: an article states that God wants obedience, not formalistic worship"
+    ]}
+  },
+  {
+    "question": "Put these average weekly U.S. field-service participation figures in the order the years occurred.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 25, p. 564",
+    "payload": { "items": [
+      "1922: average of 2,712 participants",
+      "1924: average drops to 2,034",
+      "1926: average rises to 2,261",
+      "1928: a 53-percent increase for the year"
+    ]}
+  },
+  {
+    "question": "Put these Gilead School class totals in the order the eras occurred.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 23, p. 528",
+    "payload": { "items": [
+      "1943-60: 3,639 students in 35 classes at South Lansing",
+      "1961-65: 514 students in 5 classes in Brooklyn",
+      "1965-88: 2,198 students in 45 classes in Brooklyn",
+      "1980-81: 72 graduates from the Gilead Cultural School of Mexico"
+    ]}
+  },
+  {
+    "question": "Put these typesetting technologies used by the Society in the order they came into use.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26, p. 581",
+    "payload": { "items": [
+      "At first, typesetting is done by hand, one letter at a time",
+      "From 1920, Linotype machines are used",
+      "In some places, Monotype equipment is used",
+      "Now, a computerized phototypesetting process is used"
+    ]}
+  },
+  {
+    "question": "Put these steps of letterpress platemaking in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26, p. 582",
+    "payload": { "items": [
+      "Lines of type are locked into metal frames called chases",
+      "Under pressure, an impression of the type is made on a mold material",
+      "Hot lead is poured against the mold to make curved metal printing plates",
+      "The plates are nickeled for durability"
+    ]}
+  },
+  {
+    "question": "Put these steps of bookbinding in order.",
+    "type": "ordering",
+    "category": "JW History",
+    "difficulty": "easy",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 26, p. 588-589",
+    "payload": { "items": [
+      "Gathering signatures",
+      "Sewing them together",
+      "Pasting on endsheets",
+      "Trimming"
+    ]}
+  }
+]

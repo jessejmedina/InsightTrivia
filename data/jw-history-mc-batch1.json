@@ -1,0 +1,202 @@
+[
+  {
+    "question": "In what year was Charles Taze Russell born?",
+    "answer": "1852",
+    "options": ["1852", "1869", "1874", "1879"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 43"
+  },
+  {
+    "question": "In what city was C. T. Russell born?",
+    "answer": "Allegheny, Pennsylvania",
+    "options": ["Allegheny, Pennsylvania", "Rochester, New York", "Brooklyn, New York", "Boonville, Missouri"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 43"
+  },
+  {
+    "question": "Which church did young Charles Russell join because he preferred its views, having been raised Presbyterian?",
+    "answer": "The Congregational Church",
+    "options": ["The Congregational Church", "The Baptist Church", "The Methodist Church", "The Lutheran Church"],
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 43"
+  },
+  {
+    "question": "In what year did Russell and a few acquaintances in Pittsburgh and Allegheny form a class for Bible study?",
+    "answer": "1870",
+    "options": ["1870", "1874", "1879", "1881"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 43"
+  },
+  {
+    "question": "What was the name of the magazine C. T. Russell began publishing in July 1879?",
+    "answer": "Zion's Watch Tower and Herald of Christ's Presence",
+    "options": ["Zion's Watch Tower and Herald of Christ's Presence", "The Golden Age", "Herald of the Morning", "Bible Examiner"],
+    "category": "JW History",
+    "difficulty": "easy",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 47"
+  },
+  {
+    "question": "Who was the editor of Herald of the Morning with whom Russell had a doctrinal falling-out in 1878?",
+    "answer": "Nelson H. Barbour",
+    "options": ["Nelson H. Barbour", "George Storrs", "Jonas Wendell", "George W. Stetson"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 47"
+  },
+  {
+    "question": "What core doctrine did Barbour deny in 1878, prompting Russell to break with him?",
+    "answer": "The substitutionary value (ransom) of Christ's death",
+    "options": ["The substitutionary value (ransom) of Christ's death", "The timing of the year 1914", "The identity of Babylon the Great", "The mortality of the human soul"],
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 47"
+  },
+  {
+    "question": "What was the title of the first volume of Russell's Millennial Dawn series, published in 1886?",
+    "answer": "The Divine Plan of the Ages",
+    "options": ["The Divine Plan of the Ages", "The Time Is at Hand", "Thy Kingdom Come", "The Battle of Armageddon"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 51"
+  },
+  {
+    "question": "What four-story building, completed in 1889 in Allegheny, served as Watch Tower Society headquarters for about 19 years?",
+    "answer": "The Bible House",
+    "options": ["The Bible House", "Beth-Sarim", "The Brooklyn Tabernacle", "The Bethel Home"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 52"
+  },
+  {
+    "question": "To which city did the Watch Tower Society headquarters move in 1908-1909?",
+    "answer": "Brooklyn, New York",
+    "options": ["Brooklyn, New York", "Rochester, New York", "Philadelphia, Pennsylvania", "Washington, D.C."],
+    "category": "JW History",
+    "difficulty": "easy",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 54"
+  },
+  {
+    "question": "What name, meaning \"House of God,\" was given to the Society's new headquarters residence at 124 Columbia Heights, Brooklyn?",
+    "answer": "Bethel",
+    "options": ["Bethel", "Beth-Sarim", "The Bible House", "The Brooklyn Tabernacle"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 55"
+  },
+  {
+    "question": "What eight-hour combination motion picture and slide presentation, synchronized with sound, premiered in New York in January 1914?",
+    "answer": "The Photo-Drama of Creation",
+    "options": ["The Photo-Drama of Creation", "The Finished Mystery", "Millions Now Living Will Never Die", "Studies in the Scriptures"],
+    "category": "JW History",
+    "difficulty": "easy",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 56"
+  },
+  {
+    "question": "By the end of 1914, roughly how many people had seen the Photo-Drama of Creation in North America, Europe, and Australia?",
+    "answer": "Over 9,000,000",
+    "options": ["Over 9,000,000", "About 900,000", "About 90,000,000", "About 15,000,000"],
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 5, p. 57"
+  },
+  {
+    "question": "On what date was Archduke Francis Ferdinand assassinated, triggering the outbreak of World War I?",
+    "answer": "June 28, 1914",
+    "options": ["June 28, 1914", "October 2, 1914", "August 1914", "July 1917"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 6, p. 61"
+  },
+  {
+    "question": "Where and when did Charles Taze Russell die?",
+    "answer": "On a train at Pampa, Texas, on October 31, 1916",
+    "options": ["On a train at Pampa, Texas, on October 31, 1916", "At Brooklyn Bethel, in 1916", "In Pittsburgh, in 1917", "In Los Angeles, in 1919"],
+    "category": "JW History",
+    "difficulty": "easy",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 6, p. 64"
+  },
+  {
+    "question": "Who was elected president of the Watch Tower Bible and Tract Society following Russell's death?",
+    "answer": "Joseph Franklin Rutherford",
+    "options": ["Joseph Franklin Rutherford", "A. H. Macmillan", "A. I. Ritchie", "W. E. Van Amburgh"],
+    "category": "JW History",
+    "difficulty": "easy",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 6, p. 65"
+  },
+  {
+    "question": "What was J. F. Rutherford's profession before his Watch Tower Society work, earning him the nickname \"Judge\"?",
+    "answer": "Lawyer",
+    "options": ["Lawyer", "Newspaper editor", "Minister", "Schoolteacher"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 6, p. 67"
+  },
+  {
+    "question": "What book, released in 1917 as the seventh volume of Studies in the Scriptures, was compiled after Russell's death by Clayton Woodworth and George Fisher?",
+    "answer": "The Finished Mystery",
+    "options": ["The Finished Mystery", "The Divine Plan of the Ages", "Millions Now Living Will Never Die", "Vindication"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 6, p. 68"
+  },
+  {
+    "question": "In which U.S. city's federal penitentiary were Rutherford and seven associates imprisoned in 1918?",
+    "answer": "Atlanta, Georgia",
+    "options": ["Atlanta, Georgia", "Leavenworth, Kansas", "Ossining, New York", "San Francisco, California"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 6, p. 69"
+  },
+  {
+    "question": "On what date were Rutherford and his associates released on bail from prison?",
+    "answer": "March 26, 1919",
+    "options": ["March 26, 1919", "January 6, 1917", "August 26, 1918", "May 7, 1918"],
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 7, p. 78"
+  },
+  {
+    "question": "At which 1922 convention did Rutherford deliver his famous \"Advertise the King and the Kingdom\" address?",
+    "answer": "Cedar Point, Ohio",
+    "options": ["Cedar Point, Ohio", "Columbus, Ohio", "Washington, D.C.", "Los Angeles, California"],
+    "category": "JW History",
+    "difficulty": "medium",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 7, p. 79"
+  },
+  {
+    "question": "At which 1931 convention did the Bible Students adopt the name \"Jehovah's witnesses\"?",
+    "answer": "Columbus, Ohio",
+    "options": ["Columbus, Ohio", "Cedar Point, Ohio", "Pittsburgh, Pennsylvania", "Brooklyn, New York"],
+    "category": "JW History",
+    "difficulty": "easy",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 7, p. 80"
+  },
+  {
+    "question": "What scripture was cited as the basis for the name \"Jehovah's witnesses,\" adopted in 1931?",
+    "answer": "Isaiah 43:12",
+    "options": ["Isaiah 43:12", "Isaiah 43:10", "Revelation 12:9", "Matthew 24:14"],
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 7, p. 80"
+  },
+  {
+    "question": "What was the call letters of the Watch Tower Society's own radio station, which began broadcasting from Staten Island, New York, in 1924?",
+    "answer": "WBBR",
+    "options": ["WBBR", "WORD", "WOR", "CHCY"],
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 7, p. 80"
+  },
+  {
+    "question": "What term, taken from a Bible character in 2 Kings, was used starting in 1932 for interested persons with an earthly hope, associated with Jehovah's Witnesses?",
+    "answer": "Jonadabs",
+    "options": ["Jonadabs", "Publishers", "Pioneers", "Colporteurs"],
+    "category": "JW History",
+    "difficulty": "hard",
+    "reference": "Jehovah's Witnesses—Proclaimers of God's Kingdom, Chapter 7, p. 85"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "question": "By what other name is the book of Revelation to John also known?",
+    "answer": "The Apocalypse",
+    "options": ["The Epistle", "The Apocalypse", "The Testament", "The Chronicle"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Revelation to John', p. 798"
+  },
+  {
+    "question": "On which island did the apostle John write the book of Revelation?",
+    "answer": "Patmos",
+    "options": ["Crete", "Cyprus", "Patmos", "Malta"],
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Revelation to John', p. 798"
+  },
+  {
+    "question": "Around what year C.E. was the book of Revelation likely written, according to Insight?",
+    "answer": "96 C.E.",
+    "options": ["70 C.E.", "96 C.E.", "33 C.E.", "125 C.E."],
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Revelation to John', p. 798"
+  },
+  {
+    "question": "Although Revelation is placed last in most Bible arrangements, was it also the last book of the Bible to be written?",
+    "answer": "No, it was not the last written",
+    "options": ["Yes, it was the very last written", "No, it was not the last written", "It was written simultaneously with all other books", "Insight does not address this"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Revelation to John', p. 798"
+  },
+  {
+    "question": "Through what channel did Jehovah God send the Revelation message to John, according to Insight?",
+    "answer": "Jesus Christ",
+    "options": ["The angel Gabriel", "Jesus Christ", "The prophet Elijah", "The archangel Michael"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Revelation to John', p. 798"
+  },
+  {
+    "question": "Which of the four Gospels is the shortest?",
+    "answer": "Mark",
+    "options": ["Matthew", "Mark", "Luke", "John"],
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mark, Good News According To', p. 337"
+  },
+  {
+    "question": "According to ancient tradition cited in Insight, which apostle provided the source information behind Mark's Gospel?",
+    "answer": "Peter",
+    "options": ["Paul", "Peter", "John", "James"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mark, Good News According To', p. 337"
+  },
+  {
+    "question": "Mark's Gospel was written primarily with which readers in mind?",
+    "answer": "Non-Jewish readers, especially Romans",
+    "options": ["Non-Jewish readers, especially Romans", "Jewish priests and scribes", "Greek philosophers", "Samaritan converts"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mark, Good News According To', p. 337"
+  },
+  {
+    "question": "According to ancient tradition, in which city was Mark's Gospel first made public?",
+    "answer": "Rome",
+    "options": ["Jerusalem", "Antioch", "Rome", "Alexandria"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Mark, Good News According To', p. 338"
+  },
+  {
+    "question": "According to Insight, Luke's Gospel was which-numbered Gospel to be written, likely recorded between 56 and 58 C.E.?",
+    "answer": "The second Gospel written",
+    "options": ["The first Gospel written", "The second Gospel written", "The third Gospel written", "The fourth Gospel written"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Luke, Good News According To', p. 283"
+  },
+  {
+    "question": "Almost the entirety of which two chapters of Luke's Gospel have no parallel in the other three Gospels?",
+    "answer": "Chapters 1 and 2",
+    "options": ["Chapters 1 and 2", "Chapters 22 and 23", "Chapters 9 and 10", "Chapters 15 and 16"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Luke, Good News According To', p. 283"
+  },
+  {
+    "question": "How many specific miracles recorded in Luke's Gospel are unique to that account, according to Insight?",
+    "answer": "At least six",
+    "options": ["At least six", "Exactly two", "At least twelve", "None are unique"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Luke, Good News According To', p. 283"
+  },
+  {
+    "question": "The book of Numbers gets its English name from what feature within it?",
+    "answer": "The two numberings (censuses) of the sons of Israel",
+    "options": ["The two numberings (censuses) of the sons of Israel", "Its list of the 613 laws", "The genealogies of the 12 tribes", "The count of plagues on Egypt"],
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Numbers, Book Of', p. 513"
+  },
+  {
+    "question": "According to Insight, the narrative of the book of Numbers covers about how long a period, from 1512 to 1473 B.C.E.?",
+    "answer": "38 years and 9 months",
+    "options": ["10 years", "38 years and 9 months", "70 years", "120 years"],
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Numbers, Book Of', p. 514"
+  },
+  {
+    "question": "Numbers is the fourth book of which major grouping of Bible books?",
+    "answer": "The Pentateuch",
+    "options": ["The Pentateuch", "The Major Prophets", "The Wisdom Books", "The Historical Books"],
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Numbers, Book Of', p. 513"
+  },
+  {
+    "question": "The authenticity of Paul's letter to Titus is attested by ancient catalogs starting with which 2nd-century C.E. document?",
+    "answer": "The Muratorian Fragment",
+    "options": ["The Dead Sea Scrolls", "The Muratorian Fragment", "The Codex Sinaiticus", "The Nag Hammadi library"],
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Titus, Letter To', p. 1112"
+  },
+  {
+    "question": "Paul sent his aide Tychicus to deliver letters and news of his imprisonment to which two congregations?",
+    "answer": "Ephesus and Colossae",
+    "options": ["Ephesus and Colossae", "Corinth and Philippi", "Thessalonica and Berea", "Rome and Antioch"],
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tychicus', p. 1135"
+  },
+  {
+    "question": "After his release from his first Roman imprisonment, Paul considered sending either Artemas or Tychicus to which island to relieve Titus?",
+    "answer": "Crete",
+    "options": ["Cyprus", "Crete", "Malta", "Rhodes"],
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Tychicus', p. 1135"
+  },
+  {
+    "question": "Zeruiah, mother of Joab, Abishai, and Asahel, had a sister who was also David's sister. What was this sister's name?",
+    "answer": "Abigail",
+    "options": ["Abigail", "Michal", "Merab", "Tamar"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zeruiah', p. 1233"
+  },
+  {
+    "question": "According to Insight, whose sons 'seem to have been about the same age as David,' suggesting she herself was considerably older than him?",
+    "answer": "Zeruiah",
+    "options": ["Zeruiah", "Bathsheba", "Ahinoam", "Michal"],
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Insight on the Scriptures, Vol. 2, 'Zeruiah', p. 1233"
+  }
+]
