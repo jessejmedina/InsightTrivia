@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which wife chosen at a well am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Rebekah",
+    "options": ["Rebekah", "Rachel", "Leah", "Zipporah"],
+    "reference": "Genesis 24; 27 (cross-check: Insight on the Scriptures, Vol. 2, 'Rebekah')",
+    "payload": { "clues": [
+      "A servant prayed for a sign: the right woman would offer water to him and to his camels.",
+      "I drew water again and again until all ten camels had finished drinking.",
+      "I agreed to leave my family that very day to marry a man I had never met.",
+      "Years later I helped my favorite son disguise himself to steal his brother's blessing."
+    ] }
+  },
+  {
+    "question": "Which unloved wife am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Leah",
+    "options": ["Leah", "Rachel", "Hannah", "Peninnah"],
+    "reference": "Genesis 29-30 (cross-check: Insight on the Scriptures, Vol. 2, 'Leah')",
+    "payload": { "clues": [
+      "My father married me off by disguising me under a heavy veil.",
+      "The Bible notes that my eyes were weak, while my younger sister was beautiful.",
+      "I bore six of Jacob's sons and a daughter, hoping each birth would win my husband's love.",
+      "From my sons came both the royal tribe and the priestly tribe."
+    ] }
+  },
+  {
+    "question": "Which stubborn king am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "easy",
+    "answer": "Pharaoh",
+    "options": ["Pharaoh", "Nebuchadnezzar", "Herod", "Sennacherib"],
+    "reference": "Exodus 1-14 (cross-check: Insight on the Scriptures, Vol. 2, 'Pharaoh')",
+    "payload": { "clues": [
+      "A new ruler who did not know Joseph turned his people into slaves.",
+      "I ordered every Hebrew baby boy to be thrown into the river.",
+      "Ten devastating plagues struck my land before I finally let the people go.",
+      "I chased them to the edge of the sea with my chariots and was swallowed up."
+    ] }
+  },
+  {
+    "question": "Which father-in-law am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Jethro",
+    "options": ["Jethro", "Laban", "Bethuel", "Hobab"],
+    "reference": "Exodus 2; 3; 18 (cross-check: Insight on the Scriptures, Vol. 2, 'Jethro')",
+    "payload": { "clues": [
+      "I was a priest in the land of Midian.",
+      "My daughters were driving off shepherds from a well when a fugitive from Egypt stepped in to help them.",
+      "I gave him my daughter Zipporah, and he tended my flocks for forty years.",
+      "I advised him to stop judging every case himself and to appoint capable men over thousands, hundreds, and tens."
+    ] }
+  },
+  {
+    "question": "Which first judge am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Othniel",
+    "options": ["Othniel", "Ehud", "Shamgar", "Gideon"],
+    "reference": "Judges 1:12-13; 3:7-11 (cross-check: Insight on the Scriptures, Vol. 2, 'Othniel')",
+    "payload": { "clues": [
+      "I was a younger kinsman of Caleb.",
+      "I captured a town called Kiriath-sepher and won Caleb's daughter Achsah as my wife.",
+      "When Israel had served a Mesopotamian king for eight years, God's spirit came upon me.",
+      "I freed the nation, and the land had rest for forty years."
+    ] }
+  },
+  {
+    "question": "Which cousin of a king am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Abner",
+    "options": ["Abner", "Joab", "Amasa", "Benaiah"],
+    "reference": "1 Samuel 14:50; 2 Samuel 2-3 (cross-check: Insight on the Scriptures, Vol. 1, 'Abner')",
+    "payload": { "clues": [
+      "I was the chief of King Saul's army and a relative of his.",
+      "After Saul died, I set his son Ish-bosheth on the throne of the northern tribes.",
+      "When Ish-bosheth accused me over one of Saul's concubines, I switched my loyalty to David.",
+      "Joab took me aside at the gate of Hebron and killed me to avenge his brother."
+    ] }
+  },
+  {
+    "question": "Which foolish landowner am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Nabal",
+    "options": ["Nabal", "Laban", "Boaz", "Barzillai"],
+    "reference": "1 Samuel 25 (cross-check: Insight on the Scriptures, Vol. 2, 'Nabal')",
+    "payload": { "clues": [
+      "I was a very rich man with thousands of sheep and goats near Carmel of Judah.",
+      "David's men had guarded my shepherds, but I insulted them and sent them away empty-handed.",
+      "My wife rode out with food and kept David from killing every male in my household.",
+      "When she told me the next morning, my heart went numb, and about ten days later I died."
+    ] }
+  },
+  {
+    "question": "Which man who touched the ark am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Uzzah",
+    "options": ["Uzzah", "Obed-edom", "Ahio", "Nadab"],
+    "reference": "2 Samuel 6:1-11 (cross-check: Insight on the Scriptures, Vol. 2, 'Uzzah No. 1')",
+    "payload": { "clues": [
+      "The ark was being moved on a new wagon rather than carried on poles as the Law required.",
+      "The cattle nearly upset it at a threshing floor.",
+      "I reached out my hand to steady the sacred chest.",
+      "God struck me down on the spot, and the frightened king left the ark at a nearby house for three months."
+    ] }
+  },
+  {
+    "question": "Which first king of the northern kingdom am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Jeroboam",
+    "options": ["Jeroboam", "Rehoboam", "Omri", "Ahab"],
+    "reference": "1 Kings 11-12 (cross-check: Insight on the Scriptures, Vol. 2, 'Jeroboam No. 1')",
+    "payload": { "clues": [
+      "I began as an officer over Solomon's forced-labor gangs.",
+      "A prophet tore his new garment into twelve pieces and handed me ten of them.",
+      "After Solomon's son threatened to make the people's load heavier, ten tribes made me their king.",
+      "I set up golden calves at Bethel and Dan so my subjects would not travel to Jerusalem to worship."
+    ] }
+  },
+  {
+    "question": "Which vineyard owner am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Naboth",
+    "options": ["Naboth", "Nabal", "Boaz", "Barzillai"],
+    "reference": "1 Kings 21 (cross-check: Insight on the Scriptures, Vol. 2, 'Naboth')",
+    "payload": { "clues": [
+      "My land lay right next to the palace of the king in Jezreel.",
+      "He offered to buy it or trade for it, but it was my ancestral inheritance and I would not give it up.",
+      "His queen hired scoundrels to testify that I had cursed God and the king.",
+      "I was dragged out and stoned, and the king went down to take possession of my vineyard."
+    ] }
+  },
+  {
+    "question": "Which lone true prophet am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Micaiah",
+    "options": ["Micaiah", "Elijah", "Elisha", "Nathan"],
+    "reference": "1 Kings 22 (cross-check: Insight on the Scriptures, Vol. 2, 'Micaiah No. 2')",
+    "payload": { "clues": [
+      "Two kings sat on their thrones while 400 prophets promised them victory.",
+      "I was summoned last, and at first I sarcastically told the king to go up and win.",
+      "Then I said what I had really seen: Israel scattered on the mountains like sheep without a shepherd.",
+      "The king jailed me on bread and water until he should return in peace, but he never came back."
+    ] }
+  },
+  {
+    "question": "Which prophetess am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Huldah",
+    "options": ["Huldah", "Deborah", "Miriam", "Noadiah"],
+    "reference": "2 Kings 22:14-20 (cross-check: Insight on the Scriptures, Vol. 1, 'Huldah')",
+    "payload": { "clues": [
+      "I lived in Jerusalem in the days of a boy-king who grew into a great reformer.",
+      "When the lost book of the Law was found in the temple, the king sent his officials to me.",
+      "I confirmed that the curses written in the book would come upon the nation.",
+      "But I promised the faithful king that he would be gathered to his grave in peace, not seeing the calamity."
+    ] }
+  },
+  {
+    "question": "Which palace official am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Mordecai",
+    "options": ["Mordecai", "Haman", "Daniel", "Nehemiah"],
+    "reference": "Esther 2-10 (cross-check: Insight on the Scriptures, Vol. 2, 'Mordecai No. 2')",
+    "payload": { "clues": [
+      "I raised my orphaned younger cousin as if she were my own daughter.",
+      "I overheard two doorkeepers plotting to assassinate the king and reported it.",
+      "I refused to bow to the king's proud favorite, who then schemed to destroy my whole people.",
+      "In the end I was led through the city in royal robes, and later I received the signet ring of the man who had hated me."
+    ] }
+  },
+  {
+    "question": "Which elderly priest am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Zechariah",
+    "options": ["Zechariah", "Simeon", "Eli", "Zadok"],
+    "reference": "Luke 1:5-25, 57-79 (cross-check: Insight on the Scriptures, Vol. 2, 'Zechariah No. 16')",
+    "payload": { "clues": [
+      "I was serving in the temple when an angel appeared beside the altar of incense.",
+      "The angel promised that my wife Elizabeth would bear a son in our old age.",
+      "Because I doubted, I could not speak until the child was born.",
+      "When I wrote that his name would be John, my tongue was freed and I prophesied."
+    ] }
+  },
+  {
+    "question": "Which king who feared a rival am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Herod the Great",
+    "options": ["Herod the Great", "Herod Antipas", "Archelaus", "Herod Agrippa I"],
+    "reference": "Matthew 2 (cross-check: Insight on the Scriptures, Vol. 1, 'Herod No. 1')",
+    "payload": { "clues": [
+      "Astrologers came to my court asking where the king of the Jews had been born.",
+      "I quietly asked them to bring me word once they had found the child.",
+      "When they went home another way, I ordered the killing of all the boys in Bethlehem two years old and under.",
+      "But the child had already been taken to Egypt out of my reach."
+    ] }
+  },
+  {
+    "question": "Which blind beggar am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Bartimaeus",
+    "options": ["Bartimaeus", "Lazarus", "Zacchaeus", "Malchus"],
+    "reference": "Mark 10:46-52 (cross-check: Insight on the Scriptures, Vol. 1, 'Bartimaeus')",
+    "payload": { "clues": [
+      "I sat begging beside the road as people streamed out of Jericho.",
+      "Hearing that Jesus was passing, I called out, \"Son of David, have mercy on me!\"",
+      "The crowd told me to be quiet, so I shouted all the louder.",
+      "Jesus called me over, my sight came back, and I followed him on the road."
+    ] }
+  }
+]

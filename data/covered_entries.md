@@ -377,6 +377,25 @@ Nebo.
 **DB per-type (count:exact): estimation 141, progressive 114, swipe 109;
 grand total 1304.**
 
+**batch8 (2026-09-06) — written + IMPORTED** (20 est / 16 prog / 15 swipe,
+51 rows, 0 skipped). est: Judges-era counts (Shamgar 600, Gideon's ephod
+1,700, Jephthah's daughter 2 months, Benjamin 600 survivors), Saul's
+330,000 muster, David's 200 foreskins, Solomon's 13-year palace + 200 gold
+shields, Ahab's 400 prophets, Elisha feeds 100, Jehu's 42, Jehoahaz's 50
+horsemen, Hezekiah's shadow 10 steps, Ahaz's 200,000 captives, furnace 7x,
+and Acts figures (Paul's 40 oath-takers, Aeneas 8 yrs, Corinth 18 months,
+Rome 2 years). prog: Rebekah, Leah, Pharaoh, Jethro, Othniel, Abner, Nabal,
+Uzzah, Jeroboam, Naboth, Micaiah, Huldah, Mordecai, Zechariah (John's
+father), Herod the Great, Bartimaeus. swipe: plague-vs-commandment, king-
+of-Judah-vs-prophet, Daniel-vs-the-three, Gospel-miracle-vs-Acts-miracle,
+instrument-vs-weight/money, son-of-Aaron-vs-son-of-Jacob, Assyrian-era-vs-
+Babylonian-era prophet, baptism-vs-transfiguration, one-chapter-vs-longer
+book, offering-accepted-vs-rejected, struck-with-leprosy-vs-healed, Red-
+Sea-vs-Jordan, long-vs-brief reign, pre-monarchy-vs-post-exile leader,
+hospitable-woman-vs-opposed-God's-servants.
+**DB per-type (count:exact): estimation 161, progressive 130, swipe 124;
+grand total 1355.**
+
 **estimation + swipe batches 1-4 — IMPORTED 2026-09-06.** estimation
 79/80 inserted (skipped "How many pieces of silver did the chief priests
 pay Judas..." — already in the DB as a multiple_choice question). swipe

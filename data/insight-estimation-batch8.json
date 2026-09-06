@@ -1,0 +1,162 @@
+[
+  {
+    "question": "How many Philistines did Shamgar strike down with an ox goad?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Judges 3:31 (cross-check: Insight on the Scriptures, Vol. 2, 'Shamgar')",
+    "payload": { "value": 600, "unit": "men", "min": 20, "max": 3000 }
+  },
+  {
+    "question": "How many shekels of gold were in the earrings Gideon collected to make his ephod?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Judges 8:26 (cross-check: Insight on the Scriptures, Vol. 1, 'Gideon')",
+    "payload": { "value": 1700, "unit": "shekels", "min": 100, "max": 8000 }
+  },
+  {
+    "question": "For how many months did Jephthah's daughter go into the mountains to weep before her father kept his vow?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Judges 11:37-39 (cross-check: Insight on the Scriptures, Vol. 2, 'Jephthah')",
+    "payload": { "value": 2, "unit": "months", "min": 1, "max": 14 }
+  },
+  {
+    "question": "How many men of Benjamin escaped to the crag of Rimmon and survived the civil war against the other tribes?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Judges 20:47 (cross-check: Insight on the Scriptures, Vol. 1, 'Benjamin No. 1')",
+    "payload": { "value": 600, "unit": "men", "min": 30, "max": 3000 }
+  },
+  {
+    "question": "For how many years did Naomi's family live in Moab before she returned to Bethlehem?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Ruth 1:4 (cross-check: Insight on the Scriptures, Vol. 2, 'Ruth')",
+    "payload": { "value": 10, "unit": "years", "min": 1, "max": 40 }
+  },
+  {
+    "question": "How many fighting men did Saul muster at Bezek to rescue Jabesh-gilead?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Samuel 11:8 (cross-check: Insight on the Scriptures, Vol. 2, 'Saul No. 1', p. 871)",
+    "payload": { "value": 330000, "unit": "men", "min": 20000, "max": 2000000, "log": true }
+  },
+  {
+    "question": "How many Philistine foreskins did David bring King Saul as the bride-price for Michal?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 18:27 (cross-check: Insight on the Scriptures, Vol. 1, 'David')",
+    "payload": { "value": 200, "unit": "foreskins", "min": 20, "max": 800 }
+  },
+  {
+    "question": "How many years did it take Solomon to build his own royal palace, compared with seven for the temple?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 7:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Solomon')",
+    "payload": { "value": 13, "unit": "years", "min": 2, "max": 50 }
+  },
+  {
+    "question": "How many large gold shields, each of 600 shekels of gold, did Solomon make?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 10:16 (cross-check: Insight on the Scriptures, Vol. 2, 'Shield')",
+    "payload": { "value": 200, "unit": "shields", "min": 20, "max": 800 }
+  },
+  {
+    "question": "How many prophets did King Ahab assemble who all urged him to attack Ramoth-gilead?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 22:6 (cross-check: Insight on the Scriptures, Vol. 1, 'Ahab No. 1')",
+    "payload": { "value": 400, "unit": "prophets", "min": 40, "max": 1600 }
+  },
+  {
+    "question": "How many men did Elisha feed with twenty barley loaves, with food left over?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "2 Kings 4:42-44 (cross-check: Insight on the Scriptures, Vol. 1, 'Elisha')",
+    "payload": { "value": 100, "unit": "men", "min": 10, "max": 500 }
+  },
+  {
+    "question": "How many relatives of King Ahaziah did Jehu have killed at the pit of Beth-eked?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 10:14 (cross-check: Insight on the Scriptures, Vol. 2, 'Jehu No. 1')",
+    "payload": { "value": 42, "unit": "relatives", "min": 4, "max": 160 }
+  },
+  {
+    "question": "How many horsemen were left to King Jehoahaz of Israel after Syria crushed his army?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 13:7 (cross-check: Insight on the Scriptures, Vol. 2, 'Jehoahaz No. 2')",
+    "payload": { "value": 50, "unit": "horsemen", "min": 5, "max": 300 }
+  },
+  {
+    "question": "How many steps did the shadow go backward as a sign to Hezekiah that he would recover?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 20:11 (cross-check: Insight on the Scriptures, Vol. 1, 'Hezekiah')",
+    "payload": { "value": 10, "unit": "steps", "min": 1, "max": 40 }
+  },
+  {
+    "question": "How many captives from Judah did the army of Israel carry off in the reign of Ahaz, before a prophet made them release them?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 28:8 (cross-check: Insight on the Scriptures, Vol. 1, 'Ahaz No. 1')",
+    "payload": { "value": 200000, "unit": "captives", "min": 15000, "max": 1000000, "log": true }
+  },
+  {
+    "question": "How many times hotter did Nebuchadnezzar order the furnace heated for the three Hebrews?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Daniel 3:19 (cross-check: Insight on the Scriptures, Vol. 1, 'Furnace')",
+    "payload": { "value": 7, "unit": "times", "min": 1, "max": 30 }
+  },
+  {
+    "question": "More than how many men bound themselves by an oath not to eat or drink until they had killed Paul?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 23:12-13 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "value": 40, "unit": "men", "min": 4, "max": 160 }
+  },
+  {
+    "question": "For how many years had Aeneas been bedridden and paralyzed before Peter healed him at Lydda?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 9:33 (cross-check: Insight on the Scriptures, Vol. 1, 'Aeneas')",
+    "payload": { "value": 8, "unit": "years", "min": 1, "max": 40 }
+  },
+  {
+    "question": "For how many months did Paul stay teaching the word of God in Corinth?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 18:11 (cross-check: Insight on the Scriptures, Vol. 1, 'Corinth')",
+    "payload": { "value": 18, "unit": "months", "min": 2, "max": 72 }
+  },
+  {
+    "question": "For how many years did Paul stay under guard in a rented house in Rome, welcoming all who came to him?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Acts 28:30 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "value": 2, "unit": "years", "min": 1, "max": 12 }
+  }
+]

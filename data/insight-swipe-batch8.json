@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Is this one of the ten plagues on Egypt, or one of the Ten Commandments?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "Exodus 7-12; 20 (cross-check: Insight on the Scriptures, Vol. 2, 'Ten Words')",
+    "payload": { "categoryLeft": "One of the ten plagues", "categoryRight": "One of the Ten Commandments", "cards": [
+      { "text": "The waters of the Nile turned to blood", "side": "left" },
+      { "text": "\"You must not steal\"", "side": "right" },
+      { "text": "The death of the firstborn", "side": "left" },
+      { "text": "\"Honor your father and your mother\"", "side": "right" },
+      { "text": "Boils breaking out on man and beast", "side": "left" },
+      { "text": "\"You must not make for yourself a carved image\"", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this man a king of Judah, or a prophet who served during the kings?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "2 Kings; Isaiah; Micah; Hosea (cross-check: Insight on the Scriptures, Vol. 2, 'King')",
+    "payload": { "categoryLeft": "A king of Judah", "categoryRight": "A prophet", "cards": [
+      { "text": "Jotham", "side": "left" },
+      { "text": "Isaiah", "side": "right" },
+      { "text": "Ahaz", "side": "left" },
+      { "text": "Micah", "side": "right" },
+      { "text": "Hezekiah", "side": "left" },
+      { "text": "Hosea", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this happen to Daniel, or to his three companions?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Daniel 1-6 (cross-check: Insight on the Scriptures, Vol. 1, 'Daniel')",
+    "payload": { "categoryLeft": "To the three companions", "categoryRight": "To Daniel", "cards": [
+      { "text": "Being thrown into a superheated furnace", "side": "left" },
+      { "text": "Being thrown into a den of lions", "side": "right" },
+      { "text": "Reading the words written by a hand on the palace wall", "side": "right" },
+      { "text": "Refusing to bow down to the golden image on the plain of Dura", "side": "left" },
+      { "text": "Learning from the scrolls of a prophecy about seventy years", "side": "right" },
+      { "text": "Being renamed Shadrach, Meshach, and Abednego", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a miracle Jesus did in the Gospels, or one an apostle did in the book of Acts?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "The Gospels; Acts 3; 9; 28 (cross-check: Insight on the Scriptures, Vol. 2, 'Miracles')",
+    "payload": { "categoryLeft": "Jesus, in the Gospels", "categoryRight": "An apostle, in Acts", "cards": [
+      { "text": "Healing a paralyzed man lowered through the roof", "side": "left" },
+      { "text": "Healing the lame man at the temple's Beautiful Gate", "side": "right" },
+      { "text": "Raising the daughter of Jairus", "side": "left" },
+      { "text": "Shaking a venomous snake off into the fire on Malta", "side": "right" },
+      { "text": "Turning water into wine at Cana", "side": "left" },
+      { "text": "Raising Dorcas at Joppa", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In the Bible, is this a musical instrument, or a unit of weight or money?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "1 Samuel; Psalms; Exodus 30; the Gospels (cross-check: Insight on the Scriptures, Vol. 2, 'Weights and Measures')",
+    "payload": { "categoryLeft": "A musical instrument", "categoryRight": "A unit of weight or money", "cards": [
+      { "text": "Lyre", "side": "left" },
+      { "text": "Shekel", "side": "right" },
+      { "text": "Tambourine", "side": "left" },
+      { "text": "Talent", "side": "right" },
+      { "text": "Horn", "side": "left" },
+      { "text": "Mina", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this man a son of Aaron the priest, or a son of Jacob who headed a tribe?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 35; Exodus 6; Leviticus 10 (cross-check: Insight on the Scriptures, Vol. 1, 'Aaron')",
+    "payload": { "categoryLeft": "A son of Jacob", "categoryRight": "A son of Aaron", "cards": [
+      { "text": "Nadab", "side": "right" },
+      { "text": "Judah", "side": "left" },
+      { "text": "Abihu", "side": "right" },
+      { "text": "Benjamin", "side": "left" },
+      { "text": "Eleazar", "side": "right" },
+      { "text": "Levi", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this prophet live while the Assyrian Empire was dominant, or while Babylon was dominant?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Isaiah; Jonah; Nahum; Jeremiah; Ezekiel; Daniel (cross-check: Insight on the Scriptures, Vol. 2, 'Prophet')",
+    "payload": { "categoryLeft": "The Assyrian era", "categoryRight": "The Babylonian era", "cards": [
+      { "text": "Isaiah", "side": "left" },
+      { "text": "Jeremiah", "side": "right" },
+      { "text": "Jonah", "side": "left" },
+      { "text": "Ezekiel", "side": "right" },
+      { "text": "Nahum", "side": "left" },
+      { "text": "Daniel", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this detail belong to Jesus' baptism, or to his transfiguration?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Matthew 3; 17; Mark 1; 9 (cross-check: Insight on the Scriptures, Vol. 2, 'Transfiguration')",
+    "payload": { "categoryLeft": "The baptism", "categoryRight": "The transfiguration", "cards": [
+      { "text": "A dove descending and resting on him", "side": "left" },
+      { "text": "Moses and Elijah appearing and talking with him", "side": "right" },
+      { "text": "John the Baptist standing in the water with him", "side": "left" },
+      { "text": "His face shining like the sun", "side": "right" },
+      { "text": "Coming up out of the Jordan", "side": "left" },
+      { "text": "Peter offering to put up three tents", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this a book of the Bible with only one chapter, or a longer book?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Bible book lengths (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": { "categoryLeft": "A longer book", "categoryRight": "Only one chapter", "cards": [
+      { "text": "Obadiah", "side": "right" },
+      { "text": "Genesis", "side": "left" },
+      { "text": "Philemon", "side": "right" },
+      { "text": "Romans", "side": "left" },
+      { "text": "Jude", "side": "right" },
+      { "text": "Psalms", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this offering or sacrifice accepted by God, or rejected by him?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Genesis 4; 8; 22; Leviticus 10; 1 Samuel 15 (cross-check: Insight on the Scriptures, Vol. 2, 'Offerings')",
+    "payload": { "categoryLeft": "Rejected", "categoryRight": "Accepted", "cards": [
+      { "text": "Abel's firstlings of his flock", "side": "right" },
+      { "text": "Cain's offering of the ground's produce", "side": "left" },
+      { "text": "The unauthorized fire of Nadab and Abihu", "side": "left" },
+      { "text": "Noah's burnt offerings after the Flood", "side": "right" },
+      { "text": "The ram Abraham found caught in the thicket", "side": "right" },
+      { "text": "The livestock King Saul spared from the Amalekites", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this person struck with leprosy as a judgment, or healed of leprosy?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Numbers 12; 2 Kings 5; 2 Chronicles 26; Luke 17 (cross-check: Insight on the Scriptures, Vol. 2, 'Leprosy')",
+    "payload": { "categoryLeft": "Struck with leprosy", "categoryRight": "Healed of leprosy", "cards": [
+      { "text": "Miriam, after speaking against Moses", "side": "left" },
+      { "text": "Naaman the Syrian", "side": "right" },
+      { "text": "King Uzziah, after entering the temple to burn incense", "side": "left" },
+      { "text": "The one Samaritan of ten who came back to give thanks", "side": "right" },
+      { "text": "Gehazi, the prophet's servant", "side": "left" },
+      { "text": "The man Jesus told to go and show himself to the priest", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this event take place at the Red Sea, or at the Jordan River?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Exodus 14-15; Joshua 3-4; 2 Kings 2; 5 (cross-check: Insight on the Scriptures, Vol. 2, 'Red Sea')",
+    "payload": { "categoryLeft": "At the Red Sea", "categoryRight": "At the Jordan River", "cards": [
+      { "text": "The people crossed on dry ground as Moses stretched out his hand over the water", "side": "left" },
+      { "text": "The waters piled up while the priests carrying the ark stood in the riverbed", "side": "right" },
+      { "text": "Pharaoh's chariots and horsemen were swept away", "side": "left" },
+      { "text": "Two prophets in turn struck the water with a folded cloak and walked across", "side": "right" },
+      { "text": "A commander of Syria dipped himself seven times and was cleansed", "side": "right" },
+      { "text": "Miriam led the women with tambourines in a victory song", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this king of Judah reign a long time, or only very briefly?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 21-25; 2 Chronicles 26 (cross-check: Insight on the Scriptures, Vol. 2, 'King')",
+    "payload": { "categoryLeft": "A brief reign (under 3 years)", "categoryRight": "A long reign (20+ years)", "cards": [
+      { "text": "Manasseh", "side": "right" },
+      { "text": "Jehoahaz", "side": "left" },
+      { "text": "Uzziah", "side": "right" },
+      { "text": "Amon", "side": "left" },
+      { "text": "Asa", "side": "right" },
+      { "text": "Jehoiachin", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this leader serve before Israel had a king, or after the return from exile?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Judges; Ezra; Nehemiah (cross-check: Insight on the Scriptures, Vol. 1, 'Chronology')",
+    "payload": { "categoryLeft": "Before the monarchy", "categoryRight": "After the exile", "cards": [
+      { "text": "Gideon", "side": "left" },
+      { "text": "Ezra", "side": "right" },
+      { "text": "Samson", "side": "left" },
+      { "text": "Nehemiah", "side": "right" },
+      { "text": "Deborah", "side": "left" },
+      { "text": "Zerubbabel", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this woman one who showed hospitality to God's servants, or one who opposed them?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "1 Kings 17; 2 Kings 4; 1 Kings 19; Mark 6; Acts 5; 16 (cross-check: Insight on the Scriptures, Vol. 1, 'Hospitality')",
+    "payload": { "categoryLeft": "Opposed God's servants", "categoryRight": "Showed hospitality", "cards": [
+      { "text": "The widow of Zarephath", "side": "right" },
+      { "text": "Queen Jezebel", "side": "left" },
+      { "text": "The wealthy woman of Shunem", "side": "right" },
+      { "text": "Herodias", "side": "left" },
+      { "text": "Lydia of Philippi", "side": "right" },
+      { "text": "Sapphira", "side": "left" }
+    ] }
+  }
+]
