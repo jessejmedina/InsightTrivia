@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Is this event told in the book of Genesis, or the book of Judges?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis; Judges (cross-check: Insight on the Scriptures, Vol. 1, 'Genesis, Book Of')",
+    "payload": { "categoryLeft": "In Genesis", "categoryRight": "In Judges", "cards": [
+      { "text": "The building of the tower of Babel", "side": "left" },
+      { "text": "Samson pulling down the temple of Dagon", "side": "right" },
+      { "text": "Jacob's dream of a stairway to heaven", "side": "left" },
+      { "text": "Gideon testing God with a wool fleece", "side": "right" },
+      { "text": "Abraham told to offer up his son on a mountain", "side": "left" },
+      { "text": "Deborah and Barak's victory song", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a plague or judgment on Egypt, or one that fell on Israel itself?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus 7-12; Numbers 16; 21; 2 Samuel 24 (cross-check: Insight on the Scriptures, Vol. 2, 'Plague')",
+    "payload": { "categoryLeft": "On Israel", "categoryRight": "On Egypt", "cards": [
+      { "text": "The Nile turning to blood", "side": "right" },
+      { "text": "The fiery serpents in the wilderness", "side": "left" },
+      { "text": "The death of the firstborn", "side": "right" },
+      { "text": "The ground opening to swallow Korah's followers", "side": "left" },
+      { "text": "Boils breaking out on man and beast", "side": "right" },
+      { "text": "The pestilence that followed David's census", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this a name or title used for God, or the name of a place?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Genesis 28; 32; Daniel 7; Revelation 1 (cross-check: Insight on the Scriptures, Vol. 1, 'God')",
+    "payload": { "categoryLeft": "A place name", "categoryRight": "A name or title for God", "cards": [
+      { "text": "The Ancient of Days", "side": "right" },
+      { "text": "Bethel", "side": "left" },
+      { "text": "The Alpha and the Omega", "side": "right" },
+      { "text": "Peniel", "side": "left" },
+      { "text": "The Rock of Israel", "side": "right" },
+      { "text": "Zion", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this parable of Jesus turn on money and debt, or on farming and growth?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 13; 18; 25; Luke 15 (cross-check: Insight on the Scriptures, Vol. 2, 'Illustrations')",
+    "payload": { "categoryLeft": "Money and debt", "categoryRight": "Farming and growth", "cards": [
+      { "text": "The slaves entrusted with talents while the master traveled", "side": "left" },
+      { "text": "The tiny mustard seed that becomes a tree", "side": "right" },
+      { "text": "The woman who lost one of her ten silver coins", "side": "left" },
+      { "text": "The sower scattering seed on four kinds of soil", "side": "right" },
+      { "text": "The slave forgiven a huge debt who then jailed a fellow slave", "side": "left" },
+      { "text": "The wheat and the weeds growing together until harvest", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this listed as a fruitage of the spirit, or as a work of the flesh?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Galatians 5:19-23 (cross-check: Insight on the Scriptures, Vol. 1, 'Fruitage of the Spirit')",
+    "payload": { "categoryLeft": "A work of the flesh", "categoryRight": "A fruitage of the spirit", "cards": [
+      { "text": "Love", "side": "right" },
+      { "text": "Jealousy", "side": "left" },
+      { "text": "Peace", "side": "right" },
+      { "text": "Fits of anger", "side": "left" },
+      { "text": "Self-control", "side": "right" },
+      { "text": "Spiritism", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this creature named in the Bible a bird, or a land mammal?",
+    "type": "swipe",
+    "category": "Creation",
+    "difficulty": "easy",
+    "reference": "Leviticus 11; 1 Kings 17; Matthew 10 (cross-check: Insight on the Scriptures, Vol. 1, 'Animals')",
+    "payload": { "categoryLeft": "A bird", "categoryRight": "A land mammal", "cards": [
+      { "text": "Eagle", "side": "left" },
+      { "text": "Fox", "side": "right" },
+      { "text": "Quail", "side": "left" },
+      { "text": "Bear", "side": "right" },
+      { "text": "Sparrow", "side": "left" },
+      { "text": "Wild boar", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this letter of the Christian Greek Scriptures written by Peter, or by John?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "1 & 2 Peter; 1, 2 & 3 John (cross-check: Insight on the Scriptures, Vol. 2, 'Peter, Letters of')",
+    "payload": { "categoryLeft": "Written by John", "categoryRight": "Written by Peter", "cards": [
+      { "text": "The letter warning of scoffers who ask, \"Where is this promised presence?\"", "side": "right" },
+      { "text": "The letter that repeats the thought, \"God is love\"", "side": "left" },
+      { "text": "The letter comparing false teachers to Balaam and to waterless springs", "side": "right" },
+      { "text": "The letter that says many antichrists have already appeared", "side": "left" },
+      { "text": "The short letter addressed to \"the chosen lady and her children\"", "side": "left" },
+      { "text": "The letter urging household servants to submit even to harsh masters", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In the book of Daniel, is this a real historical empire, or a symbolic beast in a vision?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Daniel 2; 7-8 (cross-check: Insight on the Scriptures, Vol. 1, 'Daniel, Book Of')",
+    "payload": { "categoryLeft": "A symbol in a vision", "categoryRight": "A real historical empire", "cards": [
+      { "text": "Babylon under Nebuchadnezzar", "side": "right" },
+      { "text": "The beast with ten horns", "side": "left" },
+      { "text": "The empire of the Medes and the Persians", "side": "right" },
+      { "text": "The small horn that speaks arrogantly", "side": "left" },
+      { "text": "The kingdom of Greece under its first great king", "side": "right" },
+      { "text": "The towering image with a head of gold", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this man hold the office of king, or of high priest?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Exodus 28; 1 Samuel; John 18 (cross-check: Insight on the Scriptures, Vol. 2, 'High Priest')",
+    "payload": { "categoryLeft": "A king", "categoryRight": "A high priest", "cards": [
+      { "text": "Aaron", "side": "right" },
+      { "text": "Saul", "side": "left" },
+      { "text": "Caiaphas", "side": "right" },
+      { "text": "David", "side": "left" },
+      { "text": "Annas", "side": "right" },
+      { "text": "Solomon", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this miracle performed through Moses, or through Joshua?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Exodus 14-17; Numbers 21; Joshua 3-10 (cross-check: Insight on the Scriptures, Vol. 2, 'Joshua', p. 114)",
+    "payload": { "categoryLeft": "Through Moses", "categoryRight": "Through Joshua", "cards": [
+      { "text": "The copper serpent raised on a pole", "side": "left" },
+      { "text": "The sun standing still over Gibeon", "side": "right" },
+      { "text": "Water gushing from the rock at Horeb", "side": "left" },
+      { "text": "The Jordan stopping so the nation could cross", "side": "right" },
+      { "text": "The parting of the Red Sea", "side": "left" },
+      { "text": "The walls of Jericho collapsing after a shout", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did God chiefly communicate with this person through dreams, or speak to him directly while he was awake?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 28; 37; Exodus 33; Isaiah 6; 1 Samuel 3; Daniel 2 (cross-check: Insight on the Scriptures, Vol. 1, 'Dream')",
+    "payload": { "categoryLeft": "Through dreams", "categoryRight": "Directly, while awake", "cards": [
+      { "text": "Jacob at Bethel", "side": "left" },
+      { "text": "Moses at the tent of meeting", "side": "right" },
+      { "text": "Joseph, the young son of Jacob", "side": "left" },
+      { "text": "Isaiah in the temple", "side": "right" },
+      { "text": "King Nebuchadnezzar", "side": "left" },
+      { "text": "Samuel as a boy in the sanctuary", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this town in Galilee, or down in Judea?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "The Gospels (cross-check: Insight on the Scriptures, Vol. 1, 'Galilee')",
+    "payload": { "categoryLeft": "In Galilee", "categoryRight": "In Judea", "cards": [
+      { "text": "Nazareth", "side": "left" },
+      { "text": "Jericho", "side": "right" },
+      { "text": "Capernaum", "side": "left" },
+      { "text": "Bethlehem", "side": "right" },
+      { "text": "Cana", "side": "left" },
+      { "text": "Jerusalem", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this scene take place at a wedding, or at a funeral or tomb?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 22; 25; Luke 7; 24; John 2; 11 (cross-check: Insight on the Scriptures, Vol. 2, 'Marriage')",
+    "payload": { "categoryLeft": "At a wedding", "categoryRight": "At a funeral or tomb", "cards": [
+      { "text": "Jesus turning water into wine", "side": "left" },
+      { "text": "Jesus stopping the bier of the widow of Nain's son", "side": "right" },
+      { "text": "Ten virgins waiting through the night for the bridegroom", "side": "left" },
+      { "text": "Lazarus called out from his cave", "side": "right" },
+      { "text": "The king who prepared a marriage feast for his son", "side": "left" },
+      { "text": "The women arriving at dawn with spices", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this instruction part of the Law of Moses, or part of Jesus' Sermon on the Mount?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Exodus 21; Leviticus 19; Deuteronomy 25; Matthew 5-6 (cross-check: Insight on the Scriptures, Vol. 2, 'Sermon on the Mount')",
+    "payload": { "categoryLeft": "From the Law of Moses", "categoryRight": "From the Sermon on the Mount", "cards": [
+      { "text": "\"Eye for eye, tooth for tooth\"", "side": "left" },
+      { "text": "\"If someone slaps you on one cheek, turn the other also\"", "side": "right" },
+      { "text": "\"You must love your fellow as yourself\"", "side": "left" },
+      { "text": "\"Continue to love your enemies and to pray for those persecuting you\"", "side": "right" },
+      { "text": "\"You must not muzzle a bull while it is threshing\"", "side": "left" },
+      { "text": "\"When making gifts of mercy, do not blow a trumpet ahead of you\"", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In the tabernacle, was this item covered in gold, or made of copper (bronze)?",
+    "type": "swipe",
+    "category": "Tabernacle",
+    "difficulty": "hard",
+    "reference": "Exodus 25-27; 30 (cross-check: Insight on the Scriptures, Vol. 2, 'Tabernacle')",
+    "payload": { "categoryLeft": "Copper (bronze)", "categoryRight": "Covered in gold", "cards": [
+      { "text": "The ark of the covenant", "side": "right" },
+      { "text": "The altar of burnt offering", "side": "left" },
+      { "text": "The lampstand", "side": "right" },
+      { "text": "The basin for washing", "side": "left" },
+      { "text": "The table for the showbread", "side": "right" },
+      { "text": "The pillars around the courtyard", "side": "left" }
+    ] }
+  }
+]

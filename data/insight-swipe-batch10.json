@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Is this from the Peter-and-Jerusalem half of Acts (chapters 1-12), or the Paul-and-the-nations half (chapters 13-28)?",
+    "type": "swipe",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts (cross-check: Insight on the Scriptures, Vol. 1, 'Acts of Apostles')",
+    "payload": { "categoryLeft": "Chapters 1-12", "categoryRight": "Chapters 13-28", "cards": [
+      { "text": "The outpouring of the spirit at Pentecost", "side": "left" },
+      { "text": "The shipwreck on the island of Malta", "side": "right" },
+      { "text": "The deaths of Ananias and Sapphira", "side": "left" },
+      { "text": "The silversmiths' riot in the theater at Ephesus", "side": "right" },
+      { "text": "Peter led out of prison by an angel", "side": "left" },
+      { "text": "The speech to the philosophers at the Areopagus in Athens", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a covenant God made, or an agreement between two people?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Genesis 9; 31; Exodus 24; Joshua 9; 2 Samuel 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Covenant')",
+    "payload": { "categoryLeft": "An agreement between people", "categoryRight": "A covenant God made", "cards": [
+      { "text": "The promise never again to bring a flood over all the earth", "side": "right" },
+      { "text": "The bond of friendship between David and Jonathan", "side": "left" },
+      { "text": "The Law given at Mount Sinai", "side": "right" },
+      { "text": "The heap of stones set up by Jacob and Laban at Mizpah", "side": "left" },
+      { "text": "The everlasting kingship promised to David's line", "side": "right" },
+      { "text": "The treaty Joshua was tricked into making with the Gibeonites", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this person leave the earthly scene without dying, or die a normal death?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 5; 2 Kings 2; Deuteronomy 34 (cross-check: Insight on the Scriptures, Vol. 1, 'Enoch No. 1')",
+    "payload": { "categoryLeft": "Died a normal death", "categoryRight": "Taken without dying", "cards": [
+      { "text": "Enoch", "side": "right" },
+      { "text": "Moses", "side": "left" },
+      { "text": "Elijah", "side": "right" },
+      { "text": "King David", "side": "left" },
+      { "text": "Aaron", "side": "left" },
+      { "text": "Jacob", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Were these words spoken by God the Father from heaven, or by an angel?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Genesis 22; 1 Kings 19; Matthew 3; 17; John 12; Acts 10 (cross-check: Insight on the Scriptures, Vol. 1, 'Angel')",
+    "payload": { "categoryLeft": "An angel", "categoryRight": "God the Father, from heaven", "cards": [
+      { "text": "\"This is my Son, the beloved, whom I have approved.\"", "side": "right" },
+      { "text": "\"Do not harm the boy,\" said to Abraham with the knife raised", "side": "left" },
+      { "text": "\"I have glorified it and will glorify it again.\"", "side": "right" },
+      { "text": "\"Get up and eat, because the journey is too much for you,\" said to Elijah", "side": "left" },
+      { "text": "\"Listen to him,\" spoken on the mountain of the transfiguration", "side": "right" },
+      { "text": "\"Cornelius, your prayer has been favorably heard.\"", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this a judge of Israel whose story is told at length, or one mentioned only briefly?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Judges 3-16 (cross-check: Insight on the Scriptures, Vol. 1, 'Judge')",
+    "payload": { "categoryLeft": "Mentioned only briefly", "categoryRight": "Story told at length", "cards": [
+      { "text": "Gideon", "side": "right" },
+      { "text": "Tola", "side": "left" },
+      { "text": "Samson", "side": "right" },
+      { "text": "Jair", "side": "left" },
+      { "text": "Deborah", "side": "right" },
+      { "text": "Elon", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this take place inside the Promised Land, or outside it?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Exodus 3; 32; Numbers 24; Joshua 6; 1 Kings 3; 18 (cross-check: Insight on the Scriptures, Vol. 2, 'Promised Land')",
+    "payload": { "categoryLeft": "Outside the land", "categoryRight": "Inside the land", "cards": [
+      { "text": "The making of the golden calf", "side": "left" },
+      { "text": "The fall of Jericho", "side": "right" },
+      { "text": "Balaam trying to curse Israel, but blessing them", "side": "left" },
+      { "text": "Elijah's contest with the prophets of Baal on Mount Carmel", "side": "right" },
+      { "text": "The bush that burned but was not consumed", "side": "left" },
+      { "text": "Solomon's dream at Gibeon, asking for wisdom", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a way God provided food for his people, or water?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Exodus 15-17; Numbers 11; 1 Kings 17 (cross-check: Insight on the Scriptures, Vol. 2, 'Manna')",
+    "payload": { "categoryLeft": "Water", "categoryRight": "Food", "cards": [
+      { "text": "The flakes that appeared on the ground each morning", "side": "right" },
+      { "text": "The stream that gushed from the rock at Rephidim", "side": "left" },
+      { "text": "Quail blown in until they covered the camp", "side": "right" },
+      { "text": "The brook Cherith that kept Elijah alive in the drought", "side": "left" },
+      { "text": "Ravens carrying bread and meat morning and evening", "side": "right" },
+      { "text": "The bitter spring at Marah made sweet with a piece of wood", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this king assassinated by conspirators, or did he die some other way?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 12; 14; 19 (cross-check: Insight on the Scriptures, Vol. 2, 'King')",
+    "payload": { "categoryLeft": "Assassinated by conspirators", "categoryRight": "Died some other way", "cards": [
+      { "text": "Joash of Judah, struck down by his own servants", "side": "left" },
+      { "text": "Solomon", "side": "right" },
+      { "text": "Amaziah, hunted down and killed at Lachish", "side": "left" },
+      { "text": "David", "side": "right" },
+      { "text": "Sennacherib of Assyria, killed by two of his sons", "side": "left" },
+      { "text": "Josiah, mortally wounded in battle at Megiddo", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this event take place at the tabernacle, or at the temple in Jerusalem?",
+    "type": "swipe",
+    "category": "Tabernacle",
+    "difficulty": "hard",
+    "reference": "Leviticus 10; 1 Samuel 1-3; 1 Kings 8; Luke 1; John 2 (cross-check: Insight on the Scriptures, Vol. 2, 'Temple')",
+    "payload": { "categoryLeft": "At the tabernacle", "categoryRight": "At the temple", "cards": [
+      { "text": "The boy Samuel hearing a voice call his name in the night", "side": "left" },
+      { "text": "A cloud filling the house so the priests could not keep standing to minister", "side": "right" },
+      { "text": "Nadab and Abihu offering unauthorized fire", "side": "left" },
+      { "text": "A priest struck speechless by an angel at the altar of incense", "side": "right" },
+      { "text": "Hannah praying so hard for a son that the priest thought she was drunk", "side": "left" },
+      { "text": "Jesus overturning the tables of the money changers", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In the accounts of the Gospels and Acts, was this person a Jew, or a Roman?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "The Gospels; Acts (cross-check: Insight on the Scriptures, Vol. 1, 'Rome')",
+    "payload": { "categoryLeft": "A Jew", "categoryRight": "A Roman", "cards": [
+      { "text": "The army officer whose servant Jesus healed from a distance", "side": "right" },
+      { "text": "Nicodemus", "side": "left" },
+      { "text": "Pontius Pilate", "side": "right" },
+      { "text": "Gamaliel", "side": "left" },
+      { "text": "The jailer at Philippi", "side": "right" },
+      { "text": "Barnabas", "side": "left" }
+    ] }
+  },
+  {
+    "question": "In this account, was the person struck blind, or given sight?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 19; 2 Kings 6; Matthew 20; Acts 13; John 9 (cross-check: Insight on the Scriptures, Vol. 1, 'Blindness')",
+    "payload": { "categoryLeft": "Given sight", "categoryRight": "Struck blind", "cards": [
+      { "text": "Elymas the sorcerer on Cyprus", "side": "right" },
+      { "text": "Blind Bartimaeus at Jericho", "side": "left" },
+      { "text": "The Aramean troops sent to seize Elisha at Dothan", "side": "right" },
+      { "text": "The two men calling out \"Son of David\" on the road", "side": "left" },
+      { "text": "The men crowding Lot's door in Sodom", "side": "right" },
+      { "text": "The man told to wash in the pool of Siloam", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this miracle involve fire from heaven, or water?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Exodus 17; 2 Kings 1; 5; 6; 1 Kings 18; 2 Chronicles 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Fire')",
+    "payload": { "categoryLeft": "Fire", "categoryRight": "Water", "cards": [
+      { "text": "Elijah's soaked sacrifice consumed on Mount Carmel", "side": "left" },
+      { "text": "Moses striking the rock so a stream flowed out", "side": "right" },
+      { "text": "The offerings burned up at the dedication of Solomon's temple", "side": "left" },
+      { "text": "Naaman dipping seven times in the Jordan", "side": "right" },
+      { "text": "Two companies of fifty soldiers consumed on the hillside", "side": "left" },
+      { "text": "An iron axe head rising to float on the water", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this prophecy fulfilled at the birth of Jesus, or at his death?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Psalm 22; 34; Isaiah 7; Micah 5; Hosea 11; John 19 (cross-check: Insight on the Scriptures, Vol. 2, 'Jesus Christ')",
+    "payload": { "categoryLeft": "At his birth", "categoryRight": "At his death", "cards": [
+      { "text": "Born of a virgin", "side": "left" },
+      { "text": "His garments divided, and lots cast for his clothing", "side": "right" },
+      { "text": "A ruler to come out of Bethlehem Ephrathah", "side": "left" },
+      { "text": "Not one of his bones would be broken", "side": "right" },
+      { "text": "\"Out of Egypt I called my son\"", "side": "left" },
+      { "text": "They would look on the one they pierced", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this one of the four rivers of Eden, or a river elsewhere in the Bible?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Genesis 2:10-14; Judges 5; Ezekiel 1 (cross-check: Insight on the Scriptures, Vol. 1, 'Eden No. 1')",
+    "payload": { "categoryLeft": "A river elsewhere", "categoryRight": "A river of Eden", "cards": [
+      { "text": "The Euphrates", "side": "right" },
+      { "text": "The Jordan", "side": "left" },
+      { "text": "The Tigris (Hiddekel)", "side": "right" },
+      { "text": "The Kishon", "side": "left" },
+      { "text": "The Pishon", "side": "right" },
+      { "text": "The Chebar", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this woman named in the Bible, or referred to only by a description?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Exodus 2; Judges 11; Ruth; Esther; 1 Kings 17 (cross-check: Insight on the Scriptures, Vol. 2, 'Woman')",
+    "payload": { "categoryLeft": "Unnamed in the Bible", "categoryRight": "Named in the Bible", "cards": [
+      { "text": "Deborah", "side": "right" },
+      { "text": "Jephthah's daughter", "side": "left" },
+      { "text": "Ruth", "side": "right" },
+      { "text": "The widow of Zarephath", "side": "left" },
+      { "text": "Esther", "side": "right" },
+      { "text": "The daughter of Pharaoh who drew Moses from the water", "side": "left" }
+    ] }
+  }
+]

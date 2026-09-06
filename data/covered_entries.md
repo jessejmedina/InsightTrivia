@@ -396,6 +396,39 @@ hospitable-woman-vs-opposed-God's-servants.
 **DB per-type (count:exact): estimation 161, progressive 130, swipe 124;
 grand total 1355.**
 
+**batch9 (2026-09-06) — written + IMPORTED** (20/16/15, 0 skipped). est:
+temple/tabernacle measures (temple 60 cubits, molten sea 2,000 baths, 10
+lampstands, court 100 cubits, Emmaus 60 stadia), wilderness census figures
+(603,550; Levites 22,000; Korah's 250; Peor 24,000), conquest counts (Ai
+36, Joshua's 31 kings), David's 100,000 gold talents, Benaiah's 5-cubit
+Egyptian, Josheb-basshebeth's 800, chariot 600 shekels, Jeroboam II 41 yrs,
+Athaliah 6 yrs, Samaria siege 3 yrs, woman at the well 5 husbands,
+Nicodemus 100 lbs. prog: Ish-bosheth, Benaiah, Shimei, Ahithophel, Doeg,
+Asa, Jehoshaphat, Joash, the Shunammite woman, + the minor prophets Joel,
+Habakkuk, Haggai, Zechariah, Obadiah, Nahum, Zephaniah. swipe: Genesis-vs-
+Judges, plague-on-Egypt-vs-on-Israel, name-for-God-vs-place, parable-money-
+vs-farming, fruitage-vs-work-of-flesh, bird-vs-mammal, Peter's-letter-vs-
+John's, real-empire-vs-symbolic-beast, king-vs-high-priest, Moses-miracle-
+vs-Joshua-miracle, dreams-vs-direct, Galilee-vs-Judea town, wedding-vs-
+funeral, Law-vs-Sermon, gold-vs-bronze tabernacle item.
+
+**batch10 (2026-09-06) — written + IMPORTED** (20/16/15, 0 skipped). est:
+reign lengths (Zimri 7 days, Shallum 1 month, Omri 12, Jehu 28, Baasha 24,
+Jehoiakim 11, Josiah 31, Rehoboam 17), Nebuchadnezzar's 7 times, 4,600
+total exiles, Cyrus's 5,400 vessels, Amaziah's 10,000 off the cliff,
+Abijah's 500,000, Solomon's 12 throne lions + 14-day feast + 22,000 cattle,
+Darius the Mede 62, Ezekiel's 40 right-side days, 4 metals of the image,
+rebuilt temple 60 cubits. prog: Zadok, Abiathar, Hushai, Barzillai, Ziba,
+Gad, Ahijah, Ebed-melech, Nebuzaradan, Gedaliah, Zedekiah, Sanballat,
+Vashti, Simeon, Anna, Gamaliel. swipe: Acts-1-12-vs-13-28, divine-covenant-
+vs-human-treaty, taken-without-dying-vs-died, Father's-voice-vs-angel,
+major-vs-minor judge, inside-vs-outside the land, food-vs-water provision,
+king-assassinated-vs-not, tabernacle-vs-temple event, Jew-vs-Roman, struck-
+blind-vs-given-sight, fire-vs-water miracle, prophecy-at-birth-vs-death,
+river-of-Eden-vs-elsewhere, named-vs-unnamed woman.
+**DB per-type (count:exact): estimation 201, progressive 162, swipe 154;
+grand total 1457.**
+
 **estimation + swipe batches 1-4 — IMPORTED 2026-09-06.** estimation
 79/80 inserted (skipped "How many pieces of silver did the chief priests
 pay Judas..." — already in the DB as a multiple_choice question). swipe

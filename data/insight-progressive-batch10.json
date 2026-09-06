@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which loyal priest am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Zadok",
+    "options": ["Zadok", "Abiathar", "Ahimelech", "Jehoiada"],
+    "reference": "2 Samuel 15; 1 Kings 1 (cross-check: Insight on the Scriptures, Vol. 2, 'Zadok No. 1')",
+    "payload": { "clues": [
+      "I served as a priest alongside Abiathar during David's reign.",
+      "When Absalom rebelled, I wanted to carry the ark of God out of the city with the fleeing king.",
+      "David told me to take it back and stay in Jerusalem to send him word.",
+      "When Adonijah tried to grab the throne, I anointed Solomon king at the spring of Gihon."
+    ] }
+  },
+  {
+    "question": "Which priest who fled to David am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Abiathar",
+    "options": ["Abiathar", "Zadok", "Ahimelech", "Eli"],
+    "reference": "1 Samuel 22-23; 1 Kings 2 (cross-check: Insight on the Scriptures, Vol. 1, 'Abiathar')",
+    "payload": { "clues": [
+      "I was the only one to escape when Doeg slaughtered the priests of Nob, my father among them.",
+      "I brought the priestly ephod with me to David in the wilderness.",
+      "I served as a priest through David's entire reign.",
+      "Because I sided with Adonijah, Solomon dismissed me from the priesthood and sent me home to Anathoth."
+    ] }
+  },
+  {
+    "question": "Which secret agent am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Hushai",
+    "options": ["Hushai", "Ahithophel", "Ittai", "Ziba"],
+    "reference": "2 Samuel 15-17 (cross-check: Insight on the Scriptures, Vol. 1, 'Hushai')",
+    "payload": { "clues": [
+      "I was called the king's friend, and I met him fleeing the capital with my robe torn and dirt on my head.",
+      "David sent me back to pretend loyalty to Absalom and to undo Ahithophel's advice.",
+      "I persuaded Absalom to wait and gather all Israel rather than strike at David that night.",
+      "I passed word to David through two priests' sons who were hiding by a well."
+    ] }
+  },
+  {
+    "question": "Which aged benefactor am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Barzillai",
+    "options": ["Barzillai", "Nabal", "Boaz", "Mephibosheth"],
+    "reference": "2 Samuel 17:27-29; 19:31-39 (cross-check: Insight on the Scriptures, Vol. 1, 'Barzillai No. 1')",
+    "payload": { "clues": [
+      "I was a very old and very wealthy man from Gilead.",
+      "When the king and his people fled across the Jordan, I brought them beds, food, and supplies.",
+      "The king invited me to come and live at the palace in Jerusalem.",
+      "I turned him down because of my age, and sent a younger man in my place."
+    ] }
+  },
+  {
+    "question": "Which scheming servant am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Ziba",
+    "options": ["Ziba", "Gehazi", "Doeg", "Shimei"],
+    "reference": "2 Samuel 9; 16:1-4; 19:24-30 (cross-check: Insight on the Scriptures, Vol. 2, 'Ziba')",
+    "payload": { "clues": [
+      "I had been a servant in the household of King Saul.",
+      "David put me in charge of farming the land he restored to my lame master.",
+      "When David fled Jerusalem, I met him with donkeys and food and claimed my master had stayed behind hoping to be made king.",
+      "I was handed my master's whole estate, though he later disputed my story to the king."
+    ] }
+  },
+  {
+    "question": "Which seer am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Gad",
+    "options": ["Gad", "Nathan", "Samuel", "Ahijah"],
+    "reference": "1 Samuel 22:5; 2 Samuel 24 (cross-check: Insight on the Scriptures, Vol. 1, 'Gad No. 2')",
+    "payload": { "clues": [
+      "I told David to leave his hideout and go into the land of Judah.",
+      "After David took a census, I came to offer him a choice among three punishments.",
+      "I directed him to build an altar on the threshing floor of a Jebusite.",
+      "I am remembered as the king's own visionary, and I had a hand in arranging the temple music."
+    ] }
+  },
+  {
+    "question": "Which prophet with a torn cloak am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "Ahijah",
+    "options": ["Ahijah", "Shemaiah", "Iddo", "Jehu"],
+    "reference": "1 Kings 11:29-39; 14:1-18 (cross-check: Insight on the Scriptures, Vol. 1, 'Ahijah No. 3')",
+    "payload": { "clues": [
+      "I met Jeroboam on the road while I was wearing a brand-new garment.",
+      "I tore it into twelve pieces and told him to take ten for himself.",
+      "Years later, when his son fell ill, his wife came to me in disguise.",
+      "Though I was old and my eyes had failed, I knew who she was and foretold the ruin of Jeroboam's house."
+    ] }
+  },
+  {
+    "question": "Which Ethiopian court official am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Ebed-melech",
+    "options": ["Ebed-melech", "the Ethiopian eunuch", "Cush", "Zerah"],
+    "reference": "Jeremiah 38:7-13; 39:15-18 (cross-check: Insight on the Scriptures, Vol. 1, 'Ebed-melech')",
+    "payload": { "clues": [
+      "I served in the palace of the king of Judah during the final siege of Jerusalem.",
+      "The prophet Jeremiah had been lowered into a muddy cistern and left to sink.",
+      "I went straight to the king and got permission to pull him out.",
+      "I sent down worn-out rags to pad the ropes under his arms, and God promised I would not fall by the sword."
+    ] }
+  },
+  {
+    "question": "Which Babylonian official am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Nebuzaradan",
+    "options": ["Nebuzaradan", "Rabshakeh", "Ashpenaz", "Nebuchadnezzar"],
+    "reference": "2 Kings 25:8-12; Jeremiah 40:1-5 (cross-check: Insight on the Scriptures, Vol. 2, 'Nebuzaradan')",
+    "payload": { "clues": [
+      "I was the chief of the bodyguard for the king of Babylon.",
+      "I carried out the burning of Jerusalem, its temple, and its royal palace.",
+      "I took the people into exile but left the poorest of the land to tend the vineyards and fields.",
+      "I set the prophet Jeremiah free and let him choose where he wanted to live."
+    ] }
+  },
+  {
+    "question": "Which appointed governor am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Gedaliah",
+    "options": ["Gedaliah", "Zerubbabel", "Zedekiah", "Sheshbazzar"],
+    "reference": "2 Kings 25:22-26; Jeremiah 40-41 (cross-check: Insight on the Scriptures, Vol. 1, 'Gedaliah No. 1')",
+    "payload": { "clues": [
+      "The Babylonians made me governor over the handful of people left in Judah after Jerusalem fell.",
+      "I urged them to settle down, serve the king of Babylon, and it would go well for them.",
+      "I brushed aside a warning that a man of royal blood was plotting to kill me.",
+      "He and his men murdered me and many others at a meal in Mizpah."
+    ] }
+  },
+  {
+    "question": "Which last king of Judah am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Zedekiah",
+    "options": ["Zedekiah", "Jehoiakim", "Jehoiachin", "Josiah"],
+    "reference": "2 Kings 24-25; Jeremiah 37-39 (cross-check: Insight on the Scriptures, Vol. 2, 'Zedekiah No. 2')",
+    "payload": { "clues": [
+      "Nebuchadnezzar set me on the throne and made me swear an oath of loyalty by God.",
+      "Against Jeremiah's warnings, I rebelled and looked to Egypt for help.",
+      "When the city fell, I slipped out by night but was caught on the plains near Jericho.",
+      "My sons were killed in front of me, then my eyes were put out and I was taken to Babylon in chains."
+    ] }
+  },
+  {
+    "question": "Which opponent of the wall-builders am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Sanballat",
+    "options": ["Sanballat", "Tobiah", "Geshem", "Rehum"],
+    "reference": "Nehemiah 2; 4; 6 (cross-check: Insight on the Scriptures, Vol. 2, 'Sanballat')",
+    "payload": { "clues": [
+      "I was the leading man of Samaria when the Jews began rebuilding Jerusalem's wall.",
+      "I mocked them, asking whether they would bring the burned stones back to life out of the rubble heaps.",
+      "With Tobiah and Geshem I tried to lure the governor to a meeting on the plain of Ono to do him harm.",
+      "Despite every scheme, the wall was finished in fifty-two days."
+    ] }
+  },
+  {
+    "question": "Which deposed queen am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Vashti",
+    "options": ["Vashti", "Esther", "Jezebel", "Athaliah"],
+    "reference": "Esther 1 (cross-check: Insight on the Scriptures, Vol. 2, 'Vashti')",
+    "payload": { "clues": [
+      "My husband ruled an empire of 127 provinces from the citadel of Susa.",
+      "On the seventh day of a long feast, he ordered me brought out to show my beauty to his drunken guests.",
+      "I refused to come.",
+      "His advisers feared other wives would follow my example, so I was set aside and a search began for my replacement."
+    ] }
+  },
+  {
+    "question": "Which man who held the infant Jesus am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Simeon",
+    "options": ["Simeon", "Zechariah", "Nicodemus", "Joseph of Arimathea"],
+    "reference": "Luke 2:25-35 (cross-check: Insight on the Scriptures, Vol. 2, 'Simeon No. 5')",
+    "payload": { "clues": [
+      "It had been revealed to me that I would not die before seeing the Lord's Christ.",
+      "Led by the spirit, I came into the temple as a poor couple arrived with their baby and the customary offering.",
+      "I took the child in my arms and praised God.",
+      "I told his mother that a sword would pass through her own soul as well."
+    ] }
+  },
+  {
+    "question": "Which aged widow am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Anna",
+    "options": ["Anna", "Elizabeth", "Naomi", "Dorcas"],
+    "reference": "Luke 2:36-38 (cross-check: Insight on the Scriptures, Vol. 1, 'Anna No. 2')",
+    "payload": { "clues": [
+      "I was a prophetess of the tribe of Asher, and I had been a widow for many decades.",
+      "I never left the temple, serving God with fasting and prayer night and day.",
+      "I came up at the very moment an old man was blessing a baby brought for dedication.",
+      "I began thanking God and telling everyone waiting for Jerusalem's deliverance about the child."
+    ] }
+  },
+  {
+    "question": "Which teacher of the Law am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Gamaliel",
+    "options": ["Gamaliel", "Nicodemus", "Caiaphas", "Annas"],
+    "reference": "Acts 5:34-39 (cross-check: Insight on the Scriptures, Vol. 1, 'Gamaliel')",
+    "payload": { "clues": [
+      "I was a Pharisee, and the whole people held me in honor.",
+      "When the council wanted to put the apostles to death, I asked for them to be sent outside for a moment.",
+      "I reminded the council of earlier movements that had come to nothing once their leaders died.",
+      "I warned that if this work was from God, they could not stop it, and might be found fighting against God himself."
+    ] }
+  }
+]

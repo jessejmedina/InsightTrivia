@@ -1,0 +1,162 @@
+[
+  {
+    "question": "For how many days did Zimri reign over Israel before dying in the burning palace?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 16:15 (cross-check: Insight on the Scriptures, Vol. 2, 'Zimri No. 4')",
+    "payload": { "value": 7, "unit": "days", "min": 1, "max": 40 }
+  },
+  {
+    "question": "For how many months did Shallum reign in Samaria before he was assassinated?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 15:13 (cross-check: Insight on the Scriptures, Vol. 2, 'Shallum No. 4')",
+    "payload": { "value": 1, "unit": "months", "min": 0, "max": 30 }
+  },
+  {
+    "question": "For how many years did Omri reign over Israel, founding the dynasty Ahab would inherit?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 16:23 (cross-check: Insight on the Scriptures, Vol. 2, 'Omri No. 1')",
+    "payload": { "value": 12, "unit": "years", "min": 1, "max": 50 }
+  },
+  {
+    "question": "For how many years did Jehu reign over Israel after wiping out the house of Ahab?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 10:36 (cross-check: Insight on the Scriptures, Vol. 2, 'Jehu No. 1')",
+    "payload": { "value": 28, "unit": "years", "min": 3, "max": 90 }
+  },
+  {
+    "question": "For how many years did Baasha reign over Israel?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 15:33 (cross-check: Insight on the Scriptures, Vol. 1, 'Baasha')",
+    "payload": { "value": 24, "unit": "years", "min": 2, "max": 80 }
+  },
+  {
+    "question": "For how many years did Jehoiakim reign in Jerusalem before the Babylonians came against him?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 23:36 (cross-check: Insight on the Scriptures, Vol. 2, 'Jehoiakim')",
+    "payload": { "value": 11, "unit": "years", "min": 1, "max": 40 }
+  },
+  {
+    "question": "For how many years did Josiah reign in Jerusalem?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 22:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Josiah')",
+    "payload": { "value": 31, "unit": "years", "min": 3, "max": 90 }
+  },
+  {
+    "question": "For how many years did Rehoboam reign after the kingdom split in two?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 14:21 (cross-check: Insight on the Scriptures, Vol. 2, 'Rehoboam')",
+    "payload": { "value": 17, "unit": "years", "min": 2, "max": 60 }
+  },
+  {
+    "question": "For how many 'times' did Nebuchadnezzar live like a wild animal before his sanity returned?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Daniel 4:32 (cross-check: Insight on the Scriptures, Vol. 2, 'Nebuchadnezzar', p. 481)",
+    "payload": { "value": 7, "unit": "times", "min": 1, "max": 30 }
+  },
+  {
+    "question": "How many exiles in total did Nebuchadnezzar carry to Babylon over three deportations, by Jeremiah's count?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Jeremiah 52:28-30 (cross-check: Insight on the Scriptures, Vol. 1, 'Exile')",
+    "payload": { "value": 4600, "unit": "people", "min": 300, "max": 30000, "log": true }
+  },
+  {
+    "question": "How many gold and silver articles from the temple did Cyrus return to the Jews?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Ezra 1:11 (cross-check: Insight on the Scriptures, Vol. 1, 'Cyrus')",
+    "payload": { "value": 5400, "unit": "articles", "min": 300, "max": 30000, "log": true }
+  },
+  {
+    "question": "How many captured Edomites did Judah's army hurl down from the cliff at Sela under King Amaziah?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 25:12 (cross-check: Insight on the Scriptures, Vol. 1, 'Amaziah No. 1')",
+    "payload": { "value": 10000, "unit": "men", "min": 500, "max": 70000, "log": true }
+  },
+  {
+    "question": "How many chosen men of Israel fell in Abijah's battle against Jeroboam?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Chronicles 13:17 (cross-check: Insight on the Scriptures, Vol. 1, 'Abijah No. 4')",
+    "payload": { "value": 500000, "unit": "men", "min": 30000, "max": 3000000, "log": true }
+  },
+  {
+    "question": "How many carved lions stood along the six steps leading up to Solomon's ivory throne?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 10:20 (cross-check: Insight on the Scriptures, Vol. 2, 'Throne')",
+    "payload": { "value": 12, "unit": "lions", "min": 2, "max": 50 }
+  },
+  {
+    "question": "For how many days did the feast last at the dedication of Solomon's temple?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 8:65 (cross-check: Insight on the Scriptures, Vol. 2, 'Temple')",
+    "payload": { "value": 14, "unit": "days", "min": 2, "max": 50 }
+  },
+  {
+    "question": "How many head of cattle did Solomon sacrifice at the dedication of the temple?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 8:63 (cross-check: Insight on the Scriptures, Vol. 2, 'Temple')",
+    "payload": { "value": 22000, "unit": "cattle", "min": 1000, "max": 150000, "log": true }
+  },
+  {
+    "question": "About how old was Darius the Mede when he received the kingdom of Babylon?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Daniel 5:31 (cross-check: Insight on the Scriptures, Vol. 1, 'Darius No. 1')",
+    "payload": { "value": 62, "unit": "years old", "min": 15, "max": 150 }
+  },
+  {
+    "question": "For how many days did Ezekiel lie on his right side, bearing the error of Judah, after 390 on his left?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Ezekiel 4:6 (cross-check: Insight on the Scriptures, Vol. 1, 'Ezekiel')",
+    "payload": { "value": 40, "unit": "days", "min": 3, "max": 150 }
+  },
+  {
+    "question": "How many kinds of metal did Daniel name in Nebuchadnezzar's dream image (gold, silver, copper, and iron)?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "easy",
+    "reference": "Daniel 2:32-33 (cross-check: Insight on the Scriptures, Vol. 1, 'Image')",
+    "payload": { "value": 4, "unit": "metals", "min": 1, "max": 15 }
+  },
+  {
+    "question": "Per Cyrus's decree, how tall was the rebuilt temple in Jerusalem to be, in cubits?",
+    "type": "estimation",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Ezra 6:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Temple')",
+    "payload": { "value": 60, "unit": "cubits", "min": 8, "max": 220 }
+  }
+]
