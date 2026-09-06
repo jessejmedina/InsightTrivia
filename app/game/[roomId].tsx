@@ -179,6 +179,8 @@ export default function GameScreen() {
           players={players}
           myUserId={profile?.id ?? ''}
           onLeave={() => router.replace('/(tabs)/home')}
+          roundHistory={round.roundHistory}
+          questionCount={questionIds.length}
         />
       )}
     </View>

@@ -137,6 +137,11 @@ export const gameStyles = StyleSheet.create({
   },
   revealPoints: { color: Colors.accent, fontWeight: '800', fontSize: 16 },
   revealTotal: { color: Colors.textSecondary, fontWeight: '700', fontSize: 14 },
+  // Results
+  resultBarTrack: { height: 8, borderRadius: 4, backgroundColor: Colors.border, overflow: 'hidden' },
+  resultBarFill: { height: 8, borderRadius: 4 },
+  resultStrip: { flexDirection: 'row', gap: 4, flexWrap: 'wrap', justifyContent: 'center', marginVertical: 8 },
+  resultPip: { width: 14, height: 14, borderRadius: 4 },
   // Swipe-categorize
   swipeCatsRow: { flexDirection: 'row', justifyContent: 'space-between', width: '100%' },
   swipeCatLeft: { color: Colors.primary, fontWeight: '800' },
