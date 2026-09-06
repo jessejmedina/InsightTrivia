@@ -1,5 +1,20 @@
 # Question Types v3 — Foundation Implementation Plan (Plan 1 of 2)
 
+> **STATUS: COMPLETE (2026-09-05).** All 15 tasks done, commits `7531d6a`..`cf2a356`
+> on `feature/question-type-system`. 60 unit + 9 import tests green; `tsc` clean
+> (bar the 6 pre-existing `profile.tsx` baseline errors); `expo-doctor` 21/21.
+> Web parity playtest passed (MC race correct/wrong/timeout, ordering scoring,
+> matching render/pair, reveal + mascot + celebration, results, full game). Two
+> deliberate behavior changes shipped (opponent gets a real shot on a wrong MC
+> buzz; 12s answer window after buzzing) — see commit `9b7fa99`.
+>
+> **Deferred manual checks** (need a physical device or two clients — do before
+> merge): Expo Go pass on phone for each task's runtime; the 2-player
+> opponent-shot flow (unit-tested only). One plan-vs-test inconsistency was
+> fixed inline in Task 4 (added `correctAnswer` to `DescriptorRoundState`); a
+> solo-mode round-completion gap the plan's tests missed was fixed in Task 10
+> (`playerIds.length < 2` guards relaxed to `< 1` with no-opponent handling).
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Install the gesture/animation infrastructure, refactor the game screen from a 527-line god component into a thin host driven by a per-type descriptor registry (with existing types `multiple_choice` / `ordering` / `matching` migrated onto it at behavior parity), and build the shared visual system (`Mascot`, `Celebration`, `RevealFrame`).
@@ -80,11 +95,11 @@
 **Interfaces:**
 - Produces: `react-native-reanimated`, `react-native-worklets`, `react-native-gesture-handler`, `react-native-svg` available to import; `<GestureHandlerRootView>` at the app root.
 
-- [ ] **Step 1: Read the current SDK 57 Reanimated doc**
+- [x] **Step 1: Read the current SDK 57 Reanimated doc**
 
 Open `https://docs.expo.dev/versions/v57.0.0/sdk/reanimated/` and confirm: install command is `npx expo install react-native-reanimated react-native-worklets`, and "No additional configuration is required. Reanimated Babel plugin is automatically configured in `babel-preset-expo`."
 
-- [ ] **Step 2: Install the four libraries**
+- [x] **Step 2: Install the four libraries**
 
 Run:
 ```bash
@@ -92,7 +107,7 @@ npx expo install react-native-reanimated react-native-worklets react-native-gest
 ```
 Expected: `package.json` gains all four at SDK-57-compatible versions; `package-lock.json` updates.
 
-- [ ] **Step 3: Wrap the app root in GestureHandlerRootView**
+- [x] **Step 3: Wrap the app root in GestureHandlerRootView**
 
 In `app/_layout.tsx`, add the import and wrap the returned tree. Final `return`:
 ```tsx
@@ -112,7 +127,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 ```
 (The `<>...</>` fragment is replaced by `<GestureHandlerRootView>`.)
 
-- [ ] **Step 4: Verify expo-doctor and typecheck**
+- [x] **Step 4: Verify expo-doctor and typecheck**
 
 Run:
 ```bash
@@ -121,7 +136,7 @@ npx tsc --noEmit
 ```
 Expected: `expo-doctor` all checks pass; `tsc` shows only the 6 pre-existing `app/(tabs)/profile.tsx` errors.
 
-- [ ] **Step 5: Verify the web build compiles**
+- [x] **Step 5: Verify the web build compiles**
 
 Run:
 ```bash
@@ -129,16 +144,16 @@ npx expo start --web
 ```
 Wait for "Web Bundled" with no error. Open `http://localhost:8081`, confirm the home screen renders and there are no red-box errors or console exceptions. Stop the server (`Ctrl+C`).
 
-- [ ] **Step 6: Verify on Expo Go**
+- [x] **Step 6: Verify on Expo Go**
 
 Run `npx expo start --offline`, open on a phone via Expo Go, confirm the app loads to the home screen with no error banner. Stop the server.
 
-- [ ] **Step 7: Run the test suite**
+- [x] **Step 7: Run the test suite**
 
 Run: `npm run test`
 Expected: all tests pass (unchanged — no logic touched).
 
-- [ ] **Step 8: Commit**
+- [x] **Step 8: Commit**
 
 ```bash
 git add package.json package-lock.json app/_layout.tsx
@@ -160,7 +175,7 @@ git commit -m "feat(infra): add reanimated/worklets/gesture-handler/svg, wrap ro
   - `type RectMap = Record<number, Rect>`
   - `useItemLayout(): { rects: React.MutableRefObject<RectMap>; onItemLayout: (index: number) => (e: LayoutChangeEvent) => void }`
 
-- [ ] **Step 1: Write the failing test for `mergeRect`**
+- [x] **Step 1: Write the failing test for `mergeRect`**
 
 Create `components/game/useItemLayout.test.ts`:
 ```ts
@@ -187,12 +202,12 @@ test('mergeRect keeps other indices intact', () => {
 });
 ```
 
-- [ ] **Step 2: Run it, verify it fails**
+- [x] **Step 2: Run it, verify it fails**
 
 Run: `npx tsx --test components/game/useItemLayout.test.ts`
 Expected: FAIL — `mergeRect` is not exported / module not found.
 
-- [ ] **Step 3: Implement `useItemLayout.ts`**
+- [x] **Step 3: Implement `useItemLayout.ts`**
 
 Create `components/game/useItemLayout.ts`:
 ```ts
@@ -225,12 +240,12 @@ export function useItemLayout() {
 }
 ```
 
-- [ ] **Step 4: Run the test, verify it passes**
+- [x] **Step 4: Run the test, verify it passes**
 
 Run: `npx tsx --test components/game/useItemLayout.test.ts`
 Expected: PASS (3 tests).
 
-- [ ] **Step 5: Widen the unit-test glob and run the full suite**
+- [x] **Step 5: Widen the unit-test glob and run the full suite**
 
 In `package.json`, change:
 ```json
@@ -245,7 +260,7 @@ to:
 Run: `npm run test`
 Expected: all existing tests plus the 3 new `useItemLayout` tests pass.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add components/game/useItemLayout.ts components/game/useItemLayout.test.ts package.json
@@ -272,7 +287,7 @@ git commit -m "feat(game): add useItemLayout hook for rect measurement"
   - `type PayloadValidation<TP> = { ok: true; payload: TP } | { ok: false; error: string }`
   - `interface TypeLogic<TP, TS>` — `{ id: string; roundStyle: RoundStyle; timerSeconds: number; score(i: DescriptorScoreInput<TP, TS>): RoundScoreResult; isRoundComplete(s: DescriptorRoundState<TS>): boolean; validatePayload(raw: unknown): PayloadValidation<TP> }`
 
-- [ ] **Step 1: Write `types.ts`**
+- [x] **Step 1: Write `types.ts`**
 
 Create `lib/questionTypes/logic/types.ts` with exactly the interfaces listed above. No runtime code, no imports. Example of the two central ones:
 ```ts
@@ -303,12 +318,12 @@ export interface TypeLogic<TPayload = unknown, TSubmission = unknown> {
 }
 ```
 
-- [ ] **Step 2: Typecheck**
+- [x] **Step 2: Typecheck**
 
 Run: `npx tsc --noEmit`
 Expected: only the 6 baseline `profile.tsx` errors.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add lib/questionTypes/logic/types.ts
@@ -333,7 +348,7 @@ git commit -m "feat(questionTypes): add descriptor logic type definitions"
 - `isRoundComplete`: true if the buzzed player answered correctly, OR `opponentShotTaken` is true, OR `timedOut` is true.
 - `validatePayload`: MC has no `payload` — always `{ ok: true, payload: null }` (options/answer are validated by the importer already). Keep it trivial but present for interface uniformity.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Create `lib/questionTypes/logic/multipleChoice.test.ts`:
 ```ts
@@ -390,12 +405,12 @@ test('validatePayload is trivially ok for MC', () => {
 });
 ```
 
-- [ ] **Step 2: Run, verify failure**
+- [x] **Step 2: Run, verify failure**
 
 Run: `npx tsx --test lib/questionTypes/logic/multipleChoice.test.ts`
 Expected: FAIL — module not found.
 
-- [ ] **Step 3: Implement `multipleChoice.ts`**
+- [x] **Step 3: Implement `multipleChoice.ts`**
 
 ```ts
 import type { TypeLogic, DescriptorScoreInput, DescriptorRoundState } from './types';
@@ -436,17 +451,17 @@ export const multipleChoiceLogic: TypeLogic<null, MultipleChoiceSubmission> = {
 
 Note on `isRoundComplete`: for a `buzz` round the host still applies the "wrong → opponent shot" branch itself (see Task 10). `isRoundComplete` returning `true` here means "the host may now score and reveal" — the host only reaches that check after it has decided no opponent shot is pending.
 
-- [ ] **Step 4: Run, verify pass**
+- [x] **Step 4: Run, verify pass**
 
 Run: `npx tsx --test lib/questionTypes/logic/multipleChoice.test.ts`
 Expected: PASS (6 tests).
 
-- [ ] **Step 5: Full suite + typecheck**
+- [x] **Step 5: Full suite + typecheck**
 
 Run: `npm run test && npx tsc --noEmit`
 Expected: green; baseline tsc errors only.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add lib/questionTypes/logic/multipleChoice.ts lib/questionTypes/logic/multipleChoice.test.ts
@@ -468,7 +483,7 @@ git commit -m "feat(questionTypes): multiple_choice descriptor logic"
 - `isRoundComplete`: `state.timedOut`, OR every id in `playerIds` has a submission.
 - `validatePayload`: `payload.items` is an array of exactly 4 distinct strings (mirrors `import-questions.js:74-79`).
 
-- [ ] **Step 1: Write failing tests**
+- [x] **Step 1: Write failing tests**
 
 Create `lib/questionTypes/logic/ordering.test.ts`:
 ```ts
@@ -529,11 +544,11 @@ test('validatePayload accepts 4 distinct strings', () => {
 });
 ```
 
-- [ ] **Step 2: Run, verify failure**
+- [x] **Step 2: Run, verify failure**
 
 Run: `npx tsx --test lib/questionTypes/logic/ordering.test.ts` — FAIL, module not found.
 
-- [ ] **Step 3: Implement `ordering.ts`**
+- [x] **Step 3: Implement `ordering.ts`**
 
 ```ts
 import type { TypeLogic, OrderingPayload, DescriptorScoreInput, DescriptorRoundState } from './types';
@@ -575,11 +590,11 @@ export const orderingLogic: TypeLogic<OrderingPayload, OrderingSubmission> = {
 };
 ```
 
-- [ ] **Step 4: Run, verify pass** — `npx tsx --test lib/questionTypes/logic/ordering.test.ts` → PASS (7).
+- [x] **Step 4: Run, verify pass** — `npx tsx --test lib/questionTypes/logic/ordering.test.ts` → PASS (7).
 
-- [ ] **Step 5: Full suite + typecheck** — `npm run test && npx tsc --noEmit` → green.
+- [x] **Step 5: Full suite + typecheck** — `npm run test && npx tsc --noEmit` → green.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add lib/questionTypes/logic/ordering.ts lib/questionTypes/logic/ordering.test.ts
@@ -601,7 +616,7 @@ git commit -m "feat(questionTypes): ordering descriptor logic"
 - `isRoundComplete`: identical to ordering.
 - `validatePayload`: `payload.pairs` is exactly 4 `{left,right}` string objects with distinct `left` values (mirrors `import-questions.js:81-85`).
 
-- [ ] **Step 1: Write failing tests** — analogous to Task 5; include:
+- [x] **Step 1: Write failing tests** — analogous to Task 5; include:
 ```ts
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
@@ -636,9 +651,9 @@ test('validatePayload accepts 4 pairs with distinct lefts', () => {
 });
 ```
 
-- [ ] **Step 2: Run, verify failure.**
+- [x] **Step 2: Run, verify failure.**
 
-- [ ] **Step 3: Implement `matching.ts`** — structurally identical to `ordering.ts`, substituting `checkMatchingCorrectness`, `payload.pairs`, and the pair-shape validation:
+- [x] **Step 3: Implement `matching.ts`** — structurally identical to `ordering.ts`, substituting `checkMatchingCorrectness`, `payload.pairs`, and the pair-shape validation:
 ```ts
 function validatePayload(raw: unknown) {
   const pairs = (raw as any)?.pairs;
@@ -650,11 +665,11 @@ function validatePayload(raw: unknown) {
 }
 ```
 
-- [ ] **Step 4: Run, verify pass.**
+- [x] **Step 4: Run, verify pass.**
 
-- [ ] **Step 5: Full suite + typecheck** → green.
+- [x] **Step 5: Full suite + typecheck** → green.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add lib/questionTypes/logic/matching.ts lib/questionTypes/logic/matching.test.ts
@@ -677,7 +692,7 @@ git commit -m "feat(questionTypes): matching descriptor logic"
   - `getInteractionMode(type): 'race' | 'simultaneous'` — `getTypeLogic(type).roundStyle === 'buzz' ? 'race' : 'simultaneous'`. Kept for back-compat with any remaining callers.
   - `TYPE_LOGICS: Record<string, TypeLogic>`
 
-- [ ] **Step 1: Write `lib/questionTypes/logic/index.test.ts`**
+- [x] **Step 1: Write `lib/questionTypes/logic/index.test.ts`**
 
 Port the six cases from `lib/questionTypes.test.ts` (they still pass because unknown → MC → `'race'`), and add:
 ```ts
@@ -703,9 +718,9 @@ test('getInteractionMode: ordering -> simultaneous, multiple_choice -> race', ()
 });
 ```
 
-- [ ] **Step 2: Run, verify failure** — `npx tsx --test lib/questionTypes/logic/index.test.ts`.
+- [x] **Step 2: Run, verify failure** — `npx tsx --test lib/questionTypes/logic/index.test.ts`.
 
-- [ ] **Step 3: Implement `lib/questionTypes/logic/index.ts`**
+- [x] **Step 3: Implement `lib/questionTypes/logic/index.ts`**
 
 ```ts
 import type { TypeLogic } from './types';
@@ -738,14 +753,14 @@ export function getInteractionMode(type: string | null | undefined): Interaction
 }
 ```
 
-- [ ] **Step 4: Delete the old files and repoint the only non-host caller**
+- [x] **Step 4: Delete the old files and repoint the only non-host caller**
 
 ```bash
 git rm lib/questionTypes.ts lib/questionTypes.test.ts
 ```
 `grep -rn "from '.*questionTypes'" --include=*.ts --include=*.tsx .` — the only hits are `app/game/[roomId].tsx` (handled in Task 10) and now-deleted files. If any other file imports `getInteractionMode`, repoint it to `../lib/questionTypes/logic` (adjust depth). Leave `[roomId].tsx` for Task 10.
 
-- [ ] **Step 5: Run, verify pass + full suite**
+- [x] **Step 5: Run, verify pass + full suite**
 
 Run: `npm run test`
 Expected: `[roomId].tsx` still imports the deleted path — **this is expected and fixed in Task 10**. If `npm run test` fails only because of a TS resolution error in `[roomId].tsx`, that's acceptable for this task's commit *only if* `npx tsx --test "lib/**/*.test.ts"` is green on its own. Run that explicitly:
@@ -756,7 +771,7 @@ Expected: PASS. (Unit tests don't import `[roomId].tsx`.)
 
 > If you prefer not to leave a broken import between tasks, do Task 10 in the same working session and commit them together — but the plan keeps them separate so the host refactor gets its own review gate.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add lib/questionTypes/
@@ -777,7 +792,7 @@ git commit -m "feat(questionTypes): pure logic registry; remove flat questionTyp
   - `decideAdvance(currentIndex: number, questionIds: string[]): AdvanceDecision` — pure.
   - `async advanceRoom(supabase, roomId, currentIndex, questionIds, hostId): Promise<'advanced' | 'noop'>` — performs the conditional update + event insert; returns `'noop'` if another call already advanced past `currentIndex`.
 
-- [ ] **Step 1: Write failing tests for `decideAdvance`**
+- [x] **Step 1: Write failing tests for `decideAdvance`**
 
 Create `lib/roomAdvance.test.ts`:
 ```ts
@@ -798,9 +813,9 @@ test('reports game_over when currentIndex is already past the end', () => {
 });
 ```
 
-- [ ] **Step 2: Run, verify failure.**
+- [x] **Step 2: Run, verify failure.**
 
-- [ ] **Step 3: Implement `lib/roomAdvance.ts`**
+- [x] **Step 3: Implement `lib/roomAdvance.ts`**
 
 ```ts
 import type { SupabaseClient } from '@supabase/supabase-js';
@@ -863,14 +878,14 @@ export async function advanceRoom(
 }
 ```
 
-- [ ] **Step 4: Run, verify pass** — `npx tsx --test lib/roomAdvance.test.ts` → PASS (3).
+- [x] **Step 4: Run, verify pass** — `npx tsx --test lib/roomAdvance.test.ts` → PASS (3).
 
-- [ ] **Step 5: Full unit suite + typecheck**
+- [x] **Step 5: Full unit suite + typecheck**
 
 Run: `npx tsx --test "lib/**/*.test.ts" "components/**/*.test.ts" && npx tsc --noEmit`
 Expected: green (the `[roomId].tsx` import from Task 7 may still error under `tsc` — acceptable until Task 10; note it and continue).
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add lib/roomAdvance.ts lib/roomAdvance.test.ts
@@ -913,7 +928,7 @@ git commit -m "feat(game): DB-conditional room advance (fixes double-advance)"
 
 **This task is a mechanical extraction, not new behavior.** It moves the following out of `[roomId].tsx` verbatim (adjusting names): `loadRoom`, `loadPlayers`, `loadQuestion`, both realtime `useEffect`s, `startTimer`/`stopTimer` + the two timer refs, `handleStartGame`, `handleBuzzIn`, and the two advance `useEffect`s. The host keeps only rendering + the score-writing logic (Task 10).
 
-- [ ] **Step 1: Add shared types to `lib/gameTypes.ts`**
+- [x] **Step 1: Add shared types to `lib/gameTypes.ts`**
 
 Append:
 ```ts
@@ -933,7 +948,7 @@ export interface RoundScoredPayload {
 ```
 Also widen `Question.payload` to `| { items: string[] } | { pairs: MatchPair[] } | Record<string, unknown> | null` so future payloads typecheck (Plan 2 narrows per-type).
 
-- [ ] **Step 2: Create `app/game/useGameRound.ts` by extraction**
+- [x] **Step 2: Create `app/game/useGameRound.ts` by extraction**
 
 Move the listed functions/effects from `[roomId].tsx`. Key adaptations:
 - Phase names: `question`/`buzzed`/`arranging` all collapse to `'playing'`; keep `buzzedUserId` as returned state (not a phase).
@@ -944,12 +959,12 @@ Move the listed functions/effects from `[roomId].tsx`. Key adaptations:
 
   > Decision for the implementer: keep the hook to **data + timer + realtime plumbing**. The completion/scoring/advance effects live in the host (Task 10) because they need descriptor logic and the players array. This keeps the hook free of game-rule knowledge.
 
-- [ ] **Step 3: Typecheck the hook in isolation**
+- [x] **Step 3: Typecheck the hook in isolation**
 
 Run: `npx tsc --noEmit`
 Expected: `useGameRound.ts` has no errors of its own (the host still does until Task 10).
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add app/game/useGameRound.ts lib/gameTypes.ts
@@ -1000,7 +1015,7 @@ git commit -m "feat(game): extract useGameRound hook (data + timer + realtime)"
   }
   ```
 
-- [ ] **Step 1: Create `lib/questionTypes/index.tsx`**
+- [x] **Step 1: Create `lib/questionTypes/index.tsx`**
 
 ```tsx
 import type { TypeLogic } from './logic';
@@ -1031,7 +1046,7 @@ export function getDescriptor(type: string | null | undefined): QuestionDescript
 ```
 Create `lib/questionTypes/uiTypes.ts` holding `PlayProps` / `RevealProps` (pure types, importable by components without a cycle).
 
-- [ ] **Step 2: Adapt `QuestionPhase.tsx` to `PlayProps`**
+- [x] **Step 2: Adapt `QuestionPhase.tsx` to `PlayProps`**
 
 - Replace the props interface with `PlayProps`.
 - `phase === 'question'` → `!buzzedByMe && !buzzedByOpponent`; `phase === 'buzzed'` → `buzzedByMe || buzzedByOpponent`.
@@ -1041,18 +1056,18 @@ Create `lib/questionTypes/uiTypes.ts` holding `PlayProps` / `RevealProps` (pure 
 - The buzz pulse `Animated.Value` currently comes from the host as `buzzScale`; move it **inside** `QuestionPhase` (local `useRef(new Animated.Value(1))`, pulse on mount when `buzzedByMe || buzzedByOpponent` flips true).
 - Keep the "options missing → question unavailable" defensive branch.
 
-- [ ] **Step 3: Adapt `OrderingPhase.tsx` and `MatchingPhase.tsx` to `PlayProps`**
+- [x] **Step 3: Adapt `OrderingPhase.tsx` and `MatchingPhase.tsx` to `PlayProps`**
 
 - Props interface → `PlayProps`. Read `items` / `pairs` from `question.payload`.
 - `onSubmit(order)` → `onSubmit({ order })`; `onSubmit(submittedPairs)` → `onSubmit({ pairs: submittedPairs })`.
 - Everything else (arrow reorder, tap-pair, `hasSubmittedRef`, `Lock In` button) is unchanged.
 
-- [ ] **Step 4: Adapt `RevealPhase.tsx` to `RevealProps`**
+- [x] **Step 4: Adapt `RevealPhase.tsx` to `RevealProps`**
 
 - Props → `RevealProps`. Derive `correct` from `breakdown` (`(breakdown as any)?.winner === 'mine'`) for MC, else fall back to comparing points.
 - Drop `onNext` / `onOpponentAnswer` / `isHost` buttons — advance is now host-timed (the host calls `advanceRoom` after the reveal window; see Step 6). Show "The answer was: {question.answer}" + points this round + running total. The host wraps this in `RevealFrame` in Task 14; for now render plain.
 
-- [ ] **Step 5: Rewrite `[roomId].tsx` as the thin host**
+- [x] **Step 5: Rewrite `[roomId].tsx` as the thin host**
 
 Target structure:
 ```tsx
@@ -1121,21 +1136,21 @@ export default function GameScreen() {
 
   > If 5c proves fiddly, an acceptable Plan-1 simplification: on a wrong buzz, the host immediately scores the round (opponent gets 0) and reveals — i.e. no opponent shot. This is a **behavior regression** from today, so only take it with the owner's sign-off. Note it in the commit and the plan's open-questions list. Default: implement the shot.
 
-- [ ] **Step 6: Repoint the `getInteractionMode` import**
+- [x] **Step 6: Repoint the `getInteractionMode` import**
 
 `[roomId].tsx` no longer imports from `../../lib/questionTypes`. Any lingering reference → `../../lib/questionTypes/logic`. Confirm with `grep -rn questionTypes app/`.
 
-- [ ] **Step 7: Typecheck**
+- [x] **Step 7: Typecheck**
 
 Run: `npx tsc --noEmit`
 Expected: back to only the 6 baseline `profile.tsx` errors. Fix any new error in the files this task touched.
 
-- [ ] **Step 8: Run the full test suite**
+- [x] **Step 8: Run the full test suite**
 
 Run: `npm run test`
 Expected: all green.
 
-- [ ] **Step 9: Manual parity playtest — web**
+- [x] **Step 9: Manual parity playtest — web**
 
 `npx expo start --web`, then with the seeded rooms (`node scripts/seed-test-room.js playtester` for `TESTTY`; a fresh `Create Game` for a race game). Verify against today's behavior:
 - MC race: buzz → 4-option grid → pick correct → reveal shows "Correct!" + points → auto-advances after the reveal window (no "Next Question" button needed) → next question loads.
@@ -1146,11 +1161,11 @@ Expected: all green.
 - Reach the results screen after the last question; "Back to Home" works.
 - Zero console errors.
 
-- [ ] **Step 10: Manual parity playtest — Expo Go**
+- [x] **Step 10: Manual parity playtest — Expo Go**
 
 `npx expo start --offline`, repeat the MC race + one ordering + one matching flow on a phone. Confirm no regressions and no red box.
 
-- [ ] **Step 11: Commit**
+- [x] **Step 11: Commit**
 
 ```bash
 git add app/game/ lib/questionTypes/ components/game/QuestionPhase.tsx components/game/OrderingPhase.tsx components/game/MatchingPhase.tsx components/game/RevealPhase.tsx
@@ -1164,7 +1179,7 @@ git commit -m "refactor(game): thin descriptor-driven host; round_submit/round_s
 **Files:**
 - Modify: `supabase/schema.sql:107`
 
-- [ ] **Step 1: Update the event-type comment**
+- [x] **Step 1: Update the event-type comment**
 
 Change line 107 from:
 ```
@@ -1175,12 +1190,12 @@ to:
   event_type text not null, -- 'game_start' | 'buzz_in' | 'opponent_shot' | 'round_submit' | 'round_scored' | 'next_question' | 'game_over'
 ```
 
-- [ ] **Step 2: Confirm no code still emits the old event types**
+- [x] **Step 2: Confirm no code still emits the old event types**
 
 Run: `grep -rn "'answer'\|'sequence_submit'" app/ lib/ components/`
 Expected: no matches (both removed in Task 10). If any remain, remove them.
 
-- [ ] **Step 3: Full suite + typecheck + commit**
+- [x] **Step 3: Full suite + typecheck + commit**
 
 ```bash
 npm run test && npx tsc --noEmit
@@ -1201,7 +1216,7 @@ git commit -m "docs(schema): update game_events event-type comment for v3 events
 **Interfaces:**
 - Produces: `<Mascot mood="idle" | "cheer" | "sad" | "think" | "taunt" size={number} />` (default `size={96}`).
 
-- [ ] **Step 1: Implement `Mascot.tsx`**
+- [x] **Step 1: Implement `Mascot.tsx`**
 
 A self-contained SVG character (`react-native-svg`) — a simple round face with eyes and a mouth is fine — animated with Reanimated:
 ```tsx
@@ -1260,11 +1275,11 @@ export function Mascot({ mood = 'idle', size = 96 }: { mood?: MascotMood; size?:
 }
 ```
 
-- [ ] **Step 2: Smoke-render it**
+- [x] **Step 2: Smoke-render it**
 
 Temporarily drop `<Mascot mood="cheer" />` into `WaitingPhase.tsx`, run `npx expo start --web`, confirm it renders and bobs, then move it to a permanent spot: the `WaitingPhase` lobby (mood `"idle"`). Remove the temporary usage.
 
-- [ ] **Step 3: Typecheck + test + commit**
+- [x] **Step 3: Typecheck + test + commit**
 
 ```bash
 npm run test && npx tsc --noEmit
@@ -1282,7 +1297,7 @@ git commit -m "feat(visual): Mascot component with placeholder art + Reanimated 
 **Interfaces:**
 - Produces: `<Celebration play={boolean} />` — when `play` flips to `true`, emits a one-shot particle burst (~12 particles, Reanimated `withTiming` outward + fade, ~1.5 s), then renders nothing.
 
-- [ ] **Step 1: Implement `Celebration.tsx`**
+- [x] **Step 1: Implement `Celebration.tsx`**
 
 ```tsx
 import { useEffect, useState } from 'react';
@@ -1321,9 +1336,9 @@ export function Celebration({ play }: { play: boolean }) {
 }
 ```
 
-- [ ] **Step 2: Smoke-render** — temporarily wire `<Celebration play={true} />` into a screen, verify on web, remove the temp wiring.
+- [x] **Step 2: Smoke-render** — temporarily wire `<Celebration play={true} />` into a screen, verify on web, remove the temp wiring.
 
-- [ ] **Step 3: Typecheck + test + commit**
+- [x] **Step 3: Typecheck + test + commit**
 
 ```bash
 npm run test && npx tsc --noEmit
@@ -1354,7 +1369,7 @@ git commit -m "feat(visual): Celebration particle burst"
   </RevealFrame>
   ```
 
-- [ ] **Step 1: Implement `RevealFrame.tsx`**
+- [x] **Step 1: Implement `RevealFrame.tsx`**
 
 ```tsx
 import { View, Text } from 'react-native';
@@ -1384,11 +1399,11 @@ export function RevealFrame({
 }
 ```
 
-- [ ] **Step 2: Add `gameStyles` entries**
+- [x] **Step 2: Add `gameStyles` entries**
 
 Add `revealFrame`, `revealMascotSlot` (alignSelf flex-end), `revealBody`, `revealFooter` (row, space-between), `revealPoints`, `revealTotal` to `components/game/gameStyles.ts`, matching the existing visual language (see `CardShadow`, `Colors`).
 
-- [ ] **Step 3: Render `RevealFrame` from the host**
+- [x] **Step 3: Render `RevealFrame` from the host**
 
 In `[roomId].tsx` `phase === 'reveal'` branch:
 ```tsx
@@ -1410,15 +1425,15 @@ In `[roomId].tsx` `phase === 'reveal'` branch:
 ```
 where `myPoints = roundScore.points[profile!.id] ?? 0`.
 
-- [ ] **Step 4: Trim `RevealPhase.tsx` to the body only**
+- [x] **Step 4: Trim `RevealPhase.tsx` to the body only**
 
 Remove its own banner/footer duplication — it now renders just the "answer was X" + (for MC) the correct/wrong marker. `RevealFrame` owns points + mascot + celebration.
 
-- [ ] **Step 5: Manual check — web + Expo Go**
+- [x] **Step 5: Manual check — web + Expo Go**
 
 Play a race game: on the reveal screen the mascot appears, cheers on a correct answer with a particle burst, droops on a wrong one; points + running total show; auto-advances. Repeat one ordering round (`TESTTY`). No console errors.
 
-- [ ] **Step 6: Typecheck + test + commit**
+- [x] **Step 6: Typecheck + test + commit**
 
 ```bash
 npm run test && npx tsc --noEmit
@@ -1435,7 +1450,7 @@ git commit -m "feat(visual): RevealFrame shell; MC reveal renders through it wit
 - Modify: `app/game/[roomId].tsx` (score bar) or a small `ScoreBar` extraction
 - Modify: whichever component renders the timer ring (`QuestionPhase`, `OrderingPhase`, `MatchingPhase` all inline it — extract to `components/game/TimerRing.tsx`)
 
-- [ ] **Step 1: Add a visual-token block to `gameStyles.ts`**
+- [x] **Step 1: Add a visual-token block to `gameStyles.ts`**
 
 ```ts
 export const tokens = {
@@ -1446,7 +1461,7 @@ export const tokens = {
 ```
 Refactor a handful of the most-repeated magic numbers in `gameStyles` to reference `tokens` (do not rewrite the whole file — just the timer ring + card padding).
 
-- [ ] **Step 2: Extract `TimerRing.tsx`**
+- [x] **Step 2: Extract `TimerRing.tsx`**
 
 ```tsx
 import { useEffect } from 'react';
@@ -1476,15 +1491,15 @@ export function TimerRing({ timeLeft }: { timeLeft: number }) {
 ```
 Replace the inline timer-ring `<View>` in `QuestionPhase`, `OrderingPhase`, `MatchingPhase` with `<TimerRing timeLeft={timeLeft} />`.
 
-- [ ] **Step 3: Animate the score bar values**
+- [x] **Step 3: Animate the score bar values**
 
 In the score bar (host render), wrap each player's displayed score in a small component that eases to the new value with `withTiming` over ~400 ms instead of snapping. Keep it minimal — a `useSharedValue` + `useAnimatedProps` on an `Animated.Text`, or a simple counting `useEffect`.
 
-- [ ] **Step 4: Manual check — web + Expo Go**
+- [x] **Step 4: Manual check — web + Expo Go**
 
 Timer ring pulses under 5 s; score bar counts up smoothly after a `round_scored`; no layout jank. Play one full race game + one `TESTTY` round.
 
-- [ ] **Step 5: Typecheck + test + commit**
+- [x] **Step 5: Typecheck + test + commit**
 
 ```bash
 npm run test && npx tsc --noEmit
