@@ -14,11 +14,15 @@ function formatGuess(n: number): string {
 /** Play UI for `estimation` — set a slider, closest to the truth wins the pot. */
 export function EstimationPhase({ question, timeLeft, hasSubmitted, onSubmit }: PlayProps) {
   const p = question.payload as EstimationPayload;
-  const [guess, setGuess] = useState<number>(() => {
-    const mid = p.log ? Math.sqrt(p.min * p.max) : (p.min + p.max) / 2;
-    return p.step ? Math.round(mid / p.step) * p.step : Math.round(mid);
-  });
+  // Always start at the low end so the starting position never hints at the answer.
+  const [guess, setGuess] = useState<number>(p.min);
   const hasSubmittedRef = useRef(false);
+
+  // Fine-adjust step for the − / + buttons: the author's `step`, else 1
+  // (years / counts / cubits are integers), clamped so huge ranges still move.
+  const fineStep = p.step ?? Math.max(1, Math.round((p.max - p.min) / 500));
+  const nudge = (dir: -1 | 1) =>
+    setGuess((g) => Math.min(p.max, Math.max(p.min, g + dir * fineStep)));
 
   function handleSubmit() {
     if (hasSubmittedRef.current) return;
@@ -34,8 +38,26 @@ export function EstimationPhase({ question, timeLeft, hasSubmitted, onSubmit }: 
         {question.reference && <Text style={styles.qRef}>{question.reference}</Text>}
       </View>
 
-      <Text style={styles.estimateReadout}>{formatGuess(guess)}</Text>
-      <Text style={styles.estimateUnit}>{p.unit}</Text>
+      <View style={styles.estimateRow}>
+        <TouchableOpacity
+          style={styles.estimateStepBtn}
+          onPress={() => nudge(-1)}
+          disabled={hasSubmitted || guess <= p.min}
+        >
+          <Text style={styles.estimateStepText}>−</Text>
+        </TouchableOpacity>
+        <View style={styles.estimateReadoutWrap}>
+          <Text style={styles.estimateReadout}>{formatGuess(guess)}</Text>
+          <Text style={styles.estimateUnit}>{p.unit}</Text>
+        </View>
+        <TouchableOpacity
+          style={styles.estimateStepBtn}
+          onPress={() => nudge(1)}
+          disabled={hasSubmitted || guess >= p.max}
+        >
+          <Text style={styles.estimateStepText}>+</Text>
+        </TouchableOpacity>
+      </View>
 
       <SliderInput min={p.min} max={p.max} value={guess} step={p.step} log={p.log} onChange={setGuess} />
       <View style={{ flexDirection: 'row', justifyContent: 'space-between', width: '100%' }}>
