@@ -3,6 +3,7 @@ import { multipleChoiceLogic } from './multipleChoice';
 import { orderingLogic } from './ordering';
 import { matchingLogic } from './matching';
 import { estimationLogic } from './estimation';
+import { progressiveLogic } from './progressive';
 
 export * from './types';
 export { buildRoundState, needsOpponentShot, orderScorePlayers } from './roundState';
@@ -14,12 +15,15 @@ export { matchingLogic } from './matching';
 export type { MatchingSubmission } from './matching';
 export { estimationLogic, logMap, logUnmap } from './estimation';
 export type { EstimationSubmission } from './estimation';
+export { progressiveLogic, ladderPoints, CLUE_LADDER } from './progressive';
+export type { ProgressiveSubmission } from './progressive';
 
 export const TYPE_LOGICS: Record<string, TypeLogic<any, any>> = {
   multiple_choice: multipleChoiceLogic,
   ordering: orderingLogic,
   matching: matchingLogic,
   estimation: estimationLogic,
+  progressive: progressiveLogic,
 };
 
 /** Returns the logic for `type`, or the multiple_choice logic for any
