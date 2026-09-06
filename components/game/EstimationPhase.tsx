@@ -7,7 +7,8 @@ import type { PlayProps } from '../../lib/questionTypes/uiTypes';
 import type { EstimationPayload } from '../../lib/questionTypes/logic';
 
 function formatGuess(n: number): string {
-  return Math.abs(n) >= 1000 ? n.toLocaleString('en-US') : String(n);
+  const r = Math.round(n * 100) / 100; // guard against float drift
+  return Math.abs(r) >= 1000 ? r.toLocaleString('en-US') : String(r);
 }
 
 /** Play UI for `estimation` — set a slider, closest to the truth wins the pot. */

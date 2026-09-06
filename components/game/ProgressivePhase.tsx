@@ -21,18 +21,35 @@ export function ProgressivePhase({
   const hasSubmittedRef = useRef(false);
   const [selected, setSelected] = useState<string | null>(null);
   const snapshotRef = useRef<number | null>(null);
+  // Question start, from mount — survives the timer reset that a buzz triggers,
+  // so clue count keeps advancing on real elapsed time, not the visible clock.
+  const startRef = useRef(Date.now());
+
+  const isBuzzed = buzzedByMe || buzzedByOpponent;
 
   const liveCluesShown = Math.min(
     clues.length,
-    Math.max(1, 1 + Math.floor((RACE_SECONDS - timeLeft) / cadence)),
+    Math.max(1, 1 + Math.floor((Date.now() - startRef.current) / 1000 / cadence)),
   );
-  const isBuzzed = buzzedByMe || buzzedByOpponent;
 
   useEffect(() => {
-    if (buzzedByMe && snapshotRef.current === null) snapshotRef.current = liveCluesShown;
-  }, [buzzedByMe, liveCluesShown]);
+    // Opponent-shot path: our answer grid just opened without us clicking buzz.
+    // Snapshot the clue level at that moment.
+    if (buzzedByMe && snapshotRef.current === null) {
+      snapshotRef.current = Math.min(
+        clues.length,
+        Math.max(1, 1 + Math.floor((Date.now() - startRef.current) / 1000 / cadence)),
+      );
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [buzzedByMe]);
 
-  const cluesShown = snapshotRef.current ?? liveCluesShown;
+  const cluesShown = isBuzzed ? (snapshotRef.current ?? liveCluesShown) : liveCluesShown;
+
+  function handleBuzz() {
+    if (snapshotRef.current === null) snapshotRef.current = liveCluesShown;
+    onBuzz?.();
+  }
 
   function pick(option: string) {
     if (hasSubmittedRef.current) return;
@@ -61,7 +78,7 @@ export function ProgressivePhase({
       </View>
 
       {!isBuzzed && (
-        <TouchableOpacity style={styles.buzzBtn} onPress={onBuzz}>
+        <TouchableOpacity style={styles.buzzBtn} onPress={handleBuzz}>
           <Text style={styles.buzzBtnText}>I Know It!</Text>
           <Text style={styles.buzzBtnSub}>Fewer clues = more points</Text>
         </TouchableOpacity>

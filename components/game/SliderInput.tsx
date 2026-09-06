@@ -12,11 +12,15 @@ export function SliderInput({
   const [width, setWidth] = useState(0);
   const dragX = useSharedValue<number | null>(null); // non-null only while dragging
 
+  // Default to whole-number steps — years / counts / cubits are all integers.
+  // Authors set an explicit `step` (e.g. 0.1) for the rare decimal answer.
+  const effStep = step ?? 1;
+
   const toPos = (v: number) => (log ? logMap(v, min, max) : (v - min) / (max - min));
   const fromPos = (p: number) => {
     const clamped = Math.min(1, Math.max(0, p));
     let v = log ? logUnmap(clamped, min, max) : min + clamped * (max - min);
-    if (step) v = Math.round(v / step) * step;
+    v = Math.round(v / effStep) * effStep;
     return Math.min(max, Math.max(min, v));
   };
 
