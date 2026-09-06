@@ -2,6 +2,7 @@ import { View, Text, TouchableOpacity } from 'react-native';
 import { AVATARS } from '../../lib/gameLogic';
 import type { PlayerRow } from '../../lib/gameTypes';
 import { gameStyles as styles } from './gameStyles';
+import { Mascot } from '../Mascot';
 
 interface WaitingPhaseProps {
   players: PlayerRow[];
@@ -13,6 +14,7 @@ interface WaitingPhaseProps {
 export function WaitingPhase({ players, isHost, onStart, roomCode }: WaitingPhaseProps) {
   return (
     <View style={styles.phaseContainer}>
+      <Mascot mood="idle" size={88} />
       <Text style={styles.waitTitle}>Waiting for players</Text>
       <View style={styles.codeBox}>
         <Text style={styles.codeLabel}>Room Code</Text>

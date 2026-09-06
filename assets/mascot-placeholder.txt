@@ -1,0 +1,10 @@
+Placeholder mascot.
+
+The mascot character currently lives as an inline SVG in
+components/Mascot.tsx (a simple purple round face). When commissioned art
+arrives, replace the <Svg> body in that component — or swap to per-mood
+image assets in this folder (mascot-idle.png, mascot-cheer.png, etc.) and
+render them by mood — without changing any call site. The <Mascot
+mood={...} size={...} /> API stays the same.
+
+Mood set: idle | cheer | sad | think | taunt
