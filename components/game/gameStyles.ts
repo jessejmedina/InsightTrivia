@@ -120,6 +120,16 @@ export const gameStyles = StyleSheet.create({
     borderRadius: 20, marginTop: 8, width: '100%', alignItems: 'center', ...CardShadow,
   },
   leaveBtnText: { color: Colors.textPrimary, fontWeight: '700', fontSize: 16 },
+  // Reveal frame (shared shell)
+  revealFrame: { flex: 1, width: '100%', padding: 20, alignItems: 'center' },
+  revealMascotSlot: { alignSelf: 'flex-end', marginBottom: 4 },
+  revealBody: { width: '100%', flex: 1, alignItems: 'center' },
+  revealFooter: {
+    flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+    width: '100%', paddingTop: 12, borderTopWidth: 1, borderTopColor: Colors.border,
+  },
+  revealPoints: { color: Colors.accent, fontWeight: '800', fontSize: 16 },
+  revealTotal: { color: Colors.textSecondary, fontWeight: '700', fontSize: 14 },
   // Multiple choice
   optionsGrid: { width: '100%', gap: 10 },
   optionBtn: {

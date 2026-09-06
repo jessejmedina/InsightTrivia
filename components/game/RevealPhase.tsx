@@ -6,9 +6,10 @@ import type { RevealProps } from '../../lib/questionTypes/uiTypes';
 
 /**
  * Shared reveal body for multiple_choice / ordering / matching in Plan 1.
+ * Rendered inside RevealFrame, which owns the mascot, points, and total.
  * Plan 2 gives ordering and matching their own richer reveal components.
  */
-export function RevealPhase({ question, breakdown, myPointsThisRound, myRunningTotal }: RevealProps) {
+export function RevealPhase({ question, breakdown, myPointsThisRound }: RevealProps) {
   const winner = (breakdown as { winner?: 'mine' | 'opponent' | 'none' } | null)?.winner;
   const scoredWell = myPointsThisRound > 0;
 
@@ -23,7 +24,7 @@ export function RevealPhase({ question, breakdown, myPointsThisRound, myRunningT
   const pairs = (breakdown as { pairs?: MatchPair[] } | null)?.pairs;
 
   return (
-    <View style={styles.phaseContainer}>
+    <View style={{ width: '100%', alignItems: 'center', gap: 14 }}>
       <View style={[styles.resultBanner, { backgroundColor: bannerColor }]}>
         <Text style={styles.resultText}>{bannerText}</Text>
       </View>
@@ -43,11 +44,6 @@ export function RevealPhase({ question, breakdown, myPointsThisRound, myRunningT
       <View style={styles.questionBox}>
         <Text style={styles.questionText}>{question.question}</Text>
       </View>
-
-      <Text style={styles.buzzedLabel}>
-        {myPointsThisRound > 0 ? `+${myPointsThisRound} this round` : 'No points this round'}
-      </Text>
-      <Text style={styles.waitingHint}>{myRunningTotal} total · host is advancing…</Text>
     </View>
   );
 }

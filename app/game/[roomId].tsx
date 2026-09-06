@@ -17,6 +17,7 @@ import { advanceRoom } from '../../lib/roomAdvance';
 import { gameStyles } from '../../components/game/gameStyles';
 import { WaitingPhase } from '../../components/game/WaitingPhase';
 import { ResultsPhase } from '../../components/game/ResultsPhase';
+import { RevealFrame } from '../../components/game/RevealFrame';
 import { useGameRound } from './useGameRound';
 import { resolveAndScoreRound, emitOpponentShot } from './scoreRound';
 
@@ -157,12 +158,19 @@ export default function GameScreen() {
       )}
 
       {phase === 'reveal' && descriptor && question && roundScore && (
-        <descriptor.RevealComponent
-          question={question}
-          breakdown={roundScore.breakdown}
-          myPointsThisRound={myPoints}
-          myRunningTotal={myPlayer?.score ?? 0}
-        />
+        <RevealFrame
+          mascotMood={myPoints > 0 ? 'cheer' : 'sad'}
+          pointsThisRound={myPoints}
+          runningTotal={myPlayer?.score ?? 0}
+          celebrate={myPoints >= 150}
+        >
+          <descriptor.RevealComponent
+            question={question}
+            breakdown={roundScore.breakdown}
+            myPointsThisRound={myPoints}
+            myRunningTotal={myPlayer?.score ?? 0}
+          />
+        </RevealFrame>
       )}
 
       {phase === 'results' && (
