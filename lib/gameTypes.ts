@@ -18,5 +18,29 @@ export interface Question {
   hint: string | null;
   type: string;
   options: string[] | null;
-  payload: { items: string[] } | { pairs: MatchPair[] } | null;
+  payload: { items: string[] } | { pairs: MatchPair[] } | Record<string, unknown> | null;
+}
+
+export interface RoomRow {
+  id: string;
+  code: string;
+  host_id: string;
+  mode: '1v1' | 'teams';
+  status: 'waiting' | 'active' | 'finished';
+  current_question_index: number;
+  question_ids: string[];
+}
+
+export type GamePhaseV3 = 'waiting' | 'playing' | 'reveal' | 'results';
+
+export interface RoundScoredPayload {
+  points: Record<string, number>;
+  breakdown: unknown;
+  correctAnswer: string | null;
+}
+
+/** One player's submission for the current round, as carried on `round_submit`. */
+export interface RoundSubmissionRecord {
+  submission: unknown;
+  secondsLeft: number;
 }

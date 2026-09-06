@@ -4,6 +4,7 @@ import { orderingLogic } from './ordering';
 import { matchingLogic } from './matching';
 
 export * from './types';
+export { buildRoundState, needsOpponentShot, orderScorePlayers } from './roundState';
 export { multipleChoiceLogic } from './multipleChoice';
 export type { MultipleChoiceSubmission } from './multipleChoice';
 export { orderingLogic } from './ordering';
