@@ -137,6 +137,14 @@ export const gameStyles = StyleSheet.create({
   },
   revealPoints: { color: Colors.accent, fontWeight: '800', fontSize: 16 },
   revealTotal: { color: Colors.textSecondary, fontWeight: '700', fontSize: 14 },
+  // Progressive clue
+  clueList: { width: '100%', gap: 8 },
+  clueRow: {
+    flexDirection: 'row', gap: 10, alignItems: 'flex-start',
+    backgroundColor: Colors.surface, borderRadius: 12, padding: 12, ...CardShadow,
+  },
+  clueIndex: { fontWeight: '800', color: Colors.accent, width: 18 },
+  clueText: { flex: 1, color: Colors.textPrimary, fontSize: 15, lineHeight: 21 },
   // Estimation
   sliderTrack: { width: '100%', height: 44, justifyContent: 'center', marginVertical: 8 },
   sliderHit: { position: 'absolute', left: 0, right: 0, height: 44, justifyContent: 'center' },
