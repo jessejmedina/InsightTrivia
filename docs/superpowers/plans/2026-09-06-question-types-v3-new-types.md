@@ -896,7 +896,7 @@ estimation: { Play: EstimationPhase, Reveal: EstimationReveal },
 ]
 ```
 
-`scripts/seed-new-types-room.js` — copy `scripts/seed-test-room.js`, change `ROOM_CODE` to `'NEWTYP'` and the test file to `data/test-new-types.json`. (Run `npx tsx scripts/import-all.js data/test-new-types.json` once first to load the questions, per Task A2's tsx requirement.)
+`scripts/seed-new-types-room.js` — copy `scripts/seed-test-room.js`, change `ROOM_CODE` to `'NEWTYP'` and the test file to `data/test-new-types.json`. (Run `npx tsx scripts/import-questions.js data/test-new-types.json` once first to load the questions, per Task A2's tsx requirement.)
 
 - [ ] **Step 5: Typecheck + unit suite**
 
@@ -905,7 +905,7 @@ estimation: { Play: EstimationPhase, Reveal: EstimationReveal },
 - [ ] **Step 6: Manual playtest — web + Expo Go**
 
 ```bash
-npx tsx scripts/import-all.js data/test-new-types.json
+npx tsx scripts/import-questions.js data/test-new-types.json
 node scripts/seed-new-types-room.js playtester
 npx expo start --web
 ```
@@ -1288,7 +1288,7 @@ export function ProgressiveReveal({ question, breakdown }: RevealProps) {
     "On the seventh day they circled seven times, shouted, and my walls fell." ] } }
 ```
 
-- [ ] **Step 4: Import, typecheck, unit suite** — `npx tsx scripts/import-all.js data/test-new-types.json && npm run test && npx tsc --noEmit`.
+- [ ] **Step 4: Import, typecheck, unit suite** — `npx tsx scripts/import-questions.js data/test-new-types.json && npm run test && npx tsc --noEmit`.
 
 - [ ] **Step 5: Manual playtest — web + Expo Go**
 
@@ -1896,7 +1896,7 @@ Expected: `OK — no free_text rows`, `OK — type=swipe accepted`, no failures.
 - [ ] **Step 3: Import the test content, seed the room**
 
 ```bash
-npx tsx scripts/import-all.js data/test-new-types.json
+npx tsx scripts/import-questions.js data/test-new-types.json
 node scripts/seed-new-types-room.js playtester
 ```
 
