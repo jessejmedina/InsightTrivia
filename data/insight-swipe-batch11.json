@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Did this take place in the upper room at the Last Supper, or later in the garden of Gethsemane?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Matthew 26; Luke 22; John 13; 18 (cross-check: Insight on the Scriptures, Vol. 1, 'Gethsemane')",
+    "payload": { "categoryLeft": "In the upper room", "categoryRight": "In Gethsemane", "cards": [
+      { "text": "Jesus washing the apostles' feet", "side": "left" },
+      { "text": "Sweat falling to the ground like drops of blood", "side": "right" },
+      { "text": "Handing the dipped morsel to Judas", "side": "left" },
+      { "text": "Peter striking off the ear of the high priest's slave", "side": "right" },
+      { "text": "The new commandment to love one another", "side": "left" },
+      { "text": "Finding the disciples asleep three times", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this apostle part of the inner circle of three (Peter, James, and John), or one of the other nine?",
+    "type": "swipe",
+    "category": "Apostles",
+    "difficulty": "medium",
+    "reference": "Mark 5:37; 9:2; 14:33 (cross-check: Insight on the Scriptures, Vol. 1, 'Apostle')",
+    "payload": { "categoryLeft": "One of the other nine", "categoryRight": "One of the inner three", "cards": [
+      { "text": "Peter", "side": "right" },
+      { "text": "Andrew", "side": "left" },
+      { "text": "James the son of Zebedee", "side": "right" },
+      { "text": "Philip", "side": "left" },
+      { "text": "John", "side": "right" },
+      { "text": "Bartholomew", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this letter written to believers in one particular city, or as a general letter to Christians scattered about?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Ephesians 1:1; James 1:1; 1 Peter 1:1; Jude 1 (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": { "categoryLeft": "A general letter", "categoryRight": "To one particular city", "cards": [
+      { "text": "Ephesians", "side": "right" },
+      { "text": "James", "side": "left" },
+      { "text": "Colossians", "side": "right" },
+      { "text": "First Peter", "side": "left" },
+      { "text": "Philippians", "side": "right" },
+      { "text": "Jude", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a son of Jacob by Rachel, or by Leah?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 29-30; 35:23-24 (cross-check: Insight on the Scriptures, Vol. 2, 'Jacob')",
+    "payload": { "categoryLeft": "A son of Rachel", "categoryRight": "A son of Leah", "cards": [
+      { "text": "Joseph", "side": "left" },
+      { "text": "Judah", "side": "right" },
+      { "text": "Benjamin", "side": "left" },
+      { "text": "Reuben", "side": "right" },
+      { "text": "Levi", "side": "right" },
+      { "text": "Issachar", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In the parable, did the master end up rewarding this character, or condemning him?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "Matthew 18; 22; 25; Luke 19 (cross-check: Insight on the Scriptures, Vol. 2, 'Illustrations')",
+    "payload": { "categoryLeft": "Condemned", "categoryRight": "Rewarded", "cards": [
+      { "text": "The servant who buried his one talent in the ground", "side": "left" },
+      { "text": "The two servants who doubled the talents entrusted to them", "side": "right" },
+      { "text": "The slave forgiven a huge debt who then jailed a fellow slave", "side": "left" },
+      { "text": "The slave found feeding the household on time when the master returned", "side": "right" },
+      { "text": "The guest who came to the wedding feast without a proper garment", "side": "left" },
+      { "text": "The servants who traded and gained ten minas and five", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this king part of the royal line of David in Judah, or a king of Israel from another family?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "1 & 2 Kings (cross-check: Insight on the Scriptures, Vol. 2, 'King')",
+    "payload": { "categoryLeft": "A king of Israel, not of David's line", "categoryRight": "Of the royal line of David", "cards": [
+      { "text": "Solomon", "side": "right" },
+      { "text": "Jeroboam", "side": "left" },
+      { "text": "Hezekiah", "side": "right" },
+      { "text": "Ahab", "side": "left" },
+      { "text": "Josiah", "side": "right" },
+      { "text": "Jehu", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this sacred object first appear with the tabernacle, or only later in Solomon's temple?",
+    "type": "swipe",
+    "category": "Tabernacle",
+    "difficulty": "hard",
+    "reference": "Exodus 25-27; 1 Kings 7 (cross-check: Insight on the Scriptures, Vol. 2, 'Temple')",
+    "payload": { "categoryLeft": "First appeared in Solomon's temple", "categoryRight": "Part of the tabernacle", "cards": [
+      { "text": "The ark of the covenant", "side": "right" },
+      { "text": "The two great copper pillars, Jachin and Boaz", "side": "left" },
+      { "text": "The gold lampstand", "side": "right" },
+      { "text": "The huge round copper Sea resting on twelve bulls", "side": "left" },
+      { "text": "The acacia-wood table for the showbread", "side": "right" },
+      { "text": "The ten wheeled carriages for the water basins", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this woman held up as an example of faith, or as a warning?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 39; Hebrews 11; James 2; Luke 17:32 (cross-check: Insight on the Scriptures, Vol. 2, 'Woman')",
+    "payload": { "categoryLeft": "A warning example", "categoryRight": "An example of faith", "cards": [
+      { "text": "Sarah", "side": "right" },
+      { "text": "Lot's wife", "side": "left" },
+      { "text": "Rahab", "side": "right" },
+      { "text": "Potiphar's wife", "side": "left" },
+      { "text": "Ruth", "side": "right" },
+      { "text": "Delilah", "side": "left" }
+    ] }
+  },
+  {
+    "question": "In the words spoken over him, was this figure blessed, or cursed and rebuked?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Genesis 9; 27; 49 (cross-check: Insight on the Scriptures, Vol. 1, 'Blessing')",
+    "payload": { "categoryLeft": "Cursed or rebuked", "categoryRight": "Blessed", "cards": [
+      { "text": "Jacob, told by Isaac that nations would serve him", "side": "right" },
+      { "text": "Canaan, in Noah's words after the tent incident", "side": "left" },
+      { "text": "Judah, told the scepter would not depart from him", "side": "right" },
+      { "text": "Reuben, told he would not excel because he defiled his father's bed", "side": "left" },
+      { "text": "Joseph, called a fruitful bough beside a spring", "side": "right" },
+      { "text": "Simeon and Levi, whose anger was cursed", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this event part of the ministry of the prophet Samuel, or the prophet Elijah?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "1 Samuel 3; 10; 15; 1 Kings 17-18 (cross-check: Insight on the Scriptures, Vol. 2, 'Samuel', p. 851)",
+    "payload": { "categoryLeft": "Samuel's ministry", "categoryRight": "Elijah's ministry", "cards": [
+      { "text": "Anointing Israel's first king with a flask of oil", "side": "left" },
+      { "text": "Calling down fire on a mountain altar", "side": "right" },
+      { "text": "Hacking the captive king Agag to pieces before Jehovah", "side": "left" },
+      { "text": "Being kept alive by ravens at a brook", "side": "right" },
+      { "text": "A voice calling a boy's name three times in the night", "side": "left" },
+      { "text": "Outrunning a chariot to the city in a downpour", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a place where Israel camped in the wilderness, or a city they later had to fight to take?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Exodus 15-17; Numbers 13; Joshua 6; 8; 11 (cross-check: Insight on the Scriptures, Vol. 2, 'Wilderness')",
+    "payload": { "categoryLeft": "A wilderness campsite", "categoryRight": "A city to conquer", "cards": [
+      { "text": "Marah, where the bitter water was made sweet", "side": "left" },
+      { "text": "Jericho", "side": "right" },
+      { "text": "Rephidim, where Israel fought Amalek", "side": "left" },
+      { "text": "Ai", "side": "right" },
+      { "text": "Kadesh-barnea, where the spies returned", "side": "left" },
+      { "text": "Hazor", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In the visions of Revelation, does this symbol stand for something good, or something evil?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Revelation 5; 12-13; 17; 21 (cross-check: Insight on the Scriptures, Vol. 2, 'Revelation, Book Of')",
+    "payload": { "categoryLeft": "Something evil", "categoryRight": "Something good", "cards": [
+      { "text": "The Lamb standing as though slaughtered", "side": "right" },
+      { "text": "The great fiery-colored dragon", "side": "left" },
+      { "text": "The woman clothed with the sun", "side": "right" },
+      { "text": "The wild beast rising out of the sea", "side": "left" },
+      { "text": "The New Jerusalem coming down as a bride", "side": "right" },
+      { "text": "The harlot drunk with the blood of the holy ones", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this people or person descended from Shem, or from Ham?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 10 (cross-check: Insight on the Scriptures, Vol. 2, 'Nations')",
+    "payload": { "categoryLeft": "From Shem", "categoryRight": "From Ham", "cards": [
+      { "text": "Abraham", "side": "left" },
+      { "text": "Nimrod", "side": "right" },
+      { "text": "Asshur, ancestor of the Assyrians", "side": "left" },
+      { "text": "Mizraim, ancestor of the Egyptians", "side": "right" },
+      { "text": "Elam", "side": "left" },
+      { "text": "Canaan", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this miracle take place on land, or on or in the water?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 14; 17; Luke 5; 17; John 11 (cross-check: Insight on the Scriptures, Vol. 2, 'Miracles')",
+    "payload": { "categoryLeft": "On land", "categoryRight": "On or in the water", "cards": [
+      { "text": "Feeding about 5,000 on the hillside", "side": "left" },
+      { "text": "Walking across the surface of the sea", "side": "right" },
+      { "text": "Raising Lazarus at the tomb", "side": "left" },
+      { "text": "The net so full of fish it began to tear", "side": "right" },
+      { "text": "Healing the ten lepers along the road", "side": "left" },
+      { "text": "Finding a coin in the mouth of a fish", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this book of the Bible written mostly as poetry, or mostly as prose narrative?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "The Hebrew Scriptures (cross-check: Insight on the Scriptures, Vol. 2, 'Poetry, Hebrew')",
+    "payload": { "categoryLeft": "Mostly prose narrative", "categoryRight": "Mostly poetry", "cards": [
+      { "text": "Psalms", "side": "right" },
+      { "text": "Genesis", "side": "left" },
+      { "text": "The speeches in the book of Job", "side": "right" },
+      { "text": "Acts of Apostles", "side": "left" },
+      { "text": "Lamentations", "side": "right" },
+      { "text": "Ruth", "side": "left" }
+    ] }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "question": "How many verses are in Psalm 119, the longest chapter in the Bible?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Psalm 119 (cross-check: Insight on the Scriptures, Vol. 2, 'Psalms, Book Of')",
+    "payload": { "value": 176, "unit": "verses", "min": 20, "max": 500 }
+  },
+  {
+    "question": "How many chapters are in the book of Proverbs?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "The book of Proverbs (cross-check: Insight on the Scriptures, Vol. 2, 'Proverbs, Book Of')",
+    "payload": { "value": 31, "unit": "chapters", "min": 5, "max": 100 }
+  },
+  {
+    "question": "How many camels did Job own after his restoration, double what he had at the start?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Job 42:12 (cross-check: Insight on the Scriptures, Vol. 2, 'Job, Book Of', p. 81)",
+    "payload": { "value": 6000, "unit": "camels", "min": 400, "max": 30000, "log": true }
+  },
+  {
+    "question": "For how many days did Daniel and his companions ask to be tested on a diet of vegetables and water?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "Daniel 1:12 (cross-check: Insight on the Scriptures, Vol. 1, 'Daniel')",
+    "payload": { "value": 10, "unit": "days", "min": 1, "max": 40 }
+  },
+  {
+    "question": "For how many months would Israel bury the dead after the attack of Gog, according to Ezekiel?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Ezekiel 39:12 (cross-check: Insight on the Scriptures, Vol. 1, 'Gog')",
+    "payload": { "value": 7, "unit": "months", "min": 1, "max": 30 }
+  },
+  {
+    "question": "For how many years would Israel burn the abandoned weapons for fuel after Gog's defeat, per Ezekiel?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Ezekiel 39:9 (cross-check: Insight on the Scriptures, Vol. 1, 'Gog')",
+    "payload": { "value": 7, "unit": "years", "min": 1, "max": 30 }
+  },
+  {
+    "question": "How many cavalry troops did John hear numbered in the sixth trumpet vision of Revelation?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Revelation 9:16 (cross-check: Insight on the Scriptures, Vol. 2, 'Revelation, Book Of')",
+    "payload": { "value": 200000000, "unit": "troops", "min": 1000000, "max": 900000000, "log": true }
+  },
+  {
+    "question": "For how many days do the two witnesses of Revelation prophesy dressed in sackcloth?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Revelation 11:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Witness No. 2')",
+    "payload": { "value": 1260, "unit": "days", "min": 100, "max": 7000, "log": true }
+  },
+  {
+    "question": "For how many stadia did blood flow from the winepress of God's anger in Revelation?",
+    "type": "estimation",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Revelation 14:20 (cross-check: Insight on the Scriptures, Vol. 2, 'Winepress')",
+    "payload": { "value": 1600, "unit": "stadia", "min": 100, "max": 9000, "log": true }
+  },
+  {
+    "question": "How many generations does Matthew count from Abraham to David?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 1:17 (cross-check: Insight on the Scriptures, Vol. 1, 'Genealogy of Jesus Christ')",
+    "payload": { "value": 14, "unit": "generations", "min": 3, "max": 50 }
+  },
+  {
+    "question": "How many years did the Jews tell Jesus it had taken to build the temple standing in their day?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "hard",
+    "reference": "John 2:20 (cross-check: Insight on the Scriptures, Vol. 2, 'Temple')",
+    "payload": { "value": 46, "unit": "years", "min": 5, "max": 150 }
+  },
+  {
+    "question": "In Jesus' parable, for how many years had the owner come looking for fruit on the fig tree and found none?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Luke 13:7 (cross-check: Insight on the Scriptures, Vol. 1, 'Fig')",
+    "payload": { "value": 3, "unit": "years", "min": 1, "max": 15 }
+  },
+  {
+    "question": "For how many years had the woman been bent double when Jesus healed her on the Sabbath?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Luke 13:11 (cross-check: Insight on the Scriptures, Vol. 2, 'Sickness')",
+    "payload": { "value": 18, "unit": "years", "min": 1, "max": 60 }
+  },
+  {
+    "question": "In Jesus' account of the rich man and Lazarus, how many brothers did the rich man beg to have warned?",
+    "type": "estimation",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Luke 16:28 (cross-check: Insight on the Scriptures, Vol. 2, 'Lazarus No. 1')",
+    "payload": { "value": 5, "unit": "brothers", "min": 1, "max": 15 }
+  },
+  {
+    "question": "The lame man healed at the temple's Beautiful Gate was more than how many years old?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 4:22 (cross-check: Insight on the Scriptures, Vol. 2, 'Peter', p. 618)",
+    "payload": { "value": 40, "unit": "years old", "min": 4, "max": 150 }
+  },
+  {
+    "question": "How many unmarried daughters who prophesied did Philip the evangelizer have at Caesarea?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 21:9 (cross-check: Insight on the Scriptures, Vol. 2, 'Philip No. 2')",
+    "payload": { "value": 4, "unit": "daughters", "min": 1, "max": 15 }
+  },
+  {
+    "question": "How many anchors did the sailors drop from the stern of Paul's ship during the night near Malta?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 27:29 (cross-check: Insight on the Scriptures, Vol. 1, 'Anchor')",
+    "payload": { "value": 4, "unit": "anchors", "min": 1, "max": 15 }
+  },
+  {
+    "question": "How many times did Balaam strike his donkey before it turned and spoke to him?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Numbers 22:28 (cross-check: Insight on the Scriptures, Vol. 1, 'Balaam')",
+    "payload": { "value": 3, "unit": "times", "min": 1, "max": 12 }
+  },
+  {
+    "question": "How many sheep did Israel capture as spoil in the war against Midian?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Numbers 31:32 (cross-check: Insight on the Scriptures, Vol. 2, 'Midian, Midianite')",
+    "payload": { "value": 675000, "unit": "sheep", "min": 50000, "max": 4000000, "log": true }
+  },
+  {
+    "question": "How many cities were given to the Levites throughout Israel, including the six cities of refuge?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Numbers 35:7 (cross-check: Insight on the Scriptures, Vol. 2, 'Levites')",
+    "payload": { "value": 48, "unit": "cities", "min": 6, "max": 200 }
+  }
+]

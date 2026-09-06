@@ -429,6 +429,25 @@ river-of-Eden-vs-elsewhere, named-vs-unnamed woman.
 **DB per-type (count:exact): estimation 201, progressive 162, swipe 154;
 grand total 1457.**
 
+**batch11 (2026-09-06) — written + IMPORTED** (20/16/15, 0 skipped). est:
+Psalm 119 (176), Proverbs 31 chapters, Job's 6,000 camels, Daniel's 10-day
+test, Ezekiel's Gog 7 months / 7 years, Revelation figures (200M cavalry,
+1,260 days, 1,600 stadia), Matthew's 14 generations, the 46-year temple,
+Jesus' parable numbers (fig tree 3 yrs, bent woman 18 yrs, rich man's 5
+brothers), Acts figures (lame man 40+, Philip's 4 daughters, 4 stern
+anchors), Balaam's 3 strikes, Midian spoil 675,000 sheep, 48 Levite cities.
+prog: Haman, Judas Iscariot, Dorcas, Aquila, Onesimus, Philemon, Titus,
+Luke, Mark, Ananias of Damascus, Agabus, the Ethiopian eunuch, Elizabeth,
+Herodias, Simon of Cyrene, Joseph (Mary's husband). swipe: upper-room-vs-
+Gethsemane, inner-three-vs-other-nine, general-vs-city letter, son-of-
+Rachel-vs-Leah, rewarded-vs-condemned parable, David's-line-vs-Israel king,
+tabernacle-vs-temple item, faith-example-vs-warning woman, blessed-vs-
+cursed words, Samuel's-vs-Elijah's ministry, wilderness-campsite-vs-city,
+Revelation-symbol-good-vs-evil, Shem-vs-Ham, miracle-on-land-vs-water,
+poetry-vs-prose book.
+**DB per-type (count:exact): estimation 221, progressive 178, swipe 169;
+grand total 1508.**
+
 **estimation + swipe batches 1-4 — IMPORTED 2026-09-06.** estimation
 79/80 inserted (skipped "How many pieces of silver did the chief priests
 pay Judas..." — already in the DB as a multiple_choice question). swipe

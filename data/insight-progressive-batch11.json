@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which royal favorite am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Haman",
+    "options": ["Haman", "Doeg", "Sanballat", "Tobiah"],
+    "reference": "Esther 3-7 (cross-check: Insight on the Scriptures, Vol. 1, 'Haman')",
+    "payload": { "clues": [
+      "The king promoted me above all his other officials and ordered everyone to bow to me.",
+      "One man at the palace gate refused, and it filled me with rage.",
+      "I cast lots to pick the day to wipe out his entire people.",
+      "I was impaled on the very stake I had set up for that man."
+    ] }
+  },
+  {
+    "question": "Which betrayer am I?",
+    "type": "progressive",
+    "category": "Apostles",
+    "difficulty": "easy",
+    "answer": "Judas Iscariot",
+    "options": ["Judas Iscariot", "Peter", "Judas son of James", "Thomas"],
+    "reference": "Matthew 26-27; John 12 (cross-check: Insight on the Scriptures, Vol. 2, 'Judas No. 4', p. 129)",
+    "payload": { "clues": [
+      "I kept the money box for the group, and I used to help myself to what was put in it.",
+      "I complained loudly when a woman poured expensive perfume over Jesus.",
+      "I agreed to hand him over for thirty pieces of silver.",
+      "I marked him out with a kiss, then flung the money into the temple and hanged myself."
+    ] }
+  },
+  {
+    "question": "Which seamstress disciple am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Dorcas",
+    "options": ["Dorcas", "Lydia", "Priscilla", "Phoebe"],
+    "reference": "Acts 9:36-42 (cross-check: Insight on the Scriptures, Vol. 1, 'Dorcas')",
+    "payload": { "clues": [
+      "I lived in Joppa and was always doing good deeds and giving to the poor.",
+      "I sewed robes and other garments for the widows of the congregation.",
+      "When I fell sick and died, they laid me in an upstairs room and sent two men to fetch Peter.",
+      "He put everyone out of the room, prayed, and said, \"Tabitha, rise!\""
+    ] }
+  },
+  {
+    "question": "Which tentmaker am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Aquila",
+    "options": ["Aquila", "Paul", "Barnabas", "Justus"],
+    "reference": "Acts 18:1-3, 24-26 (cross-check: Insight on the Scriptures, Vol. 1, 'Aquila')",
+    "payload": { "clues": [
+      "My wife and I were Jews forced to leave Rome when the emperor expelled all the Jews.",
+      "We settled in Corinth and worked at our trade, making tents.",
+      "The apostle Paul stayed with us and worked alongside us.",
+      "Later, in Ephesus, my wife and I took the eloquent Apollos aside and explained the way of God to him more accurately."
+    ] }
+  },
+  {
+    "question": "Which runaway slave am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Onesimus",
+    "options": ["Onesimus", "Tychicus", "Epaphras", "Trophimus"],
+    "reference": "Philemon 10-18 (cross-check: Insight on the Scriptures, Vol. 2, 'Onesimus')",
+    "payload": { "clues": [
+      "I ran away from my master, who was a Christian, and somehow ended up with Paul in prison.",
+      "Paul became like a father to me there.",
+      "Paul sent me back carrying a personal letter that appealed for my welcome.",
+      "My name means \"useful,\" and Paul made a point of the fact that I had become just that."
+    ] }
+  },
+  {
+    "question": "Which slave-owner am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Philemon",
+    "options": ["Philemon", "Onesimus", "Archippus", "Epaphras"],
+    "reference": "Philemon 1-19 (cross-check: Insight on the Scriptures, Vol. 2, 'Philemon, Letter to')",
+    "payload": { "clues": [
+      "A congregation met in my house.",
+      "Paul wrote me a short, warm, personal letter.",
+      "He urged me to take back a runaway slave, no longer as a slave but as a brother.",
+      "He offered to pay whatever the man owed me, and reminded me that I owed him my very self."
+    ] }
+  },
+  {
+    "question": "Which Greek companion of Paul am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Titus",
+    "options": ["Titus", "Timothy", "Luke", "Silas"],
+    "reference": "Galatians 2:3; 2 Corinthians 7; Titus 1:5 (cross-check: Insight on the Scriptures, Vol. 2, 'Titus No. 1')",
+    "payload": { "clues": [
+      "I was a Greek, and Paul refused to have me circumcised as a test case for the nations.",
+      "Paul sent me to Corinth to deal with a painful situation, and I came back with encouraging news.",
+      "Paul later left me on the island of Crete to appoint elders in city after city.",
+      "A whole letter of the Christian Scriptures is addressed to me."
+    ] }
+  },
+  {
+    "question": "Which physician and historian am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Luke",
+    "options": ["Luke", "Mark", "Theophilus", "Demas"],
+    "reference": "Colossians 4:14; Luke 1:1-4; Acts 1:1; 2 Timothy 4:11 (cross-check: Insight on the Scriptures, Vol. 2, 'Luke')",
+    "payload": { "clues": [
+      "Paul called me the beloved physician.",
+      "I wrote an orderly account of Jesus' life for a man named Theophilus, then a sequel about the apostles.",
+      "In parts of that sequel the account shifts to \"we,\" because I was traveling with Paul.",
+      "From his final imprisonment Paul wrote that only I was still with him."
+    ] }
+  },
+  {
+    "question": "Which Gospel writer who once turned back am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Mark",
+    "options": ["Mark", "Luke", "Matthew", "Silas"],
+    "reference": "Acts 12:12; 13:13; 15:37-39; 2 Timothy 4:11 (cross-check: Insight on the Scriptures, Vol. 2, 'Mark, John')",
+    "payload": { "clues": [
+      "My mother's house in Jerusalem was a meeting place for the disciples.",
+      "I set out with Paul and Barnabas but left them partway through and went home.",
+      "Paul refused to take me on the next trip, and he and Barnabas split over it.",
+      "Years later Paul asked for me by name, saying I was useful to him for ministering."
+    ] }
+  },
+  {
+    "question": "Which disciple sent to a persecutor am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Ananias",
+    "options": ["Ananias", "Barnabas", "Judas of Damascus", "Stephen"],
+    "reference": "Acts 9:10-19; 22:12 (cross-check: Insight on the Scriptures, Vol. 1, 'Ananias No. 2')",
+    "payload": { "clues": [
+      "I lived in Damascus and was well spoken of by the Jews there.",
+      "In a vision the Lord told me to go to a house on the street called Straight.",
+      "I protested, because the man waiting there had come to arrest people like me.",
+      "I laid my hands on him, something like scales fell from his eyes, and I baptized him."
+    ] }
+  },
+  {
+    "question": "Which prophet who acted out his message am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Agabus",
+    "options": ["Agabus", "Silas", "Judas Barsabbas", "Philip"],
+    "reference": "Acts 11:27-28; 21:10-11 (cross-check: Insight on the Scriptures, Vol. 1, 'Agabus')",
+    "payload": { "clues": [
+      "I came down from Judea to Antioch and foretold a great famine over the whole inhabited earth.",
+      "Years later I met Paul at Caesarea.",
+      "I took Paul's belt, bound my own hands and feet with it, and said the Jews would bind its owner this way in Jerusalem.",
+      "Paul went up to the city anyway."
+    ] }
+  },
+  {
+    "question": "Which official on a desert road am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "the Ethiopian eunuch",
+    "options": ["the Ethiopian eunuch", "Cornelius", "Sergius Paulus", "Naaman"],
+    "reference": "Acts 8:26-39 (cross-check: Insight on the Scriptures, Vol. 1, 'Ethiopian Eunuch')",
+    "payload": { "clues": [
+      "I was a court official in charge of the treasury of the queen of Ethiopia.",
+      "I had gone to Jerusalem to worship, and was riding home reading aloud from the scroll of Isaiah.",
+      "A man ran up and asked whether I understood what I was reading, and I invited him into my chariot.",
+      "When we came to some water, I asked to be baptized right there."
+    ] }
+  },
+  {
+    "question": "Which mother in old age am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Elizabeth",
+    "options": ["Elizabeth", "Sarah", "Hannah", "Rebekah"],
+    "reference": "Luke 1:5-25, 39-45, 57-63 (cross-check: Insight on the Scriptures, Vol. 1, 'Elizabeth')",
+    "payload": { "clues": [
+      "My husband was a priest, and I too was descended from Aaron.",
+      "I was well past childbearing age when I conceived.",
+      "When my young relative Mary came to visit, the baby leaped inside me and I was filled with holy spirit.",
+      "I insisted my son be named John, though no one in the family had that name."
+    ] }
+  },
+  {
+    "question": "Which grudge-holding queen am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Herodias",
+    "options": ["Herodias", "Jezebel", "Athaliah", "Delilah"],
+    "reference": "Mark 6:17-28 (cross-check: Insight on the Scriptures, Vol. 1, 'Herodias')",
+    "payload": { "clues": [
+      "I left my first husband to marry his brother, a district ruler.",
+      "A wilderness preacher publicly condemned the marriage, and I wanted him dead.",
+      "At my husband's birthday feast, my daughter danced and delighted him and his guests.",
+      "I told her to ask for the preacher's head on a platter."
+    ] }
+  },
+  {
+    "question": "Which man pressed into service am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Simon of Cyrene",
+    "options": ["Simon of Cyrene", "Barabbas", "Joseph of Arimathea", "Cleopas"],
+    "reference": "Mark 15:21; Luke 23:26 (cross-check: Insight on the Scriptures, Vol. 2, 'Simon No. 8')",
+    "payload": { "clues": [
+      "I was coming in from the countryside just as a condemned man was being led out to die.",
+      "Roman soldiers seized me and forced me to carry his torture stake.",
+      "I was the father of Alexander and Rufus, men the early Christians knew.",
+      "I walked behind him to the place called Skull."
+    ] }
+  },
+  {
+    "question": "Which carpenter am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Joseph",
+    "options": ["Joseph", "Zechariah", "Simeon", "Cleopas"],
+    "reference": "Matthew 1:18-25; 2:13-15; Luke 2:41-48 (cross-check: Insight on the Scriptures, Vol. 2, 'Joseph No. 7')",
+    "payload": { "clues": [
+      "I was engaged to a young woman who was found to be pregnant before we came together.",
+      "An angel told me in a dream to take her as my wife anyway.",
+      "After the child was born, another dream warned me to flee with them to Egypt.",
+      "The last time the Bible mentions me, the boy is twelve and we are anxiously searching for him in Jerusalem."
+    ] }
+  }
+]
