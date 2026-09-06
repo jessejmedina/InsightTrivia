@@ -137,6 +137,20 @@ export const gameStyles = StyleSheet.create({
   },
   revealPoints: { color: Colors.accent, fontWeight: '800', fontSize: 16 },
   revealTotal: { color: Colors.textSecondary, fontWeight: '700', fontSize: 14 },
+  // Estimation
+  sliderTrack: { width: '100%', height: 44, justifyContent: 'center', marginVertical: 8 },
+  sliderHit: { position: 'absolute', left: 0, right: 0, height: 44, justifyContent: 'center' },
+  sliderFill: { position: 'absolute', left: 0, height: 6, borderRadius: 3, backgroundColor: Colors.accentDim },
+  sliderThumb: {
+    position: 'absolute', left: 0, width: 28, height: 28, borderRadius: 14,
+    backgroundColor: Colors.accent, ...CardShadow,
+  },
+  estimateReadout: { fontSize: 40, fontWeight: '900', color: Colors.accent },
+  estimateUnit: { fontSize: 16, color: Colors.textSecondary, fontWeight: '700' },
+  numberLine: {
+    width: '100%', height: 8, borderRadius: 4, backgroundColor: Colors.border, marginVertical: 20,
+  },
+  numberLineMark: { position: 'absolute', top: -6, width: 4, height: 20, borderRadius: 2, marginLeft: -2 },
   // Multiple choice
   optionsGrid: { width: '100%', gap: 10 },
   optionBtn: {
