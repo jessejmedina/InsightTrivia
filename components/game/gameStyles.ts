@@ -137,6 +137,21 @@ export const gameStyles = StyleSheet.create({
   },
   revealPoints: { color: Colors.accent, fontWeight: '800', fontSize: 16 },
   revealTotal: { color: Colors.textSecondary, fontWeight: '700', fontSize: 14 },
+  // Swipe-categorize
+  swipeCatsRow: { flexDirection: 'row', justifyContent: 'space-between', width: '100%' },
+  swipeCatLeft: { color: Colors.primary, fontWeight: '800' },
+  swipeCatRight: { color: Colors.danger, fontWeight: '800' },
+  swipeStage: { height: 220, width: '100%', alignItems: 'center', justifyContent: 'center' },
+  swipeCard: {
+    width: 240, height: 180, borderRadius: 20, backgroundColor: Colors.surface,
+    alignItems: 'center', justifyContent: 'center', padding: 20, ...CardShadow,
+  },
+  swipeCardText: { fontSize: 20, fontWeight: '700', color: Colors.textPrimary, textAlign: 'center' },
+  swipeBtnRow: { flexDirection: 'row', justifyContent: 'space-between', width: '100%', marginTop: 8 },
+  swipeBtn: {
+    color: Colors.white, fontWeight: '800', fontSize: 14, overflow: 'hidden',
+    backgroundColor: Colors.accent, paddingVertical: 12, paddingHorizontal: 18, borderRadius: 16,
+  },
   // Progressive clue
   clueList: { width: '100%', gap: 8 },
   clueRow: {
