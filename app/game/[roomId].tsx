@@ -73,7 +73,7 @@ export default function GameScreen() {
     if (scoredForIndexRef.current === questionIndex) return;
     scoredForIndexRef.current = questionIndex;
     resolveAndScoreRound({
-      descriptor, question, submissions, players,
+      descriptor, question, questionIndex, submissions, players,
       buzzedPlayerId: buzzedUserId, roomId: roomId!, hostId: profile!.id,
     });
   }, [

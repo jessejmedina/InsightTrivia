@@ -12,7 +12,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { supabase } from '../../lib/supabase';
 import { getTypeLogic } from '../../lib/questionTypes/logic';
 import type {
-  PlayerRow, Question, RoomRow, GamePhaseV3, RoundScoredPayload, RoundSubmissionRecord,
+  PlayerRow, Question, RoomRow, GamePhaseV3, RoundScoredPayload, RoundSubmissionRecord, RoundHistoryEntry,
 } from '../../lib/gameTypes';
 
 /** Seconds a player has to pick an option after buzzing in (also the
@@ -31,6 +31,7 @@ export interface GameRound {
   buzzedUserId: string | null;
   submissions: Record<string, RoundSubmissionRecord>;
   roundScore: RoundScoredPayload | null;
+  roundHistory: RoundHistoryEntry[];
   isHost: boolean;
   startGame: () => Promise<void>;
   buzzIn: () => Promise<void>;
@@ -49,6 +50,7 @@ export function useGameRound(roomId: string, profileId: string | undefined): Gam
   const [buzzedUserId, setBuzzedUserId] = useState<string | null>(null);
   const [submissions, setSubmissions] = useState<Record<string, RoundSubmissionRecord>>({});
   const [roundScore, setRoundScore] = useState<RoundScoredPayload | null>(null);
+  const [roundHistory, setRoundHistory] = useState<RoundHistoryEntry[]>([]);
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const timeLeftRef = useRef(30);
@@ -139,6 +141,7 @@ export function useGameRound(roomId: string, profileId: string | undefined): Gam
     function handleGameEvent(event: { event_type: string; player_id: string; payload: any }) {
       switch (event.event_type) {
         case 'game_start': {
+          setRoundHistory([]);
           resetForNewQuestion(event.payload.question_index ?? 0);
           loadQuestion(event.payload.question_id).then((q) =>
             startTimer(getTypeLogic(q?.type).timerSeconds));
@@ -172,7 +175,12 @@ export function useGameRound(roomId: string, profileId: string | undefined): Gam
           break;
         }
         case 'round_scored': {
-          setRoundScore(event.payload as RoundScoredPayload);
+          const payload = event.payload as RoundScoredPayload;
+          setRoundScore(payload);
+          setRoundHistory((prev) =>
+            prev.some((e) => e.questionIndex === payload.questionIndex)
+              ? prev
+              : [...prev, { questionIndex: payload.questionIndex, points: payload.points, correctAnswer: payload.correctAnswer }]);
           setPhase('reveal');
           stopTimer();
           loadPlayers();
@@ -249,7 +257,7 @@ export function useGameRound(roomId: string, profileId: string | undefined): Gam
 
   return {
     loading, phase, room, players, question, questionIndex, questionIds,
-    timeLeft, buzzedUserId, submissions, roundScore, isHost,
+    timeLeft, buzzedUserId, submissions, roundScore, roundHistory, isHost,
     startGame, buzzIn, submitRound,
   };
 }

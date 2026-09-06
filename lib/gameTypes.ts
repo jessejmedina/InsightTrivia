@@ -37,10 +37,18 @@ export interface RoundScoredPayload {
   points: Record<string, number>;
   breakdown: unknown;
   correctAnswer: string | null;
+  questionIndex: number;
 }
 
 /** One player's submission for the current round, as carried on `round_submit`. */
 export interface RoundSubmissionRecord {
   submission: unknown;
   secondsLeft: number;
+}
+
+/** One completed round's outcome, accumulated by useGameRound for the results screen. */
+export interface RoundHistoryEntry {
+  questionIndex: number;
+  points: Record<string, number>;
+  correctAnswer: string | null;
 }

@@ -10,13 +10,14 @@ import type { PlayerRow, Question, RoundSubmissionRecord } from '../../lib/gameT
 export async function resolveAndScoreRound(params: {
   descriptor: QuestionDescriptor;
   question: Question;
+  questionIndex: number;
   submissions: Record<string, RoundSubmissionRecord>;
   players: PlayerRow[];
   buzzedPlayerId: string | null;
   roomId: string;
   hostId: string;
 }): Promise<void> {
-  const { descriptor, question, submissions, players, buzzedPlayerId, roomId, hostId } = params;
+  const { descriptor, question, questionIndex, submissions, players, buzzedPlayerId, roomId, hostId } = params;
   const playerIds = players.map((p) => p.user_id);
   if (playerIds.length < 1) return;
 
@@ -48,7 +49,7 @@ export async function resolveAndScoreRound(params: {
 
   await supabase.from('game_events').insert({
     room_id: roomId, event_type: 'round_scored', player_id: hostId,
-    payload: { points: pointsByPlayer, breakdown: result.breakdown, correctAnswer: question.answer },
+    payload: { points: pointsByPlayer, breakdown: result.breakdown, correctAnswer: question.answer, questionIndex },
   });
 }
 
