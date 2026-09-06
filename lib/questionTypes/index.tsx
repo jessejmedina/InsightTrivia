@@ -11,6 +11,8 @@ import { QuestionPhase } from '../../components/game/QuestionPhase';
 import { OrderingPhase } from '../../components/game/OrderingPhase';
 import { MatchingPhase } from '../../components/game/MatchingPhase';
 import { RevealPhase } from '../../components/game/RevealPhase';
+import { EstimationPhase } from '../../components/game/EstimationPhase';
+import { EstimationReveal } from '../../components/game/EstimationReveal';
 
 export type { PlayProps, RevealProps } from './uiTypes';
 export * from './logic';
@@ -25,6 +27,7 @@ const UI: Record<string, { Play: ComponentType<PlayProps>; Reveal: ComponentType
   multiple_choice: { Play: QuestionPhase, Reveal: RevealPhase },
   ordering: { Play: OrderingPhase, Reveal: RevealPhase },
   matching: { Play: MatchingPhase, Reveal: RevealPhase },
+  estimation: { Play: EstimationPhase, Reveal: EstimationReveal },
 };
 
 export function getDescriptor(type: string | null | undefined): QuestionDescriptor {
