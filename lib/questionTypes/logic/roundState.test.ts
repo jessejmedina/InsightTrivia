@@ -47,6 +47,13 @@ test('needsOpponentShot: timed out -> false', () => {
   assert.equal(needsOpponentShot(multipleChoiceLogic, s), false);
 });
 
+test('needsOpponentShot: solo (1 player) -> false', () => {
+  const s = buildRoundState('buzz',
+    { p1: { submission: { chosen: 'WRONG' }, secondsLeft: 20 } },
+    'p1', ['p1'], false, 'RIGHT');
+  assert.equal(needsOpponentShot(multipleChoiceLogic, s), false);
+});
+
 test('needsOpponentShot: concurrent type -> false', () => {
   const s = buildRoundState('concurrent',
     { p1: { submission: { order: [] }, secondsLeft: 5 } },

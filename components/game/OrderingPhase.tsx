@@ -2,16 +2,11 @@ import { useRef, useState } from 'react';
 import { View, Text, ScrollView, TouchableOpacity } from 'react-native';
 import { seededShuffle } from '../../lib/gameLogic';
 import { gameStyles as styles } from './gameStyles';
+import type { PlayProps } from '../../lib/questionTypes/uiTypes';
 
-interface OrderingPhaseProps {
-  items: string[]; // the correct order — this component shuffles its own working copy
-  questionId: string; // seeds the shuffle so every client sees the identical arrangement
-  timeLeft: number;
-  hasSubmitted: boolean;
-  onSubmit: (submittedOrder: string[]) => void;
-}
-
-export function OrderingPhase({ items, questionId, timeLeft, hasSubmitted, onSubmit }: OrderingPhaseProps) {
+/** Play UI for `ordering` — arrow-button reordering of 4 items. */
+export function OrderingPhase({ question, questionId, timeLeft, hasSubmitted, onSubmit }: PlayProps) {
+  const items = (question.payload as { items?: string[] })?.items ?? [];
   const [order, setOrder] = useState<string[]>(() => seededShuffle(items, questionId));
   const hasSubmittedRef = useRef(false);
 
@@ -26,7 +21,7 @@ export function OrderingPhase({ items, questionId, timeLeft, hasSubmitted, onSub
   function handleSubmit() {
     if (hasSubmittedRef.current) return;
     hasSubmittedRef.current = true;
-    onSubmit(order);
+    onSubmit({ order });
   }
 
   return (

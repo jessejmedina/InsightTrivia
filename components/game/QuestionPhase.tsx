@@ -1,38 +1,37 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, Animated, ActivityIndicator } from 'react-native';
 import { Colors } from '../../constants/colors';
 import { getCategoryColor } from '../../constants/colors';
-import type { PlayerRow, Question } from '../../lib/gameTypes';
 import { gameStyles as styles } from './gameStyles';
+import type { PlayProps } from '../../lib/questionTypes/uiTypes';
 
-interface QuestionPhaseProps {
-  question: Question;
-  timeLeft: number;
-  phase: 'question' | 'buzzed';
-  buzzedPlayer: PlayerRow | undefined;
-  isBuzzedIn: boolean;
-  isHost: boolean;
-  onBuzzIn: () => void;
-  onSubmitAnswer: (chosenAnswer: string) => void;
-  buzzScale: Animated.Value;
-  questionIndex: number;
-  totalQuestions: number;
-}
-
+/** Play UI for `multiple_choice` (buzz in, then pick from 4 options). */
 export function QuestionPhase({
-  question, timeLeft, phase, buzzedPlayer, isBuzzedIn,
-  onBuzzIn, onSubmitAnswer, buzzScale,
-}: QuestionPhaseProps) {
+  question, timeLeft, hasSubmitted, buzzedByMe, buzzedByOpponent, onBuzz, onSubmit,
+}: PlayProps) {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const hasSubmittedRef = useRef(false);
+  const buzzScale = useRef(new Animated.Value(1)).current;
+
+  const isBuzzed = buzzedByMe || buzzedByOpponent;
+
+  useEffect(() => {
+    if (isBuzzed) {
+      Animated.sequence([
+        Animated.timing(buzzScale, { toValue: 1.2, duration: 150, useNativeDriver: true }),
+        Animated.timing(buzzScale, { toValue: 1, duration: 150, useNativeDriver: true }),
+      ]).start();
+    }
+  }, [isBuzzed, buzzScale]);
+
   const timerColor = timeLeft > 15 ? Colors.success : timeLeft > 7 ? Colors.accent : Colors.danger;
-  const diffColor: any = { easy: Colors.success, medium: Colors.accent, hard: Colors.danger };
+  const diffColor: Record<string, string> = { easy: Colors.success, medium: Colors.accent, hard: Colors.danger };
 
   function handlePickOption(option: string) {
     if (hasSubmittedRef.current) return;
     hasSubmittedRef.current = true;
     setSelectedOption(option);
-    onSubmitAnswer(option);
+    onSubmit({ chosen: option });
   }
 
   return (
@@ -46,12 +45,12 @@ export function QuestionPhase({
         <View style={[styles.qCategoryPill, { backgroundColor: getCategoryColor(question.category) }]}>
           <Text style={styles.qCategory}>{question.category}</Text>
         </View>
-        <Text style={[styles.qDifficulty, { color: diffColor[question.difficulty] }]}>
+        <Text style={[styles.qDifficulty, { color: diffColor[question.difficulty] ?? Colors.accent }]}>
           {question.difficulty}
         </Text>
       </View>
 
-      {question.hint && phase === 'question' && (
+      {question.hint && !isBuzzed && (
         <View style={styles.hintBox}>
           <Text style={styles.hintLabel}>Hint</Text>
           <Text style={styles.hintText}>{question.hint}</Text>
@@ -63,21 +62,21 @@ export function QuestionPhase({
         {question.reference && <Text style={styles.qRef}>{question.reference}</Text>}
       </View>
 
-      {phase === 'question' && (
+      {!isBuzzed && (
         <Animated.View style={{ transform: [{ scale: buzzScale }] }}>
-          <TouchableOpacity style={styles.buzzBtn} onPress={onBuzzIn}>
+          <TouchableOpacity style={styles.buzzBtn} onPress={onBuzz}>
             <Text style={styles.buzzBtnText}>I Know It!</Text>
             <Text style={styles.buzzBtnSub}>Buzz in to stop the clock</Text>
           </TouchableOpacity>
         </Animated.View>
       )}
 
-      {phase === 'buzzed' && (
+      {isBuzzed && (
         <View style={styles.buzzedContainer}>
           <Text style={styles.buzzedLabel}>
-            {buzzedPlayer?.profiles?.username ?? 'Player'} buzzed in!
+            {buzzedByMe ? 'You buzzed in!' : 'Opponent buzzed in!'}
           </Text>
-          {isBuzzedIn ? (
+          {buzzedByMe ? (
             Array.isArray(question.options) && question.options.length >= 2 ? (
               <View style={styles.optionsGrid}>
                 {question.options.map((option, i) => (
@@ -85,7 +84,7 @@ export function QuestionPhase({
                     key={i}
                     style={[styles.optionBtn, selectedOption === option && styles.optionBtnSelected]}
                     onPress={() => handlePickOption(option)}
-                    disabled={selectedOption !== null}
+                    disabled={selectedOption !== null || hasSubmitted}
                   >
                     <Text style={styles.optionBtnText}>{option}</Text>
                   </TouchableOpacity>

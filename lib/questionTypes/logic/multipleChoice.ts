@@ -23,8 +23,9 @@ function isRoundComplete(state: DescriptorRoundState<MultipleChoiceSubmission>):
   if (!buzzed) return false;
   const buzzedCorrect = buzzed.submission.chosen === state.correctAnswer;
   if (buzzedCorrect) return true;
-  // The buzzed player was wrong — the round ends only once the opponent's shot resolves.
-  return state.opponentShotTaken;
+  // The buzzed player was wrong — the round ends once the opponent's shot
+  // resolves, or immediately if there is no opponent (solo dev testing).
+  return state.opponentShotTaken || state.playerIds.length < 2;
 }
 
 export const multipleChoiceLogic: TypeLogic<null, MultipleChoiceSubmission> = {

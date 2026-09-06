@@ -1,29 +1,42 @@
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text } from 'react-native';
 import { Colors } from '../../constants/colors';
-import type { PlayerRow, Question } from '../../lib/gameTypes';
+import type { MatchPair } from '../../lib/gameLogic';
 import { gameStyles as styles } from './gameStyles';
+import type { RevealProps } from '../../lib/questionTypes/uiTypes';
 
-interface RevealPhaseProps {
-  question: Question;
-  answerResult: 'correct' | 'wrong' | null;
-  buzzedPlayer: PlayerRow | undefined;
-  isHost: boolean;
-  onNext: () => void;
-  onOpponentAnswer: () => void;
-}
+/**
+ * Shared reveal body for multiple_choice / ordering / matching in Plan 1.
+ * Plan 2 gives ordering and matching their own richer reveal components.
+ */
+export function RevealPhase({ question, breakdown, myPointsThisRound, myRunningTotal }: RevealProps) {
+  const winner = (breakdown as { winner?: 'mine' | 'opponent' | 'none' } | null)?.winner;
+  const scoredWell = myPointsThisRound > 0;
 
-export function RevealPhase({ question, answerResult, isHost, onNext, onOpponentAnswer }: RevealPhaseProps) {
-  const correct = answerResult === 'correct';
+  const bannerColor = winner === 'mine' || scoredWell ? Colors.success : Colors.danger;
+  const bannerText =
+    winner === 'mine' ? 'Correct!'
+      : winner === 'opponent' ? 'Opponent got it'
+        : winner === 'none' ? 'Wrong!'
+          : scoredWell ? `+${myPointsThisRound}` : 'No points';
+
+  const items = (breakdown as { items?: string[] } | null)?.items;
+  const pairs = (breakdown as { pairs?: MatchPair[] } | null)?.pairs;
+
   return (
     <View style={styles.phaseContainer}>
-      <View style={[styles.resultBanner, { backgroundColor: correct ? Colors.success : Colors.danger }]}>
-        <Text style={styles.resultEmoji}>{correct ? '✓' : '✗'}</Text>
-        <Text style={styles.resultText}>{correct ? 'Correct!' : 'Wrong!'}</Text>
+      <View style={[styles.resultBanner, { backgroundColor: bannerColor }]}>
+        <Text style={styles.resultText}>{bannerText}</Text>
       </View>
 
       <View style={styles.revealBox}>
-        <Text style={styles.revealLabel}>The answer was:</Text>
-        <Text style={styles.revealAnswer}>{question.answer}</Text>
+        <Text style={styles.revealLabel}>The answer:</Text>
+        {question.answer && <Text style={styles.revealAnswer}>{question.answer}</Text>}
+        {items && items.map((it, i) => (
+          <Text key={i} style={styles.revealAnswer}>{i + 1}. {it}</Text>
+        ))}
+        {pairs && pairs.map((p, i) => (
+          <Text key={i} style={styles.revealAnswer}>{p.left} → {p.right}</Text>
+        ))}
         {question.reference && <Text style={styles.revealRef}>{question.reference}</Text>}
       </View>
 
@@ -31,21 +44,10 @@ export function RevealPhase({ question, answerResult, isHost, onNext, onOpponent
         <Text style={styles.questionText}>{question.question}</Text>
       </View>
 
-      {isHost && !correct && (
-        <TouchableOpacity style={styles.oppBtn} onPress={onOpponentAnswer}>
-          <Text style={styles.oppBtnText}>Award Opponent 100 pts & Continue</Text>
-        </TouchableOpacity>
-      )}
-
-      {isHost && correct && (
-        <TouchableOpacity style={styles.nextBtn} onPress={onNext}>
-          <Text style={styles.nextBtnText}>Next Question →</Text>
-        </TouchableOpacity>
-      )}
-
-      {!isHost && (
-        <Text style={styles.waitingHint}>Host is advancing...</Text>
-      )}
+      <Text style={styles.buzzedLabel}>
+        {myPointsThisRound > 0 ? `+${myPointsThisRound} this round` : 'No points this round'}
+      </Text>
+      <Text style={styles.waitingHint}>{myRunningTotal} total · host is advancing…</Text>
     </View>
   );
 }

@@ -29,6 +29,7 @@ export function buildRoundState<TS = unknown>(
 export function needsOpponentShot(logic: TypeLogic, state: DescriptorRoundState): boolean {
   if (logic.roundStyle !== 'buzz') return false;
   if (state.timedOut || state.opponentShotTaken) return false;
+  if (state.playerIds.length < 2) return false; // no opponent to hand a shot to
   const buzzedSubmitted =
     state.buzzedPlayerId != null && state.submissions[state.buzzedPlayerId] !== undefined;
   if (!buzzedSubmitted) return false;
@@ -45,8 +46,8 @@ export function orderScorePlayers(
   playerIds: string[],
   buzzedPlayerId: string | null,
   roundStyle: RoundStyle
-): [string, string] {
+): [string, string | undefined] {
   const [p0, p1] = playerIds;
-  if (roundStyle === 'buzz' && buzzedPlayerId === p1) return [p1, p0];
+  if (roundStyle === 'buzz' && p1 != null && buzzedPlayerId === p1) return [p1, p0];
   return [p0, p1];
 }

@@ -74,6 +74,13 @@ test('isRoundComplete: nobody buzzed, timed out -> true', () => {
   }), true);
 });
 
+test('isRoundComplete: solo (1 player) wrong answer ends the round immediately', () => {
+  assert.equal(multipleChoiceLogic.isRoundComplete({
+    ...baseState, playerIds: ['p1'],
+    submissions: { p1: { submission: { chosen: 'A' }, secondsLeft: 20 } },
+  }), true);
+});
+
 test('validatePayload is trivially ok for MC', () => {
   assert.deepEqual(multipleChoiceLogic.validatePayload(undefined), { ok: true, payload: null });
 });

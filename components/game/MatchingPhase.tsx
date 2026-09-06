@@ -3,20 +3,13 @@ import { View, Text, ScrollView, TouchableOpacity } from 'react-native';
 import { seededShuffle } from '../../lib/gameLogic';
 import type { MatchPair } from '../../lib/gameLogic';
 import { gameStyles as styles } from './gameStyles';
-
-interface MatchingPhaseProps {
-  pairs: MatchPair[]; // the correct pairing
-  questionId: string; // seeds the shuffle so every client sees the identical arrangement
-  timeLeft: number;
-  hasSubmitted: boolean;
-  onSubmit: (submittedPairs: MatchPair[]) => void;
-}
+import type { PlayProps } from '../../lib/questionTypes/uiTypes';
 
 // Both columns are identified by their position in the original (pre-shuffle)
 // `pairs` array, not by their text value. This keeps identity stable and
-// unique even when two pairs share identical left or right text (e.g. two
-// events that both map to "Book of Exodus").
-export function MatchingPhase({ pairs, questionId, timeLeft, hasSubmitted, onSubmit }: MatchingPhaseProps) {
+// unique even when two pairs share identical left or right text.
+export function MatchingPhase({ question, questionId, timeLeft, hasSubmitted, onSubmit }: PlayProps) {
+  const pairs = (question.payload as { pairs?: MatchPair[] })?.pairs ?? [];
   const leftItems = useMemo(() => pairs.map((p, index) => ({ text: p.left, index })), [pairs]);
   const rightItems = useMemo(
     () => seededShuffle(pairs.map((p, index) => ({ text: p.right, index })), questionId),
@@ -32,7 +25,6 @@ export function MatchingPhase({ pairs, questionId, timeLeft, hasSubmitted, onSub
   function tapLeft(leftIndex: number) {
     if (hasSubmitted) return;
     if (pairing[leftIndex] !== undefined) {
-      // already paired — tapping it again unpairs
       const next = { ...pairing };
       delete next[leftIndex];
       setPairing(next);
@@ -45,7 +37,6 @@ export function MatchingPhase({ pairs, questionId, timeLeft, hasSubmitted, onSub
   function tapRight(rightIndex: number) {
     if (hasSubmitted) return;
     if (pairedRights.has(rightIndex)) {
-      // unpair whichever left it was paired to
       const leftKey = Object.keys(pairing).find((l) => pairing[Number(l)] === rightIndex);
       if (leftKey !== undefined) {
         const next = { ...pairing };
@@ -69,7 +60,7 @@ export function MatchingPhase({ pairs, questionId, timeLeft, hasSubmitted, onSub
       left: pairs[Number(leftIndexStr)].left,
       right: pairs[rightIndex].right,
     }));
-    onSubmit(submittedPairs);
+    onSubmit({ pairs: submittedPairs });
   }
 
   return (
