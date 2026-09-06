@@ -38,6 +38,9 @@ export interface DescriptorRoundState<TSubmission = unknown> {
   opponentShotTaken: boolean;
   playerIds: string[];
   timedOut: boolean;
+  /** The question's correct answer, for buzz types that need to know whether
+   *  a buzzed answer resolved the round. `null` for types without a scalar answer. */
+  correctAnswer: string | null;
 }
 
 export type PayloadValidation<TPayload> =
