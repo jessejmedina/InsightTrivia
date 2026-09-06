@@ -55,7 +55,7 @@ create policy "Admin insert" on questions for insert with check (true);  -- rest
 -- ── QUESTION TYPES (added for multiple choice / ordering / matching) ──
 alter table questions
   add column if not exists type text not null default 'free_text'
-    check (type in ('free_text', 'multiple_choice', 'ordering', 'matching', 'fill_blank')),
+    check (type in ('free_text', 'multiple_choice', 'ordering', 'matching', 'fill_blank', 'estimation', 'progressive', 'swipe')),
   add column if not exists options text[],
   add column if not exists payload jsonb;
 

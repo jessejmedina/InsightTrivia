@@ -70,4 +70,24 @@ const supabase = createClient(url, key);
     const { error: delErr } = await supabase.from('questions').delete().eq('id', ins[0].id);
     console.log('cleanup:', delErr ? 'FAILED ' + delErr.message : 'deleted probe row');
   }
+
+  console.log('\n[insert type=swipe probe — needs the v3 type CHECK constraint]');
+  {
+    const probe = {
+      question: '__DIAG__ swipe type probe ' + Date.now(),
+      answer: null, options: null, type: 'swipe', category: 'Test', difficulty: 'easy', active: false,
+      payload: { categoryLeft: 'L', categoryRight: 'R', cards: [
+        { text: 'a', side: 'left' }, { text: 'b', side: 'right' },
+        { text: 'c', side: 'left' }, { text: 'd', side: 'right' },
+      ]},
+    };
+    const { data, error } = await supabase.from('questions').insert(probe).select('id');
+    if (error) {
+      console.log('FAIL —', error.code, '-', error.message, '(run scripts/migrate-add-question-types.js or the ALTER TABLE SQL)');
+      process.exitCode = 1;
+    } else {
+      console.log('OK — type=swipe accepted. Inserted id:', data[0].id);
+      await supabase.from('questions').delete().eq('id', data[0].id);
+    }
+  }
 })();
