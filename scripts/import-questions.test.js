@@ -69,3 +69,41 @@ test('validate: preserves a hint when present, null when absent', () => {
   const ordering = validate({ question: 'Order', type: 'ordering', payload: { items: ['A', 'B', 'C', 'D'] }, hint: 'chronological' }, 0);
   assert.equal(ordering.row.hint, 'chronological');
 });
+
+test('validate: estimation delegates to the descriptor (rejects min >= value)', () => {
+  const r = validate({ question: 'How tall?', type: 'estimation',
+    payload: { value: 50, unit: 'cubits', min: 60, max: 100 } }, 0);
+  assert.equal(r.ok, false);
+});
+
+test('validate: estimation accepts a well-formed payload, answer stays null', () => {
+  const r = validate({ question: 'How tall?', type: 'estimation',
+    payload: { value: 50, unit: 'cubits', min: 0, max: 100 } }, 0);
+  assert.equal(r.ok, true);
+  assert.equal(r.row.answer, null);
+  assert.equal(r.row.payload.value, 50);
+});
+
+test('validate: progressive needs 4 options AND a clues payload', () => {
+  const noClues = validate({ question: 'Who?', type: 'progressive', answer: 'A',
+    options: ['A', 'B', 'C', 'D'] }, 0);
+  assert.equal(noClues.ok, false);
+  const good = validate({ question: 'Who?', type: 'progressive', answer: 'A',
+    options: ['A', 'B', 'C', 'D'], payload: { clues: ['c1', 'c2', 'c3'] } }, 0);
+  assert.equal(good.ok, true);
+  assert.equal(good.row.answer, 'A');
+  assert.deepEqual(good.row.payload.clues, ['c1', 'c2', 'c3']);
+});
+
+test('validate: swipe delegates card/category checks', () => {
+  const bad = validate({ question: 'Sort', type: 'swipe',
+    payload: { categoryLeft: 'X', categoryRight: 'X', cards: [] } }, 0);
+  assert.equal(bad.ok, false);
+  const good = validate({ question: 'Sort', type: 'swipe',
+    payload: { categoryLeft: 'OT', categoryRight: 'NT', cards: [
+      { text: 'Genesis', side: 'left' }, { text: 'Matthew', side: 'right' },
+      { text: 'Exodus', side: 'left' }, { text: 'Mark', side: 'right' },
+    ]}}, 0);
+  assert.equal(good.ok, true);
+  assert.equal(good.row.answer, null);
+});
