@@ -2,6 +2,7 @@ import type { TypeLogic } from './types';
 import { multipleChoiceLogic } from './multipleChoice';
 import { orderingLogic } from './ordering';
 import { matchingLogic } from './matching';
+import { estimationLogic } from './estimation';
 
 export * from './types';
 export { buildRoundState, needsOpponentShot, orderScorePlayers } from './roundState';
@@ -11,11 +12,14 @@ export { orderingLogic } from './ordering';
 export type { OrderingSubmission } from './ordering';
 export { matchingLogic } from './matching';
 export type { MatchingSubmission } from './matching';
+export { estimationLogic, logMap, logUnmap } from './estimation';
+export type { EstimationSubmission } from './estimation';
 
 export const TYPE_LOGICS: Record<string, TypeLogic<any, any>> = {
   multiple_choice: multipleChoiceLogic,
   ordering: orderingLogic,
   matching: matchingLogic,
+  estimation: estimationLogic,
 };
 
 /** Returns the logic for `type`, or the multiple_choice logic for any

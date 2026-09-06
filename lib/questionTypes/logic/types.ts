@@ -15,6 +15,25 @@ export interface MatchingPayload {
   pairs: { left: string; right: string }[];
 }
 
+export interface EstimationPayload {
+  value: number;
+  unit: string;
+  min: number;
+  max: number;
+  step?: number;
+  log?: boolean;
+}
+
+export interface ProgressivePayload {
+  clues: string[];
+}
+
+export interface SwipePayload {
+  categoryLeft: string;
+  categoryRight: string;
+  cards: { text: string; side: 'left' | 'right' }[];
+}
+
 export interface DescriptorScoreInput<TPayload = unknown, TSubmission = unknown> {
   question: { payload: TPayload | null; options: string[] | null; answer: string | null };
   /** buzz: the answerer's submission. concurrent: this player's submission. */
