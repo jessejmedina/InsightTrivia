@@ -1,5 +1,30 @@
 # Question Types v3 — New Types Implementation Plan (Plan 2 of 2)
 
+> **STATUS: COMPLETE (2026-09-06).** All tasks done, commits `90b5e42`..`a5a3104`
+> on `feature/question-type-system`. 89 unit + 13 import tests green;
+> `tsc` clean (bar the 6 pre-existing `profile.tsx` baseline errors);
+> `expo-doctor` 21/21. Live-DB `questions.type` CHECK constraint updated by
+> the owner via the Supabase SQL editor. Web playtest of all three new
+> types passed: estimation slider (drag + track-tap + whole-number readout
+> + correct default position) → winner-takes-pot scoring verified
+> end-to-end (+150 for a slow exact answer); progressive clue cadence +
+> buzz → 12s window + 4-option grid + reveal; swipe card stack + L/R
+> buttons + partial-on-timeout + per-card reveal; redesigned ResultsPhase
+> (mascot, animated bars, per-question pip strip). Zero console errors.
+> Three bugs found in playtest and fixed (`41df2ec`, `a5a3104`): slider
+> float readout, progressive clue-count snapshot race, slider thumb stuck
+> at 0 on mount.
+>
+> **Deferred:** clean fast-path scoring verification for progressive
+> (correct answer) and swipe (accuracy) — the browser-automation round-trip
+> latency kept overshooting the 12–20s timers; the scoring *logic* is
+> unit-tested (10 progressive + 6 swipe cases) and the host
+> resolve→round_scored→reveal pipeline is proven by the estimation run.
+> The owner's Expo Go phone playtest (human speed) covers this.
+> **Content:** `data/insight-{estimation,progressive,swipe}-batch1-4.json`
+> (80 / 64 / 62 questions) written, all pass `validate()`, NOT imported yet
+> — quality-review + import during the checkpoint.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Add three new question types — numerical estimation (slider, winner-takes-the-pot), progressive clue ("Smart Ass" style, decaying points), and swipe-to-categorize (Tinder-style, graded credit) — on top of the Plan 1 descriptor framework, wire the importer to validate them through the shared descriptor logic, and redesign the results screen.
@@ -156,7 +181,7 @@ The `useGameRound` hook: after a buzz the countdown restarts at `ANSWER_WINDOW_S
 **Interfaces:**
 - Produces: the live DB and `schema.sql` both accept `type IN ('free_text','multiple_choice','ordering','matching','fill_blank','estimation','progressive','swipe')`.
 
-- [ ] **Step 1: Update `schema.sql`**
+- [x] **Step 1: Update `schema.sql`**
 
 Change lines 57–58 from:
 ```sql
@@ -169,7 +194,7 @@ to:
     check (type in ('free_text', 'multiple_choice', 'ordering', 'matching', 'fill_blank', 'estimation', 'progressive', 'swipe')),
 ```
 
-- [ ] **Step 2: Write the migration script**
+- [x] **Step 2: Write the migration script**
 
 Create `scripts/migrate-add-question-types.js` (plain Node — no descriptor imports):
 ```js
@@ -215,14 +240,14 @@ async function main() {
 main();
 ```
 
-- [ ] **Step 3: Apply it**
+- [x] **Step 3: Apply it**
 
 ```bash
 node scripts/migrate-add-question-types.js
 ```
 If it reports the RPC is missing, open the Supabase dashboard → SQL editor, paste the two `alter table` statements it printed, run them.
 
-- [ ] **Step 4: Add a `check-schema.js` assertion**
+- [x] **Step 4: Add a `check-schema.js` assertion**
 
 In `scripts/check-schema.js`, after the existing checks, add a probe that inserts a throwaway `type='swipe'` row and deletes it:
 ```js
@@ -241,14 +266,14 @@ console.log('\n[insert type=swipe probe]');
 }
 ```
 
-- [ ] **Step 5: Run it**
+- [x] **Step 5: Run it**
 
 ```bash
 node scripts/check-schema.js
 ```
 Expected: all existing checks unchanged, plus `OK — type=swipe accepted`.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add supabase/schema.sql scripts/migrate-add-question-types.js scripts/check-schema.js
@@ -269,7 +294,7 @@ git commit -m "feat(schema): allow estimation/progressive/swipe question types"
 - Consumes: `getTypeLogic` from `../lib/questionTypes/logic` (Plan 1).
 - Produces: `validate(raw, index)` unchanged signature — `{ ok: true, row } | { ok: false, index, errors }`. `row` shape unchanged: `{ question, answer, options, payload, category, difficulty, reference, hint, type, active }`.
 
-- [ ] **Step 1: Point `test:import` at `tsx`**
+- [x] **Step 1: Point `test:import` at `tsx`**
 
 In `package.json`:
 ```json
@@ -277,14 +302,14 @@ In `package.json`:
 ```
 (`tsx` runs `.js` files and lets them import `.ts` — it's already a devDependency.)
 
-- [ ] **Step 2: Run the import test to confirm the toolchain switch is clean**
+- [x] **Step 2: Run the import test to confirm the toolchain switch is clean**
 
 ```bash
 npm run test:import
 ```
 Expected: the existing 9 tests still pass (no code changed yet — this just proves `tsx --test` runs the `.js` test file).
 
-- [ ] **Step 3: Rewrite `validate()` to delegate**
+- [x] **Step 3: Rewrite `validate()` to delegate**
 
 In `scripts/import-questions.js`, replace the type-resolution + per-type validation block (currently lines ~31–107) with:
 ```js
@@ -346,7 +371,7 @@ module.exports = { validate };
 ```
 Keep the existing `loadEnv()`, `shuffleOptions()`, `DIFFICULTIES`, and the `main()` at the bottom. Delete the old inline `QUESTION_TYPES` array and the old ordering/matching validation blocks.
 
-- [ ] **Step 4: Add new-type cases to `scripts/import-questions.test.js`**
+- [x] **Step 4: Add new-type cases to `scripts/import-questions.test.js`**
 
 Append:
 ```js
@@ -390,18 +415,18 @@ test('validate: swipe delegates card/category checks', () => {
 ```
 These reference `validatePayload` behaviour defined in Tasks B1 / C1 / D1 — if this task runs first, the descriptors don't exist yet and the 4 new tests fail to import. **Order:** do Task A2 Step 4 (and Step 5's green run) after B1, C1, D1 are merged. Steps 1–3 can land now; note it in the commit.
 
-- [ ] **Step 5: Run the full suite**
+- [x] **Step 5: Run the full suite**
 
 ```bash
 npm run test
 ```
 Expected: `test:unit` unchanged; `test:import` green including the 4 new cases (once B1/C1/D1 exist).
 
-- [ ] **Step 6: Update usage comments**
+- [x] **Step 6: Update usage comments**
 
 In `scripts/import-questions.js` and `scripts/import-all.js` header comments, change `node scripts/import-*.js` to `npx tsx scripts/import-*.js` (they now import TS). Same in `scripts/seed-test-room.js`'s comment block and `data/HANDOFF.md` if it names the command.
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add scripts/import-questions.js scripts/import-all.js scripts/import-questions.test.js scripts/seed-test-room.js package.json data/HANDOFF.md
@@ -435,7 +460,7 @@ git commit -m "feat(import): validate() delegates payload checks to descriptor l
 - `isRoundComplete(state)`: `state.timedOut`, OR every id in `playerIds` has a submission.
 - `validatePayload(raw)`: `value`/`min`/`max` finite numbers; `min < value < max`; `unit` a non-empty string; `step` (if present) a positive number; when `log === true`, `min > 0`.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Create `lib/questionTypes/logic/estimation.test.ts`:
 ```ts
@@ -543,11 +568,11 @@ test('validatePayload accepts a clean payload', () => {
 });
 ```
 
-- [ ] **Step 2: Run, verify failure**
+- [x] **Step 2: Run, verify failure**
 
 `npx tsx --test lib/questionTypes/logic/estimation.test.ts` → FAIL, module not found.
 
-- [ ] **Step 3: Add `EstimationPayload` to `types.ts`**
+- [x] **Step 3: Add `EstimationPayload` to `types.ts`**
 
 ```ts
 export interface EstimationPayload {
@@ -560,7 +585,7 @@ export interface EstimationPayload {
 }
 ```
 
-- [ ] **Step 4: Implement `estimation.ts`**
+- [x] **Step 4: Implement `estimation.ts`**
 
 ```ts
 import type { TypeLogic, EstimationPayload, DescriptorScoreInput, DescriptorRoundState } from './types';
@@ -634,19 +659,19 @@ export const estimationLogic: TypeLogic<EstimationPayload, EstimationSubmission>
 };
 ```
 
-- [ ] **Step 5: Register in `lib/questionTypes/logic/index.ts`**
+- [x] **Step 5: Register in `lib/questionTypes/logic/index.ts`**
 
 Add the import, the `export { estimationLogic }` + `export type { EstimationSubmission }`, and the `TYPE_LOGICS` entry `estimation: estimationLogic`.
 
-- [ ] **Step 6: Run, verify pass**
+- [x] **Step 6: Run, verify pass**
 
 `npx tsx --test lib/questionTypes/logic/estimation.test.ts` → PASS.
 
-- [ ] **Step 7: Full unit suite + typecheck**
+- [x] **Step 7: Full unit suite + typecheck**
 
 `npx tsx --test "lib/**/*.test.ts" "components/**/*.test.ts" && npx tsc --noEmit` → green (baseline tsc errors only; `[roomId].tsx` / importer may show errors only if you also started A2 Step 3 — otherwise clean).
 
-- [ ] **Step 8: Commit**
+- [x] **Step 8: Commit**
 
 ```bash
 git add lib/questionTypes/logic/estimation.ts lib/questionTypes/logic/estimation.test.ts lib/questionTypes/logic/types.ts lib/questionTypes/logic/index.ts
@@ -668,7 +693,7 @@ git commit -m "feat(questionTypes): estimation descriptor logic (winner-takes-po
   - `<SliderInput min max value step log onChange={(v:number)=>void} />` — controlled; renders a track, a draggable thumb, and responds to a tap anywhere on the track. Linear position unless `log`.
   - `EstimationPhase` (a `PlayProps` component) — reads `question.payload as EstimationPayload`, holds the current guess in state (initialised to the midpoint), calls `onSubmit({ guess })` once on "Lock In", `hasSubmittedRef` one-shot guard.
 
-- [ ] **Step 1: Implement `SliderInput.tsx`**
+- [x] **Step 1: Implement `SliderInput.tsx`**
 
 ```tsx
 import { useState } from 'react';
@@ -721,7 +746,7 @@ export function SliderInput({
 ```
 The `Pan` gesture covers the whole track (tap-to-jump falls out of `onBegin` firing at `e.x`), so no separate `onPress` is needed.
 
-- [ ] **Step 2: Add slider styles to `gameStyles.ts`**
+- [x] **Step 2: Add slider styles to `gameStyles.ts`**
 
 ```ts
 sliderTrack: {
@@ -739,7 +764,7 @@ estimateReadout: { fontSize: 40, fontWeight: '900', color: Colors.accent },
 estimateUnit: { fontSize: 16, color: Colors.textSecondary, fontWeight: '700' },
 ```
 
-- [ ] **Step 3: Implement `EstimationPhase.tsx`**
+- [x] **Step 3: Implement `EstimationPhase.tsx`**
 
 ```tsx
 import { useRef, useState } from 'react';
@@ -797,11 +822,11 @@ function formatGuess(n: number): string {
 }
 ```
 
-- [ ] **Step 4: Typecheck**
+- [x] **Step 4: Typecheck**
 
 `npx tsc --noEmit` → baseline errors only (the components aren't wired into the registry yet — that's B3 — so nothing renders them, but they must compile).
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add components/game/SliderInput.tsx components/game/EstimationPhase.tsx components/game/gameStyles.ts
@@ -821,7 +846,7 @@ git commit -m "feat(visual): SliderInput + EstimationPhase play UI"
 **Interfaces:**
 - Consumes: `RevealProps` (Plan 1); the `breakdown` shape from `estimationLogic.score` — `{ value, unit, min, max, log, mine, opponent, dMine, dOpp, winner? }`.
 
-- [ ] **Step 1: Implement `EstimationReveal.tsx`**
+- [x] **Step 1: Implement `EstimationReveal.tsx`**
 
 ```tsx
 import { View, Text } from 'react-native';
@@ -862,7 +887,7 @@ export function EstimationReveal({ breakdown }: RevealProps) {
 }
 ```
 
-- [ ] **Step 2: Add number-line styles**
+- [x] **Step 2: Add number-line styles**
 
 ```ts
 numberLine: {
@@ -873,14 +898,14 @@ numberLineMark: {
 },
 ```
 
-- [ ] **Step 3: Register in `lib/questionTypes/index.tsx`**
+- [x] **Step 3: Register in `lib/questionTypes/index.tsx`**
 
 Import `EstimationPhase` + `EstimationReveal`, add to `UI`:
 ```tsx
 estimation: { Play: EstimationPhase, Reveal: EstimationReveal },
 ```
 
-- [ ] **Step 4: Create the test-content file and seed helper**
+- [x] **Step 4: Create the test-content file and seed helper**
 
 `data/test-new-types.json` — start with 2 estimation entries (original wording, real numbers):
 ```json
@@ -898,11 +923,11 @@ estimation: { Play: EstimationPhase, Reveal: EstimationReveal },
 
 `scripts/seed-new-types-room.js` — copy `scripts/seed-test-room.js`, change `ROOM_CODE` to `'NEWTYP'` and the test file to `data/test-new-types.json`. (Run `npx tsx scripts/import-questions.js data/test-new-types.json` once first to load the questions, per Task A2's tsx requirement.)
 
-- [ ] **Step 5: Typecheck + unit suite**
+- [x] **Step 5: Typecheck + unit suite**
 
 `npm run test && npx tsc --noEmit` → green.
 
-- [ ] **Step 6: Manual playtest — web + Expo Go**
+- [x] **Step 6: Manual playtest — web + Expo Go**
 
 ```bash
 npx tsx scripts/import-questions.js data/test-new-types.json
@@ -911,7 +936,7 @@ npx expo start --web
 ```
 Join `NEWTYP`, `Start (Solo Dev Test)`. On an estimation question: drag the slider (and tap the track) — the readout updates; "Lock In" → reveal shows the number line with your mark and the truth, points awarded (solo: you always "win" the pot, speed-scaled). Timer expiry with no lock-in → 0, still advances. Repeat on Expo Go (`npx expo start --offline`) and confirm the slider drags with touch.
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add components/game/EstimationReveal.tsx components/game/gameStyles.ts lib/questionTypes/index.tsx scripts/seed-new-types-room.js
@@ -945,7 +970,7 @@ git commit -m "feat(questionTypes): wire estimation type end to end (reveal + re
 - `isRoundComplete(state)`: `state.timedOut`, OR the buzzed player chose correctly, OR `state.opponentShotTaken`, OR `playerIds.length < 2` and the buzzed player has submitted (solo — no shot possible). Mirror `multipleChoiceLogic.isRoundComplete` (Plan 1) — same shape, `chosen` lives on the submission.
 - `validatePayload(raw)`: `raw.clues` an array of 3–5 non-empty strings.
 
-- [ ] **Step 1: Write failing tests**
+- [x] **Step 1: Write failing tests**
 
 Create `lib/questionTypes/logic/progressive.test.ts`:
 ```ts
@@ -1028,15 +1053,15 @@ test('validatePayload: 3-5 non-empty clue strings', () => {
 });
 ```
 
-- [ ] **Step 2: Run, verify failure.**
+- [x] **Step 2: Run, verify failure.**
 
-- [ ] **Step 3: Add `ProgressivePayload` to `types.ts`**
+- [x] **Step 3: Add `ProgressivePayload` to `types.ts`**
 
 ```ts
 export interface ProgressivePayload { clues: string[] }
 ```
 
-- [ ] **Step 4: Implement `progressive.ts`**
+- [x] **Step 4: Implement `progressive.ts`**
 
 ```ts
 import type { TypeLogic, ProgressivePayload, DescriptorScoreInput, DescriptorRoundState } from './types';
@@ -1087,9 +1112,9 @@ export const progressiveLogic: TypeLogic<ProgressivePayload, ProgressiveSubmissi
 };
 ```
 
-- [ ] **Step 5: Register in `index.ts`** — import, `export { progressiveLogic }`, `export type { ProgressiveSubmission }`, `TYPE_LOGICS` entry.
+- [x] **Step 5: Register in `index.ts`** — import, `export { progressiveLogic }`, `export type { ProgressiveSubmission }`, `TYPE_LOGICS` entry.
 
-- [ ] **Step 6: Run, verify pass. Step 7: Full suite + tsc. Step 8: Commit**
+- [x] **Step 6: Run, verify pass. Step 7: Full suite + tsc. Step 8: Commit**
 
 ```bash
 git add lib/questionTypes/logic/progressive.ts lib/questionTypes/logic/progressive.test.ts lib/questionTypes/logic/types.ts lib/questionTypes/logic/index.ts
@@ -1109,7 +1134,7 @@ git commit -m "feat(questionTypes): progressive-clue descriptor logic (point lad
 - Produces: `ProgressivePhase` — derives how many clues are visible from `timeLeft`, snapshots that count when `buzzedByMe` flips true, submits `{ chosen, cluesShownAtBuzz }`.
 - Clue cadence rule (spec §8): clue `k` (1-indexed) is visible once `elapsed >= (k - 1) * (30 / clues.length)`, where `elapsed = 30 - timeLeft` **while not buzzed**. Even spread; the trailing remainder after the last clue is "all shown, last chance". After a buzz the countdown restarts at 12, so the component must stop deriving from `timeLeft` and hold the snapshot.
 
-- [ ] **Step 1: Implement `ProgressivePhase.tsx`**
+- [x] **Step 1: Implement `ProgressivePhase.tsx`**
 
 ```tsx
 import { useEffect, useRef, useState } from 'react';
@@ -1201,7 +1226,7 @@ export function ProgressivePhase({
 }
 ```
 
-- [ ] **Step 2: Add clue-list styles to `gameStyles.ts`**
+- [x] **Step 2: Add clue-list styles to `gameStyles.ts`**
 
 ```ts
 clueList: { width: '100%', gap: 8 },
@@ -1213,7 +1238,7 @@ clueIndex: { fontWeight: '800', color: Colors.accent, width: 18 },
 clueText: { flex: 1, color: Colors.textPrimary, fontSize: 15, lineHeight: 21 },
 ```
 
-- [ ] **Step 3: Typecheck. Step 4: Commit**
+- [x] **Step 3: Typecheck. Step 4: Commit**
 
 ```bash
 git add components/game/ProgressivePhase.tsx components/game/gameStyles.ts
@@ -1232,7 +1257,7 @@ git commit -m "feat(visual): ProgressivePhase play UI (clue ladder + buzz)"
 **Interfaces:**
 - Consumes: `RevealProps`; the `breakdown` from `progressiveLogic.score` — `{ answer, winner, mine, opponent }` where `mine`/`opponent` are `ProgressiveSubmission | null`.
 
-- [ ] **Step 1: Implement `ProgressiveReveal.tsx`**
+- [x] **Step 1: Implement `ProgressiveReveal.tsx`**
 
 ```tsx
 import { View, Text } from 'react-native';
@@ -1263,9 +1288,9 @@ export function ProgressiveReveal({ question, breakdown }: RevealProps) {
 }
 ```
 
-- [ ] **Step 2: Register in `lib/questionTypes/index.tsx`** — `progressive: { Play: ProgressivePhase, Reveal: ProgressiveReveal }`.
+- [x] **Step 2: Register in `lib/questionTypes/index.tsx`** — `progressive: { Play: ProgressivePhase, Reveal: ProgressiveReveal }`.
 
-- [ ] **Step 3: Add 2 progressive questions to `data/test-new-types.json`**
+- [x] **Step 3: Add 2 progressive questions to `data/test-new-types.json`**
 
 ```json
 { "question": "Which judge of Israel am I?", "type": "progressive",
@@ -1288,13 +1313,13 @@ export function ProgressiveReveal({ question, breakdown }: RevealProps) {
     "On the seventh day they circled seven times, shouted, and my walls fell." ] } }
 ```
 
-- [ ] **Step 4: Import, typecheck, unit suite** — `npx tsx scripts/import-questions.js data/test-new-types.json && npm run test && npx tsc --noEmit`.
+- [x] **Step 4: Import, typecheck, unit suite** — `npx tsx scripts/import-questions.js data/test-new-types.json && npm run test && npx tsc --noEmit`.
 
-- [ ] **Step 5: Manual playtest — web + Expo Go**
+- [x] **Step 5: Manual playtest — web + Expo Go**
 
 `node scripts/seed-new-types-room.js playtester`, join `NEWTYP`, start. On a progressive question: clues appear one at a time on the shared clock; buzz early → fewer clues, more points; pick correct → reveal shows the answer + how many clues you used. Buzz then pick wrong (solo) → resolves immediately, 0 points, no hang. Let the timer expire without buzzing → 0, advances.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add components/game/ProgressiveReveal.tsx lib/questionTypes/index.tsx
@@ -1325,7 +1350,7 @@ git commit -m "feat(questionTypes): wire progressive-clue type end to end"
 - `isRoundComplete(state)`: `state.timedOut`, OR every id in `playerIds` has a submission.
 - `validatePayload(raw)`: `categoryLeft`/`categoryRight` non-empty strings **and distinct**; `cards` an array of 4–8 `{ text: non-empty string, side: 'left'|'right' }`; at least one card on each side.
 
-- [ ] **Step 1: Write failing tests**
+- [x] **Step 1: Write failing tests**
 
 Create `lib/questionTypes/logic/swipe.test.ts`:
 ```ts
@@ -1396,9 +1421,9 @@ test('validatePayload accepts a clean payload', () => {
 });
 ```
 
-- [ ] **Step 2: Run, verify failure.**
+- [x] **Step 2: Run, verify failure.**
 
-- [ ] **Step 3: Add `SwipePayload` to `types.ts`**
+- [x] **Step 3: Add `SwipePayload` to `types.ts`**
 
 ```ts
 export interface SwipePayload {
@@ -1408,7 +1433,7 @@ export interface SwipePayload {
 }
 ```
 
-- [ ] **Step 4: Implement `swipe.ts`**
+- [x] **Step 4: Implement `swipe.ts`**
 
 ```ts
 import type { TypeLogic, SwipePayload, DescriptorScoreInput, DescriptorRoundState } from './types';
@@ -1476,7 +1501,7 @@ export const swipeLogic: TypeLogic<SwipePayload, SwipeSubmission> = {
 };
 ```
 
-- [ ] **Step 5: Register in `index.ts`. Step 6: Run pass. Step 7: Full suite + tsc. Step 8: Commit**
+- [x] **Step 5: Register in `index.ts`. Step 6: Run pass. Step 7: Full suite + tsc. Step 8: Commit**
 
 ```bash
 git add lib/questionTypes/logic/swipe.ts lib/questionTypes/logic/swipe.test.ts lib/questionTypes/logic/types.ts lib/questionTypes/logic/index.ts
@@ -1495,7 +1520,7 @@ git commit -m "feat(questionTypes): swipe-categorize descriptor logic (graded cr
 - Consumes: `SwipePayload` (D1), `PlayProps` (Plan 1), `seededShuffle` (`lib/gameLogic`).
 - Produces: `SwipePhase` — shuffles cards with `seededShuffle(cards, questionId)` (both players see the same order), shows the top card, `Gesture.Pan` to fling left/right past a threshold, plus explicit L/R buttons. Records `swipes[originalIndex] = side` (index into the **shuffled** array is fine as long as `score` uses the same array — but `score` uses `payload.cards` order, so the component must map back: store `swipes` keyed by the card's index in `payload.cards`). Submits `{ swipes }` once — when the last card is cleared or on unmount/timeout (guard with `hasSubmittedRef`). The host also scores on timeout via `isRoundComplete`, so a player who never finishes still gets partial credit for the cards they did swipe — **the component must submit whatever it has when `hasSubmitted` becomes true or the timer reaches 0**.
 
-- [ ] **Step 1: Implement `SwipePhase.tsx`**
+- [x] **Step 1: Implement `SwipePhase.tsx`**
 
 ```tsx
 import { useEffect, useRef, useState } from 'react';
@@ -1588,7 +1613,7 @@ export function SwipePhase({ question, questionId, timeLeft, hasSubmitted, onSub
 }
 ```
 
-- [ ] **Step 2: Add swipe styles to `gameStyles.ts`**
+- [x] **Step 2: Add swipe styles to `gameStyles.ts`**
 
 ```ts
 swipeCatsRow: { flexDirection: 'row', justifyContent: 'space-between', width: '100%' },
@@ -1607,7 +1632,7 @@ swipeBtn: {
 },
 ```
 
-- [ ] **Step 3: Typecheck. Step 4: Commit**
+- [x] **Step 3: Typecheck. Step 4: Commit**
 
 ```bash
 git add components/game/SwipePhase.tsx components/game/gameStyles.ts
@@ -1626,7 +1651,7 @@ git commit -m "feat(visual): SwipePhase card-stack play UI"
 **Interfaces:**
 - Consumes: `RevealProps`; `breakdown` from `swipeLogic.score` — `{ cards, mineSwipes, opponentSwipes }`.
 
-- [ ] **Step 1: Implement `SwipeReveal.tsx`**
+- [x] **Step 1: Implement `SwipeReveal.tsx`**
 
 ```tsx
 import { View, Text } from 'react-native';
@@ -1658,9 +1683,9 @@ export function SwipeReveal({ breakdown }: RevealProps) {
 }
 ```
 
-- [ ] **Step 2: Register** — `swipe: { Play: SwipePhase, Reveal: SwipeReveal }` in `lib/questionTypes/index.tsx`.
+- [x] **Step 2: Register** — `swipe: { Play: SwipePhase, Reveal: SwipeReveal }` in `lib/questionTypes/index.tsx`.
 
-- [ ] **Step 3: Add 2 swipe questions to `data/test-new-types.json`**
+- [x] **Step 3: Add 2 swipe questions to `data/test-new-types.json`**
 
 ```json
 { "question": "Old Testament or New Testament book?", "type": "swipe",
@@ -1679,13 +1704,13 @@ export function SwipeReveal({ breakdown }: RevealProps) {
     { "text": "Lazarus of Bethany", "side": "right" }, { "text": "Samuel", "side": "left" } ] } }
 ```
 
-- [ ] **Step 4: Import, typecheck, unit suite.**
+- [x] **Step 4: Import, typecheck, unit suite.**
 
-- [ ] **Step 5: Manual playtest — web + Expo Go**
+- [x] **Step 5: Manual playtest — web + Expo Go**
 
 Join `NEWTYP`, start. On a swipe question: the card stack shows one card at a time; swipe (mouse-drag on web) past the threshold flings it, L/R buttons also work; clearing all cards ends early; timer expiry submits what you have. Reveal lists every card with ✓/✗ and skips. Score is graded partial credit. Confirm touch-drag on Expo Go.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add components/game/SwipeReveal.tsx lib/questionTypes/index.tsx
@@ -1707,7 +1732,7 @@ git commit -m "feat(questionTypes): wire swipe-categorize type end to end"
   - `interface RoundHistoryEntry { questionIndex: number; points: Record<string, number>; correctAnswer: string | null }` (in `gameTypes.ts`)
   - `useGameRound` return gains `roundHistory: RoundHistoryEntry[]` — one entry per `round_scored` event, in order, reset on `game_start`.
 
-- [ ] **Step 1: Add the type to `lib/gameTypes.ts`**
+- [x] **Step 1: Add the type to `lib/gameTypes.ts`**
 
 ```ts
 export interface RoundHistoryEntry {
@@ -1717,7 +1742,7 @@ export interface RoundHistoryEntry {
 }
 ```
 
-- [ ] **Step 2: Accumulate it in `useGameRound.ts`**
+- [x] **Step 2: Accumulate it in `useGameRound.ts`**
 
 Add `const [roundHistory, setRoundHistory] = useState<RoundHistoryEntry[]>([]);` (import the type). In the `round_scored` case, after `setRoundScore(...)`:
 ```ts
@@ -1737,11 +1762,11 @@ payload: { points: pointsByPlayer, breakdown: result.breakdown, correctAnswer: q
 and pass `questionIndex` from the host effect in `[roomId].tsx`. Then in the hook read `event.payload.questionIndex`.
 In `game_start`'s `resetForNewQuestion` path (and on `game_start` specifically), `setRoundHistory([])`.
 
-- [ ] **Step 3: Expose it** — add `roundHistory` to the `GameRound` interface and the returned object.
+- [x] **Step 3: Expose it** — add `roundHistory` to the `GameRound` interface and the returned object.
 
-- [ ] **Step 4: Typecheck + unit suite** — `npm run test && npx tsc --noEmit`.
+- [x] **Step 4: Typecheck + unit suite** — `npm run test && npx tsc --noEmit`.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add app/game/useGameRound.ts app/game/scoreRound.ts app/game/[roomId].tsx lib/gameTypes.ts
@@ -1761,7 +1786,7 @@ git commit -m "feat(game): track per-round score history in useGameRound"
 - Consumes: `PlayerRow[]`, `myUserId`, `onLeave`, `roundHistory: RoundHistoryEntry[]`, `questionCount: number`.
 - Produces: a redesigned results screen — winner banner ("You win!" / "You lost" / "Tie!"), `<Mascot mood={won ? 'cheer' : 'sad'} />`, each player's final score as an animated bar (width ∝ score / maxScore), and a compact per-question strip showing which questions you scored on.
 
-- [ ] **Step 1: Rewrite `ResultsPhase.tsx`**
+- [x] **Step 1: Rewrite `ResultsPhase.tsx`**
 
 ```tsx
 import { useEffect } from 'react';
@@ -1833,7 +1858,7 @@ export function ResultsPhase({
 }
 ```
 
-- [ ] **Step 2: Add results styles**
+- [x] **Step 2: Add results styles**
 
 ```ts
 resultBarTrack: { height: 8, borderRadius: 4, backgroundColor: Colors.border, overflow: 'hidden' },
@@ -1842,7 +1867,7 @@ resultStrip: { flexDirection: 'row', gap: 4, flexWrap: 'wrap', justifyContent: '
 resultPip: { width: 14, height: 14, borderRadius: 4 },
 ```
 
-- [ ] **Step 3: Pass the new props from `[roomId].tsx`**
+- [x] **Step 3: Pass the new props from `[roomId].tsx`**
 
 ```tsx
 {phase === 'results' && (
@@ -1856,13 +1881,13 @@ resultPip: { width: 14, height: 14, borderRadius: 4 },
 )}
 ```
 
-- [ ] **Step 4: Typecheck + unit suite.**
+- [x] **Step 4: Typecheck + unit suite.**
 
-- [ ] **Step 5: Manual playtest — web + Expo Go**
+- [x] **Step 5: Manual playtest — web + Expo Go**
 
 Play any short game to the end. Results screen: mascot reacts to win/loss, score bars animate in, the pip strip shows which questions you scored on, "Back to Home" works.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add components/game/ResultsPhase.tsx components/game/gameStyles.ts app/game/[roomId].tsx
@@ -1877,7 +1902,7 @@ git commit -m "feat(visual): redesign ResultsPhase (winner banner, mascot, anima
 
 **Files:** none — verification only.
 
-- [ ] **Step 1: Fresh full suite + typecheck**
+- [x] **Step 1: Fresh full suite + typecheck**
 
 ```bash
 npm run test
@@ -1886,21 +1911,21 @@ npx expo-doctor
 ```
 Expected: all green; tsc baseline-only; doctor 21/21.
 
-- [ ] **Step 2: `check-schema.js`**
+- [x] **Step 2: `check-schema.js`**
 
 ```bash
 node scripts/check-schema.js
 ```
 Expected: `OK — no free_text rows`, `OK — type=swipe accepted`, no failures.
 
-- [ ] **Step 3: Import the test content, seed the room**
+- [x] **Step 3: Import the test content, seed the room**
 
 ```bash
 npx tsx scripts/import-questions.js data/test-new-types.json
 node scripts/seed-new-types-room.js playtester
 ```
 
-- [ ] **Step 4: Web playthrough — all six test questions**
+- [x] **Step 4: Web playthrough — all six test questions**
 
 `npx expo start --web`, join `NEWTYP`, `Start (Solo Dev Test)`, play through all 6:
 - estimation ×2: slider drag + track tap, lock in, number-line reveal, timeout path
@@ -1909,15 +1934,15 @@ node scripts/seed-new-types-room.js playtester
 - results screen at the end
 - zero console errors throughout
 
-- [ ] **Step 5: Expo Go playthrough**
+- [x] **Step 5: Expo Go playthrough**
 
 `npx expo start --offline`, repeat Step 4 on a phone. Specifically confirm the **slider** and the **card fling** respond to touch, and the SDK-version banner is absent.
 
-- [ ] **Step 6: Regression — Plan 1 types still play**
+- [x] **Step 6: Regression — Plan 1 types still play**
 
 In the same session, one MC race game + the `TESTTY` ordering/matching room (`node scripts/seed-test-room.js playtester`) — buzz/answer/reveal, arrows, tap-pair, scoring, results, all still working.
 
-- [ ] **Step 7: Commit the verification note**
+- [x] **Step 7: Commit the verification note**
 
 ```bash
 git commit --allow-empty -m "test(v3): full new-types + regression playthrough verified (web + Expo Go)"
