@@ -337,6 +337,26 @@ I?"). All 64 rows inserted, 0 skipped. DB progressive count now **82**
 from the originals — only the `question` header string changed. batch1's
 Jericho was renamed "Which walled city am I?" so it coexists with the
 test-file "Which city am I?" Jericho rather than being skipped as a dupe.
+**batch6 (2026-09-06) — written + IMPORTED** (20 est / 16 prog / 15 swipe,
+51 rows, 0 skipped). est: Jeremiah's field (17 shekels), Adoni-bezek's 70
+kings, 700 left-handed slingers, 42,000 at the Shibboleth fords, ark's 7
+months in Philistia + 20 years at Kiriath-jearim, Goliath's 40 days, 85
+priests of Nob, Og's 9-cubit bier, Ben-hadad's 32 kings, donkey's head for
+80 pieces of silver, Elisha's 42 youths, Jehoiachin's 37th-year release,
+Belshazzar's 1,000 nobles, Haman's 10,000 talents, 75,000 enemies struck
+down, Job's friends' 7 silent days, Nineveh's 120,000, Nehemiah's 150 at
+table, Paul's 14 days adrift. prog: Isaac, Aaron, Miriam, Jephthah, Boaz,
+Eli, Joab, Hazael, Jehoiada, Zerubbabel, Silas, Cornelius, Ehud; places
+Jerusalem, the Jordan, Mount Carmel. swipe: God-to-Moses vs Jesus-to-
+disciples, son-of-Jacob vs apostle, wife vs son of David, Gospel vs
+letter, Egypt-plague vs wilderness-provision, tabernacle-furniture vs
+priestly-garment, letter-to-person vs to-congregation, first-Passover vs
+Last-Supper, judge vs prophet, gave-sight vs raised-the-dead, Babylonian
+vs Persian king, Satan/demon vs angel speech, northern vs southern town,
+David's gear vs Goliath's gear, minor vs long prophetic book.
+**DB per-type (count:exact): estimation 121, progressive 98, swipe 94;
+grand total 1253.**
+
 **estimation + swipe batches 1-4 — IMPORTED 2026-09-06.** estimation
 79/80 inserted (skipped "How many pieces of silver did the chief priests
 pay Judas..." — already in the DB as a multiple_choice question). swipe

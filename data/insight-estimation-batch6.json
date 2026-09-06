@@ -1,0 +1,162 @@
+[
+  {
+    "question": "How many shekels of silver did Jeremiah pay for his cousin Hanamel's field at Anathoth?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Jeremiah 32:9 (cross-check: Insight on the Scriptures, Vol. 2, 'Jeremiah', p. 31)",
+    "payload": { "value": 17, "unit": "shekels", "min": 2, "max": 70 }
+  },
+  {
+    "question": "How many kings did Adoni-bezek say had picked up scraps under his table, their thumbs and big toes cut off?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Judges 1:7 (cross-check: Insight on the Scriptures, Vol. 1, 'Adoni-bezek')",
+    "payload": { "value": 70, "unit": "kings", "min": 5, "max": 260 }
+  },
+  {
+    "question": "How many left-handed Benjamite slingers could sling a stone at a hair and not miss?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Judges 20:16 (cross-check: Insight on the Scriptures, Vol. 1, 'Benjamin No. 1')",
+    "payload": { "value": 700, "unit": "slingers", "min": 50, "max": 3000 }
+  },
+  {
+    "question": "How many Ephraimites fell at the fords of the Jordan when they could not say 'Shibboleth'?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Judges 12:6 (cross-check: Insight on the Scriptures, Vol. 2, 'Shibboleth')",
+    "payload": { "value": 42000, "unit": "men", "min": 3000, "max": 250000, "log": true }
+  },
+  {
+    "question": "For how many months did the ark of the covenant stay in Philistine territory before it was sent back?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Samuel 6:1 (cross-check: Insight on the Scriptures, Vol. 1, 'Ark of the Covenant')",
+    "payload": { "value": 7, "unit": "months", "min": 1, "max": 30 }
+  },
+  {
+    "question": "For how many years did the ark of the covenant remain at Kiriath-jearim before David moved it?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Samuel 7:2 (cross-check: Insight on the Scriptures, Vol. 2, 'Kiriath-jearim')",
+    "payload": { "value": 20, "unit": "years", "min": 2, "max": 70 }
+  },
+  {
+    "question": "For how many days did Goliath come forward morning and evening to taunt the armies of Israel?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 17:16 (cross-check: Insight on the Scriptures, Vol. 1, 'Goliath')",
+    "payload": { "value": 40, "unit": "days", "min": 3, "max": 120 }
+  },
+  {
+    "question": "How many priests of Nob did Doeg the Edomite kill at King Saul's command?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 22:18 (cross-check: Insight on the Scriptures, Vol. 2, 'Nob')",
+    "payload": { "value": 85, "unit": "priests", "min": 8, "max": 320 }
+  },
+  {
+    "question": "How long was the iron bier of Og, king of Bashan, in cubits?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Deuteronomy 3:11 (cross-check: Insight on the Scriptures, Vol. 2, 'Og')",
+    "payload": { "value": 9, "unit": "cubits", "min": 2, "max": 30 }
+  },
+  {
+    "question": "How many allied kings came up with Ben-hadad of Syria to besiege Samaria?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 20:1 (cross-check: Insight on the Scriptures, Vol. 1, 'Ben-hadad')",
+    "payload": { "value": 32, "unit": "kings", "min": 3, "max": 130 }
+  },
+  {
+    "question": "During the famine in Elisha's day, how many pieces of silver did a donkey's head sell for in Samaria?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "2 Kings 6:25 (cross-check: Insight on the Scriptures, Vol. 1, 'Elisha')",
+    "payload": { "value": 80, "unit": "silver pieces", "min": 5, "max": 320 }
+  },
+  {
+    "question": "How many jeering youths were mauled by the two she-bears that came out after Elisha?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "2 Kings 2:24 (cross-check: Insight on the Scriptures, Vol. 1, 'Elisha')",
+    "payload": { "value": 42, "unit": "youths", "min": 4, "max": 150 }
+  },
+  {
+    "question": "In what year of his exile was King Jehoiachin released from a Babylonian prison to eat at the king's table?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "2 Kings 25:27 (cross-check: Insight on the Scriptures, Vol. 2, 'Jehoiachin')",
+    "payload": { "value": 37, "unit": "years", "min": 3, "max": 110 }
+  },
+  {
+    "question": "How many of his nobles did Belshazzar host at the feast on the night Babylon fell?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Daniel 5:1 (cross-check: Insight on the Scriptures, Vol. 1, 'Belshazzar')",
+    "payload": { "value": 1000, "unit": "nobles", "min": 50, "max": 5000 }
+  },
+  {
+    "question": "How many talents of silver did Haman offer to pay into the royal treasury to have the Jews destroyed?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Esther 3:9 (cross-check: Insight on the Scriptures, Vol. 1, 'Haman')",
+    "payload": { "value": 10000, "unit": "talents", "min": 500, "max": 60000, "log": true }
+  },
+  {
+    "question": "How many of their enemies did the Jews strike down throughout the provinces on the day of their deliverance?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Esther 9:16 (cross-check: Insight on the Scriptures, Vol. 1, 'Esther, Book Of')",
+    "payload": { "value": 75000, "unit": "people", "min": 5000, "max": 400000, "log": true }
+  },
+  {
+    "question": "For how many days did Job's three friends sit with him on the ground before anyone spoke a word?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Job 2:13 (cross-check: Insight on the Scriptures, Vol. 2, 'Job, Book Of', p. 81)",
+    "payload": { "value": 7, "unit": "days", "min": 1, "max": 30 }
+  },
+  {
+    "question": "How many people in Nineveh did God say 'do not know their right hand from their left'?",
+    "type": "estimation",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Jonah 4:11 (cross-check: Insight on the Scriptures, Vol. 2, 'Nineveh')",
+    "payload": { "value": 120000, "unit": "people", "min": 10000, "max": 900000, "log": true }
+  },
+  {
+    "question": "How many Jews and officials ate at Nehemiah's table each day at his own expense?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Nehemiah 5:17 (cross-check: Insight on the Scriptures, Vol. 2, 'Nehemiah', p. 486)",
+    "payload": { "value": 150, "unit": "people", "min": 15, "max": 600 }
+  },
+  {
+    "question": "For how many days was Paul's ship driven across the sea in the storm before it ran aground on Malta?",
+    "type": "estimation",
+    "category": "Apostles",
+    "difficulty": "hard",
+    "reference": "Acts 27:27, 33 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "value": 14, "unit": "days", "min": 2, "max": 50 }
+  }
+]

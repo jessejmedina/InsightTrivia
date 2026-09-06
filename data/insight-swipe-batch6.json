@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Was this said by God to Moses, or by Jesus to his disciples?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Exodus 3-4; Matthew 5; 10; 28 (cross-check: Insight on the Scriptures, Vol. 2, 'Moses', p. 434)",
+    "payload": { "categoryLeft": "God to Moses", "categoryRight": "Jesus to his disciples", "cards": [
+      { "text": "\"Take off your sandals, for the place where you are standing is holy ground.\"", "side": "left" },
+      { "text": "\"Let your light shine before men, so that they may see your fine works.\"", "side": "right" },
+      { "text": "\"I am the God of Abraham, the God of Isaac, and the God of Jacob.\"", "side": "left" },
+      { "text": "\"Go, then, and make disciples of people of all the nations.\"", "side": "right" },
+      { "text": "\"I will be with your mouth and teach you what to say.\"", "side": "left" },
+      { "text": "\"You received free, give free.\"", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this man one of the twelve sons of Jacob, or one of the twelve apostles?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 35:23-26; Matthew 10:2-4 (cross-check: Insight on the Scriptures, Vol. 2, 'Jacob')",
+    "payload": { "categoryLeft": "Son of Jacob", "categoryRight": "One of the twelve apostles", "cards": [
+      { "text": "Judah", "side": "left" },
+      { "text": "Bartholomew", "side": "right" },
+      { "text": "Naphtali", "side": "left" },
+      { "text": "Thaddaeus", "side": "right" },
+      { "text": "Issachar", "side": "left" },
+      { "text": "Simon the Zealot", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this person a wife of King David, or a son of King David?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "1 Samuel 25; 2 Samuel 3; 5; 13 (cross-check: Insight on the Scriptures, Vol. 1, 'David')",
+    "payload": { "categoryLeft": "Wife of David", "categoryRight": "Son of David", "cards": [
+      { "text": "Abigail", "side": "left" },
+      { "text": "Amnon", "side": "right" },
+      { "text": "Michal", "side": "left" },
+      { "text": "Absalom", "side": "right" },
+      { "text": "Bath-sheba", "side": "left" },
+      { "text": "Solomon", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this book of the Bible one of the four Gospels, or a letter?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "reference": "New Testament book order (cross-check: Insight on the Scriptures, Vol. 1, 'Bible')",
+    "payload": { "categoryLeft": "A Gospel", "categoryRight": "A letter", "cards": [
+      { "text": "Mark", "side": "left" },
+      { "text": "Galatians", "side": "right" },
+      { "text": "John", "side": "left" },
+      { "text": "Hebrews", "side": "right" },
+      { "text": "Luke", "side": "left" },
+      { "text": "Jude", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this one of the ten plagues on Egypt, or a miracle that provided for Israel in the wilderness?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Exodus 7-10; 16-17; Numbers 11; 21 (cross-check: Insight on the Scriptures, Vol. 2, 'Plague')",
+    "payload": { "categoryLeft": "A plague on Egypt", "categoryRight": "A provision in the wilderness", "cards": [
+      { "text": "Painful boils breaking out on people and animals", "side": "left" },
+      { "text": "Water gushing from a struck rock", "side": "right" },
+      { "text": "Swarms of locusts covering the land", "side": "left" },
+      { "text": "A copper serpent raised on a pole for the bitten to look at", "side": "right" },
+      { "text": "Three days of darkness that could be felt", "side": "left" },
+      { "text": "Quail blown in from the sea to cover the camp", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a piece of the tabernacle's furniture, or part of the high priest's garments?",
+    "type": "swipe",
+    "category": "Tabernacle",
+    "difficulty": "hard",
+    "reference": "Exodus 25-28 (cross-check: Insight on the Scriptures, Vol. 2, 'Tabernacle')",
+    "payload": { "categoryLeft": "Tabernacle furniture", "categoryRight": "Priestly garment", "cards": [
+      { "text": "The ark of the covenant", "side": "left" },
+      { "text": "The ephod", "side": "right" },
+      { "text": "The golden lampstand", "side": "left" },
+      { "text": "The breastpiece of judgment", "side": "right" },
+      { "text": "The altar of incense", "side": "left" },
+      { "text": "The turban with its gold plate", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this letter of Paul's addressed to a single person, or to a whole congregation?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "The letters of Paul (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "categoryLeft": "To an individual", "categoryRight": "To a congregation", "cards": [
+      { "text": "Philemon", "side": "left" },
+      { "text": "Romans", "side": "right" },
+      { "text": "Titus", "side": "left" },
+      { "text": "Philippians", "side": "right" },
+      { "text": "First Timothy", "side": "left" },
+      { "text": "First Corinthians", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this happen at the first Passover in Egypt, or at Jesus' final Passover, the Last Supper?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus 12; Matthew 26; John 13 (cross-check: Insight on the Scriptures, Vol. 2, 'Passover')",
+    "payload": { "categoryLeft": "The first Passover in Egypt", "categoryRight": "The Last Supper", "cards": [
+      { "text": "Blood was smeared on the doorposts and lintel", "side": "left" },
+      { "text": "The host washed the feet of those at the meal", "side": "right" },
+      { "text": "It was eaten in haste, with belts fastened and staffs in hand", "side": "left" },
+      { "text": "The bread was passed with the words, \"This means my body\"", "side": "right" },
+      { "text": "A destroyer passed through, striking the firstborn", "side": "left" },
+      { "text": "One of the diners went out into the night to betray his master", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this man a judge of Israel, or a prophet of Israel?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Judges; the Prophets (cross-check: Insight on the Scriptures, Vol. 1, 'Judge')",
+    "payload": { "categoryLeft": "A judge", "categoryRight": "A prophet", "cards": [
+      { "text": "Othniel", "side": "left" },
+      { "text": "Isaiah", "side": "right" },
+      { "text": "Ehud", "side": "left" },
+      { "text": "Jeremiah", "side": "right" },
+      { "text": "Jephthah", "side": "left" },
+      { "text": "Elisha", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In this miracle, was someone given sight, or raised from the dead?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Mark 5; 10; Luke 7; John 9; 11; Acts 9 (cross-check: Insight on the Scriptures, Vol. 2, 'Miracles')",
+    "payload": { "categoryLeft": "Given sight", "categoryRight": "Raised from the dead", "cards": [
+      { "text": "Blind Bartimaeus outside Jericho", "side": "left" },
+      { "text": "Lazarus of Bethany", "side": "right" },
+      { "text": "The man born blind, sent to wash in Siloam", "side": "left" },
+      { "text": "The daughter of Jairus", "side": "right" },
+      { "text": "Saul of Tarsus, after Ananias laid hands on him", "side": "left" },
+      { "text": "The only son of the widow of Nain", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this ruler a king of Babylon, or a king of Persia?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Daniel 1-6; Ezra 1; 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Cyrus'; Vol. 2, 'Nebuchadnezzar')",
+    "payload": { "categoryLeft": "King of Babylon", "categoryRight": "King of Persia", "cards": [
+      { "text": "Nebuchadnezzar", "side": "left" },
+      { "text": "Cyrus the Great", "side": "right" },
+      { "text": "Belshazzar", "side": "left" },
+      { "text": "Darius", "side": "right" },
+      { "text": "Evil-merodach", "side": "left" },
+      { "text": "Artaxerxes", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Were these words spoken by Satan or a demon, or by an angel of God?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Matthew 4; Mark 1; Luke 1-2; 24 (cross-check: Insight on the Scriptures, Vol. 1, 'Demon')",
+    "payload": { "categoryLeft": "Satan or a demon", "categoryRight": "An angel of God", "cards": [
+      { "text": "\"If you are a son of God, throw yourself down.\"", "side": "left" },
+      { "text": "\"Do not be afraid, Mary, for you have found favor with God.\"", "side": "right" },
+      { "text": "\"I know exactly who you are, the Holy One of God.\"", "side": "left" },
+      { "text": "\"I am declaring to you good news of a great joy.\"", "side": "right" },
+      { "text": "\"All this authority I will give you, for it has been handed over to me.\"", "side": "left" },
+      { "text": "\"He is not here, for he was raised up.\"", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this town lie in the northern kingdom of Israel, or the southern kingdom of Judah?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "1 & 2 Kings (cross-check: Insight on the Scriptures, Vol. 2, 'Samaria No. 2')",
+    "payload": { "categoryLeft": "Northern kingdom (Israel)", "categoryRight": "Southern kingdom (Judah)", "cards": [
+      { "text": "Samaria", "side": "left" },
+      { "text": "Hebron", "side": "right" },
+      { "text": "Bethel", "side": "left" },
+      { "text": "Bethlehem", "side": "right" },
+      { "text": "Jezreel", "side": "left" },
+      { "text": "Lachish", "side": "right" }
+    ] }
+  },
+  {
+    "question": "In the fight in the Valley of Elah, was this David's gear, or Goliath's?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "1 Samuel 17 (cross-check: Insight on the Scriptures, Vol. 1, 'Goliath')",
+    "payload": { "categoryLeft": "David's gear", "categoryRight": "Goliath's gear", "cards": [
+      { "text": "A sling", "side": "left" },
+      { "text": "A copper javelin slung between the shoulders", "side": "right" },
+      { "text": "Five smooth stones from the streambed", "side": "left" },
+      { "text": "A coat of scale mail weighing thousands of shekels", "side": "right" },
+      { "text": "A shepherd's staff", "side": "left" },
+      { "text": "A helmet of copper and greaves on the legs", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Is this one of the twelve shorter prophetic books, or one of the long prophetic books?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Order of the prophetic books (cross-check: Insight on the Scriptures, Vol. 2, 'Prophet')",
+    "payload": { "categoryLeft": "A long prophetic book", "categoryRight": "One of the twelve shorter books", "cards": [
+      { "text": "Obadiah", "side": "right" },
+      { "text": "Isaiah", "side": "left" },
+      { "text": "Haggai", "side": "right" },
+      { "text": "Jeremiah", "side": "left" },
+      { "text": "Malachi", "side": "right" },
+      { "text": "Ezekiel", "side": "left" }
+    ] }
+  }
+]

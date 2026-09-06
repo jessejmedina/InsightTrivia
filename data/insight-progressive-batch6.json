@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which promised son am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Isaac",
+    "options": ["Isaac", "Ishmael", "Jacob", "Esau"],
+    "reference": "Genesis 21-27 (cross-check: Insight on the Scriptures, Vol. 1, 'Isaac')",
+    "payload": { "clues": [
+      "I was born when my father was 100 and my mother about 90.",
+      "As a boy I carried the wood up a mountain where I was nearly offered as a sacrifice.",
+      "My father's servant chose a wife for me, Rebekah, and met her at a well.",
+      "In my old age I was tricked into blessing my younger son instead of the elder."
+    ] }
+  },
+  {
+    "question": "Which first high priest am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Aaron",
+    "options": ["Aaron", "Moses", "Eleazar", "Levi"],
+    "reference": "Exodus 4-7; 32; Numbers 17; 20 (cross-check: Insight on the Scriptures, Vol. 1, 'Aaron')",
+    "payload": { "clues": [
+      "I was my brother's spokesman before Pharaoh.",
+      "My staff became a serpent, and later it alone budded and produced almonds.",
+      "While my brother was on the mountain, I made a golden calf for the people.",
+      "I was not allowed into the Promised Land, and I died on Mount Hor."
+    ] }
+  },
+  {
+    "question": "Which sister of a leader am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Miriam",
+    "options": ["Miriam", "Deborah", "Zipporah", "Jochebed"],
+    "reference": "Exodus 2; 15; Numbers 12; 20 (cross-check: Insight on the Scriptures, Vol. 2, 'Miriam No. 1')",
+    "payload": { "clues": [
+      "I watched my baby brother float among the reeds and arranged for our own mother to nurse him.",
+      "After the crossing of the sea, I led the women with tambourines and dancing.",
+      "I spoke against my brother's wife and was struck with leprosy for seven days.",
+      "I died at Kadesh, and there was no water for the people there."
+    ] }
+  },
+  {
+    "question": "Which vow-making judge am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Jephthah",
+    "options": ["Jephthah", "Samson", "Gideon", "Barak"],
+    "reference": "Judges 11 (cross-check: Insight on the Scriptures, Vol. 2, 'Jephthah')",
+    "payload": { "clues": [
+      "As the son of a prostitute, I was driven out by my half-brothers.",
+      "When the Ammonites threatened war, the elders begged me to come back and lead.",
+      "I vowed to offer up whatever came out of my house to meet me if I returned in victory.",
+      "My only child, a daughter, came out to greet me with tambourines."
+    ] }
+  },
+  {
+    "question": "Which kinsman-redeemer am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Boaz",
+    "options": ["Boaz", "Obed", "Jesse", "Elimelech"],
+    "reference": "Ruth 2-4 (cross-check: Insight on the Scriptures, Vol. 1, 'Boaz')",
+    "payload": { "clues": [
+      "I was a well-to-do landowner in Bethlehem during the days of the judges.",
+      "I told my harvesters to leave extra grain for a young widow gleaning in my field.",
+      "I settled the question of redemption at the city gate, sealed by the handing over of a sandal.",
+      "I married Ruth, and we became the great-grandparents of King David."
+    ] }
+  },
+  {
+    "question": "Which high priest of Shiloh am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Eli",
+    "options": ["Eli", "Samuel", "Aaron", "Phinehas"],
+    "reference": "1 Samuel 1-4 (cross-check: Insight on the Scriptures, Vol. 1, 'Eli')",
+    "payload": { "clues": [
+      "I mistook a silently praying woman at the sanctuary for a drunk.",
+      "I raised the boy she gave to God's service, and taught him to answer God's call.",
+      "My two greedy sons died on the same day, just as a man of God had foretold.",
+      "When I heard the ark of God had been captured, I fell backward off my seat and died."
+    ] }
+  },
+  {
+    "question": "Which army commander am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Joab",
+    "options": ["Joab", "Abner", "Benaiah", "Amasa"],
+    "reference": "2 Samuel 3; 18; 1 Kings 2 (cross-check: Insight on the Scriptures, Vol. 2, 'Joab No. 1')",
+    "payload": { "clues": [
+      "I was David's nephew and the chief of his army for most of his reign.",
+      "I killed Abner in revenge for the death of my brother Asahel.",
+      "Against the king's orders, I thrust three shafts into Absalom as he hung in the oak.",
+      "Solomon had me put to death at the altar for the blood I had shed."
+    ] }
+  },
+  {
+    "question": "Which foreign king am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Hazael",
+    "options": ["Hazael", "Ben-hadad", "Rezin", "Tiglath-pileser"],
+    "reference": "2 Kings 8; 10; 13 (cross-check: Insight on the Scriptures, Vol. 1, 'Hazael')",
+    "payload": { "clues": [
+      "The prophet Elisha wept as he looked at me, foreseeing the harm I would do to Israel.",
+      "My master sent me to ask that prophet whether he would recover from his sickness.",
+      "The next day I smothered him with a wet cloth and took the throne of Syria.",
+      "I oppressed Israel harshly through the days of Jehu and his son."
+    ] }
+  },
+  {
+    "question": "Which priest am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Jehoiada",
+    "options": ["Jehoiada", "Zechariah", "Azariah", "Hilkiah"],
+    "reference": "2 Kings 11; 2 Chronicles 24 (cross-check: Insight on the Scriptures, Vol. 2, 'Jehoiada No. 3')",
+    "payload": { "clues": [
+      "I hid an infant prince from a murderous queen for six years inside the temple.",
+      "In the seventh year I brought the boy out, crowned him, and had the queen executed.",
+      "I led the people to renew their covenant and to tear down the house of Baal.",
+      "I lived 130 years and was buried among the kings for the good I had done."
+    ] }
+  },
+  {
+    "question": "Which governor of Judah am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Zerubbabel",
+    "options": ["Zerubbabel", "Sheshbazzar", "Nehemiah", "Ezra"],
+    "reference": "Ezra 3-6; Haggai 1-2 (cross-check: Insight on the Scriptures, Vol. 2, 'Zerubbabel')",
+    "payload": { "clues": [
+      "I led the first group of exiles back from Babylon to Jerusalem.",
+      "We rebuilt the altar and laid the temple's foundation, and the old men wept aloud.",
+      "Opposition halted the work until the prophets Haggai and Zechariah stirred us to start again.",
+      "The temple was completed in the sixth year of Darius."
+    ] }
+  },
+  {
+    "question": "Which missionary am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Silas",
+    "options": ["Silas", "Barnabas", "Titus", "Mark"],
+    "reference": "Acts 15-16; 1 Thessalonians 1:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Silas')",
+    "payload": { "clues": [
+      "I was a leading man in the Jerusalem congregation, sent to carry its letter to Antioch.",
+      "Paul chose me as his traveling companion after he and Barnabas parted ways.",
+      "At midnight, after an earthquake shook our prison, a jailer and his whole household were baptized.",
+      "I was a co-sender of both letters to the Thessalonians."
+    ] }
+  },
+  {
+    "question": "Which God-fearing officer am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Cornelius",
+    "options": ["Cornelius", "the Ethiopian eunuch", "Sergius Paulus", "Julius"],
+    "reference": "Acts 10 (cross-check: Insight on the Scriptures, Vol. 1, 'Cornelius')",
+    "payload": { "clues": [
+      "I was an army officer of the Italian band, stationed at Caesarea.",
+      "An angel told me that my prayers and my gifts of mercy had come up as a remembrance before God.",
+      "I sent men to fetch Peter, who came even though I was a Gentile.",
+      "The holy spirit fell on my whole household while Peter was still speaking."
+    ] }
+  },
+  {
+    "question": "Which capital city am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "easy",
+    "answer": "Jerusalem",
+    "options": ["Jerusalem", "Samaria", "Hebron", "Shechem"],
+    "reference": "2 Samuel 5; 2 Kings 25; Luke 19 (cross-check: Insight on the Scriptures, Vol. 2, 'Jerusalem', p. 40)",
+    "payload": { "clues": [
+      "David captured me from the Jebusites and made me his royal city.",
+      "Solomon built the first temple on my Mount Moriah.",
+      "Nebuchadnezzar burned me and my temple to the ground.",
+      "Jesus wept over me and foretold that not one stone would be left upon another."
+    ] }
+  },
+  {
+    "question": "Which river am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Jordan",
+    "options": ["Jordan", "Euphrates", "Nile", "Kishon"],
+    "reference": "Joshua 3; 2 Kings 2; 5; Matthew 3 (cross-check: Insight on the Scriptures, Vol. 2, 'Jordan')",
+    "payload": { "clues": [
+      "My waters were cut off upstream so a nation could cross into the Promised Land on dry ground.",
+      "A Syrian commander dipped in me seven times and his leprosy was gone.",
+      "Two prophets in turn struck me with a rolled-up cloak and crossed on dry land.",
+      "John immersed crowds in me, including Jesus."
+    ] }
+  },
+  {
+    "question": "Which headland am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Mount Carmel",
+    "options": ["Mount Carmel", "Mount Tabor", "Mount Gilboa", "Mount Hermon"],
+    "reference": "1 Kings 18 (cross-check: Insight on the Scriptures, Vol. 1, 'Carmel No. 1')",
+    "payload": { "clues": [
+      "A lone prophet challenged 450 prophets of Baal on my slopes.",
+      "Fire fell from the heavens and consumed a sacrifice that had been drenched with water.",
+      "From my base the prophet then outran a chariot all the way to Jezreel.",
+      "A servant watching the sea from me spotted a small cloud that ended a long drought."
+    ] }
+  },
+  {
+    "question": "Which cunning judge am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Ehud",
+    "options": ["Ehud", "Samson", "Shamgar", "Gideon"],
+    "reference": "Judges 3:15-30 (cross-check: Insight on the Scriptures, Vol. 1, 'Ehud No. 1')",
+    "payload": { "clues": [
+      "I was sent to carry tribute to Eglon, the very fat king of Moab.",
+      "I had a short two-edged sword strapped under my clothing on my right thigh.",
+      "Telling the king I had a secret word from God, I drove the blade into him in his private chamber.",
+      "I slipped away, blew the horn in the hills, and led Israel to seize the fords against Moab."
+    ] }
+  }
+]
