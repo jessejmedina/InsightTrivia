@@ -5,6 +5,7 @@ import { matchingLogic } from './matching';
 import { estimationLogic } from './estimation';
 import { progressiveLogic } from './progressive';
 import { swipeLogic } from './swipe';
+import { tapTargetLogic } from './taptarget';
 
 export * from './types';
 export { buildRoundState, needsOpponentShot, orderScorePlayers } from './roundState';
@@ -20,6 +21,8 @@ export { progressiveLogic, ladderPoints, CLUE_LADDER } from './progressive';
 export type { ProgressiveSubmission } from './progressive';
 export { swipeLogic } from './swipe';
 export type { SwipeSubmission } from './swipe';
+export { tapTargetLogic, tapDistance } from './taptarget';
+export type { TapTargetSubmission } from './taptarget';
 
 export const TYPE_LOGICS: Record<string, TypeLogic<any, any>> = {
   multiple_choice: multipleChoiceLogic,
@@ -28,6 +31,7 @@ export const TYPE_LOGICS: Record<string, TypeLogic<any, any>> = {
   estimation: estimationLogic,
   progressive: progressiveLogic,
   swipe: swipeLogic,
+  taptarget: tapTargetLogic,
 };
 
 /** Returns the logic for `type`, or the multiple_choice logic for any

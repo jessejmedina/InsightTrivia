@@ -34,6 +34,16 @@ export interface SwipePayload {
   cards: { text: string; side: 'left' | 'right' }[];
 }
 
+export interface TapTargetPayload {
+  /** Which map image to render (a key the MapView component knows, e.g. 'near-east'). */
+  map: string;
+  /** Correct spot in normalized map coordinates: x from the left edge, y from
+   *  the top edge, each in [0, 1]. */
+  target: { x: number; y: number };
+  /** Human-readable place name, shown in the reveal. */
+  label: string;
+}
+
 export interface DescriptorScoreInput<TPayload = unknown, TSubmission = unknown> {
   question: { payload: TPayload | null; options: string[] | null; answer: string | null };
   /** buzz: the answerer's submission. concurrent: this player's submission. */
