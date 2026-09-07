@@ -31,6 +31,15 @@ loadEnv();
 
 const SUPABASE_URL = process.env.EXPO_PUBLIC_SUPABASE_URL;
 const SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+// Which fields this run may patch. Default: only `options` + `answer` — the
+// MC-hardening pass changes distractors, not citations. Pass e.g.
+// --fields=options,reference,difficulty to widen it. Local `data/*.json`
+// reference/difficulty values have drifted behind the DB, so keep those out
+// unless you have specifically re-verified them.
+const FIELDS = new Set(
+  (process.argv.find((a) => a.startsWith('--fields=')) || '--fields=options,answer')
+    .split('=')[1].split(',').map((s) => s.trim()).filter(Boolean)
+);
 const norm = (s) => String(s).trim().toLowerCase();
 const arrEq = (a, b) => Array.isArray(a) && Array.isArray(b) && a.length === b.length && a.every((x, i) => x === b[i]);
 
@@ -80,10 +89,10 @@ async function main() {
     const sameOptionSet = Array.isArray(dbRow.options) && Array.isArray(row.options)
       && dbRow.options.length === row.options.length
       && new Set(dbRow.options.map(norm)).size === new Set([...dbRow.options, ...row.options].map(norm)).size;
-    if (!sameOptionSet && row.options) patch.options = row.options;
-    if ((dbRow.answer || null) !== (row.answer || null)) patch.answer = row.answer;
-    if ((dbRow.reference || null) !== (row.reference || null)) patch.reference = row.reference;
-    if ((dbRow.difficulty || null) !== (row.difficulty || null)) patch.difficulty = row.difficulty;
+    if (FIELDS.has('options') && !sameOptionSet && row.options) patch.options = row.options;
+    if (FIELDS.has('answer') && (dbRow.answer || null) !== (row.answer || null)) patch.answer = row.answer;
+    if (FIELDS.has('reference') && (dbRow.reference || null) !== (row.reference || null)) patch.reference = row.reference;
+    if (FIELDS.has('difficulty') && (dbRow.difficulty || null) !== (row.difficulty || null)) patch.difficulty = row.difficulty;
 
     if (Object.keys(patch).length === 0) { unchanged++; continue; }
     changed++;
