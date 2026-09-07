@@ -5,6 +5,14 @@ redo work. The import script dedupes on exact question text, but it can't
 tell you "Zechariah is already covered, try a different angle" — that's
 what this file is for.
 
+**Fact-checking (2026-09-06):** `data/it2_full.txt` (raw Vol. 2 OCR) is a
+two-column interleaved dump — phrase grep fails on it. Run
+`node scripts/deinterleave-insight.js` to regenerate `data/it2_clean.txt`,
+a single-column pass over the same text that IS phrase-grep-able (used to
+verify the MC bank and the new-type "cross-check: Insight" citations).
+Both `it2_*.txt` files are gitignored / local-only. Vol. 1 has no text
+dump (PDF only) — those questions need jw.org / wol.jw.org lookups.
+
 ## Volume 2 — PDF-verified (real page citations), DONE
 
 | Headword | Page | # Questions | Notes |
