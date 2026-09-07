@@ -74,7 +74,7 @@
   {
     "question": "What name was Jesus' apostle Peter first given at birth, before being called Cephas or Peter?",
     "answer": "Symeon (Simon)",
-    "options": ["Cephas", "Symeon (Simon)", "Bartholomew", "Nathanael"],
+    "options": ["Andrew", "Symeon (Simon)", "Bartholomew", "Nathanael"],
     "category": "People",
     "difficulty": "medium",
     "reference": "Insight on the Scriptures, Vol. 2, 'Peter', p. 618"
@@ -82,7 +82,7 @@
   {
     "question": "In what fishing town was Peter first said to reside before later living in Capernaum?",
     "answer": "Bethsaida",
-    "options": ["Capernaum", "Chorazin", "Bethsaida", "Magdala"],
+    "options": ["Tiberias", "Chorazin", "Bethsaida", "Magdala"],
     "category": "Places",
     "difficulty": "hard",
     "reference": "Insight on the Scriptures, Vol. 2, 'Peter', p. 618"
