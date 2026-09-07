@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which book of the departure am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "answer": "Exodus",
+    "options": ["Exodus", "Genesis", "Numbers", "Leviticus"],
+    "reference": "Exodus 1-40 (cross-check: Insight on the Scriptures, Vol. 1, 'Exodus, Book Of')",
+    "payload": { "clues": [
+      "I open with Israel enslaved in Egypt and a baby drawn out of the Nile.",
+      "I tell of ten plagues, a Passover lamb, and a sea that parted.",
+      "At a mountain, a nation received a law written on stone.",
+      "I close with a portable tent of worship filled with God's glory."
+    ] }
+  },
+  {
+    "question": "Which book of visions and a lions' den am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "answer": "Daniel",
+    "options": ["Daniel", "Ezekiel", "Revelation", "Esther"],
+    "reference": "Daniel 1-12 (cross-check: Insight on the Scriptures, Vol. 1, 'Daniel, Book Of')",
+    "payload": { "clues": [
+      "I follow a young captive who refused the king's rich food.",
+      "He interpreted dreams of a great metal image and a hand writing on a wall.",
+      "He was thrown to lions for praying, and came out unharmed.",
+      "My later chapters unfold prophecies of one world power after another."
+    ] }
+  },
+  {
+    "question": "Which book of wise sayings am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "answer": "Proverbs",
+    "options": ["Proverbs", "Ecclesiastes", "Psalms", "Job"],
+    "reference": "Proverbs 1-31 (cross-check: Insight on the Scriptures, Vol. 2, 'Proverbs, Book Of')",
+    "payload": { "clues": [
+      "I am largely a collection of short, pointed sayings for everyday living.",
+      "I picture wisdom as a woman calling out in the streets.",
+      "Much of me is credited to Solomon.",
+      "I close with a poem praising a capable wife."
+    ] }
+  },
+  {
+    "question": "Which Gospel that opens with a genealogy am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "answer": "Matthew",
+    "options": ["Matthew", "Mark", "Luke", "John"],
+    "reference": "Matthew 1-28 (cross-check: Insight on the Scriptures, Vol. 2, 'Matthew, Good News According to')",
+    "payload": { "clues": [
+      "I begin by tracing Jesus' line from Abraham through David, in three sets of fourteen.",
+      "I record the visit of the astrologers and the flight to Egypt.",
+      "I gather Jesus' teaching into five long blocks, starting with the Sermon on the Mount.",
+      "I quote the Hebrew prophets again and again to show they were fulfilled."
+    ] }
+  },
+  {
+    "question": "Which letter comparing Christ to the old system am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "answer": "Hebrews",
+    "options": ["Hebrews", "Romans", "Galatians", "James"],
+    "reference": "Hebrews 1-13 (cross-check: Insight on the Scriptures, Vol. 1, 'Hebrews, Letter to the')",
+    "payload": { "clues": [
+      "I argue that the Son is greater than the angels, than Moses, and than the high priest Aaron.",
+      "I explain the tabernacle and the Day of Atonement as shadows of better things.",
+      "My eleventh chapter is a long roll call of people who acted in faith.",
+      "I urge readers not to shrink back, but to run the race with endurance."
+    ] }
+  },
+  {
+    "question": "Which sign in the sky am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "answer": "the rainbow",
+    "options": ["the rainbow", "the pillar of fire", "the star of Bethlehem", "the darkness at noon"],
+    "reference": "Genesis 9:12-17; Ezekiel 1:28; Revelation 4:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Rainbow')",
+    "payload": { "clues": [
+      "God set me in the clouds after the floodwaters had gone down.",
+      "I am the token of a covenant with Noah and every living creature.",
+      "My meaning is that never again will a flood destroy all flesh.",
+      "Ezekiel and John both saw me encircling God's throne."
+    ] }
+  },
+  {
+    "question": "Which covenant sign am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "answer": "circumcision",
+    "options": ["circumcision", "the sabbath", "the rainbow", "baptism"],
+    "reference": "Genesis 17; Exodus 4:24-26; Acts 15 (cross-check: Insight on the Scriptures, Vol. 1, 'Circumcision')",
+    "payload": { "clues": [
+      "God commanded me for Abraham and every male in his household, on the eighth day.",
+      "I was the physical mark of the covenant God made with him.",
+      "Moses nearly died on the road for neglecting me for his son.",
+      "Paul argued at length that I was not required of non-Jewish Christians."
+    ] }
+  },
+  {
+    "question": "Which sacrifice am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "answer": "the Passover lamb",
+    "options": ["the Passover lamb", "the scapegoat", "the red heifer", "the ram at Moriah"],
+    "reference": "Exodus 12; John 19:36; 1 Corinthians 5:7 (cross-check: Insight on the Scriptures, Vol. 2, 'Passover')",
+    "payload": { "clues": [
+      "I had to be a year-old male without defect, chosen on the tenth day and killed on the fourteenth.",
+      "My blood was brushed on the doorframes so the destroyer would pass over.",
+      "Not one of my bones was to be broken.",
+      "Paul called Christ our version of me."
+    ] }
+  },
+  {
+    "question": "Which little vessel am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "medium",
+    "answer": "Moses' basket",
+    "options": ["Moses' basket", "Noah's ark", "the ark of the covenant", "a fishing boat"],
+    "reference": "Exodus 2:1-10 (cross-check: Insight on the Scriptures, Vol. 2, 'Moses', p. 434)",
+    "payload": { "clues": [
+      "A mother wove me from papyrus and waterproofed me with tar and pitch.",
+      "She placed her three-month-old son in me and set me among the reeds of the Nile.",
+      "A princess came down to bathe, saw me, and had me brought to her.",
+      "The baby's own sister was watching, and arranged for his mother to nurse him."
+    ] }
+  },
+  {
+    "question": "Which pair of priests am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Nadab and Abihu",
+    "options": ["Nadab and Abihu", "Hophni and Phinehas", "James and John", "Ananias and Sapphira"],
+    "reference": "Leviticus 10:1-7 (cross-check: Insight on the Scriptures, Vol. 2, 'Nadab No. 1')",
+    "payload": { "clues": [
+      "We were the two oldest sons of the first high priest.",
+      "On the day the tabernacle service began, we offered fire that God had not commanded.",
+      "Fire came out from before God and consumed us.",
+      "Our father was told not to mourn us publicly."
+    ] }
+  },
+  {
+    "question": "Which rebel against Moses am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Korah",
+    "options": ["Korah", "Dathan", "Abiram", "On"],
+    "reference": "Numbers 16 (cross-check: Insight on the Scriptures, Vol. 2, 'Korah No. 3')",
+    "payload": { "clues": [
+      "I was a Levite, a cousin of Moses and Aaron.",
+      "I gathered 250 chiefs and told Moses the whole assembly was holy.",
+      "Moses said God would show whom he had chosen.",
+      "The ground opened and swallowed me and my household, and fire consumed the 250."
+    ] }
+  },
+  {
+    "question": "Which brother-killing king am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Abimelech",
+    "options": ["Abimelech", "Absalom", "Adonijah", "Jehu"],
+    "reference": "Judges 9 (cross-check: Insight on the Scriptures, Vol. 1, 'Abimelech No. 4')",
+    "payload": { "clues": [
+      "My father was the judge Gideon, and my mother was a servant woman from Shechem.",
+      "I hired reckless men and murdered seventy of my brothers on a single stone.",
+      "Only the youngest, Jotham, escaped, and he shouted a parable of the trees from a mountaintop.",
+      "I died when a woman dropped a millstone on my head, and I had my armor-bearer finish me off."
+    ] }
+  },
+  {
+    "question": "Which idol-maker of Ephraim am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Micah",
+    "options": ["Micah", "Gideon", "Jeroboam", "Aaron"],
+    "reference": "Judges 17-18 (cross-check: Insight on the Scriptures, Vol. 2, 'Micah No. 3')",
+    "payload": { "clues": [
+      "I confessed to my mother that I had taken 1,100 pieces of silver from her.",
+      "She had part of it made into a carved image, which I set up in my house.",
+      "I hired a wandering Levite to be my personal priest.",
+      "Men of the tribe of Dan passed through, took my idols and my priest, and left me with nothing."
+    ] }
+  },
+  {
+    "question": "Which rival wife am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Peninnah",
+    "options": ["Peninnah", "Hannah", "Leah", "Zeresh"],
+    "reference": "1 Samuel 1 (cross-check: Insight on the Scriptures, Vol. 2, 'Peninnah')",
+    "payload": { "clues": [
+      "I shared a husband with a woman named Hannah.",
+      "I had children, and she had none.",
+      "Year after year I taunted and provoked her over it until she wept and could not eat.",
+      "In the end her prayer was answered, and her son became a great prophet."
+    ] }
+  },
+  {
+    "question": "Which spared enemy king am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Agag",
+    "options": ["Agag", "Og", "Sihon", "Adoni-bezek"],
+    "reference": "1 Samuel 15 (cross-check: Insight on the Scriptures, Vol. 1, 'Agag')",
+    "payload": { "clues": [
+      "I was king of the Amalekites.",
+      "King Saul defeated my people but kept me and the best of the livestock alive, against God's command.",
+      "That disobedience cost Saul the kingdom.",
+      "The prophet Samuel called for me and cut me to pieces before Jehovah at Gilgal."
+    ] }
+  },
+  {
+    "question": "Which town of Saul am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Gibeah",
+    "options": ["Gibeah", "Ramah", "Bethlehem", "Nob"],
+    "reference": "Judges 19-20; 1 Samuel 10-11; Hosea 9:9 (cross-check: Insight on the Scriptures, Vol. 1, 'Gibeah No. 3')",
+    "payload": { "clues": [
+      "I was the hometown of Israel's first king, and he ruled from me.",
+      "A horrifying crime against a Levite's concubine here set off a civil war that nearly destroyed the tribe of Benjamin.",
+      "Prophets held me up as a byword for Israel's corruption.",
+      "I sat in the territory of Benjamin, just north of Jerusalem."
+    ] }
+  }
+]

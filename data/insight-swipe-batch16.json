@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Is this event told in the first part of Genesis (creation to Babel), or the part about the patriarchs (Abraham onward)?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Genesis 1-50 (cross-check: Insight on the Scriptures, Vol. 1, 'Genesis, Book Of')",
+    "payload": { "categoryLeft": "Creation to Babel", "categoryRight": "The patriarchs (Abraham onward)", "cards": [
+      { "text": "The garden of Eden", "side": "left" },
+      { "text": "The binding of Isaac on the mountain", "side": "right" },
+      { "text": "Cain killing Abel", "side": "left" },
+      { "text": "Joseph interpreting Pharaoh's dreams", "side": "right" },
+      { "text": "The tower of Babel", "side": "left" },
+      { "text": "Jacob's dream of a stairway to heaven", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this a son of David who tried to seize the throne, or one who did not?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "2 Samuel 13-18; 1 Kings 1-2 (cross-check: Insight on the Scriptures, Vol. 1, 'David')",
+    "payload": { "categoryLeft": "Did not try to seize the throne", "categoryRight": "Tried to seize the throne", "cards": [
+      { "text": "Absalom", "side": "right" },
+      { "text": "Solomon", "side": "left" },
+      { "text": "Adonijah", "side": "right" },
+      { "text": "Amnon", "side": "left" },
+      { "text": "Nathan, the son of David", "side": "left" },
+      { "text": "Chileab", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this belong to the ministry of John the Baptist, or to the childhood of Jesus?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 2-3; Mark 6; Luke 2-3; John 1 (cross-check: Insight on the Scriptures, Vol. 2, 'John No. 1')",
+    "payload": { "categoryLeft": "Jesus' childhood", "categoryRight": "John the Baptist's ministry", "cards": [
+      { "text": "The visit of the astrologers from the east", "side": "left" },
+      { "text": "Baptizing crowds in the Jordan", "side": "right" },
+      { "text": "The flight to Egypt to escape Herod", "side": "left" },
+      { "text": "Pointing to Jesus and saying, \"Look! The Lamb of God\"", "side": "right" },
+      { "text": "The boy Jesus among the teachers in the temple", "side": "left" },
+      { "text": "Rebuking Herod for taking his brother's wife", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this wonder in the sky, or on the earth?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "medium",
+    "reference": "Exodus 14; Numbers 16; Joshua 10; 1 Kings 18; 2 Kings 20; Matthew 2 (cross-check: Insight on the Scriptures, Vol. 2, 'Miracles')",
+    "payload": { "categoryLeft": "On the earth", "categoryRight": "In the sky", "cards": [
+      { "text": "The sun standing still over Gibeon", "side": "right" },
+      { "text": "The ground opening to swallow Korah", "side": "left" },
+      { "text": "The shadow going back ten steps for Hezekiah", "side": "right" },
+      { "text": "Fire falling on the altar at Mount Carmel", "side": "left" },
+      { "text": "The star that led the astrologers to Bethlehem", "side": "right" },
+      { "text": "The waters of the Red Sea standing up like walls", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this person healed of a long illness by Jesus, or freed from demons?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Mark 5; 9; Luke 8; 13; John 9 (cross-check: Insight on the Scriptures, Vol. 1, 'Disease and Treatment')",
+    "payload": { "categoryLeft": "Freed from demons", "categoryRight": "Healed of an illness", "cards": [
+      { "text": "The woman with a flow of blood for twelve years", "side": "right" },
+      { "text": "The man among the tombs who called himself Legion", "side": "left" },
+      { "text": "The man who had been blind from birth", "side": "right" },
+      { "text": "The boy who foamed at the mouth and fell into fire and water", "side": "left" },
+      { "text": "The woman bent double for eighteen years", "side": "right" },
+      { "text": "Mary called Magdalene", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this happen to the prophet Elijah, or to the prophet Jonah?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "1 Kings 17-19; Jonah 1-4 (cross-check: Insight on the Scriptures, Vol. 2, 'Jonah', p. 98)",
+    "payload": { "categoryLeft": "To Jonah", "categoryRight": "To Elijah", "cards": [
+      { "text": "Being fed bread and meat by ravens at a brook", "side": "right" },
+      { "text": "Being swallowed by a great fish", "side": "left" },
+      { "text": "Sitting under a broom tree and asking to die", "side": "right" },
+      { "text": "Sitting under a gourd plant, angry that God had shown mercy", "side": "left" },
+      { "text": "Running from a queen named Jezebel", "side": "right" },
+      { "text": "Running from an assignment to preach in Nineveh", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this listed among the fruitage of the spirit in Galatians, or among the pieces of spiritual armor in Ephesians?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "reference": "Galatians 5:22-23; Ephesians 6:13-17 (cross-check: Insight on the Scriptures, Vol. 1, 'Armor')",
+    "payload": { "categoryLeft": "A fruitage of the spirit", "categoryRight": "A piece of the armor", "cards": [
+      { "text": "The large shield of faith", "side": "right" },
+      { "text": "Love", "side": "left" },
+      { "text": "The helmet of salvation", "side": "right" },
+      { "text": "Joy", "side": "left" },
+      { "text": "The sword of the spirit", "side": "right" },
+      { "text": "Kindness", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a promise God made to Abraham, or to David?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Genesis 15; 17; 22; 2 Samuel 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Covenant')",
+    "payload": { "categoryLeft": "To David", "categoryRight": "To Abraham", "cards": [
+      { "text": "Descendants as countless as the stars", "side": "right" },
+      { "text": "A son who would build a house for God's name", "side": "left" },
+      { "text": "The land from the river of Egypt to the Euphrates", "side": "right" },
+      { "text": "A throne that would be firmly established forever", "side": "left" },
+      { "text": "A blessing for all families of the earth through his offspring", "side": "right" },
+      { "text": "A dynasty from which God would not fully withdraw his loyal love", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this scene take place at a threshing floor, or at a well?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Genesis 24; 29; Exodus 2; Judges 6; Ruth 3; 2 Samuel 24 (cross-check: Insight on the Scriptures, Vol. 2, 'Threshing Floor')",
+    "payload": { "categoryLeft": "At a well", "categoryRight": "At a threshing floor", "cards": [
+      { "text": "Ruth lying down at Boaz's feet at night", "side": "right" },
+      { "text": "Rebekah drawing water for Abraham's servant and his camels", "side": "left" },
+      { "text": "David buying the site where the angel had stopped", "side": "right" },
+      { "text": "Jacob rolling the stone away for Rachel's flock", "side": "left" },
+      { "text": "Gideon laying out a wool fleece overnight", "side": "right" },
+      { "text": "Moses helping Zipporah and her sisters water their flock", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did Israel cross this body of water on dry ground, or not?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "medium",
+    "reference": "Exodus 14; Joshua 3 (cross-check: Insight on the Scriptures, Vol. 2, 'Red Sea')",
+    "payload": { "categoryLeft": "Israel did not cross it on dry ground", "categoryRight": "Israel crossed it on dry ground", "cards": [
+      { "text": "The Red Sea", "side": "right" },
+      { "text": "The Sea of Galilee", "side": "left" },
+      { "text": "The Jordan River at flood stage", "side": "right" },
+      { "text": "The Euphrates", "side": "left" },
+      { "text": "The brook Kidron", "side": "left" },
+      { "text": "The Nile", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this king anointed by a prophet, or did he take the throne without an anointing?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Samuel 10; 16; 1 Kings 1; 2 Kings 9; 11 (cross-check: Insight on the Scriptures, Vol. 1, 'Anointed, Anointing')",
+    "payload": { "categoryLeft": "Took the throne without an anointing", "categoryRight": "Anointed by a prophet or priest", "cards": [
+      { "text": "Saul", "side": "right" },
+      { "text": "Rehoboam", "side": "left" },
+      { "text": "David", "side": "right" },
+      { "text": "Queen Athaliah", "side": "left" },
+      { "text": "Jehu", "side": "right" },
+      { "text": "Manasseh", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a prophecy about the fall of Babylon, or the fall of Jerusalem?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "Isaiah 13; Jeremiah 25; 38; Daniel 5 (cross-check: Insight on the Scriptures, Vol. 1, 'Babylon')",
+    "payload": { "categoryLeft": "The fall of Jerusalem", "categoryRight": "The fall of Babylon", "cards": [
+      { "text": "\"She will never be inhabited; the Arab will not pitch his tent there\"", "side": "right" },
+      { "text": "\"These nations will serve the king of Babylon seventy years\"", "side": "left" },
+      { "text": "Daniel reading the words a hand wrote on the plaster wall", "side": "right" },
+      { "text": "Jeremiah lowered into a muddy cistern for urging surrender", "side": "left" },
+      { "text": "The Medes and Persians diverting the river to enter the city", "side": "right" },
+      { "text": "Nebuzaradan carrying off the temple's copper pillars and Sea", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this act of faith singled out for praise in Hebrews chapter 11, or not mentioned there?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Hebrews 11 (cross-check: Insight on the Scriptures, Vol. 1, 'Faith')",
+    "payload": { "categoryLeft": "Not mentioned in Hebrews 11", "categoryRight": "Praised in Hebrews 11", "cards": [
+      { "text": "Abel offering a better sacrifice than Cain", "side": "right" },
+      { "text": "Noah building an ark to save his household", "side": "right" },
+      { "text": "Solomon building the temple", "side": "left" },
+      { "text": "Moses' parents hiding him for three months", "side": "right" },
+      { "text": "David dancing before the ark with all his strength", "side": "left" },
+      { "text": "The walls of Jericho falling after seven days", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this person see God (or his glory) and live, or die as a direct result of contact with the holy?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Exodus 33; Leviticus 10; 1 Samuel 6; 2 Samuel 6; Isaiah 6; Ezekiel 1 (cross-check: Insight on the Scriptures, Vol. 1, 'Face')",
+    "payload": { "categoryLeft": "Died from the contact", "categoryRight": "Saw and lived", "cards": [
+      { "text": "Moses, shown God's back as his glory passed by", "side": "right" },
+      { "text": "Uzzah, reaching out to steady the ark", "side": "left" },
+      { "text": "Isaiah, seeing the Lord on a lofty throne", "side": "right" },
+      { "text": "Nadab and Abihu, offering unauthorized fire", "side": "left" },
+      { "text": "The men of Beth-shemesh, looking into the ark", "side": "left" },
+      { "text": "Ezekiel, by the river Chebar", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this place inside the walls of ancient Jerusalem, or just outside them?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "The Gospels; Acts 1-2 (cross-check: Insight on the Scriptures, Vol. 2, 'Jerusalem', p. 40)",
+    "payload": { "categoryLeft": "Outside the walls", "categoryRight": "Inside the walls", "cards": [
+      { "text": "The temple", "side": "right" },
+      { "text": "The Mount of Olives", "side": "left" },
+      { "text": "The upper room where the disciples gathered at Pentecost", "side": "right" },
+      { "text": "Golgotha, the place of the skull", "side": "left" },
+      { "text": "The pool of Siloam", "side": "right" },
+      { "text": "The garden tomb where Jesus was laid", "side": "left" }
+    ] }
+  }
+]

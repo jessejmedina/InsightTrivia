@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Did this take place in the reign of King Saul, or the reign of King David?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "1 Samuel 14-28; 2 Samuel 9-18; 24 (cross-check: Insight on the Scriptures, Vol. 1, 'David')",
+    "payload": { "categoryLeft": "Reign of Saul", "categoryRight": "Reign of David", "cards": [
+      { "text": "David sparing the king's life in a cave", "side": "left" },
+      { "text": "Absalom's revolt", "side": "right" },
+      { "text": "Jonathan eating honey and breaking his father's oath", "side": "left" },
+      { "text": "Bath-sheba and Uriah the Hittite", "side": "right" },
+      { "text": "The Amalekite war that cost the kingdom", "side": "left" },
+      { "text": "Mephibosheth given a permanent seat at the king's table", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this saying spoken by Jesus, or written by an Old Testament prophet?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Isaiah 1; 11; 53; Matthew 11; John 10 (cross-check: Insight on the Scriptures, Vol. 2, 'Prophet')",
+    "payload": { "categoryLeft": "An Old Testament prophet", "categoryRight": "Jesus", "cards": [
+      { "text": "\"Come, now, and let us set matters straight\"", "side": "left" },
+      { "text": "\"Come to me, all you who are toiling and loaded down\"", "side": "right" },
+      { "text": "\"He was pierced for our transgression\"", "side": "left" },
+      { "text": "\"I am the fine shepherd\"", "side": "right" },
+      { "text": "\"The wolf will reside for a while with the lamb\"", "side": "left" },
+      { "text": "\"I came that they might have life and have it in abundance\"", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this figure swallowed or trapped by the earth, or lifted up and taken by God?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 5:24; Exodus 15:12; Numbers 16; 2 Kings 2; Acts 8:39 (cross-check: Insight on the Scriptures, Vol. 2, 'Korah No. 3')",
+    "payload": { "categoryLeft": "Lifted up or carried away by God", "categoryRight": "Swallowed or trapped by the earth", "cards": [
+      { "text": "Korah and his followers", "side": "right" },
+      { "text": "Enoch", "side": "left" },
+      { "text": "Dathan and Abiram", "side": "right" },
+      { "text": "Elijah", "side": "left" },
+      { "text": "The Egyptian army at the sea", "side": "right" },
+      { "text": "Philip, after baptizing the Ethiopian", "side": "left" }
+    ] }
+  },
+  {
+    "question": "According to Hebrews, was this object placed inside the ark of the covenant, or set elsewhere in the sanctuary?",
+    "type": "swipe",
+    "category": "Tabernacle",
+    "difficulty": "hard",
+    "reference": "Exodus 25-30; Hebrews 9:4 (cross-check: Insight on the Scriptures, Vol. 1, 'Ark of the Covenant')",
+    "payload": { "categoryLeft": "Set elsewhere in the sanctuary", "categoryRight": "Placed inside the ark", "cards": [
+      { "text": "The two stone tablets", "side": "right" },
+      { "text": "The golden lampstand", "side": "left" },
+      { "text": "The golden jar of manna", "side": "right" },
+      { "text": "The altar of incense", "side": "left" },
+      { "text": "Aaron's rod that had budded", "side": "right" },
+      { "text": "The table of the showbread", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this woman called a prophetess in the Bible, or not?",
+    "type": "swipe",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Exodus 15:20; Judges 4:4; 2 Kings 22:14; Luke 2:36 (cross-check: Insight on the Scriptures, Vol. 2, 'Prophetess')",
+    "payload": { "categoryLeft": "Not called a prophetess", "categoryRight": "Called a prophetess", "cards": [
+      { "text": "Miriam", "side": "right" },
+      { "text": "Sarah", "side": "left" },
+      { "text": "Deborah", "side": "right" },
+      { "text": "Ruth", "side": "left" },
+      { "text": "Huldah", "side": "right" },
+      { "text": "Rebekah", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this scene take place at the temple, or at a wedding feast?",
+    "type": "swipe",
+    "category": "Jesus",
+    "difficulty": "medium",
+    "reference": "Matthew 22; 25; Luke 2; 21; John 2 (cross-check: Insight on the Scriptures, Vol. 2, 'Marriage')",
+    "payload": { "categoryLeft": "At the temple", "categoryRight": "At a wedding feast", "cards": [
+      { "text": "Water turned into fine wine", "side": "right" },
+      { "text": "A widow dropping in two small coins", "side": "left" },
+      { "text": "Ten virgins waiting for the bridegroom with their lamps", "side": "right" },
+      { "text": "The twelve-year-old Jesus among the teachers", "side": "left" },
+      { "text": "The parable of the king's feast for his son", "side": "right" },
+      { "text": "The tables of the money changers overturned", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this a battle Israel won, or one Israel lost?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "Joshua 6-8; Judges 4; 7; 1 Samuel 4; 31 (cross-check: Insight on the Scriptures, Vol. 2, 'War')",
+    "payload": { "categoryLeft": "Israel lost", "categoryRight": "Israel won", "cards": [
+      { "text": "The fall of Jericho", "side": "right" },
+      { "text": "The first attack on Ai", "side": "left" },
+      { "text": "Gideon's 300 against the Midianites", "side": "right" },
+      { "text": "The battle where the ark of God was captured", "side": "left" },
+      { "text": "Deborah and Barak against Sisera", "side": "right" },
+      { "text": "Saul's last stand on Mount Gilboa", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this take place before the tabernacle was built, or after it was set up?",
+    "type": "swipe",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 4; 8; 28; Leviticus 10; 16; 24 (cross-check: Insight on the Scriptures, Vol. 2, 'Tabernacle')",
+    "payload": { "categoryLeft": "Before the tabernacle existed", "categoryRight": "After the tabernacle was set up", "cards": [
+      { "text": "Cain and Abel bringing their offerings", "side": "left" },
+      { "text": "Nadab and Abihu offering unauthorized fire", "side": "right" },
+      { "text": "Noah's altar and sacrifice after the Flood", "side": "left" },
+      { "text": "The yearly ritual of the Day of Atonement", "side": "right" },
+      { "text": "Jacob setting up a pillar and pouring oil on it at Bethel", "side": "left" },
+      { "text": "The showbread replaced with fresh loaves every sabbath", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Was this animal part of the account of Elijah and Elisha, or the account of Daniel?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "reference": "1 Kings 17; 2 Kings 2; 6; Daniel 6-8 (cross-check: Insight on the Scriptures, Vol. 1, 'Daniel, Book Of')",
+    "payload": { "categoryLeft": "In Daniel", "categoryRight": "In Elijah and Elisha", "cards": [
+      { "text": "The ravens that brought bread and meat morning and evening", "side": "right" },
+      { "text": "The lions that did not touch the man in their den", "side": "left" },
+      { "text": "The two she-bears that came out of the woods", "side": "right" },
+      { "text": "The fiery horses and chariots seen on the hills at Dothan", "side": "right" },
+      { "text": "The ram and the shaggy male goat of the vision", "side": "left" },
+      { "text": "The four huge beasts coming up out of the sea", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this a genuine 'first' recorded in the Bible, or not actually the first of its kind?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Genesis 4; 9; Numbers; 2 Kings 2; Acts 7 (cross-check: Insight on the Scriptures, Vol. 1, 'Abel')",
+    "payload": { "categoryLeft": "Not actually the first", "categoryRight": "A genuine 'first'", "cards": [
+      { "text": "Cain and Abel: the first murder", "side": "right" },
+      { "text": "The rainbow: the first sign of a covenant", "side": "right" },
+      { "text": "David: the first king of Israel", "side": "left" },
+      { "text": "Moses: the first high priest", "side": "left" },
+      { "text": "Elijah: the first person taken to heaven without dying", "side": "left" },
+      { "text": "Stephen: the first Christian to be killed for the faith", "side": "right" }
+    ] }
+  },
+  {
+    "question": "Did this event happen while Israel was one united kingdom, or after it split into two?",
+    "type": "swipe",
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "1 Samuel 17; 1 Kings 8-10; 18; 2 Kings 9; 17 (cross-check: Insight on the Scriptures, Vol. 2, 'Kingdom')",
+    "payload": { "categoryLeft": "The divided kingdom", "categoryRight": "The united kingdom", "cards": [
+      { "text": "The dedication of Solomon's temple", "side": "right" },
+      { "text": "Elijah's contest with the prophets of Baal", "side": "left" },
+      { "text": "David facing Goliath in the Valley of Elah", "side": "right" },
+      { "text": "The fall of Samaria to Assyria", "side": "left" },
+      { "text": "The visit of the queen of Sheba", "side": "right" },
+      { "text": "Jehu's chariot charge and revolt", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this rule found in the Law of Moses, or was it a tradition added by the scribes and Pharisees?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Leviticus 19; 27; Mark 7; Matthew 23 (cross-check: Insight on the Scriptures, Vol. 2, 'Tradition')",
+    "payload": { "categoryLeft": "A Pharisaic tradition", "categoryRight": "In the Law of Moses", "cards": [
+      { "text": "Loving your neighbor as yourself", "side": "right" },
+      { "text": "Elaborate hand-washing rituals before every meal", "side": "left" },
+      { "text": "Keeping the weekly sabbath", "side": "right" },
+      { "text": "Declaring money 'a gift to God' to avoid supporting one's parents", "side": "left" },
+      { "text": "The tithe of grain, new wine, and oil", "side": "right" },
+      { "text": "Tithing even tiny garden herbs like mint and cumin", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Did this miracle restore or give life, or take life?",
+    "type": "swipe",
+    "category": "Prophets",
+    "difficulty": "medium",
+    "reference": "1 Kings 17; 2 Kings 1; Ezekiel 37; Acts 5; 9; 12 (cross-check: Insight on the Scriptures, Vol. 2, 'Miracles')",
+    "payload": { "categoryLeft": "Took life", "categoryRight": "Restored or gave life", "cards": [
+      { "text": "Elijah raising the widow of Zarephath's son", "side": "right" },
+      { "text": "Fire consuming the soldiers sent to seize Elijah", "side": "left" },
+      { "text": "Peter raising Dorcas at Joppa", "side": "right" },
+      { "text": "Ananias and Sapphira dropping dead", "side": "left" },
+      { "text": "The valley of dry bones coming together and living", "side": "right" },
+      { "text": "Herod Agrippa struck down and eaten by worms", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Is this judgment or plague recorded in the Hebrew Scriptures, or in the book of Revelation?",
+    "type": "swipe",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "reference": "Numbers 21; 2 Kings 19; Jeremiah 25; Revelation 8; 16 (cross-check: Insight on the Scriptures, Vol. 2, 'Revelation, Book Of')",
+    "payload": { "categoryLeft": "In Revelation", "categoryRight": "In the Hebrew Scriptures", "cards": [
+      { "text": "The seventy years of desolation for Judah", "side": "right" },
+      { "text": "A third of the sea turning to blood", "side": "left" },
+      { "text": "The fiery serpents in the wilderness", "side": "right" },
+      { "text": "Hailstones each weighing about a talent", "side": "left" },
+      { "text": "The Assyrian camp struck down in a single night", "side": "right" },
+      { "text": "The sun scorching people with fire", "side": "left" }
+    ] }
+  },
+  {
+    "question": "Was this place on Paul's route as a prisoner to Rome, or somewhere he never reached on that voyage?",
+    "type": "swipe",
+    "category": "Places",
+    "difficulty": "hard",
+    "reference": "Acts 27-28 (cross-check: Insight on the Scriptures, Vol. 2, 'Paul', p. 585)",
+    "payload": { "categoryLeft": "Never reached on that voyage", "categoryRight": "On the route to Rome", "cards": [
+      { "text": "Sidon", "side": "right" },
+      { "text": "Corinth", "side": "left" },
+      { "text": "Myra in Lycia", "side": "right" },
+      { "text": "Jerusalem", "side": "left" },
+      { "text": "Malta", "side": "right" },
+      { "text": "Antioch in Syria", "side": "left" }
+    ] }
+  }
+]

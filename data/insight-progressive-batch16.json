@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which book of beginnings am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "answer": "Genesis",
+    "options": ["Genesis", "Exodus", "Job", "Isaiah"],
+    "reference": "Genesis 1-50 (cross-check: Insight on the Scriptures, Vol. 1, 'Genesis, Book Of')",
+    "payload": { "clues": [
+      "I open with the creation of the heavens and the earth.",
+      "I tell of the first man and woman and their fall in a garden.",
+      "I recount the Flood, the tower of Babel, and the call of Abraham.",
+      "I close with the family of Israel settled in Egypt and the death of Joseph."
+    ] }
+  },
+  {
+    "question": "Which book of songs am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "answer": "Psalms",
+    "options": ["Psalms", "Proverbs", "Lamentations", "Song of Solomon"],
+    "reference": "The book of Psalms (cross-check: Insight on the Scriptures, Vol. 2, 'Psalms, Book Of')",
+    "payload": { "clues": [
+      "I am a collection of 150 poems and prayers, many of them set to music.",
+      "I contain laments, thanksgivings, and songs of praise.",
+      "David is credited with the largest share of me.",
+      "My longest chapter, an acrostic on God's law, has 176 verses."
+    ] }
+  },
+  {
+    "question": "Which final book am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "easy",
+    "answer": "Revelation",
+    "options": ["Revelation", "Daniel", "Ezekiel", "Jude"],
+    "reference": "Revelation 1-22 (cross-check: Insight on the Scriptures, Vol. 2, 'Revelation, Book Of')",
+    "payload": { "clues": [
+      "John received me while on the island of Patmos.",
+      "I open with messages to seven congregations in Asia.",
+      "I am full of symbols: a Lamb, a dragon, seven seals, trumpets, and bowls.",
+      "I close with a river of life and a new heavens and a new earth."
+    ] }
+  },
+  {
+    "question": "Which history of the early congregation am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "answer": "Acts",
+    "options": ["Acts", "Luke", "Romans", "Hebrews"],
+    "reference": "Acts 1-28 (cross-check: Insight on the Scriptures, Vol. 1, 'Acts of Apostles')",
+    "payload": { "clues": [
+      "I am the sequel to a Gospel, both addressed to a man named Theophilus.",
+      "I begin with the ascension and the outpouring of the spirit at Pentecost.",
+      "My first half follows Peter; my second half follows Paul.",
+      "I end with Paul preaching under house arrest in Rome."
+    ] }
+  },
+  {
+    "question": "Which book about suffering am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "answer": "Job",
+    "options": ["Job", "Ecclesiastes", "Lamentations", "Ruth"],
+    "reference": "Job 1-42 (cross-check: Insight on the Scriptures, Vol. 2, 'Job, Book Of', p. 81)",
+    "payload": { "clues": [
+      "I open in heaven, where the Adversary challenges God about a righteous man.",
+      "That man loses his children, his wealth, and his health in quick succession.",
+      "Three friends debate with him at length, and a fourth, younger man speaks last.",
+      "God finally answers out of a windstorm, and the man's fortunes are doubled."
+    ] }
+  },
+  {
+    "question": "Which weekly institution am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "medium",
+    "answer": "the Sabbath",
+    "options": ["the Sabbath", "the New Moon", "the Jubilee", "the Passover"],
+    "reference": "Genesis 2:2-3; Exodus 20:8-11; Numbers 15:32-36; Mark 2:27 (cross-check: Insight on the Scriptures, Vol. 2, 'Sabbath Day')",
+    "payload": { "clues": [
+      "I was set apart at the end of creation week, when God rested from his work.",
+      "The fourth of the Ten Commandments made me a day of rest for all Israel, even servants and animals.",
+      "Gathering wood on me once cost a man his life.",
+      "Jesus said I was made for man, not man for me."
+    ] }
+  },
+  {
+    "question": "Which special vow am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "answer": "the Nazirite vow",
+    "options": ["the Nazirite vow", "the Rechabite pledge", "the vow of the ban", "the tithe"],
+    "reference": "Numbers 6; Judges 13:5; 1 Samuel 1:11; Luke 1:15 (cross-check: Insight on the Scriptures, Vol. 2, 'Nazirite')",
+    "payload": { "clues": [
+      "A person under me could not drink wine or eat anything from the grapevine.",
+      "No razor could touch the head.",
+      "The person had to avoid all contact with a dead body.",
+      "Samson, Samuel, and John the Baptist were all connected with me."
+    ] }
+  },
+  {
+    "question": "Which tenth am I?",
+    "type": "progressive",
+    "category": "Scriptures",
+    "difficulty": "hard",
+    "answer": "the tithe",
+    "options": ["the tithe", "the firstfruits", "the ransom price", "the wave offering"],
+    "reference": "Genesis 14:20; 28:22; Numbers 18:21-28; Malachi 3:10 (cross-check: Insight on the Scriptures, Vol. 2, 'Tithe')",
+    "payload": { "clues": [
+      "Abraham gave me to Melchizedek after his victory over the kings.",
+      "Jacob vowed me at Bethel.",
+      "The Law assigned me to the Levites, who then gave a tenth of me to the priests.",
+      "Malachi challenged the people to test God by bringing all of me into the storehouse."
+    ] }
+  },
+  {
+    "question": "Which zealous priest am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Phinehas",
+    "options": ["Phinehas", "Eleazar", "Nadab", "Abihu"],
+    "reference": "Numbers 25 (cross-check: Insight on the Scriptures, Vol. 2, 'Phinehas No. 1')",
+    "payload": { "clues": [
+      "I was a grandson of Aaron the high priest.",
+      "When an Israelite man brazenly brought a Midianite woman into the camp during a plague, I ran them both through with a single spear.",
+      "The plague, which had killed 24,000, stopped.",
+      "God made a covenant of lasting priesthood with me."
+    ] }
+  },
+  {
+    "question": "Which priest of Nob am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Ahimelech",
+    "options": ["Ahimelech", "Abiathar", "Zadok", "Eli"],
+    "reference": "1 Samuel 21-22 (cross-check: Insight on the Scriptures, Vol. 1, 'Ahimelech No. 1')",
+    "payload": { "clues": [
+      "I gave the fleeing David the holy showbread and the sword of Goliath, which was kept behind the ephod.",
+      "Doeg the Edomite was there and reported me to Saul.",
+      "Saul had me and eighty-five fellow priests put to death.",
+      "Only my son Abiathar escaped to David."
+    ] }
+  },
+  {
+    "question": "Which loyal soldier am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Uriah",
+    "options": ["Uriah", "Joab", "Abner", "Ittai"],
+    "reference": "2 Samuel 11 (cross-check: Insight on the Scriptures, Vol. 2, 'Uriah No. 1')",
+    "payload": { "clues": [
+      "I was a Hittite, and one of King David's mighty men.",
+      "While the army was in the field, the king called me home and urged me to go to my house.",
+      "I refused to enjoy comfort while the ark and the troops were living in tents.",
+      "I carried my own death sentence in a sealed letter to Joab."
+    ] }
+  },
+  {
+    "question": "Which young caregiver am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Abishag",
+    "options": ["Abishag", "Bath-sheba", "Michal", "Ruth"],
+    "reference": "1 Kings 1:1-4; 2:13-25 (cross-check: Insight on the Scriptures, Vol. 1, 'Abishag')",
+    "payload": { "clues": [
+      "I was a beautiful young woman from Shunem, brought to keep the aged King David warm.",
+      "I cared for him, but he had no relations with me.",
+      "After his death, Adonijah asked to marry me.",
+      "Solomon took that request as a bid for the throne and had Adonijah executed."
+    ] }
+  },
+  {
+    "question": "Which disobedient prophet am I?",
+    "type": "progressive",
+    "category": "Prophets",
+    "difficulty": "hard",
+    "answer": "the man of God from Judah",
+    "options": ["the man of God from Judah", "the old prophet of Bethel", "Ahijah", "Iddo"],
+    "reference": "1 Kings 13 (cross-check: Insight on the Scriptures, Vol. 2, 'Prophet')",
+    "payload": { "clues": [
+      "I cried out against Jeroboam's altar at Bethel, and the king's hand withered when he pointed at me.",
+      "God had told me to eat nothing there and to go home by a different road.",
+      "An old prophet lied that an angel had told him to bring me back for a meal.",
+      "On the way home a lion killed me and then stood beside my body without eating it."
+    ] }
+  },
+  {
+    "question": "Which princess who saved a prince am I?",
+    "type": "progressive",
+    "category": "People",
+    "difficulty": "hard",
+    "answer": "Jehosheba",
+    "options": ["Jehosheba", "Athaliah", "Michal", "Rizpah"],
+    "reference": "2 Kings 11:1-3; 2 Chronicles 22:11 (cross-check: Insight on the Scriptures, Vol. 2, 'Jehosheba')",
+    "payload": { "clues": [
+      "I was a daughter of a king of Judah and the wife of the high priest Jehoiada.",
+      "When my stepmother Athaliah killed the royal heirs to seize the throne, I stole away one baby, my nephew Joash.",
+      "I hid him and his nurse in a temple bedroom for six years.",
+      "When he was seven, my husband brought him out and crowned him king."
+    ] }
+  },
+  {
+    "question": "Which turning-point campsite am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "hard",
+    "answer": "Kadesh-barnea",
+    "options": ["Kadesh-barnea", "Rephidim", "Sinai", "Gilgal"],
+    "reference": "Numbers 13-14; 20 (cross-check: Insight on the Scriptures, Vol. 2, 'Kadesh')",
+    "payload": { "clues": [
+      "From me Moses sent the twelve spies into Canaan.",
+      "The people believed the ten fearful spies and refused to go up.",
+      "God condemned that whole generation to die in the wilderness over the next 38 years.",
+      "Moses later struck the rock in anger near me and lost his own right to enter the land."
+    ] }
+  },
+  {
+    "question": "Which vessel am I?",
+    "type": "progressive",
+    "category": "Places",
+    "difficulty": "medium",
+    "answer": "Noah's ark",
+    "options": ["Noah's ark", "the ark of the covenant", "the basket of Moses", "the ships of Tarshish"],
+    "reference": "Genesis 6-8 (cross-check: Insight on the Scriptures, Vol. 1, 'Ark No. 1')",
+    "payload": { "clues": [
+      "I was built of resinous wood and sealed inside and out with tar.",
+      "I was 300 cubits long, 50 wide, and 30 high, with three decks and a single window.",
+      "I carried eight people and pairs of every kind of land animal and flying creature.",
+      "After about a year I came to rest on the mountains of Ararat."
+    ] }
+  }
+]

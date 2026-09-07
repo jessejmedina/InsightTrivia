@@ -1,0 +1,162 @@
+[
+  {
+    "question": "How old was Noah when he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 9:29 (cross-check: Insight on the Scriptures, Vol. 2, 'Noah')",
+    "payload": { "value": 950, "unit": "years", "min": 200, "max": 1200 }
+  },
+  {
+    "question": "How old was Lamech, the father of Noah, when he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 5:31 (cross-check: Insight on the Scriptures, Vol. 2, 'Lamech No. 2')",
+    "payload": { "value": 777, "unit": "years", "min": 200, "max": 1000 }
+  },
+  {
+    "question": "How old was Kenan, a descendant of Seth, when he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 5:14 (cross-check: Insight on the Scriptures, Vol. 2, 'Kenan')",
+    "payload": { "value": 910, "unit": "years", "min": 300, "max": 1100 }
+  },
+  {
+    "question": "How old was Enosh, the son of Seth, when he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 5:11 (cross-check: Insight on the Scriptures, Vol. 1, 'Enosh')",
+    "payload": { "value": 905, "unit": "years", "min": 300, "max": 1100 }
+  },
+  {
+    "question": "How old was Shem when he died, according to the genealogy after the Flood?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 11:10-11 (cross-check: Insight on the Scriptures, Vol. 2, 'Shem')",
+    "payload": { "value": 600, "unit": "years", "min": 100, "max": 1200 }
+  },
+  {
+    "question": "How old was Peleg, in whose days 'the earth was divided,' when he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 11:18-19 (cross-check: Insight on the Scriptures, Vol. 2, 'Peleg')",
+    "payload": { "value": 239, "unit": "years", "min": 50, "max": 700 }
+  },
+  {
+    "question": "How many days apart did Noah send out the dove on its later flights from the ark?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 8:10, 12 (cross-check: Insight on the Scriptures, Vol. 1, 'Dove')",
+    "payload": { "value": 7, "unit": "days", "min": 1, "max": 25 }
+  },
+  {
+    "question": "On which day of the seventh month did the ark come to rest on the mountains of Ararat?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 8:4 (cross-check: Insight on the Scriptures, Vol. 1, 'Ararat')",
+    "payload": { "value": 17, "unit": "(day of the month)", "min": 1, "max": 31 }
+  },
+  {
+    "question": "Joseph told the imprisoned cupbearer that his dream meant he would be restored in how many days?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 40:13 (cross-check: Insight on the Scriptures, Vol. 1, 'Cupbearer')",
+    "payload": { "value": 3, "unit": "days", "min": 1, "max": 15 }
+  },
+  {
+    "question": "How many years of good harvests did Joseph predict from Pharaoh's dreams?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "easy",
+    "reference": "Genesis 41:29 (cross-check: Insight on the Scriptures, Vol. 2, 'Joseph No. 1', p. 106)",
+    "payload": { "value": 7, "unit": "years", "min": 1, "max": 20 }
+  },
+  {
+    "question": "When Joseph seated his brothers for a meal, how many times the normal portion did he serve to Benjamin?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 43:34 (cross-check: Insight on the Scriptures, Vol. 1, 'Benjamin No. 1')",
+    "payload": { "value": 5, "unit": "times", "min": 1, "max": 20 }
+  },
+  {
+    "question": "How many changes of clothing did Joseph give Benjamin, along with 300 pieces of silver?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 45:22 (cross-check: Insight on the Scriptures, Vol. 1, 'Benjamin No. 1')",
+    "payload": { "value": 5, "unit": "changes of clothing", "min": 1, "max": 20 }
+  },
+  {
+    "question": "Joseph set Pharaoh's permanent tax on Egypt's farmland at one part in how many of the harvest?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Genesis 47:24 (cross-check: Insight on the Scriptures, Vol. 2, 'Joseph No. 1', p. 106)",
+    "payload": { "value": 5, "unit": "parts", "min": 2, "max": 25 }
+  },
+  {
+    "question": "Moses was 80 when he first confronted Pharaoh; how old was his brother Aaron?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Exodus 7:7 (cross-check: Insight on the Scriptures, Vol. 1, 'Aaron')",
+    "payload": { "value": 83, "unit": "years old", "min": 20, "max": 200 }
+  },
+  {
+    "question": "How many of Egypt's best chariots pursued Israel to the sea?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Exodus 14:7 (cross-check: Insight on the Scriptures, Vol. 1, 'Chariot')",
+    "payload": { "value": 600, "unit": "chariots", "min": 50, "max": 3000 }
+  },
+  {
+    "question": "On which day of the first month did Israel cross the Jordan into Canaan?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Joshua 4:19 (cross-check: Insight on the Scriptures, Vol. 2, 'Jordan')",
+    "payload": { "value": 10, "unit": "(day of the month)", "min": 1, "max": 31 }
+  },
+  {
+    "question": "For how many years did Ehud's deliverance give the land rest, the longest such period in Judges?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Judges 3:30 (cross-check: Insight on the Scriptures, Vol. 1, 'Ehud No. 1')",
+    "payload": { "value": 80, "unit": "years", "min": 5, "max": 250 }
+  },
+  {
+    "question": "For how many years did Tola judge Israel?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Judges 10:2 (cross-check: Insight on the Scriptures, Vol. 2, 'Tola No. 2')",
+    "payload": { "value": 23, "unit": "years", "min": 2, "max": 90 }
+  },
+  {
+    "question": "How many men did Jonathan and his armor-bearer strike down in their surprise attack on the Philistine outpost?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 14:14 (cross-check: Insight on the Scriptures, Vol. 2, 'Jonathan No. 3')",
+    "payload": { "value": 20, "unit": "men", "min": 2, "max": 100 }
+  },
+  {
+    "question": "How old was the bull Hannah brought when she presented young Samuel at the sanctuary in Shiloh?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "1 Samuel 1:24 (cross-check: Insight on the Scriptures, Vol. 2, 'Hannah')",
+    "payload": { "value": 3, "unit": "years old", "min": 1, "max": 15 }
+  }
+]

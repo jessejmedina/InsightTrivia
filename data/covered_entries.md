@@ -521,6 +521,42 @@ Matthew's-genealogy-vs-opponent, Paul-wrote-a-letter-vs-visited-only.
 **DB per-type (count:exact): estimation 301, progressive 242, swipe 229;
 grand total 1712.**
 
+**batch16 (2026-09-06) — written + IMPORTED** (20/16/15, 0 skipped). est:
+Genesis ages (Adam 130, Noah 500, Abraham 86, Ishmael 13, Isaac 40,
+Joseph 17, Jacob 17 yrs in Egypt), Sodom-plea to 10, Machpelah 400
+shekels, Joseph sold for 20, Jacob embalmed 40 days, Sisera's 900
+chariots, Ammon crown 1 talent, David/Bathsheba child died day 7, Araunah
+50 shekels, Solomon's 1,000 Gibeon offerings, Nimrod's 4 cities, Menahem's
+1,000 talents, Zelophehad's 5 daughters. prog: 5 book-ID puzzles (Genesis,
+Psalms, Revelation, Acts, Job) + 3 institution puzzles (the Sabbath, the
+Nazirite vow, the tithe) + Phinehas, Ahimelech, Uriah, Abishag, the man
+of God from Judah, Jehosheba, Kadesh-barnea, Noah's ark. swipe: Genesis-
+1-11-vs-patriarchs, son-of-David-who-tried-the-throne-vs-not, John-Baptist-
+ministry-vs-Jesus-childhood, wonder-in-sky-vs-earth, healed-of-illness-vs-
+freed-of-demons, Elijah-vs-Jonah, fruitage-vs-armor, promise-to-Abraham-vs-
+David, threshing-floor-vs-well, crossed-on-dry-ground-vs-not, anointed-by-
+prophet-vs-not, Babylon's-fall-vs-Jerusalem's, in-Hebrews-11-vs-not, saw-
+the-holy-and-lived-vs-died, inside-vs-outside Jerusalem's walls.
+
+**batch17 (2026-09-06) — written + IMPORTED** (20/16/15, 0 skipped). est:
+pre-Flood + post-Flood lifespans (Noah 950, Lamech 777, Kenan 910, Enosh
+905, Shem 600, Peleg 239), dove's 7-day intervals, ark rested 17th day,
+Joseph details (cupbearer 3 days, 7 plenty yrs, Benjamin's 5x portion / 5
+garments, Pharaoh's 1/5 tax), Aaron 83, Egypt's 600 chariots, Jordan
+crossing day 10, Ehud's 80-yr rest, Tola 23 yrs, Jonathan's 20, Hannah's
+3-yr-old bull. prog: 5 more book-ID puzzles (Exodus, Daniel, Proverbs,
+Matthew, Hebrews) + the rainbow, circumcision, the Passover lamb, Moses'
+basket, Nadab and Abihu, Korah, Abimelech (Gideon's son), Micah of
+Judges 17, Peninnah, Agag, Gibeah. swipe: Saul's-reign-vs-David's, Jesus-
+vs-OT-prophet saying, swallowed-by-earth-vs-taken-by-God, inside-the-ark-
+vs-elsewhere, called-a-prophetess-vs-not, temple-vs-wedding-feast, battle-
+won-vs-lost, before-vs-after the tabernacle, Elijah/Elisha-animal-vs-
+Daniel's, genuine-first-vs-not, united-vs-divided kingdom, Law-of-Moses-vs-
+Pharisaic-tradition, miracle-restored-life-vs-took-it, Hebrew-Scriptures-
+judgment-vs-Revelation, on-Paul's-route-to-Rome-vs-not.
+**DB per-type (count:exact): estimation 341, progressive 274, swipe 259;
+grand total 1814.**
+
 **estimation + swipe batches 1-4 — IMPORTED 2026-09-06.** estimation
 79/80 inserted (skipped "How many pieces of silver did the chief priests
 pay Judas..." — already in the DB as a multiple_choice question). swipe

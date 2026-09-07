@@ -1,0 +1,162 @@
+[
+  {
+    "question": "How old was Adam when his son Seth was born?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 5:3 (cross-check: Insight on the Scriptures, Vol. 1, 'Adam')",
+    "payload": { "value": 130, "unit": "years old", "min": 20, "max": 500 }
+  },
+  {
+    "question": "How old was Noah when his sons Shem, Ham, and Japheth were born?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 5:32 (cross-check: Insight on the Scriptures, Vol. 2, 'Noah')",
+    "payload": { "value": 500, "unit": "years old", "min": 100, "max": 1200 }
+  },
+  {
+    "question": "For how many days did the floodwaters keep rising and overwhelm the earth?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 7:24 (cross-check: Insight on the Scriptures, Vol. 1, 'Deluge')",
+    "payload": { "value": 150, "unit": "days", "min": 10, "max": 500 }
+  },
+  {
+    "question": "How old was Abraham when Ishmael was born to him by Hagar?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 16:16 (cross-check: Insight on the Scriptures, Vol. 1, 'Abraham')",
+    "payload": { "value": 86, "unit": "years old", "min": 20, "max": 300 }
+  },
+  {
+    "question": "How old was Ishmael when he was circumcised, along with Abraham's household?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 17:25 (cross-check: Insight on the Scriptures, Vol. 1, 'Circumcision')",
+    "payload": { "value": 13, "unit": "years old", "min": 1, "max": 60 }
+  },
+  {
+    "question": "Abraham began pleading for Sodom at fifty righteous people; down to how many did God agree to spare it?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 18:32 (cross-check: Insight on the Scriptures, Vol. 2, 'Sodom')",
+    "payload": { "value": 10, "unit": "righteous people", "min": 1, "max": 40 }
+  },
+  {
+    "question": "How many shekels of silver did Abraham pay Ephron the Hittite for the field and burial cave?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 23:16 (cross-check: Insight on the Scriptures, Vol. 2, 'Machpelah')",
+    "payload": { "value": 400, "unit": "shekels", "min": 40, "max": 2000 }
+  },
+  {
+    "question": "How old was Isaac when he married Rebekah?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 25:20 (cross-check: Insight on the Scriptures, Vol. 1, 'Isaac')",
+    "payload": { "value": 40, "unit": "years old", "min": 5, "max": 120 }
+  },
+  {
+    "question": "For how many pieces of silver did Joseph's brothers sell him to the traders?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "medium",
+    "reference": "Genesis 37:28 (cross-check: Insight on the Scriptures, Vol. 2, 'Joseph No. 1', p. 106)",
+    "payload": { "value": 20, "unit": "silver pieces", "min": 2, "max": 100 }
+  },
+  {
+    "question": "How old was Joseph when he was sold into slavery in Egypt?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 37:2 (cross-check: Insight on the Scriptures, Vol. 2, 'Joseph No. 1', p. 106)",
+    "payload": { "value": 17, "unit": "years old", "min": 4, "max": 60 }
+  },
+  {
+    "question": "For how many years did Jacob live in the land of Egypt before he died?",
+    "type": "estimation",
+    "category": "Chronology",
+    "difficulty": "hard",
+    "reference": "Genesis 47:28 (cross-check: Insight on the Scriptures, Vol. 2, 'Jacob')",
+    "payload": { "value": 17, "unit": "years", "min": 2, "max": 60 }
+  },
+  {
+    "question": "For how many days did the Egyptians embalm the body of Jacob?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Genesis 50:3 (cross-check: Insight on the Scriptures, Vol. 1, 'Embalming')",
+    "payload": { "value": 40, "unit": "days", "min": 5, "max": 150 }
+  },
+  {
+    "question": "How many chariots of iron did Sisera command against Israel?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "Judges 4:3 (cross-check: Insight on the Scriptures, Vol. 2, 'Sisera No. 1')",
+    "payload": { "value": 900, "unit": "chariots", "min": 50, "max": 4000 }
+  },
+  {
+    "question": "How many talents of gold did the crown taken from the Ammonite king weigh?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Samuel 12:30 (cross-check: Insight on the Scriptures, Vol. 1, 'Crown')",
+    "payload": { "value": 1, "unit": "talents", "min": 0, "max": 12 }
+  },
+  {
+    "question": "On which day after its birth did the first child of David and Bath-sheba die?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "2 Samuel 12:18 (cross-check: Insight on the Scriptures, Vol. 1, 'Bath-sheba')",
+    "payload": { "value": 7, "unit": "days", "min": 1, "max": 30 }
+  },
+  {
+    "question": "For how many shekels of silver did David buy the threshing floor of Araunah (Ornan) and the oxen?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "2 Samuel 24:24 (cross-check: Insight on the Scriptures, Vol. 1, 'Araunah')",
+    "payload": { "value": 50, "unit": "shekels", "min": 5, "max": 300 }
+  },
+  {
+    "question": "How many burnt offerings did Solomon present at the altar at Gibeon before God appeared to him in a dream?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "1 Kings 3:4 (cross-check: Insight on the Scriptures, Vol. 1, 'Gibeon')",
+    "payload": { "value": 1000, "unit": "offerings", "min": 50, "max": 6000, "log": true }
+  },
+  {
+    "question": "With how many cities did the Bible say Nimrod's kingdom begin (Babel, Erech, Accad, and Calneh)?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "medium",
+    "reference": "Genesis 10:10 (cross-check: Insight on the Scriptures, Vol. 2, 'Nimrod')",
+    "payload": { "value": 4, "unit": "cities", "min": 1, "max": 20 }
+  },
+  {
+    "question": "How many talents of silver did King Menahem of Israel pay Pul (Tiglath-pileser) to secure his throne?",
+    "type": "estimation",
+    "category": "History",
+    "difficulty": "hard",
+    "reference": "2 Kings 15:19 (cross-check: Insight on the Scriptures, Vol. 2, 'Menahem')",
+    "payload": { "value": 1000, "unit": "talents", "min": 50, "max": 6000, "log": true }
+  },
+  {
+    "question": "How many daughters did Zelophehad have, who won the right to inherit their father's land?",
+    "type": "estimation",
+    "category": "People",
+    "difficulty": "hard",
+    "reference": "Numbers 27:1 (cross-check: Insight on the Scriptures, Vol. 2, 'Zelophehad')",
+    "payload": { "value": 5, "unit": "daughters", "min": 1, "max": 20 }
+  }
+]
